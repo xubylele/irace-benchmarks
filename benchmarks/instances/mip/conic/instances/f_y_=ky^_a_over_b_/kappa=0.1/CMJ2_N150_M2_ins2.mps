@@ -1,0 +1,24265 @@
+NAME          CPLEX solver
+ROWS
+ N  obj     
+ L  id100637
+ L  id100639
+ L  id100641
+ G  id100642
+ L  id100645
+ G  id100646
+ L  id100649
+ G  id100650
+ L  id100653
+ G  id100654
+ L  id100657
+ G  id100658
+ L  id100661
+ G  id100662
+ L  id100665
+ G  id100666
+ L  id100669
+ G  id100670
+ L  id100673
+ G  id100674
+ L  id100677
+ G  id100678
+ L  id100681
+ G  id100682
+ L  id100685
+ G  id100686
+ L  id100689
+ G  id100690
+ L  id100693
+ G  id100694
+ L  id100697
+ G  id100698
+ L  id100701
+ G  id100702
+ L  id100705
+ G  id100706
+ L  id100709
+ G  id100710
+ L  id100713
+ G  id100714
+ L  id100717
+ G  id100718
+ L  id100721
+ G  id100722
+ L  id100725
+ G  id100726
+ L  id100729
+ G  id100730
+ L  id100733
+ G  id100734
+ L  id100737
+ G  id100738
+ L  id100741
+ G  id100742
+ L  id100745
+ G  id100746
+ L  id100749
+ G  id100750
+ L  id100753
+ G  id100754
+ L  id100757
+ G  id100758
+ L  id100761
+ G  id100762
+ L  id100765
+ G  id100766
+ L  id100769
+ G  id100770
+ L  id100773
+ G  id100774
+ L  id100777
+ G  id100778
+ L  id100781
+ G  id100782
+ L  id100785
+ G  id100786
+ L  id100789
+ G  id100790
+ L  id100793
+ G  id100794
+ L  id100797
+ G  id100798
+ L  id100801
+ G  id100802
+ L  id100805
+ G  id100806
+ L  id100809
+ G  id100810
+ L  id100813
+ G  id100814
+ L  id100817
+ G  id100818
+ L  id100821
+ G  id100822
+ L  id100825
+ G  id100826
+ L  id100829
+ G  id100830
+ L  id100833
+ G  id100834
+ L  id100837
+ G  id100838
+ L  id100841
+ G  id100842
+ L  id100845
+ G  id100846
+ L  id100849
+ G  id100850
+ L  id100853
+ G  id100854
+ L  id100857
+ G  id100858
+ L  id100861
+ G  id100862
+ L  id100865
+ G  id100866
+ L  id100869
+ G  id100870
+ L  id100873
+ G  id100874
+ L  id100877
+ G  id100878
+ L  id100881
+ G  id100882
+ L  id100885
+ G  id100886
+ L  id100889
+ G  id100890
+ L  id100893
+ G  id100894
+ L  id100897
+ G  id100898
+ L  id100901
+ G  id100902
+ L  id100905
+ G  id100906
+ L  id100909
+ G  id100910
+ L  id100913
+ G  id100914
+ L  id100917
+ G  id100918
+ L  id100921
+ G  id100922
+ L  id100925
+ G  id100926
+ L  id100929
+ G  id100930
+ L  id100933
+ G  id100934
+ L  id100937
+ G  id100938
+ L  id100941
+ G  id100942
+ L  id100945
+ G  id100946
+ L  id100949
+ G  id100950
+ L  id100953
+ G  id100954
+ L  id100957
+ G  id100958
+ L  id100961
+ G  id100962
+ L  id100965
+ G  id100966
+ L  id100969
+ G  id100970
+ L  id100973
+ G  id100974
+ L  id100977
+ G  id100978
+ L  id100981
+ G  id100982
+ L  id100985
+ G  id100986
+ L  id100989
+ G  id100990
+ L  id100993
+ G  id100994
+ L  id100997
+ G  id100998
+ L  id101001
+ G  id101002
+ L  id101005
+ G  id101006
+ L  id101009
+ G  id101010
+ L  id101013
+ G  id101014
+ L  id101017
+ G  id101018
+ L  id101021
+ G  id101022
+ L  id101025
+ G  id101026
+ L  id101029
+ G  id101030
+ L  id101033
+ G  id101034
+ L  id101037
+ G  id101038
+ L  id101041
+ G  id101042
+ L  id101045
+ G  id101046
+ L  id101049
+ G  id101050
+ L  id101053
+ G  id101054
+ L  id101057
+ G  id101058
+ L  id101061
+ G  id101062
+ L  id101065
+ G  id101066
+ L  id101069
+ G  id101070
+ L  id101073
+ G  id101074
+ L  id101077
+ G  id101078
+ L  id101081
+ G  id101082
+ L  id101085
+ G  id101086
+ L  id101089
+ G  id101090
+ L  id101093
+ G  id101094
+ L  id101097
+ G  id101098
+ L  id101101
+ G  id101102
+ L  id101105
+ G  id101106
+ L  id101109
+ G  id101110
+ L  id101113
+ G  id101114
+ L  id101117
+ G  id101118
+ L  id101121
+ G  id101122
+ L  id101125
+ G  id101126
+ L  id101129
+ G  id101130
+ L  id101133
+ G  id101134
+ L  id101137
+ G  id101138
+ L  id101141
+ G  id101142
+ L  id101145
+ G  id101146
+ L  id101149
+ G  id101150
+ L  id101153
+ G  id101154
+ L  id101157
+ G  id101158
+ L  id101161
+ G  id101162
+ L  id101165
+ G  id101166
+ L  id101169
+ G  id101170
+ L  id101173
+ G  id101174
+ L  id101177
+ G  id101178
+ L  id101181
+ G  id101182
+ L  id101185
+ G  id101186
+ L  id101189
+ G  id101190
+ L  id101193
+ G  id101194
+ L  id101197
+ G  id101198
+ L  id101201
+ G  id101202
+ L  id101205
+ G  id101206
+ L  id101209
+ G  id101210
+ L  id101213
+ G  id101214
+ L  id101217
+ G  id101218
+ L  id101221
+ G  id101222
+ L  id101225
+ G  id101226
+ L  id101229
+ G  id101230
+ L  id101233
+ G  id101234
+ L  id101237
+ G  id101238
+ L  id101241
+ G  id101242
+ L  id101245
+ G  id101246
+ L  id101249
+ G  id101250
+ L  id101253
+ G  id101254
+ L  id101257
+ G  id101258
+ L  id101261
+ G  id101262
+ L  id101265
+ G  id101266
+ L  id101269
+ G  id101270
+ L  id101273
+ G  id101274
+ L  id101277
+ G  id101278
+ L  id101281
+ G  id101282
+ L  id101285
+ G  id101286
+ L  id101289
+ G  id101290
+ L  id101293
+ G  id101294
+ L  id101297
+ G  id101298
+ L  id101301
+ G  id101302
+ L  id101305
+ G  id101306
+ L  id101309
+ G  id101310
+ L  id101313
+ G  id101314
+ L  id101317
+ G  id101318
+ L  id101321
+ G  id101322
+ L  id101325
+ G  id101326
+ L  id101329
+ G  id101330
+ L  id101333
+ G  id101334
+ L  id101337
+ G  id101338
+ L  id101341
+ G  id101342
+ L  id101345
+ G  id101346
+ L  id101349
+ G  id101350
+ L  id101353
+ G  id101354
+ L  id101357
+ G  id101358
+ L  id101361
+ G  id101362
+ L  id101365
+ G  id101366
+ L  id101369
+ G  id101370
+ L  id101373
+ G  id101374
+ L  id101377
+ G  id101378
+ L  id101381
+ G  id101382
+ L  id101385
+ G  id101386
+ L  id101389
+ G  id101390
+ L  id101393
+ G  id101394
+ L  id101397
+ G  id101398
+ L  id101401
+ G  id101402
+ L  id101405
+ G  id101406
+ L  id101409
+ G  id101410
+ L  id101413
+ G  id101414
+ L  id101417
+ G  id101418
+ L  id101421
+ G  id101422
+ L  id101425
+ G  id101426
+ L  id101429
+ G  id101430
+ L  id101433
+ G  id101434
+ L  id101437
+ G  id101438
+ L  id101441
+ G  id101442
+ L  id101445
+ G  id101446
+ L  id101449
+ G  id101450
+ L  id101453
+ G  id101454
+ L  id101457
+ G  id101458
+ L  id101461
+ G  id101462
+ L  id101465
+ G  id101466
+ L  id101469
+ G  id101470
+ L  id101473
+ G  id101474
+ L  id101477
+ G  id101478
+ L  id101481
+ G  id101482
+ L  id101485
+ G  id101486
+ L  id101489
+ G  id101490
+ L  id101493
+ G  id101494
+ L  id101497
+ G  id101498
+ L  id101501
+ G  id101502
+ L  id101505
+ G  id101506
+ L  id101509
+ G  id101510
+ L  id101513
+ G  id101514
+ L  id101517
+ G  id101518
+ L  id101521
+ G  id101522
+ L  id101525
+ G  id101526
+ L  id101529
+ G  id101530
+ L  id101533
+ G  id101534
+ L  id101537
+ G  id101538
+ L  id101541
+ G  id101542
+ L  id101545
+ G  id101546
+ L  id101549
+ G  id101550
+ L  id101553
+ G  id101554
+ L  id101557
+ G  id101558
+ L  id101561
+ G  id101562
+ L  id101565
+ G  id101566
+ L  id101569
+ G  id101570
+ L  id101573
+ G  id101574
+ L  id101577
+ G  id101578
+ L  id101581
+ G  id101582
+ L  id101585
+ G  id101586
+ L  id101589
+ G  id101590
+ L  id101593
+ G  id101594
+ L  id101597
+ G  id101598
+ L  id101601
+ G  id101602
+ L  id101605
+ G  id101606
+ L  id101609
+ G  id101610
+ L  id101613
+ G  id101614
+ L  id101617
+ G  id101618
+ L  id101621
+ G  id101622
+ L  id101625
+ G  id101626
+ L  id101629
+ G  id101630
+ L  id101633
+ G  id101634
+ L  id101637
+ G  id101638
+ L  id101641
+ G  id101642
+ L  id101645
+ G  id101646
+ L  id101649
+ G  id101650
+ L  id101653
+ G  id101654
+ L  id101657
+ G  id101658
+ L  id101661
+ G  id101662
+ L  id101665
+ G  id101666
+ L  id101669
+ G  id101670
+ L  id101673
+ G  id101674
+ L  id101677
+ G  id101678
+ L  id101681
+ G  id101682
+ L  id101685
+ G  id101686
+ L  id101689
+ G  id101690
+ L  id101693
+ G  id101694
+ L  id101697
+ G  id101698
+ L  id101701
+ G  id101702
+ L  id101705
+ G  id101706
+ L  id101709
+ G  id101710
+ L  id101713
+ G  id101714
+ L  id101717
+ G  id101718
+ L  id101721
+ G  id101722
+ L  id101725
+ G  id101726
+ L  id101729
+ G  id101730
+ L  id101733
+ G  id101734
+ L  id101737
+ G  id101738
+ L  id101741
+ G  id101742
+ L  id101745
+ G  id101746
+ L  id101749
+ G  id101750
+ L  id101753
+ G  id101754
+ L  id101757
+ G  id101758
+ L  id101761
+ G  id101762
+ L  id101765
+ G  id101766
+ L  id101769
+ G  id101770
+ L  id101773
+ G  id101774
+ L  id101777
+ G  id101778
+ L  id101781
+ G  id101782
+ L  id101785
+ G  id101786
+ L  id101789
+ G  id101790
+ L  id101793
+ G  id101794
+ L  id101797
+ G  id101798
+ L  id101801
+ G  id101802
+ L  id101805
+ G  id101806
+ L  id101809
+ G  id101810
+ L  id101813
+ G  id101814
+ L  id101817
+ G  id101818
+ L  id101821
+ G  id101822
+ L  id101825
+ G  id101826
+ L  id101829
+ G  id101830
+ L  id101833
+ G  id101834
+ L  id101837
+ G  id101838
+ L  id101841
+ L  id101843
+ L  id101845
+ L  id101847
+ L  id101849
+ L  id101851
+ L  id101853
+ L  id101855
+ L  id101857
+ L  id101859
+ L  id101861
+ L  id101863
+ L  id101865
+ L  id101867
+ L  id101869
+ L  id101871
+ L  id101873
+ L  id101875
+ L  id101877
+ L  id101879
+ L  id101881
+ L  id101883
+ L  id101885
+ L  id101887
+ L  id101889
+ L  id101891
+ L  id101893
+ L  id101895
+ L  id101897
+ L  id101899
+ L  id101901
+ L  id101903
+ L  id101905
+ L  id101907
+ L  id101909
+ L  id101911
+ L  id101913
+ L  id101915
+ L  id101917
+ L  id101919
+ L  id101921
+ L  id101923
+ L  id101925
+ L  id101927
+ L  id101929
+ L  id101931
+ L  id101933
+ L  id101935
+ L  id101937
+ L  id101939
+ L  id101941
+ L  id101943
+ L  id101945
+ L  id101947
+ L  id101949
+ L  id101951
+ L  id101953
+ L  id101955
+ L  id101957
+ L  id101959
+ L  id101961
+ L  id101963
+ L  id101965
+ L  id101967
+ L  id101969
+ L  id101971
+ L  id101973
+ L  id101975
+ L  id101977
+ L  id101979
+ L  id101981
+ L  id101983
+ L  id101985
+ L  id101987
+ L  id101989
+ L  id101991
+ L  id101993
+ L  id101995
+ L  id101997
+ L  id101999
+ L  id102001
+ L  id102003
+ L  id102005
+ L  id102007
+ L  id102009
+ L  id102011
+ L  id102013
+ L  id102015
+ L  id102017
+ L  id102019
+ L  id102021
+ L  id102023
+ L  id102025
+ L  id102027
+ L  id102029
+ L  id102031
+ L  id102033
+ L  id102035
+ L  id102037
+ L  id102039
+ L  id102041
+ L  id102043
+ L  id102045
+ L  id102047
+ L  id102049
+ L  id102051
+ L  id102053
+ L  id102055
+ L  id102057
+ L  id102059
+ L  id102061
+ L  id102063
+ L  id102065
+ L  id102067
+ L  id102069
+ L  id102071
+ L  id102073
+ L  id102075
+ L  id102077
+ L  id102079
+ L  id102081
+ L  id102083
+ L  id102085
+ L  id102087
+ L  id102089
+ L  id102091
+ L  id102093
+ L  id102095
+ L  id102097
+ L  id102099
+ L  id102101
+ L  id102103
+ L  id102105
+ L  id102107
+ L  id102109
+ L  id102111
+ L  id102113
+ L  id102115
+ L  id102117
+ L  id102119
+ L  id102121
+ L  id102123
+ L  id102125
+ L  id102127
+ L  id102129
+ L  id102131
+ L  id102133
+ L  id102135
+ L  id102137
+ L  id102139
+ E  id102143
+ E  id102146
+ E  id102157
+ E  id102160
+ E  id102171
+ E  id102174
+ E  id102185
+ E  id102188
+ E  id102199
+ E  id102202
+ E  id102212
+ E  id102215
+ E  id102218
+ E  id102229
+ E  id102232
+ E  id102243
+ E  id102246
+ E  id102257
+ E  id102260
+ E  id102270
+ E  id102273
+ E  id102276
+ E  id102287
+ E  id102290
+ E  id102301
+ E  id102304
+ E  id102315
+ E  id102318
+ E  id102328
+ E  id102331
+ E  id102334
+ E  id102345
+ E  id102348
+ E  id102359
+ E  id102362
+ E  id102373
+ E  id102376
+ E  id102386
+ E  id102389
+ E  id102392
+ E  id102403
+ E  id102406
+ E  id102417
+ E  id102420
+ E  id102431
+ E  id102434
+ E  id102445
+ E  id102448
+ E  id102458
+ E  id102461
+ E  id102464
+ E  id102475
+ E  id102478
+ E  id102489
+ E  id102492
+ E  id102503
+ E  id102506
+ E  id102517
+ E  id102520
+ E  id102530
+ E  id102533
+ E  id102536
+ E  id102547
+ E  id102550
+ E  id102561
+ E  id102564
+ E  id102575
+ E  id102578
+ E  id102588
+ E  id102591
+ E  id102594
+ E  id102605
+ E  id102608
+ E  id102619
+ E  id102622
+ E  id102633
+ E  id102636
+ E  id102647
+ E  id102650
+ E  id102661
+ E  id102664
+ E  id102674
+ E  id102677
+ E  id102680
+ E  id102691
+ E  id102694
+ E  id102705
+ E  id102708
+ E  id102719
+ E  id102722
+ E  id102733
+ E  id102736
+ E  id102747
+ E  id102750
+ E  id102760
+ E  id102763
+ E  id102766
+ E  id102777
+ E  id102780
+ E  id102791
+ E  id102794
+ E  id102805
+ E  id102808
+ E  id102818
+ E  id102821
+ E  id102824
+ E  id102835
+ E  id102838
+ E  id102849
+ E  id102852
+ E  id102862
+ E  id102865
+ E  id102868
+ E  id102879
+ E  id102882
+ E  id102893
+ E  id102896
+ E  id102907
+ E  id102910
+ E  id102921
+ E  id102924
+ E  id102935
+ E  id102938
+ E  id102948
+ E  id102951
+ E  id102954
+ E  id102965
+ E  id102968
+ E  id102979
+ E  id102982
+ E  id102993
+ E  id102996
+ E  id103006
+ E  id103009
+ E  id103012
+ E  id103023
+ E  id103026
+ E  id103037
+ E  id103040
+ E  id103051
+ E  id103054
+ E  id103065
+ E  id103068
+ E  id103079
+ E  id103082
+ E  id103092
+ E  id103095
+ E  id103098
+ E  id103109
+ E  id103112
+ E  id103123
+ E  id103126
+ E  id103137
+ E  id103140
+ E  id103150
+ E  id103153
+ E  id103156
+ E  id103167
+ E  id103170
+ E  id103181
+ E  id103184
+ E  id103195
+ E  id103198
+ E  id103209
+ E  id103212
+ E  id103222
+ E  id103225
+ E  id103228
+ E  id103239
+ E  id103242
+ E  id103253
+ E  id103256
+ E  id103267
+ E  id103270
+ E  id103281
+ E  id103284
+ E  id103294
+ E  id103297
+ E  id103300
+ E  id103311
+ E  id103314
+ E  id103325
+ E  id103328
+ E  id103339
+ E  id103342
+ E  id103352
+ E  id103355
+ E  id103358
+ E  id103369
+ E  id103372
+ E  id103383
+ E  id103386
+ E  id103397
+ E  id103400
+ E  id103411
+ E  id103414
+ E  id103425
+ E  id103428
+ E  id103439
+ E  id103442
+ E  id103452
+ E  id103455
+ E  id103458
+ E  id103469
+ E  id103472
+ E  id103482
+ E  id103485
+ E  id103488
+ E  id103499
+ E  id103502
+ E  id103513
+ E  id103516
+ E  id103527
+ E  id103530
+ E  id103541
+ E  id103544
+ E  id103554
+ E  id103557
+ E  id103560
+ E  id103571
+ E  id103574
+ E  id103585
+ E  id103588
+ E  id103599
+ E  id103602
+ E  id103613
+ E  id103616
+ E  id103626
+ E  id103629
+ E  id103632
+ E  id103643
+ E  id103646
+ E  id103657
+ E  id103660
+ E  id103671
+ E  id103674
+ E  id103684
+ E  id103687
+ E  id103690
+ E  id103701
+ E  id103704
+ E  id103715
+ E  id103718
+ E  id103729
+ E  id103732
+ E  id103743
+ E  id103746
+ E  id103757
+ E  id103760
+ E  id103771
+ E  id103774
+ E  id103785
+ E  id103788
+ E  id103798
+ E  id103801
+ E  id103804
+ E  id103815
+ E  id103818
+ E  id103829
+ E  id103832
+ E  id103843
+ E  id103846
+ E  id103856
+ E  id103859
+ E  id103862
+ E  id103873
+ E  id103876
+ E  id103887
+ E  id103890
+ E  id103901
+ E  id103904
+ E  id103915
+ E  id103918
+ E  id103929
+ E  id103932
+ E  id103943
+ E  id103946
+ E  id103956
+ E  id103959
+ E  id103962
+ E  id103973
+ E  id103976
+ E  id103987
+ E  id103990
+ E  id104001
+ E  id104004
+ E  id104015
+ E  id104018
+ E  id104029
+ E  id104032
+ E  id104043
+ E  id104046
+ E  id104056
+ E  id104059
+ E  id104062
+ E  id104073
+ E  id104076
+ E  id104087
+ E  id104090
+ E  id104100
+ E  id104103
+ E  id104106
+ E  id104117
+ E  id104120
+ E  id104130
+ E  id104133
+ E  id104136
+ E  id104147
+ E  id104150
+ E  id104161
+ E  id104164
+ E  id104175
+ E  id104178
+ E  id104188
+ E  id104191
+ E  id104194
+ E  id104205
+ E  id104208
+ E  id104219
+ E  id104222
+ E  id104233
+ E  id104236
+ E  id104246
+ E  id104249
+ E  id104252
+ E  id104263
+ E  id104266
+ E  id104276
+ E  id104279
+ E  id104282
+ E  id104293
+ E  id104296
+ E  id104306
+ E  id104309
+ E  id104312
+ E  id104323
+ E  id104326
+ E  id104337
+ E  id104340
+ E  id104351
+ E  id104354
+ E  id104365
+ E  id104368
+ E  id104379
+ E  id104382
+ E  id104392
+ E  id104395
+ E  id104398
+ E  id104409
+ E  id104412
+ E  id104423
+ E  id104426
+ E  id104437
+ E  id104440
+ E  id104451
+ E  id104454
+ E  id104464
+ E  id104467
+ E  id104470
+ E  id104481
+ E  id104484
+ E  id104495
+ E  id104498
+ E  id104509
+ E  id104512
+ E  id104523
+ E  id104526
+ E  id104536
+ E  id104539
+ E  id104542
+ E  id104553
+ E  id104556
+ E  id104567
+ E  id104570
+ E  id104581
+ E  id104584
+ E  id104595
+ E  id104598
+ E  id104608
+ E  id104611
+ E  id104614
+ E  id104625
+ E  id104628
+ E  id104639
+ E  id104642
+ E  id104653
+ E  id104656
+ E  id104667
+ E  id104670
+ E  id104680
+ E  id104683
+ E  id104686
+ E  id104697
+ E  id104700
+ E  id104710
+ E  id104713
+ E  id104716
+ E  id104727
+ E  id104730
+ E  id104741
+ E  id104744
+ E  id104754
+ E  id104757
+ E  id104760
+ E  id104771
+ E  id104774
+ E  id104785
+ E  id104788
+ E  id104799
+ E  id104802
+ E  id104813
+ E  id104816
+ E  id104826
+ E  id104829
+ E  id104832
+ E  id104843
+ E  id104846
+ E  id104857
+ E  id104860
+ E  id104871
+ E  id104874
+ E  id104885
+ E  id104888
+ E  id104898
+ E  id104901
+ E  id104904
+ E  id104915
+ E  id104918
+ E  id104929
+ E  id104932
+ E  id104943
+ E  id104946
+ E  id104956
+ E  id104959
+ E  id104962
+ E  id104973
+ E  id104976
+ E  id104986
+ E  id104989
+ E  id104992
+ E  id105003
+ E  id105006
+ E  id105017
+ E  id105020
+ E  id105031
+ E  id105034
+ E  id105044
+ E  id105047
+ E  id105050
+ E  id105061
+ E  id105064
+ E  id105075
+ E  id105078
+ E  id105089
+ E  id105092
+ E  id105103
+ E  id105106
+ E  id105116
+ E  id105119
+ E  id105122
+ E  id105133
+ E  id105136
+ E  id105147
+ E  id105150
+ E  id105161
+ E  id105164
+ E  id105174
+ E  id105177
+ E  id105180
+ E  id105191
+ E  id105194
+ E  id105205
+ E  id105208
+ E  id105219
+ E  id105222
+ E  id105232
+ E  id105235
+ E  id105238
+ E  id105249
+ E  id105252
+ E  id105263
+ E  id105266
+ E  id105277
+ E  id105280
+ E  id105291
+ E  id105294
+ E  id105304
+ E  id105307
+ E  id105310
+ E  id105321
+ E  id105324
+ E  id105335
+ E  id105338
+ E  id105349
+ E  id105352
+ E  id105363
+ E  id105366
+ E  id105377
+ E  id105380
+ E  id105391
+ E  id105394
+ E  id105404
+ E  id105407
+ E  id105410
+ E  id105421
+ E  id105424
+ E  id105435
+ E  id105438
+ E  id105449
+ E  id105452
+ E  id105462
+ E  id105465
+ E  id105468
+ E  id105479
+ E  id105482
+ E  id105493
+ E  id105496
+ E  id105507
+ E  id105510
+ E  id105521
+ E  id105524
+ E  id105534
+ E  id105537
+ E  id105540
+ E  id105551
+ E  id105554
+ E  id105564
+ E  id105567
+ E  id105570
+ E  id105581
+ E  id105584
+ E  id105595
+ E  id105598
+ E  id105609
+ E  id105612
+ E  id105623
+ E  id105626
+ E  id105637
+ E  id105640
+ E  id105651
+ E  id105654
+ E  id105664
+ E  id105667
+ E  id105670
+ E  id105681
+ E  id105684
+ E  id105695
+ E  id105698
+ E  id105708
+ E  id105711
+ E  id105714
+ E  id105725
+ E  id105728
+ E  id105739
+ E  id105742
+ E  id105753
+ E  id105756
+ E  id105767
+ E  id105770
+ E  id105780
+ E  id105783
+ E  id105786
+ E  id105797
+ E  id105800
+ E  id105811
+ E  id105814
+ E  id105824
+ E  id105827
+ E  id105830
+ E  id105841
+ E  id105844
+ E  id105855
+ E  id105858
+ E  id105869
+ E  id105872
+ E  id105883
+ E  id105886
+ E  id105896
+ E  id105899
+ E  id105902
+ E  id105913
+ E  id105916
+ E  id105927
+ E  id105930
+ E  id105941
+ E  id105944
+ E  id105954
+ E  id105957
+ E  id105960
+ E  id105971
+ E  id105974
+ E  id105984
+ E  id105987
+ E  id105990
+ E  id106001
+ E  id106004
+ E  id106015
+ E  id106018
+ E  id106029
+ E  id106032
+ E  id106043
+ E  id106046
+ E  id106057
+ E  id106060
+ E  id106070
+ E  id106073
+ E  id106076
+ E  id106087
+ E  id106090
+ E  id106101
+ E  id106104
+ E  id106115
+ E  id106118
+ E  id106128
+ E  id106131
+ E  id106134
+ E  id106145
+ E  id106148
+ E  id106159
+ E  id106162
+ E  id106173
+ E  id106176
+ E  id106186
+ E  id106189
+ E  id106192
+ E  id106203
+ E  id106206
+ E  id106217
+ E  id106220
+ E  id106231
+ E  id106234
+ E  id106245
+ E  id106248
+ E  id106259
+ E  id106262
+ E  id106272
+ E  id106275
+ E  id106278
+ E  id106289
+ E  id106292
+ E  id106303
+ E  id106306
+ E  id106317
+ E  id106320
+ E  id106330
+ E  id106333
+ E  id106336
+ E  id106347
+ E  id106350
+ E  id106361
+ E  id106364
+ E  id106375
+ E  id106378
+ E  id106388
+ E  id106391
+ E  id106394
+ E  id106405
+ E  id106408
+ E  id106419
+ E  id106422
+ E  id106433
+ E  id106436
+ E  id106447
+ E  id106450
+ E  id106460
+ E  id106463
+ E  id106466
+ E  id106477
+ E  id106480
+ E  id106491
+ E  id106494
+ E  id106505
+ E  id106508
+ E  id106519
+ E  id106522
+ E  id106533
+ E  id106536
+ E  id106547
+ E  id106550
+ E  id106561
+ E  id106564
+ E  id106574
+ E  id106577
+ E  id106580
+ E  id106591
+ E  id106594
+ E  id106605
+ E  id106608
+ E  id106619
+ E  id106622
+ E  id106632
+ E  id106635
+ E  id106638
+ E  id106649
+ E  id106652
+ E  id106663
+ E  id106666
+ E  id106677
+ E  id106680
+ E  id106691
+ E  id106694
+ E  id106705
+ E  id106708
+ E  id106719
+ E  id106722
+ E  id106733
+ E  id106736
+ E  id106746
+ E  id106749
+ E  id106752
+ E  id106763
+ E  id106766
+ E  id106777
+ E  id106780
+ E  id106791
+ E  id106794
+ E  id106805
+ E  id106808
+ E  id106819
+ E  id106822
+ E  id106832
+ E  id106835
+ E  id106838
+ E  id106849
+ E  id106852
+ E  id106863
+ E  id106866
+ E  id106877
+ E  id106880
+ E  id106891
+ E  id106894
+ E  id106904
+ E  id106907
+ E  id106910
+ E  id106921
+ E  id106924
+ E  id106935
+ E  id106938
+ E  id106949
+ E  id106952
+ E  id106962
+ E  id106965
+ E  id106968
+ E  id106979
+ E  id106982
+ E  id106993
+ E  id106996
+ E  id107007
+ E  id107010
+ E  id107020
+ E  id107023
+ E  id107026
+ E  id107037
+ E  id107040
+ E  id107051
+ E  id107054
+ E  id107065
+ E  id107068
+ E  id107079
+ E  id107082
+ E  id107093
+ E  id107096
+ E  id107106
+ E  id107109
+ E  id107112
+ E  id107123
+ E  id107126
+ E  id107137
+ E  id107140
+ E  id107150
+ E  id107153
+ E  id107156
+ E  id107167
+ E  id107170
+ E  id107181
+ E  id107184
+ E  id107195
+ E  id107198
+ E  id107209
+ E  id107212
+ E  id107222
+ E  id107225
+ E  id107228
+ E  id107239
+ E  id107242
+ E  id107253
+ E  id107256
+ E  id107267
+ E  id107270
+ E  id107281
+ E  id107284
+ E  id107295
+ E  id107298
+ E  id107308
+ E  id107311
+ E  id107314
+ E  id107325
+ E  id107328
+ E  id107339
+ E  id107342
+ E  id107353
+ E  id107356
+ E  id107367
+ E  id107370
+ E  id107380
+ E  id107383
+ E  id107386
+ E  id107397
+ E  id107400
+ E  id107411
+ E  id107414
+ E  id107425
+ E  id107428
+ E  id107439
+ E  id107442
+ E  id107452
+ E  id107455
+ E  id107458
+ E  id107469
+ E  id107472
+ E  id107483
+ E  id107486
+ E  id107497
+ E  id107500
+ E  id107511
+ E  id107514
+ E  id107524
+ E  id107527
+ E  id107530
+ E  id107541
+ E  id107544
+ E  id107555
+ E  id107558
+ E  id107568
+ E  id107571
+ E  id107574
+ E  id107585
+ E  id107588
+ E  id107599
+ E  id107602
+ E  id107613
+ E  id107616
+ E  id107627
+ E  id107630
+ E  id107641
+ E  id107644
+ E  id107654
+ E  id107657
+ E  id107660
+ E  id107671
+ E  id107674
+ E  id107685
+ E  id107688
+ E  id107699
+ E  id107702
+ E  id107713
+ E  id107716
+ E  id107727
+ E  id107730
+ E  id107741
+ E  id107744
+ E  id107755
+ E  id107758
+ E  id107768
+ E  id107771
+ E  id107774
+ E  id107785
+ E  id107788
+ E  id107798
+ E  id107801
+ E  id107804
+ E  id107815
+ E  id107818
+ E  id107829
+ E  id107832
+ E  id107843
+ E  id107846
+ E  id107857
+ E  id107860
+ E  id107870
+ E  id107873
+ E  id107876
+ E  id107887
+ E  id107890
+ E  id107901
+ E  id107904
+ E  id107915
+ E  id107918
+ E  id107929
+ E  id107932
+ E  id107942
+ E  id107945
+ E  id107948
+ E  id107959
+ E  id107962
+ E  id107973
+ E  id107976
+ E  id107987
+ E  id107990
+ E  id108001
+ E  id108004
+ E  id108014
+ E  id108017
+ E  id108020
+ E  id108031
+ E  id108034
+ E  id108045
+ E  id108048
+ E  id108059
+ E  id108062
+ E  id108073
+ E  id108076
+ E  id108086
+ E  id108089
+ E  id108092
+ E  id108103
+ E  id108106
+ E  id108117
+ E  id108120
+ E  id108130
+ E  id108133
+ E  id108136
+ E  id108147
+ E  id108150
+ E  id108161
+ E  id108164
+ E  id108175
+ E  id108178
+ E  id108188
+ E  id108191
+ E  id108194
+ E  id108205
+ E  id108208
+ E  id108219
+ E  id108222
+ E  id108233
+ E  id108236
+ E  id108246
+ E  id108249
+ E  id108252
+ E  id108263
+ E  id108266
+ E  id108277
+ E  id108280
+ E  id108291
+ E  id108294
+ E  id108305
+ E  id108308
+ E  id108319
+ E  id108322
+ E  id108333
+ E  id108336
+ E  id108347
+ E  id108350
+ E  id108361
+ E  id108364
+ E  id108374
+ E  id108377
+ E  id108380
+ E  id108391
+ E  id108394
+ E  id108405
+ E  id108408
+ E  id108419
+ E  id108422
+ E  id108433
+ E  id108436
+ E  id108446
+ E  id108449
+ E  id108452
+ E  id108463
+ E  id108466
+ E  id108477
+ E  id108480
+ E  id108491
+ E  id108494
+ E  id108505
+ E  id108508
+ E  id108518
+ E  id108521
+ E  id108524
+ E  id108535
+ E  id108538
+ E  id108549
+ E  id108552
+ E  id108563
+ E  id108566
+ E  id108577
+ E  id108580
+ E  id108591
+ E  id108594
+ E  id108605
+ E  id108608
+ E  id108618
+ E  id108621
+ E  id108624
+ E  id108635
+ E  id108638
+ E  id108649
+ E  id108652
+ E  id108663
+ E  id108666
+ E  id108677
+ E  id108680
+ E  id108690
+ E  id108693
+ E  id108696
+ E  id108707
+ E  id108710
+ E  id108721
+ E  id108724
+ E  id108735
+ E  id108738
+ E  id108748
+ E  id108751
+ E  id108754
+ E  id108765
+ E  id108768
+ E  id108779
+ E  id108782
+ E  id108792
+ E  id108795
+ E  id108798
+ E  id108809
+ E  id108812
+ E  id108822
+ E  id108825
+ E  id108828
+ E  id108839
+ E  id108842
+ E  id108853
+ E  id108856
+ E  id108867
+ E  id108870
+ E  id108880
+ E  id108883
+ E  id108886
+ E  id108897
+ E  id108900
+ E  id108911
+ E  id108914
+ E  id108925
+ E  id108928
+ E  id108939
+ E  id108942
+ E  id108952
+ E  id108955
+ E  id108958
+ E  id108969
+ E  id108972
+ E  id108983
+ E  id108986
+ E  id108997
+ E  id109000
+ E  id109011
+ E  id109014
+ E  id109025
+ E  id109028
+ E  id109038
+ E  id109041
+ E  id109044
+ E  id109055
+ E  id109058
+ E  id109069
+ E  id109072
+ E  id109083
+ E  id109086
+ E  id109096
+ E  id109099
+ E  id109102
+ E  id109113
+ E  id109116
+ E  id109127
+ E  id109130
+ E  id109141
+ E  id109144
+ E  id109155
+ E  id109158
+ E  id109169
+ E  id109172
+ E  id109183
+ E  id109186
+ E  id109196
+ E  id109199
+ E  id109202
+ E  id109213
+ E  id109216
+ E  id109226
+ E  id109229
+ E  id109232
+ E  id109243
+ E  id109246
+ E  id109257
+ E  id109260
+ E  id109271
+ E  id109274
+ E  id109285
+ E  id109288
+ E  id109299
+ E  id109302
+ E  id109312
+ E  id109315
+ E  id109318
+ E  id109329
+ E  id109332
+ E  id109343
+ E  id109346
+ E  id109357
+ E  id109360
+ E  id109371
+ E  id109374
+ E  id109384
+ E  id109387
+ E  id109390
+ E  id109401
+ E  id109404
+ E  id109415
+ E  id109418
+ E  id109429
+ E  id109432
+ E  id109443
+ E  id109446
+ E  id109457
+ E  id109460
+ E  id109470
+ E  id109473
+ E  id109476
+ E  id109487
+ E  id109490
+ E  id109501
+ E  id109504
+ E  id109515
+ E  id109518
+ E  id109529
+ E  id109532
+ E  id109543
+ E  id109546
+ E  id109556
+ E  id109559
+ E  id109562
+ E  id109573
+ E  id109576
+ E  id109586
+ E  id109589
+ E  id109592
+ E  id109603
+ E  id109606
+ E  id109617
+ E  id109620
+ E  id109631
+ E  id109634
+ E  id109644
+ E  id109647
+ E  id109650
+ E  id109661
+ E  id109664
+ E  id109675
+ E  id109678
+ E  id109689
+ E  id109692
+ E  id109703
+ E  id109706
+ E  id109717
+ E  id109720
+ E  id109731
+ E  id109734
+ E  id109744
+ E  id109747
+ E  id109750
+ E  id109761
+ E  id109764
+ E  id109775
+ E  id109778
+ E  id109789
+ E  id109792
+ E  id109803
+ E  id109806
+ E  id109816
+ E  id109819
+ E  id109822
+ E  id109833
+ E  id109836
+ E  id109847
+ E  id109850
+ E  id109861
+ E  id109864
+ E  id109875
+ E  id109878
+ E  id109889
+ E  id109892
+ E  id109903
+ E  id109906
+ E  id109917
+ E  id109920
+ E  id109930
+ E  id109933
+ E  id109936
+ E  id109947
+ E  id109950
+ E  id109960
+ E  id109963
+ E  id109966
+ E  id109977
+ E  id109980
+ E  id109991
+ E  id109994
+ E  id110004
+ E  id110007
+ E  id110010
+ E  id110021
+ E  id110024
+ E  id110035
+ E  id110038
+ E  id110049
+ E  id110052
+ E  id110062
+ E  id110065
+ E  id110068
+ E  id110079
+ E  id110082
+ E  id110093
+ E  id110096
+ E  id110107
+ E  id110110
+ E  id110121
+ E  id110124
+ E  id110135
+ E  id110138
+ E  id110149
+ E  id110152
+ E  id110162
+ E  id110165
+ E  id110168
+ E  id110179
+ E  id110182
+ E  id110193
+ E  id110196
+ E  id110207
+ E  id110210
+ E  id110221
+ E  id110224
+ E  id110235
+ E  id110238
+ E  id110248
+ E  id110251
+ E  id110254
+ E  id110265
+ E  id110268
+ E  id110279
+ E  id110282
+ E  id110293
+ E  id110296
+ E  id110307
+ E  id110310
+ E  id110320
+ E  id110323
+ E  id110326
+ E  id110337
+ E  id110340
+ E  id110351
+ E  id110354
+ E  id110364
+ E  id110367
+ E  id110370
+ E  id110381
+ E  id110384
+ E  id110395
+ E  id110398
+ E  id110409
+ E  id110412
+ E  id110423
+ E  id110426
+ E  id110437
+ E  id110440
+ E  id110450
+ E  id110453
+ E  id110456
+ E  id110467
+ E  id110470
+ E  id110481
+ E  id110484
+ E  id110495
+ E  id110498
+ E  id110509
+ E  id110512
+ E  id110523
+ E  id110526
+ E  id110536
+ E  id110539
+ E  id110542
+ E  id110553
+ E  id110556
+ E  id110567
+ E  id110570
+ E  id110580
+ E  id110583
+ E  id110586
+ E  id110597
+ E  id110600
+ E  id110611
+ E  id110614
+ E  id110625
+ E  id110628
+ E  id110639
+ E  id110642
+ E  id110652
+ E  id110655
+ E  id110658
+ E  id110669
+ E  id110672
+ E  id110683
+ E  id110686
+ E  id110697
+ E  id110700
+ E  id110711
+ E  id110714
+ E  id110724
+ E  id110727
+ E  id110730
+ E  id110741
+ E  id110744
+ E  id110755
+ E  id110758
+ E  id110769
+ E  id110772
+ E  id110783
+ E  id110786
+ E  id110797
+ E  id110800
+ E  id110810
+ E  id110813
+ E  id110816
+ E  id110827
+ E  id110830
+ E  id110840
+ E  id110843
+ E  id110846
+ E  id110857
+ E  id110860
+ E  id110871
+ E  id110874
+ E  id110885
+ E  id110888
+ E  id110899
+ E  id110902
+ E  id110913
+ E  id110916
+ E  id110927
+ E  id110930
+ E  id110940
+ E  id110943
+ E  id110946
+ E  id110957
+ E  id110960
+ E  id110971
+ E  id110974
+ E  id110985
+ E  id110988
+ E  id110999
+ E  id111002
+ E  id111012
+ E  id111015
+ E  id111018
+ E  id111029
+ E  id111032
+ E  id111043
+ E  id111046
+ E  id111057
+ E  id111060
+ E  id111071
+ E  id111074
+ E  id111084
+ E  id111087
+ E  id111090
+ E  id111101
+ E  id111104
+ E  id111115
+ E  id111118
+ E  id111129
+ E  id111132
+ E  id111143
+ E  id111146
+ E  id111156
+ E  id111159
+ E  id111162
+ E  id111173
+ E  id111176
+ E  id111187
+ E  id111190
+ E  id111201
+ E  id111204
+ E  id111215
+ E  id111218
+ E  id111229
+ E  id111232
+ E  id111242
+ E  id111245
+ E  id111248
+ E  id111259
+ E  id111262
+ E  id111273
+ E  id111276
+ E  id111287
+ E  id111290
+ E  id111301
+ E  id111304
+ E  id111315
+ E  id111318
+ E  id111328
+ E  id111331
+ E  id111334
+ E  id111345
+ E  id111348
+ E  id111359
+ E  id111362
+ E  id111373
+ E  id111376
+ E  id111386
+ E  id111389
+ E  id111392
+ E  id111403
+ E  id111406
+ E  id111417
+ E  id111420
+ E  id111431
+ E  id111434
+ E  id111445
+ E  id111448
+ E  id111459
+ E  id111462
+ E  id111473
+ E  id111476
+ E  id111486
+ E  id111489
+ E  id111492
+ E  id111503
+ E  id111506
+ E  id111517
+ E  id111520
+ E  id111531
+ E  id111534
+ E  id111545
+ E  id111548
+ E  id111558
+ E  id111561
+ E  id111564
+ E  id111575
+ E  id111578
+ E  id111589
+ E  id111592
+ E  id111603
+ E  id111606
+ E  id111617
+ E  id111620
+ E  id111630
+ E  id111633
+ E  id111636
+ E  id111647
+ E  id111650
+ E  id111661
+ E  id111664
+ E  id111675
+ E  id111678
+ E  id111689
+ E  id111692
+ E  id111703
+ E  id111706
+ E  id111717
+ E  id111720
+ E  id111730
+ E  id111733
+ E  id111736
+ E  id111747
+ E  id111750
+ E  id111761
+ E  id111764
+ E  id111775
+ E  id111778
+ E  id111789
+ E  id111792
+ E  id111802
+ E  id111805
+ E  id111808
+ E  id111819
+ E  id111822
+ E  id111833
+ E  id111836
+ E  id111847
+ E  id111850
+ E  id111861
+ E  id111864
+ E  id111874
+ E  id111877
+ E  id111880
+ E  id111891
+ E  id111894
+ E  id111905
+ E  id111908
+ E  id111919
+ E  id111922
+ E  id111932
+ E  id111935
+ E  id111938
+ E  id111949
+ E  id111952
+ E  id111963
+ E  id111966
+ E  id111977
+ E  id111980
+ E  id111990
+ E  id111993
+ E  id111996
+ E  id112007
+ E  id112010
+ E  id112021
+ E  id112024
+ E  id112035
+ E  id112038
+ E  id112049
+ E  id112052
+ E  id112062
+ E  id112065
+ E  id112068
+ E  id112079
+ E  id112082
+ E  id112093
+ E  id112096
+ E  id112106
+ E  id112109
+ E  id112112
+ E  id112123
+ E  id112126
+ E  id112137
+ E  id112140
+ E  id112151
+ E  id112154
+ E  id112165
+ E  id112168
+ E  id112179
+ E  id112182
+ E  id112192
+ E  id112195
+ E  id112198
+ E  id112209
+ E  id112212
+ E  id112223
+ E  id112226
+ E  id112237
+ E  id112240
+ E  id112250
+ E  id112253
+ E  id112256
+ E  id112267
+ E  id112270
+ E  id112281
+ E  id112284
+ E  id112295
+ E  id112298
+ E  id112309
+ E  id112312
+ E  id112322
+ E  id112325
+ E  id112328
+ E  id112339
+ E  id112342
+ E  id112353
+ E  id112356
+ E  id112367
+ E  id112370
+ E  id112381
+ E  id112384
+ E  id112395
+ E  id112398
+ E  id112408
+ E  id112411
+ E  id112414
+ E  id112425
+ E  id112428
+ E  id112439
+ E  id112442
+ E  id112453
+ E  id112456
+ E  id112467
+ E  id112470
+ E  id112480
+ E  id112483
+ E  id112486
+ E  id112497
+ E  id112500
+ E  id112511
+ E  id112514
+ E  id112525
+ E  id112528
+ E  id112538
+ E  id112541
+ E  id112544
+ E  id112555
+ E  id112558
+ E  id112569
+ E  id112572
+ E  id112583
+ E  id112586
+ E  id112597
+ E  id112600
+ E  id112611
+ E  id112614
+ E  id112625
+ E  id112628
+ E  id112639
+ E  id112642
+ E  id112652
+ E  id112655
+ E  id112658
+ E  id112669
+ E  id112672
+ E  id112683
+ E  id112686
+ E  id112697
+ E  id112700
+ E  id112710
+ E  id112713
+ E  id112716
+ E  id112727
+ E  id112730
+ E  id112741
+ E  id112744
+ E  id112754
+ E  id112757
+ E  id112760
+ E  id112771
+ E  id112774
+ E  id112785
+ E  id112788
+ E  id112799
+ E  id112802
+ E  id112812
+ E  id112815
+ E  id112818
+ E  id112829
+ E  id112832
+ E  id112843
+ E  id112846
+ E  id112857
+ E  id112860
+ E  id112871
+ E  id112874
+ E  id112885
+ E  id112888
+ E  id112898
+ E  id112901
+ E  id112904
+ E  id112915
+ E  id112918
+ E  id112929
+ E  id112932
+ E  id112943
+ E  id112946
+ E  id112956
+ E  id112959
+ E  id112962
+ E  id112973
+ E  id112976
+ E  id112987
+ E  id112990
+ E  id113001
+ E  id113004
+ E  id113015
+ E  id113018
+ E  id113028
+ E  id113031
+ E  id113034
+ E  id113045
+ E  id113048
+ E  id113059
+ E  id113062
+ E  id113073
+ E  id113076
+ E  id113086
+ E  id113089
+ E  id113092
+ E  id113103
+ E  id113106
+ E  id113117
+ E  id113120
+ E  id113131
+ E  id113134
+ E  id113144
+ E  id113147
+ E  id113150
+ E  id113161
+ E  id113164
+ E  id113175
+ E  id113178
+ E  id113189
+ E  id113192
+ E  id113202
+ E  id113205
+ E  id113208
+ E  id113219
+ E  id113222
+ E  id113233
+ E  id113236
+ E  id113247
+ E  id113250
+ E  id113261
+ E  id113264
+ E  id113274
+ E  id113277
+ E  id113280
+ E  id113291
+ E  id113294
+ E  id113305
+ E  id113308
+ E  id113319
+ E  id113322
+ E  id113332
+ E  id113335
+ E  id113338
+ E  id113349
+ E  id113352
+ E  id113363
+ E  id113366
+ E  id113377
+ E  id113380
+ E  id113391
+ E  id113394
+ E  id113404
+ E  id113407
+ E  id113410
+ E  id113421
+ E  id113424
+ E  id113435
+ E  id113438
+ E  id113449
+ E  id113452
+ E  id113462
+ E  id113465
+ E  id113468
+ E  id113479
+ E  id113482
+ E  id113493
+ E  id113496
+ E  id113507
+ E  id113510
+ E  id113521
+ E  id113524
+ E  id113535
+ E  id113538
+ E  id113548
+ E  id113551
+ E  id113554
+ E  id113565
+ E  id113568
+ E  id113579
+ E  id113582
+ E  id113593
+ E  id113596
+ E  id113606
+ E  id113609
+ E  id113612
+ E  id113623
+ E  id113626
+ E  id113637
+ E  id113640
+ E  id113651
+ E  id113654
+ E  id113665
+ E  id113668
+ E  id113678
+ E  id113681
+ E  id113684
+ E  id113695
+ E  id113698
+ E  id113709
+ E  id113712
+ E  id113722
+ E  id113725
+ E  id113728
+ E  id113739
+ E  id113742
+ E  id113753
+ E  id113756
+ E  id113767
+ E  id113770
+ E  id113781
+ E  id113784
+ E  id113795
+ E  id113798
+ E  id113808
+ E  id113811
+ E  id113814
+ E  id113825
+ E  id113828
+ E  id113839
+ E  id113842
+ E  id113853
+ E  id113856
+ E  id113867
+ E  id113870
+ E  id113880
+ E  id113883
+ E  id113886
+ E  id113897
+ E  id113900
+ E  id113911
+ E  id113914
+ E  id113925
+ E  id113928
+ E  id113939
+ E  id113942
+ E  id113952
+ E  id113955
+ E  id113958
+ E  id113969
+ E  id113972
+ E  id113983
+ E  id113986
+ E  id113997
+ E  id114000
+ E  id114011
+ E  id114014
+ E  id114025
+ E  id114028
+ E  id114039
+ E  id114042
+ E  id114053
+ E  id114056
+ E  id114066
+ E  id114069
+ E  id114072
+ E  id114083
+ E  id114086
+ E  id114097
+ E  id114100
+ E  id114111
+ E  id114114
+ E  id114125
+ E  id114128
+ E  id114139
+ E  id114142
+ E  id114153
+ E  id114156
+ E  id114166
+ E  id114169
+ E  id114172
+ E  id114183
+ E  id114186
+ E  id114197
+ E  id114200
+ E  id114211
+ E  id114214
+ E  id114225
+ E  id114228
+ E  id114239
+ E  id114242
+ E  id114253
+ E  id114256
+ E  id114267
+ E  id114270
+ E  id114280
+ E  id114283
+ E  id114286
+ E  id114297
+ E  id114300
+ E  id114311
+ E  id114314
+ E  id114325
+ E  id114328
+ E  id114339
+ E  id114342
+ E  id114353
+ E  id114356
+ E  id114367
+ E  id114370
+ E  id114381
+ E  id114384
+ E  id114394
+ E  id114397
+ E  id114400
+ E  id114411
+ E  id114414
+ E  id114425
+ E  id114428
+ E  id114439
+ E  id114442
+ E  id114452
+ E  id114455
+ E  id114458
+ E  id114469
+ E  id114472
+ E  id114483
+ E  id114486
+ E  id114496
+ E  id114499
+ E  id114502
+ E  id114513
+ E  id114516
+ E  id114527
+ E  id114530
+ E  id114541
+ E  id114544
+ E  id114554
+ E  id114557
+ E  id114560
+ E  id114571
+ E  id114574
+ E  id114585
+ E  id114588
+ E  id114599
+ E  id114602
+ E  id114613
+ E  id114616
+ E  id114627
+ E  id114630
+ E  id114640
+ E  id114643
+ E  id114646
+ E  id114657
+ E  id114660
+ E  id114671
+ E  id114674
+ E  id114685
+ E  id114688
+ E  id114698
+ E  id114701
+ E  id114704
+ E  id114715
+ E  id114718
+ E  id114729
+ E  id114732
+ E  id114743
+ E  id114746
+ E  id114757
+ E  id114760
+ E  id114770
+ E  id114773
+ E  id114776
+ E  id114787
+ E  id114790
+ E  id114800
+ E  id114803
+ E  id114806
+ E  id114817
+ E  id114820
+ E  id114831
+ E  id114834
+ E  id114845
+ E  id114848
+ E  id114859
+ E  id114862
+ E  id114873
+ E  id114876
+ E  id114887
+ E  id114890
+ E  id114900
+ E  id114903
+ E  id114906
+ E  id114917
+ E  id114920
+ E  id114930
+ E  id114933
+ E  id114936
+ E  id114947
+ E  id114950
+ E  id114961
+ E  id114964
+ E  id114975
+ E  id114978
+ E  id114988
+ E  id114991
+ E  id114994
+ E  id115005
+ E  id115008
+ E  id115019
+ E  id115022
+ E  id115033
+ E  id115036
+ E  id115047
+ E  id115050
+ E  id115061
+ E  id115064
+ E  id115074
+ E  id115077
+ E  id115080
+ E  id115091
+ E  id115094
+ E  id115105
+ E  id115108
+ E  id115119
+ E  id115122
+ E  id115133
+ E  id115136
+ E  id115146
+ E  id115149
+ E  id115152
+ E  id115163
+ E  id115166
+ E  id115177
+ E  id115180
+ E  id115191
+ E  id115194
+ E  id115205
+ E  id115208
+ E  id115218
+ E  id115221
+ E  id115224
+ E  id115235
+ E  id115238
+ E  id115249
+ E  id115252
+ E  id115263
+ E  id115266
+ E  id115277
+ E  id115280
+ E  id115291
+ E  id115294
+ E  id115305
+ E  id115308
+ E  id115318
+ E  id115321
+ E  id115324
+ E  id115335
+ E  id115338
+ E  id115349
+ E  id115352
+ E  id115362
+ E  id115365
+ E  id115368
+ E  id115379
+ E  id115382
+ E  id115393
+ E  id115396
+ E  id115407
+ E  id115410
+ E  id115421
+ E  id115424
+ E  id115435
+ E  id115438
+ E  id115449
+ E  id115452
+ E  id115462
+ E  id115465
+ E  id115468
+ E  id115479
+ E  id115482
+ E  id115493
+ E  id115496
+ E  id115507
+ E  id115510
+ E  id115520
+ E  id115523
+ E  id115526
+ E  id115537
+ E  id115540
+ E  id115551
+ E  id115554
+ E  id115564
+ E  id115567
+ E  id115570
+ E  id115581
+ E  id115584
+ E  id115595
+ E  id115598
+ E  id115609
+ E  id115612
+ E  id115623
+ E  id115626
+ E  id115637
+ E  id115640
+ E  id115651
+ E  id115654
+ E  id115665
+ E  id115668
+ E  id115678
+ E  id115681
+ E  id115684
+ E  id115695
+ E  id115698
+ E  id115709
+ E  id115712
+ E  id115723
+ E  id115726
+ E  id115737
+ E  id115740
+ E  id115751
+ E  id115754
+ E  id115764
+ E  id115767
+ E  id115770
+ E  id115781
+ E  id115784
+ E  id115795
+ E  id115798
+ E  id115809
+ E  id115812
+ E  id115822
+ E  id115825
+ E  id115828
+ E  id115839
+ E  id115842
+ E  id115853
+ E  id115856
+ E  id115866
+ E  id115869
+ E  id115872
+ E  id115883
+ E  id115886
+ E  id115897
+ E  id115900
+ E  id115911
+ E  id115914
+ E  id115924
+ E  id115927
+ E  id115930
+ E  id115941
+ E  id115944
+ E  id115955
+ E  id115958
+ E  id115968
+ E  id115971
+ E  id115974
+ E  id115985
+ E  id115988
+ E  id115999
+ E  id116002
+ E  id116013
+ E  id116016
+ E  id116027
+ E  id116030
+ E  id116041
+ E  id116044
+ E  id116054
+ E  id116057
+ E  id116060
+ E  id116071
+ E  id116074
+ E  id116085
+ E  id116088
+ E  id116099
+ E  id116102
+ E  id116113
+ E  id116116
+ E  id116127
+ E  id116130
+ E  id116140
+ E  id116143
+ E  id116146
+ E  id116157
+ E  id116160
+ E  id116170
+ E  id116173
+ E  id116176
+ E  id116187
+ E  id116190
+ E  id116201
+ E  id116204
+ E  id116215
+ E  id116218
+ E  id116228
+ E  id116231
+ E  id116234
+ E  id116245
+ E  id116248
+ E  id116258
+ E  id116261
+ E  id116264
+ E  id116275
+ E  id116278
+ E  id116289
+ E  id116292
+ E  id116303
+ E  id116306
+ E  id116317
+ E  id116320
+ E  id116331
+ E  id116334
+ E  id116344
+ E  id116347
+ E  id116350
+ E  id116361
+ E  id116364
+ E  id116375
+ E  id116378
+ E  id116389
+ E  id116392
+ E  id116403
+ E  id116406
+ E  id116417
+ E  id116420
+ E  id116430
+ E  id116433
+ E  id116436
+ E  id116447
+ E  id116450
+ E  id116461
+ E  id116464
+ E  id116475
+ E  id116478
+ E  id116489
+ E  id116492
+ E  id116502
+ E  id116505
+ E  id116508
+ E  id116519
+ E  id116522
+ E  id116533
+ E  id116536
+ E  id116547
+ E  id116550
+ E  id116561
+ E  id116564
+ E  id116574
+ E  id116577
+ E  id116580
+ E  id116591
+ E  id116594
+ E  id116604
+ E  id116607
+ E  id116610
+ E  id116621
+ E  id116624
+ E  id116635
+ E  id116638
+ E  id116649
+ E  id116652
+ E  id116663
+ E  id116666
+ E  id116677
+ E  id116680
+ E  id116691
+ E  id116694
+ E  id116704
+ E  id116707
+ E  id116710
+ E  id116721
+ E  id116724
+ E  id116735
+ E  id116738
+ E  id116748
+ E  id116751
+ E  id116754
+ E  id116765
+ E  id116768
+ E  id116779
+ E  id116782
+ E  id116793
+ E  id116796
+ E  id116807
+ E  id116810
+ E  id116821
+ E  id116824
+ E  id116834
+ E  id116837
+ E  id116840
+ E  id116851
+ E  id116854
+ E  id116865
+ E  id116868
+ E  id116879
+ E  id116882
+ E  id116893
+ E  id116896
+ E  id116906
+ E  id116909
+ E  id116912
+ E  id116923
+ E  id116926
+ E  id116937
+ E  id116940
+ E  id116951
+ E  id116954
+ E  id116964
+ E  id116967
+ E  id116970
+ E  id116981
+ E  id116984
+ E  id116994
+ E  id116997
+ E  id117000
+ E  id117011
+ E  id117014
+ E  id117025
+ E  id117028
+ E  id117039
+ E  id117042
+ E  id117053
+ E  id117056
+ E  id117067
+ E  id117070
+ E  id117080
+ E  id117083
+ E  id117086
+ E  id117097
+ E  id117100
+ E  id117111
+ E  id117114
+ E  id117125
+ E  id117128
+ E  id117138
+ E  id117141
+ E  id117144
+ E  id117155
+ E  id117158
+ E  id117169
+ E  id117172
+ E  id117183
+ E  id117186
+ E  id117197
+ E  id117200
+ E  id117211
+ E  id117214
+ E  id117224
+ E  id117227
+ E  id117230
+ E  id117241
+ E  id117244
+ E  id117254
+ E  id117257
+ E  id117260
+ E  id117271
+ E  id117274
+ E  id117285
+ E  id117288
+ E  id117299
+ E  id117302
+ E  id117313
+ E  id117316
+ E  id117326
+ E  id117329
+ E  id117332
+ E  id117343
+ E  id117346
+ E  id117357
+ E  id117360
+ E  id117371
+ E  id117374
+ E  id117384
+ E  id117387
+ E  id117390
+ E  id117401
+ E  id117404
+ E  id117415
+ E  id117418
+ E  id117429
+ E  id117432
+ E  id117442
+ E  id117445
+ E  id117448
+ E  id117459
+ E  id117462
+ E  id117473
+ E  id117476
+ E  id117486
+ E  id117489
+ E  id117492
+ E  id117503
+ E  id117506
+ E  id117517
+ E  id117520
+ E  id117531
+ E  id117534
+ E  id117545
+ E  id117548
+ E  id117558
+ E  id117561
+ E  id117564
+ E  id117575
+ E  id117578
+ E  id117589
+ E  id117592
+ E  id117603
+ E  id117606
+ E  id117617
+ E  id117620
+ E  id117631
+ E  id117634
+ E  id117644
+ E  id117647
+ E  id117650
+ E  id117661
+ E  id117664
+ E  id117675
+ E  id117678
+ E  id117689
+ E  id117692
+ E  id117702
+ E  id117705
+ E  id117708
+ E  id117719
+ E  id117722
+ E  id117733
+ E  id117736
+ E  id117747
+ E  id117750
+ E  id117760
+ E  id117763
+ E  id117766
+ E  id117777
+ E  id117780
+ E  id117791
+ E  id117794
+ E  id117805
+ E  id117808
+ E  id117819
+ E  id117822
+ E  id117833
+ E  id117836
+ E  id117846
+ E  id117849
+ E  id117852
+ E  id117863
+ E  id117866
+ E  id117877
+ E  id117880
+ E  id117891
+ E  id117894
+ E  id117905
+ E  id117908
+ E  id117918
+ E  id117921
+ E  id117924
+ E  id117935
+ E  id117938
+ E  id117949
+ E  id117952
+ E  id117963
+ E  id117966
+ E  id117977
+ E  id117980
+ E  id117990
+ E  id117993
+ E  id117996
+ E  id118007
+ E  id118010
+ E  id118021
+ E  id118024
+ E  id118035
+ E  id118038
+ E  id118048
+ E  id118051
+ E  id118054
+ E  id118065
+ E  id118068
+ E  id118079
+ E  id118082
+ E  id118093
+ E  id118096
+ E  id118107
+ E  id118110
+ E  id118120
+ E  id118123
+ E  id118126
+ E  id118137
+ E  id118140
+ E  id118151
+ E  id118154
+ E  id118165
+ E  id118168
+ E  id118179
+ E  id118182
+ E  id118193
+ E  id118196
+ E  id118206
+ E  id118209
+ E  id118212
+ E  id118223
+ E  id118226
+ E  id118237
+ E  id118240
+ E  id118251
+ E  id118254
+ E  id118265
+ E  id118268
+ E  id118279
+ E  id118282
+ E  id118293
+ E  id118296
+ E  id118307
+ E  id118310
+ E  id118320
+ E  id118323
+ E  id118326
+ E  id118337
+ E  id118340
+ E  id118351
+ E  id118354
+ E  id118365
+ E  id118368
+ E  id118379
+ E  id118382
+ E  id118392
+ E  id118395
+ E  id118398
+ E  id118409
+ E  id118412
+ E  id118423
+ E  id118426
+ E  id118436
+ E  id118439
+ E  id118442
+ E  id118453
+ E  id118456
+ E  id118467
+ E  id118470
+ E  id118481
+ E  id118484
+ E  id118495
+ E  id118498
+ E  id118508
+ E  id118511
+ E  id118514
+ E  id118525
+ E  id118528
+ E  id118539
+ E  id118542
+ E  id118553
+ E  id118556
+ E  id118566
+ E  id118569
+ E  id118572
+ E  id118583
+ E  id118586
+ E  id118597
+ E  id118600
+ E  id118611
+ E  id118614
+ E  id118625
+ E  id118628
+ E  id118639
+ E  id118642
+ E  id118653
+ E  id118656
+ E  id118667
+ E  id118670
+ E  id118681
+ E  id118684
+ E  id118694
+ E  id118697
+ E  id118700
+ E  id118711
+ E  id118714
+ E  id118725
+ E  id118728
+ E  id118739
+ E  id118742
+ E  id118752
+ E  id118755
+ E  id118758
+ E  id118769
+ E  id118772
+ E  id118782
+ E  id118785
+ E  id118788
+ E  id118799
+ E  id118802
+ E  id118813
+ E  id118816
+ E  id118827
+ E  id118830
+ E  id118840
+ E  id118843
+ E  id118846
+ E  id118857
+ E  id118860
+ E  id118871
+ E  id118874
+ E  id118885
+ E  id118888
+ E  id118898
+ E  id118901
+ E  id118904
+ E  id118915
+ E  id118918
+ E  id118929
+ E  id118932
+ E  id118943
+ E  id118946
+ E  id118956
+ E  id118959
+ E  id118962
+ E  id118973
+ E  id118976
+ E  id118987
+ E  id118990
+ E  id119001
+ E  id119004
+ E  id119015
+ E  id119018
+ E  id119028
+ E  id119031
+ E  id119034
+ E  id119045
+ E  id119048
+ E  id119059
+ E  id119062
+ E  id119073
+ E  id119076
+ E  id119087
+ E  id119090
+ E  id119101
+ E  id119104
+ E  id119114
+ E  id119117
+ E  id119120
+ E  id119131
+ E  id119134
+ E  id119145
+ E  id119148
+ E  id119159
+ E  id119162
+ E  id119173
+ E  id119176
+ E  id119187
+ E  id119190
+ E  id119201
+ E  id119204
+ E  id119215
+ E  id119218
+ E  id119228
+ E  id119231
+ E  id119234
+ E  id119245
+ E  id119248
+ E  id119258
+ E  id119261
+ E  id119264
+ E  id119275
+ E  id119278
+ E  id119289
+ E  id119292
+ E  id119302
+ E  id119305
+ E  id119308
+ E  id119319
+ E  id119322
+ E  id119333
+ E  id119336
+ E  id119347
+ E  id119350
+ E  id119361
+ E  id119364
+ E  id119375
+ E  id119378
+ E  id119388
+ E  id119391
+ E  id119394
+ E  id119405
+ E  id119408
+ E  id119419
+ E  id119422
+ E  id119432
+ E  id119435
+ E  id119438
+ E  id119449
+ E  id119452
+ E  id119463
+ E  id119466
+ E  id119477
+ E  id119480
+ E  id119491
+ E  id119494
+ E  id119505
+ E  id119508
+ E  id119518
+ E  id119521
+ E  id119524
+ E  id119535
+ E  id119538
+ E  id119549
+ E  id119552
+ E  id119563
+ E  id119566
+ E  id119577
+ E  id119580
+ E  id119590
+ E  id119593
+ E  id119596
+ E  id119607
+ E  id119610
+ E  id119621
+ E  id119624
+ E  id119635
+ E  id119638
+ E  id119649
+ E  id119652
+ E  id119663
+ E  id119666
+ E  id119677
+ E  id119680
+ E  id119690
+ E  id119693
+ E  id119696
+ E  id119707
+ E  id119710
+ E  id119721
+ E  id119724
+ E  id119735
+ E  id119738
+ E  id119749
+ E  id119752
+ E  id119762
+ E  id119765
+ E  id119768
+ E  id119779
+ E  id119782
+ E  id119793
+ E  id119796
+ E  id119807
+ E  id119810
+ E  id119821
+ E  id119824
+ E  id119835
+ E  id119838
+ E  id119848
+ E  id119851
+ E  id119854
+ E  id119865
+ E  id119868
+ E  id119879
+ E  id119882
+ E  id119892
+ E  id119895
+ E  id119898
+ E  id119909
+ E  id119912
+ E  id119923
+ E  id119926
+ E  id119936
+ E  id119939
+ E  id119942
+ E  id119953
+ E  id119956
+ E  id119967
+ E  id119970
+ E  id119981
+ E  id119984
+ E  id119995
+ E  id119998
+ E  id120008
+ E  id120011
+ E  id120014
+ E  id120025
+ E  id120028
+ E  id120039
+ E  id120042
+ E  id120053
+ E  id120056
+ E  id120067
+ E  id120070
+ E  id120081
+ E  id120084
+ E  id120095
+ E  id120098
+ E  id120108
+ E  id120111
+ E  id120114
+ E  id120125
+ E  id120128
+ E  id120139
+ E  id120142
+ E  id120153
+ E  id120156
+ E  id120167
+ E  id120170
+ E  id120181
+ E  id120184
+ E  id120195
+ E  id120198
+ E  id120208
+ E  id120211
+ E  id120214
+ E  id120225
+ E  id120228
+ E  id120239
+ E  id120242
+ E  id120253
+ E  id120256
+ E  id120266
+ E  id120269
+ E  id120272
+ E  id120283
+ E  id120286
+ E  id120297
+ E  id120300
+ E  id120311
+ E  id120314
+ E  id120324
+ E  id120327
+ E  id120330
+ E  id120341
+ E  id120344
+ E  id120354
+ E  id120357
+ E  id120360
+ E  id120371
+ E  id120374
+ E  id120385
+ E  id120388
+ E  id120399
+ E  id120402
+ E  id120413
+ E  id120416
+ E  id120427
+ E  id120430
+ E  id120440
+ E  id120443
+ E  id120446
+ E  id120457
+ E  id120460
+ E  id120471
+ E  id120474
+ E  id120485
+ E  id120488
+ E  id120498
+ E  id120501
+ E  id120504
+ E  id120515
+ E  id120518
+ E  id120529
+ E  id120532
+ E  id120543
+ E  id120546
+ E  id120557
+ E  id120560
+ E  id120570
+ E  id120573
+ E  id120576
+ E  id120587
+ E  id120590
+ E  id120601
+ E  id120604
+ E  id120615
+ E  id120618
+ E  id120629
+ E  id120632
+ E  id120643
+ E  id120646
+ E  id120656
+ E  id120659
+ E  id120662
+ E  id120673
+ E  id120676
+ E  id120687
+ E  id120690
+ E  id120701
+ E  id120704
+ E  id120715
+ E  id120718
+ E  id120728
+ E  id120731
+ E  id120734
+ E  id120745
+ E  id120748
+ E  id120758
+ E  id120761
+ E  id120764
+ E  id120775
+ E  id120778
+ E  id120789
+ E  id120792
+ E  id120803
+ E  id120806
+ E  id120817
+ E  id120820
+ E  id120830
+ E  id120833
+ E  id120836
+ E  id120847
+ E  id120850
+ E  id120860
+ E  id120863
+ E  id120866
+ E  id120877
+ E  id120880
+ E  id120891
+ E  id120894
+ E  id120905
+ E  id120908
+ E  id120918
+ E  id120921
+ E  id120924
+ E  id120935
+ E  id120938
+ E  id120949
+ E  id120952
+ E  id120963
+ E  id120966
+ E  id120976
+ E  id120979
+ E  id120982
+ E  id120993
+ E  id120996
+ E  id121007
+ E  id121010
+ E  id121021
+ E  id121024
+ E  id121035
+ E  id121038
+ E  id121049
+ E  id121052
+ E  id121063
+ E  id121066
+ E  id121077
+ E  id121080
+ E  id121090
+ E  id121093
+ E  id121096
+ E  id121107
+ E  id121110
+ E  id121121
+ E  id121124
+ E  id121135
+ E  id121138
+ E  id121148
+ E  id121151
+ E  id121154
+ E  id121165
+ E  id121168
+ E  id121179
+ E  id121182
+ E  id121193
+ E  id121196
+ E  id121207
+ E  id121210
+ E  id121220
+ E  id121223
+ E  id121226
+ E  id121237
+ E  id121240
+ E  id121251
+ E  id121254
+ E  id121265
+ E  id121268
+ E  id121278
+ E  id121281
+ E  id121284
+ E  id121295
+ E  id121298
+ E  id121309
+ E  id121312
+ E  id121323
+ E  id121326
+ E  id121336
+ E  id121339
+ E  id121342
+ E  id121353
+ E  id121356
+ E  id121367
+ E  id121370
+ E  id121381
+ E  id121384
+ E  id121395
+ E  id121398
+ E  id121409
+ E  id121412
+ E  id121422
+ E  id121425
+ E  id121428
+ E  id121439
+ E  id121442
+ E  id121453
+ E  id121456
+ E  id121467
+ E  id121470
+ E  id121481
+ E  id121484
+ E  id121495
+ E  id121498
+ E  id121509
+ E  id121512
+ E  id121523
+ E  id121526
+ E  id121536
+ E  id121539
+ E  id121542
+ E  id121553
+ E  id121556
+ E  id121567
+ E  id121570
+ E  id121581
+ E  id121584
+ E  id121594
+ E  id121597
+ E  id121600
+ G  q1      
+ G  q2      
+ G  q3      
+ G  q4      
+ G  q5      
+ G  q6      
+ G  q7      
+ G  q8      
+ G  q9      
+ G  q10     
+ G  q11     
+ G  q12     
+ G  q13     
+ G  q14     
+ G  q15     
+ G  q16     
+ G  q17     
+ G  q18     
+ G  q19     
+ G  q20     
+ G  q21     
+ G  q22     
+ G  q23     
+ G  q24     
+ G  q25     
+ G  q26     
+ G  q27     
+ G  q28     
+ G  q29     
+ G  q30     
+ G  q31     
+ G  q32     
+ G  q33     
+ G  q34     
+ G  q35     
+ G  q36     
+ G  q37     
+ G  q38     
+ G  q39     
+ G  q40     
+ G  q41     
+ G  q42     
+ G  q43     
+ G  q44     
+ G  q45     
+ G  q46     
+ G  q47     
+ G  q48     
+ G  q49     
+ G  q50     
+ G  q51     
+ G  q52     
+ G  q53     
+ G  q54     
+ G  q55     
+ G  q56     
+ G  q57     
+ G  q58     
+ G  q59     
+ G  q60     
+ G  q61     
+ G  q62     
+ G  q63     
+ G  q64     
+ G  q65     
+ G  q66     
+ G  q67     
+ G  q68     
+ G  q69     
+ G  q70     
+ G  q71     
+ G  q72     
+ G  q73     
+ G  q74     
+ G  q75     
+ G  q76     
+ G  q77     
+ G  q78     
+ G  q79     
+ G  q80     
+ G  q81     
+ G  q82     
+ G  q83     
+ G  q84     
+ G  q85     
+ G  q86     
+ G  q87     
+ G  q88     
+ G  q89     
+ G  q90     
+ G  q91     
+ G  q92     
+ G  q93     
+ G  q94     
+ G  q95     
+ G  q96     
+ G  q97     
+ G  q98     
+ G  q99     
+ G  q100    
+ G  q101    
+ G  q102    
+ G  q103    
+ G  q104    
+ G  q105    
+ G  q106    
+ G  q107    
+ G  q108    
+ G  q109    
+ G  q110    
+ G  q111    
+ G  q112    
+ G  q113    
+ G  q114    
+ G  q115    
+ G  q116    
+ G  q117    
+ G  q118    
+ G  q119    
+ G  q120    
+ G  q121    
+ G  q122    
+ G  q123    
+ G  q124    
+ G  q125    
+ G  q126    
+ G  q127    
+ G  q128    
+ G  q129    
+ G  q130    
+ G  q131    
+ G  q132    
+ G  q133    
+ G  q134    
+ G  q135    
+ G  q136    
+ G  q137    
+ G  q138    
+ G  q139    
+ G  q140    
+ G  q141    
+ G  q142    
+ G  q143    
+ G  q144    
+ G  q145    
+ G  q146    
+ G  q147    
+ G  q148    
+ G  q149    
+ G  q150    
+ G  q151    
+ G  q152    
+ G  q153    
+ G  q154    
+ G  q155    
+ G  q156    
+ G  q157    
+ G  q158    
+ G  q159    
+ G  q160    
+ G  q161    
+ G  q162    
+ G  q163    
+ G  q164    
+ G  q165    
+ G  q166    
+ G  q167    
+ G  q168    
+ G  q169    
+ G  q170    
+ G  q171    
+ G  q172    
+ G  q173    
+ G  q174    
+ G  q175    
+ G  q176    
+ G  q177    
+ G  q178    
+ G  q179    
+ G  q180    
+ G  q181    
+ G  q182    
+ G  q183    
+ G  q184    
+ G  q185    
+ G  q186    
+ G  q187    
+ G  q188    
+ G  q189    
+ G  q190    
+ G  q191    
+ G  q192    
+ G  q193    
+ G  q194    
+ G  q195    
+ G  q196    
+ G  q197    
+ G  q198    
+ G  q199    
+ G  q200    
+ G  q201    
+ G  q202    
+ G  q203    
+ G  q204    
+ G  q205    
+ G  q206    
+ G  q207    
+ G  q208    
+ G  q209    
+ G  q210    
+ G  q211    
+ G  q212    
+ G  q213    
+ G  q214    
+ G  q215    
+ G  q216    
+ G  q217    
+ G  q218    
+ G  q219    
+ G  q220    
+ G  q221    
+ G  q222    
+ G  q223    
+ G  q224    
+ G  q225    
+ G  q226    
+ G  q227    
+ G  q228    
+ G  q229    
+ G  q230    
+ G  q231    
+ G  q232    
+ G  q233    
+ G  q234    
+ G  q235    
+ G  q236    
+ G  q237    
+ G  q238    
+ G  q239    
+ G  q240    
+ G  q241    
+ G  q242    
+ G  q243    
+ G  q244    
+ G  q245    
+ G  q246    
+ G  q247    
+ G  q248    
+ G  q249    
+ G  q250    
+ G  q251    
+ G  q252    
+ G  q253    
+ G  q254    
+ G  q255    
+ G  q256    
+ G  q257    
+ G  q258    
+ G  q259    
+ G  q260    
+ G  q261    
+ G  q262    
+ G  q263    
+ G  q264    
+ G  q265    
+ G  q266    
+ G  q267    
+ G  q268    
+ G  q269    
+ G  q270    
+ G  q271    
+ G  q272    
+ G  q273    
+ G  q274    
+ G  q275    
+ G  q276    
+ G  q277    
+ G  q278    
+ G  q279    
+ G  q280    
+ G  q281    
+ G  q282    
+ G  q283    
+ G  q284    
+ G  q285    
+ G  q286    
+ G  q287    
+ G  q288    
+ G  q289    
+ G  q290    
+ G  q291    
+ G  q292    
+ G  q293    
+ G  q294    
+ G  q295    
+ G  q296    
+ G  q297    
+ G  q298    
+ G  q299    
+ G  q300    
+ G  q301    
+ G  q302    
+ G  q303    
+ G  q304    
+ G  q305    
+ G  q306    
+ G  q307    
+ G  q308    
+ G  q309    
+ G  q310    
+ G  q311    
+ G  q312    
+ G  q313    
+ G  q314    
+ G  q315    
+ G  q316    
+ G  q317    
+ G  q318    
+ G  q319    
+ G  q320    
+ G  q321    
+ G  q322    
+ G  q323    
+ G  q324    
+ G  q325    
+ G  q326    
+ G  q327    
+ G  q328    
+ G  q329    
+ G  q330    
+ G  q331    
+ G  q332    
+ G  q333    
+ G  q334    
+ G  q335    
+ G  q336    
+ G  q337    
+ G  q338    
+ G  q339    
+ G  q340    
+ G  q341    
+ G  q342    
+ G  q343    
+ G  q344    
+ G  q345    
+ G  q346    
+ G  q347    
+ G  q348    
+ G  q349    
+ G  q350    
+ G  q351    
+ G  q352    
+ G  q353    
+ G  q354    
+ G  q355    
+ G  q356    
+ G  q357    
+ G  q358    
+ G  q359    
+ G  q360    
+ G  q361    
+ G  q362    
+ G  q363    
+ G  q364    
+ G  q365    
+ G  q366    
+ G  q367    
+ G  q368    
+ G  q369    
+ G  q370    
+ G  q371    
+ G  q372    
+ G  q373    
+ G  q374    
+ G  q375    
+ G  q376    
+ G  q377    
+ G  q378    
+ G  q379    
+ G  q380    
+ G  q381    
+ G  q382    
+ G  q383    
+ G  q384    
+ G  q385    
+ G  q386    
+ G  q387    
+ G  q388    
+ G  q389    
+ G  q390    
+ G  q391    
+ G  q392    
+ G  q393    
+ G  q394    
+ G  q395    
+ G  q396    
+ G  q397    
+ G  q398    
+ G  q399    
+ G  q400    
+ G  q401    
+ G  q402    
+ G  q403    
+ G  q404    
+ G  q405    
+ G  q406    
+ G  q407    
+ G  q408    
+ G  q409    
+ G  q410    
+ G  q411    
+ G  q412    
+ G  q413    
+ G  q414    
+ G  q415    
+ G  q416    
+ G  q417    
+ G  q418    
+ G  q419    
+ G  q420    
+ G  q421    
+ G  q422    
+ G  q423    
+ G  q424    
+ G  q425    
+ G  q426    
+ G  q427    
+ G  q428    
+ G  q429    
+ G  q430    
+ G  q431    
+ G  q432    
+ G  q433    
+ G  q434    
+ G  q435    
+ G  q436    
+ G  q437    
+ G  q438    
+ G  q439    
+ G  q440    
+ G  q441    
+ G  q442    
+ G  q443    
+ G  q444    
+ G  q445    
+ G  q446    
+ G  q447    
+ G  q448    
+ G  q449    
+ G  q450    
+ G  q451    
+ G  q452    
+ G  q453    
+ G  q454    
+ G  q455    
+ G  q456    
+ G  q457    
+ G  q458    
+ G  q459    
+ G  q460    
+ G  q461    
+ G  q462    
+ G  q463    
+ G  q464    
+ G  q465    
+ G  q466    
+ G  q467    
+ G  q468    
+ G  q469    
+ G  q470    
+ G  q471    
+ G  q472    
+ G  q473    
+ G  q474    
+ G  q475    
+ G  q476    
+ G  q477    
+ G  q478    
+ G  q479    
+ G  q480    
+ G  q481    
+ G  q482    
+ G  q483    
+ G  q484    
+ G  q485    
+ G  q486    
+ G  q487    
+ G  q488    
+ G  q489    
+ G  q490    
+ G  q491    
+ G  q492    
+ G  q493    
+ G  q494    
+ G  q495    
+ G  q496    
+ G  q497    
+ G  q498    
+ G  q499    
+ G  q500    
+ G  q501    
+ G  q502    
+ G  q503    
+ G  q504    
+ G  q505    
+ G  q506    
+ G  q507    
+ G  q508    
+ G  q509    
+ G  q510    
+ G  q511    
+ G  q512    
+ G  q513    
+ G  q514    
+ G  q515    
+ G  q516    
+ G  q517    
+ G  q518    
+ G  q519    
+ G  q520    
+ G  q521    
+ G  q522    
+ G  q523    
+ G  q524    
+ G  q525    
+ G  q526    
+ G  q527    
+ G  q528    
+ G  q529    
+ G  q530    
+ G  q531    
+ G  q532    
+ G  q533    
+ G  q534    
+ G  q535    
+ G  q536    
+ G  q537    
+ G  q538    
+ G  q539    
+ G  q540    
+ G  q541    
+ G  q542    
+ G  q543    
+ G  q544    
+ G  q545    
+ G  q546    
+ G  q547    
+ G  q548    
+ G  q549    
+ G  q550    
+ G  q551    
+ G  q552    
+ G  q553    
+ G  q554    
+ G  q555    
+ G  q556    
+ G  q557    
+ G  q558    
+ G  q559    
+ G  q560    
+ G  q561    
+ G  q562    
+ G  q563    
+ G  q564    
+ G  q565    
+ G  q566    
+ G  q567    
+ G  q568    
+ G  q569    
+ G  q570    
+ G  q571    
+ G  q572    
+ G  q573    
+ G  q574    
+ G  q575    
+ G  q576    
+ G  q577    
+ G  q578    
+ G  q579    
+ G  q580    
+ G  q581    
+ G  q582    
+ G  q583    
+ G  q584    
+ G  q585    
+ G  q586    
+ G  q587    
+ G  q588    
+ G  q589    
+ G  q590    
+ G  q591    
+ G  q592    
+ G  q593    
+ G  q594    
+ G  q595    
+ G  q596    
+ G  q597    
+ G  q598    
+ G  q599    
+ G  q600    
+ G  q601    
+ G  q602    
+ G  q603    
+ G  q604    
+ G  q605    
+ G  q606    
+ G  q607    
+ G  q608    
+ G  q609    
+ G  q610    
+ G  q611    
+ G  q612    
+ G  q613    
+ G  q614    
+ G  q615    
+ G  q616    
+ G  q617    
+ G  q618    
+ G  q619    
+ G  q620    
+ G  q621    
+ G  q622    
+ G  q623    
+ G  q624    
+ G  q625    
+ G  q626    
+ G  q627    
+ G  q628    
+ G  q629    
+ G  q630    
+ G  q631    
+ G  q632    
+ G  q633    
+ G  q634    
+ G  q635    
+ G  q636    
+ G  q637    
+ G  q638    
+ G  q639    
+ G  q640    
+ G  q641    
+ G  q642    
+ G  q643    
+ G  q644    
+ G  q645    
+ G  q646    
+ G  q647    
+ G  q648    
+ G  q649    
+ G  q650    
+ G  q651    
+ G  q652    
+ G  q653    
+ G  q654    
+ G  q655    
+ G  q656    
+ G  q657    
+ G  q658    
+ G  q659    
+ G  q660    
+ G  q661    
+ G  q662    
+ G  q663    
+ G  q664    
+ G  q665    
+ G  q666    
+ G  q667    
+ G  q668    
+ G  q669    
+ G  q670    
+ G  q671    
+ G  q672    
+ G  q673    
+ G  q674    
+ G  q675    
+ G  q676    
+ G  q677    
+ G  q678    
+ G  q679    
+ G  q680    
+ G  q681    
+ G  q682    
+ G  q683    
+ G  q684    
+ G  q685    
+ G  q686    
+ G  q687    
+ G  q688    
+ G  q689    
+ G  q690    
+ G  q691    
+ G  q692    
+ G  q693    
+ G  q694    
+ G  q695    
+ G  q696    
+ G  q697    
+ G  q698    
+ G  q699    
+ G  q700    
+ G  q701    
+ G  q702    
+ G  q703    
+ G  q704    
+ G  q705    
+ G  q706    
+ G  q707    
+ G  q708    
+ G  q709    
+ G  q710    
+ G  q711    
+ G  q712    
+ G  q713    
+ G  q714    
+ G  q715    
+ G  q716    
+ G  q717    
+ G  q718    
+ G  q719    
+ G  q720    
+ G  q721    
+ G  q722    
+ G  q723    
+ G  q724    
+ G  q725    
+ G  q726    
+ G  q727    
+ G  q728    
+ G  q729    
+ G  q730    
+ G  q731    
+ G  q732    
+ G  q733    
+ G  q734    
+ G  q735    
+ G  q736    
+ G  q737    
+ G  q738    
+ G  q739    
+ G  q740    
+ G  q741    
+ G  q742    
+ G  q743    
+ G  q744    
+ G  q745    
+ G  q746    
+ G  q747    
+ G  q748    
+ G  q749    
+ G  q750    
+ G  q751    
+ G  q752    
+ G  q753    
+ G  q754    
+ G  q755    
+ G  q756    
+ G  q757    
+ G  q758    
+ G  q759    
+ G  q760    
+ G  q761    
+ G  q762    
+ G  q763    
+ G  q764    
+ G  q765    
+ G  q766    
+ G  q767    
+ G  q768    
+ G  q769    
+ G  q770    
+ G  q771    
+ G  q772    
+ G  q773    
+ G  q774    
+ G  q775    
+ G  q776    
+ G  q777    
+ G  q778    
+ G  q779    
+ G  q780    
+ G  q781    
+ G  q782    
+ G  q783    
+ G  q784    
+ G  q785    
+ G  q786    
+ G  q787    
+ G  q788    
+ G  q789    
+ G  q790    
+ G  q791    
+ G  q792    
+ G  q793    
+ G  q794    
+ G  q795    
+ G  q796    
+ G  q797    
+ G  q798    
+ G  q799    
+ G  q800    
+ G  q801    
+ G  q802    
+ G  q803    
+ G  q804    
+ G  q805    
+ G  q806    
+ G  q807    
+ G  q808    
+ G  q809    
+ G  q810    
+ G  q811    
+ G  q812    
+ G  q813    
+ G  q814    
+ G  q815    
+ G  q816    
+ G  q817    
+ G  q818    
+ G  q819    
+ G  q820    
+ G  q821    
+ G  q822    
+ G  q823    
+ G  q824    
+ G  q825    
+ G  q826    
+ G  q827    
+ G  q828    
+ G  q829    
+ G  q830    
+ G  q831    
+ G  q832    
+ G  q833    
+ G  q834    
+ G  q835    
+ G  q836    
+ G  q837    
+ G  q838    
+ G  q839    
+ G  q840    
+ G  q841    
+ G  q842    
+ G  q843    
+ G  q844    
+ G  q845    
+ G  q846    
+ G  q847    
+ G  q848    
+ G  q849    
+ G  q850    
+ G  q851    
+ G  q852    
+ G  q853    
+ G  q854    
+ G  q855    
+ G  q856    
+ G  q857    
+ G  q858    
+ G  q859    
+ G  q860    
+ G  q861    
+ G  q862    
+ G  q863    
+ G  q864    
+ G  q865    
+ G  q866    
+ G  q867    
+ G  q868    
+ G  q869    
+ G  q870    
+ G  q871    
+ G  q872    
+ G  q873    
+ G  q874    
+ G  q875    
+ G  q876    
+ G  q877    
+ G  q878    
+ G  q879    
+ G  q880    
+ G  q881    
+ G  q882    
+ G  q883    
+ G  q884    
+ G  q885    
+ G  q886    
+ G  q887    
+ G  q888    
+ G  q889    
+ G  q890    
+ G  q891    
+ G  q892    
+ G  q893    
+ G  q894    
+ G  q895    
+ G  q896    
+ G  q897    
+ G  q898    
+ G  q899    
+ G  q900    
+ G  q901    
+ G  q902    
+ G  q903    
+ G  q904    
+ G  q905    
+ G  q906    
+ G  q907    
+ G  q908    
+ G  q909    
+ G  q910    
+ G  q911    
+ G  q912    
+ G  q913    
+ G  q914    
+ G  q915    
+ G  q916    
+ G  q917    
+ G  q918    
+ G  q919    
+ G  q920    
+ G  q921    
+ G  q922    
+ G  q923    
+ G  q924    
+ G  q925    
+ G  q926    
+ G  q927    
+ G  q928    
+ G  q929    
+ G  q930    
+ G  q931    
+ G  q932    
+ G  q933    
+ G  q934    
+ G  q935    
+ G  q936    
+ G  q937    
+ G  q938    
+ G  q939    
+ G  q940    
+ G  q941    
+ G  q942    
+ G  q943    
+ G  q944    
+ G  q945    
+ G  q946    
+ G  q947    
+ G  q948    
+ G  q949    
+ G  q950    
+ G  q951    
+ G  q952    
+ G  q953    
+ G  q954    
+ G  q955    
+ G  q956    
+ G  q957    
+ G  q958    
+ G  q959    
+ G  q960    
+ G  q961    
+ G  q962    
+ G  q963    
+ G  q964    
+ G  q965    
+ G  q966    
+ G  q967    
+ G  q968    
+ G  q969    
+ G  q970    
+ G  q971    
+ G  q972    
+ G  q973    
+ G  q974    
+ G  q975    
+ G  q976    
+ G  q977    
+ G  q978    
+ G  q979    
+ G  q980    
+ G  q981    
+ G  q982    
+ G  q983    
+ G  q984    
+ G  q985    
+ G  q986    
+ G  q987    
+ G  q988    
+ G  q989    
+ G  q990    
+ G  q991    
+ G  q992    
+ G  q993    
+ G  q994    
+ G  q995    
+ G  q996    
+ G  q997    
+ G  q998    
+ G  q999    
+ G  q1000   
+ G  q1001   
+ G  q1002   
+ G  q1003   
+ G  q1004   
+ G  q1005   
+ G  q1006   
+ G  q1007   
+ G  q1008   
+ G  q1009   
+ G  q1010   
+ G  q1011   
+ G  q1012   
+ G  q1013   
+ G  q1014   
+ G  q1015   
+ G  q1016   
+ G  q1017   
+ G  q1018   
+ G  q1019   
+ G  q1020   
+ G  q1021   
+ G  q1022   
+ G  q1023   
+ G  q1024   
+ G  q1025   
+ G  q1026   
+ G  q1027   
+ G  q1028   
+ G  q1029   
+ G  q1030   
+ G  q1031   
+ G  q1032   
+ G  q1033   
+ G  q1034   
+ G  q1035   
+ G  q1036   
+ G  q1037   
+ G  q1038   
+ G  q1039   
+ G  q1040   
+ G  q1041   
+ G  q1042   
+ G  q1043   
+ G  q1044   
+ G  q1045   
+ G  q1046   
+ G  q1047   
+ G  q1048   
+ G  q1049   
+ G  q1050   
+ G  q1051   
+ G  q1052   
+ G  q1053   
+ G  q1054   
+ G  q1055   
+ G  q1056   
+ G  q1057   
+ G  q1058   
+ G  q1059   
+ G  q1060   
+ G  q1061   
+ G  q1062   
+ G  q1063   
+ G  q1064   
+ G  q1065   
+ G  q1066   
+ G  q1067   
+ G  q1068   
+ G  q1069   
+ G  q1070   
+ G  q1071   
+ G  q1072   
+ G  q1073   
+ G  q1074   
+ G  q1075   
+ G  q1076   
+ G  q1077   
+ G  q1078   
+ G  q1079   
+ G  q1080   
+ G  q1081   
+ G  q1082   
+ G  q1083   
+ G  q1084   
+ G  q1085   
+ G  q1086   
+ G  q1087   
+ G  q1088   
+ G  q1089   
+ G  q1090   
+ G  q1091   
+ G  q1092   
+ G  q1093   
+ G  q1094   
+ G  q1095   
+ G  q1096   
+ G  q1097   
+ G  q1098   
+ G  q1099   
+ G  q1100   
+ G  q1101   
+ G  q1102   
+ G  q1103   
+ G  q1104   
+ G  q1105   
+ G  q1106   
+ G  q1107   
+ G  q1108   
+ G  q1109   
+ G  q1110   
+ G  q1111   
+ G  q1112   
+ G  q1113   
+ G  q1114   
+ G  q1115   
+ G  q1116   
+ G  q1117   
+ G  q1118   
+ G  q1119   
+ G  q1120   
+ G  q1121   
+ G  q1122   
+ G  q1123   
+ G  q1124   
+ G  q1125   
+ G  q1126   
+ G  q1127   
+ G  q1128   
+ G  q1129   
+ G  q1130   
+ G  q1131   
+ G  q1132   
+ G  q1133   
+ G  q1134   
+ G  q1135   
+ G  q1136   
+ G  q1137   
+ G  q1138   
+ G  q1139   
+ G  q1140   
+ G  q1141   
+ G  q1142   
+ G  q1143   
+ G  q1144   
+ G  q1145   
+ G  q1146   
+ G  q1147   
+ G  q1148   
+ G  q1149   
+ G  q1150   
+ G  q1151   
+ G  q1152   
+ G  q1153   
+ G  q1154   
+ G  q1155   
+ G  q1156   
+ G  q1157   
+ G  q1158   
+ G  q1159   
+ G  q1160   
+ G  q1161   
+ G  q1162   
+ G  q1163   
+ G  q1164   
+ G  q1165   
+ G  q1166   
+ G  q1167   
+ G  q1168   
+ G  q1169   
+ G  q1170   
+ G  q1171   
+ G  q1172   
+ G  q1173   
+ G  q1174   
+ G  q1175   
+ G  q1176   
+ G  q1177   
+ G  q1178   
+ G  q1179   
+ G  q1180   
+ G  q1181   
+ G  q1182   
+ G  q1183   
+ G  q1184   
+ G  q1185   
+ G  q1186   
+ G  q1187   
+ G  q1188   
+ G  q1189   
+ G  q1190   
+ G  q1191   
+ G  q1192   
+ G  q1193   
+ G  q1194   
+ G  q1195   
+ G  q1196   
+ G  q1197   
+ G  q1198   
+ G  q1199   
+ G  q1200   
+ G  q1201   
+ G  q1202   
+ G  q1203   
+ G  q1204   
+ G  q1205   
+ G  q1206   
+ G  q1207   
+ G  q1208   
+ G  q1209   
+ G  q1210   
+ G  q1211   
+ G  q1212   
+ G  q1213   
+ G  q1214   
+ G  q1215   
+ G  q1216   
+ G  q1217   
+ G  q1218   
+ G  q1219   
+ G  q1220   
+ G  q1221   
+ G  q1222   
+ G  q1223   
+ G  q1224   
+ G  q1225   
+ G  q1226   
+ G  q1227   
+ G  q1228   
+ G  q1229   
+ G  q1230   
+ G  q1231   
+ G  q1232   
+ G  q1233   
+ G  q1234   
+ G  q1235   
+ G  q1236   
+ G  q1237   
+ G  q1238   
+ G  q1239   
+ G  q1240   
+ G  q1241   
+ G  q1242   
+ G  q1243   
+ G  q1244   
+ G  q1245   
+ G  q1246   
+ G  q1247   
+ G  q1248   
+ G  q1249   
+ G  q1250   
+ G  q1251   
+ G  q1252   
+ G  q1253   
+ G  q1254   
+ G  q1255   
+ G  q1256   
+ G  q1257   
+ G  q1258   
+ G  q1259   
+ G  q1260   
+ G  q1261   
+ G  q1262   
+ G  q1263   
+ G  q1264   
+ G  q1265   
+ G  q1266   
+ G  q1267   
+ G  q1268   
+ G  q1269   
+ G  q1270   
+ G  q1271   
+ G  q1272   
+ G  q1273   
+ G  q1274   
+ G  q1275   
+ G  q1276   
+ G  q1277   
+ G  q1278   
+ G  q1279   
+ G  q1280   
+ G  q1281   
+ G  q1282   
+ G  q1283   
+ G  q1284   
+ G  q1285   
+ G  q1286   
+ G  q1287   
+ G  q1288   
+ G  q1289   
+ G  q1290   
+ G  q1291   
+ G  q1292   
+ G  q1293   
+ G  q1294   
+ G  q1295   
+ G  q1296   
+ G  q1297   
+ G  q1298   
+ G  q1299   
+ G  q1300   
+ G  q1301   
+ G  q1302   
+ G  q1303   
+ G  q1304   
+ G  q1305   
+ G  q1306   
+ G  q1307   
+ G  q1308   
+ G  q1309   
+ G  q1310   
+ G  q1311   
+ G  q1312   
+ G  q1313   
+ G  q1314   
+ G  q1315   
+ G  q1316   
+ G  q1317   
+ G  q1318   
+ G  q1319   
+ G  q1320   
+ G  q1321   
+ G  q1322   
+ G  q1323   
+ G  q1324   
+ G  q1325   
+ G  q1326   
+ G  q1327   
+ G  q1328   
+ G  q1329   
+ G  q1330   
+ G  q1331   
+ G  q1332   
+ G  q1333   
+ G  q1334   
+ G  q1335   
+ G  q1336   
+ G  q1337   
+ G  q1338   
+ G  q1339   
+ G  q1340   
+ G  q1341   
+ G  q1342   
+ G  q1343   
+ G  q1344   
+ G  q1345   
+ G  q1346   
+ G  q1347   
+ G  q1348   
+ G  q1349   
+ G  q1350   
+COLUMNS
+    MARK0000  'MARKER'                 'INTORG'
+    id99733   obj             -2.89559076768141
+    id99733   id100637         1.49116301373167
+    id99733   id100641       -0.347605525530729
+    id99733   id101841                        1
+    id99733   id102143                        1
+    id99733   id102146                       -1
+    id99733   id102199                        1
+    id99733   id102202                        1
+    MARK0001  'MARKER'                 'INTEND'
+    id99737   obj                             1
+    id99737   id102157                        1
+    id99737   id102160                       -1
+    id99737   id102199                        1
+    id99737   id102202                       -1
+    MARK0002  'MARKER'                 'INTORG'
+    id99734   obj             -3.00006001116711
+    id99734   id100639         2.99091259482825
+    id99734   id100645        -1.24965395195354
+    id99734   id101841                        1
+    id99734   id102273                        1
+    id99734   id102276                       -1
+    MARK0003  'MARKER'                 'INTEND'
+    id99738   obj                             1
+    id99738   id102229                        1
+    id99738   id102232                       -1
+    id99738   id102257                        1
+    id99738   id102260                       -1
+    MARK0004  'MARKER'                 'INTORG'
+    id99739   obj             -3.67678731199204
+    id99739   id100637         2.11546603269664
+    id99739   id100649       -0.946492062768459
+    id99739   id101843                        1
+    MARK0005  'MARKER'                 'INTEND'
+    id99743   obj                             1
+    id99743   id102287                        1
+    id99743   id102290                       -1
+    MARK0006  'MARKER'                 'INTORG'
+    id99740   obj             -3.58407269119475
+    id99740   id100639         1.69060787683847
+    id99740   id100653       -0.961460587161664
+    id99740   id101843                        1
+    id99740   id102315                        1
+    id99740   id102318                       -1
+    MARK0007  'MARKER'                 'INTEND'
+    id99744   obj                             1
+    id99744   id102301                        1
+    id99744   id102304                       -1
+    id99744   id102331                        1
+    id99744   id102334                       -1
+    MARK0008  'MARKER'                 'INTORG'
+    id99745   obj              -5.2840836603586
+    id99745   id100637         1.50142280408248
+    id99745   id100657       -0.373024551396307
+    id99745   id101845                        1
+    id99745   id102345                        1
+    id99745   id102348                       -1
+    MARK0009  'MARKER'                 'INTEND'
+    id99749   obj                             1
+    id99749   id102359                        1
+    id99749   id102362                       -1
+    id99749   id102389                        1
+    id99749   id102392                       -1
+    MARK0010  'MARKER'                 'INTORG'
+    id99746   obj             -5.65535746312484
+    id99746   id100639         1.11886762274376
+    id99746   id100661       -0.607255595622113
+    id99746   id101845                        1
+    id99746   id102403                        1
+    id99746   id102406                       -1
+    id99746   id102431                        1
+    id99746   id102434                        1
+    MARK0011  'MARKER'                 'INTEND'
+    id99750   obj                             1
+    id99750   id102431                        1
+    id99750   id102434                       -1
+    id99750   id102461                        1
+    id99750   id102464                       -1
+    MARK0012  'MARKER'                 'INTORG'
+    id99751   obj             -5.11966290470197
+    id99751   id100637         1.96900197070511
+    id99751   id100665        -1.28064589318102
+    id99751   id101847                        1
+    id99751   id102475                        1
+    id99751   id102478                        1
+    id99751   id102489                        1
+    id99751   id102492                       -1
+    id99751   id102517                        1
+    id99751   id102520                        1
+    MARK0013  'MARKER'                 'INTEND'
+    id99755   obj                             1
+    id99755   id102475                        1
+    id99755   id102478                       -1
+    id99755   id102517                        1
+    id99755   id102520                       -1
+    MARK0014  'MARKER'                 'INTORG'
+    id99752   obj             -5.16689582316526
+    id99752   id100639         2.63166910020247
+    id99752   id100669       -0.551000423851439
+    id99752   id101847                        1
+    id99752   id102591                        1
+    id99752   id102594                       -1
+    MARK0015  'MARKER'                 'INTEND'
+    id99756   obj                             1
+    id99756   id102547                        1
+    id99756   id102550                       -1
+    id99756   id102575                        1
+    id99756   id102578                       -1
+    MARK0016  'MARKER'                 'INTORG'
+    id99757   obj             -4.98538653319021
+    id99757   id100637         1.14161111421027
+    id99757   id100673       -0.910796733361437
+    id99757   id101849                        1
+    id99757   id102605                        1
+    id99757   id102608                       -1
+    id99757   id102661                        1
+    id99757   id102664                        1
+    MARK0017  'MARKER'                 'INTEND'
+    id99761   obj                             1
+    id99761   id102619                        1
+    id99761   id102622                       -1
+    id99761   id102661                        1
+    id99761   id102664                       -1
+    MARK0018  'MARKER'                 'INTORG'
+    id99758   obj              -3.9211877239501
+    id99758   id100639         1.71877974212113
+    id99758   id100677        -1.27137493908946
+    id99758   id101849                        1
+    id99758   id102691                        1
+    id99758   id102694                       -1
+    id99758   id102719                        1
+    id99758   id102722                       -1
+    id99758   id102747                        1
+    id99758   id102750                        1
+    MARK0019  'MARKER'                 'INTEND'
+    id99762   obj                             1
+    id99762   id102705                        1
+    id99762   id102708                       -1
+    id99762   id102747                        1
+    id99762   id102750                       -1
+    MARK0020  'MARKER'                 'INTORG'
+    id99763   obj             -3.27061602532427
+    id99763   id100637         1.62370548798875
+    id99763   id100681        -1.02001715792447
+    id99763   id101851                        1
+    id99763   id102777                        1
+    id99763   id102780                       -1
+    id99763   id102805                        1
+    id99763   id102808                        1
+    MARK0021  'MARKER'                 'INTEND'
+    id99767   obj                             1
+    id99767   id102805                        1
+    id99767   id102808                       -1
+    MARK0022  'MARKER'                 'INTORG'
+    id99764   obj             -3.74469017318668
+    id99764   id100639         1.65636779677885
+    id99764   id100685        -0.58687773656374
+    id99764   id101851                        1
+    id99764   id102849                        1
+    id99764   id102852                       -1
+    MARK0023  'MARKER'                 'INTEND'
+    id99768   obj                             1
+    id99768   id102835                        1
+    id99768   id102838                       -1
+    id99768   id102865                        1
+    id99768   id102868                       -1
+    MARK0024  'MARKER'                 'INTORG'
+    id99769   obj             -3.50318147498331
+    id99769   id100637         1.67587816001655
+    id99769   id100689       -0.626411147120709
+    id99769   id101853                        1
+    id99769   id102879                        1
+    id99769   id102882                       -1
+    id99769   id102935                        1
+    id99769   id102938                        1
+    MARK0025  'MARKER'                 'INTEND'
+    id99773   obj                             1
+    id99773   id102893                        1
+    id99773   id102896                       -1
+    id99773   id102935                        1
+    id99773   id102938                       -1
+    MARK0026  'MARKER'                 'INTORG'
+    id99770   obj             -2.29240397377517
+    id99770   id100639         2.72174025220878
+    id99770   id100693        -1.93736201539869
+    id99770   id101853                        1
+    id99770   id102965                        1
+    id99770   id102968                       -1
+    MARK0027  'MARKER'                 'INTEND'
+    id99774   obj                             1
+    id99774   id102979                        1
+    id99774   id102982                       -1
+    id99774   id103009                        1
+    id99774   id103012                       -1
+    MARK0028  'MARKER'                 'INTORG'
+    id99775   obj              -5.1215481381498
+    id99775   id100637         2.20737864226446
+    id99775   id100697        -1.19919507647005
+    id99775   id101855                        1
+    id99775   id103023                        1
+    id99775   id103026                       -1
+    id99775   id103051                        1
+    id99775   id103054                       -1
+    id99775   id103079                        1
+    id99775   id103082                        1
+    MARK0029  'MARKER'                 'INTEND'
+    id99779   obj                             1
+    id99779   id103037                        1
+    id99779   id103040                       -1
+    id99779   id103079                        1
+    id99779   id103082                       -1
+    MARK0030  'MARKER'                 'INTORG'
+    id99776   obj             -5.84034751534478
+    id99776   id100639         2.17546527514954
+    id99776   id100701        -1.35718599933143
+    id99776   id101855                        1
+    id99776   id103109                        1
+    id99776   id103112                       -1
+    MARK0031  'MARKER'                 'INTEND'
+    id99780   obj                             1
+    id99780   id103123                        1
+    id99780   id103126                       -1
+    id99780   id103153                        1
+    id99780   id103156                       -1
+    MARK0032  'MARKER'                 'INTORG'
+    id99781   obj             -3.92375970907684
+    id99781   id100637         2.40559029458351
+    id99781   id100705        -1.86852329312771
+    id99781   id101857                        1
+    id99781   id103167                        1
+    id99781   id103170                       -1
+    id99781   id103195                        1
+    id99781   id103198                        1
+    MARK0033  'MARKER'                 'INTEND'
+    id99785   obj                             1
+    id99785   id103195                        1
+    id99785   id103198                       -1
+    id99785   id103225                        1
+    id99785   id103228                       -1
+    MARK0034  'MARKER'                 'INTORG'
+    id99782   obj             -4.89920019493401
+    id99782   id100639         2.72146123355323
+    id99782   id100709       -0.613614484989493
+    id99782   id101857                        1
+    id99782   id103281                        1
+    id99782   id103284                        1
+    MARK0035  'MARKER'                 'INTEND'
+    id99786   obj                             1
+    id99786   id103239                        1
+    id99786   id103242                       -1
+    id99786   id103281                        1
+    id99786   id103284                       -1
+    MARK0036  'MARKER'                 'INTORG'
+    id99787   obj             -5.91723162304481
+    id99787   id100637         2.51225246745732
+    id99787   id100713        -1.12872556348702
+    id99787   id101859                        1
+    id99787   id103311                        1
+    id99787   id103314                       -1
+    MARK0037  'MARKER'                 'INTEND'
+    id99791   obj                             1
+    id99791   id103325                        1
+    id99791   id103328                       -1
+    id99791   id103355                        1
+    id99791   id103358                       -1
+    MARK0038  'MARKER'                 'INTORG'
+    id99788   obj             -5.31896017087575
+    id99788   id100639         2.34534781488839
+    id99788   id100717       -0.758300779219039
+    id99788   id101859                        1
+    id99788   id103369                        1
+    id99788   id103372                       -1
+    id99788   id103397                        1
+    id99788   id103400                        1
+    id99788   id103439                        1
+    id99788   id103442                        1
+    MARK0039  'MARKER'                 'INTEND'
+    id99792   obj                             1
+    id99792   id103397                        1
+    id99792   id103400                       -1
+    id99792   id103439                        1
+    id99792   id103442                       -1
+    MARK0040  'MARKER'                 'INTORG'
+    id99793   obj               -4.652821730195
+    id99793   id100637         1.99034029012096
+    id99793   id100721        -1.27736826534095
+    id99793   id101861                        1
+    id99793   id103469                        1
+    id99793   id103472                        1
+    MARK0041  'MARKER'                 'INTEND'
+    id99797   obj                             1
+    id99797   id103469                        1
+    id99797   id103472                       -1
+    MARK0042  'MARKER'                 'INTORG'
+    id99794   obj             -3.63194351346788
+    id99794   id100639         2.17864629122366
+    id99794   id100725        -0.68196802708446
+    id99794   id101861                        1
+    id99794   id103499                        1
+    id99794   id103502                        1
+    id99794   id103513                        1
+    id99794   id103516                       -1
+    id99794   id103541                        1
+    id99794   id103544                        1
+    MARK0043  'MARKER'                 'INTEND'
+    id99798   obj                             1
+    id99798   id103499                        1
+    id99798   id103502                       -1
+    id99798   id103541                        1
+    id99798   id103544                       -1
+    MARK0044  'MARKER'                 'INTORG'
+    id99799   obj              -4.8056455286246
+    id99799   id100637         2.52096780553505
+    id99799   id100729        -1.50476305203014
+    id99799   id101863                        1
+    id99799   id103571                        1
+    id99799   id103574                       -1
+    id99799   id103599                        1
+    id99799   id103602                        1
+    MARK0045  'MARKER'                 'INTEND'
+    id99803   obj                             1
+    id99803   id103599                        1
+    id99803   id103602                       -1
+    id99803   id103629                        1
+    id99803   id103632                       -1
+    MARK0046  'MARKER'                 'INTORG'
+    id99800   obj             -4.45014534818481
+    id99800   id100639         1.73586354345822
+    id99800   id100733       -0.444529931848924
+    id99800   id101863                        1
+    id99800   id103643                        1
+    id99800   id103646                       -1
+    MARK0047  'MARKER'                 'INTEND'
+    id99804   obj                             1
+    id99804   id103657                        1
+    id99804   id103660                       -1
+    id99804   id103687                        1
+    id99804   id103690                       -1
+    MARK0048  'MARKER'                 'INTORG'
+    id99805   obj             -2.02701893636352
+    id99805   id100637         1.10942624328166
+    id99805   id100737       -0.708848893334481
+    id99805   id101865                        1
+    id99805   id103701                        1
+    id99805   id103704                       -1
+    id99805   id103729                        1
+    id99805   id103732                        1
+    id99805   id103757                        1
+    id99805   id103760                        1
+    MARK0049  'MARKER'                 'INTEND'
+    id99809   obj                             1
+    id99809   id103729                        1
+    id99809   id103732                       -1
+    id99809   id103785                        1
+    id99809   id103788                       -1
+    MARK0050  'MARKER'                 'INTORG'
+    id99806   obj             -2.53164774576744
+    id99806   id100639         2.54801767484658
+    id99806   id100741       -0.681166419810457
+    id99806   id101865                        1
+    MARK0051  'MARKER'                 'INTEND'
+    id99810   obj                             1
+    id99810   id103815                        1
+    id99810   id103818                       -1
+    MARK0052  'MARKER'                 'INTORG'
+    id99811   obj             -2.35210839302843
+    id99811   id100637         2.05540058252187
+    id99811   id100745        -1.54290758621333
+    id99811   id101867                        1
+    id99811   id103843                        1
+    id99811   id103846                       -1
+    MARK0053  'MARKER'                 'INTEND'
+    id99815   obj                             1
+    id99815   id103829                        1
+    id99815   id103832                       -1
+    id99815   id103859                        1
+    id99815   id103862                       -1
+    MARK0054  'MARKER'                 'INTORG'
+    id99812   obj             -4.45778081121751
+    id99812   id100639         1.24660510301898
+    id99812   id100749       -0.456993439588099
+    id99812   id101867                        1
+    id99812   id103873                        1
+    id99812   id103876                       -1
+    id99812   id103901                        1
+    id99812   id103904                        1
+    id99812   id103943                        1
+    id99812   id103946                        1
+    MARK0055  'MARKER'                 'INTEND'
+    id99816   obj                             1
+    id99816   id103901                        1
+    id99816   id103904                       -1
+    id99816   id103943                        1
+    id99816   id103946                       -1
+    MARK0056  'MARKER'                 'INTORG'
+    id99817   obj             -2.84394874090513
+    id99817   id100637         1.02791412176002
+    id99817   id100753       -0.587333516185941
+    id99817   id101869                        1
+    id99817   id103973                        1
+    id99817   id103976                       -1
+    id99817   id104001                        1
+    id99817   id104004                        1
+    id99817   id104043                        1
+    id99817   id104046                        1
+    MARK0057  'MARKER'                 'INTEND'
+    id99821   obj                             1
+    id99821   id104001                        1
+    id99821   id104004                       -1
+    id99821   id104043                        1
+    id99821   id104046                       -1
+    MARK0058  'MARKER'                 'INTORG'
+    id99818   obj              -5.8980518690767
+    id99818   id100639         2.61469195299535
+    id99818   id100757        -1.58333876423414
+    id99818   id101869                        1
+    id99818   id104073                        1
+    id99818   id104076                        1
+    MARK0059  'MARKER'                 'INTEND'
+    id99822   obj                             1
+    id99822   id104073                        1
+    id99822   id104076                       -1
+    id99822   id104103                        1
+    id99822   id104106                       -1
+    MARK0060  'MARKER'                 'INTORG'
+    id99823   obj             -5.18517069108094
+    id99823   id100637         1.67484521804137
+    id99823   id100761       -0.745804230392918
+    id99823   id101871                        1
+    id99823   id104117                        1
+    id99823   id104120                       -1
+    MARK0061  'MARKER'                 'INTEND'
+    id99827   obj                             1
+    id99827   id104133                        1
+    id99827   id104136                       -1
+    MARK0062  'MARKER'                 'INTORG'
+    id99824   obj             -5.66418567656734
+    id99824   id100639         2.00461054640106
+    id99824   id100765        -1.51083626424111
+    id99824   id101871                        1
+    id99824   id104147                        1
+    id99824   id104150                       -1
+    MARK0063  'MARKER'                 'INTEND'
+    id99828   obj                             1
+    id99828   id104161                        1
+    id99828   id104164                       -1
+    id99828   id104191                        1
+    id99828   id104194                       -1
+    MARK0064  'MARKER'                 'INTORG'
+    id99829   obj                -5.10432519722
+    id99829   id100637          2.3087118721142
+    id99829   id100769        -1.72090446009205
+    id99829   id101873                        1
+    id99829   id104205                        1
+    id99829   id104208                        1
+    id99829   id104249                        1
+    id99829   id104252                       -1
+    MARK0065  'MARKER'                 'INTEND'
+    id99833   obj                             1
+    id99833   id104205                        1
+    id99833   id104208                       -1
+    id99833   id104233                        1
+    id99833   id104236                       -1
+    MARK0066  'MARKER'                 'INTORG'
+    id99830   obj             -3.88984853117254
+    id99830   id100639         1.04242615589985
+    id99830   id100773        -0.55904641190815
+    id99830   id101873                        1
+    id99830   id104263                        1
+    id99830   id104266                       -1
+    MARK0067  'MARKER'                 'INTEND'
+    id99834   obj                             1
+    id99834   id104279                        1
+    id99834   id104282                       -1
+    MARK0068  'MARKER'                 'INTORG'
+    id99835   obj             -5.83399937852938
+    id99835   id100637         1.95651274312125
+    id99835   id100777         -1.0638871199285
+    id99835   id101875                        1
+    id99835   id104293                        1
+    id99835   id104296                       -1
+    MARK0069  'MARKER'                 'INTEND'
+    id99839   obj                             1
+    id99839   id104309                        1
+    id99839   id104312                       -1
+    MARK0070  'MARKER'                 'INTORG'
+    id99836   obj             -4.99715026980133
+    id99836   id100639         2.70119136464838
+    id99836   id100781        -2.09656979470163
+    id99836   id101875                        1
+    id99836   id104323                        1
+    id99836   id104326                       -1
+    id99836   id104351                        1
+    id99836   id104354                        1
+    id99836   id104395                        1
+    id99836   id104398                       -1
+    MARK0071  'MARKER'                 'INTEND'
+    id99840   obj                             1
+    id99840   id104351                        1
+    id99840   id104354                       -1
+    id99840   id104379                        1
+    id99840   id104382                       -1
+    MARK0072  'MARKER'                 'INTORG'
+    id99841   obj             -2.88012647669768
+    id99841   id100637         2.15849563160841
+    id99841   id100785       -0.683653309713546
+    id99841   id101877                        1
+    id99841   id104451                        1
+    id99841   id104454                        1
+    MARK0073  'MARKER'                 'INTEND'
+    id99845   obj                             1
+    id99845   id104409                        1
+    id99845   id104412                       -1
+    id99845   id104451                        1
+    id99845   id104454                       -1
+    MARK0074  'MARKER'                 'INTORG'
+    id99842   obj             -3.87133179692148
+    id99842   id100639         2.74093787080652
+    id99842   id100789       -0.982558725390564
+    id99842   id101877                        1
+    MARK0075  'MARKER'                 'INTEND'
+    id99846   obj                             1
+    id99846   id104481                        1
+    id99846   id104484                       -1
+    MARK0076  'MARKER'                 'INTORG'
+    id99847   obj             -5.81769468626831
+    id99847   id100637         2.34590926177144
+    id99847   id100793        -1.69440816043229
+    id99847   id101879                        1
+    id99847   id104495                        1
+    id99847   id104498                       -1
+    id99847   id104523                        1
+    id99847   id104526                        1
+    MARK0077  'MARKER'                 'INTEND'
+    id99851   obj                             1
+    id99851   id104523                        1
+    id99851   id104526                       -1
+    MARK0078  'MARKER'                 'INTORG'
+    id99848   obj             -5.65298370069497
+    id99848   id100639         2.58654248695194
+    id99848   id100797        -1.58709298878387
+    id99848   id101879                        1
+    id99848   id104553                        1
+    id99848   id104556                       -1
+    id99848   id104611                        1
+    id99848   id104614                       -1
+    MARK0079  'MARKER'                 'INTEND'
+    id99852   obj                             1
+    id99852   id104567                        1
+    id99852   id104570                       -1
+    id99852   id104595                        1
+    id99852   id104598                       -1
+    MARK0080  'MARKER'                 'INTORG'
+    id99853   obj             -4.92911319384776
+    id99853   id100637         2.19664091951989
+    id99853   id100801        -0.70917290879527
+    id99853   id101881                        1
+    id99853   id104625                        1
+    id99853   id104628                        1
+    id99853   id104639                        1
+    id99853   id104642                       -1
+    id99853   id104667                        1
+    id99853   id104670                        1
+    MARK0081  'MARKER'                 'INTEND'
+    id99857   obj                             1
+    id99857   id104625                        1
+    id99857   id104628                       -1
+    id99857   id104667                        1
+    id99857   id104670                       -1
+    MARK0082  'MARKER'                 'INTORG'
+    id99854   obj             -5.50396781205384
+    id99854   id100639         2.53045932367931
+    id99854   id100805         -1.7730803939609
+    id99854   id101881                        1
+    id99854   id104697                        1
+    id99854   id104700                        1
+    MARK0083  'MARKER'                 'INTEND'
+    id99858   obj                             1
+    id99858   id104697                        1
+    id99858   id104700                       -1
+    MARK0084  'MARKER'                 'INTORG'
+    id99859   obj             -2.67378762582028
+    id99859   id100637         1.81487368737109
+    id99859   id100809        -1.36231802668477
+    id99859   id101883                        1
+    id99859   id104727                        1
+    id99859   id104730                        1
+    MARK0085  'MARKER'                 'INTEND'
+    id99863   obj                             1
+    id99863   id104727                        1
+    id99863   id104730                       -1
+    id99863   id104757                        1
+    id99863   id104760                       -1
+    MARK0086  'MARKER'                 'INTORG'
+    id99860   obj             -5.38017982401893
+    id99860   id100639         2.75601845223271
+    id99860   id100813       -0.658815034877635
+    id99860   id101883                        1
+    id99860   id104771                        1
+    id99860   id104774                       -1
+    id99860   id104799                        1
+    id99860   id104802                        1
+    MARK0087  'MARKER'                 'INTEND'
+    id99864   obj                             1
+    id99864   id104799                        1
+    id99864   id104802                       -1
+    id99864   id104829                        1
+    id99864   id104832                       -1
+    MARK0088  'MARKER'                 'INTORG'
+    id99865   obj             -2.49034107313042
+    id99865   id100637         1.51924232138286
+    id99865   id100817       -0.842041470293254
+    id99865   id101885                        1
+    id99865   id104857                        1
+    id99865   id104860                       -1
+    id99865   id104885                        1
+    id99865   id104888                        1
+    MARK0089  'MARKER'                 'INTEND'
+    id99869   obj                             1
+    id99869   id104843                        1
+    id99869   id104846                       -1
+    id99869   id104885                        1
+    id99869   id104888                       -1
+    MARK0090  'MARKER'                 'INTORG'
+    id99866   obj             -5.37540333688976
+    id99866   id100639         2.70908767809583
+    id99866   id100821        -1.83937491128571
+    id99866   id101885                        1
+    id99866   id104915                        1
+    id99866   id104918                       -1
+    id99866   id104943                        1
+    id99866   id104946                        1
+    MARK0091  'MARKER'                 'INTEND'
+    id99870   obj                             1
+    id99870   id104943                        1
+    id99870   id104946                       -1
+    MARK0092  'MARKER'                 'INTORG'
+    id99871   obj             -3.35192656021189
+    id99871   id100637          2.3374891902029
+    id99871   id100825        -0.81984286818656
+    id99871   id101887                        1
+    id99871   id104973                        1
+    id99871   id104976                       -1
+    MARK0093  'MARKER'                 'INTEND'
+    id99875   obj                             1
+    id99875   id104989                        1
+    id99875   id104992                       -1
+    MARK0094  'MARKER'                 'INTORG'
+    id99872   obj             -4.81103349235423
+    id99872   id100639         2.88110957754828
+    id99872   id100829          -1.328254907298
+    id99872   id101887                        1
+    id99872   id105003                        1
+    id99872   id105006                       -1
+    id99872   id105031                        1
+    id99872   id105034                        1
+    MARK0095  'MARKER'                 'INTEND'
+    id99876   obj                             1
+    id99876   id105031                        1
+    id99876   id105034                       -1
+    MARK0096  'MARKER'                 'INTORG'
+    id99877   obj             -5.63857207244196
+    id99877   id100637          2.2795542037485
+    id99877   id100833        -1.53044934073526
+    id99877   id101889                        1
+    id99877   id105061                        1
+    id99877   id105064                       -1
+    id99877   id105089                        1
+    id99877   id105092                        1
+    MARK0097  'MARKER'                 'INTEND'
+    id99881   obj                             1
+    id99881   id105089                        1
+    id99881   id105092                       -1
+    id99881   id105119                        1
+    id99881   id105122                       -1
+    MARK0098  'MARKER'                 'INTORG'
+    id99878   obj             -2.63363514311315
+    id99878   id100639         2.24025353474554
+    id99878   id100837       -0.887394479501516
+    id99878   id101889                        1
+    id99878   id105133                        1
+    id99878   id105136                        1
+    id99878   id105147                        1
+    id99878   id105150                       -1
+    MARK0099  'MARKER'                 'INTEND'
+    id99882   obj                             1
+    id99882   id105133                        1
+    id99882   id105136                       -1
+    id99882   id105161                        1
+    id99882   id105164                       -1
+    MARK0100  'MARKER'                 'INTORG'
+    id99883   obj             -4.59397118473145
+    id99883   id100637         1.48918033227752
+    id99883   id100841       -0.738816094315966
+    id99883   id101891                        1
+    id99883   id105191                        1
+    id99883   id105194                        1
+    id99883   id105205                        1
+    id99883   id105208                       -1
+    MARK0101  'MARKER'                 'INTEND'
+    id99887   obj                             1
+    id99887   id105191                        1
+    id99887   id105194                       -1
+    id99887   id105219                        1
+    id99887   id105222                       -1
+    MARK0102  'MARKER'                 'INTORG'
+    id99884   obj             -3.14238454640954
+    id99884   id100639         2.11722865287085
+    id99884   id100845       -0.941973750169118
+    id99884   id101891                        1
+    id99884   id105249                        1
+    id99884   id105252                        1
+    id99884   id105263                        1
+    id99884   id105266                       -1
+    id99884   id105291                        1
+    id99884   id105294                        1
+    MARK0103  'MARKER'                 'INTEND'
+    id99888   obj                             1
+    id99888   id105249                        1
+    id99888   id105252                       -1
+    id99888   id105291                        1
+    id99888   id105294                       -1
+    MARK0104  'MARKER'                 'INTORG'
+    id99889   obj             -4.31942573670271
+    id99889   id100637         2.99719924572725
+    id99889   id100849        -1.36140091145924
+    id99889   id101893                        1
+    MARK0105  'MARKER'                 'INTEND'
+    id99893   obj                             1
+    id99893   id105321                        1
+    id99893   id105324                       -1
+    MARK0106  'MARKER'                 'INTORG'
+    id99890   obj             -5.79330233288617
+    id99890   id100639         1.44396354558131
+    id99890   id100853       -0.536843024659828
+    id99890   id101893                        1
+    id99890   id105335                        1
+    id99890   id105338                       -1
+    id99890   id105391                        1
+    id99890   id105394                        1
+    MARK0107  'MARKER'                 'INTEND'
+    id99894   obj                             1
+    id99894   id105349                        1
+    id99894   id105352                       -1
+    id99894   id105391                        1
+    id99894   id105394                       -1
+    MARK0108  'MARKER'                 'INTORG'
+    id99895   obj             -3.52256772365541
+    id99895   id100637         2.07506957513982
+    id99895   id100857       -0.518850774483881
+    id99895   id101895                        1
+    id99895   id105465                        1
+    id99895   id105468                       -1
+    MARK0109  'MARKER'                 'INTEND'
+    id99899   obj                             1
+    id99899   id105421                        1
+    id99899   id105424                       -1
+    id99899   id105449                        1
+    id99899   id105452                       -1
+    MARK0110  'MARKER'                 'INTORG'
+    id99896   obj             -3.41096882401545
+    id99896   id100639         2.03687395017449
+    id99896   id100861       -0.728042166211331
+    id99896   id101895                        1
+    id99896   id105521                        1
+    id99896   id105524                        1
+    MARK0111  'MARKER'                 'INTEND'
+    id99900   obj                             1
+    id99900   id105479                        1
+    id99900   id105482                       -1
+    id99900   id105521                        1
+    id99900   id105524                       -1
+    MARK0112  'MARKER'                 'INTORG'
+    id99901   obj             -2.06785929764987
+    id99901   id100637         1.09604038768264
+    id99901   id100865       -0.334538013358195
+    id99901   id101897                        1
+    id99901   id105551                        1
+    id99901   id105554                        1
+    MARK0113  'MARKER'                 'INTEND'
+    id99905   obj                             1
+    id99905   id105551                        1
+    id99905   id105554                       -1
+    MARK0114  'MARKER'                 'INTORG'
+    id99902   obj             -4.25288336083893
+    id99902   id100639         2.00445860577955
+    id99902   id100869       -0.655514452852681
+    id99902   id101897                        1
+    MARK0115  'MARKER'                 'INTEND'
+    id99906   obj                             1
+    id99906   id105581                        1
+    id99906   id105584                       -1
+    MARK0116  'MARKER'                 'INTORG'
+    id99907   obj             -4.78284228908962
+    id99907   id100637         2.41050277622906
+    id99907   id100873        -1.90136608289074
+    id99907   id101899                        1
+    id99907   id105595                        1
+    id99907   id105598                       -1
+    id99907   id105623                        1
+    id99907   id105626                        1
+    id99907   id105667                        1
+    id99907   id105670                       -1
+    MARK0117  'MARKER'                 'INTEND'
+    id99911   obj                             1
+    id99911   id105623                        1
+    id99911   id105626                       -1
+    id99911   id105651                        1
+    id99911   id105654                       -1
+    MARK0118  'MARKER'                 'INTORG'
+    id99908   obj             -5.47767544699725
+    id99908   id100639         1.77897622658823
+    id99908   id100877       -0.835345287206977
+    id99908   id101899                        1
+    id99908   id105681                        1
+    id99908   id105684                        1
+    MARK0119  'MARKER'                 'INTEND'
+    id99912   obj                             1
+    id99912   id105681                        1
+    id99912   id105684                       -1
+    id99912   id105711                        1
+    id99912   id105714                       -1
+    MARK0120  'MARKER'                 'INTORG'
+    id99913   obj              -2.3284048048446
+    id99913   id100637         2.74596512678357
+    id99913   id100881       -0.599323558740114
+    id99913   id101901                        1
+    id99913   id105725                        1
+    id99913   id105728                       -1
+    id99913   id105753                        1
+    id99913   id105756                        1
+    MARK0121  'MARKER'                 'INTEND'
+    id99917   obj                             1
+    id99917   id105753                        1
+    id99917   id105756                       -1
+    id99917   id105783                        1
+    id99917   id105786                       -1
+    MARK0122  'MARKER'                 'INTORG'
+    id99914   obj             -2.96492478855184
+    id99914   id100639         1.63346801448309
+    id99914   id100885       -0.936179521140127
+    id99914   id101901                        1
+    id99914   id105811                        1
+    id99914   id105814                       -1
+    MARK0123  'MARKER'                 'INTEND'
+    id99918   obj                             1
+    id99918   id105797                        1
+    id99918   id105800                       -1
+    id99918   id105827                        1
+    id99918   id105830                       -1
+    MARK0124  'MARKER'                 'INTORG'
+    id99919   obj             -5.94276281443553
+    id99919   id100637         2.41054686317711
+    id99919   id100889       -0.971594405833167
+    id99919   id101903                        1
+    id99919   id105841                        1
+    id99919   id105844                       -1
+    id99919   id105869                        1
+    id99919   id105872                        1
+    MARK0125  'MARKER'                 'INTEND'
+    id99923   obj                             1
+    id99923   id105869                        1
+    id99923   id105872                       -1
+    id99923   id105899                        1
+    id99923   id105902                       -1
+    MARK0126  'MARKER'                 'INTORG'
+    id99920   obj             -3.32943348462201
+    id99920   id100639         2.20163626652287
+    id99920   id100893       -0.901776822964638
+    id99920   id101903                        1
+    id99920   id105913                        1
+    id99920   id105916                       -1
+    MARK0127  'MARKER'                 'INTEND'
+    id99924   obj                             1
+    id99924   id105927                        1
+    id99924   id105930                       -1
+    id99924   id105957                        1
+    id99924   id105960                       -1
+    MARK0128  'MARKER'                 'INTORG'
+    id99925   obj             -3.52769793268652
+    id99925   id100637         2.04939361151745
+    id99925   id100897        -1.57206359491951
+    id99925   id101905                        1
+    id99925   id105971                        1
+    id99925   id105974                        1
+    MARK0129  'MARKER'                 'INTEND'
+    id99929   obj                             1
+    id99929   id105971                        1
+    id99929   id105974                       -1
+    MARK0130  'MARKER'                 'INTORG'
+    id99926   obj             -3.26794115326737
+    id99926   id100639         1.31371791768527
+    id99926   id100901       -0.272750850891921
+    id99926   id101905                        1
+    id99926   id106001                        1
+    id99926   id106004                       -1
+    id99926   id106057                        1
+    id99926   id106060                        1
+    MARK0131  'MARKER'                 'INTEND'
+    id99930   obj                             1
+    id99930   id106015                        1
+    id99930   id106018                       -1
+    id99930   id106057                        1
+    id99930   id106060                       -1
+    MARK0132  'MARKER'                 'INTORG'
+    id99931   obj             -5.09498231257078
+    id99931   id100637         2.98800513799675
+    id99931   id100905        -1.75066821734898
+    id99931   id101907                        1
+    id99931   id106087                        1
+    id99931   id106090                       -1
+    MARK0133  'MARKER'                 'INTEND'
+    id99935   obj                             1
+    id99935   id106101                        1
+    id99935   id106104                       -1
+    id99935   id106131                        1
+    id99935   id106134                       -1
+    MARK0134  'MARKER'                 'INTORG'
+    id99932   obj             -2.50390424416582
+    id99932   id100639         1.18487946884003
+    id99932   id100909       -0.384903779353337
+    id99932   id101907                        1
+    id99932   id106145                        1
+    id99932   id106148                        1
+    id99932   id106189                        1
+    id99932   id106192                       -1
+    MARK0135  'MARKER'                 'INTEND'
+    id99936   obj                             1
+    id99936   id106145                        1
+    id99936   id106148                       -1
+    id99936   id106173                        1
+    id99936   id106176                       -1
+    MARK0136  'MARKER'                 'INTORG'
+    id99937   obj             -5.08631367193829
+    id99937   id100637         1.47700809337059
+    id99937   id100913       -0.306753561386812
+    id99937   id101909                        1
+    id99937   id106203                        1
+    id99937   id106206                       -1
+    id99937   id106259                        1
+    id99937   id106262                        1
+    MARK0137  'MARKER'                 'INTEND'
+    id99941   obj                             1
+    id99941   id106217                        1
+    id99941   id106220                       -1
+    id99941   id106259                        1
+    id99941   id106262                       -1
+    MARK0138  'MARKER'                 'INTORG'
+    id99938   obj             -2.24154653225166
+    id99938   id100639         2.26936548541736
+    id99938   id100917       -0.516612886951179
+    id99938   id101909                        1
+    id99938   id106333                        1
+    id99938   id106336                       -1
+    MARK0139  'MARKER'                 'INTEND'
+    id99942   obj                             1
+    id99942   id106289                        1
+    id99942   id106292                       -1
+    id99942   id106317                        1
+    id99942   id106320                       -1
+    MARK0140  'MARKER'                 'INTORG'
+    id99943   obj             -3.63802739681584
+    id99943   id100637         1.76902049163776
+    id99943   id100921        -1.14122896443711
+    id99943   id101911                        1
+    id99943   id106391                        1
+    id99943   id106394                       -1
+    MARK0141  'MARKER'                 'INTEND'
+    id99947   obj                             1
+    id99947   id106347                        1
+    id99947   id106350                       -1
+    id99947   id106375                        1
+    id99947   id106378                       -1
+    MARK0142  'MARKER'                 'INTORG'
+    id99944   obj             -4.25466632202951
+    id99944   id100639         1.18237683092355
+    id99944   id100925       -0.907302345318154
+    id99944   id101911                        1
+    id99944   id106405                        1
+    id99944   id106408                       -1
+    id99944   id106433                        1
+    id99944   id106436                        1
+    MARK0143  'MARKER'                 'INTEND'
+    id99948   obj                             1
+    id99948   id106433                        1
+    id99948   id106436                       -1
+    id99948   id106463                        1
+    id99948   id106466                       -1
+    MARK0144  'MARKER'                 'INTORG'
+    id99949   obj             -4.53666682659493
+    id99949   id100637         2.78147277318941
+    id99949   id100929        -2.14365658093481
+    id99949   id101913                        1
+    id99949   id106477                        1
+    id99949   id106480                       -1
+    id99949   id106505                        1
+    id99949   id106508                        1
+    id99949   id106533                        1
+    id99949   id106536                        1
+    MARK0145  'MARKER'                 'INTEND'
+    id99953   obj                             1
+    id99953   id106505                        1
+    id99953   id106508                       -1
+    id99953   id106561                        1
+    id99953   id106564                       -1
+    MARK0146  'MARKER'                 'INTORG'
+    id99950   obj               -4.571245319476
+    id99950   id100639         2.92769571110965
+    id99950   id100933         -1.3172702652153
+    id99950   id101913                        1
+    id99950   id106591                        1
+    id99950   id106594                        1
+    id99950   id106635                        1
+    id99950   id106638                       -1
+    MARK0147  'MARKER'                 'INTEND'
+    id99954   obj                             1
+    id99954   id106591                        1
+    id99954   id106594                       -1
+    id99954   id106619                        1
+    id99954   id106622                       -1
+    MARK0148  'MARKER'                 'INTORG'
+    id99955   obj               -5.638822769578
+    id99955   id100637         1.11944269301344
+    id99955   id100937       -0.247854745184591
+    id99955   id101915                        1
+    id99955   id106649                        1
+    id99955   id106652                       -1
+    id99955   id106677                        1
+    id99955   id106680                        1
+    id99955   id106705                        1
+    id99955   id106708                        1
+    MARK0149  'MARKER'                 'INTEND'
+    id99959   obj                             1
+    id99959   id106677                        1
+    id99959   id106680                       -1
+    id99959   id106733                        1
+    id99959   id106736                       -1
+    MARK0150  'MARKER'                 'INTORG'
+    id99956   obj             -3.36536442365747
+    id99956   id100639         1.48751803137712
+    id99956   id100941        -0.39828550301194
+    id99956   id101915                        1
+    MARK0151  'MARKER'                 'INTEND'
+    id99960   obj                             1
+    id99960   id106763                        1
+    id99960   id106766                       -1
+    MARK0152  'MARKER'                 'INTORG'
+    id99961   obj             -2.47033351309147
+    id99961   id100637         1.25145827711162
+    id99961   id100945       -0.383924881680613
+    id99961   id101917                        1
+    id99961   id106777                        1
+    id99961   id106780                        1
+    id99961   id106791                        1
+    id99961   id106794                       -1
+    id99961   id106819                        1
+    id99961   id106822                        1
+    MARK0153  'MARKER'                 'INTEND'
+    id99965   obj                             1
+    id99965   id106777                        1
+    id99965   id106780                       -1
+    id99965   id106819                        1
+    id99965   id106822                       -1
+    MARK0154  'MARKER'                 'INTORG'
+    id99962   obj              -2.1500044652028
+    id99962   id100639         1.44809469601516
+    id99962   id100949        -0.67800485755733
+    id99962   id101917                        1
+    id99962   id106863                        1
+    id99962   id106866                       -1
+    id99962   id106891                        1
+    id99962   id106894                        1
+    MARK0155  'MARKER'                 'INTEND'
+    id99966   obj                             1
+    id99966   id106849                        1
+    id99966   id106852                       -1
+    id99966   id106891                        1
+    id99966   id106894                       -1
+    MARK0156  'MARKER'                 'INTORG'
+    id99967   obj             -2.40147222224692
+    id99967   id100637         1.37774637079693
+    id99967   id100953       -0.824472060115987
+    id99967   id101919                        1
+    id99967   id106921                        1
+    id99967   id106924                       -1
+    id99967   id106949                        1
+    id99967   id106952                        1
+    MARK0157  'MARKER'                 'INTEND'
+    id99971   obj                             1
+    id99971   id106949                        1
+    id99971   id106952                       -1
+    MARK0158  'MARKER'                 'INTORG'
+    id99968   obj             -4.37554389162713
+    id99968   id100639         2.21925139949622
+    id99968   id100957       -0.747514016236657
+    id99968   id101919                        1
+    id99968   id106979                        1
+    id99968   id106982                        1
+    id99968   id107023                        1
+    id99968   id107026                       -1
+    MARK0159  'MARKER'                 'INTEND'
+    id99972   obj                             1
+    id99972   id106979                        1
+    id99972   id106982                       -1
+    id99972   id107007                        1
+    id99972   id107010                       -1
+    MARK0160  'MARKER'                 'INTORG'
+    id99973   obj             -5.58378729018559
+    id99973   id100637         1.35840934811086
+    id99973   id100961       -0.710794335609843
+    id99973   id101921                        1
+    id99973   id107037                        1
+    id99973   id107040                       -1
+    id99973   id107065                        1
+    id99973   id107068                        1
+    id99973   id107109                        1
+    id99973   id107112                       -1
+    MARK0161  'MARKER'                 'INTEND'
+    id99977   obj                             1
+    id99977   id107065                        1
+    id99977   id107068                       -1
+    id99977   id107093                        1
+    id99977   id107096                       -1
+    MARK0162  'MARKER'                 'INTORG'
+    id99974   obj             -4.19182972525797
+    id99974   id100639         2.91063011992286
+    id99974   id100965         -1.3813788675718
+    id99974   id101921                        1
+    id99974   id107123                        1
+    id99974   id107126                        1
+    MARK0163  'MARKER'                 'INTEND'
+    id99978   obj                             1
+    id99978   id107123                        1
+    id99978   id107126                       -1
+    id99978   id107153                        1
+    id99978   id107156                       -1
+    MARK0164  'MARKER'                 'INTORG'
+    id99979   obj             -2.40361181106587
+    id99979   id100637         1.98668975335857
+    id99979   id100969       -0.924498995145742
+    id99979   id101923                        1
+    id99979   id107181                        1
+    id99979   id107184                       -1
+    id99979   id107209                        1
+    id99979   id107212                        1
+    MARK0165  'MARKER'                 'INTEND'
+    id99983   obj                             1
+    id99983   id107167                        1
+    id99983   id107170                       -1
+    id99983   id107209                        1
+    id99983   id107212                       -1
+    MARK0166  'MARKER'                 'INTORG'
+    id99980   obj             -2.66878994957953
+    id99980   id100639         2.11032716609087
+    id99980   id100973       -0.782653911539093
+    id99980   id101923                        1
+    id99980   id107239                        1
+    id99980   id107242                       -1
+    id99980   id107267                        1
+    id99980   id107270                        1
+    id99980   id107311                        1
+    id99980   id107314                       -1
+    MARK0167  'MARKER'                 'INTEND'
+    id99984   obj                             1
+    id99984   id107267                        1
+    id99984   id107270                       -1
+    id99984   id107295                        1
+    id99984   id107298                       -1
+    MARK0168  'MARKER'                 'INTORG'
+    id99985   obj             -2.87746781896682
+    id99985   id100637         1.92550175493839
+    id99985   id100977       -0.681860303935554
+    id99985   id101925                        1
+    id99985   id107339                        1
+    id99985   id107342                       -1
+    id99985   id107367                        1
+    id99985   id107370                        1
+    MARK0169  'MARKER'                 'INTEND'
+    id99989   obj                             1
+    id99989   id107325                        1
+    id99989   id107328                       -1
+    id99989   id107367                        1
+    id99989   id107370                       -1
+    MARK0170  'MARKER'                 'INTORG'
+    id99986   obj             -3.76521841146295
+    id99986   id100639         2.40775207402546
+    id99986   id100981        -1.26407849486806
+    id99986   id101925                        1
+    id99986   id107439                        1
+    id99986   id107442                        1
+    MARK0171  'MARKER'                 'INTEND'
+    id99990   obj                             1
+    id99990   id107397                        1
+    id99990   id107400                       -1
+    id99990   id107439                        1
+    id99990   id107442                       -1
+    MARK0172  'MARKER'                 'INTORG'
+    id99991   obj             -3.18142327535032
+    id99991   id100637         1.41141458899314
+    id99991   id100985        -1.03533622099921
+    id99991   id101927                        1
+    id99991   id107511                        1
+    id99991   id107514                        1
+    MARK0173  'MARKER'                 'INTEND'
+    id99995   obj                             1
+    id99995   id107469                        1
+    id99995   id107472                       -1
+    id99995   id107511                        1
+    id99995   id107514                       -1
+    MARK0174  'MARKER'                 'INTORG'
+    id99992   obj             -2.69124329308571
+    id99992   id100639         1.23458894166843
+    id99992   id100989       -0.297850245497853
+    id99992   id101927                        1
+    id99992   id107541                        1
+    id99992   id107544                        1
+    MARK0175  'MARKER'                 'INTEND'
+    id99996   obj                             1
+    id99996   id107541                        1
+    id99996   id107544                       -1
+    id99996   id107571                        1
+    id99996   id107574                       -1
+    MARK0176  'MARKER'                 'INTORG'
+    id99997   obj              -3.2627803186247
+    id99997   id100637          2.2150315946038
+    id99997   id100993          -1.590816878675
+    id99997   id101929                        1
+    id99997   id107585                        1
+    id99997   id107588                       -1
+    id99997   id107641                        1
+    id99997   id107644                        1
+    MARK0177  'MARKER'                 'INTEND'
+    id100001  obj                             1
+    id100001  id107599                        1
+    id100001  id107602                       -1
+    id100001  id107641                        1
+    id100001  id107644                       -1
+    MARK0178  'MARKER'                 'INTORG'
+    id99998   obj             -3.75820669613695
+    id99998   id100639         1.64263126935932
+    id99998   id100997       -0.861186856122467
+    id99998   id101929                        1
+    id99998   id107671                        1
+    id99998   id107674                       -1
+    id99998   id107699                        1
+    id99998   id107702                        1
+    id99998   id107727                        1
+    id99998   id107730                        1
+    MARK0179  'MARKER'                 'INTEND'
+    id100002  obj                             1
+    id100002  id107699                        1
+    id100002  id107702                       -1
+    id100002  id107755                        1
+    id100002  id107758                       -1
+    MARK0180  'MARKER'                 'INTORG'
+    id100003  obj             -4.31146905306329
+    id100003  id100637         2.96539737282572
+    id100003  id101001        -1.91872730708173
+    id100003  id101931                        1
+    id100003  id107785                        1
+    id100003  id107788                       -1
+    MARK0181  'MARKER'                 'INTEND'
+    id100007  obj                             1
+    id100007  id107801                        1
+    id100007  id107804                       -1
+    MARK0182  'MARKER'                 'INTORG'
+    id100004  obj             -4.20705761490718
+    id100004  id100639         1.05969123172559
+    id100004  id101005       -0.702234929791748
+    id100004  id101931                        1
+    id100004  id107829                        1
+    id100004  id107832                       -1
+    id100004  id107857                        1
+    id100004  id107860                        1
+    MARK0183  'MARKER'                 'INTEND'
+    id100008  obj                             1
+    id100008  id107815                        1
+    id100008  id107818                       -1
+    id100008  id107857                        1
+    id100008  id107860                       -1
+    MARK0184  'MARKER'                 'INTORG'
+    id100009  obj             -2.87501996051288
+    id100009  id100637         1.05599885809049
+    id100009  id101009       -0.629413077797116
+    id100009  id101933                        1
+    id100009  id107901                        1
+    id100009  id107904                       -1
+    id100009  id107929                        1
+    id100009  id107932                        1
+    MARK0185  'MARKER'                 'INTEND'
+    id100013  obj                             1
+    id100013  id107887                        1
+    id100013  id107890                       -1
+    id100013  id107929                        1
+    id100013  id107932                       -1
+    MARK0186  'MARKER'                 'INTORG'
+    id100010  obj             -2.71757887337244
+    id100010  id100639         1.40346450284285
+    id100010  id101013       -0.680470216943897
+    id100010  id101933                        1
+    id100010  id108001                        1
+    id100010  id108004                        1
+    MARK0187  'MARKER'                 'INTEND'
+    id100014  obj                             1
+    id100014  id107959                        1
+    id100014  id107962                       -1
+    id100014  id108001                        1
+    id100014  id108004                       -1
+    MARK0188  'MARKER'                 'INTORG'
+    id100015  obj             -4.49849875387666
+    id100015  id100637         1.72798465878143
+    id100015  id101017        -1.17237073014945
+    id100015  id101935                        1
+    id100015  id108031                        1
+    id100015  id108034                        1
+    id100015  id108045                        1
+    id100015  id108048                       -1
+    id100015  id108073                        1
+    id100015  id108076                        1
+    MARK0189  'MARKER'                 'INTEND'
+    id100019  obj                             1
+    id100019  id108031                        1
+    id100019  id108034                       -1
+    id100019  id108073                        1
+    id100019  id108076                       -1
+    MARK0190  'MARKER'                 'INTORG'
+    id100016  obj             -2.89109015878806
+    id100016  id100639         2.73238631418552
+    id100016  id101021        -1.42925819585215
+    id100016  id101935                        1
+    id100016  id108103                        1
+    id100016  id108106                        1
+    MARK0191  'MARKER'                 'INTEND'
+    id100020  obj                             1
+    id100020  id108103                        1
+    id100020  id108106                       -1
+    id100020  id108133                        1
+    id100020  id108136                       -1
+    MARK0192  'MARKER'                 'INTORG'
+    id100021  obj             -5.11114378232096
+    id100021  id100637         1.80424026157904
+    id100021  id101025       -0.596125622010227
+    id100021  id101937                        1
+    id100021  id108147                        1
+    id100021  id108150                        1
+    id100021  id108191                        1
+    id100021  id108194                       -1
+    MARK0193  'MARKER'                 'INTEND'
+    id100025  obj                             1
+    id100025  id108147                        1
+    id100025  id108150                       -1
+    id100025  id108175                        1
+    id100025  id108178                       -1
+    MARK0194  'MARKER'                 'INTORG'
+    id100022  obj             -2.14615924290668
+    id100022  id100639         2.51558449283037
+    id100022  id101029        -1.43047264313855
+    id100022  id101937                        1
+    id100022  id108205                        1
+    id100022  id108208                       -1
+    id100022  id108233                        1
+    id100022  id108236                        1
+    MARK0195  'MARKER'                 'INTEND'
+    id100026  obj                             1
+    id100026  id108233                        1
+    id100026  id108236                       -1
+    MARK0196  'MARKER'                 'INTORG'
+    id100027  obj             -4.15238510544989
+    id100027  id100637         1.71894364837508
+    id100027  id101033       -0.436467996361615
+    id100027  id101939                        1
+    MARK0197  'MARKER'                 'INTEND'
+    id100031  obj                             1
+    id100031  id108263                        1
+    id100031  id108266                       -1
+    MARK0198  'MARKER'                 'INTORG'
+    id100028  obj             -3.11341280355743
+    id100028  id100639         2.72198407618421
+    id100028  id101037        -1.35626916405171
+    id100028  id101939                        1
+    id100028  id108277                        1
+    id100028  id108280                       -1
+    id100028  id108305                        1
+    id100028  id108308                        1
+    id100028  id108333                        1
+    id100028  id108336                        1
+    MARK0199  'MARKER'                 'INTEND'
+    id100032  obj                             1
+    id100032  id108305                        1
+    id100032  id108308                       -1
+    id100032  id108361                        1
+    id100032  id108364                       -1
+    MARK0200  'MARKER'                 'INTORG'
+    id100033  obj             -5.52765573539196
+    id100033  id100637         1.31433556895439
+    id100033  id101041       -0.311215198779308
+    id100033  id101941                        1
+    id100033  id108405                        1
+    id100033  id108408                       -1
+    id100033  id108433                        1
+    id100033  id108436                        1
+    MARK0201  'MARKER'                 'INTEND'
+    id100037  obj                             1
+    id100037  id108391                        1
+    id100037  id108394                       -1
+    id100037  id108433                        1
+    id100037  id108436                       -1
+    MARK0202  'MARKER'                 'INTORG'
+    id100034  obj              -4.4834677327813
+    id100034  id100639         2.07211837874358
+    id100034  id101045       -0.719636295816906
+    id100034  id101941                        1
+    id100034  id108463                        1
+    id100034  id108466                       -1
+    id100034  id108521                        1
+    id100034  id108524                       -1
+    MARK0203  'MARKER'                 'INTEND'
+    id100038  obj                             1
+    id100038  id108477                        1
+    id100038  id108480                       -1
+    id100038  id108505                        1
+    id100038  id108508                       -1
+    MARK0204  'MARKER'                 'INTORG'
+    id100039  obj             -5.06535832912911
+    id100039  id100637         1.08585426494752
+    id100039  id101049       -0.861589822687006
+    id100039  id101943                        1
+    id100039  id108535                        1
+    id100039  id108538                       -1
+    id100039  id108563                        1
+    id100039  id108566                        1
+    id100039  id108605                        1
+    id100039  id108608                        1
+    MARK0205  'MARKER'                 'INTEND'
+    id100043  obj                             1
+    id100043  id108563                        1
+    id100043  id108566                       -1
+    id100043  id108605                        1
+    id100043  id108608                       -1
+    MARK0206  'MARKER'                 'INTORG'
+    id100040  obj             -3.52535327594977
+    id100040  id100639         2.05515948266497
+    id100040  id101053       -0.607247340707806
+    id100040  id101943                        1
+    MARK0207  'MARKER'                 'INTEND'
+    id100044  obj                             1
+    id100044  id108635                        1
+    id100044  id108638                       -1
+    MARK0208  'MARKER'                 'INTORG'
+    id100045  obj             -3.53131697398206
+    id100045  id100637         1.75292376650168
+    id100045  id101057       -0.791657942549176
+    id100045  id101945                        1
+    id100045  id108649                        1
+    id100045  id108652                       -1
+    id100045  id108677                        1
+    id100045  id108680                        1
+    MARK0209  'MARKER'                 'INTEND'
+    id100049  obj                             1
+    id100049  id108677                        1
+    id100049  id108680                       -1
+    MARK0210  'MARKER'                 'INTORG'
+    id100046  obj             -4.61254254850212
+    id100046  id100639         1.06755225549804
+    id100046  id101061           -0.33600048744
+    id100046  id101945                        1
+    id100046  id108707                        1
+    id100046  id108710                        1
+    id100046  id108751                        1
+    id100046  id108754                       -1
+    MARK0211  'MARKER'                 'INTEND'
+    id100050  obj                             1
+    id100050  id108707                        1
+    id100050  id108710                       -1
+    id100050  id108735                        1
+    id100050  id108738                       -1
+    MARK0212  'MARKER'                 'INTORG'
+    id100051  obj             -5.49898024811362
+    id100051  id100637         1.56218518622321
+    id100051  id101065       -0.455937740264623
+    id100051  id101947                        1
+    MARK0213  'MARKER'                 'INTEND'
+    id100055  obj                             1
+    id100055  id108765                        1
+    id100055  id108768                       -1
+    MARK0214  'MARKER'                 'INTORG'
+    id100052  obj             -5.13026156794758
+    id100052  id100639           2.300412908802
+    id100052  id101069        -1.37722867238724
+    id100052  id101947                        1
+    id100052  id108779                        1
+    id100052  id108782                        1
+    MARK0215  'MARKER'                 'INTEND'
+    id100056  obj                             1
+    id100056  id108779                        1
+    id100056  id108782                       -1
+    MARK0216  'MARKER'                 'INTORG'
+    id100057  obj             -2.12430439336426
+    id100057  id100637         2.45157595512065
+    id100057  id101073        -1.44928790715797
+    id100057  id101949                        1
+    id100057  id108809                        1
+    id100057  id108812                        1
+    MARK0217  'MARKER'                 'INTEND'
+    id100061  obj                             1
+    id100061  id108809                        1
+    id100061  id108812                       -1
+    MARK0218  'MARKER'                 'INTORG'
+    id100058  obj             -2.66509709724462
+    id100058  id100639         2.79486930640175
+    id100058  id101077        -2.12289416679112
+    id100058  id101949                        1
+    id100058  id108839                        1
+    id100058  id108842                       -1
+    id100058  id108867                        1
+    id100058  id108870                        1
+    MARK0219  'MARKER'                 'INTEND'
+    id100062  obj                             1
+    id100062  id108867                        1
+    id100062  id108870                       -1
+    MARK0220  'MARKER'                 'INTORG'
+    id100063  obj             -2.64759474091585
+    id100063  id100637         2.84345195714545
+    id100063  id101081        -1.49549138512887
+    id100063  id101951                        1
+    id100063  id108939                        1
+    id100063  id108942                        1
+    MARK0221  'MARKER'                 'INTEND'
+    id100067  obj                             1
+    id100067  id108897                        1
+    id100067  id108900                       -1
+    id100067  id108939                        1
+    id100067  id108942                       -1
+    MARK0222  'MARKER'                 'INTORG'
+    id100064  obj             -5.39792830096461
+    id100064  id100639         2.40472253663685
+    id100064  id101085       -0.816131064864635
+    id100064  id101951                        1
+    id100064  id108969                        1
+    id100064  id108972                       -1
+    id100064  id109025                        1
+    id100064  id109028                        1
+    MARK0223  'MARKER'                 'INTEND'
+    id100068  obj                             1
+    id100068  id108983                        1
+    id100068  id108986                       -1
+    id100068  id109025                        1
+    id100068  id109028                       -1
+    MARK0224  'MARKER'                 'INTORG'
+    id100069  obj             -3.51602236624622
+    id100069  id100637         2.30336074498639
+    id100069  id101089       -0.505091855025801
+    id100069  id101953                        1
+    id100069  id109055                        1
+    id100069  id109058                        1
+    id100069  id109099                        1
+    id100069  id109102                       -1
+    MARK0225  'MARKER'                 'INTEND'
+    id100073  obj                             1
+    id100073  id109055                        1
+    id100073  id109058                       -1
+    id100073  id109083                        1
+    id100073  id109086                       -1
+    MARK0226  'MARKER'                 'INTORG'
+    id100070  obj             -2.85230912307851
+    id100070  id100639         1.44674628341885
+    id100070  id101093       -0.365583245510282
+    id100070  id101953                        1
+    MARK0227  'MARKER'                 'INTEND'
+    id100074  obj                             1
+    id100074  id109113                        1
+    id100074  id109116                       -1
+    MARK0228  'MARKER'                 'INTORG'
+    id100075  obj             -2.31481780685243
+    id100075  id100637         1.48184121143159
+    id100075  id101097        -1.06212733142106
+    id100075  id101955                        1
+    id100075  id109127                        1
+    id100075  id109130                       -1
+    id100075  id109183                        1
+    id100075  id109186                        1
+    MARK0229  'MARKER'                 'INTEND'
+    id100079  obj                             1
+    id100079  id109141                        1
+    id100079  id109144                       -1
+    id100079  id109183                        1
+    id100079  id109186                       -1
+    MARK0230  'MARKER'                 'INTORG'
+    id100076  obj             -4.58620146596162
+    id100076  id100639         2.05149833813845
+    id100076  id101101        -1.24438940751593
+    id100076  id101955                        1
+    id100076  id109213                        1
+    id100076  id109216                        1
+    MARK0231  'MARKER'                 'INTEND'
+    id100080  obj                             1
+    id100080  id109213                        1
+    id100080  id109216                       -1
+    MARK0232  'MARKER'                 'INTORG'
+    id100081  obj             -4.79400519411732
+    id100081  id100637         1.65913899180439
+    id100081  id101105        -1.19269752159666
+    id100081  id101957                        1
+    id100081  id109243                        1
+    id100081  id109246                       -1
+    id100081  id109299                        1
+    id100081  id109302                        1
+    MARK0233  'MARKER'                 'INTEND'
+    id100085  obj                             1
+    id100085  id109257                        1
+    id100085  id109260                       -1
+    id100085  id109299                        1
+    id100085  id109302                       -1
+    MARK0234  'MARKER'                 'INTORG'
+    id100082  obj             -4.05353725052138
+    id100082  id100639         2.59477885886784
+    id100082  id101109         -1.5702817997325
+    id100082  id101957                        1
+    id100082  id109329                        1
+    id100082  id109332                       -1
+    id100082  id109387                        1
+    id100082  id109390                       -1
+    MARK0235  'MARKER'                 'INTEND'
+    id100086  obj                             1
+    id100086  id109343                        1
+    id100086  id109346                       -1
+    id100086  id109371                        1
+    id100086  id109374                       -1
+    MARK0236  'MARKER'                 'INTORG'
+    id100087  obj             -2.66946373724819
+    id100087  id100637          1.4370400032201
+    id100087  id101113       -0.301934758464067
+    id100087  id101959                        1
+    id100087  id109401                        1
+    id100087  id109404                       -1
+    id100087  id109429                        1
+    id100087  id109432                       -1
+    id100087  id109457                        1
+    id100087  id109460                        1
+    MARK0237  'MARKER'                 'INTEND'
+    id100091  obj                             1
+    id100091  id109415                        1
+    id100091  id109418                       -1
+    id100091  id109457                        1
+    id100091  id109460                       -1
+    MARK0238  'MARKER'                 'INTORG'
+    id100088  obj             -2.67368450605948
+    id100088  id100639         1.49831865471709
+    id100088  id101117       -0.791795529214096
+    id100088  id101959                        1
+    id100088  id109487                        1
+    id100088  id109490                       -1
+    id100088  id109515                        1
+    id100088  id109518                        1
+    id100088  id109559                        1
+    id100088  id109562                       -1
+    MARK0239  'MARKER'                 'INTEND'
+    id100092  obj                             1
+    id100092  id109515                        1
+    id100092  id109518                       -1
+    id100092  id109543                        1
+    id100092  id109546                       -1
+    MARK0240  'MARKER'                 'INTORG'
+    id100093  obj             -5.99881768599097
+    id100093  id100637         2.15913589352702
+    id100093  id101121       -0.707481944612902
+    id100093  id101961                        1
+    id100093  id109573                        1
+    id100093  id109576                       -1
+    MARK0241  'MARKER'                 'INTEND'
+    id100097  obj                             1
+    id100097  id109589                        1
+    id100097  id109592                       -1
+    MARK0242  'MARKER'                 'INTORG'
+    id100094  obj             -4.34518479851316
+    id100094  id100639         1.60120808919948
+    id100094  id101125       -0.959124271190357
+    id100094  id101961                        1
+    id100094  id109603                        1
+    id100094  id109606                        1
+    id100094  id109647                        1
+    id100094  id109650                       -1
+    MARK0243  'MARKER'                 'INTEND'
+    id100098  obj                             1
+    id100098  id109603                        1
+    id100098  id109606                       -1
+    id100098  id109631                        1
+    id100098  id109634                       -1
+    MARK0244  'MARKER'                 'INTORG'
+    id100099  obj             -3.22962729317584
+    id100099  id100637         2.05254098915148
+    id100099  id101129        -1.58532993818719
+    id100099  id101963                        1
+    id100099  id109661                        1
+    id100099  id109664                       -1
+    id100099  id109689                        1
+    id100099  id109692                        1
+    id100099  id109731                        1
+    id100099  id109734                        1
+    MARK0245  'MARKER'                 'INTEND'
+    id100103  obj                             1
+    id100103  id109689                        1
+    id100103  id109692                       -1
+    id100103  id109731                        1
+    id100103  id109734                       -1
+    MARK0246  'MARKER'                 'INTORG'
+    id100100  obj             -3.73060683986666
+    id100100  id100639         2.26316730830035
+    id100100  id101133       -0.630726181755771
+    id100100  id101963                        1
+    id100100  id109761                        1
+    id100100  id109764                       -1
+    id100100  id109819                        1
+    id100100  id109822                       -1
+    MARK0247  'MARKER'                 'INTEND'
+    id100104  obj                             1
+    id100104  id109775                        1
+    id100104  id109778                       -1
+    id100104  id109803                        1
+    id100104  id109806                       -1
+    MARK0248  'MARKER'                 'INTORG'
+    id100105  obj             -3.21422723737277
+    id100105  id100637         2.99185716267296
+    id100105  id101137        -2.06487412172567
+    id100105  id101965                        1
+    id100105  id109833                        1
+    id100105  id109836                       -1
+    id100105  id109861                        1
+    id100105  id109864                        1
+    id100105  id109889                        1
+    id100105  id109892                        1
+    MARK0249  'MARKER'                 'INTEND'
+    id100109  obj                             1
+    id100109  id109861                        1
+    id100109  id109864                       -1
+    id100109  id109917                        1
+    id100109  id109920                       -1
+    MARK0250  'MARKER'                 'INTORG'
+    id100106  obj             -2.75262919475913
+    id100106  id100639         1.98444823966569
+    id100106  id101141       -0.820200120267578
+    id100106  id101965                        1
+    id100106  id109947                        1
+    id100106  id109950                       -1
+    MARK0251  'MARKER'                 'INTEND'
+    id100110  obj                             1
+    id100110  id109963                        1
+    id100110  id109966                       -1
+    MARK0252  'MARKER'                 'INTORG'
+    id100111  obj             -4.04973366952023
+    id100111  id100637         1.74474248417874
+    id100111  id101145        -1.06169800580352
+    id100111  id101967                        1
+    MARK0253  'MARKER'                 'INTEND'
+    id100115  obj                             1
+    id100115  id109977                        1
+    id100115  id109980                       -1
+    MARK0254  'MARKER'                 'INTORG'
+    id100112  obj             -4.52650156548549
+    id100112  id100639          1.4565625239427
+    id100112  id101149       -0.843055311785331
+    id100112  id101967                        1
+    id100112  id109991                        1
+    id100112  id109994                       -1
+    MARK0255  'MARKER'                 'INTEND'
+    id100116  obj                             1
+    id100116  id110007                        1
+    id100116  id110010                       -1
+    MARK0256  'MARKER'                 'INTORG'
+    id100117  obj             -4.08948107533598
+    id100117  id100637         2.68822302934165
+    id100117  id101153       -0.712916426939777
+    id100117  id101969                        1
+    id100117  id110021                        1
+    id100117  id110024                       -1
+    MARK0257  'MARKER'                 'INTEND'
+    id100121  obj                             1
+    id100121  id110035                        1
+    id100121  id110038                       -1
+    id100121  id110065                        1
+    id100121  id110068                       -1
+    MARK0258  'MARKER'                 'INTORG'
+    id100118  obj             -4.44316118696852
+    id100118  id100639         2.54733423867604
+    id100118  id101157        -1.91283982547993
+    id100118  id101969                        1
+    MARK0259  'MARKER'                 'INTEND'
+    id100122  obj                             1
+    id100122  id110079                        1
+    id100122  id110082                       -1
+    MARK0260  'MARKER'                 'INTORG'
+    id100123  obj              -4.7449608383444
+    id100123  id100637         2.74430861964091
+    id100123  id101161       -0.744627394942013
+    id100123  id101971                        1
+    id100123  id110093                        1
+    id100123  id110096                       -1
+    id100123  id110121                        1
+    id100123  id110124                       -1
+    id100123  id110149                        1
+    id100123  id110152                        1
+    MARK0261  'MARKER'                 'INTEND'
+    id100127  obj                             1
+    id100127  id110107                        1
+    id100127  id110110                       -1
+    id100127  id110149                        1
+    id100127  id110152                       -1
+    MARK0262  'MARKER'                 'INTORG'
+    id100124  obj             -3.40782910837225
+    id100124  id100639         1.50008985516619
+    id100124  id101165       -0.890015990041295
+    id100124  id101971                        1
+    id100124  id110179                        1
+    id100124  id110182                       -1
+    id100124  id110207                        1
+    id100124  id110210                       -1
+    id100124  id110235                        1
+    id100124  id110238                        1
+    MARK0263  'MARKER'                 'INTEND'
+    id100128  obj                             1
+    id100128  id110193                        1
+    id100128  id110196                       -1
+    id100128  id110235                        1
+    id100128  id110238                       -1
+    MARK0264  'MARKER'                 'INTORG'
+    id100129  obj             -3.85956445609199
+    id100129  id100637          1.9449104177509
+    id100129  id101169        -1.15105448025865
+    id100129  id101973                        1
+    id100129  id110265                        1
+    id100129  id110268                       -1
+    id100129  id110323                        1
+    id100129  id110326                       -1
+    MARK0265  'MARKER'                 'INTEND'
+    id100133  obj                             1
+    id100133  id110279                        1
+    id100133  id110282                       -1
+    id100133  id110307                        1
+    id100133  id110310                       -1
+    MARK0266  'MARKER'                 'INTORG'
+    id100130  obj             -2.15716607317197
+    id100130  id100639         1.01714329142922
+    id100130  id101173       -0.540138648506279
+    id100130  id101973                        1
+    id100130  id110351                        1
+    id100130  id110354                       -1
+    MARK0267  'MARKER'                 'INTEND'
+    id100134  obj                             1
+    id100134  id110337                        1
+    id100134  id110340                       -1
+    id100134  id110367                        1
+    id100134  id110370                       -1
+    MARK0268  'MARKER'                 'INTORG'
+    id100135  obj             -4.70169380060476
+    id100135  id100637         1.46515895820463
+    id100135  id101177       -0.562957008098809
+    id100135  id101975                        1
+    id100135  id110381                        1
+    id100135  id110384                       -1
+    id100135  id110409                        1
+    id100135  id110412                       -1
+    id100135  id110437                        1
+    id100135  id110440                        1
+    MARK0269  'MARKER'                 'INTEND'
+    id100139  obj                             1
+    id100139  id110395                        1
+    id100139  id110398                       -1
+    id100139  id110437                        1
+    id100139  id110440                       -1
+    MARK0270  'MARKER'                 'INTORG'
+    id100136  obj             -2.00989382900758
+    id100136  id100639         2.87675730785204
+    id100136  id101181        -1.48126027626914
+    id100136  id101975                        1
+    id100136  id110467                        1
+    id100136  id110470                       -1
+    id100136  id110495                        1
+    id100136  id110498                       -1
+    id100136  id110523                        1
+    id100136  id110526                        1
+    MARK0271  'MARKER'                 'INTEND'
+    id100140  obj                             1
+    id100140  id110481                        1
+    id100140  id110484                       -1
+    id100140  id110523                        1
+    id100140  id110526                       -1
+    MARK0272  'MARKER'                 'INTORG'
+    id100141  obj             -3.07483979737146
+    id100141  id100637         2.26702038909636
+    id100141  id101185        -1.64971107250663
+    id100141  id101977                        1
+    id100141  id110553                        1
+    id100141  id110556                        1
+    MARK0273  'MARKER'                 'INTEND'
+    id100145  obj                             1
+    id100145  id110553                        1
+    id100145  id110556                       -1
+    id100145  id110583                        1
+    id100145  id110586                       -1
+    MARK0274  'MARKER'                 'INTORG'
+    id100142  obj               -5.708822909607
+    id100142  id100639         2.59539473317349
+    id100142  id101189        -1.47435955827652
+    id100142  id101977                        1
+    id100142  id110597                        1
+    id100142  id110600                        1
+    id100142  id110611                        1
+    id100142  id110614                       -1
+    id100142  id110639                        1
+    id100142  id110642                        1
+    MARK0275  'MARKER'                 'INTEND'
+    id100146  obj                             1
+    id100146  id110597                        1
+    id100146  id110600                       -1
+    id100146  id110639                        1
+    id100146  id110642                       -1
+    MARK0276  'MARKER'                 'INTORG'
+    id100147  obj             -4.82845970933719
+    id100147  id100637         2.46467571121858
+    id100147  id101193       -0.580291438719871
+    id100147  id101979                        1
+    id100147  id110669                        1
+    id100147  id110672                       -1
+    id100147  id110697                        1
+    id100147  id110700                        1
+    MARK0277  'MARKER'                 'INTEND'
+    id100151  obj                             1
+    id100151  id110697                        1
+    id100151  id110700                       -1
+    id100151  id110727                        1
+    id100151  id110730                       -1
+    MARK0278  'MARKER'                 'INTORG'
+    id100148  obj             -2.69435855778603
+    id100148  id100639         2.42917258265855
+    id100148  id101197        -1.41642248106169
+    id100148  id101979                        1
+    id100148  id110741                        1
+    id100148  id110744                       -1
+    id100148  id110769                        1
+    id100148  id110772                       -1
+    id100148  id110797                        1
+    id100148  id110800                        1
+    MARK0279  'MARKER'                 'INTEND'
+    id100152  obj                             1
+    id100152  id110755                        1
+    id100152  id110758                       -1
+    id100152  id110797                        1
+    id100152  id110800                       -1
+    MARK0280  'MARKER'                 'INTORG'
+    id100153  obj             -2.91342516472257
+    id100153  id100637         1.58305833236457
+    id100153  id101201        -0.57083292342873
+    id100153  id101981                        1
+    id100153  id110827                        1
+    id100153  id110830                        1
+    MARK0281  'MARKER'                 'INTEND'
+    id100157  obj                             1
+    id100157  id110827                        1
+    id100157  id110830                       -1
+    MARK0282  'MARKER'                 'INTORG'
+    id100154  obj              -2.6068833119268
+    id100154  id100639         2.63874549029337
+    id100154  id101205          -1.837323039043
+    id100154  id101981                        1
+    id100154  id110857                        1
+    id100154  id110860                       -1
+    id100154  id110885                        1
+    id100154  id110888                        1
+    id100154  id110927                        1
+    id100154  id110930                        1
+    MARK0283  'MARKER'                 'INTEND'
+    id100158  obj                             1
+    id100158  id110885                        1
+    id100158  id110888                       -1
+    id100158  id110927                        1
+    id100158  id110930                       -1
+    MARK0284  'MARKER'                 'INTORG'
+    id100159  obj             -4.72417479880349
+    id100159  id100637         1.26838623931091
+    id100159  id101209       -0.773855501589263
+    id100159  id101983                        1
+    id100159  id110957                        1
+    id100159  id110960                       -1
+    id100159  id110985                        1
+    id100159  id110988                        1
+    MARK0285  'MARKER'                 'INTEND'
+    id100163  obj                             1
+    id100163  id110985                        1
+    id100163  id110988                       -1
+    id100163  id111015                        1
+    id100163  id111018                       -1
+    MARK0286  'MARKER'                 'INTORG'
+    id100160  obj             -4.05125186129066
+    id100160  id100639         1.41672176607732
+    id100160  id101213       -0.947664667948196
+    id100160  id101983                        1
+    id100160  id111071                        1
+    id100160  id111074                        1
+    MARK0287  'MARKER'                 'INTEND'
+    id100164  obj                             1
+    id100164  id111029                        1
+    id100164  id111032                       -1
+    id100164  id111071                        1
+    id100164  id111074                       -1
+    MARK0288  'MARKER'                 'INTORG'
+    id100165  obj             -5.42024776685063
+    id100165  id100637         2.32204632243237
+    id100165  id101217        -1.55428632237261
+    id100165  id101985                        1
+    id100165  id111115                        1
+    id100165  id111118                       -1
+    id100165  id111143                        1
+    id100165  id111146                        1
+    MARK0289  'MARKER'                 'INTEND'
+    id100169  obj                             1
+    id100169  id111101                        1
+    id100169  id111104                       -1
+    id100169  id111143                        1
+    id100169  id111146                       -1
+    MARK0290  'MARKER'                 'INTORG'
+    id100166  obj             -2.99619356216686
+    id100166  id100639         1.79142720941055
+    id100166  id101221        -1.38602363295264
+    id100166  id101985                        1
+    id100166  id111173                        1
+    id100166  id111176                       -1
+    id100166  id111201                        1
+    id100166  id111204                       -1
+    id100166  id111229                        1
+    id100166  id111232                        1
+    MARK0291  'MARKER'                 'INTEND'
+    id100170  obj                             1
+    id100170  id111187                        1
+    id100170  id111190                       -1
+    id100170  id111229                        1
+    id100170  id111232                       -1
+    MARK0292  'MARKER'                 'INTORG'
+    id100171  obj             -2.51428881125259
+    id100171  id100637         1.03047104460675
+    id100171  id101225       -0.392915626749423
+    id100171  id101987                        1
+    id100171  id111259                        1
+    id100171  id111262                       -1
+    id100171  id111287                        1
+    id100171  id111290                        1
+    id100171  id111331                        1
+    id100171  id111334                       -1
+    MARK0293  'MARKER'                 'INTEND'
+    id100175  obj                             1
+    id100175  id111287                        1
+    id100175  id111290                       -1
+    id100175  id111315                        1
+    id100175  id111318                       -1
+    MARK0294  'MARKER'                 'INTORG'
+    id100172  obj             -2.44173697216517
+    id100172  id100639         2.88128519238964
+    id100172  id101229        -1.16194832822319
+    id100172  id101987                        1
+    id100172  id111345                        1
+    id100172  id111348                       -1
+    MARK0295  'MARKER'                 'INTEND'
+    id100176  obj                             1
+    id100176  id111359                        1
+    id100176  id111362                       -1
+    id100176  id111389                        1
+    id100176  id111392                       -1
+    MARK0296  'MARKER'                 'INTORG'
+    id100177  obj             -5.66745325348687
+    id100177  id100637         2.21287668832246
+    id100177  id101233       -0.533636285599975
+    id100177  id101989                        1
+    id100177  id111403                        1
+    id100177  id111406                       -1
+    id100177  id111431                        1
+    id100177  id111434                        1
+    id100177  id111473                        1
+    id100177  id111476                        1
+    MARK0297  'MARKER'                 'INTEND'
+    id100181  obj                             1
+    id100181  id111431                        1
+    id100181  id111434                       -1
+    id100181  id111473                        1
+    id100181  id111476                       -1
+    MARK0298  'MARKER'                 'INTORG'
+    id100178  obj             -4.12909029523334
+    id100178  id100639         2.79145683897261
+    id100178  id101237       -0.915569270125379
+    id100178  id101989                        1
+    id100178  id111517                        1
+    id100178  id111520                       -1
+    id100178  id111545                        1
+    id100178  id111548                        1
+    MARK0299  'MARKER'                 'INTEND'
+    id100182  obj                             1
+    id100182  id111503                        1
+    id100182  id111506                       -1
+    id100182  id111545                        1
+    id100182  id111548                       -1
+    MARK0300  'MARKER'                 'INTORG'
+    id100183  obj               -3.911053252365
+    id100183  id100637         2.79366686092395
+    id100183  id101241        -2.21913744629873
+    id100183  id101991                        1
+    MARK0301  'MARKER'                 'INTEND'
+    id100187  obj                             1
+    id100187  id111575                        1
+    id100187  id111578                       -1
+    MARK0302  'MARKER'                 'INTORG'
+    id100184  obj             -2.40997324903029
+    id100184  id100639         2.54419838709021
+    id100184  id101245        -1.97056599703853
+    id100184  id101991                        1
+    id100184  id111633                        1
+    id100184  id111636                       -1
+    MARK0303  'MARKER'                 'INTEND'
+    id100188  obj                             1
+    id100188  id111589                        1
+    id100188  id111592                       -1
+    id100188  id111617                        1
+    id100188  id111620                       -1
+    MARK0304  'MARKER'                 'INTORG'
+    id100189  obj             -5.78826156248723
+    id100189  id100637         2.47964584430663
+    id100189  id101249       -0.787704802345359
+    id100189  id101993                        1
+    id100189  id111647                        1
+    id100189  id111650                       -1
+    id100189  id111675                        1
+    id100189  id111678                        1
+    id100189  id111717                        1
+    id100189  id111720                        1
+    MARK0305  'MARKER'                 'INTEND'
+    id100193  obj                             1
+    id100193  id111675                        1
+    id100193  id111678                       -1
+    id100193  id111717                        1
+    id100193  id111720                       -1
+    MARK0306  'MARKER'                 'INTORG'
+    id100190  obj             -5.56737152653158
+    id100190  id100639         1.30455419807907
+    id100190  id101253        -0.27689038972226
+    id100190  id101993                        1
+    id100190  id111761                        1
+    id100190  id111764                       -1
+    id100190  id111789                        1
+    id100190  id111792                        1
+    MARK0307  'MARKER'                 'INTEND'
+    id100194  obj                             1
+    id100194  id111747                        1
+    id100194  id111750                       -1
+    id100194  id111789                        1
+    id100194  id111792                       -1
+    MARK0308  'MARKER'                 'INTORG'
+    id100195  obj             -3.05435194496734
+    id100195  id100637         1.64515385341139
+    id100195  id101257       -0.698225237742272
+    id100195  id101995                        1
+    id100195  id111819                        1
+    id100195  id111822                        1
+    id100195  id111833                        1
+    id100195  id111836                       -1
+    id100195  id111861                        1
+    id100195  id111864                        1
+    MARK0309  'MARKER'                 'INTEND'
+    id100199  obj                             1
+    id100199  id111819                        1
+    id100199  id111822                       -1
+    id100199  id111861                        1
+    id100199  id111864                       -1
+    MARK0310  'MARKER'                 'INTORG'
+    id100196  obj             -5.58933773990224
+    id100196  id100639         2.42562552794145
+    id100196  id101261        -1.67008841082074
+    id100196  id101995                        1
+    id100196  id111891                        1
+    id100196  id111894                        1
+    id100196  id111935                        1
+    id100196  id111938                       -1
+    MARK0311  'MARKER'                 'INTEND'
+    id100200  obj                             1
+    id100200  id111891                        1
+    id100200  id111894                       -1
+    id100200  id111919                        1
+    id100200  id111922                       -1
+    MARK0312  'MARKER'                 'INTORG'
+    id100201  obj             -3.98156513924783
+    id100201  id100637         2.76556377753874
+    id100201  id101265       -0.599016454716091
+    id100201  id101997                        1
+    id100201  id111949                        1
+    id100201  id111952                        1
+    id100201  id111993                        1
+    id100201  id111996                       -1
+    MARK0313  'MARKER'                 'INTEND'
+    id100205  obj                             1
+    id100205  id111949                        1
+    id100205  id111952                       -1
+    id100205  id111977                        1
+    id100205  id111980                       -1
+    MARK0314  'MARKER'                 'INTORG'
+    id100202  obj             -4.98024878603418
+    id100202  id100639           1.481960264259
+    id100202  id101269       -0.494523183505894
+    id100202  id101997                        1
+    id100202  id112007                        1
+    id100202  id112010                        1
+    id100202  id112021                        1
+    id100202  id112024                       -1
+    id100202  id112049                        1
+    id100202  id112052                        1
+    MARK0315  'MARKER'                 'INTEND'
+    id100206  obj                             1
+    id100206  id112007                        1
+    id100206  id112010                       -1
+    id100206  id112049                        1
+    id100206  id112052                       -1
+    MARK0316  'MARKER'                 'INTORG'
+    id100207  obj             -5.23372738772711
+    id100207  id100637         1.42680357602742
+    id100207  id101273        -1.06518747998031
+    id100207  id101999                        1
+    id100207  id112093                        1
+    id100207  id112096                       -1
+    MARK0317  'MARKER'                 'INTEND'
+    id100211  obj                             1
+    id100211  id112079                        1
+    id100211  id112082                       -1
+    id100211  id112109                        1
+    id100211  id112112                       -1
+    MARK0318  'MARKER'                 'INTORG'
+    id100208  obj             -2.97203150250578
+    id100208  id100639         2.73696082538784
+    id100208  id101277       -0.859526014517857
+    id100208  id101999                        1
+    id100208  id112123                        1
+    id100208  id112126                       -1
+    id100208  id112151                        1
+    id100208  id112154                        1
+    id100208  id112195                        1
+    id100208  id112198                       -1
+    MARK0319  'MARKER'                 'INTEND'
+    id100212  obj                             1
+    id100212  id112151                        1
+    id100212  id112154                       -1
+    id100212  id112179                        1
+    id100212  id112182                       -1
+    MARK0320  'MARKER'                 'INTORG'
+    id100213  obj             -3.67449334155512
+    id100213  id100637         1.77237409389223
+    id100213  id101281       -0.684632186330013
+    id100213  id102001                        1
+    id100213  id112209                        1
+    id100213  id112212                       -1
+    id100213  id112237                        1
+    id100213  id112240                        1
+    MARK0321  'MARKER'                 'INTEND'
+    id100217  obj                             1
+    id100217  id112237                        1
+    id100217  id112240                       -1
+    MARK0322  'MARKER'                 'INTORG'
+    id100214  obj             -4.97535944309801
+    id100214  id100639         1.66176260107279
+    id100214  id101285       -0.339758511241501
+    id100214  id102001                        1
+    id100214  id112267                        1
+    id100214  id112270                       -1
+    id100214  id112325                        1
+    id100214  id112328                       -1
+    MARK0323  'MARKER'                 'INTEND'
+    id100218  obj                             1
+    id100218  id112281                        1
+    id100218  id112284                       -1
+    id100218  id112309                        1
+    id100218  id112312                       -1
+    MARK0324  'MARKER'                 'INTORG'
+    id100219  obj             -4.82390706931423
+    id100219  id100637         1.76290015259893
+    id100219  id101289       -0.990726476391179
+    id100219  id102003                        1
+    id100219  id112339                        1
+    id100219  id112342                       -1
+    id100219  id112367                        1
+    id100219  id112370                       -1
+    id100219  id112395                        1
+    id100219  id112398                        1
+    MARK0325  'MARKER'                 'INTEND'
+    id100223  obj                             1
+    id100223  id112353                        1
+    id100223  id112356                       -1
+    id100223  id112395                        1
+    id100223  id112398                       -1
+    MARK0326  'MARKER'                 'INTORG'
+    id100220  obj             -5.66671100243307
+    id100220  id100639         1.83501789850882
+    id100220  id101293       -0.820696012439495
+    id100220  id102003                        1
+    id100220  id112439                        1
+    id100220  id112442                       -1
+    id100220  id112467                        1
+    id100220  id112470                        1
+    MARK0327  'MARKER'                 'INTEND'
+    id100224  obj                             1
+    id100224  id112425                        1
+    id100224  id112428                       -1
+    id100224  id112467                        1
+    id100224  id112470                       -1
+    MARK0328  'MARKER'                 'INTORG'
+    id100225  obj             -3.65405578988327
+    id100225  id100637         1.87946578714972
+    id100225  id101297       -0.554716219790348
+    id100225  id102005                        1
+    id100225  id112497                        1
+    id100225  id112500                       -1
+    MARK0329  'MARKER'                 'INTEND'
+    id100229  obj                             1
+    id100229  id112511                        1
+    id100229  id112514                       -1
+    id100229  id112541                        1
+    id100229  id112544                       -1
+    MARK0330  'MARKER'                 'INTORG'
+    id100226  obj              -2.3152045832552
+    id100226  id100639         1.76280330715832
+    id100226  id101301        -1.29097101373079
+    id100226  id102005                        1
+    id100226  id112555                        1
+    id100226  id112558                       -1
+    id100226  id112583                        1
+    id100226  id112586                        1
+    id100226  id112611                        1
+    id100226  id112614                        1
+    MARK0331  'MARKER'                 'INTEND'
+    id100230  obj                             1
+    id100230  id112583                        1
+    id100230  id112586                       -1
+    id100230  id112639                        1
+    id100230  id112642                       -1
+    MARK0332  'MARKER'                 'INTORG'
+    id100231  obj             -5.27410635318333
+    id100231  id100637         2.59631630386986
+    id100231  id101305       -0.615121019207348
+    id100231  id102007                        1
+    id100231  id112669                        1
+    id100231  id112672                        1
+    id100231  id112683                        1
+    id100231  id112686                       -1
+    MARK0333  'MARKER'                 'INTEND'
+    id100235  obj                             1
+    id100235  id112669                        1
+    id100235  id112672                       -1
+    id100235  id112697                        1
+    id100235  id112700                       -1
+    MARK0334  'MARKER'                 'INTORG'
+    id100232  obj             -4.32121769074407
+    id100232  id100639         1.50321545847841
+    id100232  id101309        -1.20160528040041
+    id100232  id102007                        1
+    id100232  id112741                        1
+    id100232  id112744                       -1
+    MARK0335  'MARKER'                 'INTEND'
+    id100236  obj                             1
+    id100236  id112727                        1
+    id100236  id112730                       -1
+    id100236  id112757                        1
+    id100236  id112760                       -1
+    MARK0336  'MARKER'                 'INTORG'
+    id100237  obj             -3.09976759417903
+    id100237  id100637          1.6187879483303
+    id100237  id101313       -0.341999800594451
+    id100237  id102009                        1
+    id100237  id112771                        1
+    id100237  id112774                       -1
+    MARK0337  'MARKER'                 'INTEND'
+    id100241  obj                             1
+    id100241  id112785                        1
+    id100241  id112788                       -1
+    id100241  id112815                        1
+    id100241  id112818                       -1
+    MARK0338  'MARKER'                 'INTORG'
+    id100238  obj             -2.70503568868387
+    id100238  id100639         1.05241921173987
+    id100238  id101317       -0.767572915989139
+    id100238  id102009                        1
+    id100238  id112829                        1
+    id100238  id112832                       -1
+    id100238  id112885                        1
+    id100238  id112888                        1
+    MARK0339  'MARKER'                 'INTEND'
+    id100242  obj                             1
+    id100242  id112843                        1
+    id100242  id112846                       -1
+    id100242  id112885                        1
+    id100242  id112888                       -1
+    MARK0340  'MARKER'                 'INTORG'
+    id100243  obj             -3.17493400777454
+    id100243  id100637         1.97109378267596
+    id100243  id101321       -0.643062943010546
+    id100243  id102011                        1
+    id100243  id112915                        1
+    id100243  id112918                        1
+    id100243  id112959                        1
+    id100243  id112962                       -1
+    MARK0341  'MARKER'                 'INTEND'
+    id100247  obj                             1
+    id100247  id112915                        1
+    id100247  id112918                       -1
+    id100247  id112943                        1
+    id100247  id112946                       -1
+    MARK0342  'MARKER'                 'INTORG'
+    id100244  obj             -4.00769008975834
+    id100244  id100639         2.24496057501294
+    id100244  id101325        -1.68206338595655
+    id100244  id102011                        1
+    id100244  id112987                        1
+    id100244  id112990                       -1
+    id100244  id113015                        1
+    id100244  id113018                        1
+    MARK0343  'MARKER'                 'INTEND'
+    id100248  obj                             1
+    id100248  id112973                        1
+    id100248  id112976                       -1
+    id100248  id113015                        1
+    id100248  id113018                       -1
+    MARK0344  'MARKER'                 'INTORG'
+    id100249  obj              -2.8133867144647
+    id100249  id100637         1.14802522777953
+    id100249  id101329       -0.423952737801141
+    id100249  id102013                        1
+    id100249  id113045                        1
+    id100249  id113048                       -1
+    MARK0345  'MARKER'                 'INTEND'
+    id100253  obj                             1
+    id100253  id113059                        1
+    id100253  id113062                       -1
+    id100253  id113089                        1
+    id100253  id113092                       -1
+    MARK0346  'MARKER'                 'INTORG'
+    id100250  obj             -4.97170482714274
+    id100250  id100639         1.33876163341979
+    id100250  id101333       -0.718743202928773
+    id100250  id102013                        1
+    id100250  id113103                        1
+    id100250  id113106                       -1
+    MARK0347  'MARKER'                 'INTEND'
+    id100254  obj                             1
+    id100254  id113117                        1
+    id100254  id113120                       -1
+    id100254  id113147                        1
+    id100254  id113150                       -1
+    MARK0348  'MARKER'                 'INTORG'
+    id100255  obj             -2.20087083438452
+    id100255  id100637         2.24597451614494
+    id100255  id101337        -1.29887688646405
+    id100255  id102015                        1
+    id100255  id113161                        1
+    id100255  id113164                       -1
+    MARK0349  'MARKER'                 'INTEND'
+    id100259  obj                             1
+    id100259  id113175                        1
+    id100259  id113178                       -1
+    id100259  id113205                        1
+    id100259  id113208                       -1
+    MARK0350  'MARKER'                 'INTORG'
+    id100256  obj             -4.53671013123203
+    id100256  id100639         2.25889977778257
+    id100256  id101341        -1.68394576443286
+    id100256  id102015                        1
+    id100256  id113219                        1
+    id100256  id113222                        1
+    id100256  id113233                        1
+    id100256  id113236                       -1
+    id100256  id113261                        1
+    id100256  id113264                        1
+    MARK0351  'MARKER'                 'INTEND'
+    id100260  obj                             1
+    id100260  id113219                        1
+    id100260  id113222                       -1
+    id100260  id113261                        1
+    id100260  id113264                       -1
+    MARK0352  'MARKER'                 'INTORG'
+    id100261  obj             -4.04955905398799
+    id100261  id100637         2.85580238041273
+    id100261  id101345        -1.75114721035965
+    id100261  id102017                        1
+    id100261  id113291                        1
+    id100261  id113294                       -1
+    id100261  id113319                        1
+    id100261  id113322                        1
+    MARK0353  'MARKER'                 'INTEND'
+    id100265  obj                             1
+    id100265  id113319                        1
+    id100265  id113322                       -1
+    MARK0354  'MARKER'                 'INTORG'
+    id100262  obj             -4.31647654916927
+    id100262  id100639          2.1417687512663
+    id100262  id101349         -1.5500228551572
+    id100262  id102017                        1
+    MARK0355  'MARKER'                 'INTEND'
+    id100266  obj                             1
+    id100266  id113349                        1
+    id100266  id113352                       -1
+    MARK0356  'MARKER'                 'INTORG'
+    id100267  obj             -3.44708191484543
+    id100267  id100637         1.16652778264439
+    id100267  id101353       -0.837818685439731
+    id100267  id102019                        1
+    id100267  id113363                        1
+    id100267  id113366                       -1
+    id100267  id113391                        1
+    id100267  id113394                        1
+    MARK0357  'MARKER'                 'INTEND'
+    id100271  obj                             1
+    id100271  id113391                        1
+    id100271  id113394                       -1
+    MARK0358  'MARKER'                 'INTORG'
+    id100268  obj              -5.8379484302541
+    id100268  id100639         2.55825894212269
+    id100268  id101357       -0.761594381454116
+    id100268  id102019                        1
+    id100268  id113421                        1
+    id100268  id113424                        1
+    id100268  id113435                        1
+    id100268  id113438                       -1
+    MARK0359  'MARKER'                 'INTEND'
+    id100272  obj                             1
+    id100272  id113421                        1
+    id100272  id113424                       -1
+    id100272  id113449                        1
+    id100272  id113452                       -1
+    MARK0360  'MARKER'                 'INTORG'
+    id100273  obj             -5.07182943963997
+    id100273  id100637         1.88996322028803
+    id100273  id101361       -0.957323334072193
+    id100273  id102021                        1
+    id100273  id113479                        1
+    id100273  id113482                       -1
+    id100273  id113507                        1
+    id100273  id113510                       -1
+    id100273  id113535                        1
+    id100273  id113538                        1
+    MARK0361  'MARKER'                 'INTEND'
+    id100277  obj                             1
+    id100277  id113493                        1
+    id100277  id113496                       -1
+    id100277  id113535                        1
+    id100277  id113538                       -1
+    MARK0362  'MARKER'                 'INTORG'
+    id100274  obj             -3.23422540781751
+    id100274  id100639         1.14467272076042
+    id100274  id101365       -0.475341872169251
+    id100274  id102021                        1
+    id100274  id113609                        1
+    id100274  id113612                       -1
+    MARK0363  'MARKER'                 'INTEND'
+    id100278  obj                             1
+    id100278  id113565                        1
+    id100278  id113568                       -1
+    id100278  id113593                        1
+    id100278  id113596                       -1
+    MARK0364  'MARKER'                 'INTORG'
+    id100279  obj             -4.32760558199492
+    id100279  id100637         2.97859238366531
+    id100279  id101369       -0.981885105975855
+    id100279  id102023                        1
+    id100279  id113623                        1
+    id100279  id113626                       -1
+    id100279  id113651                        1
+    id100279  id113654                        1
+    MARK0365  'MARKER'                 'INTEND'
+    id100283  obj                             1
+    id100283  id113651                        1
+    id100283  id113654                       -1
+    id100283  id113681                        1
+    id100283  id113684                       -1
+    MARK0366  'MARKER'                 'INTORG'
+    id100280  obj             -4.27967442119479
+    id100280  id100639         1.25039671745635
+    id100280  id101373       -0.311830211988065
+    id100280  id102023                        1
+    id100280  id113709                        1
+    id100280  id113712                       -1
+    MARK0367  'MARKER'                 'INTEND'
+    id100284  obj                             1
+    id100284  id113695                        1
+    id100284  id113698                       -1
+    id100284  id113725                        1
+    id100284  id113728                       -1
+    MARK0368  'MARKER'                 'INTORG'
+    id100285  obj              -4.2303597713962
+    id100285  id100637         2.54191410985864
+    id100285  id101377       -0.716884465826012
+    id100285  id102025                        1
+    id100285  id113739                        1
+    id100285  id113742                       -1
+    id100285  id113795                        1
+    id100285  id113798                        1
+    MARK0369  'MARKER'                 'INTEND'
+    id100289  obj                             1
+    id100289  id113753                        1
+    id100289  id113756                       -1
+    id100289  id113795                        1
+    id100289  id113798                       -1
+    MARK0370  'MARKER'                 'INTORG'
+    id100286  obj             -2.02884138004335
+    id100286  id100639         1.01912343875464
+    id100286  id101381       -0.429446891294698
+    id100286  id102025                        1
+    id100286  id113825                        1
+    id100286  id113828                       -1
+    id100286  id113883                        1
+    id100286  id113886                       -1
+    MARK0371  'MARKER'                 'INTEND'
+    id100290  obj                             1
+    id100290  id113839                        1
+    id100290  id113842                       -1
+    id100290  id113867                        1
+    id100290  id113870                       -1
+    MARK0372  'MARKER'                 'INTORG'
+    id100291  obj             -3.59309078640914
+    id100291  id100637         1.46534764881495
+    id100291  id101385       -0.607615022487909
+    id100291  id102027                        1
+    id100291  id113897                        1
+    id100291  id113900                       -1
+    id100291  id113925                        1
+    id100291  id113928                        1
+    MARK0373  'MARKER'                 'INTEND'
+    id100295  obj                             1
+    id100295  id113925                        1
+    id100295  id113928                       -1
+    id100295  id113955                        1
+    id100295  id113958                       -1
+    MARK0374  'MARKER'                 'INTORG'
+    id100292  obj             -5.19427915997537
+    id100292  id100639          2.0411871797597
+    id100292  id101389        -1.10207020860334
+    id100292  id102027                        1
+    id100292  id113969                        1
+    id100292  id113972                       -1
+    id100292  id113997                        1
+    id100292  id114000                        1
+    id100292  id114025                        1
+    id100292  id114028                        1
+    MARK0375  'MARKER'                 'INTEND'
+    id100296  obj                             1
+    id100296  id113997                        1
+    id100296  id114000                       -1
+    id100296  id114053                        1
+    id100296  id114056                       -1
+    MARK0376  'MARKER'                 'INTORG'
+    id100297  obj             -5.45978152167973
+    id100297  id100637         1.15482143040505
+    id100297  id101393       -0.351182397335963
+    id100297  id102029                        1
+    id100297  id114083                        1
+    id100297  id114086                       -1
+    id100297  id114111                        1
+    id100297  id114114                        1
+    id100297  id114153                        1
+    id100297  id114156                        1
+    MARK0377  'MARKER'                 'INTEND'
+    id100301  obj                             1
+    id100301  id114111                        1
+    id100301  id114114                       -1
+    id100301  id114153                        1
+    id100301  id114156                       -1
+    MARK0378  'MARKER'                 'INTORG'
+    id100298  obj             -4.31975050937373
+    id100298  id100639         2.06455158584963
+    id100298  id101397        -0.61338532334978
+    id100298  id102029                        1
+    id100298  id114183                        1
+    id100298  id114186                       -1
+    id100298  id114211                        1
+    id100298  id114214                        1
+    id100298  id114239                        1
+    id100298  id114242                        1
+    MARK0379  'MARKER'                 'INTEND'
+    id100302  obj                             1
+    id100302  id114211                        1
+    id100302  id114214                       -1
+    id100302  id114267                        1
+    id100302  id114270                       -1
+    MARK0380  'MARKER'                 'INTORG'
+    id100303  obj             -5.38028277614167
+    id100303  id100637         1.75583590136647
+    id100303  id101401       -0.788359046054973
+    id100303  id102031                        1
+    id100303  id114297                        1
+    id100303  id114300                       -1
+    id100303  id114325                        1
+    id100303  id114328                        1
+    id100303  id114353                        1
+    id100303  id114356                        1
+    MARK0381  'MARKER'                 'INTEND'
+    id100307  obj                             1
+    id100307  id114325                        1
+    id100307  id114328                       -1
+    id100307  id114381                        1
+    id100307  id114384                       -1
+    MARK0382  'MARKER'                 'INTORG'
+    id100304  obj             -2.56127225820034
+    id100304  id100639          1.9945953353283
+    id100304  id101405        -1.23414550125089
+    id100304  id102031                        1
+    id100304  id114411                        1
+    id100304  id114414                        1
+    id100304  id114425                        1
+    id100304  id114428                       -1
+    MARK0383  'MARKER'                 'INTEND'
+    id100308  obj                             1
+    id100308  id114411                        1
+    id100308  id114414                       -1
+    id100308  id114439                        1
+    id100308  id114442                       -1
+    MARK0384  'MARKER'                 'INTORG'
+    id100309  obj             -4.22486343338381
+    id100309  id100637         2.66923417601233
+    id100309  id101409        -1.43619672179895
+    id100309  id102033                        1
+    id100309  id114483                        1
+    id100309  id114486                       -1
+    MARK0385  'MARKER'                 'INTEND'
+    id100313  obj                             1
+    id100313  id114469                        1
+    id100313  id114472                       -1
+    id100313  id114499                        1
+    id100313  id114502                       -1
+    MARK0386  'MARKER'                 'INTORG'
+    id100310  obj             -4.44038460889849
+    id100310  id100639         2.86481405415796
+    id100310  id101413       -0.587347928273462
+    id100310  id102033                        1
+    id100310  id114513                        1
+    id100310  id114516                       -1
+    MARK0387  'MARKER'                 'INTEND'
+    id100314  obj                             1
+    id100314  id114527                        1
+    id100314  id114530                       -1
+    id100314  id114557                        1
+    id100314  id114560                       -1
+    MARK0388  'MARKER'                 'INTORG'
+    id100315  obj             -5.74801767233201
+    id100315  id100637         1.73225730598544
+    id100315  id101417        -1.11097373833444
+    id100315  id102035                        1
+    id100315  id114571                        1
+    id100315  id114574                       -1
+    id100315  id114599                        1
+    id100315  id114602                        1
+    id100315  id114643                        1
+    id100315  id114646                       -1
+    MARK0389  'MARKER'                 'INTEND'
+    id100319  obj                             1
+    id100319  id114599                        1
+    id100319  id114602                       -1
+    id100319  id114627                        1
+    id100319  id114630                       -1
+    MARK0390  'MARKER'                 'INTORG'
+    id100316  obj              -2.7075365878211
+    id100316  id100639         1.60420271316739
+    id100316  id101421       -0.361102366968761
+    id100316  id102035                        1
+    id100316  id114657                        1
+    id100316  id114660                        1
+    id100316  id114671                        1
+    id100316  id114674                       -1
+    MARK0391  'MARKER'                 'INTEND'
+    id100320  obj                             1
+    id100320  id114657                        1
+    id100320  id114660                       -1
+    id100320  id114685                        1
+    id100320  id114688                       -1
+    MARK0392  'MARKER'                 'INTORG'
+    id100321  obj             -5.40918977158572
+    id100321  id100637         1.43066251856771
+    id100321  id101425       -0.657162011835413
+    id100321  id102037                        1
+    id100321  id114757                        1
+    id100321  id114760                        1
+    MARK0393  'MARKER'                 'INTEND'
+    id100325  obj                             1
+    id100325  id114715                        1
+    id100325  id114718                       -1
+    id100325  id114757                        1
+    id100325  id114760                       -1
+    MARK0394  'MARKER'                 'INTORG'
+    id100322  obj             -4.11703658947583
+    id100322  id100639         2.18814818523272
+    id100322  id101429       -0.929083134323646
+    id100322  id102037                        1
+    id100322  id114787                        1
+    id100322  id114790                       -1
+    MARK0395  'MARKER'                 'INTEND'
+    id100326  obj                             1
+    id100326  id114803                        1
+    id100326  id114806                       -1
+    MARK0396  'MARKER'                 'INTORG'
+    id100327  obj             -3.07671614786457
+    id100327  id100637         2.57863828054566
+    id100327  id101433        -1.14929459715448
+    id100327  id102039                        1
+    id100327  id114817                        1
+    id100327  id114820                       -1
+    id100327  id114845                        1
+    id100327  id114848                        1
+    id100327  id114887                        1
+    id100327  id114890                        1
+    MARK0397  'MARKER'                 'INTEND'
+    id100331  obj                             1
+    id100331  id114845                        1
+    id100331  id114848                       -1
+    id100331  id114887                        1
+    id100331  id114890                       -1
+    MARK0398  'MARKER'                 'INTORG'
+    id100328  obj             -3.90043340898139
+    id100328  id100639         1.21481021783073
+    id100328  id101437       -0.265793826221221
+    id100328  id102039                        1
+    id100328  id114917                        1
+    id100328  id114920                        1
+    MARK0399  'MARKER'                 'INTEND'
+    id100332  obj                             1
+    id100332  id114917                        1
+    id100332  id114920                       -1
+    MARK0400  'MARKER'                 'INTORG'
+    id100333  obj             -4.21948612025915
+    id100333  id100637         2.18950082789618
+    id100333  id101441       -0.654618291136762
+    id100333  id102041                        1
+    id100333  id114947                        1
+    id100333  id114950                       -1
+    id100333  id114975                        1
+    id100333  id114978                        1
+    MARK0401  'MARKER'                 'INTEND'
+    id100337  obj                             1
+    id100337  id114975                        1
+    id100337  id114978                       -1
+    MARK0402  'MARKER'                 'INTORG'
+    id100334  obj             -5.14480401535742
+    id100334  id100639         1.34667306130131
+    id100334  id101445       -0.853687367954197
+    id100334  id102041                        1
+    id100334  id115005                        1
+    id100334  id115008                       -1
+    id100334  id115061                        1
+    id100334  id115064                        1
+    MARK0403  'MARKER'                 'INTEND'
+    id100338  obj                             1
+    id100338  id115019                        1
+    id100338  id115022                       -1
+    id100338  id115061                        1
+    id100338  id115064                       -1
+    MARK0404  'MARKER'                 'INTORG'
+    id100339  obj              -4.7689531700541
+    id100339  id100637         1.91755925813576
+    id100339  id101449        -1.38346811978132
+    id100339  id102043                        1
+    id100339  id115091                        1
+    id100339  id115094                       -1
+    id100339  id115119                        1
+    id100339  id115122                        1
+    MARK0405  'MARKER'                 'INTEND'
+    id100343  obj                             1
+    id100343  id115119                        1
+    id100343  id115122                       -1
+    id100343  id115149                        1
+    id100343  id115152                       -1
+    MARK0406  'MARKER'                 'INTORG'
+    id100340  obj             -3.70474970606377
+    id100340  id100639          2.8219039327567
+    id100340  id101453        -1.03589531468771
+    id100340  id102043                        1
+    id100340  id115163                        1
+    id100340  id115166                       -1
+    id100340  id115221                        1
+    id100340  id115224                       -1
+    MARK0407  'MARKER'                 'INTEND'
+    id100344  obj                             1
+    id100344  id115177                        1
+    id100344  id115180                       -1
+    id100344  id115205                        1
+    id100344  id115208                       -1
+    MARK0408  'MARKER'                 'INTORG'
+    id100345  obj             -2.56157222975119
+    id100345  id100637         2.42143987837315
+    id100345  id101457        -1.45720150836692
+    id100345  id102045                        1
+    id100345  id115235                        1
+    id100345  id115238                       -1
+    id100345  id115263                        1
+    id100345  id115266                        1
+    id100345  id115305                        1
+    id100345  id115308                        1
+    MARK0409  'MARKER'                 'INTEND'
+    id100349  obj                             1
+    id100349  id115263                        1
+    id100349  id115266                       -1
+    id100349  id115305                        1
+    id100349  id115308                       -1
+    MARK0410  'MARKER'                 'INTORG'
+    id100346  obj             -5.49556111334616
+    id100346  id100639         1.08796409149094
+    id100346  id101461       -0.310985384580323
+    id100346  id102045                        1
+    id100346  id115349                        1
+    id100346  id115352                       -1
+    MARK0411  'MARKER'                 'INTEND'
+    id100350  obj                             1
+    id100350  id115335                        1
+    id100350  id115338                       -1
+    id100350  id115365                        1
+    id100350  id115368                       -1
+    MARK0412  'MARKER'                 'INTORG'
+    id100351  obj             -3.10714429668484
+    id100351  id100637          2.1051328327065
+    id100351  id101465        -1.37072915280841
+    id100351  id102047                        1
+    id100351  id115379                        1
+    id100351  id115382                       -1
+    id100351  id115407                        1
+    id100351  id115410                        1
+    id100351  id115449                        1
+    id100351  id115452                        1
+    MARK0413  'MARKER'                 'INTEND'
+    id100355  obj                             1
+    id100355  id115407                        1
+    id100355  id115410                       -1
+    id100355  id115449                        1
+    id100355  id115452                       -1
+    MARK0414  'MARKER'                 'INTORG'
+    id100352  obj             -2.47967197395846
+    id100352  id100639         2.56643727401571
+    id100352  id101469        -1.55237044602234
+    id100352  id102047                        1
+    id100352  id115479                        1
+    id100352  id115482                        1
+    id100352  id115493                        1
+    id100352  id115496                       -1
+    MARK0415  'MARKER'                 'INTEND'
+    id100356  obj                             1
+    id100356  id115479                        1
+    id100356  id115482                       -1
+    id100356  id115507                        1
+    id100356  id115510                       -1
+    MARK0416  'MARKER'                 'INTORG'
+    id100357  obj             -4.40797488876058
+    id100357  id100637          2.6795144107563
+    id100357  id101473        -1.16000689969665
+    id100357  id102049                        1
+    id100357  id115551                        1
+    id100357  id115554                       -1
+    MARK0417  'MARKER'                 'INTEND'
+    id100361  obj                             1
+    id100361  id115537                        1
+    id100361  id115540                       -1
+    id100361  id115567                        1
+    id100361  id115570                       -1
+    MARK0418  'MARKER'                 'INTORG'
+    id100358  obj             -5.62050596793206
+    id100358  id100639          1.2228002949724
+    id100358  id101477       -0.682834759465929
+    id100358  id102049                        1
+    id100358  id115581                        1
+    id100358  id115584                       -1
+    id100358  id115609                        1
+    id100358  id115612                        1
+    id100358  id115637                        1
+    id100358  id115640                        1
+    MARK0419  'MARKER'                 'INTEND'
+    id100362  obj                             1
+    id100362  id115609                        1
+    id100362  id115612                       -1
+    id100362  id115665                        1
+    id100362  id115668                       -1
+    MARK0420  'MARKER'                 'INTORG'
+    id100363  obj             -4.21023567868873
+    id100363  id100637         1.93297444606804
+    id100363  id101481        -1.52172989503207
+    id100363  id102051                        1
+    id100363  id115695                        1
+    id100363  id115698                       -1
+    id100363  id115723                        1
+    id100363  id115726                       -1
+    id100363  id115751                        1
+    id100363  id115754                        1
+    MARK0421  'MARKER'                 'INTEND'
+    id100367  obj                             1
+    id100367  id115709                        1
+    id100367  id115712                       -1
+    id100367  id115751                        1
+    id100367  id115754                       -1
+    MARK0422  'MARKER'                 'INTORG'
+    id100364  obj             -3.32424304882262
+    id100364  id100639         1.51446243026967
+    id100364  id101485       -0.731291944951356
+    id100364  id102051                        1
+    id100364  id115781                        1
+    id100364  id115784                        1
+    id100364  id115825                        1
+    id100364  id115828                       -1
+    MARK0423  'MARKER'                 'INTEND'
+    id100368  obj                             1
+    id100368  id115781                        1
+    id100368  id115784                       -1
+    id100368  id115809                        1
+    id100368  id115812                       -1
+    MARK0424  'MARKER'                 'INTORG'
+    id100369  obj             -4.01488965843566
+    id100369  id100637         1.28221204983174
+    id100369  id101489       -0.546950136646546
+    id100369  id102053                        1
+    id100369  id115853                        1
+    id100369  id115856                       -1
+    MARK0425  'MARKER'                 'INTEND'
+    id100373  obj                             1
+    id100373  id115839                        1
+    id100373  id115842                       -1
+    id100373  id115869                        1
+    id100373  id115872                       -1
+    MARK0426  'MARKER'                 'INTORG'
+    id100370  obj             -3.09098074077209
+    id100370  id100639         2.04136401463363
+    id100370  id101493        -1.08134880559619
+    id100370  id102053                        1
+    id100370  id115927                        1
+    id100370  id115930                       -1
+    MARK0427  'MARKER'                 'INTEND'
+    id100374  obj                             1
+    id100374  id115883                        1
+    id100374  id115886                       -1
+    id100374  id115911                        1
+    id100374  id115914                       -1
+    MARK0428  'MARKER'                 'INTORG'
+    id100375  obj             -2.07355702671854
+    id100375  id100637         1.60285137063025
+    id100375  id101497       -0.453581853427179
+    id100375  id102055                        1
+    id100375  id115941                        1
+    id100375  id115944                        1
+    MARK0429  'MARKER'                 'INTEND'
+    id100379  obj                             1
+    id100379  id115941                        1
+    id100379  id115944                       -1
+    id100379  id115971                        1
+    id100379  id115974                       -1
+    MARK0430  'MARKER'                 'INTORG'
+    id100376  obj             -4.93287979761738
+    id100376  id100639          2.6261935474473
+    id100376  id101501        -1.05344029757025
+    id100376  id102055                        1
+    id100376  id115985                        1
+    id100376  id115988                       -1
+    id100376  id116013                        1
+    id100376  id116016                       -1
+    id100376  id116041                        1
+    id100376  id116044                        1
+    MARK0431  'MARKER'                 'INTEND'
+    id100380  obj                             1
+    id100380  id115999                        1
+    id100380  id116002                       -1
+    id100380  id116041                        1
+    id100380  id116044                       -1
+    MARK0432  'MARKER'                 'INTORG'
+    id100381  obj              -3.8504534931157
+    id100381  id100637         2.44681679431666
+    id100381  id101505         -1.0292386051373
+    id100381  id102057                        1
+    id100381  id116071                        1
+    id100381  id116074                       -1
+    id100381  id116099                        1
+    id100381  id116102                       -1
+    id100381  id116127                        1
+    id100381  id116130                        1
+    MARK0433  'MARKER'                 'INTEND'
+    id100385  obj                             1
+    id100385  id116085                        1
+    id100385  id116088                       -1
+    id100385  id116127                        1
+    id100385  id116130                       -1
+    MARK0434  'MARKER'                 'INTORG'
+    id100382  obj              -4.6637908586598
+    id100382  id100639         2.93020929765432
+    id100382  id101509       -0.970203962451153
+    id100382  id102057                        1
+    id100382  id116157                        1
+    id100382  id116160                       -1
+    MARK0435  'MARKER'                 'INTEND'
+    id100386  obj                             1
+    id100386  id116173                        1
+    id100386  id116176                       -1
+    MARK0436  'MARKER'                 'INTORG'
+    id100387  obj             -3.61995328479444
+    id100387  id100637         1.39450596011919
+    id100387  id101513       -0.894756092272349
+    id100387  id102059                        1
+    id100387  id116187                        1
+    id100387  id116190                       -1
+    MARK0437  'MARKER'                 'INTEND'
+    id100391  obj                             1
+    id100391  id116201                        1
+    id100391  id116204                       -1
+    id100391  id116231                        1
+    id100391  id116234                       -1
+    MARK0438  'MARKER'                 'INTORG'
+    id100388  obj              -5.2361242413689
+    id100388  id100639         1.41500580609544
+    id100388  id101517        -0.54852995097852
+    id100388  id102059                        1
+    id100388  id116245                        1
+    id100388  id116248                       -1
+    MARK0439  'MARKER'                 'INTEND'
+    id100392  obj                             1
+    id100392  id116261                        1
+    id100392  id116264                       -1
+    MARK0440  'MARKER'                 'INTORG'
+    id100393  obj             -3.68974139620072
+    id100393  id100637         2.38073233486187
+    id100393  id101521        -1.46916973283598
+    id100393  id102061                        1
+    id100393  id116275                        1
+    id100393  id116278                       -1
+    id100393  id116303                        1
+    id100393  id116306                       -1
+    id100393  id116331                        1
+    id100393  id116334                        1
+    MARK0441  'MARKER'                 'INTEND'
+    id100397  obj                             1
+    id100397  id116289                        1
+    id100397  id116292                       -1
+    id100397  id116331                        1
+    id100397  id116334                       -1
+    MARK0442  'MARKER'                 'INTORG'
+    id100394  obj             -4.13478799636233
+    id100394  id100639         1.48942358628354
+    id100394  id101525       -0.791258891860986
+    id100394  id102061                        1
+    id100394  id116361                        1
+    id100394  id116364                       -1
+    id100394  id116417                        1
+    id100394  id116420                        1
+    MARK0443  'MARKER'                 'INTEND'
+    id100398  obj                             1
+    id100398  id116375                        1
+    id100398  id116378                       -1
+    id100398  id116417                        1
+    id100398  id116420                       -1
+    MARK0444  'MARKER'                 'INTORG'
+    id100399  obj             -3.13718639367129
+    id100399  id100637         2.38078701187893
+    id100399  id101529       -0.501179303439387
+    id100399  id102063                        1
+    id100399  id116461                        1
+    id100399  id116464                       -1
+    id100399  id116489                        1
+    id100399  id116492                        1
+    MARK0445  'MARKER'                 'INTEND'
+    id100403  obj                             1
+    id100403  id116447                        1
+    id100403  id116450                       -1
+    id100403  id116489                        1
+    id100403  id116492                       -1
+    MARK0446  'MARKER'                 'INTORG'
+    id100400  obj             -4.52312720498216
+    id100400  id100639         1.70546043697068
+    id100400  id101533       -0.436661152010903
+    id100400  id102063                        1
+    id100400  id116519                        1
+    id100400  id116522                       -1
+    id100400  id116577                        1
+    id100400  id116580                       -1
+    MARK0447  'MARKER'                 'INTEND'
+    id100404  obj                             1
+    id100404  id116533                        1
+    id100404  id116536                       -1
+    id100404  id116561                        1
+    id100404  id116564                       -1
+    MARK0448  'MARKER'                 'INTORG'
+    id100405  obj             -2.62537702947174
+    id100405  id100637         1.92227007771017
+    id100405  id101537        -1.33285436786717
+    id100405  id102065                        1
+    id100405  id116591                        1
+    id100405  id116594                        1
+    MARK0449  'MARKER'                 'INTEND'
+    id100409  obj                             1
+    id100409  id116591                        1
+    id100409  id116594                       -1
+    MARK0450  'MARKER'                 'INTORG'
+    id100406  obj             -5.64378864115281
+    id100406  id100639         1.08159721274003
+    id100406  id101541       -0.421348403954901
+    id100406  id102065                        1
+    id100406  id116621                        1
+    id100406  id116624                       -1
+    id100406  id116649                        1
+    id100406  id116652                        1
+    id100406  id116691                        1
+    id100406  id116694                        1
+    MARK0451  'MARKER'                 'INTEND'
+    id100410  obj                             1
+    id100410  id116649                        1
+    id100410  id116652                       -1
+    id100410  id116691                        1
+    id100410  id116694                       -1
+    MARK0452  'MARKER'                 'INTORG'
+    id100411  obj             -5.43132623444839
+    id100411  id100637         1.10396912885083
+    id100411  id101545       -0.662511272167834
+    id100411  id102067                        1
+    id100411  id116735                        1
+    id100411  id116738                       -1
+    MARK0453  'MARKER'                 'INTEND'
+    id100415  obj                             1
+    id100415  id116721                        1
+    id100415  id116724                       -1
+    id100415  id116751                        1
+    id100415  id116754                       -1
+    MARK0454  'MARKER'                 'INTORG'
+    id100412  obj             -4.77014312835883
+    id100412  id100639         2.95923218687961
+    id100412  id101549       -0.795982199647787
+    id100412  id102067                        1
+    id100412  id116765                        1
+    id100412  id116768                       -1
+    id100412  id116793                        1
+    id100412  id116796                        1
+    id100412  id116837                        1
+    id100412  id116840                       -1
+    MARK0455  'MARKER'                 'INTEND'
+    id100416  obj                             1
+    id100416  id116793                        1
+    id100416  id116796                       -1
+    id100416  id116821                        1
+    id100416  id116824                       -1
+    MARK0456  'MARKER'                 'INTORG'
+    id100417  obj             -4.43238558360952
+    id100417  id100637         2.62030333076618
+    id100417  id101553       -0.746985688529555
+    id100417  id102069                        1
+    id100417  id116851                        1
+    id100417  id116854                       -1
+    id100417  id116909                        1
+    id100417  id116912                       -1
+    MARK0457  'MARKER'                 'INTEND'
+    id100421  obj                             1
+    id100421  id116865                        1
+    id100421  id116868                       -1
+    id100421  id116893                        1
+    id100421  id116896                       -1
+    MARK0458  'MARKER'                 'INTORG'
+    id100418  obj             -5.52412174247397
+    id100418  id100639         2.38775930059504
+    id100418  id101557       -0.714408557347878
+    id100418  id102069                        1
+    id100418  id116967                        1
+    id100418  id116970                       -1
+    MARK0459  'MARKER'                 'INTEND'
+    id100422  obj                             1
+    id100422  id116923                        1
+    id100422  id116926                       -1
+    id100422  id116951                        1
+    id100422  id116954                       -1
+    MARK0460  'MARKER'                 'INTORG'
+    id100423  obj             -4.40400374792703
+    id100423  id100637         1.36568716185432
+    id100423  id101561       -0.463063057951172
+    id100423  id102071                        1
+    id100423  id116981                        1
+    id100423  id116984                        1
+    MARK0461  'MARKER'                 'INTEND'
+    id100427  obj                             1
+    id100427  id116981                        1
+    id100427  id116984                       -1
+    MARK0462  'MARKER'                 'INTORG'
+    id100424  obj             -5.55105373987511
+    id100424  id100639         1.65035582364088
+    id100424  id101565       -0.373747196416225
+    id100424  id102071                        1
+    id100424  id117011                        1
+    id100424  id117014                       -1
+    id100424  id117039                        1
+    id100424  id117042                       -1
+    id100424  id117067                        1
+    id100424  id117070                        1
+    MARK0463  'MARKER'                 'INTEND'
+    id100428  obj                             1
+    id100428  id117025                        1
+    id100428  id117028                       -1
+    id100428  id117067                        1
+    id100428  id117070                       -1
+    MARK0464  'MARKER'                 'INTORG'
+    id100429  obj             -4.44684966022468
+    id100429  id100637          2.7327993287392
+    id100429  id101569        -1.40355410774396
+    id100429  id102073                        1
+    id100429  id117097                        1
+    id100429  id117100                        1
+    id100429  id117111                        1
+    id100429  id117114                       -1
+    MARK0465  'MARKER'                 'INTEND'
+    id100433  obj                             1
+    id100433  id117097                        1
+    id100433  id117100                       -1
+    id100433  id117125                        1
+    id100433  id117128                       -1
+    MARK0466  'MARKER'                 'INTORG'
+    id100430  obj             -2.85021054970576
+    id100430  id100639         2.67719011273104
+    id100430  id101573       -0.648497146034347
+    id100430  id102073                        1
+    id100430  id117155                        1
+    id100430  id117158                       -1
+    id100430  id117183                        1
+    id100430  id117186                       -1
+    id100430  id117211                        1
+    id100430  id117214                        1
+    MARK0467  'MARKER'                 'INTEND'
+    id100434  obj                             1
+    id100434  id117169                        1
+    id100434  id117172                       -1
+    id100434  id117211                        1
+    id100434  id117214                       -1
+    MARK0468  'MARKER'                 'INTORG'
+    id100435  obj             -2.58099942867691
+    id100435  id100637          2.4744936290544
+    id100435  id101577        -1.73875586192658
+    id100435  id102075                        1
+    id100435  id117241                        1
+    id100435  id117244                        1
+    MARK0469  'MARKER'                 'INTEND'
+    id100439  obj                             1
+    id100439  id117241                        1
+    id100439  id117244                       -1
+    MARK0470  'MARKER'                 'INTORG'
+    id100436  obj             -2.60026835305629
+    id100436  id100639         2.90551353986632
+    id100436  id101581        -1.90281526917997
+    id100436  id102075                        1
+    id100436  id117271                        1
+    id100436  id117274                       -1
+    id100436  id117329                        1
+    id100436  id117332                       -1
+    MARK0471  'MARKER'                 'INTEND'
+    id100440  obj                             1
+    id100440  id117285                        1
+    id100440  id117288                       -1
+    id100440  id117313                        1
+    id100440  id117316                       -1
+    MARK0472  'MARKER'                 'INTORG'
+    id100441  obj             -3.54738067162567
+    id100441  id100637         2.79991375738751
+    id100441  id101585        -1.00999990324194
+    id100441  id102077                        1
+    id100441  id117343                        1
+    id100441  id117346                        1
+    id100441  id117387                        1
+    id100441  id117390                       -1
+    MARK0473  'MARKER'                 'INTEND'
+    id100445  obj                             1
+    id100445  id117343                        1
+    id100445  id117346                       -1
+    id100445  id117371                        1
+    id100445  id117374                       -1
+    MARK0474  'MARKER'                 'INTORG'
+    id100442  obj             -5.27108757350179
+    id100442  id100639         1.86640527325981
+    id100442  id101589       -0.842240945456465
+    id100442  id102077                        1
+    id100442  id117401                        1
+    id100442  id117404                       -1
+    MARK0475  'MARKER'                 'INTEND'
+    id100446  obj                             1
+    id100446  id117415                        1
+    id100446  id117418                       -1
+    id100446  id117445                        1
+    id100446  id117448                       -1
+    MARK0476  'MARKER'                 'INTORG'
+    id100447  obj             -5.91243873718774
+    id100447  id100637         2.30111113623768
+    id100447  id101593        -1.65570439299132
+    id100447  id102079                        1
+    id100447  id117473                        1
+    id100447  id117476                       -1
+    MARK0477  'MARKER'                 'INTEND'
+    id100451  obj                             1
+    id100451  id117459                        1
+    id100451  id117462                       -1
+    id100451  id117489                        1
+    id100451  id117492                       -1
+    MARK0478  'MARKER'                 'INTORG'
+    id100448  obj             -2.60648006787825
+    id100448  id100639         2.81996162134221
+    id100448  id101597        -1.85553322185147
+    id100448  id102079                        1
+    id100448  id117503                        1
+    id100448  id117506                       -1
+    id100448  id117531                        1
+    id100448  id117534                        1
+    MARK0479  'MARKER'                 'INTEND'
+    id100452  obj                             1
+    id100452  id117531                        1
+    id100452  id117534                       -1
+    id100452  id117561                        1
+    id100452  id117564                       -1
+    MARK0480  'MARKER'                 'INTORG'
+    id100453  obj             -5.04818572245919
+    id100453  id100637         1.57198401380888
+    id100453  id101601        -1.23362929566209
+    id100453  id102081                        1
+    id100453  id117575                        1
+    id100453  id117578                       -1
+    id100453  id117631                        1
+    id100453  id117634                        1
+    MARK0481  'MARKER'                 'INTEND'
+    id100457  obj                             1
+    id100457  id117589                        1
+    id100457  id117592                       -1
+    id100457  id117631                        1
+    id100457  id117634                       -1
+    MARK0482  'MARKER'                 'INTORG'
+    id100454  obj             -4.73431498125862
+    id100454  id100639         1.08996652722823
+    id100454  id101605       -0.760030565555715
+    id100454  id102081                        1
+    id100454  id117661                        1
+    id100454  id117664                        1
+    id100454  id117705                        1
+    id100454  id117708                       -1
+    MARK0483  'MARKER'                 'INTEND'
+    id100458  obj                             1
+    id100458  id117661                        1
+    id100458  id117664                       -1
+    id100458  id117689                        1
+    id100458  id117692                       -1
+    MARK0484  'MARKER'                 'INTORG'
+    id100459  obj             -2.06066673438096
+    id100459  id100637         2.33322848255431
+    id100459  id101609       -0.697962582180077
+    id100459  id102083                        1
+    id100459  id117719                        1
+    id100459  id117722                       -1
+    MARK0485  'MARKER'                 'INTEND'
+    id100463  obj                             1
+    id100463  id117733                        1
+    id100463  id117736                       -1
+    id100463  id117763                        1
+    id100463  id117766                       -1
+    MARK0486  'MARKER'                 'INTORG'
+    id100460  obj             -3.99637194070796
+    id100460  id100639         2.84679451205153
+    id100460  id101613        -2.08260922653464
+    id100460  id102083                        1
+    id100460  id117777                        1
+    id100460  id117780                       -1
+    id100460  id117805                        1
+    id100460  id117808                       -1
+    id100460  id117833                        1
+    id100460  id117836                        1
+    MARK0487  'MARKER'                 'INTEND'
+    id100464  obj                             1
+    id100464  id117791                        1
+    id100464  id117794                       -1
+    id100464  id117833                        1
+    id100464  id117836                       -1
+    MARK0488  'MARKER'                 'INTORG'
+    id100465  obj             -3.52911778238095
+    id100465  id100637         1.30762751228531
+    id100465  id101617       -0.418481082916265
+    id100465  id102085                        1
+    id100465  id117863                        1
+    id100465  id117866                        1
+    id100465  id117877                        1
+    id100465  id117880                       -1
+    id100465  id117905                        1
+    id100465  id117908                        1
+    MARK0489  'MARKER'                 'INTEND'
+    id100469  obj                             1
+    id100469  id117863                        1
+    id100469  id117866                       -1
+    id100469  id117905                        1
+    id100469  id117908                       -1
+    MARK0490  'MARKER'                 'INTORG'
+    id100466  obj             -3.66876264925523
+    id100466  id100639         2.23764833772445
+    id100466  id101621       -0.978255565016956
+    id100466  id102085                        1
+    id100466  id117935                        1
+    id100466  id117938                       -1
+    id100466  id117963                        1
+    id100466  id117966                        1
+    MARK0491  'MARKER'                 'INTEND'
+    id100470  obj                             1
+    id100470  id117963                        1
+    id100470  id117966                       -1
+    id100470  id117993                        1
+    id100470  id117996                       -1
+    MARK0492  'MARKER'                 'INTORG'
+    id100471  obj             -2.81225044131849
+    id100471  id100637         1.52234692895894
+    id100471  id101625       -0.628439390846192
+    id100471  id102087                        1
+    id100471  id118007                        1
+    id100471  id118010                        1
+    id100471  id118021                        1
+    id100471  id118024                       -1
+    MARK0493  'MARKER'                 'INTEND'
+    id100475  obj                             1
+    id100475  id118007                        1
+    id100475  id118010                       -1
+    id100475  id118035                        1
+    id100475  id118038                       -1
+    MARK0494  'MARKER'                 'INTORG'
+    id100472  obj             -2.98045286395608
+    id100472  id100639         1.23603011864984
+    id100472  id101629       -0.252515746689351
+    id100472  id102087                        1
+    id100472  id118107                        1
+    id100472  id118110                        1
+    MARK0495  'MARKER'                 'INTEND'
+    id100476  obj                             1
+    id100476  id118065                        1
+    id100476  id118068                       -1
+    id100476  id118107                        1
+    id100476  id118110                       -1
+    MARK0496  'MARKER'                 'INTORG'
+    id100477  obj             -5.79013900076511
+    id100477  id100637         2.96351742929011
+    id100477  id101633        -1.71489299130525
+    id100477  id102089                        1
+    id100477  id118137                        1
+    id100477  id118140                       -1
+    id100477  id118193                        1
+    id100477  id118196                        1
+    MARK0497  'MARKER'                 'INTEND'
+    id100481  obj                             1
+    id100481  id118151                        1
+    id100481  id118154                       -1
+    id100481  id118193                        1
+    id100481  id118196                       -1
+    MARK0498  'MARKER'                 'INTORG'
+    id100478  obj              -4.1143765179973
+    id100478  id100639         1.91988419504831
+    id100478  id101637        -1.01035151411419
+    id100478  id102089                        1
+    id100478  id118223                        1
+    id100478  id118226                       -1
+    id100478  id118251                        1
+    id100478  id118254                        1
+    id100478  id118279                        1
+    id100478  id118282                        1
+    MARK0499  'MARKER'                 'INTEND'
+    id100482  obj                             1
+    id100482  id118251                        1
+    id100482  id118254                       -1
+    id100482  id118307                        1
+    id100482  id118310                       -1
+    MARK0500  'MARKER'                 'INTORG'
+    id100483  obj             -5.23588822373929
+    id100483  id100637         2.41798917083907
+    id100483  id101641        -0.93053659348571
+    id100483  id102091                        1
+    id100483  id118337                        1
+    id100483  id118340                        1
+    id100483  id118351                        1
+    id100483  id118354                       -1
+    id100483  id118379                        1
+    id100483  id118382                        1
+    MARK0501  'MARKER'                 'INTEND'
+    id100487  obj                             1
+    id100487  id118337                        1
+    id100487  id118340                       -1
+    id100487  id118379                        1
+    id100487  id118382                       -1
+    MARK0502  'MARKER'                 'INTORG'
+    id100484  obj             -4.98370939818384
+    id100484  id100639         1.38800638745912
+    id100484  id101645        -0.38437238783481
+    id100484  id102091                        1
+    id100484  id118409                        1
+    id100484  id118412                        1
+    MARK0503  'MARKER'                 'INTEND'
+    id100488  obj                             1
+    id100488  id118409                        1
+    id100488  id118412                       -1
+    id100488  id118439                        1
+    id100488  id118442                       -1
+    MARK0504  'MARKER'                 'INTORG'
+    id100489  obj             -3.82298390093398
+    id100489  id100637         1.65651626729244
+    id100489  id101649        -1.19892349816892
+    id100489  id102093                        1
+    id100489  id118453                        1
+    id100489  id118456                       -1
+    id100489  id118511                        1
+    id100489  id118514                       -1
+    MARK0505  'MARKER'                 'INTEND'
+    id100493  obj                             1
+    id100493  id118467                        1
+    id100493  id118470                       -1
+    id100493  id118495                        1
+    id100493  id118498                       -1
+    MARK0506  'MARKER'                 'INTORG'
+    id100490  obj             -5.73933337430439
+    id100490  id100639         1.53647396738477
+    id100490  id101653       -0.434418919077965
+    id100490  id102093                        1
+    id100490  id118525                        1
+    id100490  id118528                        1
+    id100490  id118539                        1
+    id100490  id118542                       -1
+    MARK0507  'MARKER'                 'INTEND'
+    id100494  obj                             1
+    id100494  id118525                        1
+    id100494  id118528                       -1
+    id100494  id118553                        1
+    id100494  id118556                       -1
+    MARK0508  'MARKER'                 'INTORG'
+    id100495  obj             -2.86584815423277
+    id100495  id100637         1.98515716240981
+    id100495  id101657       -0.946811086569928
+    id100495  id102095                        1
+    MARK0509  'MARKER'                 'INTEND'
+    id100499  obj                             1
+    id100499  id118583                        1
+    id100499  id118586                       -1
+    MARK0510  'MARKER'                 'INTORG'
+    id100496  obj             -4.80225889515237
+    id100496  id100639         1.93746980230206
+    id100496  id101661        -1.14089785575282
+    id100496  id102095                        1
+    id100496  id118597                        1
+    id100496  id118600                       -1
+    id100496  id118625                        1
+    id100496  id118628                        1
+    id100496  id118653                        1
+    id100496  id118656                        1
+    MARK0511  'MARKER'                 'INTEND'
+    id100500  obj                             1
+    id100500  id118625                        1
+    id100500  id118628                       -1
+    id100500  id118681                        1
+    id100500  id118684                       -1
+    MARK0512  'MARKER'                 'INTORG'
+    id100501  obj             -2.05840282517411
+    id100501  id100637         1.55842593617664
+    id100501  id101665       -0.819602539968822
+    id100501  id102097                        1
+    id100501  id118711                        1
+    id100501  id118714                        1
+    id100501  id118755                        1
+    id100501  id118758                       -1
+    MARK0513  'MARKER'                 'INTEND'
+    id100505  obj                             1
+    id100505  id118711                        1
+    id100505  id118714                       -1
+    id100505  id118739                        1
+    id100505  id118742                       -1
+    MARK0514  'MARKER'                 'INTORG'
+    id100502  obj             -3.90894237249575
+    id100502  id100639         1.17391129870615
+    id100502  id101669       -0.436371695216966
+    id100502  id102097                        1
+    id100502  id118769                        1
+    id100502  id118772                       -1
+    MARK0515  'MARKER'                 'INTEND'
+    id100506  obj                             1
+    id100506  id118785                        1
+    id100506  id118788                       -1
+    MARK0516  'MARKER'                 'INTORG'
+    id100507  obj             -5.46284561765513
+    id100507  id100637         2.18854537940982
+    id100507  id101673        -1.24086857657843
+    id100507  id102099                        1
+    id100507  id118799                        1
+    id100507  id118802                        1
+    id100507  id118813                        1
+    id100507  id118816                       -1
+    MARK0517  'MARKER'                 'INTEND'
+    id100511  obj                             1
+    id100511  id118799                        1
+    id100511  id118802                       -1
+    id100511  id118827                        1
+    id100511  id118830                       -1
+    MARK0518  'MARKER'                 'INTORG'
+    id100508  obj             -3.71336830300901
+    id100508  id100639         2.47969109727055
+    id100508  id101677        -1.81129738168651
+    id100508  id102099                        1
+    id100508  id118901                        1
+    id100508  id118904                       -1
+    MARK0519  'MARKER'                 'INTEND'
+    id100512  obj                             1
+    id100512  id118857                        1
+    id100512  id118860                       -1
+    id100512  id118885                        1
+    id100512  id118888                       -1
+    MARK0520  'MARKER'                 'INTORG'
+    id100513  obj             -2.54437133322673
+    id100513  id100637         2.51404937799743
+    id100513  id101681       -0.609797021422602
+    id100513  id102101                        1
+    id100513  id118915                        1
+    id100513  id118918                       -1
+    MARK0521  'MARKER'                 'INTEND'
+    id100517  obj                             1
+    id100517  id118929                        1
+    id100517  id118932                       -1
+    id100517  id118959                        1
+    id100517  id118962                       -1
+    MARK0522  'MARKER'                 'INTORG'
+    id100514  obj             -2.06074393729714
+    id100514  id100639         1.41764426064568
+    id100514  id101685       -0.480565546602778
+    id100514  id102101                        1
+    id100514  id118973                        1
+    id100514  id118976                       -1
+    id100514  id119031                        1
+    id100514  id119034                       -1
+    MARK0523  'MARKER'                 'INTEND'
+    id100518  obj                             1
+    id100518  id118987                        1
+    id100518  id118990                       -1
+    id100518  id119015                        1
+    id100518  id119018                       -1
+    MARK0524  'MARKER'                 'INTORG'
+    id100519  obj             -4.21868848345181
+    id100519  id100637         2.38644655672202
+    id100519  id101689       -0.842754764117288
+    id100519  id102103                        1
+    id100519  id119045                        1
+    id100519  id119048                       -1
+    id100519  id119101                        1
+    id100519  id119104                        1
+    MARK0525  'MARKER'                 'INTEND'
+    id100523  obj                             1
+    id100523  id119059                        1
+    id100523  id119062                       -1
+    id100523  id119101                        1
+    id100523  id119104                       -1
+    MARK0526  'MARKER'                 'INTORG'
+    id100520  obj             -3.24797740636765
+    id100520  id100639         2.80667263539819
+    id100520  id101693        -1.11132177417365
+    id100520  id102103                        1
+    id100520  id119131                        1
+    id100520  id119134                       -1
+    id100520  id119159                        1
+    id100520  id119162                        1
+    id100520  id119187                        1
+    id100520  id119190                        1
+    MARK0527  'MARKER'                 'INTEND'
+    id100524  obj                             1
+    id100524  id119159                        1
+    id100524  id119162                       -1
+    id100524  id119215                        1
+    id100524  id119218                       -1
+    MARK0528  'MARKER'                 'INTORG'
+    id100525  obj             -4.44980717936987
+    id100525  id100637         2.73957978828791
+    id100525  id101697       -0.695339410094411
+    id100525  id102105                        1
+    id100525  id119245                        1
+    id100525  id119248                        1
+    MARK0529  'MARKER'                 'INTEND'
+    id100529  obj                             1
+    id100529  id119245                        1
+    id100529  id119248                       -1
+    MARK0530  'MARKER'                 'INTORG'
+    id100526  obj             -5.68681740559955
+    id100526  id100639         1.75179007311901
+    id100526  id101701        -1.17799027680549
+    id100526  id102105                        1
+    MARK0531  'MARKER'                 'INTEND'
+    id100530  obj                             1
+    id100530  id119275                        1
+    id100530  id119278                       -1
+    MARK0532  'MARKER'                 'INTORG'
+    id100531  obj             -5.01078311307858
+    id100531  id100637         1.79810901768418
+    id100531  id101705       -0.554937281749829
+    id100531  id102107                        1
+    id100531  id119289                        1
+    id100531  id119292                       -1
+    MARK0533  'MARKER'                 'INTEND'
+    id100535  obj                             1
+    id100535  id119305                        1
+    id100535  id119308                       -1
+    MARK0534  'MARKER'                 'INTORG'
+    id100532  obj             -5.03377443693288
+    id100532  id100639         1.13025180908397
+    id100532  id101709       -0.832681221615945
+    id100532  id102107                        1
+    id100532  id119319                        1
+    id100532  id119322                       -1
+    id100532  id119375                        1
+    id100532  id119378                        1
+    MARK0535  'MARKER'                 'INTEND'
+    id100536  obj                             1
+    id100536  id119333                        1
+    id100536  id119336                       -1
+    id100536  id119375                        1
+    id100536  id119378                       -1
+    MARK0536  'MARKER'                 'INTORG'
+    id100537  obj              -2.8280149571728
+    id100537  id100637         2.93092523884537
+    id100537  id101713       -0.976917929845504
+    id100537  id102109                        1
+    id100537  id119405                        1
+    id100537  id119408                        1
+    MARK0537  'MARKER'                 'INTEND'
+    id100541  obj                             1
+    id100541  id119405                        1
+    id100541  id119408                       -1
+    id100541  id119435                        1
+    id100541  id119438                       -1
+    MARK0538  'MARKER'                 'INTORG'
+    id100538  obj              -5.3896490649272
+    id100538  id100639         1.90767549486257
+    id100538  id101717       -0.841763017716013
+    id100538  id102109                        1
+    id100538  id119449                        1
+    id100538  id119452                       -1
+    id100538  id119505                        1
+    id100538  id119508                        1
+    MARK0539  'MARKER'                 'INTEND'
+    id100542  obj                             1
+    id100542  id119463                        1
+    id100542  id119466                       -1
+    id100542  id119505                        1
+    id100542  id119508                       -1
+    MARK0540  'MARKER'                 'INTORG'
+    id100543  obj             -5.50274184323044
+    id100543  id100637         2.31464246256028
+    id100543  id101721       -0.723575489752519
+    id100543  id102111                        1
+    id100543  id119549                        1
+    id100543  id119552                       -1
+    id100543  id119577                        1
+    id100543  id119580                        1
+    MARK0541  'MARKER'                 'INTEND'
+    id100547  obj                             1
+    id100547  id119535                        1
+    id100547  id119538                       -1
+    id100547  id119577                        1
+    id100547  id119580                       -1
+    MARK0542  'MARKER'                 'INTORG'
+    id100544  obj             -3.23607681749206
+    id100544  id100639         2.02854974056992
+    id100544  id101725        -1.52725980195475
+    id100544  id102111                        1
+    id100544  id119607                        1
+    id100544  id119610                       -1
+    id100544  id119635                        1
+    id100544  id119638                        1
+    id100544  id119677                        1
+    id100544  id119680                        1
+    MARK0543  'MARKER'                 'INTEND'
+    id100548  obj                             1
+    id100548  id119635                        1
+    id100548  id119638                       -1
+    id100548  id119677                        1
+    id100548  id119680                       -1
+    MARK0544  'MARKER'                 'INTORG'
+    id100549  obj             -4.97282733720393
+    id100549  id100637         1.02231677343245
+    id100549  id101729       -0.612313269477408
+    id100549  id102113                        1
+    id100549  id119749                        1
+    id100549  id119752                        1
+    MARK0545  'MARKER'                 'INTEND'
+    id100553  obj                             1
+    id100553  id119707                        1
+    id100553  id119710                       -1
+    id100553  id119749                        1
+    id100553  id119752                       -1
+    MARK0546  'MARKER'                 'INTORG'
+    id100550  obj             -3.36324122984113
+    id100550  id100639         1.90465388116643
+    id100550  id101733       -0.487788813160046
+    id100550  id102113                        1
+    id100550  id119779                        1
+    id100550  id119782                       -1
+    id100550  id119807                        1
+    id100550  id119810                       -1
+    id100550  id119835                        1
+    id100550  id119838                        1
+    MARK0547  'MARKER'                 'INTEND'
+    id100554  obj                             1
+    id100554  id119793                        1
+    id100554  id119796                       -1
+    id100554  id119835                        1
+    id100554  id119838                       -1
+    MARK0548  'MARKER'                 'INTORG'
+    id100555  obj             -3.42888459629793
+    id100555  id100637         1.54908787764101
+    id100555  id101737       -0.417322500074235
+    id100555  id102115                        1
+    id100555  id119879                        1
+    id100555  id119882                       -1
+    MARK0549  'MARKER'                 'INTEND'
+    id100559  obj                             1
+    id100559  id119865                        1
+    id100559  id119868                       -1
+    id100559  id119895                        1
+    id100559  id119898                       -1
+    MARK0550  'MARKER'                 'INTORG'
+    id100556  obj             -5.96112602761068
+    id100556  id100639         1.02040240076389
+    id100556  id101741       -0.324866683179818
+    id100556  id102115                        1
+    id100556  id119909                        1
+    id100556  id119912                        1
+    MARK0551  'MARKER'                 'INTEND'
+    id100560  obj                             1
+    id100560  id119909                        1
+    id100560  id119912                       -1
+    id100560  id119939                        1
+    id100560  id119942                       -1
+    MARK0552  'MARKER'                 'INTORG'
+    id100561  obj             -2.64728174761277
+    id100561  id100637         1.83894993962671
+    id100561  id101745       -0.377977074735156
+    id100561  id102117                        1
+    id100561  id119953                        1
+    id100561  id119956                       -1
+    id100561  id120011                        1
+    id100561  id120014                       -1
+    MARK0553  'MARKER'                 'INTEND'
+    id100565  obj                             1
+    id100565  id119967                        1
+    id100565  id119970                       -1
+    id100565  id119995                        1
+    id100565  id119998                       -1
+    MARK0554  'MARKER'                 'INTORG'
+    id100562  obj             -2.59979427633797
+    id100562  id100639         1.82263417952817
+    id100562  id101749       -0.392559711329869
+    id100562  id102117                        1
+    id100562  id120025                        1
+    id100562  id120028                       -1
+    id100562  id120053                        1
+    id100562  id120056                        1
+    id100562  id120095                        1
+    id100562  id120098                        1
+    MARK0555  'MARKER'                 'INTEND'
+    id100566  obj                             1
+    id100566  id120053                        1
+    id100566  id120056                       -1
+    id100566  id120095                        1
+    id100566  id120098                       -1
+    MARK0556  'MARKER'                 'INTORG'
+    id100567  obj             -2.08149496842245
+    id100567  id100637         1.42662768365193
+    id100567  id101753       -0.567278194876633
+    id100567  id102119                        1
+    id100567  id120125                        1
+    id100567  id120128                       -1
+    id100567  id120153                        1
+    id100567  id120156                        1
+    id100567  id120195                        1
+    id100567  id120198                        1
+    MARK0557  'MARKER'                 'INTEND'
+    id100571  obj                             1
+    id100571  id120153                        1
+    id100571  id120156                       -1
+    id100571  id120195                        1
+    id100571  id120198                       -1
+    MARK0558  'MARKER'                 'INTORG'
+    id100568  obj             -4.51718347636852
+    id100568  id100639         1.50172789138822
+    id100568  id101757       -0.635984197859415
+    id100568  id102119                        1
+    id100568  id120225                        1
+    id100568  id120228                        1
+    id100568  id120239                        1
+    id100568  id120242                       -1
+    MARK0559  'MARKER'                 'INTEND'
+    id100572  obj                             1
+    id100572  id120225                        1
+    id100572  id120228                       -1
+    id100572  id120253                        1
+    id100572  id120256                       -1
+    MARK0560  'MARKER'                 'INTORG'
+    id100573  obj             -2.44661390429671
+    id100573  id100637         1.07482777725664
+    id100573  id101761       -0.506757941098613
+    id100573  id102121                        1
+    id100573  id120283                        1
+    id100573  id120286                        1
+    id100573  id120327                        1
+    id100573  id120330                       -1
+    MARK0561  'MARKER'                 'INTEND'
+    id100577  obj                             1
+    id100577  id120283                        1
+    id100577  id120286                       -1
+    id100577  id120311                        1
+    id100577  id120314                       -1
+    MARK0562  'MARKER'                 'INTORG'
+    id100574  obj             -4.59630302274428
+    id100574  id100639         2.09193973759745
+    id100574  id101765       -0.426291594110487
+    id100574  id102121                        1
+    id100574  id120341                        1
+    id100574  id120344                       -1
+    MARK0563  'MARKER'                 'INTEND'
+    id100578  obj                             1
+    id100578  id120357                        1
+    id100578  id120360                       -1
+    MARK0564  'MARKER'                 'INTORG'
+    id100579  obj             -3.36448911454738
+    id100579  id100637         1.24392332520519
+    id100579  id101769       -0.496129204029828
+    id100579  id102123                        1
+    id100579  id120371                        1
+    id100579  id120374                       -1
+    id100579  id120427                        1
+    id100579  id120430                        1
+    MARK0565  'MARKER'                 'INTEND'
+    id100583  obj                             1
+    id100583  id120385                        1
+    id100583  id120388                       -1
+    id100583  id120427                        1
+    id100583  id120430                       -1
+    MARK0566  'MARKER'                 'INTORG'
+    id100580  obj             -2.64073460392688
+    id100580  id100639         2.05737806160812
+    id100580  id101773        -0.80896610059398
+    id100580  id102123                        1
+    id100580  id120457                        1
+    id100580  id120460                       -1
+    id100580  id120485                        1
+    id100580  id120488                        1
+    MARK0567  'MARKER'                 'INTEND'
+    id100584  obj                             1
+    id100584  id120485                        1
+    id100584  id120488                       -1
+    MARK0568  'MARKER'                 'INTORG'
+    id100585  obj             -2.43130673115668
+    id100585  id100637         1.66247358203981
+    id100585  id101777       -0.589621444678626
+    id100585  id102125                        1
+    id100585  id120529                        1
+    id100585  id120532                       -1
+    id100585  id120557                        1
+    id100585  id120560                        1
+    MARK0569  'MARKER'                 'INTEND'
+    id100589  obj                             1
+    id100589  id120515                        1
+    id100589  id120518                       -1
+    id100589  id120557                        1
+    id100589  id120560                       -1
+    MARK0570  'MARKER'                 'INTORG'
+    id100586  obj             -5.28590687144823
+    id100586  id100639         1.56681856446286
+    id100586  id101781         -1.1047798708377
+    id100586  id102125                        1
+    id100586  id120587                        1
+    id100586  id120590                       -1
+    id100586  id120643                        1
+    id100586  id120646                        1
+    MARK0571  'MARKER'                 'INTEND'
+    id100590  obj                             1
+    id100590  id120601                        1
+    id100590  id120604                       -1
+    id100590  id120643                        1
+    id100590  id120646                       -1
+    MARK0572  'MARKER'                 'INTORG'
+    id100591  obj             -5.24476880545019
+    id100591  id100637         1.34248681382392
+    id100591  id101785        -0.62330701850407
+    id100591  id102127                        1
+    id100591  id120673                        1
+    id100591  id120676                       -1
+    id100591  id120701                        1
+    id100591  id120704                        1
+    MARK0573  'MARKER'                 'INTEND'
+    id100595  obj                             1
+    id100595  id120701                        1
+    id100595  id120704                       -1
+    id100595  id120731                        1
+    id100595  id120734                       -1
+    MARK0574  'MARKER'                 'INTORG'
+    id100592  obj             -2.89724734467326
+    id100592  id100639         2.62598154769558
+    id100592  id101789        -1.05453953590785
+    id100592  id102127                        1
+    id100592  id120745                        1
+    id100592  id120748                        1
+    MARK0575  'MARKER'                 'INTEND'
+    id100596  obj                             1
+    id100596  id120745                        1
+    id100596  id120748                       -1
+    MARK0576  'MARKER'                 'INTORG'
+    id100597  obj             -4.73651874192828
+    id100597  id100637          2.5768581915539
+    id100597  id101793        -1.03054553991749
+    id100597  id102129                        1
+    id100597  id120775                        1
+    id100597  id120778                        1
+    id100597  id120789                        1
+    id100597  id120792                       -1
+    id100597  id120817                        1
+    id100597  id120820                        1
+    MARK0577  'MARKER'                 'INTEND'
+    id100601  obj                             1
+    id100601  id120775                        1
+    id100601  id120778                       -1
+    id100601  id120817                        1
+    id100601  id120820                       -1
+    MARK0578  'MARKER'                 'INTORG'
+    id100598  obj             -3.36058196488795
+    id100598  id100639         1.67900469092606
+    id100598  id101797        -1.02211200700704
+    id100598  id102129                        1
+    id100598  id120847                        1
+    id100598  id120850                        1
+    MARK0579  'MARKER'                 'INTEND'
+    id100602  obj                             1
+    id100602  id120847                        1
+    id100602  id120850                       -1
+    MARK0580  'MARKER'                 'INTORG'
+    id100603  obj             -2.61965108505434
+    id100603  id100637         1.02534310893404
+    id100603  id101801       -0.398917789192684
+    id100603  id102131                        1
+    id100603  id120877                        1
+    id100603  id120880                        1
+    id100603  id120891                        1
+    id100603  id120894                       -1
+    MARK0581  'MARKER'                 'INTEND'
+    id100607  obj                             1
+    id100607  id120877                        1
+    id100607  id120880                       -1
+    id100607  id120905                        1
+    id100607  id120908                       -1
+    MARK0582  'MARKER'                 'INTORG'
+    id100604  obj             -4.37450748420065
+    id100604  id100639         2.27420102212308
+    id100604  id101805        -1.41198803852799
+    id100604  id102131                        1
+    id100604  id120979                        1
+    id100604  id120982                       -1
+    MARK0583  'MARKER'                 'INTEND'
+    id100608  obj                             1
+    id100608  id120935                        1
+    id100608  id120938                       -1
+    id100608  id120963                        1
+    id100608  id120966                       -1
+    MARK0584  'MARKER'                 'INTORG'
+    id100609  obj             -3.95809834541664
+    id100609  id100637         2.91845761328864
+    id100609  id101809        -1.12827799626183
+    id100609  id102133                        1
+    id100609  id120993                        1
+    id100609  id120996                       -1
+    id100609  id121021                        1
+    id100609  id121024                        1
+    id100609  id121049                        1
+    id100609  id121052                        1
+    MARK0585  'MARKER'                 'INTEND'
+    id100613  obj                             1
+    id100613  id121021                        1
+    id100613  id121024                       -1
+    id100613  id121077                        1
+    id100613  id121080                       -1
+    MARK0586  'MARKER'                 'INTORG'
+    id100610  obj             -4.84356473146172
+    id100610  id100639         1.30570352743645
+    id100610  id101813       -0.670152374963941
+    id100610  id102133                        1
+    id100610  id121151                        1
+    id100610  id121154                       -1
+    MARK0587  'MARKER'                 'INTEND'
+    id100614  obj                             1
+    id100614  id121107                        1
+    id100614  id121110                       -1
+    id100614  id121135                        1
+    id100614  id121138                       -1
+    MARK0588  'MARKER'                 'INTORG'
+    id100615  obj             -4.95744484986991
+    id100615  id100637         2.92514290843398
+    id100615  id101817        -2.27635741224637
+    id100615  id102135                        1
+    id100615  id121165                        1
+    id100615  id121168                       -1
+    id100615  id121193                        1
+    id100615  id121196                        1
+    MARK0589  'MARKER'                 'INTEND'
+    id100619  obj                             1
+    id100619  id121193                        1
+    id100619  id121196                       -1
+    id100619  id121223                        1
+    id100619  id121226                       -1
+    MARK0590  'MARKER'                 'INTORG'
+    id100616  obj             -4.98481009480767
+    id100616  id100639         1.59927672082525
+    id100616  id101821       -0.732787514339769
+    id100616  id102135                        1
+    id100616  id121237                        1
+    id100616  id121240                        1
+    id100616  id121281                        1
+    id100616  id121284                       -1
+    MARK0591  'MARKER'                 'INTEND'
+    id100620  obj                             1
+    id100620  id121237                        1
+    id100620  id121240                       -1
+    id100620  id121265                        1
+    id100620  id121268                       -1
+    MARK0592  'MARKER'                 'INTORG'
+    id100621  obj             -4.50386755843827
+    id100621  id100637         2.52707529884161
+    id100621  id101825        -1.97027830057707
+    id100621  id102137                        1
+    id100621  id121339                        1
+    id100621  id121342                       -1
+    MARK0593  'MARKER'                 'INTEND'
+    id100625  obj                             1
+    id100625  id121295                        1
+    id100625  id121298                       -1
+    id100625  id121323                        1
+    id100625  id121326                       -1
+    MARK0594  'MARKER'                 'INTORG'
+    id100622  obj             -3.68986567933572
+    id100622  id100639         2.29476030138077
+    id100622  id101829        -1.25392016886165
+    id100622  id102137                        1
+    id100622  id121353                        1
+    id100622  id121356                       -1
+    id100622  id121409                        1
+    id100622  id121412                        1
+    MARK0595  'MARKER'                 'INTEND'
+    id100626  obj                             1
+    id100626  id121367                        1
+    id100626  id121370                       -1
+    id100626  id121409                        1
+    id100626  id121412                       -1
+    MARK0596  'MARKER'                 'INTORG'
+    id100627  obj             -4.25801600993519
+    id100627  id100637         2.78495122854828
+    id100627  id101833       -0.821222308021543
+    id100627  id102139                        1
+    id100627  id121439                        1
+    id100627  id121442                       -1
+    id100627  id121467                        1
+    id100627  id121470                        1
+    id100627  id121495                        1
+    id100627  id121498                        1
+    MARK0597  'MARKER'                 'INTEND'
+    id100631  obj                             1
+    id100631  id121467                        1
+    id100631  id121470                       -1
+    id100631  id121523                        1
+    id100631  id121526                       -1
+    MARK0598  'MARKER'                 'INTORG'
+    id100628  obj             -2.80564916357661
+    id100628  id100639          2.7191688556779
+    id100628  id101837        -1.67109819384736
+    id100628  id102139                        1
+    id100628  id121553                        1
+    id100628  id121556                        1
+    id100628  id121597                        1
+    id100628  id121600                       -1
+    MARK0599  'MARKER'                 'INTEND'
+    id100632  obj                             1
+    id100632  id121553                        1
+    id100632  id121556                       -1
+    id100632  id121581                        1
+    id100632  id121584                       -1
+    id121759  obj                            -1
+    id99735   id100637                       -1
+    id99735   id100641                        1
+    id99735   id100642                        1
+    id99735   id102143                        1
+    id99735   id102146                        1
+    id99735   id102171                        1
+    id99735   id102174                       -1
+    id99735   id102185                        1
+    id99735   id102188                       -1
+    id99735   id102212        -1.07576316278248
+    id99741   id100637                       -1
+    id99741   id100649                        1
+    id99741   id100650                        1
+    id99741   id102287                        1
+    id99741   id102290                        1
+    id99747   id100637                       -1
+    id99747   id100657                        1
+    id99747   id100658                        1
+    id99747   id102345                        1
+    id99747   id102348                        1
+    id99747   id102373                        1
+    id99747   id102376                       -1
+    id99747   id102386        -1.74508103178765
+    id99753   id100637                       -1
+    id99753   id100665                        1
+    id99753   id100666                        1
+    id99753   id102503                        1
+    id99753   id102506                       -1
+    id99753   id102530        -1.19450168660206
+    id99759   id100637                       -1
+    id99759   id100673                        1
+    id99759   id100674                        1
+    id99759   id102605                        1
+    id99759   id102608                        1
+    id99759   id102633                        1
+    id99759   id102636                       -1
+    id99759   id102647                        1
+    id99759   id102650                       -1
+    id99759   id102674        -1.03686778844224
+    id99765   id100637                       -1
+    id99765   id100681                        1
+    id99765   id100682                        1
+    id99765   id102777                        1
+    id99765   id102780                        1
+    id99765   id102791                        1
+    id99765   id102794                       -1
+    id99765   id102818        -1.29750600654783
+    id99771   id100637                       -1
+    id99771   id100689                        1
+    id99771   id100690                        1
+    id99771   id102879                        1
+    id99771   id102882                        1
+    id99771   id102907                        1
+    id99771   id102910                       -1
+    id99771   id102921                        1
+    id99771   id102924                       -1
+    id99771   id102948        -1.27168018805921
+    id99777   id100637                       -1
+    id99777   id100697                        1
+    id99777   id100698                        1
+    id99777   id103023                        1
+    id99777   id103026                        1
+    id99777   id103065                        1
+    id99777   id103068                       -1
+    id99777   id103092        -1.17834967654313
+    id99783   id100637                       -1
+    id99783   id100705                        1
+    id99783   id100706                        1
+    id99783   id103167                        1
+    id99783   id103170                        1
+    id99783   id103181                        1
+    id99783   id103184                       -1
+    id99783   id103222        -1.69078240568022
+    id99789   id100637                       -1
+    id99789   id100713                        1
+    id99789   id100714                        1
+    id99789   id103311                        1
+    id99789   id103314                        1
+    id99789   id103339                        1
+    id99789   id103342                       -1
+    id99789   id103352        -1.20360801598634
+    id99795   id100637                       -1
+    id99795   id100721                        1
+    id99795   id100722                        1
+    id99795   id103482         -1.0052647706583
+    id99795   id103485                        1
+    id99795   id103488                       -1
+    id99801   id100637                       -1
+    id99801   id100729                        1
+    id99801   id100730                        1
+    id99801   id103571                        1
+    id99801   id103574                        1
+    id99801   id103585                        1
+    id99801   id103588                       -1
+    id99801   id103626        -1.22632872657206
+    id99807   id100637                       -1
+    id99807   id100737                        1
+    id99807   id100738                        1
+    id99807   id103701                        1
+    id99807   id103704                        1
+    id99807   id103715                        1
+    id99807   id103718                       -1
+    id99807   id103757                        1
+    id99807   id103760                       -1
+    id99807   id103785                        1
+    id99807   id103788                        1
+    id99807   id103798        -1.04221119799138
+    id99813   id100637                       -1
+    id99813   id100745                        1
+    id99813   id100746                        1
+    id99813   id103829                        1
+    id99813   id103832                        1
+    id99813   id103856         -1.5710955750917
+    id99819   id100637                       -1
+    id99819   id100753                        1
+    id99819   id100754                        1
+    id99819   id103973                        1
+    id99819   id103976                        1
+    id99819   id103987                        1
+    id99819   id103990                       -1
+    id99819   id104029                        1
+    id99819   id104032                       -1
+    id99819   id104056        -1.28607799378216
+    id99825   id100637                       -1
+    id99825   id100761                        1
+    id99825   id100762                        1
+    id99825   id104117                        1
+    id99825   id104120                        1
+    id99825   id104130        -1.46138966690284
+    id99831   id100637                       -1
+    id99831   id100769                        1
+    id99831   id100770                        1
+    id99831   id104219                        1
+    id99831   id104222                       -1
+    id99831   id104246        -1.26356523661014
+    id99837   id100637                       -1
+    id99837   id100777                        1
+    id99837   id100778                        1
+    id99837   id104293                        1
+    id99837   id104296                        1
+    id99837   id104306        -1.44838763403369
+    id99843   id100637                       -1
+    id99843   id100785                        1
+    id99843   id100786                        1
+    id99843   id104409                        1
+    id99843   id104412                        1
+    id99843   id104423                        1
+    id99843   id104426                       -1
+    id99843   id104437                        1
+    id99843   id104440                       -1
+    id99843   id104464         -1.3685363925137
+    id99849   id100637                       -1
+    id99849   id100793                        1
+    id99849   id100794                        1
+    id99849   id104495                        1
+    id99849   id104498                        1
+    id99849   id104509                        1
+    id99849   id104512                       -1
+    id99849   id104536         -1.0908101742337
+    id99855   id100637                       -1
+    id99855   id100801                        1
+    id99855   id100802                        1
+    id99855   id104653                        1
+    id99855   id104656                       -1
+    id99855   id104680        -1.22115585210365
+    id99861   id100637                       -1
+    id99861   id100809                        1
+    id99861   id100810                        1
+    id99861   id104741                        1
+    id99861   id104744                       -1
+    id99861   id104754        -1.28141338540058
+    id99867   id100637                       -1
+    id99867   id100817                        1
+    id99867   id100818                        1
+    id99867   id104843                        1
+    id99867   id104846                        1
+    id99867   id104871                        1
+    id99867   id104874                       -1
+    id99867   id104898        -1.22502034570614
+    id99873   id100637                       -1
+    id99873   id100825                        1
+    id99873   id100826                        1
+    id99873   id104973                        1
+    id99873   id104976                        1
+    id99873   id104986        -1.43352605101405
+    id99879   id100637                       -1
+    id99879   id100833                        1
+    id99879   id100834                        1
+    id99879   id105061                        1
+    id99879   id105064                        1
+    id99879   id105075                        1
+    id99879   id105078                       -1
+    id99879   id105116        -1.57941359450185
+    id99885   id100637                       -1
+    id99885   id100841                        1
+    id99885   id100842                        1
+    id99885   id105232        -1.01691056318343
+    id99885   id105235                        1
+    id99885   id105238                       -1
+    id99891   id100637                       -1
+    id99891   id100849                        1
+    id99891   id100850                        1
+    id99891   id105321                        1
+    id99891   id105324                        1
+    id99897   id100637                       -1
+    id99897   id100857                        1
+    id99897   id100858                        1
+    id99897   id105421                        1
+    id99897   id105424                        1
+    id99897   id105435                        1
+    id99897   id105438                       -1
+    id99897   id105462        -1.37668601734352
+    id99903   id100637                       -1
+    id99903   id100865                        1
+    id99903   id100866                        1
+    id99903   id105564         -1.0711475292573
+    id99903   id105567                        1
+    id99903   id105570                       -1
+    id99909   id100637                       -1
+    id99909   id100873                        1
+    id99909   id100874                        1
+    id99909   id105595                        1
+    id99909   id105598                        1
+    id99909   id105609                        1
+    id99909   id105612                       -1
+    id99909   id105664        -1.33048655716422
+    id99915   id100637                       -1
+    id99915   id100881                        1
+    id99915   id100882                        1
+    id99915   id105725                        1
+    id99915   id105728                        1
+    id99915   id105739                        1
+    id99915   id105742                       -1
+    id99915   id105780        -1.43195268345898
+    id99921   id100637                       -1
+    id99921   id100889                        1
+    id99921   id100890                        1
+    id99921   id105841                        1
+    id99921   id105844                        1
+    id99921   id105855                        1
+    id99921   id105858                       -1
+    id99921   id105896        -1.86405744555941
+    id99927   id100637                       -1
+    id99927   id100897                        1
+    id99927   id100898                        1
+    id99927   id105984        -1.23118191635313
+    id99927   id105987                        1
+    id99927   id105990                       -1
+    id99933   id100637                       -1
+    id99933   id100905                        1
+    id99933   id100906                        1
+    id99933   id106087                        1
+    id99933   id106090                        1
+    id99933   id106115                        1
+    id99933   id106118                       -1
+    id99933   id106128        -1.87079598753353
+    id99939   id100637                       -1
+    id99939   id100913                        1
+    id99939   id100914                        1
+    id99939   id106203                        1
+    id99939   id106206                        1
+    id99939   id106231                        1
+    id99939   id106234                       -1
+    id99939   id106245                        1
+    id99939   id106248                       -1
+    id99939   id106272         -1.3993786613802
+    id99945   id100637                       -1
+    id99945   id100921                        1
+    id99945   id100922                        1
+    id99945   id106347                        1
+    id99945   id106350                        1
+    id99945   id106361                        1
+    id99945   id106364                       -1
+    id99945   id106388        -1.17598577793663
+    id99951   id100637                       -1
+    id99951   id100929                        1
+    id99951   id100930                        1
+    id99951   id106477                        1
+    id99951   id106480                        1
+    id99951   id106491                        1
+    id99951   id106494                       -1
+    id99951   id106533                        1
+    id99951   id106536                       -1
+    id99951   id106561                        1
+    id99951   id106564                        1
+    id99951   id106574        -1.28514749921875
+    id99957   id100637                       -1
+    id99957   id100937                        1
+    id99957   id100938                        1
+    id99957   id106649                        1
+    id99957   id106652                        1
+    id99957   id106663                        1
+    id99957   id106666                       -1
+    id99957   id106705                        1
+    id99957   id106708                       -1
+    id99957   id106733                        1
+    id99957   id106736                        1
+    id99957   id106746        -1.39711506611812
+    id99963   id100637                       -1
+    id99963   id100945                        1
+    id99963   id100946                        1
+    id99963   id106805                        1
+    id99963   id106808                       -1
+    id99963   id106832        -1.23493205915163
+    id99969   id100637                       -1
+    id99969   id100953                        1
+    id99969   id100954                        1
+    id99969   id106921                        1
+    id99969   id106924                        1
+    id99969   id106935                        1
+    id99969   id106938                       -1
+    id99969   id106962        -1.22024507712048
+    id99975   id100637                       -1
+    id99975   id100961                        1
+    id99975   id100962                        1
+    id99975   id107037                        1
+    id99975   id107040                        1
+    id99975   id107051                        1
+    id99975   id107054                       -1
+    id99975   id107106        -1.24199831307937
+    id99981   id100637                       -1
+    id99981   id100969                        1
+    id99981   id100970                        1
+    id99981   id107167                        1
+    id99981   id107170                        1
+    id99981   id107195                        1
+    id99981   id107198                       -1
+    id99981   id107222        -1.00930221509089
+    id99987   id100637                       -1
+    id99987   id100977                        1
+    id99987   id100978                        1
+    id99987   id107325                        1
+    id99987   id107328                        1
+    id99987   id107353                        1
+    id99987   id107356                       -1
+    id99987   id107380        -1.30809003724335
+    id99993   id100637                       -1
+    id99993   id100985                        1
+    id99993   id100986                        1
+    id99993   id107469                        1
+    id99993   id107472                        1
+    id99993   id107483                        1
+    id99993   id107486                       -1
+    id99993   id107497                        1
+    id99993   id107500                       -1
+    id99993   id107524        -1.37731146484574
+    id99999   id100637                       -1
+    id99999   id100993                        1
+    id99999   id100994                        1
+    id99999   id107585                        1
+    id99999   id107588                        1
+    id99999   id107613                        1
+    id99999   id107616                       -1
+    id99999   id107627                        1
+    id99999   id107630                       -1
+    id99999   id107654        -1.15662422515689
+    id100005  id100637                       -1
+    id100005  id101001                        1
+    id100005  id101002                        1
+    id100005  id107785                        1
+    id100005  id107788                        1
+    id100005  id107798        -1.62151812284596
+    id100011  id100637                       -1
+    id100011  id101009                        1
+    id100011  id101010                        1
+    id100011  id107887                        1
+    id100011  id107890                        1
+    id100011  id107915                        1
+    id100011  id107918                       -1
+    id100011  id107942        -1.23897731235357
+    id100017  id100637                       -1
+    id100017  id101017                        1
+    id100017  id101018                        1
+    id100017  id108059                        1
+    id100017  id108062                       -1
+    id100017  id108086        -1.20473049996399
+    id100023  id100637                       -1
+    id100023  id101025                        1
+    id100023  id101026                        1
+    id100023  id108161                        1
+    id100023  id108164                       -1
+    id100023  id108188        -1.23156116929559
+    id100029  id100637                       -1
+    id100029  id101033                        1
+    id100029  id101034                        1
+    id100029  id108263                        1
+    id100029  id108266                        1
+    id100035  id100637                       -1
+    id100035  id101041                        1
+    id100035  id101042                        1
+    id100035  id108391                        1
+    id100035  id108394                        1
+    id100035  id108419                        1
+    id100035  id108422                       -1
+    id100035  id108446         -1.3761491041465
+    id100041  id100637                       -1
+    id100041  id101049                        1
+    id100041  id101050                        1
+    id100041  id108535                        1
+    id100041  id108538                        1
+    id100041  id108549                        1
+    id100041  id108552                       -1
+    id100041  id108591                        1
+    id100041  id108594                       -1
+    id100041  id108618        -1.37956408299646
+    id100047  id100637                       -1
+    id100047  id101057                        1
+    id100047  id101058                        1
+    id100047  id108649                        1
+    id100047  id108652                        1
+    id100047  id108663                        1
+    id100047  id108666                       -1
+    id100047  id108690        -1.30037532039076
+    id100053  id100637                       -1
+    id100053  id101065                        1
+    id100053  id101066                        1
+    id100053  id108765                        1
+    id100053  id108768                        1
+    id100059  id100637                       -1
+    id100059  id101073                        1
+    id100059  id101074                        1
+    id100059  id108822        -1.27162038017868
+    id100059  id108825                        1
+    id100059  id108828                       -1
+    id100065  id100637                       -1
+    id100065  id101081                        1
+    id100065  id101082                        1
+    id100065  id108897                        1
+    id100065  id108900                        1
+    id100065  id108911                        1
+    id100065  id108914                       -1
+    id100065  id108925                        1
+    id100065  id108928                       -1
+    id100065  id108952        -1.39185580693718
+    id100071  id100637                       -1
+    id100071  id101089                        1
+    id100071  id101090                        1
+    id100071  id109069                        1
+    id100071  id109072                       -1
+    id100071  id109096         -1.0468090419802
+    id100077  id100637                       -1
+    id100077  id101097                        1
+    id100077  id101098                        1
+    id100077  id109127                        1
+    id100077  id109130                        1
+    id100077  id109155                        1
+    id100077  id109158                       -1
+    id100077  id109169                        1
+    id100077  id109172                       -1
+    id100077  id109196        -1.24358822339315
+    id100083  id100637                       -1
+    id100083  id101105                        1
+    id100083  id101106                        1
+    id100083  id109243                        1
+    id100083  id109246                        1
+    id100083  id109271                        1
+    id100083  id109274                       -1
+    id100083  id109285                        1
+    id100083  id109288                       -1
+    id100083  id109312        -1.13581183503846
+    id100089  id100637                       -1
+    id100089  id101113                        1
+    id100089  id101114                        1
+    id100089  id109401                        1
+    id100089  id109404                        1
+    id100089  id109443                        1
+    id100089  id109446                       -1
+    id100089  id109470        -1.32117662075291
+    id100095  id100637                       -1
+    id100095  id101121                        1
+    id100095  id101122                        1
+    id100095  id109573                        1
+    id100095  id109576                        1
+    id100095  id109586        -1.67382179448813
+    id100101  id100637                       -1
+    id100101  id101129                        1
+    id100101  id101130                        1
+    id100101  id109661                        1
+    id100101  id109664                        1
+    id100101  id109675                        1
+    id100101  id109678                       -1
+    id100101  id109717                        1
+    id100101  id109720                       -1
+    id100101  id109744         -1.2577479234733
+    id100107  id100637                       -1
+    id100107  id101137                        1
+    id100107  id101138                        1
+    id100107  id109833                        1
+    id100107  id109836                        1
+    id100107  id109847                        1
+    id100107  id109850                       -1
+    id100107  id109889                        1
+    id100107  id109892                       -1
+    id100107  id109917                        1
+    id100107  id109920                        1
+    id100107  id109930        -1.39810340053898
+    id100113  id100637                       -1
+    id100113  id101145                        1
+    id100113  id101146                        1
+    id100113  id109977                        1
+    id100113  id109980                        1
+    id100119  id100637                       -1
+    id100119  id101153                        1
+    id100119  id101154                        1
+    id100119  id110021                        1
+    id100119  id110024                        1
+    id100119  id110049                        1
+    id100119  id110052                       -1
+    id100119  id110062        -1.82386333788886
+    id100125  id100637                       -1
+    id100125  id101161                        1
+    id100125  id101162                        1
+    id100125  id110093                        1
+    id100125  id110096                        1
+    id100125  id110135                        1
+    id100125  id110138                       -1
+    id100125  id110162        -1.15818226556259
+    id100131  id100637                       -1
+    id100131  id101169                        1
+    id100131  id101170                        1
+    id100131  id110265                        1
+    id100131  id110268                        1
+    id100131  id110293                        1
+    id100131  id110296                       -1
+    id100131  id110320        -1.13317748671884
+    id100137  id100637                       -1
+    id100137  id101177                        1
+    id100137  id101178                        1
+    id100137  id110381                        1
+    id100137  id110384                        1
+    id100137  id110423                        1
+    id100137  id110426                       -1
+    id100137  id110450        -1.19362538566556
+    id100143  id100637                       -1
+    id100143  id101185                        1
+    id100143  id101186                        1
+    id100143  id110567                        1
+    id100143  id110570                       -1
+    id100143  id110580        -1.80167945014726
+    id100149  id100637                       -1
+    id100149  id101193                        1
+    id100149  id101194                        1
+    id100149  id110669                        1
+    id100149  id110672                        1
+    id100149  id110683                        1
+    id100149  id110686                       -1
+    id100149  id110724        -1.70108297592324
+    id100155  id100637                       -1
+    id100155  id101201                        1
+    id100155  id101202                        1
+    id100155  id110840        -1.08268779636868
+    id100155  id110843                        1
+    id100155  id110846                       -1
+    id100161  id100637                       -1
+    id100161  id101209                        1
+    id100161  id101210                        1
+    id100161  id110957                        1
+    id100161  id110960                        1
+    id100161  id110971                        1
+    id100161  id110974                       -1
+    id100161  id111012        -1.06373188474901
+    id100167  id100637                       -1
+    id100167  id101217                        1
+    id100167  id101218                        1
+    id100167  id111101                        1
+    id100167  id111104                        1
+    id100167  id111129                        1
+    id100167  id111132                       -1
+    id100167  id111156        -1.36138667732873
+    id100173  id100637                       -1
+    id100173  id101225                        1
+    id100173  id101226                        1
+    id100173  id111259                        1
+    id100173  id111262                        1
+    id100173  id111273                        1
+    id100173  id111276                       -1
+    id100173  id111328        -1.07385435522004
+    id100179  id100637                       -1
+    id100179  id101233                        1
+    id100179  id101234                        1
+    id100179  id111403                        1
+    id100179  id111406                        1
+    id100179  id111417                        1
+    id100179  id111420                       -1
+    id100179  id111459                        1
+    id100179  id111462                       -1
+    id100179  id111486        -1.12658360932237
+    id100185  id100637                       -1
+    id100185  id101241                        1
+    id100185  id101242                        1
+    id100185  id111575                        1
+    id100185  id111578                        1
+    id100191  id100637                       -1
+    id100191  id101249                        1
+    id100191  id101250                        1
+    id100191  id111647                        1
+    id100191  id111650                        1
+    id100191  id111661                        1
+    id100191  id111664                       -1
+    id100191  id111703                        1
+    id100191  id111706                       -1
+    id100191  id111730        -1.21528373137707
+    id100197  id100637                       -1
+    id100197  id101257                        1
+    id100197  id101258                        1
+    id100197  id111847                        1
+    id100197  id111850                       -1
+    id100197  id111874        -1.09449923334196
+    id100203  id100637                       -1
+    id100203  id101265                        1
+    id100203  id101266                        1
+    id100203  id111963                        1
+    id100203  id111966                       -1
+    id100203  id111990        -1.16684910594565
+    id100209  id100637                       -1
+    id100209  id101273                        1
+    id100209  id101274                        1
+    id100209  id112079                        1
+    id100209  id112082                        1
+    id100209  id112106        -1.16433335981715
+    id100215  id100637                       -1
+    id100215  id101281                        1
+    id100215  id101282                        1
+    id100215  id112209                        1
+    id100215  id112212                        1
+    id100215  id112223                        1
+    id100215  id112226                       -1
+    id100215  id112250         -1.2201751020631
+    id100221  id100637                       -1
+    id100221  id101289                        1
+    id100221  id101290                        1
+    id100221  id112339                        1
+    id100221  id112342                        1
+    id100221  id112381                        1
+    id100221  id112384                       -1
+    id100221  id112408        -1.29851645787455
+    id100227  id100637                       -1
+    id100227  id101297                        1
+    id100227  id101298                        1
+    id100227  id112497                        1
+    id100227  id112500                        1
+    id100227  id112525                        1
+    id100227  id112528                       -1
+    id100227  id112538        -1.34175632249888
+    id100233  id100637                       -1
+    id100233  id101305                        1
+    id100233  id101306                        1
+    id100233  id112710        -1.27751033358537
+    id100233  id112713                        1
+    id100233  id112716                       -1
+    id100239  id100637                       -1
+    id100239  id101313                        1
+    id100239  id101314                        1
+    id100239  id112771                        1
+    id100239  id112774                        1
+    id100239  id112799                        1
+    id100239  id112802                       -1
+    id100239  id112812        -1.67179763721195
+    id100245  id100637                       -1
+    id100245  id101321                        1
+    id100245  id101322                        1
+    id100245  id112929                        1
+    id100245  id112932                       -1
+    id100245  id112956        -1.20482182261248
+    id100251  id100637                       -1
+    id100251  id101329                        1
+    id100251  id101330                        1
+    id100251  id113045                        1
+    id100251  id113048                        1
+    id100251  id113073                        1
+    id100251  id113076                       -1
+    id100251  id113086        -1.07604859978181
+    id100257  id100637                       -1
+    id100257  id101337                        1
+    id100257  id101338                        1
+    id100257  id113161                        1
+    id100257  id113164                        1
+    id100257  id113189                        1
+    id100257  id113192                       -1
+    id100257  id113202        -1.96002799167335
+    id100263  id100637                       -1
+    id100263  id101345                        1
+    id100263  id101346                        1
+    id100263  id113291                        1
+    id100263  id113294                        1
+    id100263  id113305                        1
+    id100263  id113308                       -1
+    id100263  id113332        -1.30244956824598
+    id100269  id100637                       -1
+    id100269  id101353                        1
+    id100269  id101354                        1
+    id100269  id113363                        1
+    id100269  id113366                        1
+    id100269  id113377                        1
+    id100269  id113380                       -1
+    id100269  id113404        -1.02709444483793
+    id100275  id100637                       -1
+    id100275  id101361                        1
+    id100275  id101362                        1
+    id100275  id113479                        1
+    id100275  id113482                        1
+    id100275  id113521                        1
+    id100275  id113524                       -1
+    id100275  id113548        -1.36494982324184
+    id100281  id100637                       -1
+    id100281  id101369                        1
+    id100281  id101370                        1
+    id100281  id113623                        1
+    id100281  id113626                        1
+    id100281  id113637                        1
+    id100281  id113640                       -1
+    id100281  id113678        -1.72413864115842
+    id100287  id100637                       -1
+    id100287  id101377                        1
+    id100287  id101378                        1
+    id100287  id113739                        1
+    id100287  id113742                        1
+    id100287  id113767                        1
+    id100287  id113770                       -1
+    id100287  id113781                        1
+    id100287  id113784                       -1
+    id100287  id113808        -1.03204327023729
+    id100293  id100637                       -1
+    id100293  id101385                        1
+    id100293  id101386                        1
+    id100293  id113897                        1
+    id100293  id113900                        1
+    id100293  id113911                        1
+    id100293  id113914                       -1
+    id100293  id113952        -1.11230296690815
+    id100299  id100637                       -1
+    id100299  id101393                        1
+    id100299  id101394                        1
+    id100299  id114083                        1
+    id100299  id114086                        1
+    id100299  id114097                        1
+    id100299  id114100                       -1
+    id100299  id114139                        1
+    id100299  id114142                       -1
+    id100299  id114166        -1.39942428838795
+    id100305  id100637                       -1
+    id100305  id101401                        1
+    id100305  id101402                        1
+    id100305  id114297                        1
+    id100305  id114300                        1
+    id100305  id114311                        1
+    id100305  id114314                       -1
+    id100305  id114353                        1
+    id100305  id114356                       -1
+    id100305  id114381                        1
+    id100305  id114384                        1
+    id100305  id114394        -1.25016814365436
+    id100311  id100637                       -1
+    id100311  id101409                        1
+    id100311  id101410                        1
+    id100311  id114469                        1
+    id100311  id114472                        1
+    id100311  id114496        -1.30793006009874
+    id100317  id100637                       -1
+    id100317  id101417                        1
+    id100317  id101418                        1
+    id100317  id114571                        1
+    id100317  id114574                        1
+    id100317  id114585                        1
+    id100317  id114588                       -1
+    id100317  id114640        -1.09325163981851
+    id100323  id100637                       -1
+    id100323  id101425                        1
+    id100323  id101426                        1
+    id100323  id114715                        1
+    id100323  id114718                        1
+    id100323  id114729                        1
+    id100323  id114732                       -1
+    id100323  id114743                        1
+    id100323  id114746                       -1
+    id100323  id114770        -1.19301921246095
+    id100329  id100637                       -1
+    id100329  id101433                        1
+    id100329  id101434                        1
+    id100329  id114817                        1
+    id100329  id114820                        1
+    id100329  id114831                        1
+    id100329  id114834                       -1
+    id100329  id114873                        1
+    id100329  id114876                       -1
+    id100329  id114900        -1.40133616647126
+    id100335  id100637                       -1
+    id100335  id101441                        1
+    id100335  id101442                        1
+    id100335  id114947                        1
+    id100335  id114950                        1
+    id100335  id114961                        1
+    id100335  id114964                       -1
+    id100335  id114988        -1.30316823463657
+    id100341  id100637                       -1
+    id100341  id101449                        1
+    id100341  id101450                        1
+    id100341  id115091                        1
+    id100341  id115094                        1
+    id100341  id115105                        1
+    id100341  id115108                       -1
+    id100341  id115146        -1.57997408790062
+    id100347  id100637                       -1
+    id100347  id101457                        1
+    id100347  id101458                        1
+    id100347  id115235                        1
+    id100347  id115238                        1
+    id100347  id115249                        1
+    id100347  id115252                       -1
+    id100347  id115291                        1
+    id100347  id115294                       -1
+    id100347  id115318        -1.07290863922854
+    id100353  id100637                       -1
+    id100353  id101465                        1
+    id100353  id101466                        1
+    id100353  id115379                        1
+    id100353  id115382                        1
+    id100353  id115393                        1
+    id100353  id115396                       -1
+    id100353  id115435                        1
+    id100353  id115438                       -1
+    id100353  id115462        -1.35866365077784
+    id100359  id100637                       -1
+    id100359  id101473                        1
+    id100359  id101474                        1
+    id100359  id115537                        1
+    id100359  id115540                        1
+    id100359  id115564        -1.42173367981059
+    id100365  id100637                       -1
+    id100365  id101481                        1
+    id100365  id101482                        1
+    id100365  id115695                        1
+    id100365  id115698                        1
+    id100365  id115737                        1
+    id100365  id115740                       -1
+    id100365  id115764        -1.26846095863202
+    id100371  id100637                       -1
+    id100371  id101489                        1
+    id100371  id101490                        1
+    id100371  id115839                        1
+    id100371  id115842                        1
+    id100371  id115866        -1.96037204255569
+    id100377  id100637                       -1
+    id100377  id101497                        1
+    id100377  id101498                        1
+    id100377  id115955                        1
+    id100377  id115958                       -1
+    id100377  id115968        -1.08920102288981
+    id100383  id100637                       -1
+    id100383  id101505                        1
+    id100383  id101506                        1
+    id100383  id116071                        1
+    id100383  id116074                        1
+    id100383  id116113                        1
+    id100383  id116116                       -1
+    id100383  id116140        -1.29830384487093
+    id100389  id100637                       -1
+    id100389  id101513                        1
+    id100389  id101514                        1
+    id100389  id116187                        1
+    id100389  id116190                        1
+    id100389  id116215                        1
+    id100389  id116218                       -1
+    id100389  id116228         -1.4754000838927
+    id100395  id100637                       -1
+    id100395  id101521                        1
+    id100395  id101522                        1
+    id100395  id116275                        1
+    id100395  id116278                        1
+    id100395  id116317                        1
+    id100395  id116320                       -1
+    id100395  id116344        -1.17975818082325
+    id100401  id100637                       -1
+    id100401  id101529                        1
+    id100401  id101530                        1
+    id100401  id116447                        1
+    id100401  id116450                        1
+    id100401  id116475                        1
+    id100401  id116478                       -1
+    id100401  id116502        -1.25948604984612
+    id100407  id100637                       -1
+    id100407  id101537                        1
+    id100407  id101538                        1
+    id100407  id116604        -1.03607034941251
+    id100407  id116607                        1
+    id100407  id116610                       -1
+    id100413  id100637                       -1
+    id100413  id101545                        1
+    id100413  id101546                        1
+    id100413  id116721                        1
+    id100413  id116724                        1
+    id100413  id116748        -1.27555134810915
+    id100419  id100637                       -1
+    id100419  id101553                        1
+    id100419  id101554                        1
+    id100419  id116851                        1
+    id100419  id116854                        1
+    id100419  id116879                        1
+    id100419  id116882                       -1
+    id100419  id116906        -1.30430121167269
+    id100425  id100637                       -1
+    id100425  id101561                        1
+    id100425  id101562                        1
+    id100425  id116994        -1.15319860725172
+    id100425  id116997                        1
+    id100425  id117000                       -1
+    id100431  id100637                       -1
+    id100431  id101569                        1
+    id100431  id101570                        1
+    id100431  id117138        -1.34351555603065
+    id100431  id117141                        1
+    id100431  id117144                       -1
+    id100437  id100637                       -1
+    id100437  id101577                        1
+    id100437  id101578                        1
+    id100437  id117254        -1.29138716009941
+    id100437  id117257                        1
+    id100437  id117260                       -1
+    id100443  id100637                       -1
+    id100443  id101585                        1
+    id100443  id101586                        1
+    id100443  id117357                        1
+    id100443  id117360                       -1
+    id100443  id117384         -1.3358281191244
+    id100449  id100637                       -1
+    id100449  id101593                        1
+    id100449  id101594                        1
+    id100449  id117459                        1
+    id100449  id117462                        1
+    id100449  id117486        -1.65175302080428
+    id100455  id100637                       -1
+    id100455  id101601                        1
+    id100455  id101602                        1
+    id100455  id117575                        1
+    id100455  id117578                        1
+    id100455  id117603                        1
+    id100455  id117606                       -1
+    id100455  id117617                        1
+    id100455  id117620                       -1
+    id100455  id117644        -1.34026498367932
+    id100461  id100637                       -1
+    id100461  id101609                        1
+    id100461  id101610                        1
+    id100461  id117719                        1
+    id100461  id117722                        1
+    id100461  id117747                        1
+    id100461  id117750                       -1
+    id100461  id117760        -1.80145107772881
+    id100467  id100637                       -1
+    id100467  id101617                        1
+    id100467  id101618                        1
+    id100467  id117891                        1
+    id100467  id117894                       -1
+    id100467  id117918        -1.35548790949633
+    id100473  id100637                       -1
+    id100473  id101625                        1
+    id100473  id101626                        1
+    id100473  id118048         -1.1441707895497
+    id100473  id118051                        1
+    id100473  id118054                       -1
+    id100479  id100637                       -1
+    id100479  id101633                        1
+    id100479  id101634                        1
+    id100479  id118137                        1
+    id100479  id118140                        1
+    id100479  id118165                        1
+    id100479  id118168                       -1
+    id100479  id118179                        1
+    id100479  id118182                       -1
+    id100479  id118206        -1.20330457807129
+    id100485  id100637                       -1
+    id100485  id101641                        1
+    id100485  id101642                        1
+    id100485  id118365                        1
+    id100485  id118368                       -1
+    id100485  id118392        -1.07305482959214
+    id100491  id100637                       -1
+    id100491  id101649                        1
+    id100491  id101650                        1
+    id100491  id118453                        1
+    id100491  id118456                        1
+    id100491  id118481                        1
+    id100491  id118484                       -1
+    id100491  id118508        -1.17941399917344
+    id100497  id100637                       -1
+    id100497  id101657                        1
+    id100497  id101658                        1
+    id100497  id118583                        1
+    id100497  id118586                        1
+    id100503  id100637                       -1
+    id100503  id101665                        1
+    id100503  id101666                        1
+    id100503  id118725                        1
+    id100503  id118728                       -1
+    id100503  id118752        -1.22230897284205
+    id100509  id100637                       -1
+    id100509  id101673                        1
+    id100509  id101674                        1
+    id100509  id118840        -1.34665306880304
+    id100509  id118843                        1
+    id100509  id118846                       -1
+    id100515  id100637                       -1
+    id100515  id101681                        1
+    id100515  id101682                        1
+    id100515  id118915                        1
+    id100515  id118918                        1
+    id100515  id118943                        1
+    id100515  id118946                       -1
+    id100515  id118956        -1.08308115631796
+    id100521  id100637                       -1
+    id100521  id101689                        1
+    id100521  id101690                        1
+    id100521  id119045                        1
+    id100521  id119048                        1
+    id100521  id119073                        1
+    id100521  id119076                       -1
+    id100521  id119087                        1
+    id100521  id119090                       -1
+    id100521  id119114        -1.31514711819427
+    id100527  id100637                       -1
+    id100527  id101697                        1
+    id100527  id101698                        1
+    id100527  id119258        -1.08091365452239
+    id100527  id119261                        1
+    id100527  id119264                       -1
+    id100533  id100637                       -1
+    id100533  id101705                        1
+    id100533  id101706                        1
+    id100533  id119289                        1
+    id100533  id119292                        1
+    id100533  id119302        -1.71474063710196
+    id100539  id100637                       -1
+    id100539  id101713                        1
+    id100539  id101714                        1
+    id100539  id119419                        1
+    id100539  id119422                       -1
+    id100539  id119432        -1.83630292069784
+    id100545  id100637                       -1
+    id100545  id101721                        1
+    id100545  id101722                        1
+    id100545  id119535                        1
+    id100545  id119538                        1
+    id100545  id119563                        1
+    id100545  id119566                       -1
+    id100545  id119590        -1.08390760053235
+    id100551  id100637                       -1
+    id100551  id101729                        1
+    id100551  id101730                        1
+    id100551  id119707                        1
+    id100551  id119710                        1
+    id100551  id119721                        1
+    id100551  id119724                       -1
+    id100551  id119735                        1
+    id100551  id119738                       -1
+    id100551  id119762        -1.19494564020345
+    id100557  id100637                       -1
+    id100557  id101737                        1
+    id100557  id101738                        1
+    id100557  id119865                        1
+    id100557  id119868                        1
+    id100557  id119892        -1.86157255656612
+    id100563  id100637                       -1
+    id100563  id101745                        1
+    id100563  id101746                        1
+    id100563  id119953                        1
+    id100563  id119956                        1
+    id100563  id119981                        1
+    id100563  id119984                       -1
+    id100563  id120008         -1.4024275845817
+    id100569  id100637                       -1
+    id100569  id101753                        1
+    id100569  id101754                        1
+    id100569  id120125                        1
+    id100569  id120128                        1
+    id100569  id120139                        1
+    id100569  id120142                       -1
+    id100569  id120181                        1
+    id100569  id120184                       -1
+    id100569  id120208        -1.04101781631916
+    id100575  id100637                       -1
+    id100575  id101761                        1
+    id100575  id101762                        1
+    id100575  id120297                        1
+    id100575  id120300                       -1
+    id100575  id120324        -1.14074028720351
+    id100581  id100637                       -1
+    id100581  id101769                        1
+    id100581  id101770                        1
+    id100581  id120371                        1
+    id100581  id120374                        1
+    id100581  id120399                        1
+    id100581  id120402                       -1
+    id100581  id120413                        1
+    id100581  id120416                       -1
+    id100581  id120440        -1.35457808302931
+    id100587  id100637                       -1
+    id100587  id101777                        1
+    id100587  id101778                        1
+    id100587  id120515                        1
+    id100587  id120518                        1
+    id100587  id120543                        1
+    id100587  id120546                       -1
+    id100587  id120570        -1.39420751628402
+    id100593  id100637                       -1
+    id100593  id101785                        1
+    id100593  id101786                        1
+    id100593  id120673                        1
+    id100593  id120676                        1
+    id100593  id120687                        1
+    id100593  id120690                       -1
+    id100593  id120728        -1.53905036087722
+    id100599  id100637                       -1
+    id100599  id101793                        1
+    id100599  id101794                        1
+    id100599  id120803                        1
+    id100599  id120806                       -1
+    id100599  id120830        -1.36408631321032
+    id100605  id100637                       -1
+    id100605  id101801                        1
+    id100605  id101802                        1
+    id100605  id120918        -1.22670022778898
+    id100605  id120921                        1
+    id100605  id120924                       -1
+    id100611  id100637                       -1
+    id100611  id101809                        1
+    id100611  id101810                        1
+    id100611  id120993                        1
+    id100611  id120996                        1
+    id100611  id121007                        1
+    id100611  id121010                       -1
+    id100611  id121049                        1
+    id100611  id121052                       -1
+    id100611  id121077                        1
+    id100611  id121080                        1
+    id100611  id121090        -1.40024795188405
+    id100617  id100637                       -1
+    id100617  id101817                        1
+    id100617  id101818                        1
+    id100617  id121165                        1
+    id100617  id121168                        1
+    id100617  id121179                        1
+    id100617  id121182                       -1
+    id100617  id121220        -1.36656282708276
+    id100623  id100637                       -1
+    id100623  id101825                        1
+    id100623  id101826                        1
+    id100623  id121295                        1
+    id100623  id121298                        1
+    id100623  id121309                        1
+    id100623  id121312                       -1
+    id100623  id121336        -1.05200512775827
+    id100629  id100637                       -1
+    id100629  id101833                        1
+    id100629  id101834                        1
+    id100629  id121439                        1
+    id100629  id121442                        1
+    id100629  id121453                        1
+    id100629  id121456                       -1
+    id100629  id121495                        1
+    id100629  id121498                       -1
+    id100629  id121523                        1
+    id100629  id121526                        1
+    id100629  id121536        -1.30083149888805
+    id99736   id100639                       -1
+    id99736   id100645                        1
+    id99736   id100646                        1
+    id99736   id102229                        1
+    id99736   id102232                        1
+    id99736   id102243                        1
+    id99736   id102246                       -1
+    id99736   id102270        -1.20945684692971
+    id99742   id100639                       -1
+    id99742   id100653                        1
+    id99742   id100654                        1
+    id99742   id102301                        1
+    id99742   id102304                        1
+    id99742   id102328        -1.56050742337936
+    id99748   id100639                       -1
+    id99748   id100661                        1
+    id99748   id100662                        1
+    id99748   id102403                        1
+    id99748   id102406                        1
+    id99748   id102417                        1
+    id99748   id102420                       -1
+    id99748   id102458        -1.53661971508225
+    id99754   id100639                       -1
+    id99754   id100669                        1
+    id99754   id100670                        1
+    id99754   id102547                        1
+    id99754   id102550                        1
+    id99754   id102561                        1
+    id99754   id102564                       -1
+    id99754   id102588        -1.28472645949163
+    id99760   id100639                       -1
+    id99760   id100677                        1
+    id99760   id100678                        1
+    id99760   id102691                        1
+    id99760   id102694                        1
+    id99760   id102733                        1
+    id99760   id102736                       -1
+    id99760   id102760        -1.03965628168403
+    id99766   id100639                       -1
+    id99766   id100685                        1
+    id99766   id100686                        1
+    id99766   id102835                        1
+    id99766   id102838                        1
+    id99766   id102862        -1.68952200313636
+    id99772   id100639                       -1
+    id99772   id100693                        1
+    id99772   id100694                        1
+    id99772   id102965                        1
+    id99772   id102968                        1
+    id99772   id102993                        1
+    id99772   id102996                       -1
+    id99772   id103006        -1.44129154331976
+    id99778   id100639                       -1
+    id99778   id100701                        1
+    id99778   id100702                        1
+    id99778   id103109                        1
+    id99778   id103112                        1
+    id99778   id103137                        1
+    id99778   id103140                       -1
+    id99778   id103150        -1.46342553027152
+    id99784   id100639                       -1
+    id99784   id100709                        1
+    id99784   id100710                        1
+    id99784   id103239                        1
+    id99784   id103242                        1
+    id99784   id103253                        1
+    id99784   id103256                       -1
+    id99784   id103267                        1
+    id99784   id103270                       -1
+    id99784   id103294        -1.03731138558271
+    id99790   id100639                       -1
+    id99790   id100717                        1
+    id99790   id100718                        1
+    id99790   id103369                        1
+    id99790   id103372                        1
+    id99790   id103383                        1
+    id99790   id103386                       -1
+    id99790   id103425                        1
+    id99790   id103428                       -1
+    id99790   id103452        -1.04990001373935
+    id99796   id100639                       -1
+    id99796   id100725                        1
+    id99796   id100726                        1
+    id99796   id103527                        1
+    id99796   id103530                       -1
+    id99796   id103554        -1.18297702408374
+    id99802   id100639                       -1
+    id99802   id100733                        1
+    id99802   id100734                        1
+    id99802   id103643                        1
+    id99802   id103646                        1
+    id99802   id103671                        1
+    id99802   id103674                       -1
+    id99802   id103684        -1.39142710055197
+    id99808   id100639                       -1
+    id99808   id100741                        1
+    id99808   id100742                        1
+    id99808   id103815                        1
+    id99808   id103818                        1
+    id99814   id100639                       -1
+    id99814   id100749                        1
+    id99814   id100750                        1
+    id99814   id103873                        1
+    id99814   id103876                        1
+    id99814   id103887                        1
+    id99814   id103890                       -1
+    id99814   id103929                        1
+    id99814   id103932                       -1
+    id99814   id103956        -1.11106007499112
+    id99820   id100639                       -1
+    id99820   id100757                        1
+    id99820   id100758                        1
+    id99820   id104087                        1
+    id99820   id104090                       -1
+    id99820   id104100        -1.63991896751904
+    id99826   id100639                       -1
+    id99826   id100765                        1
+    id99826   id100766                        1
+    id99826   id104147                        1
+    id99826   id104150                        1
+    id99826   id104175                        1
+    id99826   id104178                       -1
+    id99826   id104188         -1.7331672198226
+    id99832   id100639                       -1
+    id99832   id100773                        1
+    id99832   id100774                        1
+    id99832   id104263                        1
+    id99832   id104266                        1
+    id99832   id104276        -1.36261863592158
+    id99838   id100639                       -1
+    id99838   id100781                        1
+    id99838   id100782                        1
+    id99838   id104323                        1
+    id99838   id104326                        1
+    id99838   id104337                        1
+    id99838   id104340                       -1
+    id99838   id104392        -1.27996852458313
+    id99844   id100639                       -1
+    id99844   id100789                        1
+    id99844   id100790                        1
+    id99844   id104481                        1
+    id99844   id104484                        1
+    id99850   id100639                       -1
+    id99850   id100797                        1
+    id99850   id100798                        1
+    id99850   id104553                        1
+    id99850   id104556                        1
+    id99850   id104581                        1
+    id99850   id104584                       -1
+    id99850   id104608        -1.09845317731366
+    id99856   id100639                       -1
+    id99856   id100805                        1
+    id99856   id100806                        1
+    id99856   id104710        -1.22325437012266
+    id99856   id104713                        1
+    id99856   id104716                       -1
+    id99862   id100639                       -1
+    id99862   id100813                        1
+    id99862   id100814                        1
+    id99862   id104771                        1
+    id99862   id104774                        1
+    id99862   id104785                        1
+    id99862   id104788                       -1
+    id99862   id104826          -1.297025897663
+    id99868   id100639                       -1
+    id99868   id100821                        1
+    id99868   id100822                        1
+    id99868   id104915                        1
+    id99868   id104918                        1
+    id99868   id104929                        1
+    id99868   id104932                       -1
+    id99868   id104956        -1.05951756791875
+    id99874   id100639                       -1
+    id99874   id100829                        1
+    id99874   id100830                        1
+    id99874   id105003                        1
+    id99874   id105006                        1
+    id99874   id105017                        1
+    id99874   id105020                       -1
+    id99874   id105044        -1.17774984157309
+    id99880   id100639                       -1
+    id99880   id100837                        1
+    id99880   id100838                        1
+    id99880   id105174         -1.2037202561698
+    id99880   id105177                        1
+    id99880   id105180                       -1
+    id99886   id100639                       -1
+    id99886   id100845                        1
+    id99886   id100846                        1
+    id99886   id105277                        1
+    id99886   id105280                       -1
+    id99886   id105304        -1.07093247917796
+    id99892   id100639                       -1
+    id99892   id100853                        1
+    id99892   id100854                        1
+    id99892   id105335                        1
+    id99892   id105338                        1
+    id99892   id105363                        1
+    id99892   id105366                       -1
+    id99892   id105377                        1
+    id99892   id105380                       -1
+    id99892   id105404        -1.36495025714991
+    id99898   id100639                       -1
+    id99898   id100861                        1
+    id99898   id100862                        1
+    id99898   id105479                        1
+    id99898   id105482                        1
+    id99898   id105493                        1
+    id99898   id105496                       -1
+    id99898   id105507                        1
+    id99898   id105510                       -1
+    id99898   id105534        -1.23328995916162
+    id99904   id100639                       -1
+    id99904   id100869                        1
+    id99904   id100870                        1
+    id99904   id105581                        1
+    id99904   id105584                        1
+    id99910   id100639                       -1
+    id99910   id100877                        1
+    id99910   id100878                        1
+    id99910   id105695                        1
+    id99910   id105698                       -1
+    id99910   id105708        -1.30325494985424
+    id99916   id100639                       -1
+    id99916   id100885                        1
+    id99916   id100886                        1
+    id99916   id105797                        1
+    id99916   id105800                        1
+    id99916   id105824        -1.11480929381567
+    id99922   id100639                       -1
+    id99922   id100893                        1
+    id99922   id100894                        1
+    id99922   id105913                        1
+    id99922   id105916                        1
+    id99922   id105941                        1
+    id99922   id105944                       -1
+    id99922   id105954        -1.26000351932803
+    id99928   id100639                       -1
+    id99928   id100901                        1
+    id99928   id100902                        1
+    id99928   id106001                        1
+    id99928   id106004                        1
+    id99928   id106029                        1
+    id99928   id106032                       -1
+    id99928   id106043                        1
+    id99928   id106046                       -1
+    id99928   id106070        -1.01652639628088
+    id99934   id100639                       -1
+    id99934   id100909                        1
+    id99934   id100910                        1
+    id99934   id106159                        1
+    id99934   id106162                       -1
+    id99934   id106186        -1.19470309944125
+    id99940   id100639                       -1
+    id99940   id100917                        1
+    id99940   id100918                        1
+    id99940   id106289                        1
+    id99940   id106292                        1
+    id99940   id106303                        1
+    id99940   id106306                       -1
+    id99940   id106330        -1.26289977988609
+    id99946   id100639                       -1
+    id99946   id100925                        1
+    id99946   id100926                        1
+    id99946   id106405                        1
+    id99946   id106408                        1
+    id99946   id106419                        1
+    id99946   id106422                       -1
+    id99946   id106460        -1.97484400833076
+    id99952   id100639                       -1
+    id99952   id100933                        1
+    id99952   id100934                        1
+    id99952   id106605                        1
+    id99952   id106608                       -1
+    id99952   id106632        -1.02882271635421
+    id99958   id100639                       -1
+    id99958   id100941                        1
+    id99958   id100942                        1
+    id99958   id106763                        1
+    id99958   id106766                        1
+    id99964   id100639                       -1
+    id99964   id100949                        1
+    id99964   id100950                        1
+    id99964   id106849                        1
+    id99964   id106852                        1
+    id99964   id106877                        1
+    id99964   id106880                       -1
+    id99964   id106904         -1.3350023381049
+    id99970   id100639                       -1
+    id99970   id100957                        1
+    id99970   id100958                        1
+    id99970   id106993                        1
+    id99970   id106996                       -1
+    id99970   id107020        -1.14911145741156
+    id99976   id100639                       -1
+    id99976   id100965                        1
+    id99976   id100966                        1
+    id99976   id107137                        1
+    id99976   id107140                       -1
+    id99976   id107150        -1.17030154655938
+    id99982   id100639                       -1
+    id99982   id100973                        1
+    id99982   id100974                        1
+    id99982   id107239                        1
+    id99982   id107242                        1
+    id99982   id107253                        1
+    id99982   id107256                       -1
+    id99982   id107308        -1.32723798589735
+    id99988   id100639                       -1
+    id99988   id100981                        1
+    id99988   id100982                        1
+    id99988   id107397                        1
+    id99988   id107400                        1
+    id99988   id107411                        1
+    id99988   id107414                       -1
+    id99988   id107425                        1
+    id99988   id107428                       -1
+    id99988   id107452        -1.31013078370302
+    id99994   id100639                       -1
+    id99994   id100989                        1
+    id99994   id100990                        1
+    id99994   id107555                        1
+    id99994   id107558                       -1
+    id99994   id107568        -1.83037918637697
+    id100000  id100639                       -1
+    id100000  id100997                        1
+    id100000  id100998                        1
+    id100000  id107671                        1
+    id100000  id107674                        1
+    id100000  id107685                        1
+    id100000  id107688                       -1
+    id100000  id107727                        1
+    id100000  id107730                       -1
+    id100000  id107755                        1
+    id100000  id107758                        1
+    id100000  id107768        -1.26573247207826
+    id100006  id100639                       -1
+    id100006  id101005                        1
+    id100006  id101006                        1
+    id100006  id107815                        1
+    id100006  id107818                        1
+    id100006  id107843                        1
+    id100006  id107846                       -1
+    id100006  id107870        -1.25636415537394
+    id100012  id100639                       -1
+    id100012  id101013                        1
+    id100012  id101014                        1
+    id100012  id107959                        1
+    id100012  id107962                        1
+    id100012  id107973                        1
+    id100012  id107976                       -1
+    id100012  id107987                        1
+    id100012  id107990                       -1
+    id100012  id108014        -1.32548250692308
+    id100018  id100639                       -1
+    id100018  id101021                        1
+    id100018  id101022                        1
+    id100018  id108117                        1
+    id100018  id108120                       -1
+    id100018  id108130        -1.52410967647462
+    id100024  id100639                       -1
+    id100024  id101029                        1
+    id100024  id101030                        1
+    id100024  id108205                        1
+    id100024  id108208                        1
+    id100024  id108219                        1
+    id100024  id108222                       -1
+    id100024  id108246        -1.25069896947154
+    id100030  id100639                       -1
+    id100030  id101037                        1
+    id100030  id101038                        1
+    id100030  id108277                        1
+    id100030  id108280                        1
+    id100030  id108291                        1
+    id100030  id108294                       -1
+    id100030  id108333                        1
+    id100030  id108336                       -1
+    id100030  id108361                        1
+    id100030  id108364                        1
+    id100030  id108374        -1.19715980408215
+    id100036  id100639                       -1
+    id100036  id101045                        1
+    id100036  id101046                        1
+    id100036  id108463                        1
+    id100036  id108466                        1
+    id100036  id108491                        1
+    id100036  id108494                       -1
+    id100036  id108518        -1.18421059589017
+    id100042  id100639                       -1
+    id100042  id101053                        1
+    id100042  id101054                        1
+    id100042  id108635                        1
+    id100042  id108638                        1
+    id100048  id100639                       -1
+    id100048  id101061                        1
+    id100048  id101062                        1
+    id100048  id108721                        1
+    id100048  id108724                       -1
+    id100048  id108748        -1.07715736691053
+    id100054  id100639                       -1
+    id100054  id101069                        1
+    id100054  id101070                        1
+    id100054  id108792        -1.06452427073802
+    id100054  id108795                        1
+    id100054  id108798                       -1
+    id100060  id100639                       -1
+    id100060  id101077                        1
+    id100060  id101078                        1
+    id100060  id108839                        1
+    id100060  id108842                        1
+    id100060  id108853                        1
+    id100060  id108856                       -1
+    id100060  id108880        -1.11102661587259
+    id100066  id100639                       -1
+    id100066  id101085                        1
+    id100066  id101086                        1
+    id100066  id108969                        1
+    id100066  id108972                        1
+    id100066  id108997                        1
+    id100066  id109000                       -1
+    id100066  id109011                        1
+    id100066  id109014                       -1
+    id100066  id109038        -1.22183139203515
+    id100072  id100639                       -1
+    id100072  id101093                        1
+    id100072  id101094                        1
+    id100072  id109113                        1
+    id100072  id109116                        1
+    id100078  id100639                       -1
+    id100078  id101101                        1
+    id100078  id101102                        1
+    id100078  id109226        -1.29151423872235
+    id100078  id109229                        1
+    id100078  id109232                       -1
+    id100084  id100639                       -1
+    id100084  id101109                        1
+    id100084  id101110                        1
+    id100084  id109329                        1
+    id100084  id109332                        1
+    id100084  id109357                        1
+    id100084  id109360                       -1
+    id100084  id109384        -1.12409276224461
+    id100090  id100639                       -1
+    id100090  id101117                        1
+    id100090  id101118                        1
+    id100090  id109487                        1
+    id100090  id109490                        1
+    id100090  id109501                        1
+    id100090  id109504                       -1
+    id100090  id109556        -1.38594559616798
+    id100096  id100639                       -1
+    id100096  id101125                        1
+    id100096  id101126                        1
+    id100096  id109617                        1
+    id100096  id109620                       -1
+    id100096  id109644        -1.34891898584968
+    id100102  id100639                       -1
+    id100102  id101133                        1
+    id100102  id101134                        1
+    id100102  id109761                        1
+    id100102  id109764                        1
+    id100102  id109789                        1
+    id100102  id109792                       -1
+    id100102  id109816        -1.03141316348475
+    id100108  id100639                       -1
+    id100108  id101141                        1
+    id100108  id101142                        1
+    id100108  id109947                        1
+    id100108  id109950                        1
+    id100108  id109960         -1.6083022168142
+    id100114  id100639                       -1
+    id100114  id101149                        1
+    id100114  id101150                        1
+    id100114  id109991                        1
+    id100114  id109994                        1
+    id100114  id110004        -1.49768526029197
+    id100120  id100639                       -1
+    id100120  id101157                        1
+    id100120  id101158                        1
+    id100120  id110079                        1
+    id100120  id110082                        1
+    id100126  id100639                       -1
+    id100126  id101165                        1
+    id100126  id101166                        1
+    id100126  id110179                        1
+    id100126  id110182                        1
+    id100126  id110221                        1
+    id100126  id110224                       -1
+    id100126  id110248        -1.24330658320482
+    id100132  id100639                       -1
+    id100132  id101173                        1
+    id100132  id101174                        1
+    id100132  id110337                        1
+    id100132  id110340                        1
+    id100132  id110364        -1.95764005508557
+    id100138  id100639                       -1
+    id100138  id101181                        1
+    id100138  id101182                        1
+    id100138  id110467                        1
+    id100138  id110470                        1
+    id100138  id110509                        1
+    id100138  id110512                       -1
+    id100138  id110536        -1.22645964824725
+    id100144  id100639                       -1
+    id100144  id101189                        1
+    id100144  id101190                        1
+    id100144  id110625                        1
+    id100144  id110628                       -1
+    id100144  id110652        -1.20462169420497
+    id100150  id100639                       -1
+    id100150  id101197                        1
+    id100150  id101198                        1
+    id100150  id110741                        1
+    id100150  id110744                        1
+    id100150  id110783                        1
+    id100150  id110786                       -1
+    id100150  id110810         -1.4044199396979
+    id100156  id100639                       -1
+    id100156  id101205                        1
+    id100156  id101206                        1
+    id100156  id110857                        1
+    id100156  id110860                        1
+    id100156  id110871                        1
+    id100156  id110874                       -1
+    id100156  id110913                        1
+    id100156  id110916                       -1
+    id100156  id110940        -1.15825609935001
+    id100162  id100639                       -1
+    id100162  id101213                        1
+    id100162  id101214                        1
+    id100162  id111029                        1
+    id100162  id111032                        1
+    id100162  id111043                        1
+    id100162  id111046                       -1
+    id100162  id111057                        1
+    id100162  id111060                       -1
+    id100162  id111084        -1.04326281492801
+    id100168  id100639                       -1
+    id100168  id101221                        1
+    id100168  id101222                        1
+    id100168  id111173                        1
+    id100168  id111176                        1
+    id100168  id111215                        1
+    id100168  id111218                       -1
+    id100168  id111242        -1.22560530419994
+    id100174  id100639                       -1
+    id100174  id101229                        1
+    id100174  id101230                        1
+    id100174  id111345                        1
+    id100174  id111348                        1
+    id100174  id111373                        1
+    id100174  id111376                       -1
+    id100174  id111386        -1.75507272587269
+    id100180  id100639                       -1
+    id100180  id101237                        1
+    id100180  id101238                        1
+    id100180  id111503                        1
+    id100180  id111506                        1
+    id100180  id111531                        1
+    id100180  id111534                       -1
+    id100180  id111558        -1.21230003258683
+    id100186  id100639                       -1
+    id100186  id101245                        1
+    id100186  id101246                        1
+    id100186  id111589                        1
+    id100186  id111592                        1
+    id100186  id111603                        1
+    id100186  id111606                       -1
+    id100186  id111630         -1.0614853645689
+    id100192  id100639                       -1
+    id100192  id101253                        1
+    id100192  id101254                        1
+    id100192  id111747                        1
+    id100192  id111750                        1
+    id100192  id111775                        1
+    id100192  id111778                       -1
+    id100192  id111802        -1.07783748866523
+    id100198  id100639                       -1
+    id100198  id101261                        1
+    id100198  id101262                        1
+    id100198  id111905                        1
+    id100198  id111908                       -1
+    id100198  id111932        -1.14130004217723
+    id100204  id100639                       -1
+    id100204  id101269                        1
+    id100204  id101270                        1
+    id100204  id112035                        1
+    id100204  id112038                       -1
+    id100204  id112062        -1.34096346884624
+    id100210  id100639                       -1
+    id100210  id101277                        1
+    id100210  id101278                        1
+    id100210  id112123                        1
+    id100210  id112126                        1
+    id100210  id112137                        1
+    id100210  id112140                       -1
+    id100210  id112192         -1.4053424614479
+    id100216  id100639                       -1
+    id100216  id101285                        1
+    id100216  id101286                        1
+    id100216  id112267                        1
+    id100216  id112270                        1
+    id100216  id112295                        1
+    id100216  id112298                       -1
+    id100216  id112322        -1.25659179455889
+    id100222  id100639                       -1
+    id100222  id101293                        1
+    id100222  id101294                        1
+    id100222  id112425                        1
+    id100222  id112428                        1
+    id100222  id112453                        1
+    id100222  id112456                       -1
+    id100222  id112480        -1.05545610917986
+    id100228  id100639                       -1
+    id100228  id101301                        1
+    id100228  id101302                        1
+    id100228  id112555                        1
+    id100228  id112558                        1
+    id100228  id112569                        1
+    id100228  id112572                       -1
+    id100228  id112611                        1
+    id100228  id112614                       -1
+    id100228  id112639                        1
+    id100228  id112642                        1
+    id100228  id112652        -1.30802783041014
+    id100234  id100639                       -1
+    id100234  id101309                        1
+    id100234  id101310                        1
+    id100234  id112727                        1
+    id100234  id112730                        1
+    id100234  id112754        -1.69816135121634
+    id100240  id100639                       -1
+    id100240  id101317                        1
+    id100240  id101318                        1
+    id100240  id112829                        1
+    id100240  id112832                        1
+    id100240  id112857                        1
+    id100240  id112860                       -1
+    id100240  id112871                        1
+    id100240  id112874                       -1
+    id100240  id112898        -1.29386035881336
+    id100246  id100639                       -1
+    id100246  id101325                        1
+    id100246  id101326                        1
+    id100246  id112973                        1
+    id100246  id112976                        1
+    id100246  id113001                        1
+    id100246  id113004                       -1
+    id100246  id113028        -1.38048851360969
+    id100252  id100639                       -1
+    id100252  id101333                        1
+    id100252  id101334                        1
+    id100252  id113103                        1
+    id100252  id113106                        1
+    id100252  id113131                        1
+    id100252  id113134                       -1
+    id100252  id113144        -1.49886864213928
+    id100258  id100639                       -1
+    id100258  id101341                        1
+    id100258  id101342                        1
+    id100258  id113247                        1
+    id100258  id113250                       -1
+    id100258  id113274        -1.37167582605772
+    id100264  id100639                       -1
+    id100264  id101349                        1
+    id100264  id101350                        1
+    id100264  id113349                        1
+    id100264  id113352                        1
+    id100270  id100639                       -1
+    id100270  id101357                        1
+    id100270  id101358                        1
+    id100270  id113462        -1.31663111874662
+    id100270  id113465                        1
+    id100270  id113468                       -1
+    id100276  id100639                       -1
+    id100276  id101365                        1
+    id100276  id101366                        1
+    id100276  id113565                        1
+    id100276  id113568                        1
+    id100276  id113579                        1
+    id100276  id113582                       -1
+    id100276  id113606        -1.28459918635384
+    id100282  id100639                       -1
+    id100282  id101373                        1
+    id100282  id101374                        1
+    id100282  id113695                        1
+    id100282  id113698                        1
+    id100282  id113722          -1.654249269261
+    id100288  id100639                       -1
+    id100288  id101381                        1
+    id100288  id101382                        1
+    id100288  id113825                        1
+    id100288  id113828                        1
+    id100288  id113853                        1
+    id100288  id113856                       -1
+    id100288  id113880        -1.17680997482256
+    id100294  id100639                       -1
+    id100294  id101389                        1
+    id100294  id101390                        1
+    id100294  id113969                        1
+    id100294  id113972                        1
+    id100294  id113983                        1
+    id100294  id113986                       -1
+    id100294  id114025                        1
+    id100294  id114028                       -1
+    id100294  id114053                        1
+    id100294  id114056                        1
+    id100294  id114066        -1.00731797907026
+    id100300  id100639                       -1
+    id100300  id101397                        1
+    id100300  id101398                        1
+    id100300  id114183                        1
+    id100300  id114186                        1
+    id100300  id114197                        1
+    id100300  id114200                       -1
+    id100300  id114239                        1
+    id100300  id114242                       -1
+    id100300  id114267                        1
+    id100300  id114270                        1
+    id100300  id114280        -1.08531168248687
+    id100306  id100639                       -1
+    id100306  id101405                        1
+    id100306  id101406                        1
+    id100306  id114452        -1.24306589793592
+    id100306  id114455                        1
+    id100306  id114458                       -1
+    id100312  id100639                       -1
+    id100312  id101413                        1
+    id100312  id101414                        1
+    id100312  id114513                        1
+    id100312  id114516                        1
+    id100312  id114541                        1
+    id100312  id114544                       -1
+    id100312  id114554        -1.85536517103688
+    id100318  id100639                       -1
+    id100318  id101421                        1
+    id100318  id101422                        1
+    id100318  id114698        -1.37544613300704
+    id100318  id114701                        1
+    id100318  id114704                       -1
+    id100324  id100639                       -1
+    id100324  id101429                        1
+    id100324  id101430                        1
+    id100324  id114787                        1
+    id100324  id114790                        1
+    id100324  id114800         -1.5796246723031
+    id100330  id100639                       -1
+    id100330  id101437                        1
+    id100330  id101438                        1
+    id100330  id114930         -1.1199491496151
+    id100330  id114933                        1
+    id100330  id114936                       -1
+    id100336  id100639                       -1
+    id100336  id101445                        1
+    id100336  id101446                        1
+    id100336  id115005                        1
+    id100336  id115008                        1
+    id100336  id115033                        1
+    id100336  id115036                       -1
+    id100336  id115047                        1
+    id100336  id115050                       -1
+    id100336  id115074        -1.25230017522501
+    id100342  id100639                       -1
+    id100342  id101453                        1
+    id100342  id101454                        1
+    id100342  id115163                        1
+    id100342  id115166                        1
+    id100342  id115191                        1
+    id100342  id115194                       -1
+    id100342  id115218        -1.33515758878067
+    id100348  id100639                       -1
+    id100348  id101461                        1
+    id100348  id101462                        1
+    id100348  id115335                        1
+    id100348  id115338                        1
+    id100348  id115362        -1.34647010073909
+    id100354  id100639                       -1
+    id100354  id101469                        1
+    id100354  id101470                        1
+    id100354  id115520         -1.3008034012711
+    id100354  id115523                        1
+    id100354  id115526                       -1
+    id100360  id100639                       -1
+    id100360  id101477                        1
+    id100360  id101478                        1
+    id100360  id115581                        1
+    id100360  id115584                        1
+    id100360  id115595                        1
+    id100360  id115598                       -1
+    id100360  id115637                        1
+    id100360  id115640                       -1
+    id100360  id115665                        1
+    id100360  id115668                        1
+    id100360  id115678         -1.0081109832816
+    id100366  id100639                       -1
+    id100366  id101485                        1
+    id100366  id101486                        1
+    id100366  id115795                        1
+    id100366  id115798                       -1
+    id100366  id115822        -1.19213982030573
+    id100372  id100639                       -1
+    id100372  id101493                        1
+    id100372  id101494                        1
+    id100372  id115883                        1
+    id100372  id115886                        1
+    id100372  id115897                        1
+    id100372  id115900                       -1
+    id100372  id115924        -1.10342450676693
+    id100378  id100639                       -1
+    id100378  id101501                        1
+    id100378  id101502                        1
+    id100378  id115985                        1
+    id100378  id115988                        1
+    id100378  id116027                        1
+    id100378  id116030                       -1
+    id100378  id116054        -1.05008762698764
+    id100384  id100639                       -1
+    id100384  id101509                        1
+    id100384  id101510                        1
+    id100384  id116157                        1
+    id100384  id116160                        1
+    id100384  id116170        -1.63389629086092
+    id100390  id100639                       -1
+    id100390  id101517                        1
+    id100390  id101518                        1
+    id100390  id116245                        1
+    id100390  id116248                        1
+    id100390  id116258        -1.38165422244094
+    id100396  id100639                       -1
+    id100396  id101525                        1
+    id100396  id101526                        1
+    id100396  id116361                        1
+    id100396  id116364                        1
+    id100396  id116389                        1
+    id100396  id116392                       -1
+    id100396  id116403                        1
+    id100396  id116406                       -1
+    id100396  id116430        -1.11632414767496
+    id100402  id100639                       -1
+    id100402  id101533                        1
+    id100402  id101534                        1
+    id100402  id116519                        1
+    id100402  id116522                        1
+    id100402  id116547                        1
+    id100402  id116550                       -1
+    id100402  id116574        -1.24321069966584
+    id100408  id100639                       -1
+    id100408  id101541                        1
+    id100408  id101542                        1
+    id100408  id116621                        1
+    id100408  id116624                        1
+    id100408  id116635                        1
+    id100408  id116638                       -1
+    id100408  id116677                        1
+    id100408  id116680                       -1
+    id100408  id116704        -1.21247538800121
+    id100414  id100639                       -1
+    id100414  id101549                        1
+    id100414  id101550                        1
+    id100414  id116765                        1
+    id100414  id116768                        1
+    id100414  id116779                        1
+    id100414  id116782                       -1
+    id100414  id116834         -1.1395530946025
+    id100420  id100639                       -1
+    id100420  id101557                        1
+    id100420  id101558                        1
+    id100420  id116923                        1
+    id100420  id116926                        1
+    id100420  id116937                        1
+    id100420  id116940                       -1
+    id100420  id116964        -1.03307068386174
+    id100426  id100639                       -1
+    id100426  id101565                        1
+    id100426  id101566                        1
+    id100426  id117011                        1
+    id100426  id117014                        1
+    id100426  id117053                        1
+    id100426  id117056                       -1
+    id100426  id117080        -1.25549779128509
+    id100432  id100639                       -1
+    id100432  id101573                        1
+    id100432  id101574                        1
+    id100432  id117155                        1
+    id100432  id117158                        1
+    id100432  id117197                        1
+    id100432  id117200                       -1
+    id100432  id117224        -1.38176091094315
+    id100438  id100639                       -1
+    id100438  id101581                        1
+    id100438  id101582                        1
+    id100438  id117271                        1
+    id100438  id117274                        1
+    id100438  id117299                        1
+    id100438  id117302                       -1
+    id100438  id117326        -1.32041330026077
+    id100444  id100639                       -1
+    id100444  id101589                        1
+    id100444  id101590                        1
+    id100444  id117401                        1
+    id100444  id117404                        1
+    id100444  id117429                        1
+    id100444  id117432                       -1
+    id100444  id117442        -1.63113163730056
+    id100450  id100639                       -1
+    id100450  id101597                        1
+    id100450  id101598                        1
+    id100450  id117503                        1
+    id100450  id117506                        1
+    id100450  id117517                        1
+    id100450  id117520                       -1
+    id100450  id117558        -1.96686115711899
+    id100456  id100639                       -1
+    id100456  id101605                        1
+    id100456  id101606                        1
+    id100456  id117675                        1
+    id100456  id117678                       -1
+    id100456  id117702        -1.07199974329388
+    id100462  id100639                       -1
+    id100462  id101613                        1
+    id100462  id101614                        1
+    id100462  id117777                        1
+    id100462  id117780                        1
+    id100462  id117819                        1
+    id100462  id117822                       -1
+    id100462  id117846        -1.28640069496265
+    id100468  id100639                       -1
+    id100468  id101621                        1
+    id100468  id101622                        1
+    id100468  id117935                        1
+    id100468  id117938                        1
+    id100468  id117949                        1
+    id100468  id117952                       -1
+    id100468  id117990        -1.62476780867111
+    id100474  id100639                       -1
+    id100474  id101629                        1
+    id100474  id101630                        1
+    id100474  id118065                        1
+    id100474  id118068                        1
+    id100474  id118079                        1
+    id100474  id118082                       -1
+    id100474  id118093                        1
+    id100474  id118096                       -1
+    id100474  id118120        -1.09636171470621
+    id100480  id100639                       -1
+    id100480  id101637                        1
+    id100480  id101638                        1
+    id100480  id118223                        1
+    id100480  id118226                        1
+    id100480  id118237                        1
+    id100480  id118240                       -1
+    id100480  id118279                        1
+    id100480  id118282                       -1
+    id100480  id118307                        1
+    id100480  id118310                        1
+    id100480  id118320        -1.01641537717915
+    id100486  id100639                       -1
+    id100486  id101645                        1
+    id100486  id101646                        1
+    id100486  id118423                        1
+    id100486  id118426                       -1
+    id100486  id118436        -1.66683152076297
+    id100492  id100639                       -1
+    id100492  id101653                        1
+    id100492  id101654                        1
+    id100492  id118566        -1.39388199642079
+    id100492  id118569                        1
+    id100492  id118572                       -1
+    id100498  id100639                       -1
+    id100498  id101661                        1
+    id100498  id101662                        1
+    id100498  id118597                        1
+    id100498  id118600                        1
+    id100498  id118611                        1
+    id100498  id118614                       -1
+    id100498  id118653                        1
+    id100498  id118656                       -1
+    id100498  id118681                        1
+    id100498  id118684                        1
+    id100498  id118694        -1.28323993949789
+    id100504  id100639                       -1
+    id100504  id101669                        1
+    id100504  id101670                        1
+    id100504  id118769                        1
+    id100504  id118772                        1
+    id100504  id118782        -1.57426494950023
+    id100510  id100639                       -1
+    id100510  id101677                        1
+    id100510  id101678                        1
+    id100510  id118857                        1
+    id100510  id118860                        1
+    id100510  id118871                        1
+    id100510  id118874                       -1
+    id100510  id118898        -1.34415591547722
+    id100516  id100639                       -1
+    id100516  id101685                        1
+    id100516  id101686                        1
+    id100516  id118973                        1
+    id100516  id118976                        1
+    id100516  id119001                        1
+    id100516  id119004                       -1
+    id100516  id119028        -1.01552187688614
+    id100522  id100639                       -1
+    id100522  id101693                        1
+    id100522  id101694                        1
+    id100522  id119131                        1
+    id100522  id119134                        1
+    id100522  id119145                        1
+    id100522  id119148                       -1
+    id100522  id119187                        1
+    id100522  id119190                       -1
+    id100522  id119215                        1
+    id100522  id119218                        1
+    id100522  id119228        -1.09164497837617
+    id100528  id100639                       -1
+    id100528  id101701                        1
+    id100528  id101702                        1
+    id100528  id119275                        1
+    id100528  id119278                        1
+    id100534  id100639                       -1
+    id100534  id101709                        1
+    id100534  id101710                        1
+    id100534  id119319                        1
+    id100534  id119322                        1
+    id100534  id119347                        1
+    id100534  id119350                       -1
+    id100534  id119361                        1
+    id100534  id119364                       -1
+    id100534  id119388         -1.0796168727626
+    id100540  id100639                       -1
+    id100540  id101717                        1
+    id100540  id101718                        1
+    id100540  id119449                        1
+    id100540  id119452                        1
+    id100540  id119477                        1
+    id100540  id119480                       -1
+    id100540  id119491                        1
+    id100540  id119494                       -1
+    id100540  id119518        -1.09795721385602
+    id100546  id100639                       -1
+    id100546  id101725                        1
+    id100546  id101726                        1
+    id100546  id119607                        1
+    id100546  id119610                        1
+    id100546  id119621                        1
+    id100546  id119624                       -1
+    id100546  id119663                        1
+    id100546  id119666                       -1
+    id100546  id119690        -1.26492308803417
+    id100552  id100639                       -1
+    id100552  id101733                        1
+    id100552  id101734                        1
+    id100552  id119779                        1
+    id100552  id119782                        1
+    id100552  id119821                        1
+    id100552  id119824                       -1
+    id100552  id119848        -1.19620655715097
+    id100558  id100639                       -1
+    id100558  id101741                        1
+    id100558  id101742                        1
+    id100558  id119923                        1
+    id100558  id119926                       -1
+    id100558  id119936        -1.38264788877493
+    id100564  id100639                       -1
+    id100564  id101749                        1
+    id100564  id101750                        1
+    id100564  id120025                        1
+    id100564  id120028                        1
+    id100564  id120039                        1
+    id100564  id120042                       -1
+    id100564  id120081                        1
+    id100564  id120084                       -1
+    id100564  id120108        -1.37127583934233
+    id100570  id100639                       -1
+    id100570  id101757                        1
+    id100570  id101758                        1
+    id100570  id120266        -1.32403937516484
+    id100570  id120269                        1
+    id100570  id120272                       -1
+    id100576  id100639                       -1
+    id100576  id101765                        1
+    id100576  id101766                        1
+    id100576  id120341                        1
+    id100576  id120344                        1
+    id100576  id120354        -1.40694053123189
+    id100582  id100639                       -1
+    id100582  id101773                        1
+    id100582  id101774                        1
+    id100582  id120457                        1
+    id100582  id120460                        1
+    id100582  id120471                        1
+    id100582  id120474                       -1
+    id100582  id120498          -1.060387851966
+    id100588  id100639                       -1
+    id100588  id101781                        1
+    id100588  id101782                        1
+    id100588  id120587                        1
+    id100588  id120590                        1
+    id100588  id120615                        1
+    id100588  id120618                       -1
+    id100588  id120629                        1
+    id100588  id120632                       -1
+    id100588  id120656        -1.32906243468233
+    id100594  id100639                       -1
+    id100594  id101789                        1
+    id100594  id101790                        1
+    id100594  id120758        -1.16534058066658
+    id100594  id120761                        1
+    id100594  id120764                       -1
+    id100600  id100639                       -1
+    id100600  id101797                        1
+    id100600  id101798                        1
+    id100600  id120860        -1.13658242951062
+    id100600  id120863                        1
+    id100600  id120866                       -1
+    id100606  id100639                       -1
+    id100606  id101805                        1
+    id100606  id101806                        1
+    id100606  id120935                        1
+    id100606  id120938                        1
+    id100606  id120949                        1
+    id100606  id120952                       -1
+    id100606  id120976        -1.25768600611436
+    id100612  id100639                       -1
+    id100612  id101813                        1
+    id100612  id101814                        1
+    id100612  id121107                        1
+    id100612  id121110                        1
+    id100612  id121121                        1
+    id100612  id121124                       -1
+    id100612  id121148        -1.13159170370316
+    id100618  id100639                       -1
+    id100618  id101821                        1
+    id100618  id101822                        1
+    id100618  id121251                        1
+    id100618  id121254                       -1
+    id100618  id121278         -1.3399964239286
+    id100624  id100639                       -1
+    id100624  id101829                        1
+    id100624  id101830                        1
+    id100624  id121353                        1
+    id100624  id121356                        1
+    id100624  id121381                        1
+    id100624  id121384                       -1
+    id100624  id121395                        1
+    id100624  id121398                       -1
+    id100624  id121422        -1.06030310920234
+    id100630  id100639                       -1
+    id100630  id101837                        1
+    id100630  id101838                        1
+    id100630  id121567                        1
+    id100630  id121570                       -1
+    id100630  id121594        -1.25322094135876
+    id102141  id102143                       -1
+    id102144  id102146                       -1
+    id102140  id102157                        1
+    id102140  id102160                        1
+    id102155  id102157                       -1
+    id102158  id102160                       -1
+    id102154  id102171                        1
+    id102154  id102174                        1
+    id102169  id102171                       -1
+    id102172  id102174                       -1
+    id102168  id102185                        1
+    id102168  id102188                        1
+    id102183  id102185                       -1
+    id102186  id102188                       -1
+    id102182  id102215                        1
+    id102182  id102218                        1
+    id102197  id102199                       -1
+    id102200  id102202                       -1
+    id102196  id102215                        1
+    id102196  id102218                       -1
+    id102210  id102212                        1
+    id102213  id102215                       -1
+    id102216  id102218                       -1
+    id102227  id102229                       -1
+    id102230  id102232                       -1
+    id102226  id102243                        1
+    id102226  id102246                        1
+    id102241  id102243                       -1
+    id102244  id102246                       -1
+    id102240  id102257                        1
+    id102240  id102260                        1
+    id102255  id102257                       -1
+    id102258  id102260                       -1
+    id102254  id102273                        1
+    id102254  id102276                        1
+    id102268  id102270                        1
+    id102271  id102273                       -1
+    id102274  id102276                       -1
+    id102285  id102287                       -1
+    id102288  id102290                       -1
+    id102284  obj                             0
+    id102299  id102301                       -1
+    id102302  id102304                       -1
+    id102298  id102315                        1
+    id102298  id102318                        1
+    id102313  id102315                       -1
+    id102316  id102318                       -1
+    id102312  id102331                        1
+    id102312  id102334                        1
+    id102326  id102328                        1
+    id102329  id102331                       -1
+    id102332  id102334                       -1
+    id102343  id102345                       -1
+    id102346  id102348                       -1
+    id102342  id102359                        1
+    id102342  id102362                        1
+    id102357  id102359                       -1
+    id102360  id102362                       -1
+    id102356  id102373                        1
+    id102356  id102376                        1
+    id102371  id102373                       -1
+    id102374  id102376                       -1
+    id102370  id102389                        1
+    id102370  id102392                        1
+    id102384  id102386                        1
+    id102387  id102389                       -1
+    id102390  id102392                       -1
+    id102401  id102403                       -1
+    id102404  id102406                       -1
+    id102400  id102417                        1
+    id102400  id102420                        1
+    id102415  id102417                       -1
+    id102418  id102420                       -1
+    id102414  id102445                        1
+    id102414  id102448                        1
+    id102429  id102431                       -1
+    id102432  id102434                       -1
+    id102428  id102445                        1
+    id102428  id102448                       -1
+    id102443  id102445                       -1
+    id102446  id102448                       -1
+    id102442  id102461                        1
+    id102442  id102464                        1
+    id102456  id102458                        1
+    id102459  id102461                       -1
+    id102462  id102464                       -1
+    id102473  id102475                       -1
+    id102476  id102478                       -1
+    id102472  id102489                        1
+    id102472  id102492                        1
+    id102487  id102489                       -1
+    id102490  id102492                       -1
+    id102486  id102503                        1
+    id102486  id102506                        1
+    id102501  id102503                       -1
+    id102504  id102506                       -1
+    id102500  id102533                        1
+    id102500  id102536                        1
+    id102515  id102517                       -1
+    id102518  id102520                       -1
+    id102514  id102533                        1
+    id102514  id102536                       -1
+    id102528  id102530                        1
+    id102531  id102533                       -1
+    id102534  id102536                       -1
+    id102545  id102547                       -1
+    id102548  id102550                       -1
+    id102544  id102561                        1
+    id102544  id102564                        1
+    id102559  id102561                       -1
+    id102562  id102564                       -1
+    id102558  id102575                        1
+    id102558  id102578                        1
+    id102573  id102575                       -1
+    id102576  id102578                       -1
+    id102572  id102591                        1
+    id102572  id102594                        1
+    id102586  id102588                        1
+    id102589  id102591                       -1
+    id102592  id102594                       -1
+    id102603  id102605                       -1
+    id102606  id102608                       -1
+    id102602  id102619                        1
+    id102602  id102622                        1
+    id102617  id102619                       -1
+    id102620  id102622                       -1
+    id102616  id102633                        1
+    id102616  id102636                        1
+    id102631  id102633                       -1
+    id102634  id102636                       -1
+    id102630  id102647                        1
+    id102630  id102650                        1
+    id102645  id102647                       -1
+    id102648  id102650                       -1
+    id102644  id102677                        1
+    id102644  id102680                        1
+    id102659  id102661                       -1
+    id102662  id102664                       -1
+    id102658  id102677                        1
+    id102658  id102680                       -1
+    id102672  id102674                        1
+    id102675  id102677                       -1
+    id102678  id102680                       -1
+    id102689  id102691                       -1
+    id102692  id102694                       -1
+    id102688  id102705                        1
+    id102688  id102708                        1
+    id102703  id102705                       -1
+    id102706  id102708                       -1
+    id102702  id102719                        1
+    id102702  id102722                        1
+    id102717  id102719                       -1
+    id102720  id102722                       -1
+    id102716  id102733                        1
+    id102716  id102736                        1
+    id102731  id102733                       -1
+    id102734  id102736                       -1
+    id102730  id102763                        1
+    id102730  id102766                        1
+    id102745  id102747                       -1
+    id102748  id102750                       -1
+    id102744  id102763                        1
+    id102744  id102766                       -1
+    id102758  id102760                        1
+    id102761  id102763                       -1
+    id102764  id102766                       -1
+    id102775  id102777                       -1
+    id102778  id102780                       -1
+    id102774  id102791                        1
+    id102774  id102794                        1
+    id102789  id102791                       -1
+    id102792  id102794                       -1
+    id102788  id102821                        1
+    id102788  id102824                        1
+    id102803  id102805                       -1
+    id102806  id102808                       -1
+    id102802  id102821                        1
+    id102802  id102824                       -1
+    id102816  id102818                        1
+    id102819  id102821                       -1
+    id102822  id102824                       -1
+    id102833  id102835                       -1
+    id102836  id102838                       -1
+    id102832  id102849                        1
+    id102832  id102852                        1
+    id102847  id102849                       -1
+    id102850  id102852                       -1
+    id102846  id102865                        1
+    id102846  id102868                        1
+    id102860  id102862                        1
+    id102863  id102865                       -1
+    id102866  id102868                       -1
+    id102877  id102879                       -1
+    id102880  id102882                       -1
+    id102876  id102893                        1
+    id102876  id102896                        1
+    id102891  id102893                       -1
+    id102894  id102896                       -1
+    id102890  id102907                        1
+    id102890  id102910                        1
+    id102905  id102907                       -1
+    id102908  id102910                       -1
+    id102904  id102921                        1
+    id102904  id102924                        1
+    id102919  id102921                       -1
+    id102922  id102924                       -1
+    id102918  id102951                        1
+    id102918  id102954                        1
+    id102933  id102935                       -1
+    id102936  id102938                       -1
+    id102932  id102951                        1
+    id102932  id102954                       -1
+    id102946  id102948                        1
+    id102949  id102951                       -1
+    id102952  id102954                       -1
+    id102963  id102965                       -1
+    id102966  id102968                       -1
+    id102962  id102979                        1
+    id102962  id102982                        1
+    id102977  id102979                       -1
+    id102980  id102982                       -1
+    id102976  id102993                        1
+    id102976  id102996                        1
+    id102991  id102993                       -1
+    id102994  id102996                       -1
+    id102990  id103009                        1
+    id102990  id103012                        1
+    id103004  id103006                        1
+    id103007  id103009                       -1
+    id103010  id103012                       -1
+    id103021  id103023                       -1
+    id103024  id103026                       -1
+    id103020  id103037                        1
+    id103020  id103040                        1
+    id103035  id103037                       -1
+    id103038  id103040                       -1
+    id103034  id103051                        1
+    id103034  id103054                        1
+    id103049  id103051                       -1
+    id103052  id103054                       -1
+    id103048  id103065                        1
+    id103048  id103068                        1
+    id103063  id103065                       -1
+    id103066  id103068                       -1
+    id103062  id103095                        1
+    id103062  id103098                        1
+    id103077  id103079                       -1
+    id103080  id103082                       -1
+    id103076  id103095                        1
+    id103076  id103098                       -1
+    id103090  id103092                        1
+    id103093  id103095                       -1
+    id103096  id103098                       -1
+    id103107  id103109                       -1
+    id103110  id103112                       -1
+    id103106  id103123                        1
+    id103106  id103126                        1
+    id103121  id103123                       -1
+    id103124  id103126                       -1
+    id103120  id103137                        1
+    id103120  id103140                        1
+    id103135  id103137                       -1
+    id103138  id103140                       -1
+    id103134  id103153                        1
+    id103134  id103156                        1
+    id103148  id103150                        1
+    id103151  id103153                       -1
+    id103154  id103156                       -1
+    id103165  id103167                       -1
+    id103168  id103170                       -1
+    id103164  id103181                        1
+    id103164  id103184                        1
+    id103179  id103181                       -1
+    id103182  id103184                       -1
+    id103178  id103209                        1
+    id103178  id103212                        1
+    id103193  id103195                       -1
+    id103196  id103198                       -1
+    id103192  id103209                        1
+    id103192  id103212                       -1
+    id103207  id103209                       -1
+    id103210  id103212                       -1
+    id103206  id103225                        1
+    id103206  id103228                        1
+    id103220  id103222                        1
+    id103223  id103225                       -1
+    id103226  id103228                       -1
+    id103237  id103239                       -1
+    id103240  id103242                       -1
+    id103236  id103253                        1
+    id103236  id103256                        1
+    id103251  id103253                       -1
+    id103254  id103256                       -1
+    id103250  id103267                        1
+    id103250  id103270                        1
+    id103265  id103267                       -1
+    id103268  id103270                       -1
+    id103264  id103297                        1
+    id103264  id103300                        1
+    id103279  id103281                       -1
+    id103282  id103284                       -1
+    id103278  id103297                        1
+    id103278  id103300                       -1
+    id103292  id103294                        1
+    id103295  id103297                       -1
+    id103298  id103300                       -1
+    id103309  id103311                       -1
+    id103312  id103314                       -1
+    id103308  id103325                        1
+    id103308  id103328                        1
+    id103323  id103325                       -1
+    id103326  id103328                       -1
+    id103322  id103339                        1
+    id103322  id103342                        1
+    id103337  id103339                       -1
+    id103340  id103342                       -1
+    id103336  id103355                        1
+    id103336  id103358                        1
+    id103350  id103352                        1
+    id103353  id103355                       -1
+    id103356  id103358                       -1
+    id103367  id103369                       -1
+    id103370  id103372                       -1
+    id103366  id103383                        1
+    id103366  id103386                        1
+    id103381  id103383                       -1
+    id103384  id103386                       -1
+    id103380  id103411                        1
+    id103380  id103414                        1
+    id103395  id103397                       -1
+    id103398  id103400                       -1
+    id103394  id103411                        1
+    id103394  id103414                       -1
+    id103409  id103411                       -1
+    id103412  id103414                       -1
+    id103408  id103425                        1
+    id103408  id103428                        1
+    id103423  id103425                       -1
+    id103426  id103428                       -1
+    id103422  id103455                        1
+    id103422  id103458                        1
+    id103437  id103439                       -1
+    id103440  id103442                       -1
+    id103436  id103455                        1
+    id103436  id103458                       -1
+    id103450  id103452                        1
+    id103453  id103455                       -1
+    id103456  id103458                       -1
+    id103467  id103469                       -1
+    id103470  id103472                       -1
+    id103466  id103485                        1
+    id103466  id103488                        1
+    id103480  id103482                        1
+    id103483  id103485                       -1
+    id103486  id103488                       -1
+    id103497  id103499                       -1
+    id103500  id103502                       -1
+    id103496  id103513                        1
+    id103496  id103516                        1
+    id103511  id103513                       -1
+    id103514  id103516                       -1
+    id103510  id103527                        1
+    id103510  id103530                        1
+    id103525  id103527                       -1
+    id103528  id103530                       -1
+    id103524  id103557                        1
+    id103524  id103560                        1
+    id103539  id103541                       -1
+    id103542  id103544                       -1
+    id103538  id103557                        1
+    id103538  id103560                       -1
+    id103552  id103554                        1
+    id103555  id103557                       -1
+    id103558  id103560                       -1
+    id103569  id103571                       -1
+    id103572  id103574                       -1
+    id103568  id103585                        1
+    id103568  id103588                        1
+    id103583  id103585                       -1
+    id103586  id103588                       -1
+    id103582  id103613                        1
+    id103582  id103616                        1
+    id103597  id103599                       -1
+    id103600  id103602                       -1
+    id103596  id103613                        1
+    id103596  id103616                       -1
+    id103611  id103613                       -1
+    id103614  id103616                       -1
+    id103610  id103629                        1
+    id103610  id103632                        1
+    id103624  id103626                        1
+    id103627  id103629                       -1
+    id103630  id103632                       -1
+    id103641  id103643                       -1
+    id103644  id103646                       -1
+    id103640  id103657                        1
+    id103640  id103660                        1
+    id103655  id103657                       -1
+    id103658  id103660                       -1
+    id103654  id103671                        1
+    id103654  id103674                        1
+    id103669  id103671                       -1
+    id103672  id103674                       -1
+    id103668  id103687                        1
+    id103668  id103690                        1
+    id103682  id103684                        1
+    id103685  id103687                       -1
+    id103688  id103690                       -1
+    id103699  id103701                       -1
+    id103702  id103704                       -1
+    id103698  id103715                        1
+    id103698  id103718                        1
+    id103713  id103715                       -1
+    id103716  id103718                       -1
+    id103712  id103743                        1
+    id103712  id103746                        1
+    id103727  id103729                       -1
+    id103730  id103732                       -1
+    id103726  id103743                        1
+    id103726  id103746                       -1
+    id103741  id103743                       -1
+    id103744  id103746                       -1
+    id103740  id103771                        1
+    id103740  id103774                        1
+    id103755  id103757                       -1
+    id103758  id103760                       -1
+    id103754  id103771                        1
+    id103754  id103774                       -1
+    id103769  id103771                       -1
+    id103772  id103774                       -1
+    id103768  id103801                        1
+    id103768  id103804                        1
+    id103783  id103785                       -1
+    id103786  id103788                       -1
+    id103782  id103801                        1
+    id103782  id103804                       -1
+    id103796  id103798                        1
+    id103799  id103801                       -1
+    id103802  id103804                       -1
+    id103813  id103815                       -1
+    id103816  id103818                       -1
+    id103812  obj                             0
+    id103827  id103829                       -1
+    id103830  id103832                       -1
+    id103826  id103843                        1
+    id103826  id103846                        1
+    id103841  id103843                       -1
+    id103844  id103846                       -1
+    id103840  id103859                        1
+    id103840  id103862                        1
+    id103854  id103856                        1
+    id103857  id103859                       -1
+    id103860  id103862                       -1
+    id103871  id103873                       -1
+    id103874  id103876                       -1
+    id103870  id103887                        1
+    id103870  id103890                        1
+    id103885  id103887                       -1
+    id103888  id103890                       -1
+    id103884  id103915                        1
+    id103884  id103918                        1
+    id103899  id103901                       -1
+    id103902  id103904                       -1
+    id103898  id103915                        1
+    id103898  id103918                       -1
+    id103913  id103915                       -1
+    id103916  id103918                       -1
+    id103912  id103929                        1
+    id103912  id103932                        1
+    id103927  id103929                       -1
+    id103930  id103932                       -1
+    id103926  id103959                        1
+    id103926  id103962                        1
+    id103941  id103943                       -1
+    id103944  id103946                       -1
+    id103940  id103959                        1
+    id103940  id103962                       -1
+    id103954  id103956                        1
+    id103957  id103959                       -1
+    id103960  id103962                       -1
+    id103971  id103973                       -1
+    id103974  id103976                       -1
+    id103970  id103987                        1
+    id103970  id103990                        1
+    id103985  id103987                       -1
+    id103988  id103990                       -1
+    id103984  id104015                        1
+    id103984  id104018                        1
+    id103999  id104001                       -1
+    id104002  id104004                       -1
+    id103998  id104015                        1
+    id103998  id104018                       -1
+    id104013  id104015                       -1
+    id104016  id104018                       -1
+    id104012  id104029                        1
+    id104012  id104032                        1
+    id104027  id104029                       -1
+    id104030  id104032                       -1
+    id104026  id104059                        1
+    id104026  id104062                        1
+    id104041  id104043                       -1
+    id104044  id104046                       -1
+    id104040  id104059                        1
+    id104040  id104062                       -1
+    id104054  id104056                        1
+    id104057  id104059                       -1
+    id104060  id104062                       -1
+    id104071  id104073                       -1
+    id104074  id104076                       -1
+    id104070  id104087                        1
+    id104070  id104090                        1
+    id104085  id104087                       -1
+    id104088  id104090                       -1
+    id104084  id104103                        1
+    id104084  id104106                        1
+    id104098  id104100                        1
+    id104101  id104103                       -1
+    id104104  id104106                       -1
+    id104115  id104117                       -1
+    id104118  id104120                       -1
+    id104114  id104133                        1
+    id104114  id104136                        1
+    id104128  id104130                        1
+    id104131  id104133                       -1
+    id104134  id104136                       -1
+    id104145  id104147                       -1
+    id104148  id104150                       -1
+    id104144  id104161                        1
+    id104144  id104164                        1
+    id104159  id104161                       -1
+    id104162  id104164                       -1
+    id104158  id104175                        1
+    id104158  id104178                        1
+    id104173  id104175                       -1
+    id104176  id104178                       -1
+    id104172  id104191                        1
+    id104172  id104194                        1
+    id104186  id104188                        1
+    id104189  id104191                       -1
+    id104192  id104194                       -1
+    id104203  id104205                       -1
+    id104206  id104208                       -1
+    id104202  id104219                        1
+    id104202  id104222                        1
+    id104217  id104219                       -1
+    id104220  id104222                       -1
+    id104216  id104233                        1
+    id104216  id104236                        1
+    id104231  id104233                       -1
+    id104234  id104236                       -1
+    id104230  id104249                        1
+    id104230  id104252                        1
+    id104244  id104246                        1
+    id104247  id104249                       -1
+    id104250  id104252                       -1
+    id104261  id104263                       -1
+    id104264  id104266                       -1
+    id104260  id104279                        1
+    id104260  id104282                        1
+    id104274  id104276                        1
+    id104277  id104279                       -1
+    id104280  id104282                       -1
+    id104291  id104293                       -1
+    id104294  id104296                       -1
+    id104290  id104309                        1
+    id104290  id104312                        1
+    id104304  id104306                        1
+    id104307  id104309                       -1
+    id104310  id104312                       -1
+    id104321  id104323                       -1
+    id104324  id104326                       -1
+    id104320  id104337                        1
+    id104320  id104340                        1
+    id104335  id104337                       -1
+    id104338  id104340                       -1
+    id104334  id104365                        1
+    id104334  id104368                        1
+    id104349  id104351                       -1
+    id104352  id104354                       -1
+    id104348  id104365                        1
+    id104348  id104368                       -1
+    id104363  id104365                       -1
+    id104366  id104368                       -1
+    id104362  id104379                        1
+    id104362  id104382                        1
+    id104377  id104379                       -1
+    id104380  id104382                       -1
+    id104376  id104395                        1
+    id104376  id104398                        1
+    id104390  id104392                        1
+    id104393  id104395                       -1
+    id104396  id104398                       -1
+    id104407  id104409                       -1
+    id104410  id104412                       -1
+    id104406  id104423                        1
+    id104406  id104426                        1
+    id104421  id104423                       -1
+    id104424  id104426                       -1
+    id104420  id104437                        1
+    id104420  id104440                        1
+    id104435  id104437                       -1
+    id104438  id104440                       -1
+    id104434  id104467                        1
+    id104434  id104470                        1
+    id104449  id104451                       -1
+    id104452  id104454                       -1
+    id104448  id104467                        1
+    id104448  id104470                       -1
+    id104462  id104464                        1
+    id104465  id104467                       -1
+    id104468  id104470                       -1
+    id104479  id104481                       -1
+    id104482  id104484                       -1
+    id104478  obj                             0
+    id104493  id104495                       -1
+    id104496  id104498                       -1
+    id104492  id104509                        1
+    id104492  id104512                        1
+    id104507  id104509                       -1
+    id104510  id104512                       -1
+    id104506  id104539                        1
+    id104506  id104542                        1
+    id104521  id104523                       -1
+    id104524  id104526                       -1
+    id104520  id104539                        1
+    id104520  id104542                       -1
+    id104534  id104536                        1
+    id104537  id104539                       -1
+    id104540  id104542                       -1
+    id104551  id104553                       -1
+    id104554  id104556                       -1
+    id104550  id104567                        1
+    id104550  id104570                        1
+    id104565  id104567                       -1
+    id104568  id104570                       -1
+    id104564  id104581                        1
+    id104564  id104584                        1
+    id104579  id104581                       -1
+    id104582  id104584                       -1
+    id104578  id104595                        1
+    id104578  id104598                        1
+    id104593  id104595                       -1
+    id104596  id104598                       -1
+    id104592  id104611                        1
+    id104592  id104614                        1
+    id104606  id104608                        1
+    id104609  id104611                       -1
+    id104612  id104614                       -1
+    id104623  id104625                       -1
+    id104626  id104628                       -1
+    id104622  id104639                        1
+    id104622  id104642                        1
+    id104637  id104639                       -1
+    id104640  id104642                       -1
+    id104636  id104653                        1
+    id104636  id104656                        1
+    id104651  id104653                       -1
+    id104654  id104656                       -1
+    id104650  id104683                        1
+    id104650  id104686                        1
+    id104665  id104667                       -1
+    id104668  id104670                       -1
+    id104664  id104683                        1
+    id104664  id104686                       -1
+    id104678  id104680                        1
+    id104681  id104683                       -1
+    id104684  id104686                       -1
+    id104695  id104697                       -1
+    id104698  id104700                       -1
+    id104694  id104713                        1
+    id104694  id104716                        1
+    id104708  id104710                        1
+    id104711  id104713                       -1
+    id104714  id104716                       -1
+    id104725  id104727                       -1
+    id104728  id104730                       -1
+    id104724  id104741                        1
+    id104724  id104744                        1
+    id104739  id104741                       -1
+    id104742  id104744                       -1
+    id104738  id104757                        1
+    id104738  id104760                        1
+    id104752  id104754                        1
+    id104755  id104757                       -1
+    id104758  id104760                       -1
+    id104769  id104771                       -1
+    id104772  id104774                       -1
+    id104768  id104785                        1
+    id104768  id104788                        1
+    id104783  id104785                       -1
+    id104786  id104788                       -1
+    id104782  id104813                        1
+    id104782  id104816                        1
+    id104797  id104799                       -1
+    id104800  id104802                       -1
+    id104796  id104813                        1
+    id104796  id104816                       -1
+    id104811  id104813                       -1
+    id104814  id104816                       -1
+    id104810  id104829                        1
+    id104810  id104832                        1
+    id104824  id104826                        1
+    id104827  id104829                       -1
+    id104830  id104832                       -1
+    id104841  id104843                       -1
+    id104844  id104846                       -1
+    id104840  id104857                        1
+    id104840  id104860                        1
+    id104855  id104857                       -1
+    id104858  id104860                       -1
+    id104854  id104871                        1
+    id104854  id104874                        1
+    id104869  id104871                       -1
+    id104872  id104874                       -1
+    id104868  id104901                        1
+    id104868  id104904                        1
+    id104883  id104885                       -1
+    id104886  id104888                       -1
+    id104882  id104901                        1
+    id104882  id104904                       -1
+    id104896  id104898                        1
+    id104899  id104901                       -1
+    id104902  id104904                       -1
+    id104913  id104915                       -1
+    id104916  id104918                       -1
+    id104912  id104929                        1
+    id104912  id104932                        1
+    id104927  id104929                       -1
+    id104930  id104932                       -1
+    id104926  id104959                        1
+    id104926  id104962                        1
+    id104941  id104943                       -1
+    id104944  id104946                       -1
+    id104940  id104959                        1
+    id104940  id104962                       -1
+    id104954  id104956                        1
+    id104957  id104959                       -1
+    id104960  id104962                       -1
+    id104971  id104973                       -1
+    id104974  id104976                       -1
+    id104970  id104989                        1
+    id104970  id104992                        1
+    id104984  id104986                        1
+    id104987  id104989                       -1
+    id104990  id104992                       -1
+    id105001  id105003                       -1
+    id105004  id105006                       -1
+    id105000  id105017                        1
+    id105000  id105020                        1
+    id105015  id105017                       -1
+    id105018  id105020                       -1
+    id105014  id105047                        1
+    id105014  id105050                        1
+    id105029  id105031                       -1
+    id105032  id105034                       -1
+    id105028  id105047                        1
+    id105028  id105050                       -1
+    id105042  id105044                        1
+    id105045  id105047                       -1
+    id105048  id105050                       -1
+    id105059  id105061                       -1
+    id105062  id105064                       -1
+    id105058  id105075                        1
+    id105058  id105078                        1
+    id105073  id105075                       -1
+    id105076  id105078                       -1
+    id105072  id105103                        1
+    id105072  id105106                        1
+    id105087  id105089                       -1
+    id105090  id105092                       -1
+    id105086  id105103                        1
+    id105086  id105106                       -1
+    id105101  id105103                       -1
+    id105104  id105106                       -1
+    id105100  id105119                        1
+    id105100  id105122                        1
+    id105114  id105116                        1
+    id105117  id105119                       -1
+    id105120  id105122                       -1
+    id105131  id105133                       -1
+    id105134  id105136                       -1
+    id105130  id105147                        1
+    id105130  id105150                        1
+    id105145  id105147                       -1
+    id105148  id105150                       -1
+    id105144  id105161                        1
+    id105144  id105164                        1
+    id105159  id105161                       -1
+    id105162  id105164                       -1
+    id105158  id105177                        1
+    id105158  id105180                        1
+    id105172  id105174                        1
+    id105175  id105177                       -1
+    id105178  id105180                       -1
+    id105189  id105191                       -1
+    id105192  id105194                       -1
+    id105188  id105205                        1
+    id105188  id105208                        1
+    id105203  id105205                       -1
+    id105206  id105208                       -1
+    id105202  id105219                        1
+    id105202  id105222                        1
+    id105217  id105219                       -1
+    id105220  id105222                       -1
+    id105216  id105235                        1
+    id105216  id105238                        1
+    id105230  id105232                        1
+    id105233  id105235                       -1
+    id105236  id105238                       -1
+    id105247  id105249                       -1
+    id105250  id105252                       -1
+    id105246  id105263                        1
+    id105246  id105266                        1
+    id105261  id105263                       -1
+    id105264  id105266                       -1
+    id105260  id105277                        1
+    id105260  id105280                        1
+    id105275  id105277                       -1
+    id105278  id105280                       -1
+    id105274  id105307                        1
+    id105274  id105310                        1
+    id105289  id105291                       -1
+    id105292  id105294                       -1
+    id105288  id105307                        1
+    id105288  id105310                       -1
+    id105302  id105304                        1
+    id105305  id105307                       -1
+    id105308  id105310                       -1
+    id105319  id105321                       -1
+    id105322  id105324                       -1
+    id105318  obj                             0
+    id105333  id105335                       -1
+    id105336  id105338                       -1
+    id105332  id105349                        1
+    id105332  id105352                        1
+    id105347  id105349                       -1
+    id105350  id105352                       -1
+    id105346  id105363                        1
+    id105346  id105366                        1
+    id105361  id105363                       -1
+    id105364  id105366                       -1
+    id105360  id105377                        1
+    id105360  id105380                        1
+    id105375  id105377                       -1
+    id105378  id105380                       -1
+    id105374  id105407                        1
+    id105374  id105410                        1
+    id105389  id105391                       -1
+    id105392  id105394                       -1
+    id105388  id105407                        1
+    id105388  id105410                       -1
+    id105402  id105404                        1
+    id105405  id105407                       -1
+    id105408  id105410                       -1
+    id105419  id105421                       -1
+    id105422  id105424                       -1
+    id105418  id105435                        1
+    id105418  id105438                        1
+    id105433  id105435                       -1
+    id105436  id105438                       -1
+    id105432  id105449                        1
+    id105432  id105452                        1
+    id105447  id105449                       -1
+    id105450  id105452                       -1
+    id105446  id105465                        1
+    id105446  id105468                        1
+    id105460  id105462                        1
+    id105463  id105465                       -1
+    id105466  id105468                       -1
+    id105477  id105479                       -1
+    id105480  id105482                       -1
+    id105476  id105493                        1
+    id105476  id105496                        1
+    id105491  id105493                       -1
+    id105494  id105496                       -1
+    id105490  id105507                        1
+    id105490  id105510                        1
+    id105505  id105507                       -1
+    id105508  id105510                       -1
+    id105504  id105537                        1
+    id105504  id105540                        1
+    id105519  id105521                       -1
+    id105522  id105524                       -1
+    id105518  id105537                        1
+    id105518  id105540                       -1
+    id105532  id105534                        1
+    id105535  id105537                       -1
+    id105538  id105540                       -1
+    id105549  id105551                       -1
+    id105552  id105554                       -1
+    id105548  id105567                        1
+    id105548  id105570                        1
+    id105562  id105564                        1
+    id105565  id105567                       -1
+    id105568  id105570                       -1
+    id105579  id105581                       -1
+    id105582  id105584                       -1
+    id105578  obj                             0
+    id105593  id105595                       -1
+    id105596  id105598                       -1
+    id105592  id105609                        1
+    id105592  id105612                        1
+    id105607  id105609                       -1
+    id105610  id105612                       -1
+    id105606  id105637                        1
+    id105606  id105640                        1
+    id105621  id105623                       -1
+    id105624  id105626                       -1
+    id105620  id105637                        1
+    id105620  id105640                       -1
+    id105635  id105637                       -1
+    id105638  id105640                       -1
+    id105634  id105651                        1
+    id105634  id105654                        1
+    id105649  id105651                       -1
+    id105652  id105654                       -1
+    id105648  id105667                        1
+    id105648  id105670                        1
+    id105662  id105664                        1
+    id105665  id105667                       -1
+    id105668  id105670                       -1
+    id105679  id105681                       -1
+    id105682  id105684                       -1
+    id105678  id105695                        1
+    id105678  id105698                        1
+    id105693  id105695                       -1
+    id105696  id105698                       -1
+    id105692  id105711                        1
+    id105692  id105714                        1
+    id105706  id105708                        1
+    id105709  id105711                       -1
+    id105712  id105714                       -1
+    id105723  id105725                       -1
+    id105726  id105728                       -1
+    id105722  id105739                        1
+    id105722  id105742                        1
+    id105737  id105739                       -1
+    id105740  id105742                       -1
+    id105736  id105767                        1
+    id105736  id105770                        1
+    id105751  id105753                       -1
+    id105754  id105756                       -1
+    id105750  id105767                        1
+    id105750  id105770                       -1
+    id105765  id105767                       -1
+    id105768  id105770                       -1
+    id105764  id105783                        1
+    id105764  id105786                        1
+    id105778  id105780                        1
+    id105781  id105783                       -1
+    id105784  id105786                       -1
+    id105795  id105797                       -1
+    id105798  id105800                       -1
+    id105794  id105811                        1
+    id105794  id105814                        1
+    id105809  id105811                       -1
+    id105812  id105814                       -1
+    id105808  id105827                        1
+    id105808  id105830                        1
+    id105822  id105824                        1
+    id105825  id105827                       -1
+    id105828  id105830                       -1
+    id105839  id105841                       -1
+    id105842  id105844                       -1
+    id105838  id105855                        1
+    id105838  id105858                        1
+    id105853  id105855                       -1
+    id105856  id105858                       -1
+    id105852  id105883                        1
+    id105852  id105886                        1
+    id105867  id105869                       -1
+    id105870  id105872                       -1
+    id105866  id105883                        1
+    id105866  id105886                       -1
+    id105881  id105883                       -1
+    id105884  id105886                       -1
+    id105880  id105899                        1
+    id105880  id105902                        1
+    id105894  id105896                        1
+    id105897  id105899                       -1
+    id105900  id105902                       -1
+    id105911  id105913                       -1
+    id105914  id105916                       -1
+    id105910  id105927                        1
+    id105910  id105930                        1
+    id105925  id105927                       -1
+    id105928  id105930                       -1
+    id105924  id105941                        1
+    id105924  id105944                        1
+    id105939  id105941                       -1
+    id105942  id105944                       -1
+    id105938  id105957                        1
+    id105938  id105960                        1
+    id105952  id105954                        1
+    id105955  id105957                       -1
+    id105958  id105960                       -1
+    id105969  id105971                       -1
+    id105972  id105974                       -1
+    id105968  id105987                        1
+    id105968  id105990                        1
+    id105982  id105984                        1
+    id105985  id105987                       -1
+    id105988  id105990                       -1
+    id105999  id106001                       -1
+    id106002  id106004                       -1
+    id105998  id106015                        1
+    id105998  id106018                        1
+    id106013  id106015                       -1
+    id106016  id106018                       -1
+    id106012  id106029                        1
+    id106012  id106032                        1
+    id106027  id106029                       -1
+    id106030  id106032                       -1
+    id106026  id106043                        1
+    id106026  id106046                        1
+    id106041  id106043                       -1
+    id106044  id106046                       -1
+    id106040  id106073                        1
+    id106040  id106076                        1
+    id106055  id106057                       -1
+    id106058  id106060                       -1
+    id106054  id106073                        1
+    id106054  id106076                       -1
+    id106068  id106070                        1
+    id106071  id106073                       -1
+    id106074  id106076                       -1
+    id106085  id106087                       -1
+    id106088  id106090                       -1
+    id106084  id106101                        1
+    id106084  id106104                        1
+    id106099  id106101                       -1
+    id106102  id106104                       -1
+    id106098  id106115                        1
+    id106098  id106118                        1
+    id106113  id106115                       -1
+    id106116  id106118                       -1
+    id106112  id106131                        1
+    id106112  id106134                        1
+    id106126  id106128                        1
+    id106129  id106131                       -1
+    id106132  id106134                       -1
+    id106143  id106145                       -1
+    id106146  id106148                       -1
+    id106142  id106159                        1
+    id106142  id106162                        1
+    id106157  id106159                       -1
+    id106160  id106162                       -1
+    id106156  id106173                        1
+    id106156  id106176                        1
+    id106171  id106173                       -1
+    id106174  id106176                       -1
+    id106170  id106189                        1
+    id106170  id106192                        1
+    id106184  id106186                        1
+    id106187  id106189                       -1
+    id106190  id106192                       -1
+    id106201  id106203                       -1
+    id106204  id106206                       -1
+    id106200  id106217                        1
+    id106200  id106220                        1
+    id106215  id106217                       -1
+    id106218  id106220                       -1
+    id106214  id106231                        1
+    id106214  id106234                        1
+    id106229  id106231                       -1
+    id106232  id106234                       -1
+    id106228  id106245                        1
+    id106228  id106248                        1
+    id106243  id106245                       -1
+    id106246  id106248                       -1
+    id106242  id106275                        1
+    id106242  id106278                        1
+    id106257  id106259                       -1
+    id106260  id106262                       -1
+    id106256  id106275                        1
+    id106256  id106278                       -1
+    id106270  id106272                        1
+    id106273  id106275                       -1
+    id106276  id106278                       -1
+    id106287  id106289                       -1
+    id106290  id106292                       -1
+    id106286  id106303                        1
+    id106286  id106306                        1
+    id106301  id106303                       -1
+    id106304  id106306                       -1
+    id106300  id106317                        1
+    id106300  id106320                        1
+    id106315  id106317                       -1
+    id106318  id106320                       -1
+    id106314  id106333                        1
+    id106314  id106336                        1
+    id106328  id106330                        1
+    id106331  id106333                       -1
+    id106334  id106336                       -1
+    id106345  id106347                       -1
+    id106348  id106350                       -1
+    id106344  id106361                        1
+    id106344  id106364                        1
+    id106359  id106361                       -1
+    id106362  id106364                       -1
+    id106358  id106375                        1
+    id106358  id106378                        1
+    id106373  id106375                       -1
+    id106376  id106378                       -1
+    id106372  id106391                        1
+    id106372  id106394                        1
+    id106386  id106388                        1
+    id106389  id106391                       -1
+    id106392  id106394                       -1
+    id106403  id106405                       -1
+    id106406  id106408                       -1
+    id106402  id106419                        1
+    id106402  id106422                        1
+    id106417  id106419                       -1
+    id106420  id106422                       -1
+    id106416  id106447                        1
+    id106416  id106450                        1
+    id106431  id106433                       -1
+    id106434  id106436                       -1
+    id106430  id106447                        1
+    id106430  id106450                       -1
+    id106445  id106447                       -1
+    id106448  id106450                       -1
+    id106444  id106463                        1
+    id106444  id106466                        1
+    id106458  id106460                        1
+    id106461  id106463                       -1
+    id106464  id106466                       -1
+    id106475  id106477                       -1
+    id106478  id106480                       -1
+    id106474  id106491                        1
+    id106474  id106494                        1
+    id106489  id106491                       -1
+    id106492  id106494                       -1
+    id106488  id106519                        1
+    id106488  id106522                        1
+    id106503  id106505                       -1
+    id106506  id106508                       -1
+    id106502  id106519                        1
+    id106502  id106522                       -1
+    id106517  id106519                       -1
+    id106520  id106522                       -1
+    id106516  id106547                        1
+    id106516  id106550                        1
+    id106531  id106533                       -1
+    id106534  id106536                       -1
+    id106530  id106547                        1
+    id106530  id106550                       -1
+    id106545  id106547                       -1
+    id106548  id106550                       -1
+    id106544  id106577                        1
+    id106544  id106580                        1
+    id106559  id106561                       -1
+    id106562  id106564                       -1
+    id106558  id106577                        1
+    id106558  id106580                       -1
+    id106572  id106574                        1
+    id106575  id106577                       -1
+    id106578  id106580                       -1
+    id106589  id106591                       -1
+    id106592  id106594                       -1
+    id106588  id106605                        1
+    id106588  id106608                        1
+    id106603  id106605                       -1
+    id106606  id106608                       -1
+    id106602  id106619                        1
+    id106602  id106622                        1
+    id106617  id106619                       -1
+    id106620  id106622                       -1
+    id106616  id106635                        1
+    id106616  id106638                        1
+    id106630  id106632                        1
+    id106633  id106635                       -1
+    id106636  id106638                       -1
+    id106647  id106649                       -1
+    id106650  id106652                       -1
+    id106646  id106663                        1
+    id106646  id106666                        1
+    id106661  id106663                       -1
+    id106664  id106666                       -1
+    id106660  id106691                        1
+    id106660  id106694                        1
+    id106675  id106677                       -1
+    id106678  id106680                       -1
+    id106674  id106691                        1
+    id106674  id106694                       -1
+    id106689  id106691                       -1
+    id106692  id106694                       -1
+    id106688  id106719                        1
+    id106688  id106722                        1
+    id106703  id106705                       -1
+    id106706  id106708                       -1
+    id106702  id106719                        1
+    id106702  id106722                       -1
+    id106717  id106719                       -1
+    id106720  id106722                       -1
+    id106716  id106749                        1
+    id106716  id106752                        1
+    id106731  id106733                       -1
+    id106734  id106736                       -1
+    id106730  id106749                        1
+    id106730  id106752                       -1
+    id106744  id106746                        1
+    id106747  id106749                       -1
+    id106750  id106752                       -1
+    id106761  id106763                       -1
+    id106764  id106766                       -1
+    id106760  obj                             0
+    id106775  id106777                       -1
+    id106778  id106780                       -1
+    id106774  id106791                        1
+    id106774  id106794                        1
+    id106789  id106791                       -1
+    id106792  id106794                       -1
+    id106788  id106805                        1
+    id106788  id106808                        1
+    id106803  id106805                       -1
+    id106806  id106808                       -1
+    id106802  id106835                        1
+    id106802  id106838                        1
+    id106817  id106819                       -1
+    id106820  id106822                       -1
+    id106816  id106835                        1
+    id106816  id106838                       -1
+    id106830  id106832                        1
+    id106833  id106835                       -1
+    id106836  id106838                       -1
+    id106847  id106849                       -1
+    id106850  id106852                       -1
+    id106846  id106863                        1
+    id106846  id106866                        1
+    id106861  id106863                       -1
+    id106864  id106866                       -1
+    id106860  id106877                        1
+    id106860  id106880                        1
+    id106875  id106877                       -1
+    id106878  id106880                       -1
+    id106874  id106907                        1
+    id106874  id106910                        1
+    id106889  id106891                       -1
+    id106892  id106894                       -1
+    id106888  id106907                        1
+    id106888  id106910                       -1
+    id106902  id106904                        1
+    id106905  id106907                       -1
+    id106908  id106910                       -1
+    id106919  id106921                       -1
+    id106922  id106924                       -1
+    id106918  id106935                        1
+    id106918  id106938                        1
+    id106933  id106935                       -1
+    id106936  id106938                       -1
+    id106932  id106965                        1
+    id106932  id106968                        1
+    id106947  id106949                       -1
+    id106950  id106952                       -1
+    id106946  id106965                        1
+    id106946  id106968                       -1
+    id106960  id106962                        1
+    id106963  id106965                       -1
+    id106966  id106968                       -1
+    id106977  id106979                       -1
+    id106980  id106982                       -1
+    id106976  id106993                        1
+    id106976  id106996                        1
+    id106991  id106993                       -1
+    id106994  id106996                       -1
+    id106990  id107007                        1
+    id106990  id107010                        1
+    id107005  id107007                       -1
+    id107008  id107010                       -1
+    id107004  id107023                        1
+    id107004  id107026                        1
+    id107018  id107020                        1
+    id107021  id107023                       -1
+    id107024  id107026                       -1
+    id107035  id107037                       -1
+    id107038  id107040                       -1
+    id107034  id107051                        1
+    id107034  id107054                        1
+    id107049  id107051                       -1
+    id107052  id107054                       -1
+    id107048  id107079                        1
+    id107048  id107082                        1
+    id107063  id107065                       -1
+    id107066  id107068                       -1
+    id107062  id107079                        1
+    id107062  id107082                       -1
+    id107077  id107079                       -1
+    id107080  id107082                       -1
+    id107076  id107093                        1
+    id107076  id107096                        1
+    id107091  id107093                       -1
+    id107094  id107096                       -1
+    id107090  id107109                        1
+    id107090  id107112                        1
+    id107104  id107106                        1
+    id107107  id107109                       -1
+    id107110  id107112                       -1
+    id107121  id107123                       -1
+    id107124  id107126                       -1
+    id107120  id107137                        1
+    id107120  id107140                        1
+    id107135  id107137                       -1
+    id107138  id107140                       -1
+    id107134  id107153                        1
+    id107134  id107156                        1
+    id107148  id107150                        1
+    id107151  id107153                       -1
+    id107154  id107156                       -1
+    id107165  id107167                       -1
+    id107168  id107170                       -1
+    id107164  id107181                        1
+    id107164  id107184                        1
+    id107179  id107181                       -1
+    id107182  id107184                       -1
+    id107178  id107195                        1
+    id107178  id107198                        1
+    id107193  id107195                       -1
+    id107196  id107198                       -1
+    id107192  id107225                        1
+    id107192  id107228                        1
+    id107207  id107209                       -1
+    id107210  id107212                       -1
+    id107206  id107225                        1
+    id107206  id107228                       -1
+    id107220  id107222                        1
+    id107223  id107225                       -1
+    id107226  id107228                       -1
+    id107237  id107239                       -1
+    id107240  id107242                       -1
+    id107236  id107253                        1
+    id107236  id107256                        1
+    id107251  id107253                       -1
+    id107254  id107256                       -1
+    id107250  id107281                        1
+    id107250  id107284                        1
+    id107265  id107267                       -1
+    id107268  id107270                       -1
+    id107264  id107281                        1
+    id107264  id107284                       -1
+    id107279  id107281                       -1
+    id107282  id107284                       -1
+    id107278  id107295                        1
+    id107278  id107298                        1
+    id107293  id107295                       -1
+    id107296  id107298                       -1
+    id107292  id107311                        1
+    id107292  id107314                        1
+    id107306  id107308                        1
+    id107309  id107311                       -1
+    id107312  id107314                       -1
+    id107323  id107325                       -1
+    id107326  id107328                       -1
+    id107322  id107339                        1
+    id107322  id107342                        1
+    id107337  id107339                       -1
+    id107340  id107342                       -1
+    id107336  id107353                        1
+    id107336  id107356                        1
+    id107351  id107353                       -1
+    id107354  id107356                       -1
+    id107350  id107383                        1
+    id107350  id107386                        1
+    id107365  id107367                       -1
+    id107368  id107370                       -1
+    id107364  id107383                        1
+    id107364  id107386                       -1
+    id107378  id107380                        1
+    id107381  id107383                       -1
+    id107384  id107386                       -1
+    id107395  id107397                       -1
+    id107398  id107400                       -1
+    id107394  id107411                        1
+    id107394  id107414                        1
+    id107409  id107411                       -1
+    id107412  id107414                       -1
+    id107408  id107425                        1
+    id107408  id107428                        1
+    id107423  id107425                       -1
+    id107426  id107428                       -1
+    id107422  id107455                        1
+    id107422  id107458                        1
+    id107437  id107439                       -1
+    id107440  id107442                       -1
+    id107436  id107455                        1
+    id107436  id107458                       -1
+    id107450  id107452                        1
+    id107453  id107455                       -1
+    id107456  id107458                       -1
+    id107467  id107469                       -1
+    id107470  id107472                       -1
+    id107466  id107483                        1
+    id107466  id107486                        1
+    id107481  id107483                       -1
+    id107484  id107486                       -1
+    id107480  id107497                        1
+    id107480  id107500                        1
+    id107495  id107497                       -1
+    id107498  id107500                       -1
+    id107494  id107527                        1
+    id107494  id107530                        1
+    id107509  id107511                       -1
+    id107512  id107514                       -1
+    id107508  id107527                        1
+    id107508  id107530                       -1
+    id107522  id107524                        1
+    id107525  id107527                       -1
+    id107528  id107530                       -1
+    id107539  id107541                       -1
+    id107542  id107544                       -1
+    id107538  id107555                        1
+    id107538  id107558                        1
+    id107553  id107555                       -1
+    id107556  id107558                       -1
+    id107552  id107571                        1
+    id107552  id107574                        1
+    id107566  id107568                        1
+    id107569  id107571                       -1
+    id107572  id107574                       -1
+    id107583  id107585                       -1
+    id107586  id107588                       -1
+    id107582  id107599                        1
+    id107582  id107602                        1
+    id107597  id107599                       -1
+    id107600  id107602                       -1
+    id107596  id107613                        1
+    id107596  id107616                        1
+    id107611  id107613                       -1
+    id107614  id107616                       -1
+    id107610  id107627                        1
+    id107610  id107630                        1
+    id107625  id107627                       -1
+    id107628  id107630                       -1
+    id107624  id107657                        1
+    id107624  id107660                        1
+    id107639  id107641                       -1
+    id107642  id107644                       -1
+    id107638  id107657                        1
+    id107638  id107660                       -1
+    id107652  id107654                        1
+    id107655  id107657                       -1
+    id107658  id107660                       -1
+    id107669  id107671                       -1
+    id107672  id107674                       -1
+    id107668  id107685                        1
+    id107668  id107688                        1
+    id107683  id107685                       -1
+    id107686  id107688                       -1
+    id107682  id107713                        1
+    id107682  id107716                        1
+    id107697  id107699                       -1
+    id107700  id107702                       -1
+    id107696  id107713                        1
+    id107696  id107716                       -1
+    id107711  id107713                       -1
+    id107714  id107716                       -1
+    id107710  id107741                        1
+    id107710  id107744                        1
+    id107725  id107727                       -1
+    id107728  id107730                       -1
+    id107724  id107741                        1
+    id107724  id107744                       -1
+    id107739  id107741                       -1
+    id107742  id107744                       -1
+    id107738  id107771                        1
+    id107738  id107774                        1
+    id107753  id107755                       -1
+    id107756  id107758                       -1
+    id107752  id107771                        1
+    id107752  id107774                       -1
+    id107766  id107768                        1
+    id107769  id107771                       -1
+    id107772  id107774                       -1
+    id107783  id107785                       -1
+    id107786  id107788                       -1
+    id107782  id107801                        1
+    id107782  id107804                        1
+    id107796  id107798                        1
+    id107799  id107801                       -1
+    id107802  id107804                       -1
+    id107813  id107815                       -1
+    id107816  id107818                       -1
+    id107812  id107829                        1
+    id107812  id107832                        1
+    id107827  id107829                       -1
+    id107830  id107832                       -1
+    id107826  id107843                        1
+    id107826  id107846                        1
+    id107841  id107843                       -1
+    id107844  id107846                       -1
+    id107840  id107873                        1
+    id107840  id107876                        1
+    id107855  id107857                       -1
+    id107858  id107860                       -1
+    id107854  id107873                        1
+    id107854  id107876                       -1
+    id107868  id107870                        1
+    id107871  id107873                       -1
+    id107874  id107876                       -1
+    id107885  id107887                       -1
+    id107888  id107890                       -1
+    id107884  id107901                        1
+    id107884  id107904                        1
+    id107899  id107901                       -1
+    id107902  id107904                       -1
+    id107898  id107915                        1
+    id107898  id107918                        1
+    id107913  id107915                       -1
+    id107916  id107918                       -1
+    id107912  id107945                        1
+    id107912  id107948                        1
+    id107927  id107929                       -1
+    id107930  id107932                       -1
+    id107926  id107945                        1
+    id107926  id107948                       -1
+    id107940  id107942                        1
+    id107943  id107945                       -1
+    id107946  id107948                       -1
+    id107957  id107959                       -1
+    id107960  id107962                       -1
+    id107956  id107973                        1
+    id107956  id107976                        1
+    id107971  id107973                       -1
+    id107974  id107976                       -1
+    id107970  id107987                        1
+    id107970  id107990                        1
+    id107985  id107987                       -1
+    id107988  id107990                       -1
+    id107984  id108017                        1
+    id107984  id108020                        1
+    id107999  id108001                       -1
+    id108002  id108004                       -1
+    id107998  id108017                        1
+    id107998  id108020                       -1
+    id108012  id108014                        1
+    id108015  id108017                       -1
+    id108018  id108020                       -1
+    id108029  id108031                       -1
+    id108032  id108034                       -1
+    id108028  id108045                        1
+    id108028  id108048                        1
+    id108043  id108045                       -1
+    id108046  id108048                       -1
+    id108042  id108059                        1
+    id108042  id108062                        1
+    id108057  id108059                       -1
+    id108060  id108062                       -1
+    id108056  id108089                        1
+    id108056  id108092                        1
+    id108071  id108073                       -1
+    id108074  id108076                       -1
+    id108070  id108089                        1
+    id108070  id108092                       -1
+    id108084  id108086                        1
+    id108087  id108089                       -1
+    id108090  id108092                       -1
+    id108101  id108103                       -1
+    id108104  id108106                       -1
+    id108100  id108117                        1
+    id108100  id108120                        1
+    id108115  id108117                       -1
+    id108118  id108120                       -1
+    id108114  id108133                        1
+    id108114  id108136                        1
+    id108128  id108130                        1
+    id108131  id108133                       -1
+    id108134  id108136                       -1
+    id108145  id108147                       -1
+    id108148  id108150                       -1
+    id108144  id108161                        1
+    id108144  id108164                        1
+    id108159  id108161                       -1
+    id108162  id108164                       -1
+    id108158  id108175                        1
+    id108158  id108178                        1
+    id108173  id108175                       -1
+    id108176  id108178                       -1
+    id108172  id108191                        1
+    id108172  id108194                        1
+    id108186  id108188                        1
+    id108189  id108191                       -1
+    id108192  id108194                       -1
+    id108203  id108205                       -1
+    id108206  id108208                       -1
+    id108202  id108219                        1
+    id108202  id108222                        1
+    id108217  id108219                       -1
+    id108220  id108222                       -1
+    id108216  id108249                        1
+    id108216  id108252                        1
+    id108231  id108233                       -1
+    id108234  id108236                       -1
+    id108230  id108249                        1
+    id108230  id108252                       -1
+    id108244  id108246                        1
+    id108247  id108249                       -1
+    id108250  id108252                       -1
+    id108261  id108263                       -1
+    id108264  id108266                       -1
+    id108260  obj                             0
+    id108275  id108277                       -1
+    id108278  id108280                       -1
+    id108274  id108291                        1
+    id108274  id108294                        1
+    id108289  id108291                       -1
+    id108292  id108294                       -1
+    id108288  id108319                        1
+    id108288  id108322                        1
+    id108303  id108305                       -1
+    id108306  id108308                       -1
+    id108302  id108319                        1
+    id108302  id108322                       -1
+    id108317  id108319                       -1
+    id108320  id108322                       -1
+    id108316  id108347                        1
+    id108316  id108350                        1
+    id108331  id108333                       -1
+    id108334  id108336                       -1
+    id108330  id108347                        1
+    id108330  id108350                       -1
+    id108345  id108347                       -1
+    id108348  id108350                       -1
+    id108344  id108377                        1
+    id108344  id108380                        1
+    id108359  id108361                       -1
+    id108362  id108364                       -1
+    id108358  id108377                        1
+    id108358  id108380                       -1
+    id108372  id108374                        1
+    id108375  id108377                       -1
+    id108378  id108380                       -1
+    id108389  id108391                       -1
+    id108392  id108394                       -1
+    id108388  id108405                        1
+    id108388  id108408                        1
+    id108403  id108405                       -1
+    id108406  id108408                       -1
+    id108402  id108419                        1
+    id108402  id108422                        1
+    id108417  id108419                       -1
+    id108420  id108422                       -1
+    id108416  id108449                        1
+    id108416  id108452                        1
+    id108431  id108433                       -1
+    id108434  id108436                       -1
+    id108430  id108449                        1
+    id108430  id108452                       -1
+    id108444  id108446                        1
+    id108447  id108449                       -1
+    id108450  id108452                       -1
+    id108461  id108463                       -1
+    id108464  id108466                       -1
+    id108460  id108477                        1
+    id108460  id108480                        1
+    id108475  id108477                       -1
+    id108478  id108480                       -1
+    id108474  id108491                        1
+    id108474  id108494                        1
+    id108489  id108491                       -1
+    id108492  id108494                       -1
+    id108488  id108505                        1
+    id108488  id108508                        1
+    id108503  id108505                       -1
+    id108506  id108508                       -1
+    id108502  id108521                        1
+    id108502  id108524                        1
+    id108516  id108518                        1
+    id108519  id108521                       -1
+    id108522  id108524                       -1
+    id108533  id108535                       -1
+    id108536  id108538                       -1
+    id108532  id108549                        1
+    id108532  id108552                        1
+    id108547  id108549                       -1
+    id108550  id108552                       -1
+    id108546  id108577                        1
+    id108546  id108580                        1
+    id108561  id108563                       -1
+    id108564  id108566                       -1
+    id108560  id108577                        1
+    id108560  id108580                       -1
+    id108575  id108577                       -1
+    id108578  id108580                       -1
+    id108574  id108591                        1
+    id108574  id108594                        1
+    id108589  id108591                       -1
+    id108592  id108594                       -1
+    id108588  id108621                        1
+    id108588  id108624                        1
+    id108603  id108605                       -1
+    id108606  id108608                       -1
+    id108602  id108621                        1
+    id108602  id108624                       -1
+    id108616  id108618                        1
+    id108619  id108621                       -1
+    id108622  id108624                       -1
+    id108633  id108635                       -1
+    id108636  id108638                       -1
+    id108632  obj                             0
+    id108647  id108649                       -1
+    id108650  id108652                       -1
+    id108646  id108663                        1
+    id108646  id108666                        1
+    id108661  id108663                       -1
+    id108664  id108666                       -1
+    id108660  id108693                        1
+    id108660  id108696                        1
+    id108675  id108677                       -1
+    id108678  id108680                       -1
+    id108674  id108693                        1
+    id108674  id108696                       -1
+    id108688  id108690                        1
+    id108691  id108693                       -1
+    id108694  id108696                       -1
+    id108705  id108707                       -1
+    id108708  id108710                       -1
+    id108704  id108721                        1
+    id108704  id108724                        1
+    id108719  id108721                       -1
+    id108722  id108724                       -1
+    id108718  id108735                        1
+    id108718  id108738                        1
+    id108733  id108735                       -1
+    id108736  id108738                       -1
+    id108732  id108751                        1
+    id108732  id108754                        1
+    id108746  id108748                        1
+    id108749  id108751                       -1
+    id108752  id108754                       -1
+    id108763  id108765                       -1
+    id108766  id108768                       -1
+    id108762  obj                             0
+    id108777  id108779                       -1
+    id108780  id108782                       -1
+    id108776  id108795                        1
+    id108776  id108798                        1
+    id108790  id108792                        1
+    id108793  id108795                       -1
+    id108796  id108798                       -1
+    id108807  id108809                       -1
+    id108810  id108812                       -1
+    id108806  id108825                        1
+    id108806  id108828                        1
+    id108820  id108822                        1
+    id108823  id108825                       -1
+    id108826  id108828                       -1
+    id108837  id108839                       -1
+    id108840  id108842                       -1
+    id108836  id108853                        1
+    id108836  id108856                        1
+    id108851  id108853                       -1
+    id108854  id108856                       -1
+    id108850  id108883                        1
+    id108850  id108886                        1
+    id108865  id108867                       -1
+    id108868  id108870                       -1
+    id108864  id108883                        1
+    id108864  id108886                       -1
+    id108878  id108880                        1
+    id108881  id108883                       -1
+    id108884  id108886                       -1
+    id108895  id108897                       -1
+    id108898  id108900                       -1
+    id108894  id108911                        1
+    id108894  id108914                        1
+    id108909  id108911                       -1
+    id108912  id108914                       -1
+    id108908  id108925                        1
+    id108908  id108928                        1
+    id108923  id108925                       -1
+    id108926  id108928                       -1
+    id108922  id108955                        1
+    id108922  id108958                        1
+    id108937  id108939                       -1
+    id108940  id108942                       -1
+    id108936  id108955                        1
+    id108936  id108958                       -1
+    id108950  id108952                        1
+    id108953  id108955                       -1
+    id108956  id108958                       -1
+    id108967  id108969                       -1
+    id108970  id108972                       -1
+    id108966  id108983                        1
+    id108966  id108986                        1
+    id108981  id108983                       -1
+    id108984  id108986                       -1
+    id108980  id108997                        1
+    id108980  id109000                        1
+    id108995  id108997                       -1
+    id108998  id109000                       -1
+    id108994  id109011                        1
+    id108994  id109014                        1
+    id109009  id109011                       -1
+    id109012  id109014                       -1
+    id109008  id109041                        1
+    id109008  id109044                        1
+    id109023  id109025                       -1
+    id109026  id109028                       -1
+    id109022  id109041                        1
+    id109022  id109044                       -1
+    id109036  id109038                        1
+    id109039  id109041                       -1
+    id109042  id109044                       -1
+    id109053  id109055                       -1
+    id109056  id109058                       -1
+    id109052  id109069                        1
+    id109052  id109072                        1
+    id109067  id109069                       -1
+    id109070  id109072                       -1
+    id109066  id109083                        1
+    id109066  id109086                        1
+    id109081  id109083                       -1
+    id109084  id109086                       -1
+    id109080  id109099                        1
+    id109080  id109102                        1
+    id109094  id109096                        1
+    id109097  id109099                       -1
+    id109100  id109102                       -1
+    id109111  id109113                       -1
+    id109114  id109116                       -1
+    id109110  obj                             0
+    id109125  id109127                       -1
+    id109128  id109130                       -1
+    id109124  id109141                        1
+    id109124  id109144                        1
+    id109139  id109141                       -1
+    id109142  id109144                       -1
+    id109138  id109155                        1
+    id109138  id109158                        1
+    id109153  id109155                       -1
+    id109156  id109158                       -1
+    id109152  id109169                        1
+    id109152  id109172                        1
+    id109167  id109169                       -1
+    id109170  id109172                       -1
+    id109166  id109199                        1
+    id109166  id109202                        1
+    id109181  id109183                       -1
+    id109184  id109186                       -1
+    id109180  id109199                        1
+    id109180  id109202                       -1
+    id109194  id109196                        1
+    id109197  id109199                       -1
+    id109200  id109202                       -1
+    id109211  id109213                       -1
+    id109214  id109216                       -1
+    id109210  id109229                        1
+    id109210  id109232                        1
+    id109224  id109226                        1
+    id109227  id109229                       -1
+    id109230  id109232                       -1
+    id109241  id109243                       -1
+    id109244  id109246                       -1
+    id109240  id109257                        1
+    id109240  id109260                        1
+    id109255  id109257                       -1
+    id109258  id109260                       -1
+    id109254  id109271                        1
+    id109254  id109274                        1
+    id109269  id109271                       -1
+    id109272  id109274                       -1
+    id109268  id109285                        1
+    id109268  id109288                        1
+    id109283  id109285                       -1
+    id109286  id109288                       -1
+    id109282  id109315                        1
+    id109282  id109318                        1
+    id109297  id109299                       -1
+    id109300  id109302                       -1
+    id109296  id109315                        1
+    id109296  id109318                       -1
+    id109310  id109312                        1
+    id109313  id109315                       -1
+    id109316  id109318                       -1
+    id109327  id109329                       -1
+    id109330  id109332                       -1
+    id109326  id109343                        1
+    id109326  id109346                        1
+    id109341  id109343                       -1
+    id109344  id109346                       -1
+    id109340  id109357                        1
+    id109340  id109360                        1
+    id109355  id109357                       -1
+    id109358  id109360                       -1
+    id109354  id109371                        1
+    id109354  id109374                        1
+    id109369  id109371                       -1
+    id109372  id109374                       -1
+    id109368  id109387                        1
+    id109368  id109390                        1
+    id109382  id109384                        1
+    id109385  id109387                       -1
+    id109388  id109390                       -1
+    id109399  id109401                       -1
+    id109402  id109404                       -1
+    id109398  id109415                        1
+    id109398  id109418                        1
+    id109413  id109415                       -1
+    id109416  id109418                       -1
+    id109412  id109429                        1
+    id109412  id109432                        1
+    id109427  id109429                       -1
+    id109430  id109432                       -1
+    id109426  id109443                        1
+    id109426  id109446                        1
+    id109441  id109443                       -1
+    id109444  id109446                       -1
+    id109440  id109473                        1
+    id109440  id109476                        1
+    id109455  id109457                       -1
+    id109458  id109460                       -1
+    id109454  id109473                        1
+    id109454  id109476                       -1
+    id109468  id109470                        1
+    id109471  id109473                       -1
+    id109474  id109476                       -1
+    id109485  id109487                       -1
+    id109488  id109490                       -1
+    id109484  id109501                        1
+    id109484  id109504                        1
+    id109499  id109501                       -1
+    id109502  id109504                       -1
+    id109498  id109529                        1
+    id109498  id109532                        1
+    id109513  id109515                       -1
+    id109516  id109518                       -1
+    id109512  id109529                        1
+    id109512  id109532                       -1
+    id109527  id109529                       -1
+    id109530  id109532                       -1
+    id109526  id109543                        1
+    id109526  id109546                        1
+    id109541  id109543                       -1
+    id109544  id109546                       -1
+    id109540  id109559                        1
+    id109540  id109562                        1
+    id109554  id109556                        1
+    id109557  id109559                       -1
+    id109560  id109562                       -1
+    id109571  id109573                       -1
+    id109574  id109576                       -1
+    id109570  id109589                        1
+    id109570  id109592                        1
+    id109584  id109586                        1
+    id109587  id109589                       -1
+    id109590  id109592                       -1
+    id109601  id109603                       -1
+    id109604  id109606                       -1
+    id109600  id109617                        1
+    id109600  id109620                        1
+    id109615  id109617                       -1
+    id109618  id109620                       -1
+    id109614  id109631                        1
+    id109614  id109634                        1
+    id109629  id109631                       -1
+    id109632  id109634                       -1
+    id109628  id109647                        1
+    id109628  id109650                        1
+    id109642  id109644                        1
+    id109645  id109647                       -1
+    id109648  id109650                       -1
+    id109659  id109661                       -1
+    id109662  id109664                       -1
+    id109658  id109675                        1
+    id109658  id109678                        1
+    id109673  id109675                       -1
+    id109676  id109678                       -1
+    id109672  id109703                        1
+    id109672  id109706                        1
+    id109687  id109689                       -1
+    id109690  id109692                       -1
+    id109686  id109703                        1
+    id109686  id109706                       -1
+    id109701  id109703                       -1
+    id109704  id109706                       -1
+    id109700  id109717                        1
+    id109700  id109720                        1
+    id109715  id109717                       -1
+    id109718  id109720                       -1
+    id109714  id109747                        1
+    id109714  id109750                        1
+    id109729  id109731                       -1
+    id109732  id109734                       -1
+    id109728  id109747                        1
+    id109728  id109750                       -1
+    id109742  id109744                        1
+    id109745  id109747                       -1
+    id109748  id109750                       -1
+    id109759  id109761                       -1
+    id109762  id109764                       -1
+    id109758  id109775                        1
+    id109758  id109778                        1
+    id109773  id109775                       -1
+    id109776  id109778                       -1
+    id109772  id109789                        1
+    id109772  id109792                        1
+    id109787  id109789                       -1
+    id109790  id109792                       -1
+    id109786  id109803                        1
+    id109786  id109806                        1
+    id109801  id109803                       -1
+    id109804  id109806                       -1
+    id109800  id109819                        1
+    id109800  id109822                        1
+    id109814  id109816                        1
+    id109817  id109819                       -1
+    id109820  id109822                       -1
+    id109831  id109833                       -1
+    id109834  id109836                       -1
+    id109830  id109847                        1
+    id109830  id109850                        1
+    id109845  id109847                       -1
+    id109848  id109850                       -1
+    id109844  id109875                        1
+    id109844  id109878                        1
+    id109859  id109861                       -1
+    id109862  id109864                       -1
+    id109858  id109875                        1
+    id109858  id109878                       -1
+    id109873  id109875                       -1
+    id109876  id109878                       -1
+    id109872  id109903                        1
+    id109872  id109906                        1
+    id109887  id109889                       -1
+    id109890  id109892                       -1
+    id109886  id109903                        1
+    id109886  id109906                       -1
+    id109901  id109903                       -1
+    id109904  id109906                       -1
+    id109900  id109933                        1
+    id109900  id109936                        1
+    id109915  id109917                       -1
+    id109918  id109920                       -1
+    id109914  id109933                        1
+    id109914  id109936                       -1
+    id109928  id109930                        1
+    id109931  id109933                       -1
+    id109934  id109936                       -1
+    id109945  id109947                       -1
+    id109948  id109950                       -1
+    id109944  id109963                        1
+    id109944  id109966                        1
+    id109958  id109960                        1
+    id109961  id109963                       -1
+    id109964  id109966                       -1
+    id109975  id109977                       -1
+    id109978  id109980                       -1
+    id109974  obj                             0
+    id109989  id109991                       -1
+    id109992  id109994                       -1
+    id109988  id110007                        1
+    id109988  id110010                        1
+    id110002  id110004                        1
+    id110005  id110007                       -1
+    id110008  id110010                       -1
+    id110019  id110021                       -1
+    id110022  id110024                       -1
+    id110018  id110035                        1
+    id110018  id110038                        1
+    id110033  id110035                       -1
+    id110036  id110038                       -1
+    id110032  id110049                        1
+    id110032  id110052                        1
+    id110047  id110049                       -1
+    id110050  id110052                       -1
+    id110046  id110065                        1
+    id110046  id110068                        1
+    id110060  id110062                        1
+    id110063  id110065                       -1
+    id110066  id110068                       -1
+    id110077  id110079                       -1
+    id110080  id110082                       -1
+    id110076  obj                             0
+    id110091  id110093                       -1
+    id110094  id110096                       -1
+    id110090  id110107                        1
+    id110090  id110110                        1
+    id110105  id110107                       -1
+    id110108  id110110                       -1
+    id110104  id110121                        1
+    id110104  id110124                        1
+    id110119  id110121                       -1
+    id110122  id110124                       -1
+    id110118  id110135                        1
+    id110118  id110138                        1
+    id110133  id110135                       -1
+    id110136  id110138                       -1
+    id110132  id110165                        1
+    id110132  id110168                        1
+    id110147  id110149                       -1
+    id110150  id110152                       -1
+    id110146  id110165                        1
+    id110146  id110168                       -1
+    id110160  id110162                        1
+    id110163  id110165                       -1
+    id110166  id110168                       -1
+    id110177  id110179                       -1
+    id110180  id110182                       -1
+    id110176  id110193                        1
+    id110176  id110196                        1
+    id110191  id110193                       -1
+    id110194  id110196                       -1
+    id110190  id110207                        1
+    id110190  id110210                        1
+    id110205  id110207                       -1
+    id110208  id110210                       -1
+    id110204  id110221                        1
+    id110204  id110224                        1
+    id110219  id110221                       -1
+    id110222  id110224                       -1
+    id110218  id110251                        1
+    id110218  id110254                        1
+    id110233  id110235                       -1
+    id110236  id110238                       -1
+    id110232  id110251                        1
+    id110232  id110254                       -1
+    id110246  id110248                        1
+    id110249  id110251                       -1
+    id110252  id110254                       -1
+    id110263  id110265                       -1
+    id110266  id110268                       -1
+    id110262  id110279                        1
+    id110262  id110282                        1
+    id110277  id110279                       -1
+    id110280  id110282                       -1
+    id110276  id110293                        1
+    id110276  id110296                        1
+    id110291  id110293                       -1
+    id110294  id110296                       -1
+    id110290  id110307                        1
+    id110290  id110310                        1
+    id110305  id110307                       -1
+    id110308  id110310                       -1
+    id110304  id110323                        1
+    id110304  id110326                        1
+    id110318  id110320                        1
+    id110321  id110323                       -1
+    id110324  id110326                       -1
+    id110335  id110337                       -1
+    id110338  id110340                       -1
+    id110334  id110351                        1
+    id110334  id110354                        1
+    id110349  id110351                       -1
+    id110352  id110354                       -1
+    id110348  id110367                        1
+    id110348  id110370                        1
+    id110362  id110364                        1
+    id110365  id110367                       -1
+    id110368  id110370                       -1
+    id110379  id110381                       -1
+    id110382  id110384                       -1
+    id110378  id110395                        1
+    id110378  id110398                        1
+    id110393  id110395                       -1
+    id110396  id110398                       -1
+    id110392  id110409                        1
+    id110392  id110412                        1
+    id110407  id110409                       -1
+    id110410  id110412                       -1
+    id110406  id110423                        1
+    id110406  id110426                        1
+    id110421  id110423                       -1
+    id110424  id110426                       -1
+    id110420  id110453                        1
+    id110420  id110456                        1
+    id110435  id110437                       -1
+    id110438  id110440                       -1
+    id110434  id110453                        1
+    id110434  id110456                       -1
+    id110448  id110450                        1
+    id110451  id110453                       -1
+    id110454  id110456                       -1
+    id110465  id110467                       -1
+    id110468  id110470                       -1
+    id110464  id110481                        1
+    id110464  id110484                        1
+    id110479  id110481                       -1
+    id110482  id110484                       -1
+    id110478  id110495                        1
+    id110478  id110498                        1
+    id110493  id110495                       -1
+    id110496  id110498                       -1
+    id110492  id110509                        1
+    id110492  id110512                        1
+    id110507  id110509                       -1
+    id110510  id110512                       -1
+    id110506  id110539                        1
+    id110506  id110542                        1
+    id110521  id110523                       -1
+    id110524  id110526                       -1
+    id110520  id110539                        1
+    id110520  id110542                       -1
+    id110534  id110536                        1
+    id110537  id110539                       -1
+    id110540  id110542                       -1
+    id110551  id110553                       -1
+    id110554  id110556                       -1
+    id110550  id110567                        1
+    id110550  id110570                        1
+    id110565  id110567                       -1
+    id110568  id110570                       -1
+    id110564  id110583                        1
+    id110564  id110586                        1
+    id110578  id110580                        1
+    id110581  id110583                       -1
+    id110584  id110586                       -1
+    id110595  id110597                       -1
+    id110598  id110600                       -1
+    id110594  id110611                        1
+    id110594  id110614                        1
+    id110609  id110611                       -1
+    id110612  id110614                       -1
+    id110608  id110625                        1
+    id110608  id110628                        1
+    id110623  id110625                       -1
+    id110626  id110628                       -1
+    id110622  id110655                        1
+    id110622  id110658                        1
+    id110637  id110639                       -1
+    id110640  id110642                       -1
+    id110636  id110655                        1
+    id110636  id110658                       -1
+    id110650  id110652                        1
+    id110653  id110655                       -1
+    id110656  id110658                       -1
+    id110667  id110669                       -1
+    id110670  id110672                       -1
+    id110666  id110683                        1
+    id110666  id110686                        1
+    id110681  id110683                       -1
+    id110684  id110686                       -1
+    id110680  id110711                        1
+    id110680  id110714                        1
+    id110695  id110697                       -1
+    id110698  id110700                       -1
+    id110694  id110711                        1
+    id110694  id110714                       -1
+    id110709  id110711                       -1
+    id110712  id110714                       -1
+    id110708  id110727                        1
+    id110708  id110730                        1
+    id110722  id110724                        1
+    id110725  id110727                       -1
+    id110728  id110730                       -1
+    id110739  id110741                       -1
+    id110742  id110744                       -1
+    id110738  id110755                        1
+    id110738  id110758                        1
+    id110753  id110755                       -1
+    id110756  id110758                       -1
+    id110752  id110769                        1
+    id110752  id110772                        1
+    id110767  id110769                       -1
+    id110770  id110772                       -1
+    id110766  id110783                        1
+    id110766  id110786                        1
+    id110781  id110783                       -1
+    id110784  id110786                       -1
+    id110780  id110813                        1
+    id110780  id110816                        1
+    id110795  id110797                       -1
+    id110798  id110800                       -1
+    id110794  id110813                        1
+    id110794  id110816                       -1
+    id110808  id110810                        1
+    id110811  id110813                       -1
+    id110814  id110816                       -1
+    id110825  id110827                       -1
+    id110828  id110830                       -1
+    id110824  id110843                        1
+    id110824  id110846                        1
+    id110838  id110840                        1
+    id110841  id110843                       -1
+    id110844  id110846                       -1
+    id110855  id110857                       -1
+    id110858  id110860                       -1
+    id110854  id110871                        1
+    id110854  id110874                        1
+    id110869  id110871                       -1
+    id110872  id110874                       -1
+    id110868  id110899                        1
+    id110868  id110902                        1
+    id110883  id110885                       -1
+    id110886  id110888                       -1
+    id110882  id110899                        1
+    id110882  id110902                       -1
+    id110897  id110899                       -1
+    id110900  id110902                       -1
+    id110896  id110913                        1
+    id110896  id110916                        1
+    id110911  id110913                       -1
+    id110914  id110916                       -1
+    id110910  id110943                        1
+    id110910  id110946                        1
+    id110925  id110927                       -1
+    id110928  id110930                       -1
+    id110924  id110943                        1
+    id110924  id110946                       -1
+    id110938  id110940                        1
+    id110941  id110943                       -1
+    id110944  id110946                       -1
+    id110955  id110957                       -1
+    id110958  id110960                       -1
+    id110954  id110971                        1
+    id110954  id110974                        1
+    id110969  id110971                       -1
+    id110972  id110974                       -1
+    id110968  id110999                        1
+    id110968  id111002                        1
+    id110983  id110985                       -1
+    id110986  id110988                       -1
+    id110982  id110999                        1
+    id110982  id111002                       -1
+    id110997  id110999                       -1
+    id111000  id111002                       -1
+    id110996  id111015                        1
+    id110996  id111018                        1
+    id111010  id111012                        1
+    id111013  id111015                       -1
+    id111016  id111018                       -1
+    id111027  id111029                       -1
+    id111030  id111032                       -1
+    id111026  id111043                        1
+    id111026  id111046                        1
+    id111041  id111043                       -1
+    id111044  id111046                       -1
+    id111040  id111057                        1
+    id111040  id111060                        1
+    id111055  id111057                       -1
+    id111058  id111060                       -1
+    id111054  id111087                        1
+    id111054  id111090                        1
+    id111069  id111071                       -1
+    id111072  id111074                       -1
+    id111068  id111087                        1
+    id111068  id111090                       -1
+    id111082  id111084                        1
+    id111085  id111087                       -1
+    id111088  id111090                       -1
+    id111099  id111101                       -1
+    id111102  id111104                       -1
+    id111098  id111115                        1
+    id111098  id111118                        1
+    id111113  id111115                       -1
+    id111116  id111118                       -1
+    id111112  id111129                        1
+    id111112  id111132                        1
+    id111127  id111129                       -1
+    id111130  id111132                       -1
+    id111126  id111159                        1
+    id111126  id111162                        1
+    id111141  id111143                       -1
+    id111144  id111146                       -1
+    id111140  id111159                        1
+    id111140  id111162                       -1
+    id111154  id111156                        1
+    id111157  id111159                       -1
+    id111160  id111162                       -1
+    id111171  id111173                       -1
+    id111174  id111176                       -1
+    id111170  id111187                        1
+    id111170  id111190                        1
+    id111185  id111187                       -1
+    id111188  id111190                       -1
+    id111184  id111201                        1
+    id111184  id111204                        1
+    id111199  id111201                       -1
+    id111202  id111204                       -1
+    id111198  id111215                        1
+    id111198  id111218                        1
+    id111213  id111215                       -1
+    id111216  id111218                       -1
+    id111212  id111245                        1
+    id111212  id111248                        1
+    id111227  id111229                       -1
+    id111230  id111232                       -1
+    id111226  id111245                        1
+    id111226  id111248                       -1
+    id111240  id111242                        1
+    id111243  id111245                       -1
+    id111246  id111248                       -1
+    id111257  id111259                       -1
+    id111260  id111262                       -1
+    id111256  id111273                        1
+    id111256  id111276                        1
+    id111271  id111273                       -1
+    id111274  id111276                       -1
+    id111270  id111301                        1
+    id111270  id111304                        1
+    id111285  id111287                       -1
+    id111288  id111290                       -1
+    id111284  id111301                        1
+    id111284  id111304                       -1
+    id111299  id111301                       -1
+    id111302  id111304                       -1
+    id111298  id111315                        1
+    id111298  id111318                        1
+    id111313  id111315                       -1
+    id111316  id111318                       -1
+    id111312  id111331                        1
+    id111312  id111334                        1
+    id111326  id111328                        1
+    id111329  id111331                       -1
+    id111332  id111334                       -1
+    id111343  id111345                       -1
+    id111346  id111348                       -1
+    id111342  id111359                        1
+    id111342  id111362                        1
+    id111357  id111359                       -1
+    id111360  id111362                       -1
+    id111356  id111373                        1
+    id111356  id111376                        1
+    id111371  id111373                       -1
+    id111374  id111376                       -1
+    id111370  id111389                        1
+    id111370  id111392                        1
+    id111384  id111386                        1
+    id111387  id111389                       -1
+    id111390  id111392                       -1
+    id111401  id111403                       -1
+    id111404  id111406                       -1
+    id111400  id111417                        1
+    id111400  id111420                        1
+    id111415  id111417                       -1
+    id111418  id111420                       -1
+    id111414  id111445                        1
+    id111414  id111448                        1
+    id111429  id111431                       -1
+    id111432  id111434                       -1
+    id111428  id111445                        1
+    id111428  id111448                       -1
+    id111443  id111445                       -1
+    id111446  id111448                       -1
+    id111442  id111459                        1
+    id111442  id111462                        1
+    id111457  id111459                       -1
+    id111460  id111462                       -1
+    id111456  id111489                        1
+    id111456  id111492                        1
+    id111471  id111473                       -1
+    id111474  id111476                       -1
+    id111470  id111489                        1
+    id111470  id111492                       -1
+    id111484  id111486                        1
+    id111487  id111489                       -1
+    id111490  id111492                       -1
+    id111501  id111503                       -1
+    id111504  id111506                       -1
+    id111500  id111517                        1
+    id111500  id111520                        1
+    id111515  id111517                       -1
+    id111518  id111520                       -1
+    id111514  id111531                        1
+    id111514  id111534                        1
+    id111529  id111531                       -1
+    id111532  id111534                       -1
+    id111528  id111561                        1
+    id111528  id111564                        1
+    id111543  id111545                       -1
+    id111546  id111548                       -1
+    id111542  id111561                        1
+    id111542  id111564                       -1
+    id111556  id111558                        1
+    id111559  id111561                       -1
+    id111562  id111564                       -1
+    id111573  id111575                       -1
+    id111576  id111578                       -1
+    id111572  obj                             0
+    id111587  id111589                       -1
+    id111590  id111592                       -1
+    id111586  id111603                        1
+    id111586  id111606                        1
+    id111601  id111603                       -1
+    id111604  id111606                       -1
+    id111600  id111617                        1
+    id111600  id111620                        1
+    id111615  id111617                       -1
+    id111618  id111620                       -1
+    id111614  id111633                        1
+    id111614  id111636                        1
+    id111628  id111630                        1
+    id111631  id111633                       -1
+    id111634  id111636                       -1
+    id111645  id111647                       -1
+    id111648  id111650                       -1
+    id111644  id111661                        1
+    id111644  id111664                        1
+    id111659  id111661                       -1
+    id111662  id111664                       -1
+    id111658  id111689                        1
+    id111658  id111692                        1
+    id111673  id111675                       -1
+    id111676  id111678                       -1
+    id111672  id111689                        1
+    id111672  id111692                       -1
+    id111687  id111689                       -1
+    id111690  id111692                       -1
+    id111686  id111703                        1
+    id111686  id111706                        1
+    id111701  id111703                       -1
+    id111704  id111706                       -1
+    id111700  id111733                        1
+    id111700  id111736                        1
+    id111715  id111717                       -1
+    id111718  id111720                       -1
+    id111714  id111733                        1
+    id111714  id111736                       -1
+    id111728  id111730                        1
+    id111731  id111733                       -1
+    id111734  id111736                       -1
+    id111745  id111747                       -1
+    id111748  id111750                       -1
+    id111744  id111761                        1
+    id111744  id111764                        1
+    id111759  id111761                       -1
+    id111762  id111764                       -1
+    id111758  id111775                        1
+    id111758  id111778                        1
+    id111773  id111775                       -1
+    id111776  id111778                       -1
+    id111772  id111805                        1
+    id111772  id111808                        1
+    id111787  id111789                       -1
+    id111790  id111792                       -1
+    id111786  id111805                        1
+    id111786  id111808                       -1
+    id111800  id111802                        1
+    id111803  id111805                       -1
+    id111806  id111808                       -1
+    id111817  id111819                       -1
+    id111820  id111822                       -1
+    id111816  id111833                        1
+    id111816  id111836                        1
+    id111831  id111833                       -1
+    id111834  id111836                       -1
+    id111830  id111847                        1
+    id111830  id111850                        1
+    id111845  id111847                       -1
+    id111848  id111850                       -1
+    id111844  id111877                        1
+    id111844  id111880                        1
+    id111859  id111861                       -1
+    id111862  id111864                       -1
+    id111858  id111877                        1
+    id111858  id111880                       -1
+    id111872  id111874                        1
+    id111875  id111877                       -1
+    id111878  id111880                       -1
+    id111889  id111891                       -1
+    id111892  id111894                       -1
+    id111888  id111905                        1
+    id111888  id111908                        1
+    id111903  id111905                       -1
+    id111906  id111908                       -1
+    id111902  id111919                        1
+    id111902  id111922                        1
+    id111917  id111919                       -1
+    id111920  id111922                       -1
+    id111916  id111935                        1
+    id111916  id111938                        1
+    id111930  id111932                        1
+    id111933  id111935                       -1
+    id111936  id111938                       -1
+    id111947  id111949                       -1
+    id111950  id111952                       -1
+    id111946  id111963                        1
+    id111946  id111966                        1
+    id111961  id111963                       -1
+    id111964  id111966                       -1
+    id111960  id111977                        1
+    id111960  id111980                        1
+    id111975  id111977                       -1
+    id111978  id111980                       -1
+    id111974  id111993                        1
+    id111974  id111996                        1
+    id111988  id111990                        1
+    id111991  id111993                       -1
+    id111994  id111996                       -1
+    id112005  id112007                       -1
+    id112008  id112010                       -1
+    id112004  id112021                        1
+    id112004  id112024                        1
+    id112019  id112021                       -1
+    id112022  id112024                       -1
+    id112018  id112035                        1
+    id112018  id112038                        1
+    id112033  id112035                       -1
+    id112036  id112038                       -1
+    id112032  id112065                        1
+    id112032  id112068                        1
+    id112047  id112049                       -1
+    id112050  id112052                       -1
+    id112046  id112065                        1
+    id112046  id112068                       -1
+    id112060  id112062                        1
+    id112063  id112065                       -1
+    id112066  id112068                       -1
+    id112077  id112079                       -1
+    id112080  id112082                       -1
+    id112076  id112093                        1
+    id112076  id112096                        1
+    id112091  id112093                       -1
+    id112094  id112096                       -1
+    id112090  id112109                        1
+    id112090  id112112                        1
+    id112104  id112106                        1
+    id112107  id112109                       -1
+    id112110  id112112                       -1
+    id112121  id112123                       -1
+    id112124  id112126                       -1
+    id112120  id112137                        1
+    id112120  id112140                        1
+    id112135  id112137                       -1
+    id112138  id112140                       -1
+    id112134  id112165                        1
+    id112134  id112168                        1
+    id112149  id112151                       -1
+    id112152  id112154                       -1
+    id112148  id112165                        1
+    id112148  id112168                       -1
+    id112163  id112165                       -1
+    id112166  id112168                       -1
+    id112162  id112179                        1
+    id112162  id112182                        1
+    id112177  id112179                       -1
+    id112180  id112182                       -1
+    id112176  id112195                        1
+    id112176  id112198                        1
+    id112190  id112192                        1
+    id112193  id112195                       -1
+    id112196  id112198                       -1
+    id112207  id112209                       -1
+    id112210  id112212                       -1
+    id112206  id112223                        1
+    id112206  id112226                        1
+    id112221  id112223                       -1
+    id112224  id112226                       -1
+    id112220  id112253                        1
+    id112220  id112256                        1
+    id112235  id112237                       -1
+    id112238  id112240                       -1
+    id112234  id112253                        1
+    id112234  id112256                       -1
+    id112248  id112250                        1
+    id112251  id112253                       -1
+    id112254  id112256                       -1
+    id112265  id112267                       -1
+    id112268  id112270                       -1
+    id112264  id112281                        1
+    id112264  id112284                        1
+    id112279  id112281                       -1
+    id112282  id112284                       -1
+    id112278  id112295                        1
+    id112278  id112298                        1
+    id112293  id112295                       -1
+    id112296  id112298                       -1
+    id112292  id112309                        1
+    id112292  id112312                        1
+    id112307  id112309                       -1
+    id112310  id112312                       -1
+    id112306  id112325                        1
+    id112306  id112328                        1
+    id112320  id112322                        1
+    id112323  id112325                       -1
+    id112326  id112328                       -1
+    id112337  id112339                       -1
+    id112340  id112342                       -1
+    id112336  id112353                        1
+    id112336  id112356                        1
+    id112351  id112353                       -1
+    id112354  id112356                       -1
+    id112350  id112367                        1
+    id112350  id112370                        1
+    id112365  id112367                       -1
+    id112368  id112370                       -1
+    id112364  id112381                        1
+    id112364  id112384                        1
+    id112379  id112381                       -1
+    id112382  id112384                       -1
+    id112378  id112411                        1
+    id112378  id112414                        1
+    id112393  id112395                       -1
+    id112396  id112398                       -1
+    id112392  id112411                        1
+    id112392  id112414                       -1
+    id112406  id112408                        1
+    id112409  id112411                       -1
+    id112412  id112414                       -1
+    id112423  id112425                       -1
+    id112426  id112428                       -1
+    id112422  id112439                        1
+    id112422  id112442                        1
+    id112437  id112439                       -1
+    id112440  id112442                       -1
+    id112436  id112453                        1
+    id112436  id112456                        1
+    id112451  id112453                       -1
+    id112454  id112456                       -1
+    id112450  id112483                        1
+    id112450  id112486                        1
+    id112465  id112467                       -1
+    id112468  id112470                       -1
+    id112464  id112483                        1
+    id112464  id112486                       -1
+    id112478  id112480                        1
+    id112481  id112483                       -1
+    id112484  id112486                       -1
+    id112495  id112497                       -1
+    id112498  id112500                       -1
+    id112494  id112511                        1
+    id112494  id112514                        1
+    id112509  id112511                       -1
+    id112512  id112514                       -1
+    id112508  id112525                        1
+    id112508  id112528                        1
+    id112523  id112525                       -1
+    id112526  id112528                       -1
+    id112522  id112541                        1
+    id112522  id112544                        1
+    id112536  id112538                        1
+    id112539  id112541                       -1
+    id112542  id112544                       -1
+    id112553  id112555                       -1
+    id112556  id112558                       -1
+    id112552  id112569                        1
+    id112552  id112572                        1
+    id112567  id112569                       -1
+    id112570  id112572                       -1
+    id112566  id112597                        1
+    id112566  id112600                        1
+    id112581  id112583                       -1
+    id112584  id112586                       -1
+    id112580  id112597                        1
+    id112580  id112600                       -1
+    id112595  id112597                       -1
+    id112598  id112600                       -1
+    id112594  id112625                        1
+    id112594  id112628                        1
+    id112609  id112611                       -1
+    id112612  id112614                       -1
+    id112608  id112625                        1
+    id112608  id112628                       -1
+    id112623  id112625                       -1
+    id112626  id112628                       -1
+    id112622  id112655                        1
+    id112622  id112658                        1
+    id112637  id112639                       -1
+    id112640  id112642                       -1
+    id112636  id112655                        1
+    id112636  id112658                       -1
+    id112650  id112652                        1
+    id112653  id112655                       -1
+    id112656  id112658                       -1
+    id112667  id112669                       -1
+    id112670  id112672                       -1
+    id112666  id112683                        1
+    id112666  id112686                        1
+    id112681  id112683                       -1
+    id112684  id112686                       -1
+    id112680  id112697                        1
+    id112680  id112700                        1
+    id112695  id112697                       -1
+    id112698  id112700                       -1
+    id112694  id112713                        1
+    id112694  id112716                        1
+    id112708  id112710                        1
+    id112711  id112713                       -1
+    id112714  id112716                       -1
+    id112725  id112727                       -1
+    id112728  id112730                       -1
+    id112724  id112741                        1
+    id112724  id112744                        1
+    id112739  id112741                       -1
+    id112742  id112744                       -1
+    id112738  id112757                        1
+    id112738  id112760                        1
+    id112752  id112754                        1
+    id112755  id112757                       -1
+    id112758  id112760                       -1
+    id112769  id112771                       -1
+    id112772  id112774                       -1
+    id112768  id112785                        1
+    id112768  id112788                        1
+    id112783  id112785                       -1
+    id112786  id112788                       -1
+    id112782  id112799                        1
+    id112782  id112802                        1
+    id112797  id112799                       -1
+    id112800  id112802                       -1
+    id112796  id112815                        1
+    id112796  id112818                        1
+    id112810  id112812                        1
+    id112813  id112815                       -1
+    id112816  id112818                       -1
+    id112827  id112829                       -1
+    id112830  id112832                       -1
+    id112826  id112843                        1
+    id112826  id112846                        1
+    id112841  id112843                       -1
+    id112844  id112846                       -1
+    id112840  id112857                        1
+    id112840  id112860                        1
+    id112855  id112857                       -1
+    id112858  id112860                       -1
+    id112854  id112871                        1
+    id112854  id112874                        1
+    id112869  id112871                       -1
+    id112872  id112874                       -1
+    id112868  id112901                        1
+    id112868  id112904                        1
+    id112883  id112885                       -1
+    id112886  id112888                       -1
+    id112882  id112901                        1
+    id112882  id112904                       -1
+    id112896  id112898                        1
+    id112899  id112901                       -1
+    id112902  id112904                       -1
+    id112913  id112915                       -1
+    id112916  id112918                       -1
+    id112912  id112929                        1
+    id112912  id112932                        1
+    id112927  id112929                       -1
+    id112930  id112932                       -1
+    id112926  id112943                        1
+    id112926  id112946                        1
+    id112941  id112943                       -1
+    id112944  id112946                       -1
+    id112940  id112959                        1
+    id112940  id112962                        1
+    id112954  id112956                        1
+    id112957  id112959                       -1
+    id112960  id112962                       -1
+    id112971  id112973                       -1
+    id112974  id112976                       -1
+    id112970  id112987                        1
+    id112970  id112990                        1
+    id112985  id112987                       -1
+    id112988  id112990                       -1
+    id112984  id113001                        1
+    id112984  id113004                        1
+    id112999  id113001                       -1
+    id113002  id113004                       -1
+    id112998  id113031                        1
+    id112998  id113034                        1
+    id113013  id113015                       -1
+    id113016  id113018                       -1
+    id113012  id113031                        1
+    id113012  id113034                       -1
+    id113026  id113028                        1
+    id113029  id113031                       -1
+    id113032  id113034                       -1
+    id113043  id113045                       -1
+    id113046  id113048                       -1
+    id113042  id113059                        1
+    id113042  id113062                        1
+    id113057  id113059                       -1
+    id113060  id113062                       -1
+    id113056  id113073                        1
+    id113056  id113076                        1
+    id113071  id113073                       -1
+    id113074  id113076                       -1
+    id113070  id113089                        1
+    id113070  id113092                        1
+    id113084  id113086                        1
+    id113087  id113089                       -1
+    id113090  id113092                       -1
+    id113101  id113103                       -1
+    id113104  id113106                       -1
+    id113100  id113117                        1
+    id113100  id113120                        1
+    id113115  id113117                       -1
+    id113118  id113120                       -1
+    id113114  id113131                        1
+    id113114  id113134                        1
+    id113129  id113131                       -1
+    id113132  id113134                       -1
+    id113128  id113147                        1
+    id113128  id113150                        1
+    id113142  id113144                        1
+    id113145  id113147                       -1
+    id113148  id113150                       -1
+    id113159  id113161                       -1
+    id113162  id113164                       -1
+    id113158  id113175                        1
+    id113158  id113178                        1
+    id113173  id113175                       -1
+    id113176  id113178                       -1
+    id113172  id113189                        1
+    id113172  id113192                        1
+    id113187  id113189                       -1
+    id113190  id113192                       -1
+    id113186  id113205                        1
+    id113186  id113208                        1
+    id113200  id113202                        1
+    id113203  id113205                       -1
+    id113206  id113208                       -1
+    id113217  id113219                       -1
+    id113220  id113222                       -1
+    id113216  id113233                        1
+    id113216  id113236                        1
+    id113231  id113233                       -1
+    id113234  id113236                       -1
+    id113230  id113247                        1
+    id113230  id113250                        1
+    id113245  id113247                       -1
+    id113248  id113250                       -1
+    id113244  id113277                        1
+    id113244  id113280                        1
+    id113259  id113261                       -1
+    id113262  id113264                       -1
+    id113258  id113277                        1
+    id113258  id113280                       -1
+    id113272  id113274                        1
+    id113275  id113277                       -1
+    id113278  id113280                       -1
+    id113289  id113291                       -1
+    id113292  id113294                       -1
+    id113288  id113305                        1
+    id113288  id113308                        1
+    id113303  id113305                       -1
+    id113306  id113308                       -1
+    id113302  id113335                        1
+    id113302  id113338                        1
+    id113317  id113319                       -1
+    id113320  id113322                       -1
+    id113316  id113335                        1
+    id113316  id113338                       -1
+    id113330  id113332                        1
+    id113333  id113335                       -1
+    id113336  id113338                       -1
+    id113347  id113349                       -1
+    id113350  id113352                       -1
+    id113346  obj                             0
+    id113361  id113363                       -1
+    id113364  id113366                       -1
+    id113360  id113377                        1
+    id113360  id113380                        1
+    id113375  id113377                       -1
+    id113378  id113380                       -1
+    id113374  id113407                        1
+    id113374  id113410                        1
+    id113389  id113391                       -1
+    id113392  id113394                       -1
+    id113388  id113407                        1
+    id113388  id113410                       -1
+    id113402  id113404                        1
+    id113405  id113407                       -1
+    id113408  id113410                       -1
+    id113419  id113421                       -1
+    id113422  id113424                       -1
+    id113418  id113435                        1
+    id113418  id113438                        1
+    id113433  id113435                       -1
+    id113436  id113438                       -1
+    id113432  id113449                        1
+    id113432  id113452                        1
+    id113447  id113449                       -1
+    id113450  id113452                       -1
+    id113446  id113465                        1
+    id113446  id113468                        1
+    id113460  id113462                        1
+    id113463  id113465                       -1
+    id113466  id113468                       -1
+    id113477  id113479                       -1
+    id113480  id113482                       -1
+    id113476  id113493                        1
+    id113476  id113496                        1
+    id113491  id113493                       -1
+    id113494  id113496                       -1
+    id113490  id113507                        1
+    id113490  id113510                        1
+    id113505  id113507                       -1
+    id113508  id113510                       -1
+    id113504  id113521                        1
+    id113504  id113524                        1
+    id113519  id113521                       -1
+    id113522  id113524                       -1
+    id113518  id113551                        1
+    id113518  id113554                        1
+    id113533  id113535                       -1
+    id113536  id113538                       -1
+    id113532  id113551                        1
+    id113532  id113554                       -1
+    id113546  id113548                        1
+    id113549  id113551                       -1
+    id113552  id113554                       -1
+    id113563  id113565                       -1
+    id113566  id113568                       -1
+    id113562  id113579                        1
+    id113562  id113582                        1
+    id113577  id113579                       -1
+    id113580  id113582                       -1
+    id113576  id113593                        1
+    id113576  id113596                        1
+    id113591  id113593                       -1
+    id113594  id113596                       -1
+    id113590  id113609                        1
+    id113590  id113612                        1
+    id113604  id113606                        1
+    id113607  id113609                       -1
+    id113610  id113612                       -1
+    id113621  id113623                       -1
+    id113624  id113626                       -1
+    id113620  id113637                        1
+    id113620  id113640                        1
+    id113635  id113637                       -1
+    id113638  id113640                       -1
+    id113634  id113665                        1
+    id113634  id113668                        1
+    id113649  id113651                       -1
+    id113652  id113654                       -1
+    id113648  id113665                        1
+    id113648  id113668                       -1
+    id113663  id113665                       -1
+    id113666  id113668                       -1
+    id113662  id113681                        1
+    id113662  id113684                        1
+    id113676  id113678                        1
+    id113679  id113681                       -1
+    id113682  id113684                       -1
+    id113693  id113695                       -1
+    id113696  id113698                       -1
+    id113692  id113709                        1
+    id113692  id113712                        1
+    id113707  id113709                       -1
+    id113710  id113712                       -1
+    id113706  id113725                        1
+    id113706  id113728                        1
+    id113720  id113722                        1
+    id113723  id113725                       -1
+    id113726  id113728                       -1
+    id113737  id113739                       -1
+    id113740  id113742                       -1
+    id113736  id113753                        1
+    id113736  id113756                        1
+    id113751  id113753                       -1
+    id113754  id113756                       -1
+    id113750  id113767                        1
+    id113750  id113770                        1
+    id113765  id113767                       -1
+    id113768  id113770                       -1
+    id113764  id113781                        1
+    id113764  id113784                        1
+    id113779  id113781                       -1
+    id113782  id113784                       -1
+    id113778  id113811                        1
+    id113778  id113814                        1
+    id113793  id113795                       -1
+    id113796  id113798                       -1
+    id113792  id113811                        1
+    id113792  id113814                       -1
+    id113806  id113808                        1
+    id113809  id113811                       -1
+    id113812  id113814                       -1
+    id113823  id113825                       -1
+    id113826  id113828                       -1
+    id113822  id113839                        1
+    id113822  id113842                        1
+    id113837  id113839                       -1
+    id113840  id113842                       -1
+    id113836  id113853                        1
+    id113836  id113856                        1
+    id113851  id113853                       -1
+    id113854  id113856                       -1
+    id113850  id113867                        1
+    id113850  id113870                        1
+    id113865  id113867                       -1
+    id113868  id113870                       -1
+    id113864  id113883                        1
+    id113864  id113886                        1
+    id113878  id113880                        1
+    id113881  id113883                       -1
+    id113884  id113886                       -1
+    id113895  id113897                       -1
+    id113898  id113900                       -1
+    id113894  id113911                        1
+    id113894  id113914                        1
+    id113909  id113911                       -1
+    id113912  id113914                       -1
+    id113908  id113939                        1
+    id113908  id113942                        1
+    id113923  id113925                       -1
+    id113926  id113928                       -1
+    id113922  id113939                        1
+    id113922  id113942                       -1
+    id113937  id113939                       -1
+    id113940  id113942                       -1
+    id113936  id113955                        1
+    id113936  id113958                        1
+    id113950  id113952                        1
+    id113953  id113955                       -1
+    id113956  id113958                       -1
+    id113967  id113969                       -1
+    id113970  id113972                       -1
+    id113966  id113983                        1
+    id113966  id113986                        1
+    id113981  id113983                       -1
+    id113984  id113986                       -1
+    id113980  id114011                        1
+    id113980  id114014                        1
+    id113995  id113997                       -1
+    id113998  id114000                       -1
+    id113994  id114011                        1
+    id113994  id114014                       -1
+    id114009  id114011                       -1
+    id114012  id114014                       -1
+    id114008  id114039                        1
+    id114008  id114042                        1
+    id114023  id114025                       -1
+    id114026  id114028                       -1
+    id114022  id114039                        1
+    id114022  id114042                       -1
+    id114037  id114039                       -1
+    id114040  id114042                       -1
+    id114036  id114069                        1
+    id114036  id114072                        1
+    id114051  id114053                       -1
+    id114054  id114056                       -1
+    id114050  id114069                        1
+    id114050  id114072                       -1
+    id114064  id114066                        1
+    id114067  id114069                       -1
+    id114070  id114072                       -1
+    id114081  id114083                       -1
+    id114084  id114086                       -1
+    id114080  id114097                        1
+    id114080  id114100                        1
+    id114095  id114097                       -1
+    id114098  id114100                       -1
+    id114094  id114125                        1
+    id114094  id114128                        1
+    id114109  id114111                       -1
+    id114112  id114114                       -1
+    id114108  id114125                        1
+    id114108  id114128                       -1
+    id114123  id114125                       -1
+    id114126  id114128                       -1
+    id114122  id114139                        1
+    id114122  id114142                        1
+    id114137  id114139                       -1
+    id114140  id114142                       -1
+    id114136  id114169                        1
+    id114136  id114172                        1
+    id114151  id114153                       -1
+    id114154  id114156                       -1
+    id114150  id114169                        1
+    id114150  id114172                       -1
+    id114164  id114166                        1
+    id114167  id114169                       -1
+    id114170  id114172                       -1
+    id114181  id114183                       -1
+    id114184  id114186                       -1
+    id114180  id114197                        1
+    id114180  id114200                        1
+    id114195  id114197                       -1
+    id114198  id114200                       -1
+    id114194  id114225                        1
+    id114194  id114228                        1
+    id114209  id114211                       -1
+    id114212  id114214                       -1
+    id114208  id114225                        1
+    id114208  id114228                       -1
+    id114223  id114225                       -1
+    id114226  id114228                       -1
+    id114222  id114253                        1
+    id114222  id114256                        1
+    id114237  id114239                       -1
+    id114240  id114242                       -1
+    id114236  id114253                        1
+    id114236  id114256                       -1
+    id114251  id114253                       -1
+    id114254  id114256                       -1
+    id114250  id114283                        1
+    id114250  id114286                        1
+    id114265  id114267                       -1
+    id114268  id114270                       -1
+    id114264  id114283                        1
+    id114264  id114286                       -1
+    id114278  id114280                        1
+    id114281  id114283                       -1
+    id114284  id114286                       -1
+    id114295  id114297                       -1
+    id114298  id114300                       -1
+    id114294  id114311                        1
+    id114294  id114314                        1
+    id114309  id114311                       -1
+    id114312  id114314                       -1
+    id114308  id114339                        1
+    id114308  id114342                        1
+    id114323  id114325                       -1
+    id114326  id114328                       -1
+    id114322  id114339                        1
+    id114322  id114342                       -1
+    id114337  id114339                       -1
+    id114340  id114342                       -1
+    id114336  id114367                        1
+    id114336  id114370                        1
+    id114351  id114353                       -1
+    id114354  id114356                       -1
+    id114350  id114367                        1
+    id114350  id114370                       -1
+    id114365  id114367                       -1
+    id114368  id114370                       -1
+    id114364  id114397                        1
+    id114364  id114400                        1
+    id114379  id114381                       -1
+    id114382  id114384                       -1
+    id114378  id114397                        1
+    id114378  id114400                       -1
+    id114392  id114394                        1
+    id114395  id114397                       -1
+    id114398  id114400                       -1
+    id114409  id114411                       -1
+    id114412  id114414                       -1
+    id114408  id114425                        1
+    id114408  id114428                        1
+    id114423  id114425                       -1
+    id114426  id114428                       -1
+    id114422  id114439                        1
+    id114422  id114442                        1
+    id114437  id114439                       -1
+    id114440  id114442                       -1
+    id114436  id114455                        1
+    id114436  id114458                        1
+    id114450  id114452                        1
+    id114453  id114455                       -1
+    id114456  id114458                       -1
+    id114467  id114469                       -1
+    id114470  id114472                       -1
+    id114466  id114483                        1
+    id114466  id114486                        1
+    id114481  id114483                       -1
+    id114484  id114486                       -1
+    id114480  id114499                        1
+    id114480  id114502                        1
+    id114494  id114496                        1
+    id114497  id114499                       -1
+    id114500  id114502                       -1
+    id114511  id114513                       -1
+    id114514  id114516                       -1
+    id114510  id114527                        1
+    id114510  id114530                        1
+    id114525  id114527                       -1
+    id114528  id114530                       -1
+    id114524  id114541                        1
+    id114524  id114544                        1
+    id114539  id114541                       -1
+    id114542  id114544                       -1
+    id114538  id114557                        1
+    id114538  id114560                        1
+    id114552  id114554                        1
+    id114555  id114557                       -1
+    id114558  id114560                       -1
+    id114569  id114571                       -1
+    id114572  id114574                       -1
+    id114568  id114585                        1
+    id114568  id114588                        1
+    id114583  id114585                       -1
+    id114586  id114588                       -1
+    id114582  id114613                        1
+    id114582  id114616                        1
+    id114597  id114599                       -1
+    id114600  id114602                       -1
+    id114596  id114613                        1
+    id114596  id114616                       -1
+    id114611  id114613                       -1
+    id114614  id114616                       -1
+    id114610  id114627                        1
+    id114610  id114630                        1
+    id114625  id114627                       -1
+    id114628  id114630                       -1
+    id114624  id114643                        1
+    id114624  id114646                        1
+    id114638  id114640                        1
+    id114641  id114643                       -1
+    id114644  id114646                       -1
+    id114655  id114657                       -1
+    id114658  id114660                       -1
+    id114654  id114671                        1
+    id114654  id114674                        1
+    id114669  id114671                       -1
+    id114672  id114674                       -1
+    id114668  id114685                        1
+    id114668  id114688                        1
+    id114683  id114685                       -1
+    id114686  id114688                       -1
+    id114682  id114701                        1
+    id114682  id114704                        1
+    id114696  id114698                        1
+    id114699  id114701                       -1
+    id114702  id114704                       -1
+    id114713  id114715                       -1
+    id114716  id114718                       -1
+    id114712  id114729                        1
+    id114712  id114732                        1
+    id114727  id114729                       -1
+    id114730  id114732                       -1
+    id114726  id114743                        1
+    id114726  id114746                        1
+    id114741  id114743                       -1
+    id114744  id114746                       -1
+    id114740  id114773                        1
+    id114740  id114776                        1
+    id114755  id114757                       -1
+    id114758  id114760                       -1
+    id114754  id114773                        1
+    id114754  id114776                       -1
+    id114768  id114770                        1
+    id114771  id114773                       -1
+    id114774  id114776                       -1
+    id114785  id114787                       -1
+    id114788  id114790                       -1
+    id114784  id114803                        1
+    id114784  id114806                        1
+    id114798  id114800                        1
+    id114801  id114803                       -1
+    id114804  id114806                       -1
+    id114815  id114817                       -1
+    id114818  id114820                       -1
+    id114814  id114831                        1
+    id114814  id114834                        1
+    id114829  id114831                       -1
+    id114832  id114834                       -1
+    id114828  id114859                        1
+    id114828  id114862                        1
+    id114843  id114845                       -1
+    id114846  id114848                       -1
+    id114842  id114859                        1
+    id114842  id114862                       -1
+    id114857  id114859                       -1
+    id114860  id114862                       -1
+    id114856  id114873                        1
+    id114856  id114876                        1
+    id114871  id114873                       -1
+    id114874  id114876                       -1
+    id114870  id114903                        1
+    id114870  id114906                        1
+    id114885  id114887                       -1
+    id114888  id114890                       -1
+    id114884  id114903                        1
+    id114884  id114906                       -1
+    id114898  id114900                        1
+    id114901  id114903                       -1
+    id114904  id114906                       -1
+    id114915  id114917                       -1
+    id114918  id114920                       -1
+    id114914  id114933                        1
+    id114914  id114936                        1
+    id114928  id114930                        1
+    id114931  id114933                       -1
+    id114934  id114936                       -1
+    id114945  id114947                       -1
+    id114948  id114950                       -1
+    id114944  id114961                        1
+    id114944  id114964                        1
+    id114959  id114961                       -1
+    id114962  id114964                       -1
+    id114958  id114991                        1
+    id114958  id114994                        1
+    id114973  id114975                       -1
+    id114976  id114978                       -1
+    id114972  id114991                        1
+    id114972  id114994                       -1
+    id114986  id114988                        1
+    id114989  id114991                       -1
+    id114992  id114994                       -1
+    id115003  id115005                       -1
+    id115006  id115008                       -1
+    id115002  id115019                        1
+    id115002  id115022                        1
+    id115017  id115019                       -1
+    id115020  id115022                       -1
+    id115016  id115033                        1
+    id115016  id115036                        1
+    id115031  id115033                       -1
+    id115034  id115036                       -1
+    id115030  id115047                        1
+    id115030  id115050                        1
+    id115045  id115047                       -1
+    id115048  id115050                       -1
+    id115044  id115077                        1
+    id115044  id115080                        1
+    id115059  id115061                       -1
+    id115062  id115064                       -1
+    id115058  id115077                        1
+    id115058  id115080                       -1
+    id115072  id115074                        1
+    id115075  id115077                       -1
+    id115078  id115080                       -1
+    id115089  id115091                       -1
+    id115092  id115094                       -1
+    id115088  id115105                        1
+    id115088  id115108                        1
+    id115103  id115105                       -1
+    id115106  id115108                       -1
+    id115102  id115133                        1
+    id115102  id115136                        1
+    id115117  id115119                       -1
+    id115120  id115122                       -1
+    id115116  id115133                        1
+    id115116  id115136                       -1
+    id115131  id115133                       -1
+    id115134  id115136                       -1
+    id115130  id115149                        1
+    id115130  id115152                        1
+    id115144  id115146                        1
+    id115147  id115149                       -1
+    id115150  id115152                       -1
+    id115161  id115163                       -1
+    id115164  id115166                       -1
+    id115160  id115177                        1
+    id115160  id115180                        1
+    id115175  id115177                       -1
+    id115178  id115180                       -1
+    id115174  id115191                        1
+    id115174  id115194                        1
+    id115189  id115191                       -1
+    id115192  id115194                       -1
+    id115188  id115205                        1
+    id115188  id115208                        1
+    id115203  id115205                       -1
+    id115206  id115208                       -1
+    id115202  id115221                        1
+    id115202  id115224                        1
+    id115216  id115218                        1
+    id115219  id115221                       -1
+    id115222  id115224                       -1
+    id115233  id115235                       -1
+    id115236  id115238                       -1
+    id115232  id115249                        1
+    id115232  id115252                        1
+    id115247  id115249                       -1
+    id115250  id115252                       -1
+    id115246  id115277                        1
+    id115246  id115280                        1
+    id115261  id115263                       -1
+    id115264  id115266                       -1
+    id115260  id115277                        1
+    id115260  id115280                       -1
+    id115275  id115277                       -1
+    id115278  id115280                       -1
+    id115274  id115291                        1
+    id115274  id115294                        1
+    id115289  id115291                       -1
+    id115292  id115294                       -1
+    id115288  id115321                        1
+    id115288  id115324                        1
+    id115303  id115305                       -1
+    id115306  id115308                       -1
+    id115302  id115321                        1
+    id115302  id115324                       -1
+    id115316  id115318                        1
+    id115319  id115321                       -1
+    id115322  id115324                       -1
+    id115333  id115335                       -1
+    id115336  id115338                       -1
+    id115332  id115349                        1
+    id115332  id115352                        1
+    id115347  id115349                       -1
+    id115350  id115352                       -1
+    id115346  id115365                        1
+    id115346  id115368                        1
+    id115360  id115362                        1
+    id115363  id115365                       -1
+    id115366  id115368                       -1
+    id115377  id115379                       -1
+    id115380  id115382                       -1
+    id115376  id115393                        1
+    id115376  id115396                        1
+    id115391  id115393                       -1
+    id115394  id115396                       -1
+    id115390  id115421                        1
+    id115390  id115424                        1
+    id115405  id115407                       -1
+    id115408  id115410                       -1
+    id115404  id115421                        1
+    id115404  id115424                       -1
+    id115419  id115421                       -1
+    id115422  id115424                       -1
+    id115418  id115435                        1
+    id115418  id115438                        1
+    id115433  id115435                       -1
+    id115436  id115438                       -1
+    id115432  id115465                        1
+    id115432  id115468                        1
+    id115447  id115449                       -1
+    id115450  id115452                       -1
+    id115446  id115465                        1
+    id115446  id115468                       -1
+    id115460  id115462                        1
+    id115463  id115465                       -1
+    id115466  id115468                       -1
+    id115477  id115479                       -1
+    id115480  id115482                       -1
+    id115476  id115493                        1
+    id115476  id115496                        1
+    id115491  id115493                       -1
+    id115494  id115496                       -1
+    id115490  id115507                        1
+    id115490  id115510                        1
+    id115505  id115507                       -1
+    id115508  id115510                       -1
+    id115504  id115523                        1
+    id115504  id115526                        1
+    id115518  id115520                        1
+    id115521  id115523                       -1
+    id115524  id115526                       -1
+    id115535  id115537                       -1
+    id115538  id115540                       -1
+    id115534  id115551                        1
+    id115534  id115554                        1
+    id115549  id115551                       -1
+    id115552  id115554                       -1
+    id115548  id115567                        1
+    id115548  id115570                        1
+    id115562  id115564                        1
+    id115565  id115567                       -1
+    id115568  id115570                       -1
+    id115579  id115581                       -1
+    id115582  id115584                       -1
+    id115578  id115595                        1
+    id115578  id115598                        1
+    id115593  id115595                       -1
+    id115596  id115598                       -1
+    id115592  id115623                        1
+    id115592  id115626                        1
+    id115607  id115609                       -1
+    id115610  id115612                       -1
+    id115606  id115623                        1
+    id115606  id115626                       -1
+    id115621  id115623                       -1
+    id115624  id115626                       -1
+    id115620  id115651                        1
+    id115620  id115654                        1
+    id115635  id115637                       -1
+    id115638  id115640                       -1
+    id115634  id115651                        1
+    id115634  id115654                       -1
+    id115649  id115651                       -1
+    id115652  id115654                       -1
+    id115648  id115681                        1
+    id115648  id115684                        1
+    id115663  id115665                       -1
+    id115666  id115668                       -1
+    id115662  id115681                        1
+    id115662  id115684                       -1
+    id115676  id115678                        1
+    id115679  id115681                       -1
+    id115682  id115684                       -1
+    id115693  id115695                       -1
+    id115696  id115698                       -1
+    id115692  id115709                        1
+    id115692  id115712                        1
+    id115707  id115709                       -1
+    id115710  id115712                       -1
+    id115706  id115723                        1
+    id115706  id115726                        1
+    id115721  id115723                       -1
+    id115724  id115726                       -1
+    id115720  id115737                        1
+    id115720  id115740                        1
+    id115735  id115737                       -1
+    id115738  id115740                       -1
+    id115734  id115767                        1
+    id115734  id115770                        1
+    id115749  id115751                       -1
+    id115752  id115754                       -1
+    id115748  id115767                        1
+    id115748  id115770                       -1
+    id115762  id115764                        1
+    id115765  id115767                       -1
+    id115768  id115770                       -1
+    id115779  id115781                       -1
+    id115782  id115784                       -1
+    id115778  id115795                        1
+    id115778  id115798                        1
+    id115793  id115795                       -1
+    id115796  id115798                       -1
+    id115792  id115809                        1
+    id115792  id115812                        1
+    id115807  id115809                       -1
+    id115810  id115812                       -1
+    id115806  id115825                        1
+    id115806  id115828                        1
+    id115820  id115822                        1
+    id115823  id115825                       -1
+    id115826  id115828                       -1
+    id115837  id115839                       -1
+    id115840  id115842                       -1
+    id115836  id115853                        1
+    id115836  id115856                        1
+    id115851  id115853                       -1
+    id115854  id115856                       -1
+    id115850  id115869                        1
+    id115850  id115872                        1
+    id115864  id115866                        1
+    id115867  id115869                       -1
+    id115870  id115872                       -1
+    id115881  id115883                       -1
+    id115884  id115886                       -1
+    id115880  id115897                        1
+    id115880  id115900                        1
+    id115895  id115897                       -1
+    id115898  id115900                       -1
+    id115894  id115911                        1
+    id115894  id115914                        1
+    id115909  id115911                       -1
+    id115912  id115914                       -1
+    id115908  id115927                        1
+    id115908  id115930                        1
+    id115922  id115924                        1
+    id115925  id115927                       -1
+    id115928  id115930                       -1
+    id115939  id115941                       -1
+    id115942  id115944                       -1
+    id115938  id115955                        1
+    id115938  id115958                        1
+    id115953  id115955                       -1
+    id115956  id115958                       -1
+    id115952  id115971                        1
+    id115952  id115974                        1
+    id115966  id115968                        1
+    id115969  id115971                       -1
+    id115972  id115974                       -1
+    id115983  id115985                       -1
+    id115986  id115988                       -1
+    id115982  id115999                        1
+    id115982  id116002                        1
+    id115997  id115999                       -1
+    id116000  id116002                       -1
+    id115996  id116013                        1
+    id115996  id116016                        1
+    id116011  id116013                       -1
+    id116014  id116016                       -1
+    id116010  id116027                        1
+    id116010  id116030                        1
+    id116025  id116027                       -1
+    id116028  id116030                       -1
+    id116024  id116057                        1
+    id116024  id116060                        1
+    id116039  id116041                       -1
+    id116042  id116044                       -1
+    id116038  id116057                        1
+    id116038  id116060                       -1
+    id116052  id116054                        1
+    id116055  id116057                       -1
+    id116058  id116060                       -1
+    id116069  id116071                       -1
+    id116072  id116074                       -1
+    id116068  id116085                        1
+    id116068  id116088                        1
+    id116083  id116085                       -1
+    id116086  id116088                       -1
+    id116082  id116099                        1
+    id116082  id116102                        1
+    id116097  id116099                       -1
+    id116100  id116102                       -1
+    id116096  id116113                        1
+    id116096  id116116                        1
+    id116111  id116113                       -1
+    id116114  id116116                       -1
+    id116110  id116143                        1
+    id116110  id116146                        1
+    id116125  id116127                       -1
+    id116128  id116130                       -1
+    id116124  id116143                        1
+    id116124  id116146                       -1
+    id116138  id116140                        1
+    id116141  id116143                       -1
+    id116144  id116146                       -1
+    id116155  id116157                       -1
+    id116158  id116160                       -1
+    id116154  id116173                        1
+    id116154  id116176                        1
+    id116168  id116170                        1
+    id116171  id116173                       -1
+    id116174  id116176                       -1
+    id116185  id116187                       -1
+    id116188  id116190                       -1
+    id116184  id116201                        1
+    id116184  id116204                        1
+    id116199  id116201                       -1
+    id116202  id116204                       -1
+    id116198  id116215                        1
+    id116198  id116218                        1
+    id116213  id116215                       -1
+    id116216  id116218                       -1
+    id116212  id116231                        1
+    id116212  id116234                        1
+    id116226  id116228                        1
+    id116229  id116231                       -1
+    id116232  id116234                       -1
+    id116243  id116245                       -1
+    id116246  id116248                       -1
+    id116242  id116261                        1
+    id116242  id116264                        1
+    id116256  id116258                        1
+    id116259  id116261                       -1
+    id116262  id116264                       -1
+    id116273  id116275                       -1
+    id116276  id116278                       -1
+    id116272  id116289                        1
+    id116272  id116292                        1
+    id116287  id116289                       -1
+    id116290  id116292                       -1
+    id116286  id116303                        1
+    id116286  id116306                        1
+    id116301  id116303                       -1
+    id116304  id116306                       -1
+    id116300  id116317                        1
+    id116300  id116320                        1
+    id116315  id116317                       -1
+    id116318  id116320                       -1
+    id116314  id116347                        1
+    id116314  id116350                        1
+    id116329  id116331                       -1
+    id116332  id116334                       -1
+    id116328  id116347                        1
+    id116328  id116350                       -1
+    id116342  id116344                        1
+    id116345  id116347                       -1
+    id116348  id116350                       -1
+    id116359  id116361                       -1
+    id116362  id116364                       -1
+    id116358  id116375                        1
+    id116358  id116378                        1
+    id116373  id116375                       -1
+    id116376  id116378                       -1
+    id116372  id116389                        1
+    id116372  id116392                        1
+    id116387  id116389                       -1
+    id116390  id116392                       -1
+    id116386  id116403                        1
+    id116386  id116406                        1
+    id116401  id116403                       -1
+    id116404  id116406                       -1
+    id116400  id116433                        1
+    id116400  id116436                        1
+    id116415  id116417                       -1
+    id116418  id116420                       -1
+    id116414  id116433                        1
+    id116414  id116436                       -1
+    id116428  id116430                        1
+    id116431  id116433                       -1
+    id116434  id116436                       -1
+    id116445  id116447                       -1
+    id116448  id116450                       -1
+    id116444  id116461                        1
+    id116444  id116464                        1
+    id116459  id116461                       -1
+    id116462  id116464                       -1
+    id116458  id116475                        1
+    id116458  id116478                        1
+    id116473  id116475                       -1
+    id116476  id116478                       -1
+    id116472  id116505                        1
+    id116472  id116508                        1
+    id116487  id116489                       -1
+    id116490  id116492                       -1
+    id116486  id116505                        1
+    id116486  id116508                       -1
+    id116500  id116502                        1
+    id116503  id116505                       -1
+    id116506  id116508                       -1
+    id116517  id116519                       -1
+    id116520  id116522                       -1
+    id116516  id116533                        1
+    id116516  id116536                        1
+    id116531  id116533                       -1
+    id116534  id116536                       -1
+    id116530  id116547                        1
+    id116530  id116550                        1
+    id116545  id116547                       -1
+    id116548  id116550                       -1
+    id116544  id116561                        1
+    id116544  id116564                        1
+    id116559  id116561                       -1
+    id116562  id116564                       -1
+    id116558  id116577                        1
+    id116558  id116580                        1
+    id116572  id116574                        1
+    id116575  id116577                       -1
+    id116578  id116580                       -1
+    id116589  id116591                       -1
+    id116592  id116594                       -1
+    id116588  id116607                        1
+    id116588  id116610                        1
+    id116602  id116604                        1
+    id116605  id116607                       -1
+    id116608  id116610                       -1
+    id116619  id116621                       -1
+    id116622  id116624                       -1
+    id116618  id116635                        1
+    id116618  id116638                        1
+    id116633  id116635                       -1
+    id116636  id116638                       -1
+    id116632  id116663                        1
+    id116632  id116666                        1
+    id116647  id116649                       -1
+    id116650  id116652                       -1
+    id116646  id116663                        1
+    id116646  id116666                       -1
+    id116661  id116663                       -1
+    id116664  id116666                       -1
+    id116660  id116677                        1
+    id116660  id116680                        1
+    id116675  id116677                       -1
+    id116678  id116680                       -1
+    id116674  id116707                        1
+    id116674  id116710                        1
+    id116689  id116691                       -1
+    id116692  id116694                       -1
+    id116688  id116707                        1
+    id116688  id116710                       -1
+    id116702  id116704                        1
+    id116705  id116707                       -1
+    id116708  id116710                       -1
+    id116719  id116721                       -1
+    id116722  id116724                       -1
+    id116718  id116735                        1
+    id116718  id116738                        1
+    id116733  id116735                       -1
+    id116736  id116738                       -1
+    id116732  id116751                        1
+    id116732  id116754                        1
+    id116746  id116748                        1
+    id116749  id116751                       -1
+    id116752  id116754                       -1
+    id116763  id116765                       -1
+    id116766  id116768                       -1
+    id116762  id116779                        1
+    id116762  id116782                        1
+    id116777  id116779                       -1
+    id116780  id116782                       -1
+    id116776  id116807                        1
+    id116776  id116810                        1
+    id116791  id116793                       -1
+    id116794  id116796                       -1
+    id116790  id116807                        1
+    id116790  id116810                       -1
+    id116805  id116807                       -1
+    id116808  id116810                       -1
+    id116804  id116821                        1
+    id116804  id116824                        1
+    id116819  id116821                       -1
+    id116822  id116824                       -1
+    id116818  id116837                        1
+    id116818  id116840                        1
+    id116832  id116834                        1
+    id116835  id116837                       -1
+    id116838  id116840                       -1
+    id116849  id116851                       -1
+    id116852  id116854                       -1
+    id116848  id116865                        1
+    id116848  id116868                        1
+    id116863  id116865                       -1
+    id116866  id116868                       -1
+    id116862  id116879                        1
+    id116862  id116882                        1
+    id116877  id116879                       -1
+    id116880  id116882                       -1
+    id116876  id116893                        1
+    id116876  id116896                        1
+    id116891  id116893                       -1
+    id116894  id116896                       -1
+    id116890  id116909                        1
+    id116890  id116912                        1
+    id116904  id116906                        1
+    id116907  id116909                       -1
+    id116910  id116912                       -1
+    id116921  id116923                       -1
+    id116924  id116926                       -1
+    id116920  id116937                        1
+    id116920  id116940                        1
+    id116935  id116937                       -1
+    id116938  id116940                       -1
+    id116934  id116951                        1
+    id116934  id116954                        1
+    id116949  id116951                       -1
+    id116952  id116954                       -1
+    id116948  id116967                        1
+    id116948  id116970                        1
+    id116962  id116964                        1
+    id116965  id116967                       -1
+    id116968  id116970                       -1
+    id116979  id116981                       -1
+    id116982  id116984                       -1
+    id116978  id116997                        1
+    id116978  id117000                        1
+    id116992  id116994                        1
+    id116995  id116997                       -1
+    id116998  id117000                       -1
+    id117009  id117011                       -1
+    id117012  id117014                       -1
+    id117008  id117025                        1
+    id117008  id117028                        1
+    id117023  id117025                       -1
+    id117026  id117028                       -1
+    id117022  id117039                        1
+    id117022  id117042                        1
+    id117037  id117039                       -1
+    id117040  id117042                       -1
+    id117036  id117053                        1
+    id117036  id117056                        1
+    id117051  id117053                       -1
+    id117054  id117056                       -1
+    id117050  id117083                        1
+    id117050  id117086                        1
+    id117065  id117067                       -1
+    id117068  id117070                       -1
+    id117064  id117083                        1
+    id117064  id117086                       -1
+    id117078  id117080                        1
+    id117081  id117083                       -1
+    id117084  id117086                       -1
+    id117095  id117097                       -1
+    id117098  id117100                       -1
+    id117094  id117111                        1
+    id117094  id117114                        1
+    id117109  id117111                       -1
+    id117112  id117114                       -1
+    id117108  id117125                        1
+    id117108  id117128                        1
+    id117123  id117125                       -1
+    id117126  id117128                       -1
+    id117122  id117141                        1
+    id117122  id117144                        1
+    id117136  id117138                        1
+    id117139  id117141                       -1
+    id117142  id117144                       -1
+    id117153  id117155                       -1
+    id117156  id117158                       -1
+    id117152  id117169                        1
+    id117152  id117172                        1
+    id117167  id117169                       -1
+    id117170  id117172                       -1
+    id117166  id117183                        1
+    id117166  id117186                        1
+    id117181  id117183                       -1
+    id117184  id117186                       -1
+    id117180  id117197                        1
+    id117180  id117200                        1
+    id117195  id117197                       -1
+    id117198  id117200                       -1
+    id117194  id117227                        1
+    id117194  id117230                        1
+    id117209  id117211                       -1
+    id117212  id117214                       -1
+    id117208  id117227                        1
+    id117208  id117230                       -1
+    id117222  id117224                        1
+    id117225  id117227                       -1
+    id117228  id117230                       -1
+    id117239  id117241                       -1
+    id117242  id117244                       -1
+    id117238  id117257                        1
+    id117238  id117260                        1
+    id117252  id117254                        1
+    id117255  id117257                       -1
+    id117258  id117260                       -1
+    id117269  id117271                       -1
+    id117272  id117274                       -1
+    id117268  id117285                        1
+    id117268  id117288                        1
+    id117283  id117285                       -1
+    id117286  id117288                       -1
+    id117282  id117299                        1
+    id117282  id117302                        1
+    id117297  id117299                       -1
+    id117300  id117302                       -1
+    id117296  id117313                        1
+    id117296  id117316                        1
+    id117311  id117313                       -1
+    id117314  id117316                       -1
+    id117310  id117329                        1
+    id117310  id117332                        1
+    id117324  id117326                        1
+    id117327  id117329                       -1
+    id117330  id117332                       -1
+    id117341  id117343                       -1
+    id117344  id117346                       -1
+    id117340  id117357                        1
+    id117340  id117360                        1
+    id117355  id117357                       -1
+    id117358  id117360                       -1
+    id117354  id117371                        1
+    id117354  id117374                        1
+    id117369  id117371                       -1
+    id117372  id117374                       -1
+    id117368  id117387                        1
+    id117368  id117390                        1
+    id117382  id117384                        1
+    id117385  id117387                       -1
+    id117388  id117390                       -1
+    id117399  id117401                       -1
+    id117402  id117404                       -1
+    id117398  id117415                        1
+    id117398  id117418                        1
+    id117413  id117415                       -1
+    id117416  id117418                       -1
+    id117412  id117429                        1
+    id117412  id117432                        1
+    id117427  id117429                       -1
+    id117430  id117432                       -1
+    id117426  id117445                        1
+    id117426  id117448                        1
+    id117440  id117442                        1
+    id117443  id117445                       -1
+    id117446  id117448                       -1
+    id117457  id117459                       -1
+    id117460  id117462                       -1
+    id117456  id117473                        1
+    id117456  id117476                        1
+    id117471  id117473                       -1
+    id117474  id117476                       -1
+    id117470  id117489                        1
+    id117470  id117492                        1
+    id117484  id117486                        1
+    id117487  id117489                       -1
+    id117490  id117492                       -1
+    id117501  id117503                       -1
+    id117504  id117506                       -1
+    id117500  id117517                        1
+    id117500  id117520                        1
+    id117515  id117517                       -1
+    id117518  id117520                       -1
+    id117514  id117545                        1
+    id117514  id117548                        1
+    id117529  id117531                       -1
+    id117532  id117534                       -1
+    id117528  id117545                        1
+    id117528  id117548                       -1
+    id117543  id117545                       -1
+    id117546  id117548                       -1
+    id117542  id117561                        1
+    id117542  id117564                        1
+    id117556  id117558                        1
+    id117559  id117561                       -1
+    id117562  id117564                       -1
+    id117573  id117575                       -1
+    id117576  id117578                       -1
+    id117572  id117589                        1
+    id117572  id117592                        1
+    id117587  id117589                       -1
+    id117590  id117592                       -1
+    id117586  id117603                        1
+    id117586  id117606                        1
+    id117601  id117603                       -1
+    id117604  id117606                       -1
+    id117600  id117617                        1
+    id117600  id117620                        1
+    id117615  id117617                       -1
+    id117618  id117620                       -1
+    id117614  id117647                        1
+    id117614  id117650                        1
+    id117629  id117631                       -1
+    id117632  id117634                       -1
+    id117628  id117647                        1
+    id117628  id117650                       -1
+    id117642  id117644                        1
+    id117645  id117647                       -1
+    id117648  id117650                       -1
+    id117659  id117661                       -1
+    id117662  id117664                       -1
+    id117658  id117675                        1
+    id117658  id117678                        1
+    id117673  id117675                       -1
+    id117676  id117678                       -1
+    id117672  id117689                        1
+    id117672  id117692                        1
+    id117687  id117689                       -1
+    id117690  id117692                       -1
+    id117686  id117705                        1
+    id117686  id117708                        1
+    id117700  id117702                        1
+    id117703  id117705                       -1
+    id117706  id117708                       -1
+    id117717  id117719                       -1
+    id117720  id117722                       -1
+    id117716  id117733                        1
+    id117716  id117736                        1
+    id117731  id117733                       -1
+    id117734  id117736                       -1
+    id117730  id117747                        1
+    id117730  id117750                        1
+    id117745  id117747                       -1
+    id117748  id117750                       -1
+    id117744  id117763                        1
+    id117744  id117766                        1
+    id117758  id117760                        1
+    id117761  id117763                       -1
+    id117764  id117766                       -1
+    id117775  id117777                       -1
+    id117778  id117780                       -1
+    id117774  id117791                        1
+    id117774  id117794                        1
+    id117789  id117791                       -1
+    id117792  id117794                       -1
+    id117788  id117805                        1
+    id117788  id117808                        1
+    id117803  id117805                       -1
+    id117806  id117808                       -1
+    id117802  id117819                        1
+    id117802  id117822                        1
+    id117817  id117819                       -1
+    id117820  id117822                       -1
+    id117816  id117849                        1
+    id117816  id117852                        1
+    id117831  id117833                       -1
+    id117834  id117836                       -1
+    id117830  id117849                        1
+    id117830  id117852                       -1
+    id117844  id117846                        1
+    id117847  id117849                       -1
+    id117850  id117852                       -1
+    id117861  id117863                       -1
+    id117864  id117866                       -1
+    id117860  id117877                        1
+    id117860  id117880                        1
+    id117875  id117877                       -1
+    id117878  id117880                       -1
+    id117874  id117891                        1
+    id117874  id117894                        1
+    id117889  id117891                       -1
+    id117892  id117894                       -1
+    id117888  id117921                        1
+    id117888  id117924                        1
+    id117903  id117905                       -1
+    id117906  id117908                       -1
+    id117902  id117921                        1
+    id117902  id117924                       -1
+    id117916  id117918                        1
+    id117919  id117921                       -1
+    id117922  id117924                       -1
+    id117933  id117935                       -1
+    id117936  id117938                       -1
+    id117932  id117949                        1
+    id117932  id117952                        1
+    id117947  id117949                       -1
+    id117950  id117952                       -1
+    id117946  id117977                        1
+    id117946  id117980                        1
+    id117961  id117963                       -1
+    id117964  id117966                       -1
+    id117960  id117977                        1
+    id117960  id117980                       -1
+    id117975  id117977                       -1
+    id117978  id117980                       -1
+    id117974  id117993                        1
+    id117974  id117996                        1
+    id117988  id117990                        1
+    id117991  id117993                       -1
+    id117994  id117996                       -1
+    id118005  id118007                       -1
+    id118008  id118010                       -1
+    id118004  id118021                        1
+    id118004  id118024                        1
+    id118019  id118021                       -1
+    id118022  id118024                       -1
+    id118018  id118035                        1
+    id118018  id118038                        1
+    id118033  id118035                       -1
+    id118036  id118038                       -1
+    id118032  id118051                        1
+    id118032  id118054                        1
+    id118046  id118048                        1
+    id118049  id118051                       -1
+    id118052  id118054                       -1
+    id118063  id118065                       -1
+    id118066  id118068                       -1
+    id118062  id118079                        1
+    id118062  id118082                        1
+    id118077  id118079                       -1
+    id118080  id118082                       -1
+    id118076  id118093                        1
+    id118076  id118096                        1
+    id118091  id118093                       -1
+    id118094  id118096                       -1
+    id118090  id118123                        1
+    id118090  id118126                        1
+    id118105  id118107                       -1
+    id118108  id118110                       -1
+    id118104  id118123                        1
+    id118104  id118126                       -1
+    id118118  id118120                        1
+    id118121  id118123                       -1
+    id118124  id118126                       -1
+    id118135  id118137                       -1
+    id118138  id118140                       -1
+    id118134  id118151                        1
+    id118134  id118154                        1
+    id118149  id118151                       -1
+    id118152  id118154                       -1
+    id118148  id118165                        1
+    id118148  id118168                        1
+    id118163  id118165                       -1
+    id118166  id118168                       -1
+    id118162  id118179                        1
+    id118162  id118182                        1
+    id118177  id118179                       -1
+    id118180  id118182                       -1
+    id118176  id118209                        1
+    id118176  id118212                        1
+    id118191  id118193                       -1
+    id118194  id118196                       -1
+    id118190  id118209                        1
+    id118190  id118212                       -1
+    id118204  id118206                        1
+    id118207  id118209                       -1
+    id118210  id118212                       -1
+    id118221  id118223                       -1
+    id118224  id118226                       -1
+    id118220  id118237                        1
+    id118220  id118240                        1
+    id118235  id118237                       -1
+    id118238  id118240                       -1
+    id118234  id118265                        1
+    id118234  id118268                        1
+    id118249  id118251                       -1
+    id118252  id118254                       -1
+    id118248  id118265                        1
+    id118248  id118268                       -1
+    id118263  id118265                       -1
+    id118266  id118268                       -1
+    id118262  id118293                        1
+    id118262  id118296                        1
+    id118277  id118279                       -1
+    id118280  id118282                       -1
+    id118276  id118293                        1
+    id118276  id118296                       -1
+    id118291  id118293                       -1
+    id118294  id118296                       -1
+    id118290  id118323                        1
+    id118290  id118326                        1
+    id118305  id118307                       -1
+    id118308  id118310                       -1
+    id118304  id118323                        1
+    id118304  id118326                       -1
+    id118318  id118320                        1
+    id118321  id118323                       -1
+    id118324  id118326                       -1
+    id118335  id118337                       -1
+    id118338  id118340                       -1
+    id118334  id118351                        1
+    id118334  id118354                        1
+    id118349  id118351                       -1
+    id118352  id118354                       -1
+    id118348  id118365                        1
+    id118348  id118368                        1
+    id118363  id118365                       -1
+    id118366  id118368                       -1
+    id118362  id118395                        1
+    id118362  id118398                        1
+    id118377  id118379                       -1
+    id118380  id118382                       -1
+    id118376  id118395                        1
+    id118376  id118398                       -1
+    id118390  id118392                        1
+    id118393  id118395                       -1
+    id118396  id118398                       -1
+    id118407  id118409                       -1
+    id118410  id118412                       -1
+    id118406  id118423                        1
+    id118406  id118426                        1
+    id118421  id118423                       -1
+    id118424  id118426                       -1
+    id118420  id118439                        1
+    id118420  id118442                        1
+    id118434  id118436                        1
+    id118437  id118439                       -1
+    id118440  id118442                       -1
+    id118451  id118453                       -1
+    id118454  id118456                       -1
+    id118450  id118467                        1
+    id118450  id118470                        1
+    id118465  id118467                       -1
+    id118468  id118470                       -1
+    id118464  id118481                        1
+    id118464  id118484                        1
+    id118479  id118481                       -1
+    id118482  id118484                       -1
+    id118478  id118495                        1
+    id118478  id118498                        1
+    id118493  id118495                       -1
+    id118496  id118498                       -1
+    id118492  id118511                        1
+    id118492  id118514                        1
+    id118506  id118508                        1
+    id118509  id118511                       -1
+    id118512  id118514                       -1
+    id118523  id118525                       -1
+    id118526  id118528                       -1
+    id118522  id118539                        1
+    id118522  id118542                        1
+    id118537  id118539                       -1
+    id118540  id118542                       -1
+    id118536  id118553                        1
+    id118536  id118556                        1
+    id118551  id118553                       -1
+    id118554  id118556                       -1
+    id118550  id118569                        1
+    id118550  id118572                        1
+    id118564  id118566                        1
+    id118567  id118569                       -1
+    id118570  id118572                       -1
+    id118581  id118583                       -1
+    id118584  id118586                       -1
+    id118580  obj                             0
+    id118595  id118597                       -1
+    id118598  id118600                       -1
+    id118594  id118611                        1
+    id118594  id118614                        1
+    id118609  id118611                       -1
+    id118612  id118614                       -1
+    id118608  id118639                        1
+    id118608  id118642                        1
+    id118623  id118625                       -1
+    id118626  id118628                       -1
+    id118622  id118639                        1
+    id118622  id118642                       -1
+    id118637  id118639                       -1
+    id118640  id118642                       -1
+    id118636  id118667                        1
+    id118636  id118670                        1
+    id118651  id118653                       -1
+    id118654  id118656                       -1
+    id118650  id118667                        1
+    id118650  id118670                       -1
+    id118665  id118667                       -1
+    id118668  id118670                       -1
+    id118664  id118697                        1
+    id118664  id118700                        1
+    id118679  id118681                       -1
+    id118682  id118684                       -1
+    id118678  id118697                        1
+    id118678  id118700                       -1
+    id118692  id118694                        1
+    id118695  id118697                       -1
+    id118698  id118700                       -1
+    id118709  id118711                       -1
+    id118712  id118714                       -1
+    id118708  id118725                        1
+    id118708  id118728                        1
+    id118723  id118725                       -1
+    id118726  id118728                       -1
+    id118722  id118739                        1
+    id118722  id118742                        1
+    id118737  id118739                       -1
+    id118740  id118742                       -1
+    id118736  id118755                        1
+    id118736  id118758                        1
+    id118750  id118752                        1
+    id118753  id118755                       -1
+    id118756  id118758                       -1
+    id118767  id118769                       -1
+    id118770  id118772                       -1
+    id118766  id118785                        1
+    id118766  id118788                        1
+    id118780  id118782                        1
+    id118783  id118785                       -1
+    id118786  id118788                       -1
+    id118797  id118799                       -1
+    id118800  id118802                       -1
+    id118796  id118813                        1
+    id118796  id118816                        1
+    id118811  id118813                       -1
+    id118814  id118816                       -1
+    id118810  id118827                        1
+    id118810  id118830                        1
+    id118825  id118827                       -1
+    id118828  id118830                       -1
+    id118824  id118843                        1
+    id118824  id118846                        1
+    id118838  id118840                        1
+    id118841  id118843                       -1
+    id118844  id118846                       -1
+    id118855  id118857                       -1
+    id118858  id118860                       -1
+    id118854  id118871                        1
+    id118854  id118874                        1
+    id118869  id118871                       -1
+    id118872  id118874                       -1
+    id118868  id118885                        1
+    id118868  id118888                        1
+    id118883  id118885                       -1
+    id118886  id118888                       -1
+    id118882  id118901                        1
+    id118882  id118904                        1
+    id118896  id118898                        1
+    id118899  id118901                       -1
+    id118902  id118904                       -1
+    id118913  id118915                       -1
+    id118916  id118918                       -1
+    id118912  id118929                        1
+    id118912  id118932                        1
+    id118927  id118929                       -1
+    id118930  id118932                       -1
+    id118926  id118943                        1
+    id118926  id118946                        1
+    id118941  id118943                       -1
+    id118944  id118946                       -1
+    id118940  id118959                        1
+    id118940  id118962                        1
+    id118954  id118956                        1
+    id118957  id118959                       -1
+    id118960  id118962                       -1
+    id118971  id118973                       -1
+    id118974  id118976                       -1
+    id118970  id118987                        1
+    id118970  id118990                        1
+    id118985  id118987                       -1
+    id118988  id118990                       -1
+    id118984  id119001                        1
+    id118984  id119004                        1
+    id118999  id119001                       -1
+    id119002  id119004                       -1
+    id118998  id119015                        1
+    id118998  id119018                        1
+    id119013  id119015                       -1
+    id119016  id119018                       -1
+    id119012  id119031                        1
+    id119012  id119034                        1
+    id119026  id119028                        1
+    id119029  id119031                       -1
+    id119032  id119034                       -1
+    id119043  id119045                       -1
+    id119046  id119048                       -1
+    id119042  id119059                        1
+    id119042  id119062                        1
+    id119057  id119059                       -1
+    id119060  id119062                       -1
+    id119056  id119073                        1
+    id119056  id119076                        1
+    id119071  id119073                       -1
+    id119074  id119076                       -1
+    id119070  id119087                        1
+    id119070  id119090                        1
+    id119085  id119087                       -1
+    id119088  id119090                       -1
+    id119084  id119117                        1
+    id119084  id119120                        1
+    id119099  id119101                       -1
+    id119102  id119104                       -1
+    id119098  id119117                        1
+    id119098  id119120                       -1
+    id119112  id119114                        1
+    id119115  id119117                       -1
+    id119118  id119120                       -1
+    id119129  id119131                       -1
+    id119132  id119134                       -1
+    id119128  id119145                        1
+    id119128  id119148                        1
+    id119143  id119145                       -1
+    id119146  id119148                       -1
+    id119142  id119173                        1
+    id119142  id119176                        1
+    id119157  id119159                       -1
+    id119160  id119162                       -1
+    id119156  id119173                        1
+    id119156  id119176                       -1
+    id119171  id119173                       -1
+    id119174  id119176                       -1
+    id119170  id119201                        1
+    id119170  id119204                        1
+    id119185  id119187                       -1
+    id119188  id119190                       -1
+    id119184  id119201                        1
+    id119184  id119204                       -1
+    id119199  id119201                       -1
+    id119202  id119204                       -1
+    id119198  id119231                        1
+    id119198  id119234                        1
+    id119213  id119215                       -1
+    id119216  id119218                       -1
+    id119212  id119231                        1
+    id119212  id119234                       -1
+    id119226  id119228                        1
+    id119229  id119231                       -1
+    id119232  id119234                       -1
+    id119243  id119245                       -1
+    id119246  id119248                       -1
+    id119242  id119261                        1
+    id119242  id119264                        1
+    id119256  id119258                        1
+    id119259  id119261                       -1
+    id119262  id119264                       -1
+    id119273  id119275                       -1
+    id119276  id119278                       -1
+    id119272  obj                             0
+    id119287  id119289                       -1
+    id119290  id119292                       -1
+    id119286  id119305                        1
+    id119286  id119308                        1
+    id119300  id119302                        1
+    id119303  id119305                       -1
+    id119306  id119308                       -1
+    id119317  id119319                       -1
+    id119320  id119322                       -1
+    id119316  id119333                        1
+    id119316  id119336                        1
+    id119331  id119333                       -1
+    id119334  id119336                       -1
+    id119330  id119347                        1
+    id119330  id119350                        1
+    id119345  id119347                       -1
+    id119348  id119350                       -1
+    id119344  id119361                        1
+    id119344  id119364                        1
+    id119359  id119361                       -1
+    id119362  id119364                       -1
+    id119358  id119391                        1
+    id119358  id119394                        1
+    id119373  id119375                       -1
+    id119376  id119378                       -1
+    id119372  id119391                        1
+    id119372  id119394                       -1
+    id119386  id119388                        1
+    id119389  id119391                       -1
+    id119392  id119394                       -1
+    id119403  id119405                       -1
+    id119406  id119408                       -1
+    id119402  id119419                        1
+    id119402  id119422                        1
+    id119417  id119419                       -1
+    id119420  id119422                       -1
+    id119416  id119435                        1
+    id119416  id119438                        1
+    id119430  id119432                        1
+    id119433  id119435                       -1
+    id119436  id119438                       -1
+    id119447  id119449                       -1
+    id119450  id119452                       -1
+    id119446  id119463                        1
+    id119446  id119466                        1
+    id119461  id119463                       -1
+    id119464  id119466                       -1
+    id119460  id119477                        1
+    id119460  id119480                        1
+    id119475  id119477                       -1
+    id119478  id119480                       -1
+    id119474  id119491                        1
+    id119474  id119494                        1
+    id119489  id119491                       -1
+    id119492  id119494                       -1
+    id119488  id119521                        1
+    id119488  id119524                        1
+    id119503  id119505                       -1
+    id119506  id119508                       -1
+    id119502  id119521                        1
+    id119502  id119524                       -1
+    id119516  id119518                        1
+    id119519  id119521                       -1
+    id119522  id119524                       -1
+    id119533  id119535                       -1
+    id119536  id119538                       -1
+    id119532  id119549                        1
+    id119532  id119552                        1
+    id119547  id119549                       -1
+    id119550  id119552                       -1
+    id119546  id119563                        1
+    id119546  id119566                        1
+    id119561  id119563                       -1
+    id119564  id119566                       -1
+    id119560  id119593                        1
+    id119560  id119596                        1
+    id119575  id119577                       -1
+    id119578  id119580                       -1
+    id119574  id119593                        1
+    id119574  id119596                       -1
+    id119588  id119590                        1
+    id119591  id119593                       -1
+    id119594  id119596                       -1
+    id119605  id119607                       -1
+    id119608  id119610                       -1
+    id119604  id119621                        1
+    id119604  id119624                        1
+    id119619  id119621                       -1
+    id119622  id119624                       -1
+    id119618  id119649                        1
+    id119618  id119652                        1
+    id119633  id119635                       -1
+    id119636  id119638                       -1
+    id119632  id119649                        1
+    id119632  id119652                       -1
+    id119647  id119649                       -1
+    id119650  id119652                       -1
+    id119646  id119663                        1
+    id119646  id119666                        1
+    id119661  id119663                       -1
+    id119664  id119666                       -1
+    id119660  id119693                        1
+    id119660  id119696                        1
+    id119675  id119677                       -1
+    id119678  id119680                       -1
+    id119674  id119693                        1
+    id119674  id119696                       -1
+    id119688  id119690                        1
+    id119691  id119693                       -1
+    id119694  id119696                       -1
+    id119705  id119707                       -1
+    id119708  id119710                       -1
+    id119704  id119721                        1
+    id119704  id119724                        1
+    id119719  id119721                       -1
+    id119722  id119724                       -1
+    id119718  id119735                        1
+    id119718  id119738                        1
+    id119733  id119735                       -1
+    id119736  id119738                       -1
+    id119732  id119765                        1
+    id119732  id119768                        1
+    id119747  id119749                       -1
+    id119750  id119752                       -1
+    id119746  id119765                        1
+    id119746  id119768                       -1
+    id119760  id119762                        1
+    id119763  id119765                       -1
+    id119766  id119768                       -1
+    id119777  id119779                       -1
+    id119780  id119782                       -1
+    id119776  id119793                        1
+    id119776  id119796                        1
+    id119791  id119793                       -1
+    id119794  id119796                       -1
+    id119790  id119807                        1
+    id119790  id119810                        1
+    id119805  id119807                       -1
+    id119808  id119810                       -1
+    id119804  id119821                        1
+    id119804  id119824                        1
+    id119819  id119821                       -1
+    id119822  id119824                       -1
+    id119818  id119851                        1
+    id119818  id119854                        1
+    id119833  id119835                       -1
+    id119836  id119838                       -1
+    id119832  id119851                        1
+    id119832  id119854                       -1
+    id119846  id119848                        1
+    id119849  id119851                       -1
+    id119852  id119854                       -1
+    id119863  id119865                       -1
+    id119866  id119868                       -1
+    id119862  id119879                        1
+    id119862  id119882                        1
+    id119877  id119879                       -1
+    id119880  id119882                       -1
+    id119876  id119895                        1
+    id119876  id119898                        1
+    id119890  id119892                        1
+    id119893  id119895                       -1
+    id119896  id119898                       -1
+    id119907  id119909                       -1
+    id119910  id119912                       -1
+    id119906  id119923                        1
+    id119906  id119926                        1
+    id119921  id119923                       -1
+    id119924  id119926                       -1
+    id119920  id119939                        1
+    id119920  id119942                        1
+    id119934  id119936                        1
+    id119937  id119939                       -1
+    id119940  id119942                       -1
+    id119951  id119953                       -1
+    id119954  id119956                       -1
+    id119950  id119967                        1
+    id119950  id119970                        1
+    id119965  id119967                       -1
+    id119968  id119970                       -1
+    id119964  id119981                        1
+    id119964  id119984                        1
+    id119979  id119981                       -1
+    id119982  id119984                       -1
+    id119978  id119995                        1
+    id119978  id119998                        1
+    id119993  id119995                       -1
+    id119996  id119998                       -1
+    id119992  id120011                        1
+    id119992  id120014                        1
+    id120006  id120008                        1
+    id120009  id120011                       -1
+    id120012  id120014                       -1
+    id120023  id120025                       -1
+    id120026  id120028                       -1
+    id120022  id120039                        1
+    id120022  id120042                        1
+    id120037  id120039                       -1
+    id120040  id120042                       -1
+    id120036  id120067                        1
+    id120036  id120070                        1
+    id120051  id120053                       -1
+    id120054  id120056                       -1
+    id120050  id120067                        1
+    id120050  id120070                       -1
+    id120065  id120067                       -1
+    id120068  id120070                       -1
+    id120064  id120081                        1
+    id120064  id120084                        1
+    id120079  id120081                       -1
+    id120082  id120084                       -1
+    id120078  id120111                        1
+    id120078  id120114                        1
+    id120093  id120095                       -1
+    id120096  id120098                       -1
+    id120092  id120111                        1
+    id120092  id120114                       -1
+    id120106  id120108                        1
+    id120109  id120111                       -1
+    id120112  id120114                       -1
+    id120123  id120125                       -1
+    id120126  id120128                       -1
+    id120122  id120139                        1
+    id120122  id120142                        1
+    id120137  id120139                       -1
+    id120140  id120142                       -1
+    id120136  id120167                        1
+    id120136  id120170                        1
+    id120151  id120153                       -1
+    id120154  id120156                       -1
+    id120150  id120167                        1
+    id120150  id120170                       -1
+    id120165  id120167                       -1
+    id120168  id120170                       -1
+    id120164  id120181                        1
+    id120164  id120184                        1
+    id120179  id120181                       -1
+    id120182  id120184                       -1
+    id120178  id120211                        1
+    id120178  id120214                        1
+    id120193  id120195                       -1
+    id120196  id120198                       -1
+    id120192  id120211                        1
+    id120192  id120214                       -1
+    id120206  id120208                        1
+    id120209  id120211                       -1
+    id120212  id120214                       -1
+    id120223  id120225                       -1
+    id120226  id120228                       -1
+    id120222  id120239                        1
+    id120222  id120242                        1
+    id120237  id120239                       -1
+    id120240  id120242                       -1
+    id120236  id120253                        1
+    id120236  id120256                        1
+    id120251  id120253                       -1
+    id120254  id120256                       -1
+    id120250  id120269                        1
+    id120250  id120272                        1
+    id120264  id120266                        1
+    id120267  id120269                       -1
+    id120270  id120272                       -1
+    id120281  id120283                       -1
+    id120284  id120286                       -1
+    id120280  id120297                        1
+    id120280  id120300                        1
+    id120295  id120297                       -1
+    id120298  id120300                       -1
+    id120294  id120311                        1
+    id120294  id120314                        1
+    id120309  id120311                       -1
+    id120312  id120314                       -1
+    id120308  id120327                        1
+    id120308  id120330                        1
+    id120322  id120324                        1
+    id120325  id120327                       -1
+    id120328  id120330                       -1
+    id120339  id120341                       -1
+    id120342  id120344                       -1
+    id120338  id120357                        1
+    id120338  id120360                        1
+    id120352  id120354                        1
+    id120355  id120357                       -1
+    id120358  id120360                       -1
+    id120369  id120371                       -1
+    id120372  id120374                       -1
+    id120368  id120385                        1
+    id120368  id120388                        1
+    id120383  id120385                       -1
+    id120386  id120388                       -1
+    id120382  id120399                        1
+    id120382  id120402                        1
+    id120397  id120399                       -1
+    id120400  id120402                       -1
+    id120396  id120413                        1
+    id120396  id120416                        1
+    id120411  id120413                       -1
+    id120414  id120416                       -1
+    id120410  id120443                        1
+    id120410  id120446                        1
+    id120425  id120427                       -1
+    id120428  id120430                       -1
+    id120424  id120443                        1
+    id120424  id120446                       -1
+    id120438  id120440                        1
+    id120441  id120443                       -1
+    id120444  id120446                       -1
+    id120455  id120457                       -1
+    id120458  id120460                       -1
+    id120454  id120471                        1
+    id120454  id120474                        1
+    id120469  id120471                       -1
+    id120472  id120474                       -1
+    id120468  id120501                        1
+    id120468  id120504                        1
+    id120483  id120485                       -1
+    id120486  id120488                       -1
+    id120482  id120501                        1
+    id120482  id120504                       -1
+    id120496  id120498                        1
+    id120499  id120501                       -1
+    id120502  id120504                       -1
+    id120513  id120515                       -1
+    id120516  id120518                       -1
+    id120512  id120529                        1
+    id120512  id120532                        1
+    id120527  id120529                       -1
+    id120530  id120532                       -1
+    id120526  id120543                        1
+    id120526  id120546                        1
+    id120541  id120543                       -1
+    id120544  id120546                       -1
+    id120540  id120573                        1
+    id120540  id120576                        1
+    id120555  id120557                       -1
+    id120558  id120560                       -1
+    id120554  id120573                        1
+    id120554  id120576                       -1
+    id120568  id120570                        1
+    id120571  id120573                       -1
+    id120574  id120576                       -1
+    id120585  id120587                       -1
+    id120588  id120590                       -1
+    id120584  id120601                        1
+    id120584  id120604                        1
+    id120599  id120601                       -1
+    id120602  id120604                       -1
+    id120598  id120615                        1
+    id120598  id120618                        1
+    id120613  id120615                       -1
+    id120616  id120618                       -1
+    id120612  id120629                        1
+    id120612  id120632                        1
+    id120627  id120629                       -1
+    id120630  id120632                       -1
+    id120626  id120659                        1
+    id120626  id120662                        1
+    id120641  id120643                       -1
+    id120644  id120646                       -1
+    id120640  id120659                        1
+    id120640  id120662                       -1
+    id120654  id120656                        1
+    id120657  id120659                       -1
+    id120660  id120662                       -1
+    id120671  id120673                       -1
+    id120674  id120676                       -1
+    id120670  id120687                        1
+    id120670  id120690                        1
+    id120685  id120687                       -1
+    id120688  id120690                       -1
+    id120684  id120715                        1
+    id120684  id120718                        1
+    id120699  id120701                       -1
+    id120702  id120704                       -1
+    id120698  id120715                        1
+    id120698  id120718                       -1
+    id120713  id120715                       -1
+    id120716  id120718                       -1
+    id120712  id120731                        1
+    id120712  id120734                        1
+    id120726  id120728                        1
+    id120729  id120731                       -1
+    id120732  id120734                       -1
+    id120743  id120745                       -1
+    id120746  id120748                       -1
+    id120742  id120761                        1
+    id120742  id120764                        1
+    id120756  id120758                        1
+    id120759  id120761                       -1
+    id120762  id120764                       -1
+    id120773  id120775                       -1
+    id120776  id120778                       -1
+    id120772  id120789                        1
+    id120772  id120792                        1
+    id120787  id120789                       -1
+    id120790  id120792                       -1
+    id120786  id120803                        1
+    id120786  id120806                        1
+    id120801  id120803                       -1
+    id120804  id120806                       -1
+    id120800  id120833                        1
+    id120800  id120836                        1
+    id120815  id120817                       -1
+    id120818  id120820                       -1
+    id120814  id120833                        1
+    id120814  id120836                       -1
+    id120828  id120830                        1
+    id120831  id120833                       -1
+    id120834  id120836                       -1
+    id120845  id120847                       -1
+    id120848  id120850                       -1
+    id120844  id120863                        1
+    id120844  id120866                        1
+    id120858  id120860                        1
+    id120861  id120863                       -1
+    id120864  id120866                       -1
+    id120875  id120877                       -1
+    id120878  id120880                       -1
+    id120874  id120891                        1
+    id120874  id120894                        1
+    id120889  id120891                       -1
+    id120892  id120894                       -1
+    id120888  id120905                        1
+    id120888  id120908                        1
+    id120903  id120905                       -1
+    id120906  id120908                       -1
+    id120902  id120921                        1
+    id120902  id120924                        1
+    id120916  id120918                        1
+    id120919  id120921                       -1
+    id120922  id120924                       -1
+    id120933  id120935                       -1
+    id120936  id120938                       -1
+    id120932  id120949                        1
+    id120932  id120952                        1
+    id120947  id120949                       -1
+    id120950  id120952                       -1
+    id120946  id120963                        1
+    id120946  id120966                        1
+    id120961  id120963                       -1
+    id120964  id120966                       -1
+    id120960  id120979                        1
+    id120960  id120982                        1
+    id120974  id120976                        1
+    id120977  id120979                       -1
+    id120980  id120982                       -1
+    id120991  id120993                       -1
+    id120994  id120996                       -1
+    id120990  id121007                        1
+    id120990  id121010                        1
+    id121005  id121007                       -1
+    id121008  id121010                       -1
+    id121004  id121035                        1
+    id121004  id121038                        1
+    id121019  id121021                       -1
+    id121022  id121024                       -1
+    id121018  id121035                        1
+    id121018  id121038                       -1
+    id121033  id121035                       -1
+    id121036  id121038                       -1
+    id121032  id121063                        1
+    id121032  id121066                        1
+    id121047  id121049                       -1
+    id121050  id121052                       -1
+    id121046  id121063                        1
+    id121046  id121066                       -1
+    id121061  id121063                       -1
+    id121064  id121066                       -1
+    id121060  id121093                        1
+    id121060  id121096                        1
+    id121075  id121077                       -1
+    id121078  id121080                       -1
+    id121074  id121093                        1
+    id121074  id121096                       -1
+    id121088  id121090                        1
+    id121091  id121093                       -1
+    id121094  id121096                       -1
+    id121105  id121107                       -1
+    id121108  id121110                       -1
+    id121104  id121121                        1
+    id121104  id121124                        1
+    id121119  id121121                       -1
+    id121122  id121124                       -1
+    id121118  id121135                        1
+    id121118  id121138                        1
+    id121133  id121135                       -1
+    id121136  id121138                       -1
+    id121132  id121151                        1
+    id121132  id121154                        1
+    id121146  id121148                        1
+    id121149  id121151                       -1
+    id121152  id121154                       -1
+    id121163  id121165                       -1
+    id121166  id121168                       -1
+    id121162  id121179                        1
+    id121162  id121182                        1
+    id121177  id121179                       -1
+    id121180  id121182                       -1
+    id121176  id121207                        1
+    id121176  id121210                        1
+    id121191  id121193                       -1
+    id121194  id121196                       -1
+    id121190  id121207                        1
+    id121190  id121210                       -1
+    id121205  id121207                       -1
+    id121208  id121210                       -1
+    id121204  id121223                        1
+    id121204  id121226                        1
+    id121218  id121220                        1
+    id121221  id121223                       -1
+    id121224  id121226                       -1
+    id121235  id121237                       -1
+    id121238  id121240                       -1
+    id121234  id121251                        1
+    id121234  id121254                        1
+    id121249  id121251                       -1
+    id121252  id121254                       -1
+    id121248  id121265                        1
+    id121248  id121268                        1
+    id121263  id121265                       -1
+    id121266  id121268                       -1
+    id121262  id121281                        1
+    id121262  id121284                        1
+    id121276  id121278                        1
+    id121279  id121281                       -1
+    id121282  id121284                       -1
+    id121293  id121295                       -1
+    id121296  id121298                       -1
+    id121292  id121309                        1
+    id121292  id121312                        1
+    id121307  id121309                       -1
+    id121310  id121312                       -1
+    id121306  id121323                        1
+    id121306  id121326                        1
+    id121321  id121323                       -1
+    id121324  id121326                       -1
+    id121320  id121339                        1
+    id121320  id121342                        1
+    id121334  id121336                        1
+    id121337  id121339                       -1
+    id121340  id121342                       -1
+    id121351  id121353                       -1
+    id121354  id121356                       -1
+    id121350  id121367                        1
+    id121350  id121370                        1
+    id121365  id121367                       -1
+    id121368  id121370                       -1
+    id121364  id121381                        1
+    id121364  id121384                        1
+    id121379  id121381                       -1
+    id121382  id121384                       -1
+    id121378  id121395                        1
+    id121378  id121398                        1
+    id121393  id121395                       -1
+    id121396  id121398                       -1
+    id121392  id121425                        1
+    id121392  id121428                        1
+    id121407  id121409                       -1
+    id121410  id121412                       -1
+    id121406  id121425                        1
+    id121406  id121428                       -1
+    id121420  id121422                        1
+    id121423  id121425                       -1
+    id121426  id121428                       -1
+    id121437  id121439                       -1
+    id121440  id121442                       -1
+    id121436  id121453                        1
+    id121436  id121456                        1
+    id121451  id121453                       -1
+    id121454  id121456                       -1
+    id121450  id121481                        1
+    id121450  id121484                        1
+    id121465  id121467                       -1
+    id121468  id121470                       -1
+    id121464  id121481                        1
+    id121464  id121484                       -1
+    id121479  id121481                       -1
+    id121482  id121484                       -1
+    id121478  id121509                        1
+    id121478  id121512                        1
+    id121493  id121495                       -1
+    id121496  id121498                       -1
+    id121492  id121509                        1
+    id121492  id121512                       -1
+    id121507  id121509                       -1
+    id121510  id121512                       -1
+    id121506  id121539                        1
+    id121506  id121542                        1
+    id121521  id121523                       -1
+    id121524  id121526                       -1
+    id121520  id121539                        1
+    id121520  id121542                       -1
+    id121534  id121536                        1
+    id121537  id121539                       -1
+    id121540  id121542                       -1
+    id121551  id121553                       -1
+    id121554  id121556                       -1
+    id121550  id121567                        1
+    id121550  id121570                        1
+    id121565  id121567                       -1
+    id121568  id121570                       -1
+    id121564  id121581                        1
+    id121564  id121584                        1
+    id121579  id121581                       -1
+    id121582  id121584                       -1
+    id121578  id121597                        1
+    id121578  id121600                        1
+    id121592  id121594                        1
+    id121595  id121597                       -1
+    id121598  id121600                       -1
+RHS
+    rhs       id100637         29.8262608204225
+    rhs       id100639         29.8262608204225
+    rhs       id101841                        1
+    rhs       id101843                        1
+    rhs       id101845                        1
+    rhs       id101847                        1
+    rhs       id101849                        1
+    rhs       id101851                        1
+    rhs       id101853                        1
+    rhs       id101855                        1
+    rhs       id101857                        1
+    rhs       id101859                        1
+    rhs       id101861                        1
+    rhs       id101863                        1
+    rhs       id101865                        1
+    rhs       id101867                        1
+    rhs       id101869                        1
+    rhs       id101871                        1
+    rhs       id101873                        1
+    rhs       id101875                        1
+    rhs       id101877                        1
+    rhs       id101879                        1
+    rhs       id101881                        1
+    rhs       id101883                        1
+    rhs       id101885                        1
+    rhs       id101887                        1
+    rhs       id101889                        1
+    rhs       id101891                        1
+    rhs       id101893                        1
+    rhs       id101895                        1
+    rhs       id101897                        1
+    rhs       id101899                        1
+    rhs       id101901                        1
+    rhs       id101903                        1
+    rhs       id101905                        1
+    rhs       id101907                        1
+    rhs       id101909                        1
+    rhs       id101911                        1
+    rhs       id101913                        1
+    rhs       id101915                        1
+    rhs       id101917                        1
+    rhs       id101919                        1
+    rhs       id101921                        1
+    rhs       id101923                        1
+    rhs       id101925                        1
+    rhs       id101927                        1
+    rhs       id101929                        1
+    rhs       id101931                        1
+    rhs       id101933                        1
+    rhs       id101935                        1
+    rhs       id101937                        1
+    rhs       id101939                        1
+    rhs       id101941                        1
+    rhs       id101943                        1
+    rhs       id101945                        1
+    rhs       id101947                        1
+    rhs       id101949                        1
+    rhs       id101951                        1
+    rhs       id101953                        1
+    rhs       id101955                        1
+    rhs       id101957                        1
+    rhs       id101959                        1
+    rhs       id101961                        1
+    rhs       id101963                        1
+    rhs       id101965                        1
+    rhs       id101967                        1
+    rhs       id101969                        1
+    rhs       id101971                        1
+    rhs       id101973                        1
+    rhs       id101975                        1
+    rhs       id101977                        1
+    rhs       id101979                        1
+    rhs       id101981                        1
+    rhs       id101983                        1
+    rhs       id101985                        1
+    rhs       id101987                        1
+    rhs       id101989                        1
+    rhs       id101991                        1
+    rhs       id101993                        1
+    rhs       id101995                        1
+    rhs       id101997                        1
+    rhs       id101999                        1
+    rhs       id102001                        1
+    rhs       id102003                        1
+    rhs       id102005                        1
+    rhs       id102007                        1
+    rhs       id102009                        1
+    rhs       id102011                        1
+    rhs       id102013                        1
+    rhs       id102015                        1
+    rhs       id102017                        1
+    rhs       id102019                        1
+    rhs       id102021                        1
+    rhs       id102023                        1
+    rhs       id102025                        1
+    rhs       id102027                        1
+    rhs       id102029                        1
+    rhs       id102031                        1
+    rhs       id102033                        1
+    rhs       id102035                        1
+    rhs       id102037                        1
+    rhs       id102039                        1
+    rhs       id102041                        1
+    rhs       id102043                        1
+    rhs       id102045                        1
+    rhs       id102047                        1
+    rhs       id102049                        1
+    rhs       id102051                        1
+    rhs       id102053                        1
+    rhs       id102055                        1
+    rhs       id102057                        1
+    rhs       id102059                        1
+    rhs       id102061                        1
+    rhs       id102063                        1
+    rhs       id102065                        1
+    rhs       id102067                        1
+    rhs       id102069                        1
+    rhs       id102071                        1
+    rhs       id102073                        1
+    rhs       id102075                        1
+    rhs       id102077                        1
+    rhs       id102079                        1
+    rhs       id102081                        1
+    rhs       id102083                        1
+    rhs       id102085                        1
+    rhs       id102087                        1
+    rhs       id102089                        1
+    rhs       id102091                        1
+    rhs       id102093                        1
+    rhs       id102095                        1
+    rhs       id102097                        1
+    rhs       id102099                        1
+    rhs       id102101                        1
+    rhs       id102103                        1
+    rhs       id102105                        1
+    rhs       id102107                        1
+    rhs       id102109                        1
+    rhs       id102111                        1
+    rhs       id102113                        1
+    rhs       id102115                        1
+    rhs       id102117                        1
+    rhs       id102119                        1
+    rhs       id102121                        1
+    rhs       id102123                        1
+    rhs       id102125                        1
+    rhs       id102127                        1
+    rhs       id102129                        1
+    rhs       id102131                        1
+    rhs       id102133                        1
+    rhs       id102135                        1
+    rhs       id102137                        1
+    rhs       id102139                        1
+BOUNDS
+ UP bnd       id99733                         1
+ UP bnd       id99734                         1
+ UP bnd       id99739                         1
+ UP bnd       id99740                         1
+ UP bnd       id99745                         1
+ UP bnd       id99746                         1
+ UP bnd       id99751                         1
+ UP bnd       id99752                         1
+ UP bnd       id99757                         1
+ UP bnd       id99758                         1
+ UP bnd       id99763                         1
+ UP bnd       id99764                         1
+ UP bnd       id99769                         1
+ UP bnd       id99770                         1
+ UP bnd       id99775                         1
+ UP bnd       id99776                         1
+ UP bnd       id99781                         1
+ UP bnd       id99782                         1
+ UP bnd       id99787                         1
+ UP bnd       id99788                         1
+ UP bnd       id99793                         1
+ UP bnd       id99794                         1
+ UP bnd       id99799                         1
+ UP bnd       id99800                         1
+ UP bnd       id99805                         1
+ UP bnd       id99806                         1
+ UP bnd       id99811                         1
+ UP bnd       id99812                         1
+ UP bnd       id99817                         1
+ UP bnd       id99818                         1
+ UP bnd       id99823                         1
+ UP bnd       id99824                         1
+ UP bnd       id99829                         1
+ UP bnd       id99830                         1
+ UP bnd       id99835                         1
+ UP bnd       id99836                         1
+ UP bnd       id99841                         1
+ UP bnd       id99842                         1
+ UP bnd       id99847                         1
+ UP bnd       id99848                         1
+ UP bnd       id99853                         1
+ UP bnd       id99854                         1
+ UP bnd       id99859                         1
+ UP bnd       id99860                         1
+ UP bnd       id99865                         1
+ UP bnd       id99866                         1
+ UP bnd       id99871                         1
+ UP bnd       id99872                         1
+ UP bnd       id99877                         1
+ UP bnd       id99878                         1
+ UP bnd       id99883                         1
+ UP bnd       id99884                         1
+ UP bnd       id99889                         1
+ UP bnd       id99890                         1
+ UP bnd       id99895                         1
+ UP bnd       id99896                         1
+ UP bnd       id99901                         1
+ UP bnd       id99902                         1
+ UP bnd       id99907                         1
+ UP bnd       id99908                         1
+ UP bnd       id99913                         1
+ UP bnd       id99914                         1
+ UP bnd       id99919                         1
+ UP bnd       id99920                         1
+ UP bnd       id99925                         1
+ UP bnd       id99926                         1
+ UP bnd       id99931                         1
+ UP bnd       id99932                         1
+ UP bnd       id99937                         1
+ UP bnd       id99938                         1
+ UP bnd       id99943                         1
+ UP bnd       id99944                         1
+ UP bnd       id99949                         1
+ UP bnd       id99950                         1
+ UP bnd       id99955                         1
+ UP bnd       id99956                         1
+ UP bnd       id99961                         1
+ UP bnd       id99962                         1
+ UP bnd       id99967                         1
+ UP bnd       id99968                         1
+ UP bnd       id99973                         1
+ UP bnd       id99974                         1
+ UP bnd       id99979                         1
+ UP bnd       id99980                         1
+ UP bnd       id99985                         1
+ UP bnd       id99986                         1
+ UP bnd       id99991                         1
+ UP bnd       id99992                         1
+ UP bnd       id99997                         1
+ UP bnd       id99998                         1
+ UP bnd       id100003                        1
+ UP bnd       id100004                        1
+ UP bnd       id100009                        1
+ UP bnd       id100010                        1
+ UP bnd       id100015                        1
+ UP bnd       id100016                        1
+ UP bnd       id100021                        1
+ UP bnd       id100022                        1
+ UP bnd       id100027                        1
+ UP bnd       id100028                        1
+ UP bnd       id100033                        1
+ UP bnd       id100034                        1
+ UP bnd       id100039                        1
+ UP bnd       id100040                        1
+ UP bnd       id100045                        1
+ UP bnd       id100046                        1
+ UP bnd       id100051                        1
+ UP bnd       id100052                        1
+ UP bnd       id100057                        1
+ UP bnd       id100058                        1
+ UP bnd       id100063                        1
+ UP bnd       id100064                        1
+ UP bnd       id100069                        1
+ UP bnd       id100070                        1
+ UP bnd       id100075                        1
+ UP bnd       id100076                        1
+ UP bnd       id100081                        1
+ UP bnd       id100082                        1
+ UP bnd       id100087                        1
+ UP bnd       id100088                        1
+ UP bnd       id100093                        1
+ UP bnd       id100094                        1
+ UP bnd       id100099                        1
+ UP bnd       id100100                        1
+ UP bnd       id100105                        1
+ UP bnd       id100106                        1
+ UP bnd       id100111                        1
+ UP bnd       id100112                        1
+ UP bnd       id100117                        1
+ UP bnd       id100118                        1
+ UP bnd       id100123                        1
+ UP bnd       id100124                        1
+ UP bnd       id100129                        1
+ UP bnd       id100130                        1
+ UP bnd       id100135                        1
+ UP bnd       id100136                        1
+ UP bnd       id100141                        1
+ UP bnd       id100142                        1
+ UP bnd       id100147                        1
+ UP bnd       id100148                        1
+ UP bnd       id100153                        1
+ UP bnd       id100154                        1
+ UP bnd       id100159                        1
+ UP bnd       id100160                        1
+ UP bnd       id100165                        1
+ UP bnd       id100166                        1
+ UP bnd       id100171                        1
+ UP bnd       id100172                        1
+ UP bnd       id100177                        1
+ UP bnd       id100178                        1
+ UP bnd       id100183                        1
+ UP bnd       id100184                        1
+ UP bnd       id100189                        1
+ UP bnd       id100190                        1
+ UP bnd       id100195                        1
+ UP bnd       id100196                        1
+ UP bnd       id100201                        1
+ UP bnd       id100202                        1
+ UP bnd       id100207                        1
+ UP bnd       id100208                        1
+ UP bnd       id100213                        1
+ UP bnd       id100214                        1
+ UP bnd       id100219                        1
+ UP bnd       id100220                        1
+ UP bnd       id100225                        1
+ UP bnd       id100226                        1
+ UP bnd       id100231                        1
+ UP bnd       id100232                        1
+ UP bnd       id100237                        1
+ UP bnd       id100238                        1
+ UP bnd       id100243                        1
+ UP bnd       id100244                        1
+ UP bnd       id100249                        1
+ UP bnd       id100250                        1
+ UP bnd       id100255                        1
+ UP bnd       id100256                        1
+ UP bnd       id100261                        1
+ UP bnd       id100262                        1
+ UP bnd       id100267                        1
+ UP bnd       id100268                        1
+ UP bnd       id100273                        1
+ UP bnd       id100274                        1
+ UP bnd       id100279                        1
+ UP bnd       id100280                        1
+ UP bnd       id100285                        1
+ UP bnd       id100286                        1
+ UP bnd       id100291                        1
+ UP bnd       id100292                        1
+ UP bnd       id100297                        1
+ UP bnd       id100298                        1
+ UP bnd       id100303                        1
+ UP bnd       id100304                        1
+ UP bnd       id100309                        1
+ UP bnd       id100310                        1
+ UP bnd       id100315                        1
+ UP bnd       id100316                        1
+ UP bnd       id100321                        1
+ UP bnd       id100322                        1
+ UP bnd       id100327                        1
+ UP bnd       id100328                        1
+ UP bnd       id100333                        1
+ UP bnd       id100334                        1
+ UP bnd       id100339                        1
+ UP bnd       id100340                        1
+ UP bnd       id100345                        1
+ UP bnd       id100346                        1
+ UP bnd       id100351                        1
+ UP bnd       id100352                        1
+ UP bnd       id100357                        1
+ UP bnd       id100358                        1
+ UP bnd       id100363                        1
+ UP bnd       id100364                        1
+ UP bnd       id100369                        1
+ UP bnd       id100370                        1
+ UP bnd       id100375                        1
+ UP bnd       id100376                        1
+ UP bnd       id100381                        1
+ UP bnd       id100382                        1
+ UP bnd       id100387                        1
+ UP bnd       id100388                        1
+ UP bnd       id100393                        1
+ UP bnd       id100394                        1
+ UP bnd       id100399                        1
+ UP bnd       id100400                        1
+ UP bnd       id100405                        1
+ UP bnd       id100406                        1
+ UP bnd       id100411                        1
+ UP bnd       id100412                        1
+ UP bnd       id100417                        1
+ UP bnd       id100418                        1
+ UP bnd       id100423                        1
+ UP bnd       id100424                        1
+ UP bnd       id100429                        1
+ UP bnd       id100430                        1
+ UP bnd       id100435                        1
+ UP bnd       id100436                        1
+ UP bnd       id100441                        1
+ UP bnd       id100442                        1
+ UP bnd       id100447                        1
+ UP bnd       id100448                        1
+ UP bnd       id100453                        1
+ UP bnd       id100454                        1
+ UP bnd       id100459                        1
+ UP bnd       id100460                        1
+ UP bnd       id100465                        1
+ UP bnd       id100466                        1
+ UP bnd       id100471                        1
+ UP bnd       id100472                        1
+ UP bnd       id100477                        1
+ UP bnd       id100478                        1
+ UP bnd       id100483                        1
+ UP bnd       id100484                        1
+ UP bnd       id100489                        1
+ UP bnd       id100490                        1
+ UP bnd       id100495                        1
+ UP bnd       id100496                        1
+ UP bnd       id100501                        1
+ UP bnd       id100502                        1
+ UP bnd       id100507                        1
+ UP bnd       id100508                        1
+ UP bnd       id100513                        1
+ UP bnd       id100514                        1
+ UP bnd       id100519                        1
+ UP bnd       id100520                        1
+ UP bnd       id100525                        1
+ UP bnd       id100526                        1
+ UP bnd       id100531                        1
+ UP bnd       id100532                        1
+ UP bnd       id100537                        1
+ UP bnd       id100538                        1
+ UP bnd       id100543                        1
+ UP bnd       id100544                        1
+ UP bnd       id100549                        1
+ UP bnd       id100550                        1
+ UP bnd       id100555                        1
+ UP bnd       id100556                        1
+ UP bnd       id100561                        1
+ UP bnd       id100562                        1
+ UP bnd       id100567                        1
+ UP bnd       id100568                        1
+ UP bnd       id100573                        1
+ UP bnd       id100574                        1
+ UP bnd       id100579                        1
+ UP bnd       id100580                        1
+ UP bnd       id100585                        1
+ UP bnd       id100586                        1
+ UP bnd       id100591                        1
+ UP bnd       id100592                        1
+ UP bnd       id100597                        1
+ UP bnd       id100598                        1
+ UP bnd       id100603                        1
+ UP bnd       id100604                        1
+ UP bnd       id100609                        1
+ UP bnd       id100610                        1
+ UP bnd       id100615                        1
+ UP bnd       id100616                        1
+ UP bnd       id100621                        1
+ UP bnd       id100622                        1
+ UP bnd       id100627                        1
+ UP bnd       id100628                        1
+ FX bnd       id121759                        0
+ FR bnd       id102144
+ FR bnd       id102158
+ FR bnd       id102172
+ FR bnd       id102186
+ FR bnd       id102200
+ FR bnd       id102210
+ FR bnd       id102216
+ FR bnd       id102230
+ FR bnd       id102244
+ FR bnd       id102258
+ FR bnd       id102268
+ FR bnd       id102274
+ FR bnd       id102288
+ FR bnd       id102302
+ FR bnd       id102316
+ FR bnd       id102326
+ FR bnd       id102332
+ FR bnd       id102346
+ FR bnd       id102360
+ FR bnd       id102374
+ FR bnd       id102384
+ FR bnd       id102390
+ FR bnd       id102404
+ FR bnd       id102418
+ FR bnd       id102432
+ FR bnd       id102446
+ FR bnd       id102456
+ FR bnd       id102462
+ FR bnd       id102476
+ FR bnd       id102490
+ FR bnd       id102504
+ FR bnd       id102518
+ FR bnd       id102528
+ FR bnd       id102534
+ FR bnd       id102548
+ FR bnd       id102562
+ FR bnd       id102576
+ FR bnd       id102586
+ FR bnd       id102592
+ FR bnd       id102606
+ FR bnd       id102620
+ FR bnd       id102634
+ FR bnd       id102648
+ FR bnd       id102662
+ FR bnd       id102672
+ FR bnd       id102678
+ FR bnd       id102692
+ FR bnd       id102706
+ FR bnd       id102720
+ FR bnd       id102734
+ FR bnd       id102748
+ FR bnd       id102758
+ FR bnd       id102764
+ FR bnd       id102778
+ FR bnd       id102792
+ FR bnd       id102806
+ FR bnd       id102816
+ FR bnd       id102822
+ FR bnd       id102836
+ FR bnd       id102850
+ FR bnd       id102860
+ FR bnd       id102866
+ FR bnd       id102880
+ FR bnd       id102894
+ FR bnd       id102908
+ FR bnd       id102922
+ FR bnd       id102936
+ FR bnd       id102946
+ FR bnd       id102952
+ FR bnd       id102966
+ FR bnd       id102980
+ FR bnd       id102994
+ FR bnd       id103004
+ FR bnd       id103010
+ FR bnd       id103024
+ FR bnd       id103038
+ FR bnd       id103052
+ FR bnd       id103066
+ FR bnd       id103080
+ FR bnd       id103090
+ FR bnd       id103096
+ FR bnd       id103110
+ FR bnd       id103124
+ FR bnd       id103138
+ FR bnd       id103148
+ FR bnd       id103154
+ FR bnd       id103168
+ FR bnd       id103182
+ FR bnd       id103196
+ FR bnd       id103210
+ FR bnd       id103220
+ FR bnd       id103226
+ FR bnd       id103240
+ FR bnd       id103254
+ FR bnd       id103268
+ FR bnd       id103282
+ FR bnd       id103292
+ FR bnd       id103298
+ FR bnd       id103312
+ FR bnd       id103326
+ FR bnd       id103340
+ FR bnd       id103350
+ FR bnd       id103356
+ FR bnd       id103370
+ FR bnd       id103384
+ FR bnd       id103398
+ FR bnd       id103412
+ FR bnd       id103426
+ FR bnd       id103440
+ FR bnd       id103450
+ FR bnd       id103456
+ FR bnd       id103470
+ FR bnd       id103480
+ FR bnd       id103486
+ FR bnd       id103500
+ FR bnd       id103514
+ FR bnd       id103528
+ FR bnd       id103542
+ FR bnd       id103552
+ FR bnd       id103558
+ FR bnd       id103572
+ FR bnd       id103586
+ FR bnd       id103600
+ FR bnd       id103614
+ FR bnd       id103624
+ FR bnd       id103630
+ FR bnd       id103644
+ FR bnd       id103658
+ FR bnd       id103672
+ FR bnd       id103682
+ FR bnd       id103688
+ FR bnd       id103702
+ FR bnd       id103716
+ FR bnd       id103730
+ FR bnd       id103744
+ FR bnd       id103758
+ FR bnd       id103772
+ FR bnd       id103786
+ FR bnd       id103796
+ FR bnd       id103802
+ FR bnd       id103816
+ FR bnd       id103830
+ FR bnd       id103844
+ FR bnd       id103854
+ FR bnd       id103860
+ FR bnd       id103874
+ FR bnd       id103888
+ FR bnd       id103902
+ FR bnd       id103916
+ FR bnd       id103930
+ FR bnd       id103944
+ FR bnd       id103954
+ FR bnd       id103960
+ FR bnd       id103974
+ FR bnd       id103988
+ FR bnd       id104002
+ FR bnd       id104016
+ FR bnd       id104030
+ FR bnd       id104044
+ FR bnd       id104054
+ FR bnd       id104060
+ FR bnd       id104074
+ FR bnd       id104088
+ FR bnd       id104098
+ FR bnd       id104104
+ FR bnd       id104118
+ FR bnd       id104128
+ FR bnd       id104134
+ FR bnd       id104148
+ FR bnd       id104162
+ FR bnd       id104176
+ FR bnd       id104186
+ FR bnd       id104192
+ FR bnd       id104206
+ FR bnd       id104220
+ FR bnd       id104234
+ FR bnd       id104244
+ FR bnd       id104250
+ FR bnd       id104264
+ FR bnd       id104274
+ FR bnd       id104280
+ FR bnd       id104294
+ FR bnd       id104304
+ FR bnd       id104310
+ FR bnd       id104324
+ FR bnd       id104338
+ FR bnd       id104352
+ FR bnd       id104366
+ FR bnd       id104380
+ FR bnd       id104390
+ FR bnd       id104396
+ FR bnd       id104410
+ FR bnd       id104424
+ FR bnd       id104438
+ FR bnd       id104452
+ FR bnd       id104462
+ FR bnd       id104468
+ FR bnd       id104482
+ FR bnd       id104496
+ FR bnd       id104510
+ FR bnd       id104524
+ FR bnd       id104534
+ FR bnd       id104540
+ FR bnd       id104554
+ FR bnd       id104568
+ FR bnd       id104582
+ FR bnd       id104596
+ FR bnd       id104606
+ FR bnd       id104612
+ FR bnd       id104626
+ FR bnd       id104640
+ FR bnd       id104654
+ FR bnd       id104668
+ FR bnd       id104678
+ FR bnd       id104684
+ FR bnd       id104698
+ FR bnd       id104708
+ FR bnd       id104714
+ FR bnd       id104728
+ FR bnd       id104742
+ FR bnd       id104752
+ FR bnd       id104758
+ FR bnd       id104772
+ FR bnd       id104786
+ FR bnd       id104800
+ FR bnd       id104814
+ FR bnd       id104824
+ FR bnd       id104830
+ FR bnd       id104844
+ FR bnd       id104858
+ FR bnd       id104872
+ FR bnd       id104886
+ FR bnd       id104896
+ FR bnd       id104902
+ FR bnd       id104916
+ FR bnd       id104930
+ FR bnd       id104944
+ FR bnd       id104954
+ FR bnd       id104960
+ FR bnd       id104974
+ FR bnd       id104984
+ FR bnd       id104990
+ FR bnd       id105004
+ FR bnd       id105018
+ FR bnd       id105032
+ FR bnd       id105042
+ FR bnd       id105048
+ FR bnd       id105062
+ FR bnd       id105076
+ FR bnd       id105090
+ FR bnd       id105104
+ FR bnd       id105114
+ FR bnd       id105120
+ FR bnd       id105134
+ FR bnd       id105148
+ FR bnd       id105162
+ FR bnd       id105172
+ FR bnd       id105178
+ FR bnd       id105192
+ FR bnd       id105206
+ FR bnd       id105220
+ FR bnd       id105230
+ FR bnd       id105236
+ FR bnd       id105250
+ FR bnd       id105264
+ FR bnd       id105278
+ FR bnd       id105292
+ FR bnd       id105302
+ FR bnd       id105308
+ FR bnd       id105322
+ FR bnd       id105336
+ FR bnd       id105350
+ FR bnd       id105364
+ FR bnd       id105378
+ FR bnd       id105392
+ FR bnd       id105402
+ FR bnd       id105408
+ FR bnd       id105422
+ FR bnd       id105436
+ FR bnd       id105450
+ FR bnd       id105460
+ FR bnd       id105466
+ FR bnd       id105480
+ FR bnd       id105494
+ FR bnd       id105508
+ FR bnd       id105522
+ FR bnd       id105532
+ FR bnd       id105538
+ FR bnd       id105552
+ FR bnd       id105562
+ FR bnd       id105568
+ FR bnd       id105582
+ FR bnd       id105596
+ FR bnd       id105610
+ FR bnd       id105624
+ FR bnd       id105638
+ FR bnd       id105652
+ FR bnd       id105662
+ FR bnd       id105668
+ FR bnd       id105682
+ FR bnd       id105696
+ FR bnd       id105706
+ FR bnd       id105712
+ FR bnd       id105726
+ FR bnd       id105740
+ FR bnd       id105754
+ FR bnd       id105768
+ FR bnd       id105778
+ FR bnd       id105784
+ FR bnd       id105798
+ FR bnd       id105812
+ FR bnd       id105822
+ FR bnd       id105828
+ FR bnd       id105842
+ FR bnd       id105856
+ FR bnd       id105870
+ FR bnd       id105884
+ FR bnd       id105894
+ FR bnd       id105900
+ FR bnd       id105914
+ FR bnd       id105928
+ FR bnd       id105942
+ FR bnd       id105952
+ FR bnd       id105958
+ FR bnd       id105972
+ FR bnd       id105982
+ FR bnd       id105988
+ FR bnd       id106002
+ FR bnd       id106016
+ FR bnd       id106030
+ FR bnd       id106044
+ FR bnd       id106058
+ FR bnd       id106068
+ FR bnd       id106074
+ FR bnd       id106088
+ FR bnd       id106102
+ FR bnd       id106116
+ FR bnd       id106126
+ FR bnd       id106132
+ FR bnd       id106146
+ FR bnd       id106160
+ FR bnd       id106174
+ FR bnd       id106184
+ FR bnd       id106190
+ FR bnd       id106204
+ FR bnd       id106218
+ FR bnd       id106232
+ FR bnd       id106246
+ FR bnd       id106260
+ FR bnd       id106270
+ FR bnd       id106276
+ FR bnd       id106290
+ FR bnd       id106304
+ FR bnd       id106318
+ FR bnd       id106328
+ FR bnd       id106334
+ FR bnd       id106348
+ FR bnd       id106362
+ FR bnd       id106376
+ FR bnd       id106386
+ FR bnd       id106392
+ FR bnd       id106406
+ FR bnd       id106420
+ FR bnd       id106434
+ FR bnd       id106448
+ FR bnd       id106458
+ FR bnd       id106464
+ FR bnd       id106478
+ FR bnd       id106492
+ FR bnd       id106506
+ FR bnd       id106520
+ FR bnd       id106534
+ FR bnd       id106548
+ FR bnd       id106562
+ FR bnd       id106572
+ FR bnd       id106578
+ FR bnd       id106592
+ FR bnd       id106606
+ FR bnd       id106620
+ FR bnd       id106630
+ FR bnd       id106636
+ FR bnd       id106650
+ FR bnd       id106664
+ FR bnd       id106678
+ FR bnd       id106692
+ FR bnd       id106706
+ FR bnd       id106720
+ FR bnd       id106734
+ FR bnd       id106744
+ FR bnd       id106750
+ FR bnd       id106764
+ FR bnd       id106778
+ FR bnd       id106792
+ FR bnd       id106806
+ FR bnd       id106820
+ FR bnd       id106830
+ FR bnd       id106836
+ FR bnd       id106850
+ FR bnd       id106864
+ FR bnd       id106878
+ FR bnd       id106892
+ FR bnd       id106902
+ FR bnd       id106908
+ FR bnd       id106922
+ FR bnd       id106936
+ FR bnd       id106950
+ FR bnd       id106960
+ FR bnd       id106966
+ FR bnd       id106980
+ FR bnd       id106994
+ FR bnd       id107008
+ FR bnd       id107018
+ FR bnd       id107024
+ FR bnd       id107038
+ FR bnd       id107052
+ FR bnd       id107066
+ FR bnd       id107080
+ FR bnd       id107094
+ FR bnd       id107104
+ FR bnd       id107110
+ FR bnd       id107124
+ FR bnd       id107138
+ FR bnd       id107148
+ FR bnd       id107154
+ FR bnd       id107168
+ FR bnd       id107182
+ FR bnd       id107196
+ FR bnd       id107210
+ FR bnd       id107220
+ FR bnd       id107226
+ FR bnd       id107240
+ FR bnd       id107254
+ FR bnd       id107268
+ FR bnd       id107282
+ FR bnd       id107296
+ FR bnd       id107306
+ FR bnd       id107312
+ FR bnd       id107326
+ FR bnd       id107340
+ FR bnd       id107354
+ FR bnd       id107368
+ FR bnd       id107378
+ FR bnd       id107384
+ FR bnd       id107398
+ FR bnd       id107412
+ FR bnd       id107426
+ FR bnd       id107440
+ FR bnd       id107450
+ FR bnd       id107456
+ FR bnd       id107470
+ FR bnd       id107484
+ FR bnd       id107498
+ FR bnd       id107512
+ FR bnd       id107522
+ FR bnd       id107528
+ FR bnd       id107542
+ FR bnd       id107556
+ FR bnd       id107566
+ FR bnd       id107572
+ FR bnd       id107586
+ FR bnd       id107600
+ FR bnd       id107614
+ FR bnd       id107628
+ FR bnd       id107642
+ FR bnd       id107652
+ FR bnd       id107658
+ FR bnd       id107672
+ FR bnd       id107686
+ FR bnd       id107700
+ FR bnd       id107714
+ FR bnd       id107728
+ FR bnd       id107742
+ FR bnd       id107756
+ FR bnd       id107766
+ FR bnd       id107772
+ FR bnd       id107786
+ FR bnd       id107796
+ FR bnd       id107802
+ FR bnd       id107816
+ FR bnd       id107830
+ FR bnd       id107844
+ FR bnd       id107858
+ FR bnd       id107868
+ FR bnd       id107874
+ FR bnd       id107888
+ FR bnd       id107902
+ FR bnd       id107916
+ FR bnd       id107930
+ FR bnd       id107940
+ FR bnd       id107946
+ FR bnd       id107960
+ FR bnd       id107974
+ FR bnd       id107988
+ FR bnd       id108002
+ FR bnd       id108012
+ FR bnd       id108018
+ FR bnd       id108032
+ FR bnd       id108046
+ FR bnd       id108060
+ FR bnd       id108074
+ FR bnd       id108084
+ FR bnd       id108090
+ FR bnd       id108104
+ FR bnd       id108118
+ FR bnd       id108128
+ FR bnd       id108134
+ FR bnd       id108148
+ FR bnd       id108162
+ FR bnd       id108176
+ FR bnd       id108186
+ FR bnd       id108192
+ FR bnd       id108206
+ FR bnd       id108220
+ FR bnd       id108234
+ FR bnd       id108244
+ FR bnd       id108250
+ FR bnd       id108264
+ FR bnd       id108278
+ FR bnd       id108292
+ FR bnd       id108306
+ FR bnd       id108320
+ FR bnd       id108334
+ FR bnd       id108348
+ FR bnd       id108362
+ FR bnd       id108372
+ FR bnd       id108378
+ FR bnd       id108392
+ FR bnd       id108406
+ FR bnd       id108420
+ FR bnd       id108434
+ FR bnd       id108444
+ FR bnd       id108450
+ FR bnd       id108464
+ FR bnd       id108478
+ FR bnd       id108492
+ FR bnd       id108506
+ FR bnd       id108516
+ FR bnd       id108522
+ FR bnd       id108536
+ FR bnd       id108550
+ FR bnd       id108564
+ FR bnd       id108578
+ FR bnd       id108592
+ FR bnd       id108606
+ FR bnd       id108616
+ FR bnd       id108622
+ FR bnd       id108636
+ FR bnd       id108650
+ FR bnd       id108664
+ FR bnd       id108678
+ FR bnd       id108688
+ FR bnd       id108694
+ FR bnd       id108708
+ FR bnd       id108722
+ FR bnd       id108736
+ FR bnd       id108746
+ FR bnd       id108752
+ FR bnd       id108766
+ FR bnd       id108780
+ FR bnd       id108790
+ FR bnd       id108796
+ FR bnd       id108810
+ FR bnd       id108820
+ FR bnd       id108826
+ FR bnd       id108840
+ FR bnd       id108854
+ FR bnd       id108868
+ FR bnd       id108878
+ FR bnd       id108884
+ FR bnd       id108898
+ FR bnd       id108912
+ FR bnd       id108926
+ FR bnd       id108940
+ FR bnd       id108950
+ FR bnd       id108956
+ FR bnd       id108970
+ FR bnd       id108984
+ FR bnd       id108998
+ FR bnd       id109012
+ FR bnd       id109026
+ FR bnd       id109036
+ FR bnd       id109042
+ FR bnd       id109056
+ FR bnd       id109070
+ FR bnd       id109084
+ FR bnd       id109094
+ FR bnd       id109100
+ FR bnd       id109114
+ FR bnd       id109128
+ FR bnd       id109142
+ FR bnd       id109156
+ FR bnd       id109170
+ FR bnd       id109184
+ FR bnd       id109194
+ FR bnd       id109200
+ FR bnd       id109214
+ FR bnd       id109224
+ FR bnd       id109230
+ FR bnd       id109244
+ FR bnd       id109258
+ FR bnd       id109272
+ FR bnd       id109286
+ FR bnd       id109300
+ FR bnd       id109310
+ FR bnd       id109316
+ FR bnd       id109330
+ FR bnd       id109344
+ FR bnd       id109358
+ FR bnd       id109372
+ FR bnd       id109382
+ FR bnd       id109388
+ FR bnd       id109402
+ FR bnd       id109416
+ FR bnd       id109430
+ FR bnd       id109444
+ FR bnd       id109458
+ FR bnd       id109468
+ FR bnd       id109474
+ FR bnd       id109488
+ FR bnd       id109502
+ FR bnd       id109516
+ FR bnd       id109530
+ FR bnd       id109544
+ FR bnd       id109554
+ FR bnd       id109560
+ FR bnd       id109574
+ FR bnd       id109584
+ FR bnd       id109590
+ FR bnd       id109604
+ FR bnd       id109618
+ FR bnd       id109632
+ FR bnd       id109642
+ FR bnd       id109648
+ FR bnd       id109662
+ FR bnd       id109676
+ FR bnd       id109690
+ FR bnd       id109704
+ FR bnd       id109718
+ FR bnd       id109732
+ FR bnd       id109742
+ FR bnd       id109748
+ FR bnd       id109762
+ FR bnd       id109776
+ FR bnd       id109790
+ FR bnd       id109804
+ FR bnd       id109814
+ FR bnd       id109820
+ FR bnd       id109834
+ FR bnd       id109848
+ FR bnd       id109862
+ FR bnd       id109876
+ FR bnd       id109890
+ FR bnd       id109904
+ FR bnd       id109918
+ FR bnd       id109928
+ FR bnd       id109934
+ FR bnd       id109948
+ FR bnd       id109958
+ FR bnd       id109964
+ FR bnd       id109978
+ FR bnd       id109992
+ FR bnd       id110002
+ FR bnd       id110008
+ FR bnd       id110022
+ FR bnd       id110036
+ FR bnd       id110050
+ FR bnd       id110060
+ FR bnd       id110066
+ FR bnd       id110080
+ FR bnd       id110094
+ FR bnd       id110108
+ FR bnd       id110122
+ FR bnd       id110136
+ FR bnd       id110150
+ FR bnd       id110160
+ FR bnd       id110166
+ FR bnd       id110180
+ FR bnd       id110194
+ FR bnd       id110208
+ FR bnd       id110222
+ FR bnd       id110236
+ FR bnd       id110246
+ FR bnd       id110252
+ FR bnd       id110266
+ FR bnd       id110280
+ FR bnd       id110294
+ FR bnd       id110308
+ FR bnd       id110318
+ FR bnd       id110324
+ FR bnd       id110338
+ FR bnd       id110352
+ FR bnd       id110362
+ FR bnd       id110368
+ FR bnd       id110382
+ FR bnd       id110396
+ FR bnd       id110410
+ FR bnd       id110424
+ FR bnd       id110438
+ FR bnd       id110448
+ FR bnd       id110454
+ FR bnd       id110468
+ FR bnd       id110482
+ FR bnd       id110496
+ FR bnd       id110510
+ FR bnd       id110524
+ FR bnd       id110534
+ FR bnd       id110540
+ FR bnd       id110554
+ FR bnd       id110568
+ FR bnd       id110578
+ FR bnd       id110584
+ FR bnd       id110598
+ FR bnd       id110612
+ FR bnd       id110626
+ FR bnd       id110640
+ FR bnd       id110650
+ FR bnd       id110656
+ FR bnd       id110670
+ FR bnd       id110684
+ FR bnd       id110698
+ FR bnd       id110712
+ FR bnd       id110722
+ FR bnd       id110728
+ FR bnd       id110742
+ FR bnd       id110756
+ FR bnd       id110770
+ FR bnd       id110784
+ FR bnd       id110798
+ FR bnd       id110808
+ FR bnd       id110814
+ FR bnd       id110828
+ FR bnd       id110838
+ FR bnd       id110844
+ FR bnd       id110858
+ FR bnd       id110872
+ FR bnd       id110886
+ FR bnd       id110900
+ FR bnd       id110914
+ FR bnd       id110928
+ FR bnd       id110938
+ FR bnd       id110944
+ FR bnd       id110958
+ FR bnd       id110972
+ FR bnd       id110986
+ FR bnd       id111000
+ FR bnd       id111010
+ FR bnd       id111016
+ FR bnd       id111030
+ FR bnd       id111044
+ FR bnd       id111058
+ FR bnd       id111072
+ FR bnd       id111082
+ FR bnd       id111088
+ FR bnd       id111102
+ FR bnd       id111116
+ FR bnd       id111130
+ FR bnd       id111144
+ FR bnd       id111154
+ FR bnd       id111160
+ FR bnd       id111174
+ FR bnd       id111188
+ FR bnd       id111202
+ FR bnd       id111216
+ FR bnd       id111230
+ FR bnd       id111240
+ FR bnd       id111246
+ FR bnd       id111260
+ FR bnd       id111274
+ FR bnd       id111288
+ FR bnd       id111302
+ FR bnd       id111316
+ FR bnd       id111326
+ FR bnd       id111332
+ FR bnd       id111346
+ FR bnd       id111360
+ FR bnd       id111374
+ FR bnd       id111384
+ FR bnd       id111390
+ FR bnd       id111404
+ FR bnd       id111418
+ FR bnd       id111432
+ FR bnd       id111446
+ FR bnd       id111460
+ FR bnd       id111474
+ FR bnd       id111484
+ FR bnd       id111490
+ FR bnd       id111504
+ FR bnd       id111518
+ FR bnd       id111532
+ FR bnd       id111546
+ FR bnd       id111556
+ FR bnd       id111562
+ FR bnd       id111576
+ FR bnd       id111590
+ FR bnd       id111604
+ FR bnd       id111618
+ FR bnd       id111628
+ FR bnd       id111634
+ FR bnd       id111648
+ FR bnd       id111662
+ FR bnd       id111676
+ FR bnd       id111690
+ FR bnd       id111704
+ FR bnd       id111718
+ FR bnd       id111728
+ FR bnd       id111734
+ FR bnd       id111748
+ FR bnd       id111762
+ FR bnd       id111776
+ FR bnd       id111790
+ FR bnd       id111800
+ FR bnd       id111806
+ FR bnd       id111820
+ FR bnd       id111834
+ FR bnd       id111848
+ FR bnd       id111862
+ FR bnd       id111872
+ FR bnd       id111878
+ FR bnd       id111892
+ FR bnd       id111906
+ FR bnd       id111920
+ FR bnd       id111930
+ FR bnd       id111936
+ FR bnd       id111950
+ FR bnd       id111964
+ FR bnd       id111978
+ FR bnd       id111988
+ FR bnd       id111994
+ FR bnd       id112008
+ FR bnd       id112022
+ FR bnd       id112036
+ FR bnd       id112050
+ FR bnd       id112060
+ FR bnd       id112066
+ FR bnd       id112080
+ FR bnd       id112094
+ FR bnd       id112104
+ FR bnd       id112110
+ FR bnd       id112124
+ FR bnd       id112138
+ FR bnd       id112152
+ FR bnd       id112166
+ FR bnd       id112180
+ FR bnd       id112190
+ FR bnd       id112196
+ FR bnd       id112210
+ FR bnd       id112224
+ FR bnd       id112238
+ FR bnd       id112248
+ FR bnd       id112254
+ FR bnd       id112268
+ FR bnd       id112282
+ FR bnd       id112296
+ FR bnd       id112310
+ FR bnd       id112320
+ FR bnd       id112326
+ FR bnd       id112340
+ FR bnd       id112354
+ FR bnd       id112368
+ FR bnd       id112382
+ FR bnd       id112396
+ FR bnd       id112406
+ FR bnd       id112412
+ FR bnd       id112426
+ FR bnd       id112440
+ FR bnd       id112454
+ FR bnd       id112468
+ FR bnd       id112478
+ FR bnd       id112484
+ FR bnd       id112498
+ FR bnd       id112512
+ FR bnd       id112526
+ FR bnd       id112536
+ FR bnd       id112542
+ FR bnd       id112556
+ FR bnd       id112570
+ FR bnd       id112584
+ FR bnd       id112598
+ FR bnd       id112612
+ FR bnd       id112626
+ FR bnd       id112640
+ FR bnd       id112650
+ FR bnd       id112656
+ FR bnd       id112670
+ FR bnd       id112684
+ FR bnd       id112698
+ FR bnd       id112708
+ FR bnd       id112714
+ FR bnd       id112728
+ FR bnd       id112742
+ FR bnd       id112752
+ FR bnd       id112758
+ FR bnd       id112772
+ FR bnd       id112786
+ FR bnd       id112800
+ FR bnd       id112810
+ FR bnd       id112816
+ FR bnd       id112830
+ FR bnd       id112844
+ FR bnd       id112858
+ FR bnd       id112872
+ FR bnd       id112886
+ FR bnd       id112896
+ FR bnd       id112902
+ FR bnd       id112916
+ FR bnd       id112930
+ FR bnd       id112944
+ FR bnd       id112954
+ FR bnd       id112960
+ FR bnd       id112974
+ FR bnd       id112988
+ FR bnd       id113002
+ FR bnd       id113016
+ FR bnd       id113026
+ FR bnd       id113032
+ FR bnd       id113046
+ FR bnd       id113060
+ FR bnd       id113074
+ FR bnd       id113084
+ FR bnd       id113090
+ FR bnd       id113104
+ FR bnd       id113118
+ FR bnd       id113132
+ FR bnd       id113142
+ FR bnd       id113148
+ FR bnd       id113162
+ FR bnd       id113176
+ FR bnd       id113190
+ FR bnd       id113200
+ FR bnd       id113206
+ FR bnd       id113220
+ FR bnd       id113234
+ FR bnd       id113248
+ FR bnd       id113262
+ FR bnd       id113272
+ FR bnd       id113278
+ FR bnd       id113292
+ FR bnd       id113306
+ FR bnd       id113320
+ FR bnd       id113330
+ FR bnd       id113336
+ FR bnd       id113350
+ FR bnd       id113364
+ FR bnd       id113378
+ FR bnd       id113392
+ FR bnd       id113402
+ FR bnd       id113408
+ FR bnd       id113422
+ FR bnd       id113436
+ FR bnd       id113450
+ FR bnd       id113460
+ FR bnd       id113466
+ FR bnd       id113480
+ FR bnd       id113494
+ FR bnd       id113508
+ FR bnd       id113522
+ FR bnd       id113536
+ FR bnd       id113546
+ FR bnd       id113552
+ FR bnd       id113566
+ FR bnd       id113580
+ FR bnd       id113594
+ FR bnd       id113604
+ FR bnd       id113610
+ FR bnd       id113624
+ FR bnd       id113638
+ FR bnd       id113652
+ FR bnd       id113666
+ FR bnd       id113676
+ FR bnd       id113682
+ FR bnd       id113696
+ FR bnd       id113710
+ FR bnd       id113720
+ FR bnd       id113726
+ FR bnd       id113740
+ FR bnd       id113754
+ FR bnd       id113768
+ FR bnd       id113782
+ FR bnd       id113796
+ FR bnd       id113806
+ FR bnd       id113812
+ FR bnd       id113826
+ FR bnd       id113840
+ FR bnd       id113854
+ FR bnd       id113868
+ FR bnd       id113878
+ FR bnd       id113884
+ FR bnd       id113898
+ FR bnd       id113912
+ FR bnd       id113926
+ FR bnd       id113940
+ FR bnd       id113950
+ FR bnd       id113956
+ FR bnd       id113970
+ FR bnd       id113984
+ FR bnd       id113998
+ FR bnd       id114012
+ FR bnd       id114026
+ FR bnd       id114040
+ FR bnd       id114054
+ FR bnd       id114064
+ FR bnd       id114070
+ FR bnd       id114084
+ FR bnd       id114098
+ FR bnd       id114112
+ FR bnd       id114126
+ FR bnd       id114140
+ FR bnd       id114154
+ FR bnd       id114164
+ FR bnd       id114170
+ FR bnd       id114184
+ FR bnd       id114198
+ FR bnd       id114212
+ FR bnd       id114226
+ FR bnd       id114240
+ FR bnd       id114254
+ FR bnd       id114268
+ FR bnd       id114278
+ FR bnd       id114284
+ FR bnd       id114298
+ FR bnd       id114312
+ FR bnd       id114326
+ FR bnd       id114340
+ FR bnd       id114354
+ FR bnd       id114368
+ FR bnd       id114382
+ FR bnd       id114392
+ FR bnd       id114398
+ FR bnd       id114412
+ FR bnd       id114426
+ FR bnd       id114440
+ FR bnd       id114450
+ FR bnd       id114456
+ FR bnd       id114470
+ FR bnd       id114484
+ FR bnd       id114494
+ FR bnd       id114500
+ FR bnd       id114514
+ FR bnd       id114528
+ FR bnd       id114542
+ FR bnd       id114552
+ FR bnd       id114558
+ FR bnd       id114572
+ FR bnd       id114586
+ FR bnd       id114600
+ FR bnd       id114614
+ FR bnd       id114628
+ FR bnd       id114638
+ FR bnd       id114644
+ FR bnd       id114658
+ FR bnd       id114672
+ FR bnd       id114686
+ FR bnd       id114696
+ FR bnd       id114702
+ FR bnd       id114716
+ FR bnd       id114730
+ FR bnd       id114744
+ FR bnd       id114758
+ FR bnd       id114768
+ FR bnd       id114774
+ FR bnd       id114788
+ FR bnd       id114798
+ FR bnd       id114804
+ FR bnd       id114818
+ FR bnd       id114832
+ FR bnd       id114846
+ FR bnd       id114860
+ FR bnd       id114874
+ FR bnd       id114888
+ FR bnd       id114898
+ FR bnd       id114904
+ FR bnd       id114918
+ FR bnd       id114928
+ FR bnd       id114934
+ FR bnd       id114948
+ FR bnd       id114962
+ FR bnd       id114976
+ FR bnd       id114986
+ FR bnd       id114992
+ FR bnd       id115006
+ FR bnd       id115020
+ FR bnd       id115034
+ FR bnd       id115048
+ FR bnd       id115062
+ FR bnd       id115072
+ FR bnd       id115078
+ FR bnd       id115092
+ FR bnd       id115106
+ FR bnd       id115120
+ FR bnd       id115134
+ FR bnd       id115144
+ FR bnd       id115150
+ FR bnd       id115164
+ FR bnd       id115178
+ FR bnd       id115192
+ FR bnd       id115206
+ FR bnd       id115216
+ FR bnd       id115222
+ FR bnd       id115236
+ FR bnd       id115250
+ FR bnd       id115264
+ FR bnd       id115278
+ FR bnd       id115292
+ FR bnd       id115306
+ FR bnd       id115316
+ FR bnd       id115322
+ FR bnd       id115336
+ FR bnd       id115350
+ FR bnd       id115360
+ FR bnd       id115366
+ FR bnd       id115380
+ FR bnd       id115394
+ FR bnd       id115408
+ FR bnd       id115422
+ FR bnd       id115436
+ FR bnd       id115450
+ FR bnd       id115460
+ FR bnd       id115466
+ FR bnd       id115480
+ FR bnd       id115494
+ FR bnd       id115508
+ FR bnd       id115518
+ FR bnd       id115524
+ FR bnd       id115538
+ FR bnd       id115552
+ FR bnd       id115562
+ FR bnd       id115568
+ FR bnd       id115582
+ FR bnd       id115596
+ FR bnd       id115610
+ FR bnd       id115624
+ FR bnd       id115638
+ FR bnd       id115652
+ FR bnd       id115666
+ FR bnd       id115676
+ FR bnd       id115682
+ FR bnd       id115696
+ FR bnd       id115710
+ FR bnd       id115724
+ FR bnd       id115738
+ FR bnd       id115752
+ FR bnd       id115762
+ FR bnd       id115768
+ FR bnd       id115782
+ FR bnd       id115796
+ FR bnd       id115810
+ FR bnd       id115820
+ FR bnd       id115826
+ FR bnd       id115840
+ FR bnd       id115854
+ FR bnd       id115864
+ FR bnd       id115870
+ FR bnd       id115884
+ FR bnd       id115898
+ FR bnd       id115912
+ FR bnd       id115922
+ FR bnd       id115928
+ FR bnd       id115942
+ FR bnd       id115956
+ FR bnd       id115966
+ FR bnd       id115972
+ FR bnd       id115986
+ FR bnd       id116000
+ FR bnd       id116014
+ FR bnd       id116028
+ FR bnd       id116042
+ FR bnd       id116052
+ FR bnd       id116058
+ FR bnd       id116072
+ FR bnd       id116086
+ FR bnd       id116100
+ FR bnd       id116114
+ FR bnd       id116128
+ FR bnd       id116138
+ FR bnd       id116144
+ FR bnd       id116158
+ FR bnd       id116168
+ FR bnd       id116174
+ FR bnd       id116188
+ FR bnd       id116202
+ FR bnd       id116216
+ FR bnd       id116226
+ FR bnd       id116232
+ FR bnd       id116246
+ FR bnd       id116256
+ FR bnd       id116262
+ FR bnd       id116276
+ FR bnd       id116290
+ FR bnd       id116304
+ FR bnd       id116318
+ FR bnd       id116332
+ FR bnd       id116342
+ FR bnd       id116348
+ FR bnd       id116362
+ FR bnd       id116376
+ FR bnd       id116390
+ FR bnd       id116404
+ FR bnd       id116418
+ FR bnd       id116428
+ FR bnd       id116434
+ FR bnd       id116448
+ FR bnd       id116462
+ FR bnd       id116476
+ FR bnd       id116490
+ FR bnd       id116500
+ FR bnd       id116506
+ FR bnd       id116520
+ FR bnd       id116534
+ FR bnd       id116548
+ FR bnd       id116562
+ FR bnd       id116572
+ FR bnd       id116578
+ FR bnd       id116592
+ FR bnd       id116602
+ FR bnd       id116608
+ FR bnd       id116622
+ FR bnd       id116636
+ FR bnd       id116650
+ FR bnd       id116664
+ FR bnd       id116678
+ FR bnd       id116692
+ FR bnd       id116702
+ FR bnd       id116708
+ FR bnd       id116722
+ FR bnd       id116736
+ FR bnd       id116746
+ FR bnd       id116752
+ FR bnd       id116766
+ FR bnd       id116780
+ FR bnd       id116794
+ FR bnd       id116808
+ FR bnd       id116822
+ FR bnd       id116832
+ FR bnd       id116838
+ FR bnd       id116852
+ FR bnd       id116866
+ FR bnd       id116880
+ FR bnd       id116894
+ FR bnd       id116904
+ FR bnd       id116910
+ FR bnd       id116924
+ FR bnd       id116938
+ FR bnd       id116952
+ FR bnd       id116962
+ FR bnd       id116968
+ FR bnd       id116982
+ FR bnd       id116992
+ FR bnd       id116998
+ FR bnd       id117012
+ FR bnd       id117026
+ FR bnd       id117040
+ FR bnd       id117054
+ FR bnd       id117068
+ FR bnd       id117078
+ FR bnd       id117084
+ FR bnd       id117098
+ FR bnd       id117112
+ FR bnd       id117126
+ FR bnd       id117136
+ FR bnd       id117142
+ FR bnd       id117156
+ FR bnd       id117170
+ FR bnd       id117184
+ FR bnd       id117198
+ FR bnd       id117212
+ FR bnd       id117222
+ FR bnd       id117228
+ FR bnd       id117242
+ FR bnd       id117252
+ FR bnd       id117258
+ FR bnd       id117272
+ FR bnd       id117286
+ FR bnd       id117300
+ FR bnd       id117314
+ FR bnd       id117324
+ FR bnd       id117330
+ FR bnd       id117344
+ FR bnd       id117358
+ FR bnd       id117372
+ FR bnd       id117382
+ FR bnd       id117388
+ FR bnd       id117402
+ FR bnd       id117416
+ FR bnd       id117430
+ FR bnd       id117440
+ FR bnd       id117446
+ FR bnd       id117460
+ FR bnd       id117474
+ FR bnd       id117484
+ FR bnd       id117490
+ FR bnd       id117504
+ FR bnd       id117518
+ FR bnd       id117532
+ FR bnd       id117546
+ FR bnd       id117556
+ FR bnd       id117562
+ FR bnd       id117576
+ FR bnd       id117590
+ FR bnd       id117604
+ FR bnd       id117618
+ FR bnd       id117632
+ FR bnd       id117642
+ FR bnd       id117648
+ FR bnd       id117662
+ FR bnd       id117676
+ FR bnd       id117690
+ FR bnd       id117700
+ FR bnd       id117706
+ FR bnd       id117720
+ FR bnd       id117734
+ FR bnd       id117748
+ FR bnd       id117758
+ FR bnd       id117764
+ FR bnd       id117778
+ FR bnd       id117792
+ FR bnd       id117806
+ FR bnd       id117820
+ FR bnd       id117834
+ FR bnd       id117844
+ FR bnd       id117850
+ FR bnd       id117864
+ FR bnd       id117878
+ FR bnd       id117892
+ FR bnd       id117906
+ FR bnd       id117916
+ FR bnd       id117922
+ FR bnd       id117936
+ FR bnd       id117950
+ FR bnd       id117964
+ FR bnd       id117978
+ FR bnd       id117988
+ FR bnd       id117994
+ FR bnd       id118008
+ FR bnd       id118022
+ FR bnd       id118036
+ FR bnd       id118046
+ FR bnd       id118052
+ FR bnd       id118066
+ FR bnd       id118080
+ FR bnd       id118094
+ FR bnd       id118108
+ FR bnd       id118118
+ FR bnd       id118124
+ FR bnd       id118138
+ FR bnd       id118152
+ FR bnd       id118166
+ FR bnd       id118180
+ FR bnd       id118194
+ FR bnd       id118204
+ FR bnd       id118210
+ FR bnd       id118224
+ FR bnd       id118238
+ FR bnd       id118252
+ FR bnd       id118266
+ FR bnd       id118280
+ FR bnd       id118294
+ FR bnd       id118308
+ FR bnd       id118318
+ FR bnd       id118324
+ FR bnd       id118338
+ FR bnd       id118352
+ FR bnd       id118366
+ FR bnd       id118380
+ FR bnd       id118390
+ FR bnd       id118396
+ FR bnd       id118410
+ FR bnd       id118424
+ FR bnd       id118434
+ FR bnd       id118440
+ FR bnd       id118454
+ FR bnd       id118468
+ FR bnd       id118482
+ FR bnd       id118496
+ FR bnd       id118506
+ FR bnd       id118512
+ FR bnd       id118526
+ FR bnd       id118540
+ FR bnd       id118554
+ FR bnd       id118564
+ FR bnd       id118570
+ FR bnd       id118584
+ FR bnd       id118598
+ FR bnd       id118612
+ FR bnd       id118626
+ FR bnd       id118640
+ FR bnd       id118654
+ FR bnd       id118668
+ FR bnd       id118682
+ FR bnd       id118692
+ FR bnd       id118698
+ FR bnd       id118712
+ FR bnd       id118726
+ FR bnd       id118740
+ FR bnd       id118750
+ FR bnd       id118756
+ FR bnd       id118770
+ FR bnd       id118780
+ FR bnd       id118786
+ FR bnd       id118800
+ FR bnd       id118814
+ FR bnd       id118828
+ FR bnd       id118838
+ FR bnd       id118844
+ FR bnd       id118858
+ FR bnd       id118872
+ FR bnd       id118886
+ FR bnd       id118896
+ FR bnd       id118902
+ FR bnd       id118916
+ FR bnd       id118930
+ FR bnd       id118944
+ FR bnd       id118954
+ FR bnd       id118960
+ FR bnd       id118974
+ FR bnd       id118988
+ FR bnd       id119002
+ FR bnd       id119016
+ FR bnd       id119026
+ FR bnd       id119032
+ FR bnd       id119046
+ FR bnd       id119060
+ FR bnd       id119074
+ FR bnd       id119088
+ FR bnd       id119102
+ FR bnd       id119112
+ FR bnd       id119118
+ FR bnd       id119132
+ FR bnd       id119146
+ FR bnd       id119160
+ FR bnd       id119174
+ FR bnd       id119188
+ FR bnd       id119202
+ FR bnd       id119216
+ FR bnd       id119226
+ FR bnd       id119232
+ FR bnd       id119246
+ FR bnd       id119256
+ FR bnd       id119262
+ FR bnd       id119276
+ FR bnd       id119290
+ FR bnd       id119300
+ FR bnd       id119306
+ FR bnd       id119320
+ FR bnd       id119334
+ FR bnd       id119348
+ FR bnd       id119362
+ FR bnd       id119376
+ FR bnd       id119386
+ FR bnd       id119392
+ FR bnd       id119406
+ FR bnd       id119420
+ FR bnd       id119430
+ FR bnd       id119436
+ FR bnd       id119450
+ FR bnd       id119464
+ FR bnd       id119478
+ FR bnd       id119492
+ FR bnd       id119506
+ FR bnd       id119516
+ FR bnd       id119522
+ FR bnd       id119536
+ FR bnd       id119550
+ FR bnd       id119564
+ FR bnd       id119578
+ FR bnd       id119588
+ FR bnd       id119594
+ FR bnd       id119608
+ FR bnd       id119622
+ FR bnd       id119636
+ FR bnd       id119650
+ FR bnd       id119664
+ FR bnd       id119678
+ FR bnd       id119688
+ FR bnd       id119694
+ FR bnd       id119708
+ FR bnd       id119722
+ FR bnd       id119736
+ FR bnd       id119750
+ FR bnd       id119760
+ FR bnd       id119766
+ FR bnd       id119780
+ FR bnd       id119794
+ FR bnd       id119808
+ FR bnd       id119822
+ FR bnd       id119836
+ FR bnd       id119846
+ FR bnd       id119852
+ FR bnd       id119866
+ FR bnd       id119880
+ FR bnd       id119890
+ FR bnd       id119896
+ FR bnd       id119910
+ FR bnd       id119924
+ FR bnd       id119934
+ FR bnd       id119940
+ FR bnd       id119954
+ FR bnd       id119968
+ FR bnd       id119982
+ FR bnd       id119996
+ FR bnd       id120006
+ FR bnd       id120012
+ FR bnd       id120026
+ FR bnd       id120040
+ FR bnd       id120054
+ FR bnd       id120068
+ FR bnd       id120082
+ FR bnd       id120096
+ FR bnd       id120106
+ FR bnd       id120112
+ FR bnd       id120126
+ FR bnd       id120140
+ FR bnd       id120154
+ FR bnd       id120168
+ FR bnd       id120182
+ FR bnd       id120196
+ FR bnd       id120206
+ FR bnd       id120212
+ FR bnd       id120226
+ FR bnd       id120240
+ FR bnd       id120254
+ FR bnd       id120264
+ FR bnd       id120270
+ FR bnd       id120284
+ FR bnd       id120298
+ FR bnd       id120312
+ FR bnd       id120322
+ FR bnd       id120328
+ FR bnd       id120342
+ FR bnd       id120352
+ FR bnd       id120358
+ FR bnd       id120372
+ FR bnd       id120386
+ FR bnd       id120400
+ FR bnd       id120414
+ FR bnd       id120428
+ FR bnd       id120438
+ FR bnd       id120444
+ FR bnd       id120458
+ FR bnd       id120472
+ FR bnd       id120486
+ FR bnd       id120496
+ FR bnd       id120502
+ FR bnd       id120516
+ FR bnd       id120530
+ FR bnd       id120544
+ FR bnd       id120558
+ FR bnd       id120568
+ FR bnd       id120574
+ FR bnd       id120588
+ FR bnd       id120602
+ FR bnd       id120616
+ FR bnd       id120630
+ FR bnd       id120644
+ FR bnd       id120654
+ FR bnd       id120660
+ FR bnd       id120674
+ FR bnd       id120688
+ FR bnd       id120702
+ FR bnd       id120716
+ FR bnd       id120726
+ FR bnd       id120732
+ FR bnd       id120746
+ FR bnd       id120756
+ FR bnd       id120762
+ FR bnd       id120776
+ FR bnd       id120790
+ FR bnd       id120804
+ FR bnd       id120818
+ FR bnd       id120828
+ FR bnd       id120834
+ FR bnd       id120848
+ FR bnd       id120858
+ FR bnd       id120864
+ FR bnd       id120878
+ FR bnd       id120892
+ FR bnd       id120906
+ FR bnd       id120916
+ FR bnd       id120922
+ FR bnd       id120936
+ FR bnd       id120950
+ FR bnd       id120964
+ FR bnd       id120974
+ FR bnd       id120980
+ FR bnd       id120994
+ FR bnd       id121008
+ FR bnd       id121022
+ FR bnd       id121036
+ FR bnd       id121050
+ FR bnd       id121064
+ FR bnd       id121078
+ FR bnd       id121088
+ FR bnd       id121094
+ FR bnd       id121108
+ FR bnd       id121122
+ FR bnd       id121136
+ FR bnd       id121146
+ FR bnd       id121152
+ FR bnd       id121166
+ FR bnd       id121180
+ FR bnd       id121194
+ FR bnd       id121208
+ FR bnd       id121218
+ FR bnd       id121224
+ FR bnd       id121238
+ FR bnd       id121252
+ FR bnd       id121266
+ FR bnd       id121276
+ FR bnd       id121282
+ FR bnd       id121296
+ FR bnd       id121310
+ FR bnd       id121324
+ FR bnd       id121334
+ FR bnd       id121340
+ FR bnd       id121354
+ FR bnd       id121368
+ FR bnd       id121382
+ FR bnd       id121396
+ FR bnd       id121410
+ FR bnd       id121420
+ FR bnd       id121426
+ FR bnd       id121440
+ FR bnd       id121454
+ FR bnd       id121468
+ FR bnd       id121482
+ FR bnd       id121496
+ FR bnd       id121510
+ FR bnd       id121524
+ FR bnd       id121534
+ FR bnd       id121540
+ FR bnd       id121554
+ FR bnd       id121568
+ FR bnd       id121582
+ FR bnd       id121592
+ FR bnd       id121598
+QCMATRIX   q1
+    id102141  id102141                        1
+    id102144  id102144                       -1
+    id102140  id102140                       -4
+QCMATRIX   q2
+    id102155  id102155                        1
+    id102158  id102158                       -1
+    id102154  id102154                       -4
+QCMATRIX   q3
+    id102169  id102169                        1
+    id102172  id102172                       -1
+    id102168  id102168                       -4
+QCMATRIX   q4
+    id102183  id102183                        1
+    id102186  id102186                       -1
+    id102182  id102182                       -4
+QCMATRIX   q5
+    id102197  id102197                        1
+    id102200  id102200                       -1
+    id102196  id102196                       -4
+QCMATRIX   q6
+    id102210  id102210                       -4
+    id102213  id102213                        1
+    id102216  id102216                       -1
+QCMATRIX   q7
+    id102227  id102227                        1
+    id102230  id102230                       -1
+    id102226  id102226                       -4
+QCMATRIX   q8
+    id102241  id102241                        1
+    id102244  id102244                       -1
+    id102240  id102240                       -4
+QCMATRIX   q9
+    id102255  id102255                        1
+    id102258  id102258                       -1
+    id102254  id102254                       -4
+QCMATRIX   q10
+    id102268  id102268                       -4
+    id102271  id102271                        1
+    id102274  id102274                       -1
+QCMATRIX   q11
+    id102285  id102285                        1
+    id102288  id102288                       -1
+    id102284  id102284                       -4
+QCMATRIX   q12
+    id102299  id102299                        1
+    id102302  id102302                       -1
+    id102298  id102298                       -4
+QCMATRIX   q13
+    id102313  id102313                        1
+    id102316  id102316                       -1
+    id102312  id102312                       -4
+QCMATRIX   q14
+    id102326  id102326                       -4
+    id102329  id102329                        1
+    id102332  id102332                       -1
+QCMATRIX   q15
+    id102343  id102343                        1
+    id102346  id102346                       -1
+    id102342  id102342                       -4
+QCMATRIX   q16
+    id102357  id102357                        1
+    id102360  id102360                       -1
+    id102356  id102356                       -4
+QCMATRIX   q17
+    id102371  id102371                        1
+    id102374  id102374                       -1
+    id102370  id102370                       -4
+QCMATRIX   q18
+    id102384  id102384                       -4
+    id102387  id102387                        1
+    id102390  id102390                       -1
+QCMATRIX   q19
+    id102401  id102401                        1
+    id102404  id102404                       -1
+    id102400  id102400                       -4
+QCMATRIX   q20
+    id102415  id102415                        1
+    id102418  id102418                       -1
+    id102414  id102414                       -4
+QCMATRIX   q21
+    id102429  id102429                        1
+    id102432  id102432                       -1
+    id102428  id102428                       -4
+QCMATRIX   q22
+    id102443  id102443                        1
+    id102446  id102446                       -1
+    id102442  id102442                       -4
+QCMATRIX   q23
+    id102456  id102456                       -4
+    id102459  id102459                        1
+    id102462  id102462                       -1
+QCMATRIX   q24
+    id102473  id102473                        1
+    id102476  id102476                       -1
+    id102472  id102472                       -4
+QCMATRIX   q25
+    id102487  id102487                        1
+    id102490  id102490                       -1
+    id102486  id102486                       -4
+QCMATRIX   q26
+    id102501  id102501                        1
+    id102504  id102504                       -1
+    id102500  id102500                       -4
+QCMATRIX   q27
+    id102515  id102515                        1
+    id102518  id102518                       -1
+    id102514  id102514                       -4
+QCMATRIX   q28
+    id102528  id102528                       -4
+    id102531  id102531                        1
+    id102534  id102534                       -1
+QCMATRIX   q29
+    id102545  id102545                        1
+    id102548  id102548                       -1
+    id102544  id102544                       -4
+QCMATRIX   q30
+    id102559  id102559                        1
+    id102562  id102562                       -1
+    id102558  id102558                       -4
+QCMATRIX   q31
+    id102573  id102573                        1
+    id102576  id102576                       -1
+    id102572  id102572                       -4
+QCMATRIX   q32
+    id102586  id102586                       -4
+    id102589  id102589                        1
+    id102592  id102592                       -1
+QCMATRIX   q33
+    id102603  id102603                        1
+    id102606  id102606                       -1
+    id102602  id102602                       -4
+QCMATRIX   q34
+    id102617  id102617                        1
+    id102620  id102620                       -1
+    id102616  id102616                       -4
+QCMATRIX   q35
+    id102631  id102631                        1
+    id102634  id102634                       -1
+    id102630  id102630                       -4
+QCMATRIX   q36
+    id102645  id102645                        1
+    id102648  id102648                       -1
+    id102644  id102644                       -4
+QCMATRIX   q37
+    id102659  id102659                        1
+    id102662  id102662                       -1
+    id102658  id102658                       -4
+QCMATRIX   q38
+    id102672  id102672                       -4
+    id102675  id102675                        1
+    id102678  id102678                       -1
+QCMATRIX   q39
+    id102689  id102689                        1
+    id102692  id102692                       -1
+    id102688  id102688                       -4
+QCMATRIX   q40
+    id102703  id102703                        1
+    id102706  id102706                       -1
+    id102702  id102702                       -4
+QCMATRIX   q41
+    id102717  id102717                        1
+    id102720  id102720                       -1
+    id102716  id102716                       -4
+QCMATRIX   q42
+    id102731  id102731                        1
+    id102734  id102734                       -1
+    id102730  id102730                       -4
+QCMATRIX   q43
+    id102745  id102745                        1
+    id102748  id102748                       -1
+    id102744  id102744                       -4
+QCMATRIX   q44
+    id102758  id102758                       -4
+    id102761  id102761                        1
+    id102764  id102764                       -1
+QCMATRIX   q45
+    id102775  id102775                        1
+    id102778  id102778                       -1
+    id102774  id102774                       -4
+QCMATRIX   q46
+    id102789  id102789                        1
+    id102792  id102792                       -1
+    id102788  id102788                       -4
+QCMATRIX   q47
+    id102803  id102803                        1
+    id102806  id102806                       -1
+    id102802  id102802                       -4
+QCMATRIX   q48
+    id102816  id102816                       -4
+    id102819  id102819                        1
+    id102822  id102822                       -1
+QCMATRIX   q49
+    id102833  id102833                        1
+    id102836  id102836                       -1
+    id102832  id102832                       -4
+QCMATRIX   q50
+    id102847  id102847                        1
+    id102850  id102850                       -1
+    id102846  id102846                       -4
+QCMATRIX   q51
+    id102860  id102860                       -4
+    id102863  id102863                        1
+    id102866  id102866                       -1
+QCMATRIX   q52
+    id102877  id102877                        1
+    id102880  id102880                       -1
+    id102876  id102876                       -4
+QCMATRIX   q53
+    id102891  id102891                        1
+    id102894  id102894                       -1
+    id102890  id102890                       -4
+QCMATRIX   q54
+    id102905  id102905                        1
+    id102908  id102908                       -1
+    id102904  id102904                       -4
+QCMATRIX   q55
+    id102919  id102919                        1
+    id102922  id102922                       -1
+    id102918  id102918                       -4
+QCMATRIX   q56
+    id102933  id102933                        1
+    id102936  id102936                       -1
+    id102932  id102932                       -4
+QCMATRIX   q57
+    id102946  id102946                       -4
+    id102949  id102949                        1
+    id102952  id102952                       -1
+QCMATRIX   q58
+    id102963  id102963                        1
+    id102966  id102966                       -1
+    id102962  id102962                       -4
+QCMATRIX   q59
+    id102977  id102977                        1
+    id102980  id102980                       -1
+    id102976  id102976                       -4
+QCMATRIX   q60
+    id102991  id102991                        1
+    id102994  id102994                       -1
+    id102990  id102990                       -4
+QCMATRIX   q61
+    id103004  id103004                       -4
+    id103007  id103007                        1
+    id103010  id103010                       -1
+QCMATRIX   q62
+    id103021  id103021                        1
+    id103024  id103024                       -1
+    id103020  id103020                       -4
+QCMATRIX   q63
+    id103035  id103035                        1
+    id103038  id103038                       -1
+    id103034  id103034                       -4
+QCMATRIX   q64
+    id103049  id103049                        1
+    id103052  id103052                       -1
+    id103048  id103048                       -4
+QCMATRIX   q65
+    id103063  id103063                        1
+    id103066  id103066                       -1
+    id103062  id103062                       -4
+QCMATRIX   q66
+    id103077  id103077                        1
+    id103080  id103080                       -1
+    id103076  id103076                       -4
+QCMATRIX   q67
+    id103090  id103090                       -4
+    id103093  id103093                        1
+    id103096  id103096                       -1
+QCMATRIX   q68
+    id103107  id103107                        1
+    id103110  id103110                       -1
+    id103106  id103106                       -4
+QCMATRIX   q69
+    id103121  id103121                        1
+    id103124  id103124                       -1
+    id103120  id103120                       -4
+QCMATRIX   q70
+    id103135  id103135                        1
+    id103138  id103138                       -1
+    id103134  id103134                       -4
+QCMATRIX   q71
+    id103148  id103148                       -4
+    id103151  id103151                        1
+    id103154  id103154                       -1
+QCMATRIX   q72
+    id103165  id103165                        1
+    id103168  id103168                       -1
+    id103164  id103164                       -4
+QCMATRIX   q73
+    id103179  id103179                        1
+    id103182  id103182                       -1
+    id103178  id103178                       -4
+QCMATRIX   q74
+    id103193  id103193                        1
+    id103196  id103196                       -1
+    id103192  id103192                       -4
+QCMATRIX   q75
+    id103207  id103207                        1
+    id103210  id103210                       -1
+    id103206  id103206                       -4
+QCMATRIX   q76
+    id103220  id103220                       -4
+    id103223  id103223                        1
+    id103226  id103226                       -1
+QCMATRIX   q77
+    id103237  id103237                        1
+    id103240  id103240                       -1
+    id103236  id103236                       -4
+QCMATRIX   q78
+    id103251  id103251                        1
+    id103254  id103254                       -1
+    id103250  id103250                       -4
+QCMATRIX   q79
+    id103265  id103265                        1
+    id103268  id103268                       -1
+    id103264  id103264                       -4
+QCMATRIX   q80
+    id103279  id103279                        1
+    id103282  id103282                       -1
+    id103278  id103278                       -4
+QCMATRIX   q81
+    id103292  id103292                       -4
+    id103295  id103295                        1
+    id103298  id103298                       -1
+QCMATRIX   q82
+    id103309  id103309                        1
+    id103312  id103312                       -1
+    id103308  id103308                       -4
+QCMATRIX   q83
+    id103323  id103323                        1
+    id103326  id103326                       -1
+    id103322  id103322                       -4
+QCMATRIX   q84
+    id103337  id103337                        1
+    id103340  id103340                       -1
+    id103336  id103336                       -4
+QCMATRIX   q85
+    id103350  id103350                       -4
+    id103353  id103353                        1
+    id103356  id103356                       -1
+QCMATRIX   q86
+    id103367  id103367                        1
+    id103370  id103370                       -1
+    id103366  id103366                       -4
+QCMATRIX   q87
+    id103381  id103381                        1
+    id103384  id103384                       -1
+    id103380  id103380                       -4
+QCMATRIX   q88
+    id103395  id103395                        1
+    id103398  id103398                       -1
+    id103394  id103394                       -4
+QCMATRIX   q89
+    id103409  id103409                        1
+    id103412  id103412                       -1
+    id103408  id103408                       -4
+QCMATRIX   q90
+    id103423  id103423                        1
+    id103426  id103426                       -1
+    id103422  id103422                       -4
+QCMATRIX   q91
+    id103437  id103437                        1
+    id103440  id103440                       -1
+    id103436  id103436                       -4
+QCMATRIX   q92
+    id103450  id103450                       -4
+    id103453  id103453                        1
+    id103456  id103456                       -1
+QCMATRIX   q93
+    id103467  id103467                        1
+    id103470  id103470                       -1
+    id103466  id103466                       -4
+QCMATRIX   q94
+    id103480  id103480                       -4
+    id103483  id103483                        1
+    id103486  id103486                       -1
+QCMATRIX   q95
+    id103497  id103497                        1
+    id103500  id103500                       -1
+    id103496  id103496                       -4
+QCMATRIX   q96
+    id103511  id103511                        1
+    id103514  id103514                       -1
+    id103510  id103510                       -4
+QCMATRIX   q97
+    id103525  id103525                        1
+    id103528  id103528                       -1
+    id103524  id103524                       -4
+QCMATRIX   q98
+    id103539  id103539                        1
+    id103542  id103542                       -1
+    id103538  id103538                       -4
+QCMATRIX   q99
+    id103552  id103552                       -4
+    id103555  id103555                        1
+    id103558  id103558                       -1
+QCMATRIX   q100
+    id103569  id103569                        1
+    id103572  id103572                       -1
+    id103568  id103568                       -4
+QCMATRIX   q101
+    id103583  id103583                        1
+    id103586  id103586                       -1
+    id103582  id103582                       -4
+QCMATRIX   q102
+    id103597  id103597                        1
+    id103600  id103600                       -1
+    id103596  id103596                       -4
+QCMATRIX   q103
+    id103611  id103611                        1
+    id103614  id103614                       -1
+    id103610  id103610                       -4
+QCMATRIX   q104
+    id103624  id103624                       -4
+    id103627  id103627                        1
+    id103630  id103630                       -1
+QCMATRIX   q105
+    id103641  id103641                        1
+    id103644  id103644                       -1
+    id103640  id103640                       -4
+QCMATRIX   q106
+    id103655  id103655                        1
+    id103658  id103658                       -1
+    id103654  id103654                       -4
+QCMATRIX   q107
+    id103669  id103669                        1
+    id103672  id103672                       -1
+    id103668  id103668                       -4
+QCMATRIX   q108
+    id103682  id103682                       -4
+    id103685  id103685                        1
+    id103688  id103688                       -1
+QCMATRIX   q109
+    id103699  id103699                        1
+    id103702  id103702                       -1
+    id103698  id103698                       -4
+QCMATRIX   q110
+    id103713  id103713                        1
+    id103716  id103716                       -1
+    id103712  id103712                       -4
+QCMATRIX   q111
+    id103727  id103727                        1
+    id103730  id103730                       -1
+    id103726  id103726                       -4
+QCMATRIX   q112
+    id103741  id103741                        1
+    id103744  id103744                       -1
+    id103740  id103740                       -4
+QCMATRIX   q113
+    id103755  id103755                        1
+    id103758  id103758                       -1
+    id103754  id103754                       -4
+QCMATRIX   q114
+    id103769  id103769                        1
+    id103772  id103772                       -1
+    id103768  id103768                       -4
+QCMATRIX   q115
+    id103783  id103783                        1
+    id103786  id103786                       -1
+    id103782  id103782                       -4
+QCMATRIX   q116
+    id103796  id103796                       -4
+    id103799  id103799                        1
+    id103802  id103802                       -1
+QCMATRIX   q117
+    id103813  id103813                        1
+    id103816  id103816                       -1
+    id103812  id103812                       -4
+QCMATRIX   q118
+    id103827  id103827                        1
+    id103830  id103830                       -1
+    id103826  id103826                       -4
+QCMATRIX   q119
+    id103841  id103841                        1
+    id103844  id103844                       -1
+    id103840  id103840                       -4
+QCMATRIX   q120
+    id103854  id103854                       -4
+    id103857  id103857                        1
+    id103860  id103860                       -1
+QCMATRIX   q121
+    id103871  id103871                        1
+    id103874  id103874                       -1
+    id103870  id103870                       -4
+QCMATRIX   q122
+    id103885  id103885                        1
+    id103888  id103888                       -1
+    id103884  id103884                       -4
+QCMATRIX   q123
+    id103899  id103899                        1
+    id103902  id103902                       -1
+    id103898  id103898                       -4
+QCMATRIX   q124
+    id103913  id103913                        1
+    id103916  id103916                       -1
+    id103912  id103912                       -4
+QCMATRIX   q125
+    id103927  id103927                        1
+    id103930  id103930                       -1
+    id103926  id103926                       -4
+QCMATRIX   q126
+    id103941  id103941                        1
+    id103944  id103944                       -1
+    id103940  id103940                       -4
+QCMATRIX   q127
+    id103954  id103954                       -4
+    id103957  id103957                        1
+    id103960  id103960                       -1
+QCMATRIX   q128
+    id103971  id103971                        1
+    id103974  id103974                       -1
+    id103970  id103970                       -4
+QCMATRIX   q129
+    id103985  id103985                        1
+    id103988  id103988                       -1
+    id103984  id103984                       -4
+QCMATRIX   q130
+    id103999  id103999                        1
+    id104002  id104002                       -1
+    id103998  id103998                       -4
+QCMATRIX   q131
+    id104013  id104013                        1
+    id104016  id104016                       -1
+    id104012  id104012                       -4
+QCMATRIX   q132
+    id104027  id104027                        1
+    id104030  id104030                       -1
+    id104026  id104026                       -4
+QCMATRIX   q133
+    id104041  id104041                        1
+    id104044  id104044                       -1
+    id104040  id104040                       -4
+QCMATRIX   q134
+    id104054  id104054                       -4
+    id104057  id104057                        1
+    id104060  id104060                       -1
+QCMATRIX   q135
+    id104071  id104071                        1
+    id104074  id104074                       -1
+    id104070  id104070                       -4
+QCMATRIX   q136
+    id104085  id104085                        1
+    id104088  id104088                       -1
+    id104084  id104084                       -4
+QCMATRIX   q137
+    id104098  id104098                       -4
+    id104101  id104101                        1
+    id104104  id104104                       -1
+QCMATRIX   q138
+    id104115  id104115                        1
+    id104118  id104118                       -1
+    id104114  id104114                       -4
+QCMATRIX   q139
+    id104128  id104128                       -4
+    id104131  id104131                        1
+    id104134  id104134                       -1
+QCMATRIX   q140
+    id104145  id104145                        1
+    id104148  id104148                       -1
+    id104144  id104144                       -4
+QCMATRIX   q141
+    id104159  id104159                        1
+    id104162  id104162                       -1
+    id104158  id104158                       -4
+QCMATRIX   q142
+    id104173  id104173                        1
+    id104176  id104176                       -1
+    id104172  id104172                       -4
+QCMATRIX   q143
+    id104186  id104186                       -4
+    id104189  id104189                        1
+    id104192  id104192                       -1
+QCMATRIX   q144
+    id104203  id104203                        1
+    id104206  id104206                       -1
+    id104202  id104202                       -4
+QCMATRIX   q145
+    id104217  id104217                        1
+    id104220  id104220                       -1
+    id104216  id104216                       -4
+QCMATRIX   q146
+    id104231  id104231                        1
+    id104234  id104234                       -1
+    id104230  id104230                       -4
+QCMATRIX   q147
+    id104244  id104244                       -4
+    id104247  id104247                        1
+    id104250  id104250                       -1
+QCMATRIX   q148
+    id104261  id104261                        1
+    id104264  id104264                       -1
+    id104260  id104260                       -4
+QCMATRIX   q149
+    id104274  id104274                       -4
+    id104277  id104277                        1
+    id104280  id104280                       -1
+QCMATRIX   q150
+    id104291  id104291                        1
+    id104294  id104294                       -1
+    id104290  id104290                       -4
+QCMATRIX   q151
+    id104304  id104304                       -4
+    id104307  id104307                        1
+    id104310  id104310                       -1
+QCMATRIX   q152
+    id104321  id104321                        1
+    id104324  id104324                       -1
+    id104320  id104320                       -4
+QCMATRIX   q153
+    id104335  id104335                        1
+    id104338  id104338                       -1
+    id104334  id104334                       -4
+QCMATRIX   q154
+    id104349  id104349                        1
+    id104352  id104352                       -1
+    id104348  id104348                       -4
+QCMATRIX   q155
+    id104363  id104363                        1
+    id104366  id104366                       -1
+    id104362  id104362                       -4
+QCMATRIX   q156
+    id104377  id104377                        1
+    id104380  id104380                       -1
+    id104376  id104376                       -4
+QCMATRIX   q157
+    id104390  id104390                       -4
+    id104393  id104393                        1
+    id104396  id104396                       -1
+QCMATRIX   q158
+    id104407  id104407                        1
+    id104410  id104410                       -1
+    id104406  id104406                       -4
+QCMATRIX   q159
+    id104421  id104421                        1
+    id104424  id104424                       -1
+    id104420  id104420                       -4
+QCMATRIX   q160
+    id104435  id104435                        1
+    id104438  id104438                       -1
+    id104434  id104434                       -4
+QCMATRIX   q161
+    id104449  id104449                        1
+    id104452  id104452                       -1
+    id104448  id104448                       -4
+QCMATRIX   q162
+    id104462  id104462                       -4
+    id104465  id104465                        1
+    id104468  id104468                       -1
+QCMATRIX   q163
+    id104479  id104479                        1
+    id104482  id104482                       -1
+    id104478  id104478                       -4
+QCMATRIX   q164
+    id104493  id104493                        1
+    id104496  id104496                       -1
+    id104492  id104492                       -4
+QCMATRIX   q165
+    id104507  id104507                        1
+    id104510  id104510                       -1
+    id104506  id104506                       -4
+QCMATRIX   q166
+    id104521  id104521                        1
+    id104524  id104524                       -1
+    id104520  id104520                       -4
+QCMATRIX   q167
+    id104534  id104534                       -4
+    id104537  id104537                        1
+    id104540  id104540                       -1
+QCMATRIX   q168
+    id104551  id104551                        1
+    id104554  id104554                       -1
+    id104550  id104550                       -4
+QCMATRIX   q169
+    id104565  id104565                        1
+    id104568  id104568                       -1
+    id104564  id104564                       -4
+QCMATRIX   q170
+    id104579  id104579                        1
+    id104582  id104582                       -1
+    id104578  id104578                       -4
+QCMATRIX   q171
+    id104593  id104593                        1
+    id104596  id104596                       -1
+    id104592  id104592                       -4
+QCMATRIX   q172
+    id104606  id104606                       -4
+    id104609  id104609                        1
+    id104612  id104612                       -1
+QCMATRIX   q173
+    id104623  id104623                        1
+    id104626  id104626                       -1
+    id104622  id104622                       -4
+QCMATRIX   q174
+    id104637  id104637                        1
+    id104640  id104640                       -1
+    id104636  id104636                       -4
+QCMATRIX   q175
+    id104651  id104651                        1
+    id104654  id104654                       -1
+    id104650  id104650                       -4
+QCMATRIX   q176
+    id104665  id104665                        1
+    id104668  id104668                       -1
+    id104664  id104664                       -4
+QCMATRIX   q177
+    id104678  id104678                       -4
+    id104681  id104681                        1
+    id104684  id104684                       -1
+QCMATRIX   q178
+    id104695  id104695                        1
+    id104698  id104698                       -1
+    id104694  id104694                       -4
+QCMATRIX   q179
+    id104708  id104708                       -4
+    id104711  id104711                        1
+    id104714  id104714                       -1
+QCMATRIX   q180
+    id104725  id104725                        1
+    id104728  id104728                       -1
+    id104724  id104724                       -4
+QCMATRIX   q181
+    id104739  id104739                        1
+    id104742  id104742                       -1
+    id104738  id104738                       -4
+QCMATRIX   q182
+    id104752  id104752                       -4
+    id104755  id104755                        1
+    id104758  id104758                       -1
+QCMATRIX   q183
+    id104769  id104769                        1
+    id104772  id104772                       -1
+    id104768  id104768                       -4
+QCMATRIX   q184
+    id104783  id104783                        1
+    id104786  id104786                       -1
+    id104782  id104782                       -4
+QCMATRIX   q185
+    id104797  id104797                        1
+    id104800  id104800                       -1
+    id104796  id104796                       -4
+QCMATRIX   q186
+    id104811  id104811                        1
+    id104814  id104814                       -1
+    id104810  id104810                       -4
+QCMATRIX   q187
+    id104824  id104824                       -4
+    id104827  id104827                        1
+    id104830  id104830                       -1
+QCMATRIX   q188
+    id104841  id104841                        1
+    id104844  id104844                       -1
+    id104840  id104840                       -4
+QCMATRIX   q189
+    id104855  id104855                        1
+    id104858  id104858                       -1
+    id104854  id104854                       -4
+QCMATRIX   q190
+    id104869  id104869                        1
+    id104872  id104872                       -1
+    id104868  id104868                       -4
+QCMATRIX   q191
+    id104883  id104883                        1
+    id104886  id104886                       -1
+    id104882  id104882                       -4
+QCMATRIX   q192
+    id104896  id104896                       -4
+    id104899  id104899                        1
+    id104902  id104902                       -1
+QCMATRIX   q193
+    id104913  id104913                        1
+    id104916  id104916                       -1
+    id104912  id104912                       -4
+QCMATRIX   q194
+    id104927  id104927                        1
+    id104930  id104930                       -1
+    id104926  id104926                       -4
+QCMATRIX   q195
+    id104941  id104941                        1
+    id104944  id104944                       -1
+    id104940  id104940                       -4
+QCMATRIX   q196
+    id104954  id104954                       -4
+    id104957  id104957                        1
+    id104960  id104960                       -1
+QCMATRIX   q197
+    id104971  id104971                        1
+    id104974  id104974                       -1
+    id104970  id104970                       -4
+QCMATRIX   q198
+    id104984  id104984                       -4
+    id104987  id104987                        1
+    id104990  id104990                       -1
+QCMATRIX   q199
+    id105001  id105001                        1
+    id105004  id105004                       -1
+    id105000  id105000                       -4
+QCMATRIX   q200
+    id105015  id105015                        1
+    id105018  id105018                       -1
+    id105014  id105014                       -4
+QCMATRIX   q201
+    id105029  id105029                        1
+    id105032  id105032                       -1
+    id105028  id105028                       -4
+QCMATRIX   q202
+    id105042  id105042                       -4
+    id105045  id105045                        1
+    id105048  id105048                       -1
+QCMATRIX   q203
+    id105059  id105059                        1
+    id105062  id105062                       -1
+    id105058  id105058                       -4
+QCMATRIX   q204
+    id105073  id105073                        1
+    id105076  id105076                       -1
+    id105072  id105072                       -4
+QCMATRIX   q205
+    id105087  id105087                        1
+    id105090  id105090                       -1
+    id105086  id105086                       -4
+QCMATRIX   q206
+    id105101  id105101                        1
+    id105104  id105104                       -1
+    id105100  id105100                       -4
+QCMATRIX   q207
+    id105114  id105114                       -4
+    id105117  id105117                        1
+    id105120  id105120                       -1
+QCMATRIX   q208
+    id105131  id105131                        1
+    id105134  id105134                       -1
+    id105130  id105130                       -4
+QCMATRIX   q209
+    id105145  id105145                        1
+    id105148  id105148                       -1
+    id105144  id105144                       -4
+QCMATRIX   q210
+    id105159  id105159                        1
+    id105162  id105162                       -1
+    id105158  id105158                       -4
+QCMATRIX   q211
+    id105172  id105172                       -4
+    id105175  id105175                        1
+    id105178  id105178                       -1
+QCMATRIX   q212
+    id105189  id105189                        1
+    id105192  id105192                       -1
+    id105188  id105188                       -4
+QCMATRIX   q213
+    id105203  id105203                        1
+    id105206  id105206                       -1
+    id105202  id105202                       -4
+QCMATRIX   q214
+    id105217  id105217                        1
+    id105220  id105220                       -1
+    id105216  id105216                       -4
+QCMATRIX   q215
+    id105230  id105230                       -4
+    id105233  id105233                        1
+    id105236  id105236                       -1
+QCMATRIX   q216
+    id105247  id105247                        1
+    id105250  id105250                       -1
+    id105246  id105246                       -4
+QCMATRIX   q217
+    id105261  id105261                        1
+    id105264  id105264                       -1
+    id105260  id105260                       -4
+QCMATRIX   q218
+    id105275  id105275                        1
+    id105278  id105278                       -1
+    id105274  id105274                       -4
+QCMATRIX   q219
+    id105289  id105289                        1
+    id105292  id105292                       -1
+    id105288  id105288                       -4
+QCMATRIX   q220
+    id105302  id105302                       -4
+    id105305  id105305                        1
+    id105308  id105308                       -1
+QCMATRIX   q221
+    id105319  id105319                        1
+    id105322  id105322                       -1
+    id105318  id105318                       -4
+QCMATRIX   q222
+    id105333  id105333                        1
+    id105336  id105336                       -1
+    id105332  id105332                       -4
+QCMATRIX   q223
+    id105347  id105347                        1
+    id105350  id105350                       -1
+    id105346  id105346                       -4
+QCMATRIX   q224
+    id105361  id105361                        1
+    id105364  id105364                       -1
+    id105360  id105360                       -4
+QCMATRIX   q225
+    id105375  id105375                        1
+    id105378  id105378                       -1
+    id105374  id105374                       -4
+QCMATRIX   q226
+    id105389  id105389                        1
+    id105392  id105392                       -1
+    id105388  id105388                       -4
+QCMATRIX   q227
+    id105402  id105402                       -4
+    id105405  id105405                        1
+    id105408  id105408                       -1
+QCMATRIX   q228
+    id105419  id105419                        1
+    id105422  id105422                       -1
+    id105418  id105418                       -4
+QCMATRIX   q229
+    id105433  id105433                        1
+    id105436  id105436                       -1
+    id105432  id105432                       -4
+QCMATRIX   q230
+    id105447  id105447                        1
+    id105450  id105450                       -1
+    id105446  id105446                       -4
+QCMATRIX   q231
+    id105460  id105460                       -4
+    id105463  id105463                        1
+    id105466  id105466                       -1
+QCMATRIX   q232
+    id105477  id105477                        1
+    id105480  id105480                       -1
+    id105476  id105476                       -4
+QCMATRIX   q233
+    id105491  id105491                        1
+    id105494  id105494                       -1
+    id105490  id105490                       -4
+QCMATRIX   q234
+    id105505  id105505                        1
+    id105508  id105508                       -1
+    id105504  id105504                       -4
+QCMATRIX   q235
+    id105519  id105519                        1
+    id105522  id105522                       -1
+    id105518  id105518                       -4
+QCMATRIX   q236
+    id105532  id105532                       -4
+    id105535  id105535                        1
+    id105538  id105538                       -1
+QCMATRIX   q237
+    id105549  id105549                        1
+    id105552  id105552                       -1
+    id105548  id105548                       -4
+QCMATRIX   q238
+    id105562  id105562                       -4
+    id105565  id105565                        1
+    id105568  id105568                       -1
+QCMATRIX   q239
+    id105579  id105579                        1
+    id105582  id105582                       -1
+    id105578  id105578                       -4
+QCMATRIX   q240
+    id105593  id105593                        1
+    id105596  id105596                       -1
+    id105592  id105592                       -4
+QCMATRIX   q241
+    id105607  id105607                        1
+    id105610  id105610                       -1
+    id105606  id105606                       -4
+QCMATRIX   q242
+    id105621  id105621                        1
+    id105624  id105624                       -1
+    id105620  id105620                       -4
+QCMATRIX   q243
+    id105635  id105635                        1
+    id105638  id105638                       -1
+    id105634  id105634                       -4
+QCMATRIX   q244
+    id105649  id105649                        1
+    id105652  id105652                       -1
+    id105648  id105648                       -4
+QCMATRIX   q245
+    id105662  id105662                       -4
+    id105665  id105665                        1
+    id105668  id105668                       -1
+QCMATRIX   q246
+    id105679  id105679                        1
+    id105682  id105682                       -1
+    id105678  id105678                       -4
+QCMATRIX   q247
+    id105693  id105693                        1
+    id105696  id105696                       -1
+    id105692  id105692                       -4
+QCMATRIX   q248
+    id105706  id105706                       -4
+    id105709  id105709                        1
+    id105712  id105712                       -1
+QCMATRIX   q249
+    id105723  id105723                        1
+    id105726  id105726                       -1
+    id105722  id105722                       -4
+QCMATRIX   q250
+    id105737  id105737                        1
+    id105740  id105740                       -1
+    id105736  id105736                       -4
+QCMATRIX   q251
+    id105751  id105751                        1
+    id105754  id105754                       -1
+    id105750  id105750                       -4
+QCMATRIX   q252
+    id105765  id105765                        1
+    id105768  id105768                       -1
+    id105764  id105764                       -4
+QCMATRIX   q253
+    id105778  id105778                       -4
+    id105781  id105781                        1
+    id105784  id105784                       -1
+QCMATRIX   q254
+    id105795  id105795                        1
+    id105798  id105798                       -1
+    id105794  id105794                       -4
+QCMATRIX   q255
+    id105809  id105809                        1
+    id105812  id105812                       -1
+    id105808  id105808                       -4
+QCMATRIX   q256
+    id105822  id105822                       -4
+    id105825  id105825                        1
+    id105828  id105828                       -1
+QCMATRIX   q257
+    id105839  id105839                        1
+    id105842  id105842                       -1
+    id105838  id105838                       -4
+QCMATRIX   q258
+    id105853  id105853                        1
+    id105856  id105856                       -1
+    id105852  id105852                       -4
+QCMATRIX   q259
+    id105867  id105867                        1
+    id105870  id105870                       -1
+    id105866  id105866                       -4
+QCMATRIX   q260
+    id105881  id105881                        1
+    id105884  id105884                       -1
+    id105880  id105880                       -4
+QCMATRIX   q261
+    id105894  id105894                       -4
+    id105897  id105897                        1
+    id105900  id105900                       -1
+QCMATRIX   q262
+    id105911  id105911                        1
+    id105914  id105914                       -1
+    id105910  id105910                       -4
+QCMATRIX   q263
+    id105925  id105925                        1
+    id105928  id105928                       -1
+    id105924  id105924                       -4
+QCMATRIX   q264
+    id105939  id105939                        1
+    id105942  id105942                       -1
+    id105938  id105938                       -4
+QCMATRIX   q265
+    id105952  id105952                       -4
+    id105955  id105955                        1
+    id105958  id105958                       -1
+QCMATRIX   q266
+    id105969  id105969                        1
+    id105972  id105972                       -1
+    id105968  id105968                       -4
+QCMATRIX   q267
+    id105982  id105982                       -4
+    id105985  id105985                        1
+    id105988  id105988                       -1
+QCMATRIX   q268
+    id105999  id105999                        1
+    id106002  id106002                       -1
+    id105998  id105998                       -4
+QCMATRIX   q269
+    id106013  id106013                        1
+    id106016  id106016                       -1
+    id106012  id106012                       -4
+QCMATRIX   q270
+    id106027  id106027                        1
+    id106030  id106030                       -1
+    id106026  id106026                       -4
+QCMATRIX   q271
+    id106041  id106041                        1
+    id106044  id106044                       -1
+    id106040  id106040                       -4
+QCMATRIX   q272
+    id106055  id106055                        1
+    id106058  id106058                       -1
+    id106054  id106054                       -4
+QCMATRIX   q273
+    id106068  id106068                       -4
+    id106071  id106071                        1
+    id106074  id106074                       -1
+QCMATRIX   q274
+    id106085  id106085                        1
+    id106088  id106088                       -1
+    id106084  id106084                       -4
+QCMATRIX   q275
+    id106099  id106099                        1
+    id106102  id106102                       -1
+    id106098  id106098                       -4
+QCMATRIX   q276
+    id106113  id106113                        1
+    id106116  id106116                       -1
+    id106112  id106112                       -4
+QCMATRIX   q277
+    id106126  id106126                       -4
+    id106129  id106129                        1
+    id106132  id106132                       -1
+QCMATRIX   q278
+    id106143  id106143                        1
+    id106146  id106146                       -1
+    id106142  id106142                       -4
+QCMATRIX   q279
+    id106157  id106157                        1
+    id106160  id106160                       -1
+    id106156  id106156                       -4
+QCMATRIX   q280
+    id106171  id106171                        1
+    id106174  id106174                       -1
+    id106170  id106170                       -4
+QCMATRIX   q281
+    id106184  id106184                       -4
+    id106187  id106187                        1
+    id106190  id106190                       -1
+QCMATRIX   q282
+    id106201  id106201                        1
+    id106204  id106204                       -1
+    id106200  id106200                       -4
+QCMATRIX   q283
+    id106215  id106215                        1
+    id106218  id106218                       -1
+    id106214  id106214                       -4
+QCMATRIX   q284
+    id106229  id106229                        1
+    id106232  id106232                       -1
+    id106228  id106228                       -4
+QCMATRIX   q285
+    id106243  id106243                        1
+    id106246  id106246                       -1
+    id106242  id106242                       -4
+QCMATRIX   q286
+    id106257  id106257                        1
+    id106260  id106260                       -1
+    id106256  id106256                       -4
+QCMATRIX   q287
+    id106270  id106270                       -4
+    id106273  id106273                        1
+    id106276  id106276                       -1
+QCMATRIX   q288
+    id106287  id106287                        1
+    id106290  id106290                       -1
+    id106286  id106286                       -4
+QCMATRIX   q289
+    id106301  id106301                        1
+    id106304  id106304                       -1
+    id106300  id106300                       -4
+QCMATRIX   q290
+    id106315  id106315                        1
+    id106318  id106318                       -1
+    id106314  id106314                       -4
+QCMATRIX   q291
+    id106328  id106328                       -4
+    id106331  id106331                        1
+    id106334  id106334                       -1
+QCMATRIX   q292
+    id106345  id106345                        1
+    id106348  id106348                       -1
+    id106344  id106344                       -4
+QCMATRIX   q293
+    id106359  id106359                        1
+    id106362  id106362                       -1
+    id106358  id106358                       -4
+QCMATRIX   q294
+    id106373  id106373                        1
+    id106376  id106376                       -1
+    id106372  id106372                       -4
+QCMATRIX   q295
+    id106386  id106386                       -4
+    id106389  id106389                        1
+    id106392  id106392                       -1
+QCMATRIX   q296
+    id106403  id106403                        1
+    id106406  id106406                       -1
+    id106402  id106402                       -4
+QCMATRIX   q297
+    id106417  id106417                        1
+    id106420  id106420                       -1
+    id106416  id106416                       -4
+QCMATRIX   q298
+    id106431  id106431                        1
+    id106434  id106434                       -1
+    id106430  id106430                       -4
+QCMATRIX   q299
+    id106445  id106445                        1
+    id106448  id106448                       -1
+    id106444  id106444                       -4
+QCMATRIX   q300
+    id106458  id106458                       -4
+    id106461  id106461                        1
+    id106464  id106464                       -1
+QCMATRIX   q301
+    id106475  id106475                        1
+    id106478  id106478                       -1
+    id106474  id106474                       -4
+QCMATRIX   q302
+    id106489  id106489                        1
+    id106492  id106492                       -1
+    id106488  id106488                       -4
+QCMATRIX   q303
+    id106503  id106503                        1
+    id106506  id106506                       -1
+    id106502  id106502                       -4
+QCMATRIX   q304
+    id106517  id106517                        1
+    id106520  id106520                       -1
+    id106516  id106516                       -4
+QCMATRIX   q305
+    id106531  id106531                        1
+    id106534  id106534                       -1
+    id106530  id106530                       -4
+QCMATRIX   q306
+    id106545  id106545                        1
+    id106548  id106548                       -1
+    id106544  id106544                       -4
+QCMATRIX   q307
+    id106559  id106559                        1
+    id106562  id106562                       -1
+    id106558  id106558                       -4
+QCMATRIX   q308
+    id106572  id106572                       -4
+    id106575  id106575                        1
+    id106578  id106578                       -1
+QCMATRIX   q309
+    id106589  id106589                        1
+    id106592  id106592                       -1
+    id106588  id106588                       -4
+QCMATRIX   q310
+    id106603  id106603                        1
+    id106606  id106606                       -1
+    id106602  id106602                       -4
+QCMATRIX   q311
+    id106617  id106617                        1
+    id106620  id106620                       -1
+    id106616  id106616                       -4
+QCMATRIX   q312
+    id106630  id106630                       -4
+    id106633  id106633                        1
+    id106636  id106636                       -1
+QCMATRIX   q313
+    id106647  id106647                        1
+    id106650  id106650                       -1
+    id106646  id106646                       -4
+QCMATRIX   q314
+    id106661  id106661                        1
+    id106664  id106664                       -1
+    id106660  id106660                       -4
+QCMATRIX   q315
+    id106675  id106675                        1
+    id106678  id106678                       -1
+    id106674  id106674                       -4
+QCMATRIX   q316
+    id106689  id106689                        1
+    id106692  id106692                       -1
+    id106688  id106688                       -4
+QCMATRIX   q317
+    id106703  id106703                        1
+    id106706  id106706                       -1
+    id106702  id106702                       -4
+QCMATRIX   q318
+    id106717  id106717                        1
+    id106720  id106720                       -1
+    id106716  id106716                       -4
+QCMATRIX   q319
+    id106731  id106731                        1
+    id106734  id106734                       -1
+    id106730  id106730                       -4
+QCMATRIX   q320
+    id106744  id106744                       -4
+    id106747  id106747                        1
+    id106750  id106750                       -1
+QCMATRIX   q321
+    id106761  id106761                        1
+    id106764  id106764                       -1
+    id106760  id106760                       -4
+QCMATRIX   q322
+    id106775  id106775                        1
+    id106778  id106778                       -1
+    id106774  id106774                       -4
+QCMATRIX   q323
+    id106789  id106789                        1
+    id106792  id106792                       -1
+    id106788  id106788                       -4
+QCMATRIX   q324
+    id106803  id106803                        1
+    id106806  id106806                       -1
+    id106802  id106802                       -4
+QCMATRIX   q325
+    id106817  id106817                        1
+    id106820  id106820                       -1
+    id106816  id106816                       -4
+QCMATRIX   q326
+    id106830  id106830                       -4
+    id106833  id106833                        1
+    id106836  id106836                       -1
+QCMATRIX   q327
+    id106847  id106847                        1
+    id106850  id106850                       -1
+    id106846  id106846                       -4
+QCMATRIX   q328
+    id106861  id106861                        1
+    id106864  id106864                       -1
+    id106860  id106860                       -4
+QCMATRIX   q329
+    id106875  id106875                        1
+    id106878  id106878                       -1
+    id106874  id106874                       -4
+QCMATRIX   q330
+    id106889  id106889                        1
+    id106892  id106892                       -1
+    id106888  id106888                       -4
+QCMATRIX   q331
+    id106902  id106902                       -4
+    id106905  id106905                        1
+    id106908  id106908                       -1
+QCMATRIX   q332
+    id106919  id106919                        1
+    id106922  id106922                       -1
+    id106918  id106918                       -4
+QCMATRIX   q333
+    id106933  id106933                        1
+    id106936  id106936                       -1
+    id106932  id106932                       -4
+QCMATRIX   q334
+    id106947  id106947                        1
+    id106950  id106950                       -1
+    id106946  id106946                       -4
+QCMATRIX   q335
+    id106960  id106960                       -4
+    id106963  id106963                        1
+    id106966  id106966                       -1
+QCMATRIX   q336
+    id106977  id106977                        1
+    id106980  id106980                       -1
+    id106976  id106976                       -4
+QCMATRIX   q337
+    id106991  id106991                        1
+    id106994  id106994                       -1
+    id106990  id106990                       -4
+QCMATRIX   q338
+    id107005  id107005                        1
+    id107008  id107008                       -1
+    id107004  id107004                       -4
+QCMATRIX   q339
+    id107018  id107018                       -4
+    id107021  id107021                        1
+    id107024  id107024                       -1
+QCMATRIX   q340
+    id107035  id107035                        1
+    id107038  id107038                       -1
+    id107034  id107034                       -4
+QCMATRIX   q341
+    id107049  id107049                        1
+    id107052  id107052                       -1
+    id107048  id107048                       -4
+QCMATRIX   q342
+    id107063  id107063                        1
+    id107066  id107066                       -1
+    id107062  id107062                       -4
+QCMATRIX   q343
+    id107077  id107077                        1
+    id107080  id107080                       -1
+    id107076  id107076                       -4
+QCMATRIX   q344
+    id107091  id107091                        1
+    id107094  id107094                       -1
+    id107090  id107090                       -4
+QCMATRIX   q345
+    id107104  id107104                       -4
+    id107107  id107107                        1
+    id107110  id107110                       -1
+QCMATRIX   q346
+    id107121  id107121                        1
+    id107124  id107124                       -1
+    id107120  id107120                       -4
+QCMATRIX   q347
+    id107135  id107135                        1
+    id107138  id107138                       -1
+    id107134  id107134                       -4
+QCMATRIX   q348
+    id107148  id107148                       -4
+    id107151  id107151                        1
+    id107154  id107154                       -1
+QCMATRIX   q349
+    id107165  id107165                        1
+    id107168  id107168                       -1
+    id107164  id107164                       -4
+QCMATRIX   q350
+    id107179  id107179                        1
+    id107182  id107182                       -1
+    id107178  id107178                       -4
+QCMATRIX   q351
+    id107193  id107193                        1
+    id107196  id107196                       -1
+    id107192  id107192                       -4
+QCMATRIX   q352
+    id107207  id107207                        1
+    id107210  id107210                       -1
+    id107206  id107206                       -4
+QCMATRIX   q353
+    id107220  id107220                       -4
+    id107223  id107223                        1
+    id107226  id107226                       -1
+QCMATRIX   q354
+    id107237  id107237                        1
+    id107240  id107240                       -1
+    id107236  id107236                       -4
+QCMATRIX   q355
+    id107251  id107251                        1
+    id107254  id107254                       -1
+    id107250  id107250                       -4
+QCMATRIX   q356
+    id107265  id107265                        1
+    id107268  id107268                       -1
+    id107264  id107264                       -4
+QCMATRIX   q357
+    id107279  id107279                        1
+    id107282  id107282                       -1
+    id107278  id107278                       -4
+QCMATRIX   q358
+    id107293  id107293                        1
+    id107296  id107296                       -1
+    id107292  id107292                       -4
+QCMATRIX   q359
+    id107306  id107306                       -4
+    id107309  id107309                        1
+    id107312  id107312                       -1
+QCMATRIX   q360
+    id107323  id107323                        1
+    id107326  id107326                       -1
+    id107322  id107322                       -4
+QCMATRIX   q361
+    id107337  id107337                        1
+    id107340  id107340                       -1
+    id107336  id107336                       -4
+QCMATRIX   q362
+    id107351  id107351                        1
+    id107354  id107354                       -1
+    id107350  id107350                       -4
+QCMATRIX   q363
+    id107365  id107365                        1
+    id107368  id107368                       -1
+    id107364  id107364                       -4
+QCMATRIX   q364
+    id107378  id107378                       -4
+    id107381  id107381                        1
+    id107384  id107384                       -1
+QCMATRIX   q365
+    id107395  id107395                        1
+    id107398  id107398                       -1
+    id107394  id107394                       -4
+QCMATRIX   q366
+    id107409  id107409                        1
+    id107412  id107412                       -1
+    id107408  id107408                       -4
+QCMATRIX   q367
+    id107423  id107423                        1
+    id107426  id107426                       -1
+    id107422  id107422                       -4
+QCMATRIX   q368
+    id107437  id107437                        1
+    id107440  id107440                       -1
+    id107436  id107436                       -4
+QCMATRIX   q369
+    id107450  id107450                       -4
+    id107453  id107453                        1
+    id107456  id107456                       -1
+QCMATRIX   q370
+    id107467  id107467                        1
+    id107470  id107470                       -1
+    id107466  id107466                       -4
+QCMATRIX   q371
+    id107481  id107481                        1
+    id107484  id107484                       -1
+    id107480  id107480                       -4
+QCMATRIX   q372
+    id107495  id107495                        1
+    id107498  id107498                       -1
+    id107494  id107494                       -4
+QCMATRIX   q373
+    id107509  id107509                        1
+    id107512  id107512                       -1
+    id107508  id107508                       -4
+QCMATRIX   q374
+    id107522  id107522                       -4
+    id107525  id107525                        1
+    id107528  id107528                       -1
+QCMATRIX   q375
+    id107539  id107539                        1
+    id107542  id107542                       -1
+    id107538  id107538                       -4
+QCMATRIX   q376
+    id107553  id107553                        1
+    id107556  id107556                       -1
+    id107552  id107552                       -4
+QCMATRIX   q377
+    id107566  id107566                       -4
+    id107569  id107569                        1
+    id107572  id107572                       -1
+QCMATRIX   q378
+    id107583  id107583                        1
+    id107586  id107586                       -1
+    id107582  id107582                       -4
+QCMATRIX   q379
+    id107597  id107597                        1
+    id107600  id107600                       -1
+    id107596  id107596                       -4
+QCMATRIX   q380
+    id107611  id107611                        1
+    id107614  id107614                       -1
+    id107610  id107610                       -4
+QCMATRIX   q381
+    id107625  id107625                        1
+    id107628  id107628                       -1
+    id107624  id107624                       -4
+QCMATRIX   q382
+    id107639  id107639                        1
+    id107642  id107642                       -1
+    id107638  id107638                       -4
+QCMATRIX   q383
+    id107652  id107652                       -4
+    id107655  id107655                        1
+    id107658  id107658                       -1
+QCMATRIX   q384
+    id107669  id107669                        1
+    id107672  id107672                       -1
+    id107668  id107668                       -4
+QCMATRIX   q385
+    id107683  id107683                        1
+    id107686  id107686                       -1
+    id107682  id107682                       -4
+QCMATRIX   q386
+    id107697  id107697                        1
+    id107700  id107700                       -1
+    id107696  id107696                       -4
+QCMATRIX   q387
+    id107711  id107711                        1
+    id107714  id107714                       -1
+    id107710  id107710                       -4
+QCMATRIX   q388
+    id107725  id107725                        1
+    id107728  id107728                       -1
+    id107724  id107724                       -4
+QCMATRIX   q389
+    id107739  id107739                        1
+    id107742  id107742                       -1
+    id107738  id107738                       -4
+QCMATRIX   q390
+    id107753  id107753                        1
+    id107756  id107756                       -1
+    id107752  id107752                       -4
+QCMATRIX   q391
+    id107766  id107766                       -4
+    id107769  id107769                        1
+    id107772  id107772                       -1
+QCMATRIX   q392
+    id107783  id107783                        1
+    id107786  id107786                       -1
+    id107782  id107782                       -4
+QCMATRIX   q393
+    id107796  id107796                       -4
+    id107799  id107799                        1
+    id107802  id107802                       -1
+QCMATRIX   q394
+    id107813  id107813                        1
+    id107816  id107816                       -1
+    id107812  id107812                       -4
+QCMATRIX   q395
+    id107827  id107827                        1
+    id107830  id107830                       -1
+    id107826  id107826                       -4
+QCMATRIX   q396
+    id107841  id107841                        1
+    id107844  id107844                       -1
+    id107840  id107840                       -4
+QCMATRIX   q397
+    id107855  id107855                        1
+    id107858  id107858                       -1
+    id107854  id107854                       -4
+QCMATRIX   q398
+    id107868  id107868                       -4
+    id107871  id107871                        1
+    id107874  id107874                       -1
+QCMATRIX   q399
+    id107885  id107885                        1
+    id107888  id107888                       -1
+    id107884  id107884                       -4
+QCMATRIX   q400
+    id107899  id107899                        1
+    id107902  id107902                       -1
+    id107898  id107898                       -4
+QCMATRIX   q401
+    id107913  id107913                        1
+    id107916  id107916                       -1
+    id107912  id107912                       -4
+QCMATRIX   q402
+    id107927  id107927                        1
+    id107930  id107930                       -1
+    id107926  id107926                       -4
+QCMATRIX   q403
+    id107940  id107940                       -4
+    id107943  id107943                        1
+    id107946  id107946                       -1
+QCMATRIX   q404
+    id107957  id107957                        1
+    id107960  id107960                       -1
+    id107956  id107956                       -4
+QCMATRIX   q405
+    id107971  id107971                        1
+    id107974  id107974                       -1
+    id107970  id107970                       -4
+QCMATRIX   q406
+    id107985  id107985                        1
+    id107988  id107988                       -1
+    id107984  id107984                       -4
+QCMATRIX   q407
+    id107999  id107999                        1
+    id108002  id108002                       -1
+    id107998  id107998                       -4
+QCMATRIX   q408
+    id108012  id108012                       -4
+    id108015  id108015                        1
+    id108018  id108018                       -1
+QCMATRIX   q409
+    id108029  id108029                        1
+    id108032  id108032                       -1
+    id108028  id108028                       -4
+QCMATRIX   q410
+    id108043  id108043                        1
+    id108046  id108046                       -1
+    id108042  id108042                       -4
+QCMATRIX   q411
+    id108057  id108057                        1
+    id108060  id108060                       -1
+    id108056  id108056                       -4
+QCMATRIX   q412
+    id108071  id108071                        1
+    id108074  id108074                       -1
+    id108070  id108070                       -4
+QCMATRIX   q413
+    id108084  id108084                       -4
+    id108087  id108087                        1
+    id108090  id108090                       -1
+QCMATRIX   q414
+    id108101  id108101                        1
+    id108104  id108104                       -1
+    id108100  id108100                       -4
+QCMATRIX   q415
+    id108115  id108115                        1
+    id108118  id108118                       -1
+    id108114  id108114                       -4
+QCMATRIX   q416
+    id108128  id108128                       -4
+    id108131  id108131                        1
+    id108134  id108134                       -1
+QCMATRIX   q417
+    id108145  id108145                        1
+    id108148  id108148                       -1
+    id108144  id108144                       -4
+QCMATRIX   q418
+    id108159  id108159                        1
+    id108162  id108162                       -1
+    id108158  id108158                       -4
+QCMATRIX   q419
+    id108173  id108173                        1
+    id108176  id108176                       -1
+    id108172  id108172                       -4
+QCMATRIX   q420
+    id108186  id108186                       -4
+    id108189  id108189                        1
+    id108192  id108192                       -1
+QCMATRIX   q421
+    id108203  id108203                        1
+    id108206  id108206                       -1
+    id108202  id108202                       -4
+QCMATRIX   q422
+    id108217  id108217                        1
+    id108220  id108220                       -1
+    id108216  id108216                       -4
+QCMATRIX   q423
+    id108231  id108231                        1
+    id108234  id108234                       -1
+    id108230  id108230                       -4
+QCMATRIX   q424
+    id108244  id108244                       -4
+    id108247  id108247                        1
+    id108250  id108250                       -1
+QCMATRIX   q425
+    id108261  id108261                        1
+    id108264  id108264                       -1
+    id108260  id108260                       -4
+QCMATRIX   q426
+    id108275  id108275                        1
+    id108278  id108278                       -1
+    id108274  id108274                       -4
+QCMATRIX   q427
+    id108289  id108289                        1
+    id108292  id108292                       -1
+    id108288  id108288                       -4
+QCMATRIX   q428
+    id108303  id108303                        1
+    id108306  id108306                       -1
+    id108302  id108302                       -4
+QCMATRIX   q429
+    id108317  id108317                        1
+    id108320  id108320                       -1
+    id108316  id108316                       -4
+QCMATRIX   q430
+    id108331  id108331                        1
+    id108334  id108334                       -1
+    id108330  id108330                       -4
+QCMATRIX   q431
+    id108345  id108345                        1
+    id108348  id108348                       -1
+    id108344  id108344                       -4
+QCMATRIX   q432
+    id108359  id108359                        1
+    id108362  id108362                       -1
+    id108358  id108358                       -4
+QCMATRIX   q433
+    id108372  id108372                       -4
+    id108375  id108375                        1
+    id108378  id108378                       -1
+QCMATRIX   q434
+    id108389  id108389                        1
+    id108392  id108392                       -1
+    id108388  id108388                       -4
+QCMATRIX   q435
+    id108403  id108403                        1
+    id108406  id108406                       -1
+    id108402  id108402                       -4
+QCMATRIX   q436
+    id108417  id108417                        1
+    id108420  id108420                       -1
+    id108416  id108416                       -4
+QCMATRIX   q437
+    id108431  id108431                        1
+    id108434  id108434                       -1
+    id108430  id108430                       -4
+QCMATRIX   q438
+    id108444  id108444                       -4
+    id108447  id108447                        1
+    id108450  id108450                       -1
+QCMATRIX   q439
+    id108461  id108461                        1
+    id108464  id108464                       -1
+    id108460  id108460                       -4
+QCMATRIX   q440
+    id108475  id108475                        1
+    id108478  id108478                       -1
+    id108474  id108474                       -4
+QCMATRIX   q441
+    id108489  id108489                        1
+    id108492  id108492                       -1
+    id108488  id108488                       -4
+QCMATRIX   q442
+    id108503  id108503                        1
+    id108506  id108506                       -1
+    id108502  id108502                       -4
+QCMATRIX   q443
+    id108516  id108516                       -4
+    id108519  id108519                        1
+    id108522  id108522                       -1
+QCMATRIX   q444
+    id108533  id108533                        1
+    id108536  id108536                       -1
+    id108532  id108532                       -4
+QCMATRIX   q445
+    id108547  id108547                        1
+    id108550  id108550                       -1
+    id108546  id108546                       -4
+QCMATRIX   q446
+    id108561  id108561                        1
+    id108564  id108564                       -1
+    id108560  id108560                       -4
+QCMATRIX   q447
+    id108575  id108575                        1
+    id108578  id108578                       -1
+    id108574  id108574                       -4
+QCMATRIX   q448
+    id108589  id108589                        1
+    id108592  id108592                       -1
+    id108588  id108588                       -4
+QCMATRIX   q449
+    id108603  id108603                        1
+    id108606  id108606                       -1
+    id108602  id108602                       -4
+QCMATRIX   q450
+    id108616  id108616                       -4
+    id108619  id108619                        1
+    id108622  id108622                       -1
+QCMATRIX   q451
+    id108633  id108633                        1
+    id108636  id108636                       -1
+    id108632  id108632                       -4
+QCMATRIX   q452
+    id108647  id108647                        1
+    id108650  id108650                       -1
+    id108646  id108646                       -4
+QCMATRIX   q453
+    id108661  id108661                        1
+    id108664  id108664                       -1
+    id108660  id108660                       -4
+QCMATRIX   q454
+    id108675  id108675                        1
+    id108678  id108678                       -1
+    id108674  id108674                       -4
+QCMATRIX   q455
+    id108688  id108688                       -4
+    id108691  id108691                        1
+    id108694  id108694                       -1
+QCMATRIX   q456
+    id108705  id108705                        1
+    id108708  id108708                       -1
+    id108704  id108704                       -4
+QCMATRIX   q457
+    id108719  id108719                        1
+    id108722  id108722                       -1
+    id108718  id108718                       -4
+QCMATRIX   q458
+    id108733  id108733                        1
+    id108736  id108736                       -1
+    id108732  id108732                       -4
+QCMATRIX   q459
+    id108746  id108746                       -4
+    id108749  id108749                        1
+    id108752  id108752                       -1
+QCMATRIX   q460
+    id108763  id108763                        1
+    id108766  id108766                       -1
+    id108762  id108762                       -4
+QCMATRIX   q461
+    id108777  id108777                        1
+    id108780  id108780                       -1
+    id108776  id108776                       -4
+QCMATRIX   q462
+    id108790  id108790                       -4
+    id108793  id108793                        1
+    id108796  id108796                       -1
+QCMATRIX   q463
+    id108807  id108807                        1
+    id108810  id108810                       -1
+    id108806  id108806                       -4
+QCMATRIX   q464
+    id108820  id108820                       -4
+    id108823  id108823                        1
+    id108826  id108826                       -1
+QCMATRIX   q465
+    id108837  id108837                        1
+    id108840  id108840                       -1
+    id108836  id108836                       -4
+QCMATRIX   q466
+    id108851  id108851                        1
+    id108854  id108854                       -1
+    id108850  id108850                       -4
+QCMATRIX   q467
+    id108865  id108865                        1
+    id108868  id108868                       -1
+    id108864  id108864                       -4
+QCMATRIX   q468
+    id108878  id108878                       -4
+    id108881  id108881                        1
+    id108884  id108884                       -1
+QCMATRIX   q469
+    id108895  id108895                        1
+    id108898  id108898                       -1
+    id108894  id108894                       -4
+QCMATRIX   q470
+    id108909  id108909                        1
+    id108912  id108912                       -1
+    id108908  id108908                       -4
+QCMATRIX   q471
+    id108923  id108923                        1
+    id108926  id108926                       -1
+    id108922  id108922                       -4
+QCMATRIX   q472
+    id108937  id108937                        1
+    id108940  id108940                       -1
+    id108936  id108936                       -4
+QCMATRIX   q473
+    id108950  id108950                       -4
+    id108953  id108953                        1
+    id108956  id108956                       -1
+QCMATRIX   q474
+    id108967  id108967                        1
+    id108970  id108970                       -1
+    id108966  id108966                       -4
+QCMATRIX   q475
+    id108981  id108981                        1
+    id108984  id108984                       -1
+    id108980  id108980                       -4
+QCMATRIX   q476
+    id108995  id108995                        1
+    id108998  id108998                       -1
+    id108994  id108994                       -4
+QCMATRIX   q477
+    id109009  id109009                        1
+    id109012  id109012                       -1
+    id109008  id109008                       -4
+QCMATRIX   q478
+    id109023  id109023                        1
+    id109026  id109026                       -1
+    id109022  id109022                       -4
+QCMATRIX   q479
+    id109036  id109036                       -4
+    id109039  id109039                        1
+    id109042  id109042                       -1
+QCMATRIX   q480
+    id109053  id109053                        1
+    id109056  id109056                       -1
+    id109052  id109052                       -4
+QCMATRIX   q481
+    id109067  id109067                        1
+    id109070  id109070                       -1
+    id109066  id109066                       -4
+QCMATRIX   q482
+    id109081  id109081                        1
+    id109084  id109084                       -1
+    id109080  id109080                       -4
+QCMATRIX   q483
+    id109094  id109094                       -4
+    id109097  id109097                        1
+    id109100  id109100                       -1
+QCMATRIX   q484
+    id109111  id109111                        1
+    id109114  id109114                       -1
+    id109110  id109110                       -4
+QCMATRIX   q485
+    id109125  id109125                        1
+    id109128  id109128                       -1
+    id109124  id109124                       -4
+QCMATRIX   q486
+    id109139  id109139                        1
+    id109142  id109142                       -1
+    id109138  id109138                       -4
+QCMATRIX   q487
+    id109153  id109153                        1
+    id109156  id109156                       -1
+    id109152  id109152                       -4
+QCMATRIX   q488
+    id109167  id109167                        1
+    id109170  id109170                       -1
+    id109166  id109166                       -4
+QCMATRIX   q489
+    id109181  id109181                        1
+    id109184  id109184                       -1
+    id109180  id109180                       -4
+QCMATRIX   q490
+    id109194  id109194                       -4
+    id109197  id109197                        1
+    id109200  id109200                       -1
+QCMATRIX   q491
+    id109211  id109211                        1
+    id109214  id109214                       -1
+    id109210  id109210                       -4
+QCMATRIX   q492
+    id109224  id109224                       -4
+    id109227  id109227                        1
+    id109230  id109230                       -1
+QCMATRIX   q493
+    id109241  id109241                        1
+    id109244  id109244                       -1
+    id109240  id109240                       -4
+QCMATRIX   q494
+    id109255  id109255                        1
+    id109258  id109258                       -1
+    id109254  id109254                       -4
+QCMATRIX   q495
+    id109269  id109269                        1
+    id109272  id109272                       -1
+    id109268  id109268                       -4
+QCMATRIX   q496
+    id109283  id109283                        1
+    id109286  id109286                       -1
+    id109282  id109282                       -4
+QCMATRIX   q497
+    id109297  id109297                        1
+    id109300  id109300                       -1
+    id109296  id109296                       -4
+QCMATRIX   q498
+    id109310  id109310                       -4
+    id109313  id109313                        1
+    id109316  id109316                       -1
+QCMATRIX   q499
+    id109327  id109327                        1
+    id109330  id109330                       -1
+    id109326  id109326                       -4
+QCMATRIX   q500
+    id109341  id109341                        1
+    id109344  id109344                       -1
+    id109340  id109340                       -4
+QCMATRIX   q501
+    id109355  id109355                        1
+    id109358  id109358                       -1
+    id109354  id109354                       -4
+QCMATRIX   q502
+    id109369  id109369                        1
+    id109372  id109372                       -1
+    id109368  id109368                       -4
+QCMATRIX   q503
+    id109382  id109382                       -4
+    id109385  id109385                        1
+    id109388  id109388                       -1
+QCMATRIX   q504
+    id109399  id109399                        1
+    id109402  id109402                       -1
+    id109398  id109398                       -4
+QCMATRIX   q505
+    id109413  id109413                        1
+    id109416  id109416                       -1
+    id109412  id109412                       -4
+QCMATRIX   q506
+    id109427  id109427                        1
+    id109430  id109430                       -1
+    id109426  id109426                       -4
+QCMATRIX   q507
+    id109441  id109441                        1
+    id109444  id109444                       -1
+    id109440  id109440                       -4
+QCMATRIX   q508
+    id109455  id109455                        1
+    id109458  id109458                       -1
+    id109454  id109454                       -4
+QCMATRIX   q509
+    id109468  id109468                       -4
+    id109471  id109471                        1
+    id109474  id109474                       -1
+QCMATRIX   q510
+    id109485  id109485                        1
+    id109488  id109488                       -1
+    id109484  id109484                       -4
+QCMATRIX   q511
+    id109499  id109499                        1
+    id109502  id109502                       -1
+    id109498  id109498                       -4
+QCMATRIX   q512
+    id109513  id109513                        1
+    id109516  id109516                       -1
+    id109512  id109512                       -4
+QCMATRIX   q513
+    id109527  id109527                        1
+    id109530  id109530                       -1
+    id109526  id109526                       -4
+QCMATRIX   q514
+    id109541  id109541                        1
+    id109544  id109544                       -1
+    id109540  id109540                       -4
+QCMATRIX   q515
+    id109554  id109554                       -4
+    id109557  id109557                        1
+    id109560  id109560                       -1
+QCMATRIX   q516
+    id109571  id109571                        1
+    id109574  id109574                       -1
+    id109570  id109570                       -4
+QCMATRIX   q517
+    id109584  id109584                       -4
+    id109587  id109587                        1
+    id109590  id109590                       -1
+QCMATRIX   q518
+    id109601  id109601                        1
+    id109604  id109604                       -1
+    id109600  id109600                       -4
+QCMATRIX   q519
+    id109615  id109615                        1
+    id109618  id109618                       -1
+    id109614  id109614                       -4
+QCMATRIX   q520
+    id109629  id109629                        1
+    id109632  id109632                       -1
+    id109628  id109628                       -4
+QCMATRIX   q521
+    id109642  id109642                       -4
+    id109645  id109645                        1
+    id109648  id109648                       -1
+QCMATRIX   q522
+    id109659  id109659                        1
+    id109662  id109662                       -1
+    id109658  id109658                       -4
+QCMATRIX   q523
+    id109673  id109673                        1
+    id109676  id109676                       -1
+    id109672  id109672                       -4
+QCMATRIX   q524
+    id109687  id109687                        1
+    id109690  id109690                       -1
+    id109686  id109686                       -4
+QCMATRIX   q525
+    id109701  id109701                        1
+    id109704  id109704                       -1
+    id109700  id109700                       -4
+QCMATRIX   q526
+    id109715  id109715                        1
+    id109718  id109718                       -1
+    id109714  id109714                       -4
+QCMATRIX   q527
+    id109729  id109729                        1
+    id109732  id109732                       -1
+    id109728  id109728                       -4
+QCMATRIX   q528
+    id109742  id109742                       -4
+    id109745  id109745                        1
+    id109748  id109748                       -1
+QCMATRIX   q529
+    id109759  id109759                        1
+    id109762  id109762                       -1
+    id109758  id109758                       -4
+QCMATRIX   q530
+    id109773  id109773                        1
+    id109776  id109776                       -1
+    id109772  id109772                       -4
+QCMATRIX   q531
+    id109787  id109787                        1
+    id109790  id109790                       -1
+    id109786  id109786                       -4
+QCMATRIX   q532
+    id109801  id109801                        1
+    id109804  id109804                       -1
+    id109800  id109800                       -4
+QCMATRIX   q533
+    id109814  id109814                       -4
+    id109817  id109817                        1
+    id109820  id109820                       -1
+QCMATRIX   q534
+    id109831  id109831                        1
+    id109834  id109834                       -1
+    id109830  id109830                       -4
+QCMATRIX   q535
+    id109845  id109845                        1
+    id109848  id109848                       -1
+    id109844  id109844                       -4
+QCMATRIX   q536
+    id109859  id109859                        1
+    id109862  id109862                       -1
+    id109858  id109858                       -4
+QCMATRIX   q537
+    id109873  id109873                        1
+    id109876  id109876                       -1
+    id109872  id109872                       -4
+QCMATRIX   q538
+    id109887  id109887                        1
+    id109890  id109890                       -1
+    id109886  id109886                       -4
+QCMATRIX   q539
+    id109901  id109901                        1
+    id109904  id109904                       -1
+    id109900  id109900                       -4
+QCMATRIX   q540
+    id109915  id109915                        1
+    id109918  id109918                       -1
+    id109914  id109914                       -4
+QCMATRIX   q541
+    id109928  id109928                       -4
+    id109931  id109931                        1
+    id109934  id109934                       -1
+QCMATRIX   q542
+    id109945  id109945                        1
+    id109948  id109948                       -1
+    id109944  id109944                       -4
+QCMATRIX   q543
+    id109958  id109958                       -4
+    id109961  id109961                        1
+    id109964  id109964                       -1
+QCMATRIX   q544
+    id109975  id109975                        1
+    id109978  id109978                       -1
+    id109974  id109974                       -4
+QCMATRIX   q545
+    id109989  id109989                        1
+    id109992  id109992                       -1
+    id109988  id109988                       -4
+QCMATRIX   q546
+    id110002  id110002                       -4
+    id110005  id110005                        1
+    id110008  id110008                       -1
+QCMATRIX   q547
+    id110019  id110019                        1
+    id110022  id110022                       -1
+    id110018  id110018                       -4
+QCMATRIX   q548
+    id110033  id110033                        1
+    id110036  id110036                       -1
+    id110032  id110032                       -4
+QCMATRIX   q549
+    id110047  id110047                        1
+    id110050  id110050                       -1
+    id110046  id110046                       -4
+QCMATRIX   q550
+    id110060  id110060                       -4
+    id110063  id110063                        1
+    id110066  id110066                       -1
+QCMATRIX   q551
+    id110077  id110077                        1
+    id110080  id110080                       -1
+    id110076  id110076                       -4
+QCMATRIX   q552
+    id110091  id110091                        1
+    id110094  id110094                       -1
+    id110090  id110090                       -4
+QCMATRIX   q553
+    id110105  id110105                        1
+    id110108  id110108                       -1
+    id110104  id110104                       -4
+QCMATRIX   q554
+    id110119  id110119                        1
+    id110122  id110122                       -1
+    id110118  id110118                       -4
+QCMATRIX   q555
+    id110133  id110133                        1
+    id110136  id110136                       -1
+    id110132  id110132                       -4
+QCMATRIX   q556
+    id110147  id110147                        1
+    id110150  id110150                       -1
+    id110146  id110146                       -4
+QCMATRIX   q557
+    id110160  id110160                       -4
+    id110163  id110163                        1
+    id110166  id110166                       -1
+QCMATRIX   q558
+    id110177  id110177                        1
+    id110180  id110180                       -1
+    id110176  id110176                       -4
+QCMATRIX   q559
+    id110191  id110191                        1
+    id110194  id110194                       -1
+    id110190  id110190                       -4
+QCMATRIX   q560
+    id110205  id110205                        1
+    id110208  id110208                       -1
+    id110204  id110204                       -4
+QCMATRIX   q561
+    id110219  id110219                        1
+    id110222  id110222                       -1
+    id110218  id110218                       -4
+QCMATRIX   q562
+    id110233  id110233                        1
+    id110236  id110236                       -1
+    id110232  id110232                       -4
+QCMATRIX   q563
+    id110246  id110246                       -4
+    id110249  id110249                        1
+    id110252  id110252                       -1
+QCMATRIX   q564
+    id110263  id110263                        1
+    id110266  id110266                       -1
+    id110262  id110262                       -4
+QCMATRIX   q565
+    id110277  id110277                        1
+    id110280  id110280                       -1
+    id110276  id110276                       -4
+QCMATRIX   q566
+    id110291  id110291                        1
+    id110294  id110294                       -1
+    id110290  id110290                       -4
+QCMATRIX   q567
+    id110305  id110305                        1
+    id110308  id110308                       -1
+    id110304  id110304                       -4
+QCMATRIX   q568
+    id110318  id110318                       -4
+    id110321  id110321                        1
+    id110324  id110324                       -1
+QCMATRIX   q569
+    id110335  id110335                        1
+    id110338  id110338                       -1
+    id110334  id110334                       -4
+QCMATRIX   q570
+    id110349  id110349                        1
+    id110352  id110352                       -1
+    id110348  id110348                       -4
+QCMATRIX   q571
+    id110362  id110362                       -4
+    id110365  id110365                        1
+    id110368  id110368                       -1
+QCMATRIX   q572
+    id110379  id110379                        1
+    id110382  id110382                       -1
+    id110378  id110378                       -4
+QCMATRIX   q573
+    id110393  id110393                        1
+    id110396  id110396                       -1
+    id110392  id110392                       -4
+QCMATRIX   q574
+    id110407  id110407                        1
+    id110410  id110410                       -1
+    id110406  id110406                       -4
+QCMATRIX   q575
+    id110421  id110421                        1
+    id110424  id110424                       -1
+    id110420  id110420                       -4
+QCMATRIX   q576
+    id110435  id110435                        1
+    id110438  id110438                       -1
+    id110434  id110434                       -4
+QCMATRIX   q577
+    id110448  id110448                       -4
+    id110451  id110451                        1
+    id110454  id110454                       -1
+QCMATRIX   q578
+    id110465  id110465                        1
+    id110468  id110468                       -1
+    id110464  id110464                       -4
+QCMATRIX   q579
+    id110479  id110479                        1
+    id110482  id110482                       -1
+    id110478  id110478                       -4
+QCMATRIX   q580
+    id110493  id110493                        1
+    id110496  id110496                       -1
+    id110492  id110492                       -4
+QCMATRIX   q581
+    id110507  id110507                        1
+    id110510  id110510                       -1
+    id110506  id110506                       -4
+QCMATRIX   q582
+    id110521  id110521                        1
+    id110524  id110524                       -1
+    id110520  id110520                       -4
+QCMATRIX   q583
+    id110534  id110534                       -4
+    id110537  id110537                        1
+    id110540  id110540                       -1
+QCMATRIX   q584
+    id110551  id110551                        1
+    id110554  id110554                       -1
+    id110550  id110550                       -4
+QCMATRIX   q585
+    id110565  id110565                        1
+    id110568  id110568                       -1
+    id110564  id110564                       -4
+QCMATRIX   q586
+    id110578  id110578                       -4
+    id110581  id110581                        1
+    id110584  id110584                       -1
+QCMATRIX   q587
+    id110595  id110595                        1
+    id110598  id110598                       -1
+    id110594  id110594                       -4
+QCMATRIX   q588
+    id110609  id110609                        1
+    id110612  id110612                       -1
+    id110608  id110608                       -4
+QCMATRIX   q589
+    id110623  id110623                        1
+    id110626  id110626                       -1
+    id110622  id110622                       -4
+QCMATRIX   q590
+    id110637  id110637                        1
+    id110640  id110640                       -1
+    id110636  id110636                       -4
+QCMATRIX   q591
+    id110650  id110650                       -4
+    id110653  id110653                        1
+    id110656  id110656                       -1
+QCMATRIX   q592
+    id110667  id110667                        1
+    id110670  id110670                       -1
+    id110666  id110666                       -4
+QCMATRIX   q593
+    id110681  id110681                        1
+    id110684  id110684                       -1
+    id110680  id110680                       -4
+QCMATRIX   q594
+    id110695  id110695                        1
+    id110698  id110698                       -1
+    id110694  id110694                       -4
+QCMATRIX   q595
+    id110709  id110709                        1
+    id110712  id110712                       -1
+    id110708  id110708                       -4
+QCMATRIX   q596
+    id110722  id110722                       -4
+    id110725  id110725                        1
+    id110728  id110728                       -1
+QCMATRIX   q597
+    id110739  id110739                        1
+    id110742  id110742                       -1
+    id110738  id110738                       -4
+QCMATRIX   q598
+    id110753  id110753                        1
+    id110756  id110756                       -1
+    id110752  id110752                       -4
+QCMATRIX   q599
+    id110767  id110767                        1
+    id110770  id110770                       -1
+    id110766  id110766                       -4
+QCMATRIX   q600
+    id110781  id110781                        1
+    id110784  id110784                       -1
+    id110780  id110780                       -4
+QCMATRIX   q601
+    id110795  id110795                        1
+    id110798  id110798                       -1
+    id110794  id110794                       -4
+QCMATRIX   q602
+    id110808  id110808                       -4
+    id110811  id110811                        1
+    id110814  id110814                       -1
+QCMATRIX   q603
+    id110825  id110825                        1
+    id110828  id110828                       -1
+    id110824  id110824                       -4
+QCMATRIX   q604
+    id110838  id110838                       -4
+    id110841  id110841                        1
+    id110844  id110844                       -1
+QCMATRIX   q605
+    id110855  id110855                        1
+    id110858  id110858                       -1
+    id110854  id110854                       -4
+QCMATRIX   q606
+    id110869  id110869                        1
+    id110872  id110872                       -1
+    id110868  id110868                       -4
+QCMATRIX   q607
+    id110883  id110883                        1
+    id110886  id110886                       -1
+    id110882  id110882                       -4
+QCMATRIX   q608
+    id110897  id110897                        1
+    id110900  id110900                       -1
+    id110896  id110896                       -4
+QCMATRIX   q609
+    id110911  id110911                        1
+    id110914  id110914                       -1
+    id110910  id110910                       -4
+QCMATRIX   q610
+    id110925  id110925                        1
+    id110928  id110928                       -1
+    id110924  id110924                       -4
+QCMATRIX   q611
+    id110938  id110938                       -4
+    id110941  id110941                        1
+    id110944  id110944                       -1
+QCMATRIX   q612
+    id110955  id110955                        1
+    id110958  id110958                       -1
+    id110954  id110954                       -4
+QCMATRIX   q613
+    id110969  id110969                        1
+    id110972  id110972                       -1
+    id110968  id110968                       -4
+QCMATRIX   q614
+    id110983  id110983                        1
+    id110986  id110986                       -1
+    id110982  id110982                       -4
+QCMATRIX   q615
+    id110997  id110997                        1
+    id111000  id111000                       -1
+    id110996  id110996                       -4
+QCMATRIX   q616
+    id111010  id111010                       -4
+    id111013  id111013                        1
+    id111016  id111016                       -1
+QCMATRIX   q617
+    id111027  id111027                        1
+    id111030  id111030                       -1
+    id111026  id111026                       -4
+QCMATRIX   q618
+    id111041  id111041                        1
+    id111044  id111044                       -1
+    id111040  id111040                       -4
+QCMATRIX   q619
+    id111055  id111055                        1
+    id111058  id111058                       -1
+    id111054  id111054                       -4
+QCMATRIX   q620
+    id111069  id111069                        1
+    id111072  id111072                       -1
+    id111068  id111068                       -4
+QCMATRIX   q621
+    id111082  id111082                       -4
+    id111085  id111085                        1
+    id111088  id111088                       -1
+QCMATRIX   q622
+    id111099  id111099                        1
+    id111102  id111102                       -1
+    id111098  id111098                       -4
+QCMATRIX   q623
+    id111113  id111113                        1
+    id111116  id111116                       -1
+    id111112  id111112                       -4
+QCMATRIX   q624
+    id111127  id111127                        1
+    id111130  id111130                       -1
+    id111126  id111126                       -4
+QCMATRIX   q625
+    id111141  id111141                        1
+    id111144  id111144                       -1
+    id111140  id111140                       -4
+QCMATRIX   q626
+    id111154  id111154                       -4
+    id111157  id111157                        1
+    id111160  id111160                       -1
+QCMATRIX   q627
+    id111171  id111171                        1
+    id111174  id111174                       -1
+    id111170  id111170                       -4
+QCMATRIX   q628
+    id111185  id111185                        1
+    id111188  id111188                       -1
+    id111184  id111184                       -4
+QCMATRIX   q629
+    id111199  id111199                        1
+    id111202  id111202                       -1
+    id111198  id111198                       -4
+QCMATRIX   q630
+    id111213  id111213                        1
+    id111216  id111216                       -1
+    id111212  id111212                       -4
+QCMATRIX   q631
+    id111227  id111227                        1
+    id111230  id111230                       -1
+    id111226  id111226                       -4
+QCMATRIX   q632
+    id111240  id111240                       -4
+    id111243  id111243                        1
+    id111246  id111246                       -1
+QCMATRIX   q633
+    id111257  id111257                        1
+    id111260  id111260                       -1
+    id111256  id111256                       -4
+QCMATRIX   q634
+    id111271  id111271                        1
+    id111274  id111274                       -1
+    id111270  id111270                       -4
+QCMATRIX   q635
+    id111285  id111285                        1
+    id111288  id111288                       -1
+    id111284  id111284                       -4
+QCMATRIX   q636
+    id111299  id111299                        1
+    id111302  id111302                       -1
+    id111298  id111298                       -4
+QCMATRIX   q637
+    id111313  id111313                        1
+    id111316  id111316                       -1
+    id111312  id111312                       -4
+QCMATRIX   q638
+    id111326  id111326                       -4
+    id111329  id111329                        1
+    id111332  id111332                       -1
+QCMATRIX   q639
+    id111343  id111343                        1
+    id111346  id111346                       -1
+    id111342  id111342                       -4
+QCMATRIX   q640
+    id111357  id111357                        1
+    id111360  id111360                       -1
+    id111356  id111356                       -4
+QCMATRIX   q641
+    id111371  id111371                        1
+    id111374  id111374                       -1
+    id111370  id111370                       -4
+QCMATRIX   q642
+    id111384  id111384                       -4
+    id111387  id111387                        1
+    id111390  id111390                       -1
+QCMATRIX   q643
+    id111401  id111401                        1
+    id111404  id111404                       -1
+    id111400  id111400                       -4
+QCMATRIX   q644
+    id111415  id111415                        1
+    id111418  id111418                       -1
+    id111414  id111414                       -4
+QCMATRIX   q645
+    id111429  id111429                        1
+    id111432  id111432                       -1
+    id111428  id111428                       -4
+QCMATRIX   q646
+    id111443  id111443                        1
+    id111446  id111446                       -1
+    id111442  id111442                       -4
+QCMATRIX   q647
+    id111457  id111457                        1
+    id111460  id111460                       -1
+    id111456  id111456                       -4
+QCMATRIX   q648
+    id111471  id111471                        1
+    id111474  id111474                       -1
+    id111470  id111470                       -4
+QCMATRIX   q649
+    id111484  id111484                       -4
+    id111487  id111487                        1
+    id111490  id111490                       -1
+QCMATRIX   q650
+    id111501  id111501                        1
+    id111504  id111504                       -1
+    id111500  id111500                       -4
+QCMATRIX   q651
+    id111515  id111515                        1
+    id111518  id111518                       -1
+    id111514  id111514                       -4
+QCMATRIX   q652
+    id111529  id111529                        1
+    id111532  id111532                       -1
+    id111528  id111528                       -4
+QCMATRIX   q653
+    id111543  id111543                        1
+    id111546  id111546                       -1
+    id111542  id111542                       -4
+QCMATRIX   q654
+    id111556  id111556                       -4
+    id111559  id111559                        1
+    id111562  id111562                       -1
+QCMATRIX   q655
+    id111573  id111573                        1
+    id111576  id111576                       -1
+    id111572  id111572                       -4
+QCMATRIX   q656
+    id111587  id111587                        1
+    id111590  id111590                       -1
+    id111586  id111586                       -4
+QCMATRIX   q657
+    id111601  id111601                        1
+    id111604  id111604                       -1
+    id111600  id111600                       -4
+QCMATRIX   q658
+    id111615  id111615                        1
+    id111618  id111618                       -1
+    id111614  id111614                       -4
+QCMATRIX   q659
+    id111628  id111628                       -4
+    id111631  id111631                        1
+    id111634  id111634                       -1
+QCMATRIX   q660
+    id111645  id111645                        1
+    id111648  id111648                       -1
+    id111644  id111644                       -4
+QCMATRIX   q661
+    id111659  id111659                        1
+    id111662  id111662                       -1
+    id111658  id111658                       -4
+QCMATRIX   q662
+    id111673  id111673                        1
+    id111676  id111676                       -1
+    id111672  id111672                       -4
+QCMATRIX   q663
+    id111687  id111687                        1
+    id111690  id111690                       -1
+    id111686  id111686                       -4
+QCMATRIX   q664
+    id111701  id111701                        1
+    id111704  id111704                       -1
+    id111700  id111700                       -4
+QCMATRIX   q665
+    id111715  id111715                        1
+    id111718  id111718                       -1
+    id111714  id111714                       -4
+QCMATRIX   q666
+    id111728  id111728                       -4
+    id111731  id111731                        1
+    id111734  id111734                       -1
+QCMATRIX   q667
+    id111745  id111745                        1
+    id111748  id111748                       -1
+    id111744  id111744                       -4
+QCMATRIX   q668
+    id111759  id111759                        1
+    id111762  id111762                       -1
+    id111758  id111758                       -4
+QCMATRIX   q669
+    id111773  id111773                        1
+    id111776  id111776                       -1
+    id111772  id111772                       -4
+QCMATRIX   q670
+    id111787  id111787                        1
+    id111790  id111790                       -1
+    id111786  id111786                       -4
+QCMATRIX   q671
+    id111800  id111800                       -4
+    id111803  id111803                        1
+    id111806  id111806                       -1
+QCMATRIX   q672
+    id111817  id111817                        1
+    id111820  id111820                       -1
+    id111816  id111816                       -4
+QCMATRIX   q673
+    id111831  id111831                        1
+    id111834  id111834                       -1
+    id111830  id111830                       -4
+QCMATRIX   q674
+    id111845  id111845                        1
+    id111848  id111848                       -1
+    id111844  id111844                       -4
+QCMATRIX   q675
+    id111859  id111859                        1
+    id111862  id111862                       -1
+    id111858  id111858                       -4
+QCMATRIX   q676
+    id111872  id111872                       -4
+    id111875  id111875                        1
+    id111878  id111878                       -1
+QCMATRIX   q677
+    id111889  id111889                        1
+    id111892  id111892                       -1
+    id111888  id111888                       -4
+QCMATRIX   q678
+    id111903  id111903                        1
+    id111906  id111906                       -1
+    id111902  id111902                       -4
+QCMATRIX   q679
+    id111917  id111917                        1
+    id111920  id111920                       -1
+    id111916  id111916                       -4
+QCMATRIX   q680
+    id111930  id111930                       -4
+    id111933  id111933                        1
+    id111936  id111936                       -1
+QCMATRIX   q681
+    id111947  id111947                        1
+    id111950  id111950                       -1
+    id111946  id111946                       -4
+QCMATRIX   q682
+    id111961  id111961                        1
+    id111964  id111964                       -1
+    id111960  id111960                       -4
+QCMATRIX   q683
+    id111975  id111975                        1
+    id111978  id111978                       -1
+    id111974  id111974                       -4
+QCMATRIX   q684
+    id111988  id111988                       -4
+    id111991  id111991                        1
+    id111994  id111994                       -1
+QCMATRIX   q685
+    id112005  id112005                        1
+    id112008  id112008                       -1
+    id112004  id112004                       -4
+QCMATRIX   q686
+    id112019  id112019                        1
+    id112022  id112022                       -1
+    id112018  id112018                       -4
+QCMATRIX   q687
+    id112033  id112033                        1
+    id112036  id112036                       -1
+    id112032  id112032                       -4
+QCMATRIX   q688
+    id112047  id112047                        1
+    id112050  id112050                       -1
+    id112046  id112046                       -4
+QCMATRIX   q689
+    id112060  id112060                       -4
+    id112063  id112063                        1
+    id112066  id112066                       -1
+QCMATRIX   q690
+    id112077  id112077                        1
+    id112080  id112080                       -1
+    id112076  id112076                       -4
+QCMATRIX   q691
+    id112091  id112091                        1
+    id112094  id112094                       -1
+    id112090  id112090                       -4
+QCMATRIX   q692
+    id112104  id112104                       -4
+    id112107  id112107                        1
+    id112110  id112110                       -1
+QCMATRIX   q693
+    id112121  id112121                        1
+    id112124  id112124                       -1
+    id112120  id112120                       -4
+QCMATRIX   q694
+    id112135  id112135                        1
+    id112138  id112138                       -1
+    id112134  id112134                       -4
+QCMATRIX   q695
+    id112149  id112149                        1
+    id112152  id112152                       -1
+    id112148  id112148                       -4
+QCMATRIX   q696
+    id112163  id112163                        1
+    id112166  id112166                       -1
+    id112162  id112162                       -4
+QCMATRIX   q697
+    id112177  id112177                        1
+    id112180  id112180                       -1
+    id112176  id112176                       -4
+QCMATRIX   q698
+    id112190  id112190                       -4
+    id112193  id112193                        1
+    id112196  id112196                       -1
+QCMATRIX   q699
+    id112207  id112207                        1
+    id112210  id112210                       -1
+    id112206  id112206                       -4
+QCMATRIX   q700
+    id112221  id112221                        1
+    id112224  id112224                       -1
+    id112220  id112220                       -4
+QCMATRIX   q701
+    id112235  id112235                        1
+    id112238  id112238                       -1
+    id112234  id112234                       -4
+QCMATRIX   q702
+    id112248  id112248                       -4
+    id112251  id112251                        1
+    id112254  id112254                       -1
+QCMATRIX   q703
+    id112265  id112265                        1
+    id112268  id112268                       -1
+    id112264  id112264                       -4
+QCMATRIX   q704
+    id112279  id112279                        1
+    id112282  id112282                       -1
+    id112278  id112278                       -4
+QCMATRIX   q705
+    id112293  id112293                        1
+    id112296  id112296                       -1
+    id112292  id112292                       -4
+QCMATRIX   q706
+    id112307  id112307                        1
+    id112310  id112310                       -1
+    id112306  id112306                       -4
+QCMATRIX   q707
+    id112320  id112320                       -4
+    id112323  id112323                        1
+    id112326  id112326                       -1
+QCMATRIX   q708
+    id112337  id112337                        1
+    id112340  id112340                       -1
+    id112336  id112336                       -4
+QCMATRIX   q709
+    id112351  id112351                        1
+    id112354  id112354                       -1
+    id112350  id112350                       -4
+QCMATRIX   q710
+    id112365  id112365                        1
+    id112368  id112368                       -1
+    id112364  id112364                       -4
+QCMATRIX   q711
+    id112379  id112379                        1
+    id112382  id112382                       -1
+    id112378  id112378                       -4
+QCMATRIX   q712
+    id112393  id112393                        1
+    id112396  id112396                       -1
+    id112392  id112392                       -4
+QCMATRIX   q713
+    id112406  id112406                       -4
+    id112409  id112409                        1
+    id112412  id112412                       -1
+QCMATRIX   q714
+    id112423  id112423                        1
+    id112426  id112426                       -1
+    id112422  id112422                       -4
+QCMATRIX   q715
+    id112437  id112437                        1
+    id112440  id112440                       -1
+    id112436  id112436                       -4
+QCMATRIX   q716
+    id112451  id112451                        1
+    id112454  id112454                       -1
+    id112450  id112450                       -4
+QCMATRIX   q717
+    id112465  id112465                        1
+    id112468  id112468                       -1
+    id112464  id112464                       -4
+QCMATRIX   q718
+    id112478  id112478                       -4
+    id112481  id112481                        1
+    id112484  id112484                       -1
+QCMATRIX   q719
+    id112495  id112495                        1
+    id112498  id112498                       -1
+    id112494  id112494                       -4
+QCMATRIX   q720
+    id112509  id112509                        1
+    id112512  id112512                       -1
+    id112508  id112508                       -4
+QCMATRIX   q721
+    id112523  id112523                        1
+    id112526  id112526                       -1
+    id112522  id112522                       -4
+QCMATRIX   q722
+    id112536  id112536                       -4
+    id112539  id112539                        1
+    id112542  id112542                       -1
+QCMATRIX   q723
+    id112553  id112553                        1
+    id112556  id112556                       -1
+    id112552  id112552                       -4
+QCMATRIX   q724
+    id112567  id112567                        1
+    id112570  id112570                       -1
+    id112566  id112566                       -4
+QCMATRIX   q725
+    id112581  id112581                        1
+    id112584  id112584                       -1
+    id112580  id112580                       -4
+QCMATRIX   q726
+    id112595  id112595                        1
+    id112598  id112598                       -1
+    id112594  id112594                       -4
+QCMATRIX   q727
+    id112609  id112609                        1
+    id112612  id112612                       -1
+    id112608  id112608                       -4
+QCMATRIX   q728
+    id112623  id112623                        1
+    id112626  id112626                       -1
+    id112622  id112622                       -4
+QCMATRIX   q729
+    id112637  id112637                        1
+    id112640  id112640                       -1
+    id112636  id112636                       -4
+QCMATRIX   q730
+    id112650  id112650                       -4
+    id112653  id112653                        1
+    id112656  id112656                       -1
+QCMATRIX   q731
+    id112667  id112667                        1
+    id112670  id112670                       -1
+    id112666  id112666                       -4
+QCMATRIX   q732
+    id112681  id112681                        1
+    id112684  id112684                       -1
+    id112680  id112680                       -4
+QCMATRIX   q733
+    id112695  id112695                        1
+    id112698  id112698                       -1
+    id112694  id112694                       -4
+QCMATRIX   q734
+    id112708  id112708                       -4
+    id112711  id112711                        1
+    id112714  id112714                       -1
+QCMATRIX   q735
+    id112725  id112725                        1
+    id112728  id112728                       -1
+    id112724  id112724                       -4
+QCMATRIX   q736
+    id112739  id112739                        1
+    id112742  id112742                       -1
+    id112738  id112738                       -4
+QCMATRIX   q737
+    id112752  id112752                       -4
+    id112755  id112755                        1
+    id112758  id112758                       -1
+QCMATRIX   q738
+    id112769  id112769                        1
+    id112772  id112772                       -1
+    id112768  id112768                       -4
+QCMATRIX   q739
+    id112783  id112783                        1
+    id112786  id112786                       -1
+    id112782  id112782                       -4
+QCMATRIX   q740
+    id112797  id112797                        1
+    id112800  id112800                       -1
+    id112796  id112796                       -4
+QCMATRIX   q741
+    id112810  id112810                       -4
+    id112813  id112813                        1
+    id112816  id112816                       -1
+QCMATRIX   q742
+    id112827  id112827                        1
+    id112830  id112830                       -1
+    id112826  id112826                       -4
+QCMATRIX   q743
+    id112841  id112841                        1
+    id112844  id112844                       -1
+    id112840  id112840                       -4
+QCMATRIX   q744
+    id112855  id112855                        1
+    id112858  id112858                       -1
+    id112854  id112854                       -4
+QCMATRIX   q745
+    id112869  id112869                        1
+    id112872  id112872                       -1
+    id112868  id112868                       -4
+QCMATRIX   q746
+    id112883  id112883                        1
+    id112886  id112886                       -1
+    id112882  id112882                       -4
+QCMATRIX   q747
+    id112896  id112896                       -4
+    id112899  id112899                        1
+    id112902  id112902                       -1
+QCMATRIX   q748
+    id112913  id112913                        1
+    id112916  id112916                       -1
+    id112912  id112912                       -4
+QCMATRIX   q749
+    id112927  id112927                        1
+    id112930  id112930                       -1
+    id112926  id112926                       -4
+QCMATRIX   q750
+    id112941  id112941                        1
+    id112944  id112944                       -1
+    id112940  id112940                       -4
+QCMATRIX   q751
+    id112954  id112954                       -4
+    id112957  id112957                        1
+    id112960  id112960                       -1
+QCMATRIX   q752
+    id112971  id112971                        1
+    id112974  id112974                       -1
+    id112970  id112970                       -4
+QCMATRIX   q753
+    id112985  id112985                        1
+    id112988  id112988                       -1
+    id112984  id112984                       -4
+QCMATRIX   q754
+    id112999  id112999                        1
+    id113002  id113002                       -1
+    id112998  id112998                       -4
+QCMATRIX   q755
+    id113013  id113013                        1
+    id113016  id113016                       -1
+    id113012  id113012                       -4
+QCMATRIX   q756
+    id113026  id113026                       -4
+    id113029  id113029                        1
+    id113032  id113032                       -1
+QCMATRIX   q757
+    id113043  id113043                        1
+    id113046  id113046                       -1
+    id113042  id113042                       -4
+QCMATRIX   q758
+    id113057  id113057                        1
+    id113060  id113060                       -1
+    id113056  id113056                       -4
+QCMATRIX   q759
+    id113071  id113071                        1
+    id113074  id113074                       -1
+    id113070  id113070                       -4
+QCMATRIX   q760
+    id113084  id113084                       -4
+    id113087  id113087                        1
+    id113090  id113090                       -1
+QCMATRIX   q761
+    id113101  id113101                        1
+    id113104  id113104                       -1
+    id113100  id113100                       -4
+QCMATRIX   q762
+    id113115  id113115                        1
+    id113118  id113118                       -1
+    id113114  id113114                       -4
+QCMATRIX   q763
+    id113129  id113129                        1
+    id113132  id113132                       -1
+    id113128  id113128                       -4
+QCMATRIX   q764
+    id113142  id113142                       -4
+    id113145  id113145                        1
+    id113148  id113148                       -1
+QCMATRIX   q765
+    id113159  id113159                        1
+    id113162  id113162                       -1
+    id113158  id113158                       -4
+QCMATRIX   q766
+    id113173  id113173                        1
+    id113176  id113176                       -1
+    id113172  id113172                       -4
+QCMATRIX   q767
+    id113187  id113187                        1
+    id113190  id113190                       -1
+    id113186  id113186                       -4
+QCMATRIX   q768
+    id113200  id113200                       -4
+    id113203  id113203                        1
+    id113206  id113206                       -1
+QCMATRIX   q769
+    id113217  id113217                        1
+    id113220  id113220                       -1
+    id113216  id113216                       -4
+QCMATRIX   q770
+    id113231  id113231                        1
+    id113234  id113234                       -1
+    id113230  id113230                       -4
+QCMATRIX   q771
+    id113245  id113245                        1
+    id113248  id113248                       -1
+    id113244  id113244                       -4
+QCMATRIX   q772
+    id113259  id113259                        1
+    id113262  id113262                       -1
+    id113258  id113258                       -4
+QCMATRIX   q773
+    id113272  id113272                       -4
+    id113275  id113275                        1
+    id113278  id113278                       -1
+QCMATRIX   q774
+    id113289  id113289                        1
+    id113292  id113292                       -1
+    id113288  id113288                       -4
+QCMATRIX   q775
+    id113303  id113303                        1
+    id113306  id113306                       -1
+    id113302  id113302                       -4
+QCMATRIX   q776
+    id113317  id113317                        1
+    id113320  id113320                       -1
+    id113316  id113316                       -4
+QCMATRIX   q777
+    id113330  id113330                       -4
+    id113333  id113333                        1
+    id113336  id113336                       -1
+QCMATRIX   q778
+    id113347  id113347                        1
+    id113350  id113350                       -1
+    id113346  id113346                       -4
+QCMATRIX   q779
+    id113361  id113361                        1
+    id113364  id113364                       -1
+    id113360  id113360                       -4
+QCMATRIX   q780
+    id113375  id113375                        1
+    id113378  id113378                       -1
+    id113374  id113374                       -4
+QCMATRIX   q781
+    id113389  id113389                        1
+    id113392  id113392                       -1
+    id113388  id113388                       -4
+QCMATRIX   q782
+    id113402  id113402                       -4
+    id113405  id113405                        1
+    id113408  id113408                       -1
+QCMATRIX   q783
+    id113419  id113419                        1
+    id113422  id113422                       -1
+    id113418  id113418                       -4
+QCMATRIX   q784
+    id113433  id113433                        1
+    id113436  id113436                       -1
+    id113432  id113432                       -4
+QCMATRIX   q785
+    id113447  id113447                        1
+    id113450  id113450                       -1
+    id113446  id113446                       -4
+QCMATRIX   q786
+    id113460  id113460                       -4
+    id113463  id113463                        1
+    id113466  id113466                       -1
+QCMATRIX   q787
+    id113477  id113477                        1
+    id113480  id113480                       -1
+    id113476  id113476                       -4
+QCMATRIX   q788
+    id113491  id113491                        1
+    id113494  id113494                       -1
+    id113490  id113490                       -4
+QCMATRIX   q789
+    id113505  id113505                        1
+    id113508  id113508                       -1
+    id113504  id113504                       -4
+QCMATRIX   q790
+    id113519  id113519                        1
+    id113522  id113522                       -1
+    id113518  id113518                       -4
+QCMATRIX   q791
+    id113533  id113533                        1
+    id113536  id113536                       -1
+    id113532  id113532                       -4
+QCMATRIX   q792
+    id113546  id113546                       -4
+    id113549  id113549                        1
+    id113552  id113552                       -1
+QCMATRIX   q793
+    id113563  id113563                        1
+    id113566  id113566                       -1
+    id113562  id113562                       -4
+QCMATRIX   q794
+    id113577  id113577                        1
+    id113580  id113580                       -1
+    id113576  id113576                       -4
+QCMATRIX   q795
+    id113591  id113591                        1
+    id113594  id113594                       -1
+    id113590  id113590                       -4
+QCMATRIX   q796
+    id113604  id113604                       -4
+    id113607  id113607                        1
+    id113610  id113610                       -1
+QCMATRIX   q797
+    id113621  id113621                        1
+    id113624  id113624                       -1
+    id113620  id113620                       -4
+QCMATRIX   q798
+    id113635  id113635                        1
+    id113638  id113638                       -1
+    id113634  id113634                       -4
+QCMATRIX   q799
+    id113649  id113649                        1
+    id113652  id113652                       -1
+    id113648  id113648                       -4
+QCMATRIX   q800
+    id113663  id113663                        1
+    id113666  id113666                       -1
+    id113662  id113662                       -4
+QCMATRIX   q801
+    id113676  id113676                       -4
+    id113679  id113679                        1
+    id113682  id113682                       -1
+QCMATRIX   q802
+    id113693  id113693                        1
+    id113696  id113696                       -1
+    id113692  id113692                       -4
+QCMATRIX   q803
+    id113707  id113707                        1
+    id113710  id113710                       -1
+    id113706  id113706                       -4
+QCMATRIX   q804
+    id113720  id113720                       -4
+    id113723  id113723                        1
+    id113726  id113726                       -1
+QCMATRIX   q805
+    id113737  id113737                        1
+    id113740  id113740                       -1
+    id113736  id113736                       -4
+QCMATRIX   q806
+    id113751  id113751                        1
+    id113754  id113754                       -1
+    id113750  id113750                       -4
+QCMATRIX   q807
+    id113765  id113765                        1
+    id113768  id113768                       -1
+    id113764  id113764                       -4
+QCMATRIX   q808
+    id113779  id113779                        1
+    id113782  id113782                       -1
+    id113778  id113778                       -4
+QCMATRIX   q809
+    id113793  id113793                        1
+    id113796  id113796                       -1
+    id113792  id113792                       -4
+QCMATRIX   q810
+    id113806  id113806                       -4
+    id113809  id113809                        1
+    id113812  id113812                       -1
+QCMATRIX   q811
+    id113823  id113823                        1
+    id113826  id113826                       -1
+    id113822  id113822                       -4
+QCMATRIX   q812
+    id113837  id113837                        1
+    id113840  id113840                       -1
+    id113836  id113836                       -4
+QCMATRIX   q813
+    id113851  id113851                        1
+    id113854  id113854                       -1
+    id113850  id113850                       -4
+QCMATRIX   q814
+    id113865  id113865                        1
+    id113868  id113868                       -1
+    id113864  id113864                       -4
+QCMATRIX   q815
+    id113878  id113878                       -4
+    id113881  id113881                        1
+    id113884  id113884                       -1
+QCMATRIX   q816
+    id113895  id113895                        1
+    id113898  id113898                       -1
+    id113894  id113894                       -4
+QCMATRIX   q817
+    id113909  id113909                        1
+    id113912  id113912                       -1
+    id113908  id113908                       -4
+QCMATRIX   q818
+    id113923  id113923                        1
+    id113926  id113926                       -1
+    id113922  id113922                       -4
+QCMATRIX   q819
+    id113937  id113937                        1
+    id113940  id113940                       -1
+    id113936  id113936                       -4
+QCMATRIX   q820
+    id113950  id113950                       -4
+    id113953  id113953                        1
+    id113956  id113956                       -1
+QCMATRIX   q821
+    id113967  id113967                        1
+    id113970  id113970                       -1
+    id113966  id113966                       -4
+QCMATRIX   q822
+    id113981  id113981                        1
+    id113984  id113984                       -1
+    id113980  id113980                       -4
+QCMATRIX   q823
+    id113995  id113995                        1
+    id113998  id113998                       -1
+    id113994  id113994                       -4
+QCMATRIX   q824
+    id114009  id114009                        1
+    id114012  id114012                       -1
+    id114008  id114008                       -4
+QCMATRIX   q825
+    id114023  id114023                        1
+    id114026  id114026                       -1
+    id114022  id114022                       -4
+QCMATRIX   q826
+    id114037  id114037                        1
+    id114040  id114040                       -1
+    id114036  id114036                       -4
+QCMATRIX   q827
+    id114051  id114051                        1
+    id114054  id114054                       -1
+    id114050  id114050                       -4
+QCMATRIX   q828
+    id114064  id114064                       -4
+    id114067  id114067                        1
+    id114070  id114070                       -1
+QCMATRIX   q829
+    id114081  id114081                        1
+    id114084  id114084                       -1
+    id114080  id114080                       -4
+QCMATRIX   q830
+    id114095  id114095                        1
+    id114098  id114098                       -1
+    id114094  id114094                       -4
+QCMATRIX   q831
+    id114109  id114109                        1
+    id114112  id114112                       -1
+    id114108  id114108                       -4
+QCMATRIX   q832
+    id114123  id114123                        1
+    id114126  id114126                       -1
+    id114122  id114122                       -4
+QCMATRIX   q833
+    id114137  id114137                        1
+    id114140  id114140                       -1
+    id114136  id114136                       -4
+QCMATRIX   q834
+    id114151  id114151                        1
+    id114154  id114154                       -1
+    id114150  id114150                       -4
+QCMATRIX   q835
+    id114164  id114164                       -4
+    id114167  id114167                        1
+    id114170  id114170                       -1
+QCMATRIX   q836
+    id114181  id114181                        1
+    id114184  id114184                       -1
+    id114180  id114180                       -4
+QCMATRIX   q837
+    id114195  id114195                        1
+    id114198  id114198                       -1
+    id114194  id114194                       -4
+QCMATRIX   q838
+    id114209  id114209                        1
+    id114212  id114212                       -1
+    id114208  id114208                       -4
+QCMATRIX   q839
+    id114223  id114223                        1
+    id114226  id114226                       -1
+    id114222  id114222                       -4
+QCMATRIX   q840
+    id114237  id114237                        1
+    id114240  id114240                       -1
+    id114236  id114236                       -4
+QCMATRIX   q841
+    id114251  id114251                        1
+    id114254  id114254                       -1
+    id114250  id114250                       -4
+QCMATRIX   q842
+    id114265  id114265                        1
+    id114268  id114268                       -1
+    id114264  id114264                       -4
+QCMATRIX   q843
+    id114278  id114278                       -4
+    id114281  id114281                        1
+    id114284  id114284                       -1
+QCMATRIX   q844
+    id114295  id114295                        1
+    id114298  id114298                       -1
+    id114294  id114294                       -4
+QCMATRIX   q845
+    id114309  id114309                        1
+    id114312  id114312                       -1
+    id114308  id114308                       -4
+QCMATRIX   q846
+    id114323  id114323                        1
+    id114326  id114326                       -1
+    id114322  id114322                       -4
+QCMATRIX   q847
+    id114337  id114337                        1
+    id114340  id114340                       -1
+    id114336  id114336                       -4
+QCMATRIX   q848
+    id114351  id114351                        1
+    id114354  id114354                       -1
+    id114350  id114350                       -4
+QCMATRIX   q849
+    id114365  id114365                        1
+    id114368  id114368                       -1
+    id114364  id114364                       -4
+QCMATRIX   q850
+    id114379  id114379                        1
+    id114382  id114382                       -1
+    id114378  id114378                       -4
+QCMATRIX   q851
+    id114392  id114392                       -4
+    id114395  id114395                        1
+    id114398  id114398                       -1
+QCMATRIX   q852
+    id114409  id114409                        1
+    id114412  id114412                       -1
+    id114408  id114408                       -4
+QCMATRIX   q853
+    id114423  id114423                        1
+    id114426  id114426                       -1
+    id114422  id114422                       -4
+QCMATRIX   q854
+    id114437  id114437                        1
+    id114440  id114440                       -1
+    id114436  id114436                       -4
+QCMATRIX   q855
+    id114450  id114450                       -4
+    id114453  id114453                        1
+    id114456  id114456                       -1
+QCMATRIX   q856
+    id114467  id114467                        1
+    id114470  id114470                       -1
+    id114466  id114466                       -4
+QCMATRIX   q857
+    id114481  id114481                        1
+    id114484  id114484                       -1
+    id114480  id114480                       -4
+QCMATRIX   q858
+    id114494  id114494                       -4
+    id114497  id114497                        1
+    id114500  id114500                       -1
+QCMATRIX   q859
+    id114511  id114511                        1
+    id114514  id114514                       -1
+    id114510  id114510                       -4
+QCMATRIX   q860
+    id114525  id114525                        1
+    id114528  id114528                       -1
+    id114524  id114524                       -4
+QCMATRIX   q861
+    id114539  id114539                        1
+    id114542  id114542                       -1
+    id114538  id114538                       -4
+QCMATRIX   q862
+    id114552  id114552                       -4
+    id114555  id114555                        1
+    id114558  id114558                       -1
+QCMATRIX   q863
+    id114569  id114569                        1
+    id114572  id114572                       -1
+    id114568  id114568                       -4
+QCMATRIX   q864
+    id114583  id114583                        1
+    id114586  id114586                       -1
+    id114582  id114582                       -4
+QCMATRIX   q865
+    id114597  id114597                        1
+    id114600  id114600                       -1
+    id114596  id114596                       -4
+QCMATRIX   q866
+    id114611  id114611                        1
+    id114614  id114614                       -1
+    id114610  id114610                       -4
+QCMATRIX   q867
+    id114625  id114625                        1
+    id114628  id114628                       -1
+    id114624  id114624                       -4
+QCMATRIX   q868
+    id114638  id114638                       -4
+    id114641  id114641                        1
+    id114644  id114644                       -1
+QCMATRIX   q869
+    id114655  id114655                        1
+    id114658  id114658                       -1
+    id114654  id114654                       -4
+QCMATRIX   q870
+    id114669  id114669                        1
+    id114672  id114672                       -1
+    id114668  id114668                       -4
+QCMATRIX   q871
+    id114683  id114683                        1
+    id114686  id114686                       -1
+    id114682  id114682                       -4
+QCMATRIX   q872
+    id114696  id114696                       -4
+    id114699  id114699                        1
+    id114702  id114702                       -1
+QCMATRIX   q873
+    id114713  id114713                        1
+    id114716  id114716                       -1
+    id114712  id114712                       -4
+QCMATRIX   q874
+    id114727  id114727                        1
+    id114730  id114730                       -1
+    id114726  id114726                       -4
+QCMATRIX   q875
+    id114741  id114741                        1
+    id114744  id114744                       -1
+    id114740  id114740                       -4
+QCMATRIX   q876
+    id114755  id114755                        1
+    id114758  id114758                       -1
+    id114754  id114754                       -4
+QCMATRIX   q877
+    id114768  id114768                       -4
+    id114771  id114771                        1
+    id114774  id114774                       -1
+QCMATRIX   q878
+    id114785  id114785                        1
+    id114788  id114788                       -1
+    id114784  id114784                       -4
+QCMATRIX   q879
+    id114798  id114798                       -4
+    id114801  id114801                        1
+    id114804  id114804                       -1
+QCMATRIX   q880
+    id114815  id114815                        1
+    id114818  id114818                       -1
+    id114814  id114814                       -4
+QCMATRIX   q881
+    id114829  id114829                        1
+    id114832  id114832                       -1
+    id114828  id114828                       -4
+QCMATRIX   q882
+    id114843  id114843                        1
+    id114846  id114846                       -1
+    id114842  id114842                       -4
+QCMATRIX   q883
+    id114857  id114857                        1
+    id114860  id114860                       -1
+    id114856  id114856                       -4
+QCMATRIX   q884
+    id114871  id114871                        1
+    id114874  id114874                       -1
+    id114870  id114870                       -4
+QCMATRIX   q885
+    id114885  id114885                        1
+    id114888  id114888                       -1
+    id114884  id114884                       -4
+QCMATRIX   q886
+    id114898  id114898                       -4
+    id114901  id114901                        1
+    id114904  id114904                       -1
+QCMATRIX   q887
+    id114915  id114915                        1
+    id114918  id114918                       -1
+    id114914  id114914                       -4
+QCMATRIX   q888
+    id114928  id114928                       -4
+    id114931  id114931                        1
+    id114934  id114934                       -1
+QCMATRIX   q889
+    id114945  id114945                        1
+    id114948  id114948                       -1
+    id114944  id114944                       -4
+QCMATRIX   q890
+    id114959  id114959                        1
+    id114962  id114962                       -1
+    id114958  id114958                       -4
+QCMATRIX   q891
+    id114973  id114973                        1
+    id114976  id114976                       -1
+    id114972  id114972                       -4
+QCMATRIX   q892
+    id114986  id114986                       -4
+    id114989  id114989                        1
+    id114992  id114992                       -1
+QCMATRIX   q893
+    id115003  id115003                        1
+    id115006  id115006                       -1
+    id115002  id115002                       -4
+QCMATRIX   q894
+    id115017  id115017                        1
+    id115020  id115020                       -1
+    id115016  id115016                       -4
+QCMATRIX   q895
+    id115031  id115031                        1
+    id115034  id115034                       -1
+    id115030  id115030                       -4
+QCMATRIX   q896
+    id115045  id115045                        1
+    id115048  id115048                       -1
+    id115044  id115044                       -4
+QCMATRIX   q897
+    id115059  id115059                        1
+    id115062  id115062                       -1
+    id115058  id115058                       -4
+QCMATRIX   q898
+    id115072  id115072                       -4
+    id115075  id115075                        1
+    id115078  id115078                       -1
+QCMATRIX   q899
+    id115089  id115089                        1
+    id115092  id115092                       -1
+    id115088  id115088                       -4
+QCMATRIX   q900
+    id115103  id115103                        1
+    id115106  id115106                       -1
+    id115102  id115102                       -4
+QCMATRIX   q901
+    id115117  id115117                        1
+    id115120  id115120                       -1
+    id115116  id115116                       -4
+QCMATRIX   q902
+    id115131  id115131                        1
+    id115134  id115134                       -1
+    id115130  id115130                       -4
+QCMATRIX   q903
+    id115144  id115144                       -4
+    id115147  id115147                        1
+    id115150  id115150                       -1
+QCMATRIX   q904
+    id115161  id115161                        1
+    id115164  id115164                       -1
+    id115160  id115160                       -4
+QCMATRIX   q905
+    id115175  id115175                        1
+    id115178  id115178                       -1
+    id115174  id115174                       -4
+QCMATRIX   q906
+    id115189  id115189                        1
+    id115192  id115192                       -1
+    id115188  id115188                       -4
+QCMATRIX   q907
+    id115203  id115203                        1
+    id115206  id115206                       -1
+    id115202  id115202                       -4
+QCMATRIX   q908
+    id115216  id115216                       -4
+    id115219  id115219                        1
+    id115222  id115222                       -1
+QCMATRIX   q909
+    id115233  id115233                        1
+    id115236  id115236                       -1
+    id115232  id115232                       -4
+QCMATRIX   q910
+    id115247  id115247                        1
+    id115250  id115250                       -1
+    id115246  id115246                       -4
+QCMATRIX   q911
+    id115261  id115261                        1
+    id115264  id115264                       -1
+    id115260  id115260                       -4
+QCMATRIX   q912
+    id115275  id115275                        1
+    id115278  id115278                       -1
+    id115274  id115274                       -4
+QCMATRIX   q913
+    id115289  id115289                        1
+    id115292  id115292                       -1
+    id115288  id115288                       -4
+QCMATRIX   q914
+    id115303  id115303                        1
+    id115306  id115306                       -1
+    id115302  id115302                       -4
+QCMATRIX   q915
+    id115316  id115316                       -4
+    id115319  id115319                        1
+    id115322  id115322                       -1
+QCMATRIX   q916
+    id115333  id115333                        1
+    id115336  id115336                       -1
+    id115332  id115332                       -4
+QCMATRIX   q917
+    id115347  id115347                        1
+    id115350  id115350                       -1
+    id115346  id115346                       -4
+QCMATRIX   q918
+    id115360  id115360                       -4
+    id115363  id115363                        1
+    id115366  id115366                       -1
+QCMATRIX   q919
+    id115377  id115377                        1
+    id115380  id115380                       -1
+    id115376  id115376                       -4
+QCMATRIX   q920
+    id115391  id115391                        1
+    id115394  id115394                       -1
+    id115390  id115390                       -4
+QCMATRIX   q921
+    id115405  id115405                        1
+    id115408  id115408                       -1
+    id115404  id115404                       -4
+QCMATRIX   q922
+    id115419  id115419                        1
+    id115422  id115422                       -1
+    id115418  id115418                       -4
+QCMATRIX   q923
+    id115433  id115433                        1
+    id115436  id115436                       -1
+    id115432  id115432                       -4
+QCMATRIX   q924
+    id115447  id115447                        1
+    id115450  id115450                       -1
+    id115446  id115446                       -4
+QCMATRIX   q925
+    id115460  id115460                       -4
+    id115463  id115463                        1
+    id115466  id115466                       -1
+QCMATRIX   q926
+    id115477  id115477                        1
+    id115480  id115480                       -1
+    id115476  id115476                       -4
+QCMATRIX   q927
+    id115491  id115491                        1
+    id115494  id115494                       -1
+    id115490  id115490                       -4
+QCMATRIX   q928
+    id115505  id115505                        1
+    id115508  id115508                       -1
+    id115504  id115504                       -4
+QCMATRIX   q929
+    id115518  id115518                       -4
+    id115521  id115521                        1
+    id115524  id115524                       -1
+QCMATRIX   q930
+    id115535  id115535                        1
+    id115538  id115538                       -1
+    id115534  id115534                       -4
+QCMATRIX   q931
+    id115549  id115549                        1
+    id115552  id115552                       -1
+    id115548  id115548                       -4
+QCMATRIX   q932
+    id115562  id115562                       -4
+    id115565  id115565                        1
+    id115568  id115568                       -1
+QCMATRIX   q933
+    id115579  id115579                        1
+    id115582  id115582                       -1
+    id115578  id115578                       -4
+QCMATRIX   q934
+    id115593  id115593                        1
+    id115596  id115596                       -1
+    id115592  id115592                       -4
+QCMATRIX   q935
+    id115607  id115607                        1
+    id115610  id115610                       -1
+    id115606  id115606                       -4
+QCMATRIX   q936
+    id115621  id115621                        1
+    id115624  id115624                       -1
+    id115620  id115620                       -4
+QCMATRIX   q937
+    id115635  id115635                        1
+    id115638  id115638                       -1
+    id115634  id115634                       -4
+QCMATRIX   q938
+    id115649  id115649                        1
+    id115652  id115652                       -1
+    id115648  id115648                       -4
+QCMATRIX   q939
+    id115663  id115663                        1
+    id115666  id115666                       -1
+    id115662  id115662                       -4
+QCMATRIX   q940
+    id115676  id115676                       -4
+    id115679  id115679                        1
+    id115682  id115682                       -1
+QCMATRIX   q941
+    id115693  id115693                        1
+    id115696  id115696                       -1
+    id115692  id115692                       -4
+QCMATRIX   q942
+    id115707  id115707                        1
+    id115710  id115710                       -1
+    id115706  id115706                       -4
+QCMATRIX   q943
+    id115721  id115721                        1
+    id115724  id115724                       -1
+    id115720  id115720                       -4
+QCMATRIX   q944
+    id115735  id115735                        1
+    id115738  id115738                       -1
+    id115734  id115734                       -4
+QCMATRIX   q945
+    id115749  id115749                        1
+    id115752  id115752                       -1
+    id115748  id115748                       -4
+QCMATRIX   q946
+    id115762  id115762                       -4
+    id115765  id115765                        1
+    id115768  id115768                       -1
+QCMATRIX   q947
+    id115779  id115779                        1
+    id115782  id115782                       -1
+    id115778  id115778                       -4
+QCMATRIX   q948
+    id115793  id115793                        1
+    id115796  id115796                       -1
+    id115792  id115792                       -4
+QCMATRIX   q949
+    id115807  id115807                        1
+    id115810  id115810                       -1
+    id115806  id115806                       -4
+QCMATRIX   q950
+    id115820  id115820                       -4
+    id115823  id115823                        1
+    id115826  id115826                       -1
+QCMATRIX   q951
+    id115837  id115837                        1
+    id115840  id115840                       -1
+    id115836  id115836                       -4
+QCMATRIX   q952
+    id115851  id115851                        1
+    id115854  id115854                       -1
+    id115850  id115850                       -4
+QCMATRIX   q953
+    id115864  id115864                       -4
+    id115867  id115867                        1
+    id115870  id115870                       -1
+QCMATRIX   q954
+    id115881  id115881                        1
+    id115884  id115884                       -1
+    id115880  id115880                       -4
+QCMATRIX   q955
+    id115895  id115895                        1
+    id115898  id115898                       -1
+    id115894  id115894                       -4
+QCMATRIX   q956
+    id115909  id115909                        1
+    id115912  id115912                       -1
+    id115908  id115908                       -4
+QCMATRIX   q957
+    id115922  id115922                       -4
+    id115925  id115925                        1
+    id115928  id115928                       -1
+QCMATRIX   q958
+    id115939  id115939                        1
+    id115942  id115942                       -1
+    id115938  id115938                       -4
+QCMATRIX   q959
+    id115953  id115953                        1
+    id115956  id115956                       -1
+    id115952  id115952                       -4
+QCMATRIX   q960
+    id115966  id115966                       -4
+    id115969  id115969                        1
+    id115972  id115972                       -1
+QCMATRIX   q961
+    id115983  id115983                        1
+    id115986  id115986                       -1
+    id115982  id115982                       -4
+QCMATRIX   q962
+    id115997  id115997                        1
+    id116000  id116000                       -1
+    id115996  id115996                       -4
+QCMATRIX   q963
+    id116011  id116011                        1
+    id116014  id116014                       -1
+    id116010  id116010                       -4
+QCMATRIX   q964
+    id116025  id116025                        1
+    id116028  id116028                       -1
+    id116024  id116024                       -4
+QCMATRIX   q965
+    id116039  id116039                        1
+    id116042  id116042                       -1
+    id116038  id116038                       -4
+QCMATRIX   q966
+    id116052  id116052                       -4
+    id116055  id116055                        1
+    id116058  id116058                       -1
+QCMATRIX   q967
+    id116069  id116069                        1
+    id116072  id116072                       -1
+    id116068  id116068                       -4
+QCMATRIX   q968
+    id116083  id116083                        1
+    id116086  id116086                       -1
+    id116082  id116082                       -4
+QCMATRIX   q969
+    id116097  id116097                        1
+    id116100  id116100                       -1
+    id116096  id116096                       -4
+QCMATRIX   q970
+    id116111  id116111                        1
+    id116114  id116114                       -1
+    id116110  id116110                       -4
+QCMATRIX   q971
+    id116125  id116125                        1
+    id116128  id116128                       -1
+    id116124  id116124                       -4
+QCMATRIX   q972
+    id116138  id116138                       -4
+    id116141  id116141                        1
+    id116144  id116144                       -1
+QCMATRIX   q973
+    id116155  id116155                        1
+    id116158  id116158                       -1
+    id116154  id116154                       -4
+QCMATRIX   q974
+    id116168  id116168                       -4
+    id116171  id116171                        1
+    id116174  id116174                       -1
+QCMATRIX   q975
+    id116185  id116185                        1
+    id116188  id116188                       -1
+    id116184  id116184                       -4
+QCMATRIX   q976
+    id116199  id116199                        1
+    id116202  id116202                       -1
+    id116198  id116198                       -4
+QCMATRIX   q977
+    id116213  id116213                        1
+    id116216  id116216                       -1
+    id116212  id116212                       -4
+QCMATRIX   q978
+    id116226  id116226                       -4
+    id116229  id116229                        1
+    id116232  id116232                       -1
+QCMATRIX   q979
+    id116243  id116243                        1
+    id116246  id116246                       -1
+    id116242  id116242                       -4
+QCMATRIX   q980
+    id116256  id116256                       -4
+    id116259  id116259                        1
+    id116262  id116262                       -1
+QCMATRIX   q981
+    id116273  id116273                        1
+    id116276  id116276                       -1
+    id116272  id116272                       -4
+QCMATRIX   q982
+    id116287  id116287                        1
+    id116290  id116290                       -1
+    id116286  id116286                       -4
+QCMATRIX   q983
+    id116301  id116301                        1
+    id116304  id116304                       -1
+    id116300  id116300                       -4
+QCMATRIX   q984
+    id116315  id116315                        1
+    id116318  id116318                       -1
+    id116314  id116314                       -4
+QCMATRIX   q985
+    id116329  id116329                        1
+    id116332  id116332                       -1
+    id116328  id116328                       -4
+QCMATRIX   q986
+    id116342  id116342                       -4
+    id116345  id116345                        1
+    id116348  id116348                       -1
+QCMATRIX   q987
+    id116359  id116359                        1
+    id116362  id116362                       -1
+    id116358  id116358                       -4
+QCMATRIX   q988
+    id116373  id116373                        1
+    id116376  id116376                       -1
+    id116372  id116372                       -4
+QCMATRIX   q989
+    id116387  id116387                        1
+    id116390  id116390                       -1
+    id116386  id116386                       -4
+QCMATRIX   q990
+    id116401  id116401                        1
+    id116404  id116404                       -1
+    id116400  id116400                       -4
+QCMATRIX   q991
+    id116415  id116415                        1
+    id116418  id116418                       -1
+    id116414  id116414                       -4
+QCMATRIX   q992
+    id116428  id116428                       -4
+    id116431  id116431                        1
+    id116434  id116434                       -1
+QCMATRIX   q993
+    id116445  id116445                        1
+    id116448  id116448                       -1
+    id116444  id116444                       -4
+QCMATRIX   q994
+    id116459  id116459                        1
+    id116462  id116462                       -1
+    id116458  id116458                       -4
+QCMATRIX   q995
+    id116473  id116473                        1
+    id116476  id116476                       -1
+    id116472  id116472                       -4
+QCMATRIX   q996
+    id116487  id116487                        1
+    id116490  id116490                       -1
+    id116486  id116486                       -4
+QCMATRIX   q997
+    id116500  id116500                       -4
+    id116503  id116503                        1
+    id116506  id116506                       -1
+QCMATRIX   q998
+    id116517  id116517                        1
+    id116520  id116520                       -1
+    id116516  id116516                       -4
+QCMATRIX   q999
+    id116531  id116531                        1
+    id116534  id116534                       -1
+    id116530  id116530                       -4
+QCMATRIX   q1000
+    id116545  id116545                        1
+    id116548  id116548                       -1
+    id116544  id116544                       -4
+QCMATRIX   q1001
+    id116559  id116559                        1
+    id116562  id116562                       -1
+    id116558  id116558                       -4
+QCMATRIX   q1002
+    id116572  id116572                       -4
+    id116575  id116575                        1
+    id116578  id116578                       -1
+QCMATRIX   q1003
+    id116589  id116589                        1
+    id116592  id116592                       -1
+    id116588  id116588                       -4
+QCMATRIX   q1004
+    id116602  id116602                       -4
+    id116605  id116605                        1
+    id116608  id116608                       -1
+QCMATRIX   q1005
+    id116619  id116619                        1
+    id116622  id116622                       -1
+    id116618  id116618                       -4
+QCMATRIX   q1006
+    id116633  id116633                        1
+    id116636  id116636                       -1
+    id116632  id116632                       -4
+QCMATRIX   q1007
+    id116647  id116647                        1
+    id116650  id116650                       -1
+    id116646  id116646                       -4
+QCMATRIX   q1008
+    id116661  id116661                        1
+    id116664  id116664                       -1
+    id116660  id116660                       -4
+QCMATRIX   q1009
+    id116675  id116675                        1
+    id116678  id116678                       -1
+    id116674  id116674                       -4
+QCMATRIX   q1010
+    id116689  id116689                        1
+    id116692  id116692                       -1
+    id116688  id116688                       -4
+QCMATRIX   q1011
+    id116702  id116702                       -4
+    id116705  id116705                        1
+    id116708  id116708                       -1
+QCMATRIX   q1012
+    id116719  id116719                        1
+    id116722  id116722                       -1
+    id116718  id116718                       -4
+QCMATRIX   q1013
+    id116733  id116733                        1
+    id116736  id116736                       -1
+    id116732  id116732                       -4
+QCMATRIX   q1014
+    id116746  id116746                       -4
+    id116749  id116749                        1
+    id116752  id116752                       -1
+QCMATRIX   q1015
+    id116763  id116763                        1
+    id116766  id116766                       -1
+    id116762  id116762                       -4
+QCMATRIX   q1016
+    id116777  id116777                        1
+    id116780  id116780                       -1
+    id116776  id116776                       -4
+QCMATRIX   q1017
+    id116791  id116791                        1
+    id116794  id116794                       -1
+    id116790  id116790                       -4
+QCMATRIX   q1018
+    id116805  id116805                        1
+    id116808  id116808                       -1
+    id116804  id116804                       -4
+QCMATRIX   q1019
+    id116819  id116819                        1
+    id116822  id116822                       -1
+    id116818  id116818                       -4
+QCMATRIX   q1020
+    id116832  id116832                       -4
+    id116835  id116835                        1
+    id116838  id116838                       -1
+QCMATRIX   q1021
+    id116849  id116849                        1
+    id116852  id116852                       -1
+    id116848  id116848                       -4
+QCMATRIX   q1022
+    id116863  id116863                        1
+    id116866  id116866                       -1
+    id116862  id116862                       -4
+QCMATRIX   q1023
+    id116877  id116877                        1
+    id116880  id116880                       -1
+    id116876  id116876                       -4
+QCMATRIX   q1024
+    id116891  id116891                        1
+    id116894  id116894                       -1
+    id116890  id116890                       -4
+QCMATRIX   q1025
+    id116904  id116904                       -4
+    id116907  id116907                        1
+    id116910  id116910                       -1
+QCMATRIX   q1026
+    id116921  id116921                        1
+    id116924  id116924                       -1
+    id116920  id116920                       -4
+QCMATRIX   q1027
+    id116935  id116935                        1
+    id116938  id116938                       -1
+    id116934  id116934                       -4
+QCMATRIX   q1028
+    id116949  id116949                        1
+    id116952  id116952                       -1
+    id116948  id116948                       -4
+QCMATRIX   q1029
+    id116962  id116962                       -4
+    id116965  id116965                        1
+    id116968  id116968                       -1
+QCMATRIX   q1030
+    id116979  id116979                        1
+    id116982  id116982                       -1
+    id116978  id116978                       -4
+QCMATRIX   q1031
+    id116992  id116992                       -4
+    id116995  id116995                        1
+    id116998  id116998                       -1
+QCMATRIX   q1032
+    id117009  id117009                        1
+    id117012  id117012                       -1
+    id117008  id117008                       -4
+QCMATRIX   q1033
+    id117023  id117023                        1
+    id117026  id117026                       -1
+    id117022  id117022                       -4
+QCMATRIX   q1034
+    id117037  id117037                        1
+    id117040  id117040                       -1
+    id117036  id117036                       -4
+QCMATRIX   q1035
+    id117051  id117051                        1
+    id117054  id117054                       -1
+    id117050  id117050                       -4
+QCMATRIX   q1036
+    id117065  id117065                        1
+    id117068  id117068                       -1
+    id117064  id117064                       -4
+QCMATRIX   q1037
+    id117078  id117078                       -4
+    id117081  id117081                        1
+    id117084  id117084                       -1
+QCMATRIX   q1038
+    id117095  id117095                        1
+    id117098  id117098                       -1
+    id117094  id117094                       -4
+QCMATRIX   q1039
+    id117109  id117109                        1
+    id117112  id117112                       -1
+    id117108  id117108                       -4
+QCMATRIX   q1040
+    id117123  id117123                        1
+    id117126  id117126                       -1
+    id117122  id117122                       -4
+QCMATRIX   q1041
+    id117136  id117136                       -4
+    id117139  id117139                        1
+    id117142  id117142                       -1
+QCMATRIX   q1042
+    id117153  id117153                        1
+    id117156  id117156                       -1
+    id117152  id117152                       -4
+QCMATRIX   q1043
+    id117167  id117167                        1
+    id117170  id117170                       -1
+    id117166  id117166                       -4
+QCMATRIX   q1044
+    id117181  id117181                        1
+    id117184  id117184                       -1
+    id117180  id117180                       -4
+QCMATRIX   q1045
+    id117195  id117195                        1
+    id117198  id117198                       -1
+    id117194  id117194                       -4
+QCMATRIX   q1046
+    id117209  id117209                        1
+    id117212  id117212                       -1
+    id117208  id117208                       -4
+QCMATRIX   q1047
+    id117222  id117222                       -4
+    id117225  id117225                        1
+    id117228  id117228                       -1
+QCMATRIX   q1048
+    id117239  id117239                        1
+    id117242  id117242                       -1
+    id117238  id117238                       -4
+QCMATRIX   q1049
+    id117252  id117252                       -4
+    id117255  id117255                        1
+    id117258  id117258                       -1
+QCMATRIX   q1050
+    id117269  id117269                        1
+    id117272  id117272                       -1
+    id117268  id117268                       -4
+QCMATRIX   q1051
+    id117283  id117283                        1
+    id117286  id117286                       -1
+    id117282  id117282                       -4
+QCMATRIX   q1052
+    id117297  id117297                        1
+    id117300  id117300                       -1
+    id117296  id117296                       -4
+QCMATRIX   q1053
+    id117311  id117311                        1
+    id117314  id117314                       -1
+    id117310  id117310                       -4
+QCMATRIX   q1054
+    id117324  id117324                       -4
+    id117327  id117327                        1
+    id117330  id117330                       -1
+QCMATRIX   q1055
+    id117341  id117341                        1
+    id117344  id117344                       -1
+    id117340  id117340                       -4
+QCMATRIX   q1056
+    id117355  id117355                        1
+    id117358  id117358                       -1
+    id117354  id117354                       -4
+QCMATRIX   q1057
+    id117369  id117369                        1
+    id117372  id117372                       -1
+    id117368  id117368                       -4
+QCMATRIX   q1058
+    id117382  id117382                       -4
+    id117385  id117385                        1
+    id117388  id117388                       -1
+QCMATRIX   q1059
+    id117399  id117399                        1
+    id117402  id117402                       -1
+    id117398  id117398                       -4
+QCMATRIX   q1060
+    id117413  id117413                        1
+    id117416  id117416                       -1
+    id117412  id117412                       -4
+QCMATRIX   q1061
+    id117427  id117427                        1
+    id117430  id117430                       -1
+    id117426  id117426                       -4
+QCMATRIX   q1062
+    id117440  id117440                       -4
+    id117443  id117443                        1
+    id117446  id117446                       -1
+QCMATRIX   q1063
+    id117457  id117457                        1
+    id117460  id117460                       -1
+    id117456  id117456                       -4
+QCMATRIX   q1064
+    id117471  id117471                        1
+    id117474  id117474                       -1
+    id117470  id117470                       -4
+QCMATRIX   q1065
+    id117484  id117484                       -4
+    id117487  id117487                        1
+    id117490  id117490                       -1
+QCMATRIX   q1066
+    id117501  id117501                        1
+    id117504  id117504                       -1
+    id117500  id117500                       -4
+QCMATRIX   q1067
+    id117515  id117515                        1
+    id117518  id117518                       -1
+    id117514  id117514                       -4
+QCMATRIX   q1068
+    id117529  id117529                        1
+    id117532  id117532                       -1
+    id117528  id117528                       -4
+QCMATRIX   q1069
+    id117543  id117543                        1
+    id117546  id117546                       -1
+    id117542  id117542                       -4
+QCMATRIX   q1070
+    id117556  id117556                       -4
+    id117559  id117559                        1
+    id117562  id117562                       -1
+QCMATRIX   q1071
+    id117573  id117573                        1
+    id117576  id117576                       -1
+    id117572  id117572                       -4
+QCMATRIX   q1072
+    id117587  id117587                        1
+    id117590  id117590                       -1
+    id117586  id117586                       -4
+QCMATRIX   q1073
+    id117601  id117601                        1
+    id117604  id117604                       -1
+    id117600  id117600                       -4
+QCMATRIX   q1074
+    id117615  id117615                        1
+    id117618  id117618                       -1
+    id117614  id117614                       -4
+QCMATRIX   q1075
+    id117629  id117629                        1
+    id117632  id117632                       -1
+    id117628  id117628                       -4
+QCMATRIX   q1076
+    id117642  id117642                       -4
+    id117645  id117645                        1
+    id117648  id117648                       -1
+QCMATRIX   q1077
+    id117659  id117659                        1
+    id117662  id117662                       -1
+    id117658  id117658                       -4
+QCMATRIX   q1078
+    id117673  id117673                        1
+    id117676  id117676                       -1
+    id117672  id117672                       -4
+QCMATRIX   q1079
+    id117687  id117687                        1
+    id117690  id117690                       -1
+    id117686  id117686                       -4
+QCMATRIX   q1080
+    id117700  id117700                       -4
+    id117703  id117703                        1
+    id117706  id117706                       -1
+QCMATRIX   q1081
+    id117717  id117717                        1
+    id117720  id117720                       -1
+    id117716  id117716                       -4
+QCMATRIX   q1082
+    id117731  id117731                        1
+    id117734  id117734                       -1
+    id117730  id117730                       -4
+QCMATRIX   q1083
+    id117745  id117745                        1
+    id117748  id117748                       -1
+    id117744  id117744                       -4
+QCMATRIX   q1084
+    id117758  id117758                       -4
+    id117761  id117761                        1
+    id117764  id117764                       -1
+QCMATRIX   q1085
+    id117775  id117775                        1
+    id117778  id117778                       -1
+    id117774  id117774                       -4
+QCMATRIX   q1086
+    id117789  id117789                        1
+    id117792  id117792                       -1
+    id117788  id117788                       -4
+QCMATRIX   q1087
+    id117803  id117803                        1
+    id117806  id117806                       -1
+    id117802  id117802                       -4
+QCMATRIX   q1088
+    id117817  id117817                        1
+    id117820  id117820                       -1
+    id117816  id117816                       -4
+QCMATRIX   q1089
+    id117831  id117831                        1
+    id117834  id117834                       -1
+    id117830  id117830                       -4
+QCMATRIX   q1090
+    id117844  id117844                       -4
+    id117847  id117847                        1
+    id117850  id117850                       -1
+QCMATRIX   q1091
+    id117861  id117861                        1
+    id117864  id117864                       -1
+    id117860  id117860                       -4
+QCMATRIX   q1092
+    id117875  id117875                        1
+    id117878  id117878                       -1
+    id117874  id117874                       -4
+QCMATRIX   q1093
+    id117889  id117889                        1
+    id117892  id117892                       -1
+    id117888  id117888                       -4
+QCMATRIX   q1094
+    id117903  id117903                        1
+    id117906  id117906                       -1
+    id117902  id117902                       -4
+QCMATRIX   q1095
+    id117916  id117916                       -4
+    id117919  id117919                        1
+    id117922  id117922                       -1
+QCMATRIX   q1096
+    id117933  id117933                        1
+    id117936  id117936                       -1
+    id117932  id117932                       -4
+QCMATRIX   q1097
+    id117947  id117947                        1
+    id117950  id117950                       -1
+    id117946  id117946                       -4
+QCMATRIX   q1098
+    id117961  id117961                        1
+    id117964  id117964                       -1
+    id117960  id117960                       -4
+QCMATRIX   q1099
+    id117975  id117975                        1
+    id117978  id117978                       -1
+    id117974  id117974                       -4
+QCMATRIX   q1100
+    id117988  id117988                       -4
+    id117991  id117991                        1
+    id117994  id117994                       -1
+QCMATRIX   q1101
+    id118005  id118005                        1
+    id118008  id118008                       -1
+    id118004  id118004                       -4
+QCMATRIX   q1102
+    id118019  id118019                        1
+    id118022  id118022                       -1
+    id118018  id118018                       -4
+QCMATRIX   q1103
+    id118033  id118033                        1
+    id118036  id118036                       -1
+    id118032  id118032                       -4
+QCMATRIX   q1104
+    id118046  id118046                       -4
+    id118049  id118049                        1
+    id118052  id118052                       -1
+QCMATRIX   q1105
+    id118063  id118063                        1
+    id118066  id118066                       -1
+    id118062  id118062                       -4
+QCMATRIX   q1106
+    id118077  id118077                        1
+    id118080  id118080                       -1
+    id118076  id118076                       -4
+QCMATRIX   q1107
+    id118091  id118091                        1
+    id118094  id118094                       -1
+    id118090  id118090                       -4
+QCMATRIX   q1108
+    id118105  id118105                        1
+    id118108  id118108                       -1
+    id118104  id118104                       -4
+QCMATRIX   q1109
+    id118118  id118118                       -4
+    id118121  id118121                        1
+    id118124  id118124                       -1
+QCMATRIX   q1110
+    id118135  id118135                        1
+    id118138  id118138                       -1
+    id118134  id118134                       -4
+QCMATRIX   q1111
+    id118149  id118149                        1
+    id118152  id118152                       -1
+    id118148  id118148                       -4
+QCMATRIX   q1112
+    id118163  id118163                        1
+    id118166  id118166                       -1
+    id118162  id118162                       -4
+QCMATRIX   q1113
+    id118177  id118177                        1
+    id118180  id118180                       -1
+    id118176  id118176                       -4
+QCMATRIX   q1114
+    id118191  id118191                        1
+    id118194  id118194                       -1
+    id118190  id118190                       -4
+QCMATRIX   q1115
+    id118204  id118204                       -4
+    id118207  id118207                        1
+    id118210  id118210                       -1
+QCMATRIX   q1116
+    id118221  id118221                        1
+    id118224  id118224                       -1
+    id118220  id118220                       -4
+QCMATRIX   q1117
+    id118235  id118235                        1
+    id118238  id118238                       -1
+    id118234  id118234                       -4
+QCMATRIX   q1118
+    id118249  id118249                        1
+    id118252  id118252                       -1
+    id118248  id118248                       -4
+QCMATRIX   q1119
+    id118263  id118263                        1
+    id118266  id118266                       -1
+    id118262  id118262                       -4
+QCMATRIX   q1120
+    id118277  id118277                        1
+    id118280  id118280                       -1
+    id118276  id118276                       -4
+QCMATRIX   q1121
+    id118291  id118291                        1
+    id118294  id118294                       -1
+    id118290  id118290                       -4
+QCMATRIX   q1122
+    id118305  id118305                        1
+    id118308  id118308                       -1
+    id118304  id118304                       -4
+QCMATRIX   q1123
+    id118318  id118318                       -4
+    id118321  id118321                        1
+    id118324  id118324                       -1
+QCMATRIX   q1124
+    id118335  id118335                        1
+    id118338  id118338                       -1
+    id118334  id118334                       -4
+QCMATRIX   q1125
+    id118349  id118349                        1
+    id118352  id118352                       -1
+    id118348  id118348                       -4
+QCMATRIX   q1126
+    id118363  id118363                        1
+    id118366  id118366                       -1
+    id118362  id118362                       -4
+QCMATRIX   q1127
+    id118377  id118377                        1
+    id118380  id118380                       -1
+    id118376  id118376                       -4
+QCMATRIX   q1128
+    id118390  id118390                       -4
+    id118393  id118393                        1
+    id118396  id118396                       -1
+QCMATRIX   q1129
+    id118407  id118407                        1
+    id118410  id118410                       -1
+    id118406  id118406                       -4
+QCMATRIX   q1130
+    id118421  id118421                        1
+    id118424  id118424                       -1
+    id118420  id118420                       -4
+QCMATRIX   q1131
+    id118434  id118434                       -4
+    id118437  id118437                        1
+    id118440  id118440                       -1
+QCMATRIX   q1132
+    id118451  id118451                        1
+    id118454  id118454                       -1
+    id118450  id118450                       -4
+QCMATRIX   q1133
+    id118465  id118465                        1
+    id118468  id118468                       -1
+    id118464  id118464                       -4
+QCMATRIX   q1134
+    id118479  id118479                        1
+    id118482  id118482                       -1
+    id118478  id118478                       -4
+QCMATRIX   q1135
+    id118493  id118493                        1
+    id118496  id118496                       -1
+    id118492  id118492                       -4
+QCMATRIX   q1136
+    id118506  id118506                       -4
+    id118509  id118509                        1
+    id118512  id118512                       -1
+QCMATRIX   q1137
+    id118523  id118523                        1
+    id118526  id118526                       -1
+    id118522  id118522                       -4
+QCMATRIX   q1138
+    id118537  id118537                        1
+    id118540  id118540                       -1
+    id118536  id118536                       -4
+QCMATRIX   q1139
+    id118551  id118551                        1
+    id118554  id118554                       -1
+    id118550  id118550                       -4
+QCMATRIX   q1140
+    id118564  id118564                       -4
+    id118567  id118567                        1
+    id118570  id118570                       -1
+QCMATRIX   q1141
+    id118581  id118581                        1
+    id118584  id118584                       -1
+    id118580  id118580                       -4
+QCMATRIX   q1142
+    id118595  id118595                        1
+    id118598  id118598                       -1
+    id118594  id118594                       -4
+QCMATRIX   q1143
+    id118609  id118609                        1
+    id118612  id118612                       -1
+    id118608  id118608                       -4
+QCMATRIX   q1144
+    id118623  id118623                        1
+    id118626  id118626                       -1
+    id118622  id118622                       -4
+QCMATRIX   q1145
+    id118637  id118637                        1
+    id118640  id118640                       -1
+    id118636  id118636                       -4
+QCMATRIX   q1146
+    id118651  id118651                        1
+    id118654  id118654                       -1
+    id118650  id118650                       -4
+QCMATRIX   q1147
+    id118665  id118665                        1
+    id118668  id118668                       -1
+    id118664  id118664                       -4
+QCMATRIX   q1148
+    id118679  id118679                        1
+    id118682  id118682                       -1
+    id118678  id118678                       -4
+QCMATRIX   q1149
+    id118692  id118692                       -4
+    id118695  id118695                        1
+    id118698  id118698                       -1
+QCMATRIX   q1150
+    id118709  id118709                        1
+    id118712  id118712                       -1
+    id118708  id118708                       -4
+QCMATRIX   q1151
+    id118723  id118723                        1
+    id118726  id118726                       -1
+    id118722  id118722                       -4
+QCMATRIX   q1152
+    id118737  id118737                        1
+    id118740  id118740                       -1
+    id118736  id118736                       -4
+QCMATRIX   q1153
+    id118750  id118750                       -4
+    id118753  id118753                        1
+    id118756  id118756                       -1
+QCMATRIX   q1154
+    id118767  id118767                        1
+    id118770  id118770                       -1
+    id118766  id118766                       -4
+QCMATRIX   q1155
+    id118780  id118780                       -4
+    id118783  id118783                        1
+    id118786  id118786                       -1
+QCMATRIX   q1156
+    id118797  id118797                        1
+    id118800  id118800                       -1
+    id118796  id118796                       -4
+QCMATRIX   q1157
+    id118811  id118811                        1
+    id118814  id118814                       -1
+    id118810  id118810                       -4
+QCMATRIX   q1158
+    id118825  id118825                        1
+    id118828  id118828                       -1
+    id118824  id118824                       -4
+QCMATRIX   q1159
+    id118838  id118838                       -4
+    id118841  id118841                        1
+    id118844  id118844                       -1
+QCMATRIX   q1160
+    id118855  id118855                        1
+    id118858  id118858                       -1
+    id118854  id118854                       -4
+QCMATRIX   q1161
+    id118869  id118869                        1
+    id118872  id118872                       -1
+    id118868  id118868                       -4
+QCMATRIX   q1162
+    id118883  id118883                        1
+    id118886  id118886                       -1
+    id118882  id118882                       -4
+QCMATRIX   q1163
+    id118896  id118896                       -4
+    id118899  id118899                        1
+    id118902  id118902                       -1
+QCMATRIX   q1164
+    id118913  id118913                        1
+    id118916  id118916                       -1
+    id118912  id118912                       -4
+QCMATRIX   q1165
+    id118927  id118927                        1
+    id118930  id118930                       -1
+    id118926  id118926                       -4
+QCMATRIX   q1166
+    id118941  id118941                        1
+    id118944  id118944                       -1
+    id118940  id118940                       -4
+QCMATRIX   q1167
+    id118954  id118954                       -4
+    id118957  id118957                        1
+    id118960  id118960                       -1
+QCMATRIX   q1168
+    id118971  id118971                        1
+    id118974  id118974                       -1
+    id118970  id118970                       -4
+QCMATRIX   q1169
+    id118985  id118985                        1
+    id118988  id118988                       -1
+    id118984  id118984                       -4
+QCMATRIX   q1170
+    id118999  id118999                        1
+    id119002  id119002                       -1
+    id118998  id118998                       -4
+QCMATRIX   q1171
+    id119013  id119013                        1
+    id119016  id119016                       -1
+    id119012  id119012                       -4
+QCMATRIX   q1172
+    id119026  id119026                       -4
+    id119029  id119029                        1
+    id119032  id119032                       -1
+QCMATRIX   q1173
+    id119043  id119043                        1
+    id119046  id119046                       -1
+    id119042  id119042                       -4
+QCMATRIX   q1174
+    id119057  id119057                        1
+    id119060  id119060                       -1
+    id119056  id119056                       -4
+QCMATRIX   q1175
+    id119071  id119071                        1
+    id119074  id119074                       -1
+    id119070  id119070                       -4
+QCMATRIX   q1176
+    id119085  id119085                        1
+    id119088  id119088                       -1
+    id119084  id119084                       -4
+QCMATRIX   q1177
+    id119099  id119099                        1
+    id119102  id119102                       -1
+    id119098  id119098                       -4
+QCMATRIX   q1178
+    id119112  id119112                       -4
+    id119115  id119115                        1
+    id119118  id119118                       -1
+QCMATRIX   q1179
+    id119129  id119129                        1
+    id119132  id119132                       -1
+    id119128  id119128                       -4
+QCMATRIX   q1180
+    id119143  id119143                        1
+    id119146  id119146                       -1
+    id119142  id119142                       -4
+QCMATRIX   q1181
+    id119157  id119157                        1
+    id119160  id119160                       -1
+    id119156  id119156                       -4
+QCMATRIX   q1182
+    id119171  id119171                        1
+    id119174  id119174                       -1
+    id119170  id119170                       -4
+QCMATRIX   q1183
+    id119185  id119185                        1
+    id119188  id119188                       -1
+    id119184  id119184                       -4
+QCMATRIX   q1184
+    id119199  id119199                        1
+    id119202  id119202                       -1
+    id119198  id119198                       -4
+QCMATRIX   q1185
+    id119213  id119213                        1
+    id119216  id119216                       -1
+    id119212  id119212                       -4
+QCMATRIX   q1186
+    id119226  id119226                       -4
+    id119229  id119229                        1
+    id119232  id119232                       -1
+QCMATRIX   q1187
+    id119243  id119243                        1
+    id119246  id119246                       -1
+    id119242  id119242                       -4
+QCMATRIX   q1188
+    id119256  id119256                       -4
+    id119259  id119259                        1
+    id119262  id119262                       -1
+QCMATRIX   q1189
+    id119273  id119273                        1
+    id119276  id119276                       -1
+    id119272  id119272                       -4
+QCMATRIX   q1190
+    id119287  id119287                        1
+    id119290  id119290                       -1
+    id119286  id119286                       -4
+QCMATRIX   q1191
+    id119300  id119300                       -4
+    id119303  id119303                        1
+    id119306  id119306                       -1
+QCMATRIX   q1192
+    id119317  id119317                        1
+    id119320  id119320                       -1
+    id119316  id119316                       -4
+QCMATRIX   q1193
+    id119331  id119331                        1
+    id119334  id119334                       -1
+    id119330  id119330                       -4
+QCMATRIX   q1194
+    id119345  id119345                        1
+    id119348  id119348                       -1
+    id119344  id119344                       -4
+QCMATRIX   q1195
+    id119359  id119359                        1
+    id119362  id119362                       -1
+    id119358  id119358                       -4
+QCMATRIX   q1196
+    id119373  id119373                        1
+    id119376  id119376                       -1
+    id119372  id119372                       -4
+QCMATRIX   q1197
+    id119386  id119386                       -4
+    id119389  id119389                        1
+    id119392  id119392                       -1
+QCMATRIX   q1198
+    id119403  id119403                        1
+    id119406  id119406                       -1
+    id119402  id119402                       -4
+QCMATRIX   q1199
+    id119417  id119417                        1
+    id119420  id119420                       -1
+    id119416  id119416                       -4
+QCMATRIX   q1200
+    id119430  id119430                       -4
+    id119433  id119433                        1
+    id119436  id119436                       -1
+QCMATRIX   q1201
+    id119447  id119447                        1
+    id119450  id119450                       -1
+    id119446  id119446                       -4
+QCMATRIX   q1202
+    id119461  id119461                        1
+    id119464  id119464                       -1
+    id119460  id119460                       -4
+QCMATRIX   q1203
+    id119475  id119475                        1
+    id119478  id119478                       -1
+    id119474  id119474                       -4
+QCMATRIX   q1204
+    id119489  id119489                        1
+    id119492  id119492                       -1
+    id119488  id119488                       -4
+QCMATRIX   q1205
+    id119503  id119503                        1
+    id119506  id119506                       -1
+    id119502  id119502                       -4
+QCMATRIX   q1206
+    id119516  id119516                       -4
+    id119519  id119519                        1
+    id119522  id119522                       -1
+QCMATRIX   q1207
+    id119533  id119533                        1
+    id119536  id119536                       -1
+    id119532  id119532                       -4
+QCMATRIX   q1208
+    id119547  id119547                        1
+    id119550  id119550                       -1
+    id119546  id119546                       -4
+QCMATRIX   q1209
+    id119561  id119561                        1
+    id119564  id119564                       -1
+    id119560  id119560                       -4
+QCMATRIX   q1210
+    id119575  id119575                        1
+    id119578  id119578                       -1
+    id119574  id119574                       -4
+QCMATRIX   q1211
+    id119588  id119588                       -4
+    id119591  id119591                        1
+    id119594  id119594                       -1
+QCMATRIX   q1212
+    id119605  id119605                        1
+    id119608  id119608                       -1
+    id119604  id119604                       -4
+QCMATRIX   q1213
+    id119619  id119619                        1
+    id119622  id119622                       -1
+    id119618  id119618                       -4
+QCMATRIX   q1214
+    id119633  id119633                        1
+    id119636  id119636                       -1
+    id119632  id119632                       -4
+QCMATRIX   q1215
+    id119647  id119647                        1
+    id119650  id119650                       -1
+    id119646  id119646                       -4
+QCMATRIX   q1216
+    id119661  id119661                        1
+    id119664  id119664                       -1
+    id119660  id119660                       -4
+QCMATRIX   q1217
+    id119675  id119675                        1
+    id119678  id119678                       -1
+    id119674  id119674                       -4
+QCMATRIX   q1218
+    id119688  id119688                       -4
+    id119691  id119691                        1
+    id119694  id119694                       -1
+QCMATRIX   q1219
+    id119705  id119705                        1
+    id119708  id119708                       -1
+    id119704  id119704                       -4
+QCMATRIX   q1220
+    id119719  id119719                        1
+    id119722  id119722                       -1
+    id119718  id119718                       -4
+QCMATRIX   q1221
+    id119733  id119733                        1
+    id119736  id119736                       -1
+    id119732  id119732                       -4
+QCMATRIX   q1222
+    id119747  id119747                        1
+    id119750  id119750                       -1
+    id119746  id119746                       -4
+QCMATRIX   q1223
+    id119760  id119760                       -4
+    id119763  id119763                        1
+    id119766  id119766                       -1
+QCMATRIX   q1224
+    id119777  id119777                        1
+    id119780  id119780                       -1
+    id119776  id119776                       -4
+QCMATRIX   q1225
+    id119791  id119791                        1
+    id119794  id119794                       -1
+    id119790  id119790                       -4
+QCMATRIX   q1226
+    id119805  id119805                        1
+    id119808  id119808                       -1
+    id119804  id119804                       -4
+QCMATRIX   q1227
+    id119819  id119819                        1
+    id119822  id119822                       -1
+    id119818  id119818                       -4
+QCMATRIX   q1228
+    id119833  id119833                        1
+    id119836  id119836                       -1
+    id119832  id119832                       -4
+QCMATRIX   q1229
+    id119846  id119846                       -4
+    id119849  id119849                        1
+    id119852  id119852                       -1
+QCMATRIX   q1230
+    id119863  id119863                        1
+    id119866  id119866                       -1
+    id119862  id119862                       -4
+QCMATRIX   q1231
+    id119877  id119877                        1
+    id119880  id119880                       -1
+    id119876  id119876                       -4
+QCMATRIX   q1232
+    id119890  id119890                       -4
+    id119893  id119893                        1
+    id119896  id119896                       -1
+QCMATRIX   q1233
+    id119907  id119907                        1
+    id119910  id119910                       -1
+    id119906  id119906                       -4
+QCMATRIX   q1234
+    id119921  id119921                        1
+    id119924  id119924                       -1
+    id119920  id119920                       -4
+QCMATRIX   q1235
+    id119934  id119934                       -4
+    id119937  id119937                        1
+    id119940  id119940                       -1
+QCMATRIX   q1236
+    id119951  id119951                        1
+    id119954  id119954                       -1
+    id119950  id119950                       -4
+QCMATRIX   q1237
+    id119965  id119965                        1
+    id119968  id119968                       -1
+    id119964  id119964                       -4
+QCMATRIX   q1238
+    id119979  id119979                        1
+    id119982  id119982                       -1
+    id119978  id119978                       -4
+QCMATRIX   q1239
+    id119993  id119993                        1
+    id119996  id119996                       -1
+    id119992  id119992                       -4
+QCMATRIX   q1240
+    id120006  id120006                       -4
+    id120009  id120009                        1
+    id120012  id120012                       -1
+QCMATRIX   q1241
+    id120023  id120023                        1
+    id120026  id120026                       -1
+    id120022  id120022                       -4
+QCMATRIX   q1242
+    id120037  id120037                        1
+    id120040  id120040                       -1
+    id120036  id120036                       -4
+QCMATRIX   q1243
+    id120051  id120051                        1
+    id120054  id120054                       -1
+    id120050  id120050                       -4
+QCMATRIX   q1244
+    id120065  id120065                        1
+    id120068  id120068                       -1
+    id120064  id120064                       -4
+QCMATRIX   q1245
+    id120079  id120079                        1
+    id120082  id120082                       -1
+    id120078  id120078                       -4
+QCMATRIX   q1246
+    id120093  id120093                        1
+    id120096  id120096                       -1
+    id120092  id120092                       -4
+QCMATRIX   q1247
+    id120106  id120106                       -4
+    id120109  id120109                        1
+    id120112  id120112                       -1
+QCMATRIX   q1248
+    id120123  id120123                        1
+    id120126  id120126                       -1
+    id120122  id120122                       -4
+QCMATRIX   q1249
+    id120137  id120137                        1
+    id120140  id120140                       -1
+    id120136  id120136                       -4
+QCMATRIX   q1250
+    id120151  id120151                        1
+    id120154  id120154                       -1
+    id120150  id120150                       -4
+QCMATRIX   q1251
+    id120165  id120165                        1
+    id120168  id120168                       -1
+    id120164  id120164                       -4
+QCMATRIX   q1252
+    id120179  id120179                        1
+    id120182  id120182                       -1
+    id120178  id120178                       -4
+QCMATRIX   q1253
+    id120193  id120193                        1
+    id120196  id120196                       -1
+    id120192  id120192                       -4
+QCMATRIX   q1254
+    id120206  id120206                       -4
+    id120209  id120209                        1
+    id120212  id120212                       -1
+QCMATRIX   q1255
+    id120223  id120223                        1
+    id120226  id120226                       -1
+    id120222  id120222                       -4
+QCMATRIX   q1256
+    id120237  id120237                        1
+    id120240  id120240                       -1
+    id120236  id120236                       -4
+QCMATRIX   q1257
+    id120251  id120251                        1
+    id120254  id120254                       -1
+    id120250  id120250                       -4
+QCMATRIX   q1258
+    id120264  id120264                       -4
+    id120267  id120267                        1
+    id120270  id120270                       -1
+QCMATRIX   q1259
+    id120281  id120281                        1
+    id120284  id120284                       -1
+    id120280  id120280                       -4
+QCMATRIX   q1260
+    id120295  id120295                        1
+    id120298  id120298                       -1
+    id120294  id120294                       -4
+QCMATRIX   q1261
+    id120309  id120309                        1
+    id120312  id120312                       -1
+    id120308  id120308                       -4
+QCMATRIX   q1262
+    id120322  id120322                       -4
+    id120325  id120325                        1
+    id120328  id120328                       -1
+QCMATRIX   q1263
+    id120339  id120339                        1
+    id120342  id120342                       -1
+    id120338  id120338                       -4
+QCMATRIX   q1264
+    id120352  id120352                       -4
+    id120355  id120355                        1
+    id120358  id120358                       -1
+QCMATRIX   q1265
+    id120369  id120369                        1
+    id120372  id120372                       -1
+    id120368  id120368                       -4
+QCMATRIX   q1266
+    id120383  id120383                        1
+    id120386  id120386                       -1
+    id120382  id120382                       -4
+QCMATRIX   q1267
+    id120397  id120397                        1
+    id120400  id120400                       -1
+    id120396  id120396                       -4
+QCMATRIX   q1268
+    id120411  id120411                        1
+    id120414  id120414                       -1
+    id120410  id120410                       -4
+QCMATRIX   q1269
+    id120425  id120425                        1
+    id120428  id120428                       -1
+    id120424  id120424                       -4
+QCMATRIX   q1270
+    id120438  id120438                       -4
+    id120441  id120441                        1
+    id120444  id120444                       -1
+QCMATRIX   q1271
+    id120455  id120455                        1
+    id120458  id120458                       -1
+    id120454  id120454                       -4
+QCMATRIX   q1272
+    id120469  id120469                        1
+    id120472  id120472                       -1
+    id120468  id120468                       -4
+QCMATRIX   q1273
+    id120483  id120483                        1
+    id120486  id120486                       -1
+    id120482  id120482                       -4
+QCMATRIX   q1274
+    id120496  id120496                       -4
+    id120499  id120499                        1
+    id120502  id120502                       -1
+QCMATRIX   q1275
+    id120513  id120513                        1
+    id120516  id120516                       -1
+    id120512  id120512                       -4
+QCMATRIX   q1276
+    id120527  id120527                        1
+    id120530  id120530                       -1
+    id120526  id120526                       -4
+QCMATRIX   q1277
+    id120541  id120541                        1
+    id120544  id120544                       -1
+    id120540  id120540                       -4
+QCMATRIX   q1278
+    id120555  id120555                        1
+    id120558  id120558                       -1
+    id120554  id120554                       -4
+QCMATRIX   q1279
+    id120568  id120568                       -4
+    id120571  id120571                        1
+    id120574  id120574                       -1
+QCMATRIX   q1280
+    id120585  id120585                        1
+    id120588  id120588                       -1
+    id120584  id120584                       -4
+QCMATRIX   q1281
+    id120599  id120599                        1
+    id120602  id120602                       -1
+    id120598  id120598                       -4
+QCMATRIX   q1282
+    id120613  id120613                        1
+    id120616  id120616                       -1
+    id120612  id120612                       -4
+QCMATRIX   q1283
+    id120627  id120627                        1
+    id120630  id120630                       -1
+    id120626  id120626                       -4
+QCMATRIX   q1284
+    id120641  id120641                        1
+    id120644  id120644                       -1
+    id120640  id120640                       -4
+QCMATRIX   q1285
+    id120654  id120654                       -4
+    id120657  id120657                        1
+    id120660  id120660                       -1
+QCMATRIX   q1286
+    id120671  id120671                        1
+    id120674  id120674                       -1
+    id120670  id120670                       -4
+QCMATRIX   q1287
+    id120685  id120685                        1
+    id120688  id120688                       -1
+    id120684  id120684                       -4
+QCMATRIX   q1288
+    id120699  id120699                        1
+    id120702  id120702                       -1
+    id120698  id120698                       -4
+QCMATRIX   q1289
+    id120713  id120713                        1
+    id120716  id120716                       -1
+    id120712  id120712                       -4
+QCMATRIX   q1290
+    id120726  id120726                       -4
+    id120729  id120729                        1
+    id120732  id120732                       -1
+QCMATRIX   q1291
+    id120743  id120743                        1
+    id120746  id120746                       -1
+    id120742  id120742                       -4
+QCMATRIX   q1292
+    id120756  id120756                       -4
+    id120759  id120759                        1
+    id120762  id120762                       -1
+QCMATRIX   q1293
+    id120773  id120773                        1
+    id120776  id120776                       -1
+    id120772  id120772                       -4
+QCMATRIX   q1294
+    id120787  id120787                        1
+    id120790  id120790                       -1
+    id120786  id120786                       -4
+QCMATRIX   q1295
+    id120801  id120801                        1
+    id120804  id120804                       -1
+    id120800  id120800                       -4
+QCMATRIX   q1296
+    id120815  id120815                        1
+    id120818  id120818                       -1
+    id120814  id120814                       -4
+QCMATRIX   q1297
+    id120828  id120828                       -4
+    id120831  id120831                        1
+    id120834  id120834                       -1
+QCMATRIX   q1298
+    id120845  id120845                        1
+    id120848  id120848                       -1
+    id120844  id120844                       -4
+QCMATRIX   q1299
+    id120858  id120858                       -4
+    id120861  id120861                        1
+    id120864  id120864                       -1
+QCMATRIX   q1300
+    id120875  id120875                        1
+    id120878  id120878                       -1
+    id120874  id120874                       -4
+QCMATRIX   q1301
+    id120889  id120889                        1
+    id120892  id120892                       -1
+    id120888  id120888                       -4
+QCMATRIX   q1302
+    id120903  id120903                        1
+    id120906  id120906                       -1
+    id120902  id120902                       -4
+QCMATRIX   q1303
+    id120916  id120916                       -4
+    id120919  id120919                        1
+    id120922  id120922                       -1
+QCMATRIX   q1304
+    id120933  id120933                        1
+    id120936  id120936                       -1
+    id120932  id120932                       -4
+QCMATRIX   q1305
+    id120947  id120947                        1
+    id120950  id120950                       -1
+    id120946  id120946                       -4
+QCMATRIX   q1306
+    id120961  id120961                        1
+    id120964  id120964                       -1
+    id120960  id120960                       -4
+QCMATRIX   q1307
+    id120974  id120974                       -4
+    id120977  id120977                        1
+    id120980  id120980                       -1
+QCMATRIX   q1308
+    id120991  id120991                        1
+    id120994  id120994                       -1
+    id120990  id120990                       -4
+QCMATRIX   q1309
+    id121005  id121005                        1
+    id121008  id121008                       -1
+    id121004  id121004                       -4
+QCMATRIX   q1310
+    id121019  id121019                        1
+    id121022  id121022                       -1
+    id121018  id121018                       -4
+QCMATRIX   q1311
+    id121033  id121033                        1
+    id121036  id121036                       -1
+    id121032  id121032                       -4
+QCMATRIX   q1312
+    id121047  id121047                        1
+    id121050  id121050                       -1
+    id121046  id121046                       -4
+QCMATRIX   q1313
+    id121061  id121061                        1
+    id121064  id121064                       -1
+    id121060  id121060                       -4
+QCMATRIX   q1314
+    id121075  id121075                        1
+    id121078  id121078                       -1
+    id121074  id121074                       -4
+QCMATRIX   q1315
+    id121088  id121088                       -4
+    id121091  id121091                        1
+    id121094  id121094                       -1
+QCMATRIX   q1316
+    id121105  id121105                        1
+    id121108  id121108                       -1
+    id121104  id121104                       -4
+QCMATRIX   q1317
+    id121119  id121119                        1
+    id121122  id121122                       -1
+    id121118  id121118                       -4
+QCMATRIX   q1318
+    id121133  id121133                        1
+    id121136  id121136                       -1
+    id121132  id121132                       -4
+QCMATRIX   q1319
+    id121146  id121146                       -4
+    id121149  id121149                        1
+    id121152  id121152                       -1
+QCMATRIX   q1320
+    id121163  id121163                        1
+    id121166  id121166                       -1
+    id121162  id121162                       -4
+QCMATRIX   q1321
+    id121177  id121177                        1
+    id121180  id121180                       -1
+    id121176  id121176                       -4
+QCMATRIX   q1322
+    id121191  id121191                        1
+    id121194  id121194                       -1
+    id121190  id121190                       -4
+QCMATRIX   q1323
+    id121205  id121205                        1
+    id121208  id121208                       -1
+    id121204  id121204                       -4
+QCMATRIX   q1324
+    id121218  id121218                       -4
+    id121221  id121221                        1
+    id121224  id121224                       -1
+QCMATRIX   q1325
+    id121235  id121235                        1
+    id121238  id121238                       -1
+    id121234  id121234                       -4
+QCMATRIX   q1326
+    id121249  id121249                        1
+    id121252  id121252                       -1
+    id121248  id121248                       -4
+QCMATRIX   q1327
+    id121263  id121263                        1
+    id121266  id121266                       -1
+    id121262  id121262                       -4
+QCMATRIX   q1328
+    id121276  id121276                       -4
+    id121279  id121279                        1
+    id121282  id121282                       -1
+QCMATRIX   q1329
+    id121293  id121293                        1
+    id121296  id121296                       -1
+    id121292  id121292                       -4
+QCMATRIX   q1330
+    id121307  id121307                        1
+    id121310  id121310                       -1
+    id121306  id121306                       -4
+QCMATRIX   q1331
+    id121321  id121321                        1
+    id121324  id121324                       -1
+    id121320  id121320                       -4
+QCMATRIX   q1332
+    id121334  id121334                       -4
+    id121337  id121337                        1
+    id121340  id121340                       -1
+QCMATRIX   q1333
+    id121351  id121351                        1
+    id121354  id121354                       -1
+    id121350  id121350                       -4
+QCMATRIX   q1334
+    id121365  id121365                        1
+    id121368  id121368                       -1
+    id121364  id121364                       -4
+QCMATRIX   q1335
+    id121379  id121379                        1
+    id121382  id121382                       -1
+    id121378  id121378                       -4
+QCMATRIX   q1336
+    id121393  id121393                        1
+    id121396  id121396                       -1
+    id121392  id121392                       -4
+QCMATRIX   q1337
+    id121407  id121407                        1
+    id121410  id121410                       -1
+    id121406  id121406                       -4
+QCMATRIX   q1338
+    id121420  id121420                       -4
+    id121423  id121423                        1
+    id121426  id121426                       -1
+QCMATRIX   q1339
+    id121437  id121437                        1
+    id121440  id121440                       -1
+    id121436  id121436                       -4
+QCMATRIX   q1340
+    id121451  id121451                        1
+    id121454  id121454                       -1
+    id121450  id121450                       -4
+QCMATRIX   q1341
+    id121465  id121465                        1
+    id121468  id121468                       -1
+    id121464  id121464                       -4
+QCMATRIX   q1342
+    id121479  id121479                        1
+    id121482  id121482                       -1
+    id121478  id121478                       -4
+QCMATRIX   q1343
+    id121493  id121493                        1
+    id121496  id121496                       -1
+    id121492  id121492                       -4
+QCMATRIX   q1344
+    id121507  id121507                        1
+    id121510  id121510                       -1
+    id121506  id121506                       -4
+QCMATRIX   q1345
+    id121521  id121521                        1
+    id121524  id121524                       -1
+    id121520  id121520                       -4
+QCMATRIX   q1346
+    id121534  id121534                       -4
+    id121537  id121537                        1
+    id121540  id121540                       -1
+QCMATRIX   q1347
+    id121551  id121551                        1
+    id121554  id121554                       -1
+    id121550  id121550                       -4
+QCMATRIX   q1348
+    id121565  id121565                        1
+    id121568  id121568                       -1
+    id121564  id121564                       -4
+QCMATRIX   q1349
+    id121579  id121579                        1
+    id121582  id121582                       -1
+    id121578  id121578                       -4
+QCMATRIX   q1350
+    id121592  id121592                       -4
+    id121595  id121595                        1
+    id121598  id121598                       -1
+ENDATA
