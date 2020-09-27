@@ -1,0 +1,109 @@
+#!/bin/bash
+###############################################################################
+#
+# PARAMETERS:
+# $1 is the instance name  
+# $2 is the candidate number
+# The rest ($* after `shift 2') are parameters to the run 
+# RETURN VALUE:
+# This hook should print a single numerical value (the value to be minimized)
+###############################################################################
+
+DOTEST=""
+
+CODEDIR=~/algorithms/LKH2/LKH-2.0.7/SRC
+export LD_LIBRARY_PATH=/opt/gridengine/lib/lx-amd64:/opt/openmpi/lib:/lustre/home/fpagnozzi/gcc71/lib:/lustre/home/fpagnozzi/gcc71/lib64
+
+# The instance name and the candidate id are the first parameters
+CANDIDATE=$1
+INSTANCE_ID=$2
+SEED=$3
+INSTANCE=$4
+
+# All other parameters are the candidate parameters to be passed 
+shift 4 || exit 1
+CAND_PARAMS=$*
+
+if [ -z "$DOTEST" ] ; then
+  MYDIR=`mktemp -d`
+else
+  MYDIR="."
+fi 
+
+# In case of error, we print the current time:
+error() {
+    echo "`TZ=UTC date`: error: $@" >&2
+    exit 1
+}
+
+cd "${MYDIR}"
+cp -R "${CODEDIR}" .
+
+GCCOUT="${MYDIR}/c${CANDIDATE}-${INSTANCE_ID}-${SEED}.gccout"
+GCCERR="${MYDIR}/c${CANDIDATE}-${INSTANCE_ID}-${SEED}.gccerr"
+
+cd "SRC"
+
+if [ -z "$CAND_PARAMS" ] ; then
+  #echo "make LKH"
+  make LKH 1> ${GCCOUT} 2> ${GCCERR}
+else
+  #echo "make LKH OPTIONS=\"${CAND_PARAMS}\""
+  make LKH OPTIONS="${CAND_PARAMS}" 1> ${GCCOUT} 2> ${GCCERR}
+fi 
+
+
+
+if [[ -s $GCCERR ]] ; then
+  #cat ${GCCERR}
+  #error "compilation reported error."
+  echo "10000"
+  exit 0
+fi
+
+
+STDOUT="c${CANDIDATE}-${INSTANCE_ID}-${SEED}.stdout"
+STDTIME="c${CANDIDATE}-${INSTANCE_ID}-${SEED}.stdtime"
+STDERR="c${CANDIDATE}-${INSTANCE_ID}-${SEED}.stderr"
+STDPAR="c${CANDIDATE}-${INSTANCE_ID}-${SEED}.stdpar"
+
+echo "PROBLEM_FILE = ${INSTANCE}" > ${STDPAR}
+echo "RUNS = 1" >> ${STDPAR}
+echo "OPTIMUM = 1" >> ${STDPAR}
+echo "SEED = ${SEED}" >> ${STDPAR}
+
+#echo "executing"
+/usr/bin/time --format "MARK %S %U" -o ${STDTIME} ./LKH ${STDPAR} 1> $STDOUT 2> $STDERR
+
+# The output of the candidate $CANDIDATE should be written in the file 
+# c${CANDIDATE}.stdout . Does this file exist?
+if [ ! -s "${STDOUT}" ]; then
+    # In this case, the file does not exist. Let's exit with a value 
+    # different from 0. In this case irace will stop with an error.
+    error "${STDOUT}: No such file or directory"
+fi
+
+#if [ -s "${STDERR}" ]; then
+#  echo "10000"
+#fi
+
+# Ok, the file exist. It contains the whole output written by the algorithm.
+T1=$(cat ${STDTIME} | grep 'MARK' | cut -d ' ' -f2)
+T2=$(cat ${STDTIME} | grep 'MARK' | cut -d ' ' -f3)
+#COST=$(echo $T1 + $T2 | bc)
+COST=${T2}
+if ! [[ "$COST" =~ ^[-+0-9.e]+$ ]] ; then
+    error "${STDTIME}: Output is not a number"
+fi
+
+# Print it!
+echo "$COST"
+
+
+# We are done with our duty. Clean files and exit with 0 (no error).
+if [ -z "$DOTEST" ] ; then
+  rm -rf "${STDOUT}" "${STDERR}" "${STDTIME}" "${GCCOUT}" "${GCCERR}"
+  cd ..
+  rm -rf "${MYDIR}"
+fi
+exit 0

@@ -1,0 +1,68 @@
+#!/bin/bash -l
+
+CANDIDATE=$1
+INSTANCE_ID=$2
+SEED=$3
+INSTANCE=$4
+SATINFO=$5
+RUNTIME_LIMIT=$6
+
+BINSTANCE=$( basename "$INSTANCE" )
+###### IMPORTANT
+###### WE MAKE SHIFT 5 BECAUSE THE INSTANCE LIST OF ACLIB BRINGS SOLUTION INFO AS EXTRA PARAM...
+# All other parameters are the candidate parameters to be passed to ACOTSP
+shift 6 || exit 1
+CAND_PARAMS=$*
+
+MYDIR=`mktemp -d`
+#MYDIR="./"
+
+STDOUT="c${CANDIDATE}-${INSTANCE_ID}.stdout"
+STDERR="c${CANDIDATE}-${INSTANCE_ID}.stderr"
+
+cd ${MYDIR}
+
+#echo "python -u /home/iraceTester/algorithms/lingeling/aclib/executable/SATCSSCWrapper.py --mem-limit 3072 --script None --ext-callstring "ruby /home/iraceTester/algorithms/lingeling/aclib/executable/callstring_generator.rb" --sat-checker /home/iraceTester/instances/sat-circuitfuzz-cssc14/SAT --sol-file /home/iraceTester/instances/sat-circuitfuzz-cssc14/true_solubility.txt --log True ${INSTANCE} 0 ${RUNTIME_LIMIT} 2147483647 ${SEED} ${CAND_PARAMS}"
+
+python -u /home/iraceTester/algorithms/lingeling/aclib/executable/SATCSSCWrapper.py --mem-limit 3072 --script None --ext-callstring "ruby /home/iraceTester/algorithms/lingeling/aclib/executable/callstring_generator.rb" --sat-checker /home/iraceTester/instances/sat-circuitfuzz-cssc14/SAT --sol-file /home/iraceTester/instances/sat-circuitfuzz-cssc14/true_solubility.txt --log True ${INSTANCE} 0 ${RUNTIME_LIMIT} 2147483647 ${SEED} ${CAND_PARAMS} 1> ${STDOUT} 2> ${STDERR}
+
+
+COST=$(cat ${STDOUT} | grep "Result for" | cut -d ':' -f2 | cut -d ',' -f2)
+COST=$(echo $COST)
+STATUS=$(cat  $STDOUT | grep "Result for" | cut -d ":" -f2 | cut -d "," -f1)
+STATUS="$(echo -e "${STATUS}" | sed -e 's/^[[:space:]]*//')"
+LENGTH=$(cat  $STDOUT | grep "Result for" | cut -d ":" -f2 | cut -d "," -f3)
+BESTSOL=$(cat  $STDOUT | grep "Result for" | cut -d ":" -f2 | cut -d "," -f4)
+
+if [ "$STATUS" = "CRASHED" ]; then
+    echo "Inf 0"
+    exit 0
+fi
+
+if [ "$STATUS" = "ABORT" ]; then
+    echo "Inf 0"
+    exit 0
+fi
+
+if [ "$STATUS" = "TIMEOUT" ]; then
+  if [ $(bc <<< "$COST < $RUNTIME_LIMIT") -eq 1 ]; then
+    COST=$RUNTIME_LIMIT
+  fi
+fi 
+
+if [ -s "${STDERR}" ]; then
+  if grep -q "Segmentation fault" "${STDERR}" ; then
+    echo "Inf 0"
+    exit 0
+  fi
+fi
+
+echo "${COST} ${COST}"
+
+#cp ${STDOUT} ${STDERR} ~/experiments/irace3.0-model/lingeling-sq/
+
+# We are done with our duty. Clean files and exit with 0 (no error).
+rm -rf "${STDOUT}" "${STDERR}" 
+cd ..
+rm -rf "${MYDIR}"
+exit 0

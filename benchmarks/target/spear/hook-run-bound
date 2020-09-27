@@ -1,0 +1,54 @@
+#!/bin/bash
+
+CANDIDATE=$1
+INSTANCE_ID=$2
+SEED=$3
+INSTANCE=$4
+RUNTIME_LIMIT=$5
+
+BINSTANCE=$( basename "$INSTANCE" )
+
+# All other parameters are the candidate parameters to be passed to ACOTSP
+shift 5 || exit 1
+CAND_PARAMS=$*
+
+CAND_PARAMS=${CAND_PARAMS//'--'/'-'}
+
+MYDIR=`mktemp -d`
+
+STDOUT="c${CANDIDATE}-${INSTANCE_ID}.stdout"
+STDERR="c${CANDIDATE}-${INSTANCE_ID}.stderr"
+
+cd ${MYDIR}
+
+#echo "ruby /home/lperez/algorithms/cplex/aclib/executable/cplex12.6_wrapper_aclib.rb --memoryLimit 1000 --runsolverLocation /home/lperez/algorithms/runsolver/runsolver --allowedMIPgap 0 --objFileLocation none ${INSTANCE} 0 ${RUNTIME_LIMIT} 2147483647 ${SEED} ${MOD_PARAMS}"
+
+ruby /home/iraceTester/algorithms/spear/aclib/executable/generic_solver_wrapper.rb none ${INSTANCE} 0 ${RUNTIME_LIMIT} 2147483647 ${SEED} ${CAND_PARAMS} 1>${STDOUT} 2>${STDERR}
+
+COST=$(cat ${STDOUT} | grep "Result for" | cut -d ':' -f2 | cut -d ',' -f2)
+COST=$(echo $COST)
+STATUS=$(cat  $STDOUT | grep "Result for" | cut -d ":" -f2 | cut -d "," -f1)
+STATUS="$(echo -e "${STATUS}" | sed -e 's/^[[:space:]]*//')"
+LENGTH=$(cat  $STDOUT | grep "Result for" | cut -d ":" -f2 | cut -d "," -f3)
+BESTSOL=$(cat  $STDOUT | grep "Result for" | cut -d ":" -f2 | cut -d "," -f4)
+
+if [ "$STATUS" = "CRASHED" ]; then
+    echo "Inf 0"
+    exit 0
+fi
+
+if [ -s "${STDERR}" ]; then
+  if grep -q "Segmentation fault" "${STDERR}" ; then
+    echo "Inf 0"
+    exit 0
+  fi
+fi
+
+echo "${COST} ${COST}"
+
+
+# We are done with our duty. Clean files and exit with 0 (no error).
+rm -rf "${STDOUT}" "${STDERR}" 
+cd ..
+rm -rf "${MYDIR}"
+exit 0

@@ -1,0 +1,5 @@
+name: multiobjective
+description: selection of multiobjective scenarios
+size: 1
+scenarios: moaco-mtsp-mixed
+descriptors: solution quality, multiobjective

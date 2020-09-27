@@ -1,0 +1,252 @@
+
+avl.c,1191
+#define NODE_COUNT(38,1484
+#define L_COUNT(39,1530
+#define R_COUNT(40,1577
+#define CALC_COUNT(41,1625
+#define NODE_DEPTH(45,1703
+#define L_DEPTH(46,1749
+#define R_DEPTH(47,1796
+#define CALC_DEPTH(48,1844
+static int lg(53,1982
+static int avl_check_balance(65,2256
+unsigned int avl_count(93,2718
+avl_node_t *avl_at(avl_at97,2807
+unsigned int avl_index(118,3155
+int avl_search_closest(134,3402
+avl_node_t *avl_search(avl_search173,4095
+avl_tree_t *avl_init_tree(avl_init_tree178,4251
+avl_tree_t *avl_alloc_tree(avl_alloc_tree189,4467
+void avl_clear_tree(193,4609
+void avl_free_nodes(197,4709
+void avl_free_tree(218,5198
+static void avl_clear_node(223,5285
+avl_node_t *avl_init_node(avl_init_node233,5472
+avl_node_t *avl_insert_top(avl_insert_top241,5625
+avl_node_t *avl_insert_before(avl_insert_before248,5856
+avl_node_t *avl_insert_after(avl_insert_after274,6433
+avl_node_t *avl_insert_node(avl_insert_node300,7013
+avl_node_t *avl_insert(avl_insert321,7521
+void avl_unlink_node(340,8014
+void *avl_delete_node(avl_delete_node394,9146
+void *avl_delete(avl_delete406,9397
+avl_node_t *avl_fixup_node(avl_fixup_node410,9519
+void avl_rebalance(455,10545
+
+dominatedsets.c,334
+char *program_invocation_short_name program_invocation_short_name68,2807
+void usage(70,2863
+void version(91,3815
+static bool verbose_flag 105,4307
+static bool percentages_flag 106,4341
+static bool check_flag 107,4379
+print_results 110,4417
+dominance 190,6736
+pareto_better 216,7449
+cmpparetos 365,11746
+int main(397,12727
+
+epsilon.c,375
+char *program_invocation_short_name program_invocation_short_name67,2715
+static bool verbose_flag 68,2764
+static bool additive_flag 69,2798
+static const char *suffix suffix70,2832
+static void usage(72,2867
+static void version(100,4343
+calculate_nondominated 115,4847
+handle_read_data_error 156,5991
+read_reference_set 185,6618
+do_file 205,7113
+int main(284,9594
+
+hv.c,838
+# define __hv_unused	60,2172
+# define __hv_unused	62,2224
+# define __variant3_only 66,2307
+# define __variant3_only68,2350
+# define __variant2_only 72,2399
+# define __variant2_only74,2442
+typedef struct dlnode 77,2475
+  double *x;x78,2499
+  struct dlnode **next;next79,2566
+  struct dlnode **prev;prev80,2633
+  struct avl_node_t * tnode;81,2700
+  int ignore;82,2729
+  double *area;area84,2760
+  double *vol;vol87,2827
+} dlnode_t;89,2879
+static avl_tree_t *tree;tree91,2892
+int stop_dimension 93,2933
+int stop_dimension 95,2998
+static int compare_node(98,3065
+static int compare_tree_asc(106,3283
+setup_cdllist(119,3575
+static void free_cdllist(186,5342
+static void delete 200,5588
+static void reinsert 214,5915
+hv_recursive(229,6242
+filter_delete_node(455,13268
+filter(473,13803
+double fpli_hv(493,14295
+
+hv_contrib.c,19
+hv_contrib 10,296
+
+io.c,196
+#define PAGE_SIZE 38,1466
+#define DATA_INC 39,1537
+read_data 42,1586
+write_point 213,7150
+write_sets 222,7374
+write_sets_filtered 240,7781
+void errprintf(270,8569
+void warnprintf(282,8863
+
+ndsort.c,516
+char *program_invocation_short_name program_invocation_short_name52,2116
+static void usage(54,2165
+static void version(74,3046
+static bool verbose_flag 88,3539
+handle_read_data_error 91,3593
+struct point_2d_front 108,3974
+    double p[p109,3998
+    unsigned int i;110,4015
+    unsigned int f;111,4035
+point_2d_front_cmp 115,4070
+pareto_ranking 148,4888
+#define PARETO_RANKING_2D_DEBUG163,5259
+fprint_rank 287,9452
+static void fprint_vector_double 295,9607
+calculate_uev 304,9807
+int main(333,10552
+
+nondominated.c,841
+char *program_invocation_short_name program_invocation_short_name58,2225
+static int verbose_flag 59,2279
+static bool union_flag 60,2312
+static bool check_flag 61,2344
+static bool filter_flag 62,2375
+static bool normalise_flag 63,2408
+static bool force_bounds_flag 64,2444
+static const char *suffix suffix65,2483
+usage(68,2533
+version(112,4955
+vector_fprintf 128,5468
+vector_printf 136,5658
+read_range 142,5765
+read_point 166,6256
+data_bounds 201,6913
+#define INFINITY 207,7052
+#define NEG_INFINITY 209,7084
+handle_read_data_error 234,7721
+any_less_than 248,8042
+file_bounds 259,8227
+logarithm_scale 279,8660
+agree_objectives 294,8981
+force_bounds 308,9354
+check_nondominated 372,11088
+print_file_info 430,13019
+print_output_header 446,13468
+print_input_info 482,14567
+process_file 507,15368
+int main(683,20936
+
+avl.h,736
+#define _AVL_H31,1350
+#define AVL_DEPTH35,1488
+#define AVL_COUNT36,1506
+typedef int (*avl_compare_t)avl_compare_t45,1695
+typedef void (*avl_freeitem_t)avl_freeitem_t50,1863
+typedef struct avl_node_t 52,1904
+	struct avl_node_t *next;next53,1932
+	struct avl_node_t *prev;prev54,1958
+	struct avl_node_t *parent;parent55,1984
+	struct avl_node_t *left;left56,2012
+	struct avl_node_t *right;right57,2038
+	void *item;item58,2065
+	unsigned int count;60,2095
+	unsigned char depth;63,2140
+} avl_node_t;65,2169
+typedef struct avl_tree_t 67,2184
+	avl_node_t *head;head68,2212
+	avl_node_t *tail;tail69,2231
+	avl_node_t *top;top70,2250
+	avl_compare_t cmp;71,2268
+	avl_freeitem_t freeitem;72,2288
+} avl_tree_t;73,2314
+
+common.h,487
+# define   	LIBMISC_COMMON_H_2,29
+#define MAX(5,78
+#define MIN(9,220
+#define DEBUG 16,385
+#define DEBUG1(20,424
+#define DEBUG1(22,460
+#define DEBUG2(26,509
+#define DEBUG2(28,545
+#define DEBUG3(32,594
+#define DEBUG3(34,630
+#define DEBUG4(38,679
+#define DEBUG4(40,715
+#define DEBUG2_PRINT(43,749
+#define DEBUG2_FUNPRINT(45,815
+#define MALLOC_CHECK_ 51,982
+#define TRUE 57,1055
+#define FALSE 58,1074
+typedef unsigned long ulong;63,1128
+typedef long long longlong;64,1157
+
+epsilon.h,156
+#define EPSILON_H2,18
+#define INFINITY 10,132
+#define NEG_INFINITY 11,159
+epsilon_mult 34,1330
+epsilon_additive 72,2767
+epsilon_additive_ind 103,3900
+
+gcc_attribs.h,436
+#define GCC_ATTRIBUTES2,23
+# define inline	7,179
+# define __pure_func	11,328
+# define __const_func	23,960
+# define __noreturn	33,1528
+# define __malloc	39,1867
+# define __must_check	48,2403
+# define __deprecated	52,2618
+# define __used	55,2778
+# define __unused	56,2818
+# define __packed	57,2861
+# define likely(58,2904
+# define unlikely(59,2951
+# define inline	61,3006
+# define likely(63,3118
+# define unlikely(64,3141
+
+hv.h,22
+#define HV_H_35,1394
+
+hv_contrib.h,26
+#define HV_CONTRIB_H2,21
+
+io.h,280
+#define _EAF_IO_H_2,19
+#define point_printf_format 12,160
+errprintf(15,206
+void warnprintf(19,366
+#define READ_INPUT_FILE_EMPTY 24,564
+#define READ_INPUT_WRONG_INITIAL_DIM 25,597
+read_minmax 43,1131
+read_bitvector 91,2222
+static const char stdin_name[stdin_name124,2911
+
+nondominated.h,379
+#define NONDOMINATED_H2,23
+enum objs_agree_t 7,88
+enum objs_agree_t { AGREE_MINIMISE 7,88
+enum objs_agree_t { AGREE_MINIMISE = -1, AGREE_NONE 7,88
+enum objs_agree_t { AGREE_MINIMISE = -1, AGREE_NONE = 0, AGREE_MAXIMISE 7,88
+find_nondominated_set_ 10,186
+find_dominated_point 82,2560
+find_nondominated_set_agree 99,3036
+find_nondominated_set 108,3374
+normalise 116,3651

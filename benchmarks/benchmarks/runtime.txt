@@ -1,0 +1,5 @@
+name: runtime
+description: selection of runtime scenarios
+size: 3
+scenarios: spear-swv-mixed, cplex-regions100-mixed, lingeling-circuitfuzz-mixed
+descriptors: runtime

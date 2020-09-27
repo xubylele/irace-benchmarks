@@ -1,0 +1,30 @@
+
+ACO algorithms for the TSP, v1.02
+
+Parameter-settings: 
+
+max_tries		 10
+max_tours		 0
+max_time		 10.00
+seed		 1423074372
+optimum			 1
+n_ants			 27
+nn_ants			 20
+alpha			 2.90
+beta			 9.28
+rho			 0.48
+q_0			 0.45
+elitist_ants		 0
+ras_ranks		 0
+ls_flag			 1
+nn_ls			 48
+dlb_flag		 0
+as_flag			 0
+eas_flag		 0
+ras_flag		 0
+mmas_flag		 0
+bwas_flag		 0
+acs_flag		 1
+
+begin problem /home/lperez/alberto/1000-38.tsp
+seed 1423074372

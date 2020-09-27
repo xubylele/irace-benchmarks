@@ -1,0 +1,5 @@
+name: categorical
+description: selection of categorical-only scenarios
+size: 3
+scenarios: spear-swv-cat, cplex-regions100-cat, gcc_lkh-tsp1000-cat
+descriptors: categorical

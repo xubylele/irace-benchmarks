@@ -1,0 +1,68 @@
+#!/bin/bash
+
+CODEDIR=~/algorithms/LKH2/LKH-2.0.7-new/SRC
+export LD_LIBRARY_PATH=/opt/gridengine/lib/lx-amd64:/opt/openmpi/lib:/lustre/home/fpagnozzi/gcc71/lib:/lustre/home/fpagnozzi/gcc71/lib64
+
+# The instance name and the candidate id are the first parameters
+CANDIDATE=$1
+INSTANCE_ID=$2
+SEED=$3
+INSTANCE=$4
+
+# All other parameters are the candidate parameters to be passed 
+shift 4 || exit 1
+CAND_PARAMS=$*
+
+# Create folder to contain the candidate executable
+mkdir -p "c-${CANDIDATE}"
+MYDIR=$(pwd)/c-${CANDIDATE}
+
+# In case of error, we print the current time:
+error() {
+    echo "`TZ=UTC date`: error: $@" >&2
+    exit 1
+}
+
+# Compilation files
+GCCOUT="${MYDIR}/r-${INSTANCE_ID}-${SEED}.gccout"
+GCCERR="${MYDIR}/r-${INSTANCE_ID}-${SEED}.gccerr"
+
+# Compile if the executable does not exist
+if [ ! -f "$MYDIR/LKH" ] ; then
+  cd "${CODEDIR}"
+  make clean 1> ${GCCOUT} 2> ${GCCERR}
+  #echo "make ilsqdd OPTIONS=\"${CAND_PARAMS}\" EXEDIR=\"{MYDIR}\""
+  make LKH OPTIONS="${CAND_PARAMS}" EXEDIR="${MYDIR}" 1> ${GCCOUT} 2> ${GCCERR}
+fi 
+
+cd "${MYDIR}"
+
+# In case of error report it
+if [[ -s $GCCERR ]] ; then
+  exit 0
+fi
+
+# Execution files
+STDOUT="r-${INSTANCE_ID}-${SEED}.stdout"
+STDTIME="r-${INSTANCE_ID}-${SEED}.stdtime"
+STDERR="r-${INSTANCE_ID}-${SEED}.stderr"
+STDPAR="r-${INSTANCE_ID}-${SEED}.stdpar"
+
+echo "PROBLEM_FILE = ${INSTANCE}" > ${STDPAR}
+echo "RUNS = 1" >> ${STDPAR}
+echo "OPTIMUM = 1" >> ${STDPAR}
+echo "SEED = ${SEED}" >> ${STDPAR}
+
+# Execute the algorithm
+/usr/bin/time --format "MARK %S %U" -o ${STDTIME} ./LKH ${STDPAR} 1> $STDOUT 2> $STDERR
+
+# The output of the candidate $CANDIDATE should be written in ${STDOUT}
+# Does this file exist?
+if [ ! -s "${STDOUT}" ]; then
+    # In this case, the file does not exist. Let's exit with a value 
+    # different from 0. In this case irace will stop with an error.
+    error "${STDOUT}: No such file or directory"
+fi
+
+
+exit 0

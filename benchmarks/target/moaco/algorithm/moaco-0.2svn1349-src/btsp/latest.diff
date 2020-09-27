@@ -1,0 +1,505 @@
+Index: Makefile
+===================================================================
+--- Makefile	(revision 1347)
++++ Makefile	(working copy)
+@@ -33,7 +33,7 @@
+   $(error please define an architecture, e.g., 'make march=pentium')
+ endif
+ 
+-override CFLAGS += -march=$(march) -DMARCH='"$(guess-march)"'
++override CFLAGS += -std=gnu99 -march=$(march) -DMARCH='"$(guess-march)"'
+ 
+ ECHO = @echo "$(1)"
+ 
+Index: btsp.h
+===================================================================
+--- btsp.h	(revision 1347)
++++ btsp.h	(working copy)
+@@ -28,4 +28,9 @@
+ extern int *** bTSP_wcandlist;
+ int *** btsp_candidate_list(int cl_size, double *weight_vec, int num_weights);
+ 
++void
++calc_weighted_matrix (t_number **, t_number **m1, t_number **m2, int n,
++                      t_number weight1, t_number max_weight);
++
++
+ #endif
+Index: btsp_moaco.c
+===================================================================
+--- btsp_moaco.c	(revision 1347)
++++ btsp_moaco.c	(working copy)
+@@ -23,6 +23,103 @@
+ static double **heuristic_info[2] = { NULL, NULL };
+ static double **single_heuristic_info = NULL;
+ 
++
++Pheromone *
++pheromone_create(void)
++{
++    int n = PROBLEM_SIZE;
++    return create_double_matrix (n, n);
++}
++
++void
++pheromone_fprintf (FILE * stream, Pheromone * ph)
++{
++    matrix_double_fprint_fmt (stream, ph, PROBLEM_SIZE, PROBLEM_SIZE, "%.1f");
++}
++
++ConstructionState *
++Sol_construct_solution_init(Solution * solution)
++{
++    int n = PROBLEM_SIZE;
++    static ConstructionState * state = NULL;
++    if (state == NULL) {
++        state = malloc (sizeof(ConstructionState));
++        state->assigned = create_bool_vector (n);
++    }
++
++    for (int i = 0; i < n; i++)
++        state->assigned[i] = false;
++
++    int *permutation = SolGetVector(solution);
++    int first_city = Rand_int (0, n - 1);
++    permutation[0] = first_city;
++    state->assigned[first_city] = true;
++    state->step = 0;
++    return state;
++}
++
++bool
++Sol_construct_iscomplete (t_solution * solution __unused, t_construction *state)
++{
++    int n = PROBLEM_SIZE;
++    return (state->step == n);
++}
++
++t_solution_component
++Sol_construct_solution_next (t_solution * solution, t_construction *state)
++{
++    int n = PROBLEM_SIZE;
++    int *permutation = SolGetVector(solution);
++    int previous = permutation[state->step];
++    t_solution_component c = { .decision = previous, .chosen = -1 };
++
++    if (state->step + 1 == n) {
++        /* Close the route.  */
++        permutation[n] = permutation[0];
++        c.chosen = permutation[0];
++    }
++    return c;
++}
++
++double *
++Sol_compute_probabilities (t_solution * solution __unused, t_construction * state,
++                           Pheromone * tau_total,
++                           t_solution_component comp,
++                           int * probabilities_len)
++{
++    int n = PROBLEM_SIZE;
++    static bool first_time = true;
++    static double *probabilities;
++
++    if (first_time) {
++        probabilities = create_double_vector (n);
++        first_time = false;
++    }
++
++    for (int k = 0; k < n; k++) {
++        probabilities[k] = 0.0;
++    }
++
++    const double *total = tau_total[comp.decision];
++    for (int k = 0; k < n; k++) {
++        if (!state->assigned[k]) {
++            probabilities[k] = total[k];
++        }
++    }
++    *probabilities_len = n;
++    return probabilities;
++}
++
++void
++Sol_construct_solution_make_move (t_solution * solution, t_construction * state,
++                                  t_solution_component comp)
++{
++    int *permutation = SolGetVector(solution);
++    state->step++;
++    permutation[state->step] = comp.chosen;
++    state->assigned[comp.chosen] = true;
++}
++
+ /* The aggregation is such that lambda = 0 corresponds to f1 and
+    lambda = 1 corresponds to f2.  */
+ static inline double
+@@ -265,7 +362,7 @@
+ }
+ 
+ void
+-Sol_acs_global_update_pheromone_with_value (pheromone_t ph, const t_solution *sol,
++Sol_acs_global_update_pheromone_with_value (Pheromone * ph, const t_solution *sol,
+                                             double d_tau, double rho)
+ {
+     int i;
+@@ -302,7 +399,7 @@
+ }
+ 
+ void
+-Sol_global_update_pheromone_with_value (pheromone_t ph, const t_solution *sol,
++Sol_global_update_pheromone_with_value (Pheromone * ph, const t_solution *sol,
+                                         double d_tau)
+ {
+     int i;
+@@ -391,10 +488,12 @@
+ }
+ 
+ void
+-Sol_local_update_single (double trail_0, double **total, int i, int k,
++Sol_local_update_single (double trail_0, double **total,
++                         const t_solution_component *comp,
+                          double **ph,
+                          double alpha, double beta)
+ {
++    int i = comp->decision, k = comp->chosen;
+     acs_local_update_1ph (ph, i, k, trail_0);
+     compute_1ph_1heu_total (total, i, k, ph, single_heuristic_info, alpha, beta);
+ }
+@@ -491,10 +590,13 @@
+ 
+ 
+ void
+-Sol_local_update_1ph_2heu (double trail_0, double **total, int i, int k, double **ph,
++Sol_local_update_1ph_2heu (double trail_0, double **total,
++                           const t_solution_component *comp,
++                           double **ph,
+                            double alpha, double beta, 
+                            double lambda)
+ {
++    int i = comp->decision, k = comp->chosen;                               
+     acs_local_update_1ph (ph, i, k, trail_0);
+     if (Heuristic_aggregation_mode == RANDOM_AGGREGATION) {
+         /* FIXME: this depends on whether random_ph is computed for
+@@ -776,7 +878,8 @@
+ }
+ 
+ void
+-Sol_local_update_2ph_weighted (double trail1_0, double trail2_0, double ** total, int i, int k,
++Sol_local_update_2ph_weighted (double trail1_0, double trail2_0, double ** total,
++                               const t_solution_component *comp,
+                                double ** ph1, 
+                                double ** ph2,
+                                double alpha, double beta, 
+@@ -783,6 +886,7 @@
+                                double lambda)
+ {
+     double ** tmp_heu = NULL;
++    int i = comp->decision, k = comp->chosen;                               
+ 
+     acs_local_update_1ph (ph1, i, k, trail1_0);
+     acs_local_update_1ph (ph2, i, k, trail2_0);
+@@ -1045,42 +1149,7 @@
+                                             alpha, beta, 0.5);
+ }
+ 
+-void
+-Sol_construct_solution_init(t_solution * solution, bool *assigned)
+-{
+-    int *permutation = SolGetVector(solution);
+-    int first_city;
+-    int n = PROBLEM_SIZE;
+ 
+-    first_city = Rand_int (0, n - 1);
+-    permutation[0] = first_city;
+-    assigned[first_city] = true;
+-}
+-
+-t_solution_component
+-Sol_construct_solution_next (t_solution * solution, bool * assigned __unused, int step)
+-{
+-    int n = PROBLEM_SIZE;
+-    int *permutation = SolGetVector(solution);
+-    int previous = permutation[step];
+-    t_solution_component c = { .decision = previous, .chosen = -1 };
+-
+-    if (step + 1 == n) {
+-        /* Close the route.  */
+-        permutation[n] = permutation[0];
+-        c.chosen = permutation[0];
+-    }
+-    return c;
+-}
+-
+-void
+-Sol_construct_solution_make_move (t_solution * solution, bool *assigned, int step, t_solution_component comp)
+-{
+-    int *permutation = SolGetVector(solution);
+-    permutation[step + 1] = comp.chosen;
+-    assigned[comp.chosen] = true;
+-}
+-
+ #if 0
+ static double
+ normalised_hinfo (double value, double orig_min, double orig_max)
+@@ -1198,23 +1267,12 @@
+ }
+ 
+ void
+-Sol_aco_pheromone_init (pheromone_t ph, double value)
++Sol_aco_pheromone_init (Pheromone * ph, double value)
+ {
+     int n = PROBLEM_SIZE;
+     matrix_double_init (ph, n, n, value);
+ }
+ 
+-void
+-pheromone_printf (FILE * stream, pheromone_t ph)
+-{
+-    matrix_double_fprint_fmt (stream, ph, PROBLEM_SIZE, PROBLEM_SIZE, "%.1f");
+-}
+ 
+-pheromone_t
+-pheromone_create(void)
+-{
+-    int n = PROBLEM_SIZE;
+-    return create_double_matrix (n, n);
+-}
+ 
+ 
+Index: btsp_wls.c
+===================================================================
+--- btsp_wls.c	(revision 1347)
++++ btsp_wls.c	(working copy)
+@@ -1,7 +1,7 @@
+-#include "solution.h"
+-/* FIXME: This should not include solution.h but only btsp.h. 
++/* FIXME:  solution.h should not include  btsp.h. 
+  *#include "btsp.h"
+  */
++#include "solution.h"
+ #include "libmisc.h"
+ 
+ /* FIXME: These two should be set in set_wls_params. */
+Index: solution.c
+===================================================================
+--- solution.c	(revision 1347)
++++ solution.c	(working copy)
+@@ -112,7 +112,7 @@
+ }
+ 
+ void SolProblemSetWeights (const t_number *weights, int num_weights,
+-                           int **candlist __unused, int candlist_size)
++                           int **candlist, int candlist_size)
+ {
+     int w;
+     int ***wcandlist = NULL;
+@@ -120,7 +120,7 @@
+     t_number *tmp_weights;
+     int n = btsp_instance.size;
+ 
+-    tmp_weights = malloc(sizeof(btsp_instance.weights[0]) * num_weights);
++    tmp_weights = malloc(sizeof(t_number) * num_weights);
+     memcpy(tmp_weights, weights, sizeof(t_number) * num_weights);
+     btsp_instance.weights = tmp_weights;
+     btsp_instance.num_weights = num_weights;
+Index: solution.h
+===================================================================
+--- solution.h	(revision 1347)
++++ solution.h	(working copy)
+@@ -28,21 +28,11 @@
+ 
+ typedef t_solution *t_Solution;
+ 
+-problem_t * SolInitProblem(const char * inp_filename);
+-static inline int problem_get_size (const problem_t * problem) { 
++#include "problem.h"
++
++static inline int problem_get_size (const problem_t * problem) {
+     return problem->size; }
+ 
+-t_solution * SolCreate(void);
+-void SolEvaluate (t_solution *);
+-void SolCheck (const t_solution *);
+-void SolCopy(t_solution *dest, const t_solution *scr);
+-int Solcmp(const void * s1, const void * s2); // for qsort() and alike
+-int Solcmp_obj1(const void * p1, const void * p2);
+-int Solcmp_obj2(const void * p1, const void * p2);
+-int SolCompare_obj1(const t_solution * p1, const t_solution * p2);
+-int SolCompare_obj2(const t_solution * p1, const t_solution * p2);
+-int SolCompare(const t_solution * s1, const t_solution * s2);
+-
+ /* FIXME: this should return bool
+    1 -> if a dominates b
+    0 -> otherwise.
+@@ -72,10 +62,7 @@
+     // Otherwise A == B
+     return 0 ;
+ }
+-
+-void SolFree(t_solution *s);
+ t_number SolGenerate_greedy_with_weight (t_solution *solution, t_number weight, t_number max_weight);
+-void SolGenerateRandom(t_solution *s);
+ 
+ static inline int SolInfeasibility (const t_solution *s __unused) { return 0; }
+ static inline bool SolIsInfeasible (const t_solution *s __unused) { return 0; }
+@@ -86,24 +73,7 @@
+     return s->permutation;
+ }
+ 
+-static inline t_number 
+-SolGetObjective(const t_solution *s, int obj)
+-{
+-#if DEBUG > 0
+-    if (obj <= 0 || obj > NUM_OBJ) {
+-        fprintf (stderr, "%s(): objective %d does not exist!\n", __FUNCTION__,
+-                 obj);
+-        exit (EXIT_FAILURE);
+-    }
+-#endif
+-    return s->o[obj-1];
+-}
+ 
+-static inline void SolSetObjective(t_solution *s, int obj, t_number valor)
+-{
+-    assert (obj == 1 || obj == 2);
+-    s->o[obj - 1] = valor;
+-}
+ 
+ static inline void SetSolutionColony(t_solution * s, int c)
+ {
+@@ -115,15 +85,6 @@
+     return s->colony;
+ }
+ 
+-void SolPrint(FILE *stream, const t_solution *s);
+-void SolPrintOneLine(FILE *stream, const t_solution *s);
+-void SolPrintParam(FILE *stream, const char *prefix);
+-void SolPrintVersion(FILE *stream, const char *prefix);
+-
+-void SolProblemSetWeights (const t_number *weights, 
+-                           int num_weights,
+-                           int **candlist,
+-                           int candlist_size);
+ int **SolParetoCandList (int candlist_size);
+ int **SolCombinedCandList (int candlist_size);
+ 
+@@ -145,13 +106,7 @@
+     s->weight = w;
+ }
+ 
+-/* Not actually used.  */
+ int ***
+ SolWeightedCandidateList (int candlist_size, int num_weights);
+ 
+-/* Private */
+-void
+-calc_weighted_matrix (t_number **, t_number **m1, t_number **m2, int n,
+-                      t_number weight1, t_number max_weight);
+-
+ #endif
+Index: solution_moaco.h
+===================================================================
+--- solution_moaco.h	(revision 1347)
++++ solution_moaco.h	(working copy)
+@@ -3,27 +3,20 @@
+ 
+ #include "solution.h"
+ 
+-typedef double ** pheromone_t;
++// In fact, it is double **, but Pheromone is always used as a pointer.
++typedef double * Pheromone;
++
+ typedef struct {
+     int decision;
+     int chosen;
+-} t_solution_component;
++} SolutionComponent;
+ 
+-/* must be defined by the MOACO algorithm.  */
+-extern int 
+-decision_rule_candlist (const bool *assigned, 
+-                        const double *total,
+-                        const int *candlist,
+-                        int candlist_size);
+-extern int 
+-decision_rule (const bool *assigned, 
+-               const double *total);
++typedef struct {
++    int step;
++    bool *assigned;
++} ConstructionState;
+ 
+-/* Must be defined by the particular problem.  */
+-extern pheromone_t pheromone_create(void);
+ 
+-extern void pheromone_printf (FILE * stream, pheromone_t ph);
+-
+ static inline double
+ pheromone_update_nondominated_amount_fobj (const t_solution *s)
+ {
+@@ -68,7 +61,7 @@
+ double Sol_mmas_trail_max_const (double rho);
+ double Sol_mmas_trail_min (double trail_max, double prob_best);
+ 
+-void Sol_aco_pheromone_init (pheromone_t ph, double value);
++void Sol_aco_pheromone_init (Pheromone ph, double value);
+ 
+ 
+ void Sol_pheromone_evaporation(double **ph, double rho);
+@@ -80,19 +73,24 @@
+ 
+ void Sol_check_pheromone_limits(double **pheromone, double trail_min, double trail_max);
+ 
++
++
+ void
+-Sol_local_update_single (double trail_0, double **total, int i, int k,
+-                         double **ph, double alpha, double beta);
++Sol_local_update_single (double trail_0, double **total,
++                         const t_solution_component *comp,
++                         double **ph,
++                         double alpha, double beta);
+ 
+ void
+-Sol_local_update_1ph_2heu (double trail_0, double **total, 
+-                           int i, int k, double **ph,
++Sol_local_update_1ph_2heu (double trail_0, double **total,
++                           const t_solution_component *comp,
++                           double **ph,
+                            double alpha, double beta, 
+                            double lambda);
+-
+ void
+ Sol_local_update_2ph_weighted (double trail1_0, double trail2_0, 
+-                               double ** total, int i, int k,
++                               double ** total, 
++                               const t_solution_component *comp,
+                                double ** ph1, 
+                                double ** ph2,
+                                double alpha, double beta, 
+@@ -135,12 +133,6 @@
+                                     double alpha, double beta, 
+                                     double lambda, int heu);
+ 
+-void
+-Sol_construct_solution_init(t_solution * solution, bool *assigned);
+-t_solution_component
+-Sol_construct_solution_next (t_solution * solution, bool *assigned, int step);
+-void
+-Sol_construct_solution_make_move (t_solution * solution, bool *assigned, int step, t_solution_component comp);
+ 
+ void Sol_init_heuristic_info_single (void);
+ void Sol_init_heuristic_info_single_PACO (void);
+Index: t_number_def.h
+===================================================================
+--- t_number_def.h	(revision 1347)
++++ t_number_def.h	(working copy)
+@@ -1,6 +1,8 @@
+ /* t_number: a long number, which can be implemented as long, int, int64 or double
+  * Should be used in data related to the objective functions, like distances, costs, weights, profits
+  */
++#ifndef T_NUMBER_IS
+ #define T_NUMBER_IS T_NUMBER_IS_INT_FAST64
++#endif
+ #include "t_number.h"
+ 

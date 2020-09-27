@@ -1,0 +1,76 @@
+#!/bin/bash
+
+CANDIDATE="$1"
+INSTANCEID="$2"
+SEED="$3"
+INSTANCE="$4"
+TOTALCANDIDATES="$5"
+shift 5 || error "Not enough parameters to $0"
+ALLIDS=$*
+
+STDOUT=c${CANDIDATE}-${INSTANCEID}.stdout
+STDERR=c${CANDIDATE}-${INSTANCEID}.stderr
+
+error() {
+    echo "`TZ=UTC date`: error: $@"
+    if [ -s error.log ]; then
+        cat error.log
+    fi
+    exit 1
+}
+
+error_sleep() {
+    echo "`TZ=UTC date`: error: $@" >> error.log
+    sleep 60
+}
+
+MYDIR=$(pwd)/c-${CANDIDATE}/
+cd $MYDIR || error "cannot change to directory ${MYDIR}"
+
+STDOUT="r-${INSTANCEID}-${SEED}.stdout"
+STDTIME="r-${INSTANCEID}-${SEED}.stdtime"
+STDERR="r-${INSTANCEID}-${SEED}.stderr"
+STDPAR="r-${INSTANCEID}-${SEED}.stdpar"
+GCCOUT="r-${INSTANCEID}-${SEED}.gccout"
+GCCERR="r-${INSTANCEID}-${SEED}.gccerr"
+
+# Check the existence of executable
+if [ ! -f "$MYDIR/LKH" ] ; then
+  echo "Inf"
+  exit 0
+fi
+
+# Check existence of output
+if [ ! -f "${STDOUT}" ] ; then
+  error "${STDOUT}: No such file"
+fi
+
+# Ok, the file exist. It contains the whole output written by the algorithm.
+T1=$(cat ${STDTIME} | grep 'MARK' | cut -d ' ' -f2)
+T2=$(cat ${STDTIME} | grep 'MARK' | cut -d ' ' -f3)
+#COST=$(echo $T1 + $T2 | bc)
+COST=${T2}
+if ! [[ "$COST" =~ ^[-+0-9.e]+$ ]] ; then
+    error "${STDTIME}: Output is not a number"
+fi
+
+# Print it!
+echo "$COST"
+
+# We can remove the files since irace would not requite to evaluate them again.
+rm -rf "${GCCOUT}" "${GCCERR}" 
+rm -rf "${STDOUT}" "${STDERR}" "${STDTIME}" "${STDPAR}"
+
+# List all active executable folders
+ALLFOLDERS=
+for FILENAME in $ALLIDS; do
+    ALLFOLDERS="$ALLFOLDERS c-${FILENAME}"
+done
+
+cd ..
+
+# Remove folders that are not needed anymore.
+comm --output-delimiter=" " -23 <(ls -1 -d c-* | sort) <(ls -1 -d ${ALLFOLDERS} | sort) | xargs -r rm -rf
+
+
+exit 0

@@ -1,0 +1,64 @@
+#!/bin/bash
+###############################################################################
+# This hook is the command that is executed every run.
+# Check the examples in examples/
+#
+# PARAMETERS:
+# $1 is the ID of the candidate to be evaluated
+# $2 is the instance ID
+# $3 is the seed
+# $4 is the instance name
+# The rest are parameters for running the program
+#
+# RETURN VALUE:
+# This script should print nothing.
+# Exit with 0 if no error, with 1 in case of error
+###############################################################################
+
+# NOTE: You need to customize EXE and FIXED_PARAMS below.
+# If you change the rest, you need to also update hook-evaluate
+
+CANDIDATE="$1"
+INSTANCEID="$2"
+SEED="$3"
+INSTANCE="$4"
+PARAMS=
+# All other parameters are the candidate parameters to be passed to program
+shift 4 || error "Not enough parameters to $0"
+
+STDOUT=c${CANDIDATE}-${INSTANCEID}.stdout
+STDERR=c${CANDIDATE}-${INSTANCEID}.stderr
+
+
+while [ $# -gt 0 ]
+do
+  case "$1" in
+      --Mants) shift; MANTS="$1"; shift;;
+      --Isize) shift; ISIZE="$1"; shift;;
+      *) PARAMS="$PARAMS $1"; shift;;# terminate case
+  esac
+done
+let "ANTS = (3 * 2 * $MANTS)"
+let "RUNTIME = (4 * (($ISIZE / 100) ** 2))"
+#let "RUNTIME = 5" #reduced x testing
+
+
+# If you want to find where hook-run is.
+#BINDIR=$(dirname "$(readlink -f "$(type -P $0 || echo $0)")")
+EXE=/home/iraceTester/algorithms/moaco/algorithm/bin/moaco_btsp
+FIXED_PARAMS="--trials 1 --time $RUNTIME --ants $ANTS --input $INSTANCE --seed $SEED"
+
+# TODO: Use /tmp for all temporary files, i.e., put hook-run-data under /tmp
+mkdir -p hook-run-data
+cd hook-run-data
+
+#echo "$EXE ${FIXED_PARAMS} ${PARAMS}" >> "out.txt"
+$EXE ${FIXED_PARAMS} ${PARAMS} 1> $STDOUT 2> $STDERR
+# We do this to make sure this hook-run terminated correctly in hook-evaluate
+echo "OK" >> $STDERR
+exit 0
+
+error() {
+    echo "`TZ=UTC date`: error: $@"
+    exit 1
+}

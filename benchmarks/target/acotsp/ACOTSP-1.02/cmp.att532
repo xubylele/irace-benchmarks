@@ -1,0 +1,44 @@
+
+ACO algorithms for the TSP, v1.02
+
+Parameter-settings: 
+
+max_tries		 1
+max_tours		 1000
+max_time		 0.00
+seed		 1471630187
+optimum			 1
+n_ants			 25
+nn_ants			 20
+alpha			 1.00
+beta			 2.00
+rho			 0.20
+q_0			 0.00
+elitist_ants		 0
+ras_ranks		 0
+ls_flag			 3
+nn_ls			 20
+dlb_flag		 1
+as_flag			 0
+eas_flag		 0
+ras_flag		 0
+mmas_flag		 1
+bwas_flag		 0
+acs_flag		 0
+
+begin problem att532.tsp
+seed 1471630187
+begin try 0 
+best 29125	 iteration 1	 tours 2	 time 0.000
+best 28290	 iteration 1	 tours 27	 time 0.063
+best 28279	 iteration 6	 tours 152	 time 0.258
+best 28225	 iteration 7	 tours 177	 time 0.296
+best 28059	 iteration 12	 tours 302	 time 0.484
+best 28018	 iteration 26	 tours 652	 time 0.964
+best 28010	 iteration 27	 tours 677	 time 0.996
+best 28009	 iteration 33	 tours 827	 time 1.186
+best 27996	 iteration 36	 tours 902	 time 1.277
+best 27956	 iteration 39	 tours 977	 time 1.367
+end try 0
+
+end problem att532

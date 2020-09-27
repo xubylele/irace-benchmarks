@@ -1,0 +1,5 @@
+name: solution quality
+description: selection of solution quality scenarios
+size: 3
+scenarios: acotsp-tsp2000-mixed, moaco-mtsp-mixed, gcc_lkh-tsp1000-mixed
+descriptors: solution quality

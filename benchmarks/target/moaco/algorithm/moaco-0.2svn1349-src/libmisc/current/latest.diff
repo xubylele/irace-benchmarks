@@ -1,0 +1,168 @@
+Index: common.h
+===================================================================
+--- common.h	(revision 1347)
++++ common.h	(working copy)
+@@ -26,6 +26,7 @@
+ 
+ #include "gcc_attribs.h"
+ 
++typedef unsigned int uint;
+ typedef unsigned long ulong;
+ typedef long long longlong;
+ 
+Index: mymalloc.c
+===================================================================
+--- mymalloc.c	(revision 1347)
++++ mymalloc.c	(working copy)
+@@ -269,15 +269,12 @@
+                                                                            \
+ TYPEOFVECTOR **                                                            \
+ matrix_##MATRIX_READ_FUN_NAME##_read (FILE *input, int dim1, int dim2)     \
+-{                                                                          \
+-    int     i, j;                                                          \
+-    TYPEOFVECTOR     **matrix;                                             \
+-                                                                           \
+-    matrix = malloc (sizeof(TYPEOFVECTOR) * dim1 * dim2                    \
+-                     + sizeof(TYPEOFVECTOR *) * dim1);                     \
+-                                                                           \
+-    if (matrix == NULL) {                                                  \
+-        eprintf ("cannot create int matrix of size (%d x %d): "            \
++{                                                                              \
++    int i, j;                                                                  \
++    TYPEOFVECTOR **matrix = malloc (sizeof(TYPEOFVECTOR) * dim1 * dim2         \
++                                    + sizeof(TYPEOFVECTOR *) * dim1);          \
++    if (matrix == NULL) {                                                      \
++        eprintf ("cannot create matrix of size (%d x %d): "                \
+                  "see line %d of file %s\n",                               \
+                  dim1, dim2, __LINE__, __FILE__);                          \
+     }                                                                      \
+@@ -292,7 +289,7 @@
+         }                                                                  \
+     }                                                                      \
+     return matrix;                                                         \
+-}                                                                          \
++}
+ 
+ matrix_read_(longlong, long long, "%lld")
+ matrix_read_(int, int, "%d")
+@@ -299,6 +296,22 @@
+ matrix_read_(int_fast64_t, int_fast64_t, "%"SCNdFAST64)
+ #undef matrix_read_
+ 
++#define matrix_is_symmetric_(TYPEOFVECTOR)                                    \
++                                                                              \
++bool                                                                       \
++matrix_##TYPEOFVECTOR##_is_symmetric (TYPEOFVECTOR **matrix, int dim)      \
++{                                                                          \
++    for (int i = 0; i < dim - 1; i++)                                      \
++        for (int j = i + 1; j < dim; j++)                                  \
++            if (matrix[i][j] != matrix[j][i])                              \
++                return false;                                              \
++    return true;                                                           \
++}
++matrix_is_symmetric_(longlong)
++matrix_is_symmetric_(int)
++matrix_is_symmetric_(int_fast64_t)
++#undef matrix_is_symmetric_
++
+ /*
+  * Quick Intializers
+  *
+@@ -321,6 +334,7 @@
+             p[i][j] = init_value;
+ }
+ 
++
+ //------------------------------------------------------------------
+ // FIXME: Cleanup unused. Templatize useful ones.
+ #if 0
+Index: mymalloc.h
+===================================================================
+--- mymalloc.h	(revision 1347)
++++ mymalloc.h	(working copy)
+@@ -138,6 +138,7 @@
+ mymalloc_create_ (char)
+ mymalloc_create_ (int)
+ VECTOR_INT_FUNCTIONS_ (int)
++mymalloc_create_ (uint)
+ mymalloc_create_ (ulong)
+ mymalloc_create_ (double)
+ mymalloc_create_ (float)
+@@ -147,16 +148,27 @@
+ #undef mymalloc_create_shared_
+ #undef VECTOR_INT_FUNCTIONS_
+ 
+-#define matrix_read_(READ_FUN_NAME,TYPEOFVECTOR,TYPE_FMT)               \
++#define matrix_read_(TYPEOFVECTOR,TYPE_FMT)               \
+                                                                            \
+ TYPEOFVECTOR **                                                            \
+-matrix_##READ_FUN_NAME##_read (FILE *input, int dim1, int dim2); 
++matrix_##TYPEOFVECTOR##_read (FILE *input, int dim1, int dim2); 
+ 
+-matrix_read_(longlong, longlong, "%lld")
+-matrix_read_(int, int, "%d")
+-matrix_read_(int_fast64_t, int_fast64_t, SCNdFAST64)
++matrix_read_(longlong, "%lld")
++matrix_read_(int, "%d")
++matrix_read_(int_fast64_t, SCNdFAST64)
+ #undef matrix_read_
+ 
++#define matrix_is_symmetric_(TYPEOFVECTOR)               \
++                                                         \
++bool                                                                   \
++matrix_##TYPEOFVECTOR##_is_symmetric (TYPEOFVECTOR **matrix, int dim); 
++
++matrix_is_symmetric_(longlong)
++matrix_is_symmetric_(int)
++matrix_is_symmetric_(int_fast64_t)
++#undef matrix_is_symmetric_
++
++
+ //------------ vectors -------------------------------------
+ #define create_shared_int_vector(n) \
+ (m_create_shared_int_vector((n),__LINE__,__FILE__))
+Index: t_number.h
+===================================================================
+--- t_number.h	(revision 1347)
++++ t_number.h	(working copy)
+@@ -24,6 +24,7 @@
+ #define create_number_matrix create_longlong_matrix
+ #define matrix_number_avg matrix_longlong_avg
+ #define matrix_number_read matrix_longlong_read
++#define matrix_number_is_symmetric matrix_longlong_is_symmetric
+ #define sort2_number_inc sort2_longlong_inc
+ #define vector_number_fprint_fmt vector_longlong_fprint_fmt
+ 
+@@ -53,6 +54,7 @@
+ #define create_number_matrix create_int_fast64_t_matrix
+ #define matrix_number_avg matrix_int_fast64_t_avg
+ #define matrix_number_read matrix_int_fast64_t_read
++#define matrix_number_is_symmetric matrix_int_fast64_t_is_symmetric
+ #define sort2_number_inc sort2_int_fast64_t_inc
+ #define vector_number_fprint_fmt vector_int_fast64_t_fprint_fmt
+ 
+@@ -75,4 +77,24 @@
+ #error Unknown definition of T_NUMBER_IS
+ #endif
+ 
++static inline bool
++matrix_number_has_null_diag (t_number **matrix, int size)
++{
++    for (int i = 0; i < size; i++)
++        if (matrix[i][i] != 0)
++            return false;
++    return true;
++}
++
++static inline void
++matrix_number_init (t_number **matrix, int dim1, int dim2, t_number init_value)
++{
++    int  i, j;
++    for (i = 0; i < dim1; i++) {
++        for (j = 0; j < dim2; j++) {
++            matrix[i][j] = init_value;
++        }
++    }
++}
++
+ #endif
