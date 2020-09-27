@@ -1,0 +1,6 @@
+name: gcc_lkh-tsp1000-mixed
+file: scenarios/gcc/scenario-lkh.txt
+target: target/gcc-lkh (source + target runner + target evaluator)
+parameters: target/gcc-lkh/parameters (parameters)
+instances: [(file/url),instances/tsp/training-1000.txt, instances/tsp/testing-1000.txt]
+descriptors: mixed, solution quality, single objetive

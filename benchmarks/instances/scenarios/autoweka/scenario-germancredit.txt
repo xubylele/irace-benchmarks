@@ -1,0 +1,19 @@
+parameterFile <- "~/algorithms/autoweka/parameters.txt"
+trainInstancesDir <- ""
+
+trainInstancesFile <- "~/instances/ml/germancredit/training.txt"
+testInstancesFile <- "~/instances/ml/germancredit/test.txt"
+testIterationElites <- 1
+
+configurationsFile <- "~/algorithms/autoweka/default-noNA.txt"
+targetRunner <- "~/algorithms/autoweka/target-runner-germancredit"
+targetRunnerRetries <- 3
+
+expName  <- "weka germancredit"
+
+determinist <- 1
+maxExperiments <- 0
+maxTime   <- 108000
+testType <- "F-test"
+elitist  <- 1
+

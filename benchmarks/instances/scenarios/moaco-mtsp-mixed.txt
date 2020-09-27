@@ -1,0 +1,6 @@
+name: moaco-mtsp-mixed
+file: scenarios/moaco/scenario-moaco.txt
+target: target/moaco (source + target runner + target evaluator)
+parameters: target/moaco/parameters (parameters)
+instances: [(file/url),instances/multi-tsp/instances-list-wls-noseed.txt, instances/multi-tsp/instances-testing.txt]
+descriptors: mixed, solution quality, multiobjective

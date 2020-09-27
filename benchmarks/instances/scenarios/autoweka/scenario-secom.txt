@@ -1,0 +1,19 @@
+parameterFile <- "~/algorithms/autoweka/parameters.txt"
+trainInstancesDir <- ""
+
+trainInstancesFile <- "~/instances/ml/secom/training.txt"
+testInstancesFile <- "~/instances/ml/secom/test.txt"
+testIterationElites <- 1
+
+configurationsFile <- "~/algorithms/autoweka/default-noNA.txt"
+targetRunner <- "~/algorithms/autoweka/target-runner-secom"
+targetRunnerRetries <- 3
+
+expName  <- "weka secom"
+
+determinist <- 1
+maxExperiments <- 0
+maxTime   <- 9000
+testType <- "F-test"
+elitist  <- 1
+

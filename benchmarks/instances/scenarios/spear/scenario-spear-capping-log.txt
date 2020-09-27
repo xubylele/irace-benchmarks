@@ -1,0 +1,21 @@
+parameterFile <- "~/algorithms/spear/parameters-log.txt"
+trainInstancesDir <- ""
+trainInstancesFile <- "~/instances/sat/training-instances.txt"
+configurationsFile <- "~/algorithms/spear/spear-candidates-default-noNA.txt"
+targetRunner <- "~/algorithms/spear/aclib/hook-run-bound"
+targetRunnerRetries <- 3
+
+expName  <- "SPEAR"
+
+determinist <- 1
+maxExperiments <- 0
+maxTime <- 172800
+budgetEstimation <- 0.003
+digits <- 5
+testType <- "t-test"
+
+elitist <- 1
+capping <- 1
+#maxBound  <- 300
+boundMax  <- 300
+boundDigits <- 0

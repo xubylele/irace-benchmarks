@@ -1,0 +1,6 @@
+name: gcc_lkh-tsp1000-cat
+file: scenarios/gcc/scenario-lkh-cat.txt
+target: target/gcc-lkh (source + target runner + target evaluator)
+parameters: target/gcc-lkh/parameters (parameters)
+instances: [(file/url),instances/tsp/training-1000.txt, instances/tsp/testing-1000.txt]
+descriptors: categorical, solution quality, single objetive

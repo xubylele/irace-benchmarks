@@ -1,0 +1,14 @@
+parameterFile <- "~/algorithms/gcc/gcc-flagsonly.txt"
+logFile <- "./irace.Rdata"
+trainInstancesDir <- ""
+trainInstancesFile <- "~/instances/qap/training.txt"
+targetRunner <- "~/algorithms/tabu-qap/targetRunner-compile-reuse"
+targetEvaluator <- "~/algorithms/tabu-qap/targetEvaluator-compile"
+expName  <- "GCC tabu qap compile"
+maxExperiments <- 10000
+digits <- 2
+testType <- "t-test"
+elitist <- 1
+#testInstanceDir <- "~/instances/qap/testing.txt"
+#testNbElites <- 1
+

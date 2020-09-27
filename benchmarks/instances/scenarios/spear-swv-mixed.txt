@@ -1,0 +1,6 @@
+name: spear-swv-mixed
+file: scenarios/spear/scenario-spear-capping-num.txt
+target: target/spear (source + target runner)
+parameters: target/spear/parameters (parameters + initial configuration)
+instances: [(file/url),instances/sat/training-instances.txt, instances/sat/testing-instances.txt]
+descriptors: mixed, runtime, single objetive

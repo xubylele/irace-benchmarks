@@ -1,0 +1,12 @@
+parameterFile <- "~/algorithms/spear/parameters-cat.txt"
+trainInstancesDir <- ""
+trainInstancesFile <- "~/instances/sat/training-instances.txt"
+configurationsFile <- "~/algorithms/spear/spear-candidates-default-noNA.txt"
+targetRunner <- "~/algorithms/spear/aclib/hook-run-irace-time-300"
+targetRunnerRetries <- 3
+maxExperiments <- 0
+maxTime <- 172800
+digits <- 2
+testType <- "t-test"
+elitist <- 0
+

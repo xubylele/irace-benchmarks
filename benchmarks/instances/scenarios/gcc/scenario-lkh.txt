@@ -1,0 +1,17 @@
+parameterFile <- "~/algorithms/gcc-lkh/parameters-full.txt"
+
+trainInstancesDir <- ""
+trainInstancesFile <- "instances/tsp/training-1000.txt"
+testInstancesDir <- ""
+testInstanceFile <- "instances/tsp/testing-1000.txt"
+
+targetRunner <- "target/gcc-lkh/targetRunner-compile-reuse"
+targetEvaluator <- "target/gcc-lkh/targetEvaluator-compile"
+
+
+maxExperiments <- 10000
+digits <- 2
+testType <- "t-test"
+elitist <- 1
+
+

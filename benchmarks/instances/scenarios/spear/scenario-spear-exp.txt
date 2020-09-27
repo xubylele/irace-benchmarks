@@ -1,0 +1,17 @@
+parameterFile = "~/algorithms/spear/parameters-cat.txt"
+trainInstancesDir = ""
+trainInstancesFile = "~/instances/sat/training-instances.txt"
+configurationsFile = "~/algorithms/spear/spear-candidates-default-noNA.txt"
+
+targetRunner = "~/algorithms/spear/aclib/hook-run-bound"
+targetRunnerRetries = 3
+
+determinist <- 1
+maxExperiments = 10000
+maxTime = 0
+boundMax = 300 
+
+testType = "t-test"
+
+## END of configuration file
+############################################################################

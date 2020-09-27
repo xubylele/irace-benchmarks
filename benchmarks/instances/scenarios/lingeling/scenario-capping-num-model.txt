@@ -1,0 +1,27 @@
+parameterFile <- "~/algorithms/lingeling/irace/lingeling-param.txt"
+trainInstancesDir <- ""
+trainInstancesFile <- "~/instances/sat-circuitfuzz-cssc14/training.txt"
+configurationsFile <- "~/algorithms/lingeling/irace/lingeling-default.txt"
+targetRunner <- "~/algorithms/lingeling/aclib/hook-run-bound"
+targetRunnerRetries <- 3
+
+testInstancesFile <- "~/instances/sat-circuitfuzz-cssc14/test.txt"
+testIterationElites <- 1
+
+determinist <- 1
+
+maxExperiments <- 0
+maxTime   <- 172800
+
+elitist  <- 1
+capping <- 1
+budgetEstimation <- 0.003
+boundMax  <- 300
+boundDigits <- 2
+boundAsTimeout <- 1
+
+digits   <- 2
+testType <- "t-test"
+
+
+

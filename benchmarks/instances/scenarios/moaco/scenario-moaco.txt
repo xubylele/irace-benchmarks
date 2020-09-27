@@ -1,0 +1,13 @@
+parameterFile <- "target/moaco/parameters/parameters.txt"
+
+trainInstancesDir <- "instances/multi-tsp/instances/"
+trainInstancesFile <- "instances/multi-tsp/instances-list-wls-noseed.txt"
+testInstancesFile <- "instances/multi-tsp/instances-testing.txt"
+
+targetRunner <- "target/moaco/hook-run"
+targetEvaluator  <- "target/moaco/hook-evaluate"
+
+
+maxExperiments <- 5000
+digits <- 2
+elitist <- 1

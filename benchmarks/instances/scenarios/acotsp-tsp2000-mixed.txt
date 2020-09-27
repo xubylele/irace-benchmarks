@@ -1,0 +1,6 @@
+name: acotsp-tsp2000-mixed
+file: scenarios/acotsp/scenario-acotsp2000.txt
+target: target/acotsp (source + target runner)
+parameters: target/acotsp/parameters (parameters + initial configuration + forbidden)
+instances: [(file/url),instances/tsp/training2000.txt, instances/tsp/testing2000.txt]
+descriptors: mixed, solution quality, single objetive

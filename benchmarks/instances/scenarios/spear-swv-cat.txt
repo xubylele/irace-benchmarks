@@ -1,0 +1,6 @@
+name: spear-swv-cat
+file: scenarios/spear/scenario-spear-capping.txt
+target: target/spear (source + target runner)
+parameters: target/spear/parameters (parameters + initial configuration)
+instances: [(file/url),instances/sat/training-instances.txt, instances/sat/testing-instances.txt]
+descriptors: categorical, runtime, single objetive

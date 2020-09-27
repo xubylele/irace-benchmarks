@@ -1,0 +1,25 @@
+parameterFile <- "~/algorithms/spear/parameters-mix.txt"
+trainInstancesDir <- ""
+trainInstancesFile <- "~/instances/sat/training-instances.txt"
+configurationsFile <- "~/algorithms/spear/spear-candidates-default-noNA.txt"
+targetRunner <- "~/algorithms/spear/aclib/hook-run-bound"
+targetRunnerRetries <- 3
+
+testInstancesFile <- "/home/iraceTester/instances/sat/testing-instances.txt"
+testIterationElites <- 1
+
+determinist <- 1
+
+maxExperiments <- 0
+maxTime <- 172800
+
+elitist <- 1
+capping <- 1
+boundMax  <- 300
+boundDigits <- 0
+budgetEstimation <- 0.003
+boundAsTimeout <- 1
+
+digits <- 5
+testType <- "t-test"
+

@@ -1,0 +1,23 @@
+parameterFile <- "target/lingeling/parameters/parameters.txt"
+configurationsFile <- "target/lingeling/parameters/default.txt"
+
+trainInstancesDir <- ""
+trainInstancesFile <- "instances/sat-circuitfuzz-cssc14/training.txt"
+testInstancesDir <- ""
+testInstancesFile <- "instances/sat-circuitfuzz-cssc14/test.txt"
+
+targetRunner <- "target/lingeling/hook-run-bound"
+
+targetRunnerRetries <- 3
+
+determinist <- 1
+maxExperiments <- 0
+maxTime   <- 172800
+budgetEstimation <- 0.003
+digits   <- 2
+testType <- "t-test"
+elitist  <- 1
+capping <- 1
+boundMax  <- 300
+boundDigits <- 2
+

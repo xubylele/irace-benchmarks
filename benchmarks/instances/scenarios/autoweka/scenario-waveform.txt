@@ -1,0 +1,19 @@
+parameterFile <- "~/algorithms/autoweka/parameters.txt"
+trainInstancesDir <- ""
+
+trainInstancesFile <- "~/instances/ml/waveform/training.txt"
+testInstancesFile <- "~/instances/ml/waveform/test.txt"
+testIterationElites <- 1
+
+configurationsFile <- "~/algorithms/autoweka/default-noNA.txt"
+targetRunner <- "~/algorithms/autoweka/target-runner-waveform"
+targetRunnerRetries <- 3
+
+expName  <- "weka waveform"
+
+determinist <- 1
+maxExperiments <- 0
+maxTime   <- 108000
+testType <- "F-test"
+elitist  <- 1
+

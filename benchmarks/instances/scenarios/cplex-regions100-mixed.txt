@@ -1,0 +1,6 @@
+name: cplex-regions100-mixed
+file: scenarios/cplex/scenario-cats100-capping-num.txt
+target: target/cplex-mip (source + target runner)
+parameters: target/cplex-mip/parameters (parameters + initial configuration)
+instances: [(file/url), instances/tsp/training2000.txt, instances/tsp/testing2000.txt]
+descriptors: mixed, runtime, single objetive

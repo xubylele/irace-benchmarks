@@ -1,0 +1,14 @@
+parameterFile <- "~/algorithms/gcc/gcc-flagsonly.txt"
+logFile <- "./irace.Rdata"
+trainInstancesDir <- ""
+trainInstancesFile <- "~/instances/tsp/training-1000-1500.txt"
+targetRunner <- "~/algorithms/acotsp/targetRunner-compile-reuse-ls3"
+targetEvaluator <- "~/algorithms/acotsp/targetEvaluator-compile"
+expName  <- "GCC Acotsp elite run"
+maxExperiments <- 10000
+digits <- 2
+testType <- "t-test"
+elitist <- 1
+#testInstanceDir <- "~/instances/tsp/testing/"
+#testNbElites <- 1
+

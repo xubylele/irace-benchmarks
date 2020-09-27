@@ -1,0 +1,6 @@
+name: lingeling-circuitfuzz-mixed
+file: scenarios/lingeling/scenario-capping-num.txt
+target: target/lingeling (source + target runner)
+parameters: target/lingeling/parameters (parameters + initial configuration + forbidden)
+instances: [(file/url),instances/sat-circuitfuzz-cssc14/training.txt, instances/sat-circuitfuzz-cssc14/test.txt]
+descriptors: mixed, runtime, single objetive

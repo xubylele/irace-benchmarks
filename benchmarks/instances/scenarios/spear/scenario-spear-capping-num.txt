@@ -1,0 +1,20 @@
+parameterFile <- "target/spear/parameters/parameters-mix.txt"
+configurationsFile <- "target/spear/parameters/default-noNA.txt"
+
+trainInstancesDir <- ""
+trainInstancesFile <- "instances/sat/training-instances.txt"
+testInstancesDir <- ""
+testInstancesFile <- "instances/sat/testing-instances.txt"
+
+targetRunner <- "target/spear/hook-run-bound"
+
+targetRunnerRetries <- 3
+determinist <- 1
+maxTime <- 172800
+budgetEstimation <- 0.003
+digits <- 5
+testType <- "t-test"
+elitist <- 1
+capping <- 1
+boundMax  <- 300
+boundDigits <- 0

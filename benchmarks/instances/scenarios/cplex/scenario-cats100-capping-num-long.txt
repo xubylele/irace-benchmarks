@@ -1,0 +1,18 @@
+parameterFile <- "~/algorithms/cplex/cplex12-parameters-num.txt"
+trainInstancesDir <- ""
+trainInstancesFile <- "~/instances/mip/cats/training-cats100.txt"
+configurationsFile <- "~/algorithms/cplex/cplex-candidate-default-noNA.txt"
+targetRunner <- "~/algorithms/cplex/aclib/hook-run-bound"
+targetRunnerRetries <- 3
+
+expName  <- "CPLEX regions 100"
+
+determinist <- 1
+maxExperiments <- 0
+maxTime   <- 18000
+testType <- "t-test"
+
+elitist  <- 1
+capping <- 1
+boundMax  <- 10000
+boundDigits <- 2

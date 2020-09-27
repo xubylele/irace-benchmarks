@@ -1,0 +1,18 @@
+parameterFile <- "target/acotsp/parameters/parameters.txt"
+configurationsFile <- "target/acotsp/parameters/default.txt"
+forbiddenFile <- " "target/parameters/forbidden.txt""
+
+trainInstancesDir <- ""
+trainInstancesFile <- "instances/tsp/training_1000_4500.txt"
+testInstancesDir <- ""
+testInstancesFile <- "instances/tsp/testing_1000_4500.txt"
+
+targetRunner <- "target/acotsp/hook-run"
+
+
+maxExperiments <- 5000
+digits <- 2
+testType <- "F-test"
+elitist <- 1
+boundMax <- 20
+
