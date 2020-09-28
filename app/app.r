@@ -1,10 +1,22 @@
 library(shiny)
 library(shinydashboard)
-library(shinythemes)
 library(shinyjs)
 library(htmltools)
 library()
 
+#read benchmark data
+benchmark_filenames <- list.files('../benchmarks/benchmarks', pattern = '*.txt', full.names = TRUE)
+
+benchmarks <- c()
+
+for(i in 1:length(benchmark_filenames))
+  benchmarks[i] <- read.delim(benchmark_filenames[i])
+
+print(benchmarks)
+
+
+
+#shiny options
 options(shiny.port = 4200)
 options(shiny.autoreload = TRUE)
 
@@ -48,7 +60,8 @@ ui <- dashboardPage(skin = "purple",
                           htmltools::withTags(
                             div(
                               class = 'container',
-                              h1('Benchmarks')
+                              h1('Benchmarks'),
+                              p(length(benchmarks))
                             )
                           )
                         )
@@ -58,7 +71,6 @@ ui <- dashboardPage(skin = "purple",
 
 server <- function(input, output) {
   
-  #read benchmark data
   
   
 } # server
