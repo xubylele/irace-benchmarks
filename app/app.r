@@ -8,14 +8,37 @@ xfun::session_info('DT')
 #read benchmark data
 benchmark_filenames <- list.files('../benchmarks/benchmarks', pattern = '*.txt', full.names = TRUE)
 
-benchmarks <- c()
+benchmarks <- list()
 
 for(i in 1:length(benchmark_filenames))
-  benchmarks[i] <- read.delim(benchmark_filenames[i])
+{
+  fileName <- benchmark_filenames[i]
+  conn <- file(fileName,open="r")
+  linn <-readLines(conn)
+  benchmark = c()
+  for (j in 1:length(linn)){
+    line <- strsplit(linn[j], ": ")
+    benchmark[[j]] = list(line[[1]][1], line[[1]][2])
+  }
 
-print(benchmarks)
+  benchmarks[[i]] <- benchmark
+  
+  close(conn)
+}
 
+benchmarks_names <- list()
+benchmarks_descriptions <- list()
+benchmarks_sizes <- list()
+benchmarks_scenarios <- list()
+benchmarks_descriptors <- list()
 
+for(i in 1:length(benchmarks)){
+  benchmarks_names[i] = benchmarks[[i]][[1]][2]
+  benchmarks_descriptions[i] = benchmarks[[i]][[2]][2]
+  benchmarks_sizes[i] = benchmarks[[i]][[3]][2]
+  benchmarks_scenarios[i] = benchmarks[[i]][[4]][2]
+  benchmarks_descriptors[i] = benchmarks[[i]][[5]][2]
+}
 
 #shiny options
 options(shiny.port = 4200)
