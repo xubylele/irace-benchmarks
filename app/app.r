@@ -2,7 +2,8 @@ library(shiny)
 library(shinydashboard)
 library(shinyjs)
 library(htmltools)
-library()
+library(DT)
+xfun::session_info('DT')
 
 #read benchmark data
 benchmark_filenames <- list.files('../benchmarks/benchmarks', pattern = '*.txt', full.names = TRUE)
@@ -59,9 +60,9 @@ ui <- dashboardPage(skin = "purple",
                         tabItem(tabName = "benchmarks_tab",
                           htmltools::withTags(
                             div(
-                              class = 'container',
+                              class = 'container ',
                               h1('Benchmarks'),
-                              p(length(benchmarks))
+                              DT::dataTableOutput("benchmark_list")
                             )
                           )
                         )
@@ -69,9 +70,16 @@ ui <- dashboardPage(skin = "purple",
                     )
 )
 
-server <- function(input, output) {
+server <- function(input, output, session) {
   
-  
+  output$benchmark_list <- DT::renderDataTable(
+      data.frame(
+        Title = 'lala',
+        Description = 'lolo',
+        stringsAsFactors = TRUE
+      ),
+      
+  )
   
 } # server
 
