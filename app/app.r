@@ -6,42 +6,6 @@ library(htmltools)
 library(DT)
 xfun::session_info('DT')
 
-### read benchmark data
-  benchmark_filenames <- list.files('../benchmarks/benchmarks', pattern = '*.txt', full.names = TRUE)
-
-  benchmarks <- list()
-
-  for(i in 1:length(benchmark_filenames))
-  {
-    fileName <- benchmark_filenames[i]
-    conn <- file(fileName,open="r")
-    linn <-readLines(conn)
-    benchmark = c()
-    for (j in 1:length(linn)){
-      line <- strsplit(linn[j], ": ")
-      benchmark[[j]] = list(line[[1]][1], line[[1]][2])
-    }
-
-    benchmarks[[i]] <- benchmark
-    
-    close(conn)
-  }
-
-  benchmarks_names <- c()
-  benchmarks_descriptions <- c()
-  benchmarks_sizes <- c()
-  benchmarks_scenarios <- c()
-  benchmarks_descriptors <- c()
-
-  for(i in 1:length(benchmarks)){
-    benchmarks_names[i] = benchmarks[[i]][[1]][[2]]
-    benchmarks_descriptions[i] = benchmarks[[i]][[2]][[2]]
-    benchmarks_sizes[i] = benchmarks[[i]][[3]][[2]]
-    benchmarks_scenarios[i] = benchmarks[[i]][[4]][[2]]
-    benchmarks_descriptors[i] = benchmarks[[i]][[5]][[2]]
-  }
-
-
 ### creating custom theme object
   customTheme <- shinyDashboardThemeDIY(
 
@@ -227,6 +191,19 @@ xfun::session_info('DT')
               )
             )
           )
+        ),
+
+        tabItem(tabName = "scenarios_tab",
+          htmltools::withTags(
+            div(
+              class = 'center-block ',
+              h1('Scenarios'),
+              div(
+                class = 'table-responsive',
+                DT::dataTableOutput("scenarios_list")
+              )
+            )
+          )
         )
       )
     )
@@ -234,21 +211,120 @@ xfun::session_info('DT')
 
 ### server
   server <- function(input, output, session) {
+
+
+    ### read benchmark data
+      benchmark_filenames <- list.files('../benchmarks/benchmarks', pattern = '*.txt', full.names = TRUE)
+
+      benchmarks <- list()
+
+      for(i in 1:length(benchmark_filenames))
+      {
+        fileName <- benchmark_filenames[i]
+        conn <- file(fileName,open="r")
+        linn <-readLines(conn)
+        benchmark = c()
+        for (j in 1:length(linn)){
+          line <- strsplit(linn[j], ": ")
+          benchmark[[j]] = list(line[[1]][1], line[[1]][2])
+        }
+
+        benchmarks[[i]] <- benchmark
+        
+        close(conn)
+      }
+
+      benchmarks_names <- c()
+      benchmarks_descriptions <- c()
+      benchmarks_sizes <- c()
+      benchmarks_scenarios <- c()
+      benchmarks_descriptors <- c()
+
+      for(i in 1:length(benchmarks)){
+        benchmarks_names[i] = benchmarks[[i]][[1]][[2]]
+        benchmarks_descriptions[i] = benchmarks[[i]][[2]][[2]]
+        benchmarks_sizes[i] = benchmarks[[i]][[3]][[2]]
+        benchmarks_scenarios[i] = benchmarks[[i]][[4]][[2]]
+        benchmarks_descriptors[i] = benchmarks[[i]][[5]][[2]]
+      }
+
+    ### read scenario data
+      scenarios_filenames <- list.files('../benchmarks/instances/scenarios', pattern = '*.txt', full.names = TRUE)
+
+      scenarios <- list()
+
+      for(i in 1:length(scenarios_filenames))
+      {
+        fileName <- scenarios_filenames[i]
+        conn <- file(fileName,open="r")
+        linn <-readLines(conn)
+        scenario = c()
+        for (j in 1:length(linn)){
+          line <- strsplit(linn[j], ": ")
+          scenario[[j]] = list(line[[1]][1], line[[1]][2])
+        }
+
+        scenarios[[i]] <- scenario
+
+        
+        close(conn)
+      }
+
+      scenarios_names <- c()
+      scenarios_file <- c()
+      scenarios_target <- c()
+      scenarios_parameters <- c()
+      scenarios_instances <- c()
+      scenarios_descriptors <- c()
+
+      for(i in 1:length(scenarios)){
+        scenarios_names[i] = scenarios[[i]][[1]][[2]]
+        scenarios_file[i] = scenarios[[i]][[2]][[2]]
+        scenarios_target[i] = scenarios[[i]][[3]][[2]]
+        scenarios_parameters[i] = scenarios[[i]][[4]][[2]]
+        scenarios_instances[i] = scenarios[[i]][[5]][[2]]
+        scenarios_descriptors[i] = scenarios[[i]][[6]][[2]]
+      }
+
+
     
     print_buttons <- function(type, len){
-      sprintf('<button>hola</button>')
+      sprintf(paste('<button>', type,'</button>'))
     }
 
-    dt <- data.frame(
+    benchmark_dt <- data.frame(
       Name = benchmarks_names,
       Description = benchmarks_descriptions,
       Sizes = benchmarks_sizes,
       Scenarios = benchmarks_scenarios,
       Descriptors = benchmarks_descriptors,
-      Actions = print_buttons('details', length(benchmarks))
+      Actions = print_buttons('Details', length(benchmarks))
     )
 
-    output$benchmark_list <- DT::renderDataTable(dt,
+    scenario_dt <- data.frame(
+      Name = scenarios_names,
+      Descriptors = scenarios_descriptors,
+      Actions = print_buttons('Details', length(scenarios))
+    )
+
+    output$benchmark_list <- DT::renderDataTable(benchmark_dt,
+      style = 'bootstrap',
+      class = 'display table-bordered table-striped table-hover',
+      selection = 'none',
+      extensions = 'Buttons',
+      options = list(
+        autoWidth = FALSE,
+        dom = 'Bfrtip',
+        buttons = c('copy', 'csv', 'pdf'),
+        initComplete = JS(
+          "function(settings, json) {",
+          "$(this.api().table().header()).css({'background-color': '#444444', 'color': '#fff'});",
+          "}"
+        )
+      )
+    )
+
+    output$scenarios_list <- DT::renderDataTable(scenario_dt,
       style = 'bootstrap',
       class = 'display table-bordered table-striped table-hover',
       selection = 'none',
