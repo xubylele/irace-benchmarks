@@ -6,7 +6,7 @@ library(htmltools)
 library(DT)
 xfun::session_info('DT')
 
-#read benchmark data
+### read benchmark data
   benchmark_filenames <- list.files('../benchmarks/benchmarks', pattern = '*.txt', full.names = TRUE)
 
   benchmarks <- list()
@@ -170,11 +170,11 @@ xfun::session_info('DT')
 
   )
 
-#shiny options
+### shiny options
   options(shiny.port = 4200)
   options(shiny.autoreload = TRUE)
 
-#shiny ui
+### shiny ui
   ui <- dashboardPage(
     dashboardHeader(
       title = 'BENCHMARKS'
@@ -232,7 +232,7 @@ xfun::session_info('DT')
     )
   )
 
-#server
+### server
   server <- function(input, output, session) {
     
     print_buttons <- function(type, len){
@@ -268,5 +268,5 @@ xfun::session_info('DT')
   }
 
 
-# Create Shiny object
+### Create Shiny object
   shinyApp(ui = ui, server = server)
