@@ -234,12 +234,18 @@ xfun::session_info('DT')
 
 #server
   server <- function(input, output, session) {
+    
+    print_buttons <- function(type, len){
+      sprintf('<button>hola</button>')
+    }
+
     dt <- data.frame(
       Name = benchmarks_names,
       Description = benchmarks_descriptions,
       Sizes = benchmarks_sizes,
       Scenarios = benchmarks_scenarios,
-      descriptors = benchmarks_descriptors
+      Descriptors = benchmarks_descriptors,
+      Actions = print_buttons('details', length(benchmarks))
     )
 
     output$benchmark_list <- DT::renderDataTable(dt,
@@ -250,7 +256,12 @@ xfun::session_info('DT')
       options = list(
         autoWidth = FALSE,
         dom = 'Bfrtip',
-        buttons = c('copy', 'csv', 'pdf')
+        buttons = c('copy', 'csv', 'pdf'),
+        initComplete = JS(
+          "function(settings, json) {",
+          "$(this.api().table().header()).css({'background-color': '#444444', 'color': '#fff'});",
+          "}"
+        )
       )
     )
     
