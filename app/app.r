@@ -204,6 +204,19 @@ xfun::session_info('DT')
               )
             )
           )
+        ),
+
+        tabItem(tabName = "instances_tab",
+          htmltools::withTags(
+            div(
+              class = 'center-block',
+              h1('Instances'),
+              div(
+                class = 'table-responsive',
+                DT::dataTableOutput("instances_list")
+              )
+            )
+          )
         )
       )
     )
@@ -212,6 +225,22 @@ xfun::session_info('DT')
 ### server
   server <- function(input, output, session) {
 
+    ### function to read lines of txt files
+      readFileNames <- function(fileName){
+        
+        conn <- file(fileName,open="r")
+        linn <-readLines(conn)
+        object = c()
+
+        for (j in 1:length(linn)){
+          line <- strsplit(linn[j], ": ")
+          object[[j]] = list(line[[1]][1], line[[1]][2])
+        }
+
+        
+        close(conn)
+        return(object)
+      }      
 
     ### read benchmark data
       benchmark_filenames <- list.files('../benchmarks/benchmarks', pattern = '*.txt', full.names = TRUE)
@@ -221,17 +250,7 @@ xfun::session_info('DT')
       for(i in 1:length(benchmark_filenames))
       {
         fileName <- benchmark_filenames[i]
-        conn <- file(fileName,open="r")
-        linn <-readLines(conn)
-        benchmark = c()
-        for (j in 1:length(linn)){
-          line <- strsplit(linn[j], ": ")
-          benchmark[[j]] = list(line[[1]][1], line[[1]][2])
-        }
-
-        benchmarks[[i]] <- benchmark
-        
-        close(conn)
+        benchmarks[[i]] <- readFileNames(fileName)
       }
 
       benchmarks_names <- c()
@@ -256,18 +275,9 @@ xfun::session_info('DT')
       for(i in 1:length(scenarios_filenames))
       {
         fileName <- scenarios_filenames[i]
-        conn <- file(fileName,open="r")
-        linn <-readLines(conn)
-        scenario = c()
-        for (j in 1:length(linn)){
-          line <- strsplit(linn[j], ": ")
-          scenario[[j]] = list(line[[1]][1], line[[1]][2])
-        }
-
-        scenarios[[i]] <- scenario
-
         
-        close(conn)
+
+        scenarios[[i]] <- readFileNames(fileName)
       }
 
       scenarios_names <- c()
@@ -286,62 +296,93 @@ xfun::session_info('DT')
         scenarios_descriptors[i] = scenarios[[i]][[6]][[2]]
       }
 
+    ### read instances data
+      instances_foldernames <- list.files('../benchmarks/instances', pattern = '', full.names = TRUE)
 
-    
-    print_buttons <- function(type, len){
-      sprintf(paste('<button>', type,'</button>'))
-    }
+      instances <- list()
 
-    benchmark_dt <- data.frame(
-      Name = benchmarks_names,
-      Description = benchmarks_descriptions,
-      Sizes = benchmarks_sizes,
-      Scenarios = benchmarks_scenarios,
-      Descriptors = benchmarks_descriptors,
-      Actions = print_buttons('Details', length(benchmarks))
-    )
+      for(i in 1:length(instances_foldernames))
+      {
+        folderName <- instances_foldernames[i]
+        instances_fileNames <- list.files(folderName, pattern = '*.txt', full.names = TRUE)
+        
+        if(length(instances_fileNames) == 0){
+          
+        }
+        else{
+          for(j in 1:length(instances_fileNames)){
+            fileName <- instances_fileNames[j]
+            instances[[j]] <- readFileNames(fileName)
+          }
+        }
 
-    scenario_dt <- data.frame(
-      Name = scenarios_names,
-      Descriptors = scenarios_descriptors,
-      Actions = print_buttons('Details', length(scenarios))
-    )
+        
+      }
 
-    output$benchmark_list <- DT::renderDataTable(benchmark_dt,
-      style = 'bootstrap',
-      class = 'display table-bordered table-striped table-hover',
-      selection = 'none',
-      extensions = 'Buttons',
-      options = list(
-        autoWidth = FALSE,
-        dom = 'Bfrtip',
-        buttons = c('copy', 'csv', 'pdf'),
-        initComplete = JS(
-          "function(settings, json) {",
-          "$(this.api().table().header()).css({'background-color': '#444444', 'color': '#fff'});",
-          "}"
+      print(instances)
+
+
+    #print buttons functions
+      print_buttons <- function(type, len){
+        sprintf(paste('<button>', type,'</button>'))
+      }
+
+    #benchmark dataframe
+      benchmark_dt <- data.frame(
+        Name = benchmarks_names,
+        Description = benchmarks_descriptions,
+        Sizes = benchmarks_sizes,
+        Scenarios = benchmarks_scenarios,
+        Descriptors = benchmarks_descriptors,
+        Actions = print_buttons('Details', length(benchmarks))
+      )
+
+    #scenario dataframe
+      scenario_dt <- data.frame(
+        Name = scenarios_names,
+        Descriptors = scenarios_descriptors,
+        Actions = print_buttons('Details', length(scenarios))
+      )
+
+    #output table benchmark
+      output$benchmark_list <- DT::renderDataTable(benchmark_dt,
+        style = 'bootstrap',
+        class = 'display table-bordered table-striped table-hover',
+        selection = 'none',
+        extensions = 'Buttons',
+        options = list(
+          autoWidth = FALSE,
+          dom = 'Bfrtip',
+          buttons = c('copy', 'csv', 'pdf'),
+          initComplete = JS(
+            "function(settings, json) {",
+            "$(this.api().table().header()).css({'background-color': '#444444', 'color': '#fff'});",
+            "}"
+          )
         )
       )
-    )
 
-    output$scenarios_list <- DT::renderDataTable(scenario_dt,
-      style = 'bootstrap',
-      class = 'display table-bordered table-striped table-hover',
-      selection = 'none',
-      extensions = 'Buttons',
-      options = list(
-        autoWidth = FALSE,
-        dom = 'Bfrtip',
-        buttons = c('copy', 'csv', 'pdf'),
-        initComplete = JS(
-          "function(settings, json) {",
-          "$(this.api().table().header()).css({'background-color': '#444444', 'color': '#fff'});",
-          "}"
+    #output table scenarios
+      output$scenarios_list <- DT::renderDataTable(scenario_dt,
+        style = 'bootstrap',
+        class = 'display table-bordered table-striped table-hover',
+        selection = 'none',
+        extensions = 'Buttons',
+        options = list(
+          autoWidth = FALSE,
+          dom = 'Bfrtip',
+          buttons = c('copy', 'csv', 'pdf'),
+          initComplete = JS(
+            "function(settings, json) {",
+            "$(this.api().table().header()).css({'background-color': '#444444', 'color': '#fff'});",
+            "}"
+          )
         )
       )
-    )
     
   }
+
+  
 
 
 ### Create Shiny object
