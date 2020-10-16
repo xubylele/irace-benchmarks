@@ -226,7 +226,7 @@ xfun::session_info('DT')
   server <- function(input, output, session) {
 
     ### function to read lines of txt files
-      readFileNames <- function(fileName){
+      readFileLines <- function(fileName){
         
         conn <- file(fileName,open="r")
         linn <-readLines(conn)
@@ -235,6 +235,22 @@ xfun::session_info('DT')
         for (j in 1:length(linn)){
           line <- strsplit(linn[j], ": ")
           object[[j]] = list(line[[1]][1], line[[1]][2])
+        }
+
+        
+        close(conn)
+        return(object)
+      }
+
+      readFileLinesInstances <- function(fileName){
+        
+        conn <- file(fileName,open="r")
+        linn <-readLines(conn)
+        object = c()
+
+        for (j in 1:length(linn)){
+          line <- strsplit(linn[j], ": ")
+          object[[j]] = list(line[[1]][1], fileName)
         }
 
         
@@ -250,7 +266,7 @@ xfun::session_info('DT')
       for(i in 1:length(benchmark_filenames))
       {
         fileName <- benchmark_filenames[i]
-        benchmarks[[i]] <- readFileNames(fileName)
+        benchmarks[[i]] <- readFileLines(fileName)
       }
 
       benchmarks_names <- c()
@@ -277,7 +293,7 @@ xfun::session_info('DT')
         fileName <- scenarios_filenames[i]
         
 
-        scenarios[[i]] <- readFileNames(fileName)
+        scenarios[[i]] <- readFileLines(fileName)
       }
 
       scenarios_names <- c()
@@ -305,21 +321,36 @@ xfun::session_info('DT')
       {
         folderName <- instances_foldernames[i]
         instances_fileNames <- list.files(folderName, pattern = '*.txt', full.names = TRUE)
-        
         if(length(instances_fileNames) == 0){
           
         }
         else{
           for(j in 1:length(instances_fileNames)){
             fileName <- instances_fileNames[j]
-            instances[[j]] <- readFileNames(fileName)
+            if(!grepl("scenarios", fileName)){
+              instances[[i]] <- readFileLinesInstances(fileName)
+            }
           }
         }
 
         
       }
+      print(instances[[2]][[1]][[1]])
 
-      print(instances)
+      instances_file <- c()
+      instances_filenames <- c()
+
+      for(i in 1:length(instances)){
+        if(length(instances[[i]]) != 0){
+          print(length(instances[[i]]))
+          for(j in 1:length(instances[[i]])){
+            instances_file[j] = instances[[i]][[j]][[1]]
+            instances_filenames[j] = instances[[i]][[j]][[2]]
+          }
+        }
+      }
+
+      print(instances_filenames)
 
 
     #print buttons functions
@@ -342,6 +373,13 @@ xfun::session_info('DT')
         Name = scenarios_names,
         Descriptors = scenarios_descriptors,
         Actions = print_buttons('Details', length(scenarios))
+      )
+
+    #scenario dataframe
+      instances_dt <- data.frame(
+        File = instances_file,
+        File_Name = instances_filenames,
+        Actions = print_buttons('Details', length(instances_filenames))
       )
 
     #output table benchmark
@@ -379,6 +417,24 @@ xfun::session_info('DT')
           )
         )
       )
+
+      #output table instances
+        output$instances_list <- DT::renderDataTable(instances_dt,
+          style = 'bootstrap',
+          class = 'display table-bordered table-striped table-hover',
+          selection = 'none',
+          extensions = 'Buttons',
+          options = list(
+            autoWidth = FALSE,
+            dom = 'Bfrtip',
+            buttons = c('copy', 'csv', 'pdf'),
+            initComplete = JS(
+              "function(settings, json) {",
+              "$(this.api().table().header()).css({'background-color': '#444444', 'color': '#fff'});",
+              "}"
+            )
+          )
+        )
     
   }
 
