@@ -1,6 +1,7 @@
 library(shiny)
 library(shinydashboard)
 library(dashboardthemes)
+library(shinyBS)
 library(shinyjs)
 library(htmltools)
 library(DT)
@@ -140,6 +141,7 @@ xfun::session_info('DT')
 
 ### shiny ui
   ui <- dashboardPage(
+    
     dashboardHeader(
       title = 'BENCHMARKS'
     ),
@@ -177,8 +179,6 @@ xfun::session_info('DT')
             )
           )
         ),
-        
-        
         
         tabItem(tabName = "benchmarks_tab",
           htmltools::withTags(
@@ -258,6 +258,14 @@ xfun::session_info('DT')
         return(object)
       }      
 
+      shinyInput <- function(FUN, len, id, strings_id,...) {
+        inputs <- character(len)
+        for (i in seq_len(len)) {
+          inputs[i] <- as.character(FUN(paste0(id, strings_id[[i]]), ...))
+        }
+        inputs
+      }
+
     ### read benchmark data
       benchmark_filenames <- list.files('../benchmarks/benchmarks', pattern = '*.txt', full.names = TRUE)
 
@@ -322,7 +330,23 @@ xfun::session_info('DT')
         folderName <- instances_foldernames[i]
         instances_fileNames <- list.files(folderName, pattern = '*.txt', full.names = TRUE)
         if(length(instances_fileNames) == 0){
-          
+          sub_foldernames <- list.files(folderName, pattern = '', full.names = TRUE)
+          for(j in 1:length(sub_foldernames)){
+            instances_fileNames <- list.files(sub_foldernames[j], pattern = '*.txt', full.names = TRUE)
+            print("for j")
+            print(instances_fileNames)
+            for(k in 1:length(instances_fileNames))
+            {
+              print("for k")
+              fileName <- instances_fileNames[j]
+              print(fileName)
+              
+              if(!grepl("readme", fileName)){
+                #print(fileName)
+                #instances[[i]] <- readFileLinesInstances(fileName)
+              }
+            }
+          }
         }
         else{
           for(j in 1:length(instances_fileNames)){
@@ -335,22 +359,18 @@ xfun::session_info('DT')
 
         
       }
-      print(instances[[2]][[1]][[1]])
 
       instances_file <- c()
       instances_filenames <- c()
 
       for(i in 1:length(instances)){
         if(length(instances[[i]]) != 0){
-          print(length(instances[[i]]))
           for(j in 1:length(instances[[i]])){
             instances_file[j] = instances[[i]][[j]][[1]]
             instances_filenames[j] = instances[[i]][[j]][[2]]
           }
         }
       }
-
-      print(instances_filenames)
 
 
     #print buttons functions
@@ -365,27 +385,33 @@ xfun::session_info('DT')
         Sizes = benchmarks_sizes,
         Scenarios = benchmarks_scenarios,
         Descriptors = benchmarks_descriptors,
-        Actions = print_buttons('Details', length(benchmarks))
+        Options = shinyInput(actionButton, length(benchmarks_descriptors), 'button_', benchmarks_names,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' ),
+        stringsAsFactors = FALSE
       )
 
     #scenario dataframe
       scenario_dt <- data.frame(
         Name = scenarios_names,
         Descriptors = scenarios_descriptors,
-        Actions = print_buttons('Details', length(scenarios))
+        Options = shinyInput(actionButton, length(scenarios_names), 'button_', scenarios_names,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
       )
 
-    #scenario dataframe
+    #isntances dataframe
       instances_dt <- data.frame(
         File = instances_file,
         File_Name = instances_filenames,
-        Actions = print_buttons('Details', length(instances_filenames))
+        Options = shinyInput(actionButton, length(instances_file), 'button_', instances_file,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
       )
+
+    
+    
 
     #output table benchmark
       output$benchmark_list <- DT::renderDataTable(benchmark_dt,
         style = 'bootstrap',
         class = 'display table-bordered table-striped table-hover',
+        server = FALSE, 
+        escape = FALSE, 
         selection = 'none',
         extensions = 'Buttons',
         options = list(
@@ -404,6 +430,8 @@ xfun::session_info('DT')
       output$scenarios_list <- DT::renderDataTable(scenario_dt,
         style = 'bootstrap',
         class = 'display table-bordered table-striped table-hover',
+        server = FALSE, 
+        escape = FALSE, 
         selection = 'none',
         extensions = 'Buttons',
         options = list(
@@ -422,6 +450,8 @@ xfun::session_info('DT')
         output$instances_list <- DT::renderDataTable(instances_dt,
           style = 'bootstrap',
           class = 'display table-bordered table-striped table-hover',
+          server = FALSE, 
+          escape = FALSE, 
           selection = 'none',
           extensions = 'Buttons',
           options = list(
@@ -435,6 +465,16 @@ xfun::session_info('DT')
             )
           )
         )
+
+        observeEvent(input$select_button, {
+          showModal(modalDialog(
+            title = "DETAILS",
+            paste("This gonna be a details page for ", input$select_button),
+            easyClose = TRUE
+          ))
+        })   
+
+       
     
   }
 
