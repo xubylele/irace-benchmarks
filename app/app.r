@@ -333,17 +333,13 @@ xfun::session_info('DT')
           sub_foldernames <- list.files(folderName, pattern = '', full.names = TRUE)
           for(j in 1:length(sub_foldernames)){
             instances_fileNames <- list.files(sub_foldernames[j], pattern = '*.txt', full.names = TRUE)
-            print("for j")
-            print(instances_fileNames)
             for(k in 1:length(instances_fileNames))
             {
-              print("for k")
               fileName <- instances_fileNames[j]
-              print(fileName)
-              
-              if(!grepl("readme", fileName)){
-                #print(fileName)
-                #instances[[i]] <- readFileLinesInstances(fileName)
+              if(!is.na(fileName) && !length(fileName) == 0){
+                if(!grepl("readme", fileName)){
+                  instances[[i]] <- readFileLinesInstances(fileName)
+                }
               }
             }
           }
