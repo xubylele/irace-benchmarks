@@ -139,6 +139,72 @@ xfun::session_info('DT')
   options(shiny.port = 4200)
   options(shiny.autoreload = TRUE)
 
+
+
+#about tab
+        
+  about_tab <- tabItem(tabName = "about_tab",
+    htmltools::withTags(
+      div(
+        class = 'conteiner',
+        div(
+          class = 'card',
+          div(
+            class = 'card-body',
+            h3(class = 'card-title', 'Repository'),
+            'IRACE benchmarks repository:',
+            a("GitHub Benchmarks", href = 'https://github.com/xubylele/irace-benchmarks')
+          )
+        )
+      )
+    )
+  )
+
+#benchmarks tab
+  benchmarks_tab <- tabItem(tabName = "benchmarks_tab",
+    htmltools::withTags(
+      div(
+        class = 'center-block ',
+        h1('Benchmarks'),
+        div(
+          class = 'table-responsive',
+          DT::dataTableOutput("benchmark_list")
+        )
+      )
+    )
+  )
+
+#scenarios tab
+  scenarios_tab <- tabItem(tabName = "scenarios_tab",
+    htmltools::withTags(
+      div(
+        class = 'center-block ',
+        h1('Scenarios'),
+        div(
+          class = 'table-responsive',
+          DT::dataTableOutput("scenarios_list")
+        )
+      )
+    )
+  )
+
+#instances tab
+  instances_tab <- tabItem(tabName = "instances_tab",
+    htmltools::withTags(
+      div(
+        class = 'center-block',
+        h1('Instances'),
+        div(
+          class = 'table-responsive',
+          DT::dataTableOutput("instances_list")
+        )
+      )
+    )
+  )
+
+
+  
+
 ### shiny ui
   ui <- dashboardPage(
     
@@ -160,112 +226,63 @@ xfun::session_info('DT')
       customTheme,
 
       tabItems(
-        
-        #about tab
-        
-        tabItem(tabName = "about_tab",
-          htmltools::withTags(
-            div(
-              class = 'conteiner',
-              div(
-                class = 'card',
-                div(
-                  class = 'card-body',
-                  h3(class = 'card-title', 'Repository'),
-                  'IRACE benchmarks repository:',
-                  a("GitHub Benchmarks", href = 'https://github.com/xubylele/irace-benchmarks')
-                )
-              )
-            )
-          )
-        ),
-        
-        tabItem(tabName = "benchmarks_tab",
-          htmltools::withTags(
-            div(
-              class = 'center-block ',
-              h1('Benchmarks'),
-              div(
-                class = 'table-responsive',
-                DT::dataTableOutput("benchmark_list")
-              )
-            )
-          )
-        ),
-
-        tabItem(tabName = "scenarios_tab",
-          htmltools::withTags(
-            div(
-              class = 'center-block ',
-              h1('Scenarios'),
-              div(
-                class = 'table-responsive',
-                DT::dataTableOutput("scenarios_list")
-              )
-            )
-          )
-        ),
-
-        tabItem(tabName = "instances_tab",
-          htmltools::withTags(
-            div(
-              class = 'center-block',
-              h1('Instances'),
-              div(
-                class = 'table-responsive',
-                DT::dataTableOutput("instances_list")
-              )
-            )
-          )
-        )
+        about_tab,
+        benchmarks_tab,
+        scenarios_tab,
+        instances_tab
       )
     )
   )
 
+### function to read lines of txt files
+  readFileLines <- function(fileName){
+    
+    conn <- file(fileName,open="r")
+    linn <-readLines(conn)
+    object = c()
+
+    for (j in 1:length(linn)){
+      line <- strsplit(linn[j], ": ")
+      object[[j]] = list(line[[1]][1], line[[1]][2])
+    }
+
+    
+    close(conn)
+    return(object)
+  }
+
+  readFileLinesInstances <- function(fileName){
+        
+    conn <- file(fileName,open="r")
+    linn <-readLines(conn)
+    object = c()
+
+    for (j in 1:length(linn)){
+      line <- strsplit(linn[j], ": ")
+      object[[j]] = list(line[[1]][1], fileName)
+    }
+
+    
+    close(conn)
+    return(object)
+  }
+
+## shiny inputs, to add action buttons to datatables
+  shinyInput <- function(FUN, len, id, strings_id,...) {
+    inputs <- character(len)
+    for (i in seq_len(len)) {
+      inputs[i] <- as.character(FUN(paste0(id, strings_id[[i]]), ...))
+    }
+    inputs
+  }
+
+#print buttons functions
+  print_buttons <- function(type, len){
+    sprintf(paste('<button>', type,'</button>'))
+  }
+  
 ### server
   server <- function(input, output, session) {
-
-    ### function to read lines of txt files
-      readFileLines <- function(fileName){
-        
-        conn <- file(fileName,open="r")
-        linn <-readLines(conn)
-        object = c()
-
-        for (j in 1:length(linn)){
-          line <- strsplit(linn[j], ": ")
-          object[[j]] = list(line[[1]][1], line[[1]][2])
-        }
-
-        
-        close(conn)
-        return(object)
-      }
-
-      readFileLinesInstances <- function(fileName){
-        
-        conn <- file(fileName,open="r")
-        linn <-readLines(conn)
-        object = c()
-
-        for (j in 1:length(linn)){
-          line <- strsplit(linn[j], ": ")
-          object[[j]] = list(line[[1]][1], fileName)
-        }
-
-        
-        close(conn)
-        return(object)
-      }      
-
-      shinyInput <- function(FUN, len, id, strings_id,...) {
-        inputs <- character(len)
-        for (i in seq_len(len)) {
-          inputs[i] <- as.character(FUN(paste0(id, strings_id[[i]]), ...))
-        }
-        inputs
-      }
-
     ### read benchmark data
       benchmark_filenames <- list.files('../benchmarks/benchmarks', pattern = '*.txt', full.names = TRUE)
 
@@ -396,16 +413,6 @@ xfun::session_info('DT')
 
       print(parameters)
 
-      
-
-      
-
-
-    #print buttons functions
-      print_buttons <- function(type, len){
-        sprintf(paste('<button>', type,'</button>'))
-      }
-
     #benchmark dataframe
       benchmark_dt <- data.frame(
         Name = benchmarks_names,
@@ -474,37 +481,26 @@ xfun::session_info('DT')
         )
       )
 
-      #output table instances
-        output$instances_list <- DT::renderDataTable(instances_dt,
-          style = 'bootstrap',
-          class = 'display table-bordered table-striped table-hover',
-          server = FALSE, 
-          escape = FALSE, 
-          selection = 'none',
-          extensions = 'Buttons',
-          options = list(
-            autoWidth = FALSE,
-            dom = 'Bfrtip',
-            buttons = c('copy', 'csv', 'pdf'),
-            initComplete = JS(
-              "function(settings, json) {",
-              "$(this.api().table().header()).css({'background-color': '#444444', 'color': '#fff'});",
-              "}"
-            )
+    #output table instances
+      output$instances_list <- DT::renderDataTable(instances_dt,
+        style = 'bootstrap',
+        class = 'display table-bordered table-striped table-hover',
+        server = FALSE, 
+        escape = FALSE, 
+        selection = 'none',
+        extensions = 'Buttons',
+        options = list(
+          autoWidth = FALSE,
+          dom = 'Bfrtip',
+          buttons = c('copy', 'csv', 'pdf'),
+          initComplete = JS(
+            "function(settings, json) {",
+            "$(this.api().table().header()).css({'background-color': '#444444', 'color': '#fff'});",
+            "}"
           )
         )
-
-        observeEvent(input$select_button, {
-          showModal(modalDialog(
-            title = "DETAILS",
-            paste("This gonna be a details page for ", input$select_button),
-            easyClose = TRUE
-          ))
-        })   
-
-       
-    
-  }
+      )
+}
 
   
 
