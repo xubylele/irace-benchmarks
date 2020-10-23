@@ -1,13 +1,14 @@
-library(shiny)
-library(shinydashboard)
-library(dashboardthemes)
-library(shinyBS)
-library(shinyjs)
-library(htmltools)
-library(DT)
-xfun::session_info('DT')
+## module used
+  library(shiny)
+  library(shinydashboard)
+  library(dashboardthemes)
+  library(shinyBS)
+  library(shinyjs)
+  library(htmltools)
+  library(DT)
+  xfun::session_info('DT')
 
-### creating custom theme object
+## creating custom theme object
   customTheme <- shinyDashboardThemeDIY(
 
     ### general
@@ -135,13 +136,13 @@ xfun::session_info('DT')
 
   )
 
-### shiny options
+## shiny options
   options(shiny.port = 4200)
   options(shiny.autoreload = TRUE)
 
 
 
-#about tab
+## about tab
         
   about_tab <- tabItem(tabName = "about_tab",
     htmltools::withTags(
@@ -160,7 +161,7 @@ xfun::session_info('DT')
     )
   )
 
-#benchmarks tab
+## benchmarks tab
   benchmarks_tab <- tabItem(tabName = "benchmarks_tab",
     htmltools::withTags(
       div(
@@ -174,7 +175,7 @@ xfun::session_info('DT')
     )
   )
 
-#scenarios tab
+## scenarios tab
   scenarios_tab <- tabItem(tabName = "scenarios_tab",
     htmltools::withTags(
       div(
@@ -188,7 +189,7 @@ xfun::session_info('DT')
     )
   )
 
-#instances tab
+## instances tab
   instances_tab <- tabItem(tabName = "instances_tab",
     htmltools::withTags(
       div(
@@ -205,7 +206,7 @@ xfun::session_info('DT')
 
   
 
-### shiny ui
+## shiny ui
   ui <- dashboardPage(
     
     dashboardHeader(
@@ -234,7 +235,7 @@ xfun::session_info('DT')
     )
   )
 
-### function to read lines of txt files
+## function to read lines of txt files
   readFileLines <- function(fileName){
     
     conn <- file(fileName,open="r")
@@ -276,12 +277,12 @@ xfun::session_info('DT')
     inputs
   }
 
-#print buttons functions
+## print buttons functions
   print_buttons <- function(type, len){
     sprintf(paste('<button>', type,'</button>'))
   }
-  
-### server
+
+## server
   server <- function(input, output, session) {
     ### read benchmark data
       benchmark_filenames <- list.files('../benchmarks/benchmarks', pattern = '*.txt', full.names = TRUE)
