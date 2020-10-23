@@ -368,6 +368,38 @@ xfun::session_info('DT')
         }
       }
 
+    ### read parameters data
+      parameters_foldernames <- list.files('../benchmarks/target', pattern = '', full.names = TRUE)
+
+      parameters <- list()
+
+      for(i in 1:length(parameters_foldernames))
+      {
+        folderName <- parameters_foldernames[i]
+        scenarios_foldernames <- list.files(folderName, pattern = '', full.names = TRUE)
+        for(j in 1:length(scenarios_foldernames)){
+          scenarios_filenames <- list.files(scenarios_foldernames[j], pattern = '*.txt', full.names = TRUE)
+          parameter_per_folder = list()
+          for(k in 1:length(scenarios_filenames)){
+            fileName <- scenarios_filenames[k]
+            if(!is.na(fileName) && !length(fileName) == 0){
+              if(grepl("parameters", fileName)){
+                parameter_per_folder[k] = fileName
+              }
+            }
+          }
+          if(length(parameter_per_folder) > 0){
+            print(parameter_per_folder)
+          }
+        }
+      }
+
+      print(parameters)
+
+      
+
+      
+
 
     #print buttons functions
       print_buttons <- function(type, len){
