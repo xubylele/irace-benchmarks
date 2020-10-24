@@ -501,10 +501,17 @@
           )
         )
       )
+
+    ## event handlers
+      ## select button
+        observeEvent(input$select_button, {
+          showModal(modalDialog(
+            title = "DETAILS",
+            paste("This gonna be a details page for ", input$select_button),
+            easyClose = TRUE
+          ))
+        }) 
 }
-
-  
-
 
 ### Create Shiny object
   shinyApp(ui = ui, server = server)
