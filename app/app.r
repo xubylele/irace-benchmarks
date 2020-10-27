@@ -291,6 +291,47 @@
 
 ## dashboard server function
   dashboard_server <- function(input, output, session) {
+    
+  }
+
+## router
+  router <- make_router(
+    route("about", about_tab),
+    route("benchmarks", benchmarks_tab),
+    route("scenarios", scenarios_tab),
+    route("instances", instances_tab)
+  )
+
+## shiny ui
+  ui <- shinyUI(
+    dashboardPage(
+    
+    dashboardHeader(
+      title = 'BENCHMARKS'
+    ),
+    dashboardSidebar(
+      sidebarMenu(
+        menuItem("About", icon = icon("info"), href = route_link('about'), newtab = FALSE),
+        menuItem("Benchmarks", icon = icon("tachometer"), href = route_link('benchmarks'), newtab = FALSE),
+        menuItem("Scenarios", icon = icon("folder"), href = route_link('scenarios'), newtab = FALSE),
+        menuItem("Instances", icon = icon("cubes"), href = route_link('instances'), newtab = FALSE),
+        menuItem("Parameters", icon = icon("wrench"), href = route_link('parameters'), newtab = FALSE),
+        menuItem("Targets", icon = icon("terminal"), href = route_link('targets'), newtab = FALSE)
+      )
+    ),
+    dashboardBody(
+
+      customTheme,
+
+      router_ui()
+    )
+  )
+  )
+
+## server 
+  server <- shinyServer(function(input, output, session) {
+    router(input, output, session)
+
     ### read benchmark data
       benchmark_filenames <- list.files('../benchmarks/benchmarks', pattern = '*.txt', full.names = TRUE)
 
@@ -514,21 +555,6 @@
           easyClose = TRUE
         ))
       })
-  }
-
-## router
-  router <- make_router(
-    route("/", dashboard_ui, dashboard_server)
-  )
-
-## shiny ui
-  ui <- shinyUI(
-    router_ui()
-  )
-
-## server 
-  server <- shinyServer(function(input, output, session) {
-    router(input, output, session)
   })
 
 ### Create Shiny object
