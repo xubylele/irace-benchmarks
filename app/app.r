@@ -210,38 +210,6 @@
     p('benchmarks'),
     uiOutput("power_of_input")
   )
-
-
-
-## dashboard ui
-  dashboard_ui <- dashboardPage(
-    
-    dashboardHeader(
-      title = 'BENCHMARKS'
-    ),
-    dashboardSidebar(
-      sidebarMenu(
-        menuItem("About", tabName = "about_tab", icon = icon("info")),
-        menuItem("Benchmarks", tabName = "benchmarks_tab", icon = icon("tachometer")),
-        menuItem("Scenarios", tabName = "scenarios_tab", icon = icon("folder")),
-        menuItem("Instances", tabName = "instances_tab", icon = icon("cubes")),
-        menuItem("Parameters", tabName = "parameters_tab", icon = icon("wrench")),
-        menuItem("Targets", tabName = "targets_tab", icon = icon("terminal"))
-      )
-    ),
-    dashboardBody(
-
-      customTheme,
-
-      tabItems(
-        about_tab,
-        benchmarks_tab,
-        scenarios_tab,
-        instances_tab
-      )
-    )
-  )
-
 ## function to read lines of txt files
   readFileLines <- function(fileName){
     
@@ -259,6 +227,7 @@
     return(object)
   }
 
+## function to read lines isntances files
   readFileLinesInstances <- function(fileName){
         
     conn <- file(fileName,open="r")
@@ -288,12 +257,6 @@
   print_buttons <- function(type, len){
     sprintf(paste('<button>', type,'</button>'))
   }
-
-## dashboard server function
-  dashboard_server <- function(input, output, session) {
-    
-  }
-
 ## router
   router <- make_router(
     route("about", about_tab),
