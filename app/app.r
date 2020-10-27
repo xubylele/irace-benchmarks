@@ -1,5 +1,6 @@
 ## module used
   library(shiny)
+  library(shiny.router)
   library(shinydashboard)
   library(dashboardthemes)
   library(shinyBS)
@@ -130,9 +131,9 @@
 
     ### tables
     ,tableBackColor = "rgb(255, 255, 255)"
-    ,tableBorderColor = "rgb(0,0,0)"
-    ,tableBorderTopSize = 1
-    ,tableBorderRowSize = 1
+    ,tableBorderColor = "rgb(240, 240, 240)"
+    ,tableBorderTopSize = 2
+    ,tableBorderRowSize = 2
 
   )
 
@@ -203,11 +204,17 @@
     )
   )
 
+## benchmarks details
+  benchmarks_details <- div(
+    titlePanel('Hi'),
+    p('benchmarks'),
+    uiOutput("power_of_input")
+  )
 
-  
 
-## shiny ui
-  ui <- dashboardPage(
+
+## dashboard ui
+  dashboard_ui <- dashboardPage(
     
     dashboardHeader(
       title = 'BENCHMARKS'
@@ -282,8 +289,8 @@
     sprintf(paste('<button>', type,'</button>'))
   }
 
-## server
-  server <- function(input, output, session) {
+## dashboard server function
+  dashboard_server <- function(input, output, session) {
     ### read benchmark data
       benchmark_filenames <- list.files('../benchmarks/benchmarks', pattern = '*.txt', full.names = TRUE)
 
@@ -407,12 +414,9 @@
             }
           }
           if(length(parameter_per_folder) > 0){
-            print(parameter_per_folder)
           }
         }
       }
-
-      print(parameters)
 
     #benchmark dataframe
       benchmark_dt <- data.frame(
@@ -512,5 +516,20 @@
       })
   }
 
+## router
+  router <- make_router(
+    route("/", dashboard_ui, dashboard_server)
+  )
+
+## shiny ui
+  ui <- shinyUI(
+    router_ui()
+  )
+
+## server 
+  server <- shinyServer(function(input, output, session) {
+    router(input, output, session)
+  })
+
 ### Create Shiny object
-  shinyApp(ui = ui, server = server)
+  shinyApp(ui, server)
