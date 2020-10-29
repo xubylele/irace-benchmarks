@@ -6,7 +6,7 @@
 ### Installation
 First, run the installer.r file:
 ```sh
-Rscript installer.r
+sudo Rscript installer.r
 ```
 
 Second, reach app directory inside:
