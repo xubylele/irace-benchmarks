@@ -303,7 +303,9 @@
       for(i in 1:length(benchmark_filenames))
       {
         fileName <- benchmark_filenames[i]
-        benchmarks[[i]] <- readFileLines(fileName)
+        if(!is.na(fileName) && !length(fileName) == 0){
+          benchmarks[[i]] <- readFileLines(fileName)
+        }
       }
 
       benchmarks_names <- c()
