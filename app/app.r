@@ -206,9 +206,12 @@
 
 ## benchmarks details
   benchmarks_details <- div(
-    titlePanel('Hi'),
-    p('benchmarks'),
-    uiOutput("power_of_input")
+    h1('Benchmarks'),
+    uiOutput('benchmarks_details'),
+    div(
+      class = 'table-responsive',
+      DT::dataTableOutput("benchmarks_details_scenarios_list")
+    )
   )
 ## function to read lines of txt files
   readFileLines <- function(fileName){
@@ -515,8 +518,10 @@
     ## evenet handle
       observeEvent(input$select_button, {
         if (is_page("benchmarks")) {
+          
           change_page("benchmarks_details")
-          print(strsplit(input$select_button, "_")[[1]][2])
+          loadBenchmarkDetails(strsplit(input$select_button, "_")[[1]][2])
+
         } else {
           showModal(modalDialog(
             title = "DETAILS",
@@ -525,6 +530,39 @@
           ))
         }
       })
+
+    ## search benchmark function
+      searchBenchmark <- function(benchmark_name){
+        for(i in 1:length(benchmarks_names)){
+          if(benchmarks_names[i] == benchmark_name){
+            benchmark <- c(benchmarks_names[i], benchmarks_descriptions[i], benchmarks_sizes[i], benchmarks_scenarios[i], benchmarks_descriptors[i])
+            return(benchmark)
+          }
+        }
+      }
+
+    ## load benchmarks details function
+      loadBenchmarkDetails <- function(benchmark_name){
+        benchmark <- searchBenchmark(benchmark_name)
+        benchmark_descriptors <- strsplit(benchmark[5], ", ")[[1]]
+        output$benchmarks_details <- renderUI({
+          div(
+            h3(paste('Name: ', benchmark[1])),
+            h4(paste('Description: ', benchmark[2])),
+            h4(paste('Size: ', benchmark[3])),
+            div(class = 'row',
+              div(class = 'col-xs-6 col-sm-3',
+                h4('Descriptors: ')
+              ),
+              div(class = 'col-xs-6 col-sm-3',
+                lapply(1:length(benchmark_descriptors), function(i) {
+                  p(paste0(benchmark_descriptors[i]))
+                })
+              )
+            )
+          )
+        })
+      }
   })
 
 ### Create Shiny object
