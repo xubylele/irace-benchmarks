@@ -323,7 +323,7 @@
       }
 
     ### read scenario data
-      scenarios_filenames <- list.files('../benchmarks/instances/scenarios', pattern = '*.txt', full.names = TRUE)
+      scenarios_filenames <- list.files('../benchmarks/scenarios', pattern = '*.txt', full.names = TRUE)
 
       scenarios <- list()
 
