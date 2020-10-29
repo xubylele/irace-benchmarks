@@ -208,6 +208,7 @@
   benchmarks_details <- div(
     h1('Benchmarks'),
     uiOutput('benchmarks_details'),
+    h2('Scenarios:'),
     div(
       class = 'table-responsive',
       DT::dataTableOutput("benchmarks_details_scenarios_list")
@@ -465,6 +466,7 @@
         extensions = 'Buttons',
         options = list(
           autoWidth = FALSE,
+          columnDefs = list(list(className = 'dt-center', targets = 0:6)),
           dom = 'Bfrtip',
           buttons = c('copy', 'csv', 'pdf'),
           initComplete = JS(
@@ -485,6 +487,7 @@
         extensions = 'Buttons',
         options = list(
           autoWidth = FALSE,
+          columnDefs = list(list(className = 'dt-center', targets = 0:3)),
           dom = 'Bfrtip',
           buttons = c('copy', 'csv', 'pdf'),
           initComplete = JS(
@@ -505,6 +508,7 @@
         extensions = 'Buttons',
         options = list(
           autoWidth = FALSE,
+          columnDefs = list(list(className = 'dt-center', targets = 0:3)),
           dom = 'Bfrtip',
           buttons = c('copy', 'csv', 'pdf'),
           initComplete = JS(
@@ -544,6 +548,12 @@
     ## load benchmarks details function
       loadBenchmarkDetails <- function(benchmark_name){
         benchmark <- searchBenchmark(benchmark_name)
+        scenarios_list <- strsplit(benchmark[4], ", ")[[1]]
+        scenarioList_dt <- data.frame(
+          Scenario = scenarios_list,
+          Options = shinyInput(actionButton, length(scenarios_list), 'button_', scenarios_list,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' ),
+          stringsAsFactors = FALSE
+        )
         benchmark_descriptors <- strsplit(benchmark[5], ", ")[[1]]
         output$benchmarks_details <- renderUI({
           div(
@@ -562,7 +572,27 @@
             )
           )
         })
-      }
+
+        output$benchmarks_details_scenarios_list <- DT::renderDataTable(scenarioList_dt,
+            style = 'bootstrap',
+          class = 'display table-bordered table-striped table-hover',
+          server = FALSE, 
+          escape = FALSE, 
+          selection = 'none',
+          extensions = 'Buttons',
+          options = list(
+            autoWidth = FALSE,
+            columnDefs = list(list(className = 'dt-center', targets = 0:2)),
+            dom = 'Bfrtip',
+            buttons = c('copy', 'csv', 'pdf'),
+            initComplete = JS(
+              "function(settings, json) {",
+              "$(this.api().table().header()).css({'background-color': '#444444', 'color': '#fff'});",
+              "}"
+            )
+          )
+        )
+    }
   })
 
 ### Create Shiny object
