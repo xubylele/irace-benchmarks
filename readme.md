@@ -2,7 +2,7 @@
 
 ## Requeriments
  - R v4.0 or higher
- - Downloaded repository
+ 
 ### Installation
 First, run the installer.r file:
 ```sh
