@@ -174,7 +174,7 @@
         )
       )
     )
-  )
+  , uiOutput('current_page'))
 
 ## scenarios tab
   scenarios_tab <- tabItem(tabName = "scenarios_tab",
@@ -260,11 +260,11 @@
 ## router
   router <- make_router(
     route("about", about_tab),
-    route("benchmarks", benchmarks_tab),
-    route("scenarios", scenarios_tab),
-    route("instances", instances_tab)
+    route("benchmarks", benchmarks_tab, NA),
+    route("benchmarks_details", benchmarks_details, NA),
+    route("scenarios", scenarios_tab, NA),
+    route("instances", instances_tab, NA)
   )
-
 ## shiny ui
   ui <- shinyUI(
     dashboardPage(
@@ -514,11 +514,16 @@
 
     ## evenet handle
       observeEvent(input$select_button, {
-        showModal(modalDialog(
-          title = "DETAILS",
-          paste("This gonna be a details page for ", input$select_button),
-          easyClose = TRUE
-        ))
+        if (is_page("benchmarks")) {
+          change_page("benchmarks_details")
+          print(strsplit(input$select_button, "_")[[1]][2])
+        } else {
+          showModal(modalDialog(
+            title = "DETAILS",
+            paste("This gonna be a details page for ", input$select_button),
+            easyClose = TRUE
+          ))
+        }
       })
   })
 
