@@ -204,7 +204,7 @@
     )
   )
 
-## benchmarks details
+## benchmark details
   benchmarks_details <- div(
     h1('Benchmarks'),
     uiOutput('benchmarks_details'),
@@ -214,6 +214,13 @@
       DT::dataTableOutput("benchmarks_details_scenarios_list")
     )
   )
+
+## scenario details
+  scenario_details <- div(
+    h1('Scenarios'),
+    uiOutput('scenario_details')
+  )
+
 ## function to read lines of txt files
   readFileLines <- function(fileName){
     
@@ -267,6 +274,7 @@
     route("benchmarks", benchmarks_tab, NA),
     route("benchmarks_details", benchmarks_details, NA),
     route("scenarios", scenarios_tab, NA),
+    route("scenario_details", scenario_details, NA),
     route("instances", instances_tab, NA)
   )
 ## shiny ui
@@ -435,7 +443,7 @@
         Sizes = benchmarks_sizes,
         Scenarios = benchmarks_scenarios,
         Descriptors = benchmarks_descriptors,
-        Options = shinyInput(actionButton, length(benchmarks_descriptors), 'button_', benchmarks_names,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' ),
+        Options = shinyInput(actionButton, length(benchmarks_descriptors), 'button#', benchmarks_names,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' ),
         stringsAsFactors = FALSE
       )
 
@@ -443,14 +451,14 @@
       scenario_dt <- data.frame(
         Name = scenarios_names,
         Descriptors = scenarios_descriptors,
-        Options = shinyInput(actionButton, length(scenarios_names), 'button_', scenarios_names,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
+        Options = shinyInput(actionButton, length(scenarios_names), 'button#', scenarios_names,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
       )
 
     #isntances dataframe
       instances_dt <- data.frame(
         File = instances_file,
         File_Name = instances_filenames,
-        Options = shinyInput(actionButton, length(instances_file), 'button_', instances_file,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
+        Options = shinyInput(actionButton, length(instances_file), 'button#', instances_file,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
       )
 
     
@@ -522,10 +530,12 @@
     ## evenet handle
       observeEvent(input$select_button, {
         if (is_page("benchmarks")) {
-          
           change_page("benchmarks_details")
-          loadBenchmarkDetails(strsplit(input$select_button, "_")[[1]][2])
+          loadBenchmarkDetails(strsplit(input$select_button, "#")[[1]][2])
 
+        }else if(is_page("scenarios")){
+          change_page("scenario_details")
+          loadScenarioDetails(strsplit(input$select_button, "#")[[1]][2])
         } else {
           showModal(modalDialog(
             title = "DETAILS",
@@ -545,13 +555,23 @@
         }
       }
 
+    ## search scenario function
+      searchScenario <- function(scenario_name){
+        for(i in 1:length(scenarios_names)){
+          if(scenarios_names[i] == scenario_name){
+            scenario <- c(scenarios_names[i], scenarios_file[i], scenarios_target[i], scenarios_parameters[i], scenarios_descriptors[i])
+            return(scenario)
+          }
+        }
+      }
+
     ## load benchmarks details function
       loadBenchmarkDetails <- function(benchmark_name){
         benchmark <- searchBenchmark(benchmark_name)
         scenarios_list <- strsplit(benchmark[4], ", ")[[1]]
         scenarioList_dt <- data.frame(
           Scenario = scenarios_list,
-          Options = shinyInput(actionButton, length(scenarios_list), 'button_', scenarios_list,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' ),
+          Options = shinyInput(actionButton, length(scenarios_list), 'button#', scenarios_list,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' ),
           stringsAsFactors = FALSE
         )
         benchmark_descriptors <- strsplit(benchmark[5], ", ")[[1]]
@@ -593,6 +613,37 @@
           )
         )
     }
+
+    ##load scenario details
+      loadScenarioDetails <- function(scenario_name) {
+        scenario <- searchScenario(scenario_name)
+        scenario_descriptors <- strsplit(scenario[5], ", ")[[1]]
+        print(scenario[2])
+        print(paste('../benchmarks/', scenario[2], sep = ''))
+        output$scenario_details <- renderUI({
+          div(
+            h3(paste('Name: ', scenario[1])),
+            h4(paste('File: ', scenario[2])),
+            h4(paste('Target: ', scenario[3])),
+            div(class = 'row',
+              div(class = 'col-xs-6 col-sm-3',
+                h4('Descriptors: ')
+              ),
+              div(class = 'col-xs-6 col-sm-3',
+                lapply(1:length(scenario_descriptors), function(i) {
+                  p(paste0(scenario_descriptors[i]))
+                })
+              )
+            ),
+            h2('Scenario configurations:'),
+            div(
+              class = 'mt-2',
+              pre(includeText(paste('../benchmarks/', scenario[2], sep = '')))
+            )
+          )
+        })
+      }
+
   })
 
 ### Create Shiny object
