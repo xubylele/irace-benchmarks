@@ -592,7 +592,6 @@
             )
           )
         })
-
         output$benchmarks_details_scenarios_list <- DT::renderDataTable(scenarioList_dt,
             style = 'bootstrap',
           class = 'display table-bordered table-striped table-hover',
@@ -612,7 +611,7 @@
             )
           )
         )
-    }
+      }
 
     ##load scenario details
       loadScenarioDetails <- function(scenario_name) {
