@@ -574,7 +574,7 @@
           change_page("benchmarks_details")
           loadBenchmarkDetails(strsplit(input$select_button, "#")[[1]][2])
 
-        }else if(is_page("scenarios")){
+        }else if(is_page("scenarios") || is_page("benchmarks_details")){
           change_page("scenario_details")
           loadScenarioDetails(strsplit(input$select_button, "#")[[1]][2])
         } else {
