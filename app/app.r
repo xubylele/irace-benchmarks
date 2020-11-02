@@ -204,6 +204,20 @@
     )
   )
 
+## parameters tab
+  parameters_tab <- tabItem(tabName = "parameters_tab",
+    htmltools::withTags(
+      div(
+        class = 'center-block',
+        h1('Parameters'),
+        div(
+          class = 'table-responsive',
+          DT::dataTableOutput("parameters_list")
+        )
+      )
+    )
+  )
+
 ## benchmark details
   benchmarks_details <- div(
     h1('Benchmarks'),
@@ -275,7 +289,8 @@
     route("benchmarks_details", benchmarks_details, NA),
     route("scenarios", scenarios_tab, NA),
     route("scenario_details", scenario_details, NA),
-    route("instances", instances_tab, NA)
+    route("instances", instances_tab, NA),
+    route("parameters", parameters_tab, NA)
   )
 ## shiny ui
   ui <- shinyUI(
@@ -432,11 +447,12 @@
             }
           }
           if(length(parameter_per_folder) > 0){
+            parameters <- c(parameters, parameter_per_folder)
           }
         }
       }
 
-    #benchmark dataframe
+    ## benchmark dataframe
       benchmark_dt <- data.frame(
         Name = benchmarks_names,
         Description = benchmarks_descriptions,
@@ -447,24 +463,28 @@
         stringsAsFactors = FALSE
       )
 
-    #scenario dataframe
+    ## scenario dataframe
       scenario_dt <- data.frame(
         Name = scenarios_names,
         Descriptors = scenarios_descriptors,
         Options = shinyInput(actionButton, length(scenarios_names), 'button#', scenarios_names,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
       )
 
-    #isntances dataframe
+    ## isntances dataframe
       instances_dt <- data.frame(
         File = instances_file,
         File_Name = instances_filenames,
         Options = shinyInput(actionButton, length(instances_file), 'button#', instances_file,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
       )
 
-    
+    ## parameters dataframe
+      parameters_dt <- data.frame(
+        File = parameters[[1]],
+        Options = shinyInput(actionButton, length(parameters), 'button#', parameters,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)')
+      )
     
 
-    #output table benchmark
+    ## output table benchmark
       output$benchmark_list <- DT::renderDataTable(benchmark_dt,
         style = 'bootstrap',
         class = 'display table-bordered table-striped table-hover',
@@ -485,7 +505,7 @@
         )
       )
 
-    #output table scenarios
+    ## output table scenarios
       output$scenarios_list <- DT::renderDataTable(scenario_dt,
         style = 'bootstrap',
         class = 'display table-bordered table-striped table-hover',
@@ -506,7 +526,7 @@
         )
       )
 
-    #output table instances
+    ## output table instances
       output$instances_list <- DT::renderDataTable(instances_dt,
         style = 'bootstrap',
         class = 'display table-bordered table-striped table-hover',
@@ -517,6 +537,27 @@
         options = list(
           autoWidth = FALSE,
           columnDefs = list(list(className = 'dt-center', targets = 0:3)),
+          dom = 'Bfrtip',
+          buttons = c('copy', 'csv', 'pdf'),
+          initComplete = JS(
+            "function(settings, json) {",
+            "$(this.api().table().header()).css({'background-color': '#444444', 'color': '#fff'});",
+            "}"
+          )
+        )
+      )
+
+    ## output table parameters
+      output$parameters_list <- DT::renderDataTable(parameters_dt,
+        style = 'bootstrap',
+        class = 'display table-bordered table-striped table-hover',
+        server = FALSE, 
+        escape = FALSE, 
+        selection = 'none',
+        extensions = 'Buttons',
+        options = list(
+          autoWidth = FALSE,
+          columnDefs = list(list(className = 'dt-center', targets = 0:2)),
           dom = 'Bfrtip',
           buttons = c('copy', 'csv', 'pdf'),
           initComplete = JS(
@@ -613,7 +654,7 @@
         )
       }
 
-    ##load scenario details
+    ## load scenario details
       loadScenarioDetails <- function(scenario_name) {
         scenario <- searchScenario(scenario_name)
         scenario_descriptors <- strsplit(scenario[5], ", ")[[1]]
