@@ -218,6 +218,20 @@
     )
   )
 
+## targets tab
+  targets_tab <- tabItem(tabName = "targets_tab",
+    htmltools::withTags(
+      div(
+        class = 'center-block',
+        h1('Targets'),
+        div(
+          class = 'table-responsive',
+          DT::dataTableOutput("targets_list")
+        )
+      )
+    )
+  )
+
 ## benchmark details
   benchmarks_details <- div(
     h1('Benchmarks'),
@@ -290,7 +304,8 @@
     route("scenarios", scenarios_tab, NA),
     route("scenario_details", scenario_details, NA),
     route("instances", instances_tab, NA),
-    route("parameters", parameters_tab, NA)
+    route("parameters", parameters_tab, NA),
+    route("targets", targets_tab, NA)
   )
 ## shiny ui
   ui <- shinyUI(
@@ -452,6 +467,17 @@
         }
       }
 
+    ## read targets data
+      targets_foldernames <- list.files('../benchmarks/target', pattern = '', full.names = TRUE)
+      targets <- list()
+
+      for(i in 1:length(targets_foldernames)){
+        targets[[i]] <- strsplit(targets_foldernames[i], '/')[[1]][4]
+      }
+
+      print(typeof(targets[[1]]))
+      print(targets[[1]])
+
     ## benchmark dataframe
       benchmark_dt <- data.frame(
         Name = benchmarks_names,
@@ -482,8 +508,12 @@
         File = parameters[[1]],
         Options = shinyInput(actionButton, length(parameters), 'button#', parameters,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)')
       )
-    
 
+    ## targets dataframe
+      targets_dt <- data.frame(
+        Name = targets,
+        Options = shinyInput(actionButton, length(targets), 'button#', targets,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)')
+      )
     ## output table benchmark
       output$benchmark_list <- DT::renderDataTable(benchmark_dt,
         style = 'bootstrap',
@@ -549,6 +579,27 @@
 
     ## output table parameters
       output$parameters_list <- DT::renderDataTable(parameters_dt,
+        style = 'bootstrap',
+        class = 'display table-bordered table-striped table-hover',
+        server = FALSE, 
+        escape = FALSE, 
+        selection = 'none',
+        extensions = 'Buttons',
+        options = list(
+          autoWidth = FALSE,
+          columnDefs = list(list(className = 'dt-center', targets = 0:2)),
+          dom = 'Bfrtip',
+          buttons = c('copy', 'csv', 'pdf'),
+          initComplete = JS(
+            "function(settings, json) {",
+            "$(this.api().table().header()).css({'background-color': '#444444', 'color': '#fff'});",
+            "}"
+          )
+        )
+      )
+
+    ## output table targets
+      output$targets_list <- DT::renderDataTable(targets_dt,
         style = 'bootstrap',
         class = 'display table-bordered table-striped table-hover',
         server = FALSE, 
