@@ -14,7 +14,12 @@ Second, reach app directory inside:
 cd app/
 ```
 
-Third, run app.r file:
+For web interface, run the interface.r file:
 ```sh
-Rscript app.r
+Rscript interface.r
+```
+
+For console interface, run the console.r file:
+```sh
+Rscript console.r
 ```
