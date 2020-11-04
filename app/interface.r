@@ -673,10 +673,13 @@
               div(class = 'col-xs-6 col-sm-3',
                 h4('Descriptors: ')
               ),
-              div(class = 'col-xs-6 col-sm-3',
-                lapply(1:length(benchmark_descriptors), function(i) {
-                  p(paste0(benchmark_descriptors[i]))
-                })
+              div(class = 'col',
+                div(
+                  class = 'button-group',
+                  lapply(1:length(benchmarks_descriptors), function(i) {
+                    actionButton("button", benchmarks_descriptors[i])
+                  })
+                )
               )
             )
           )
@@ -715,10 +718,13 @@
               div(class = 'col-xs-6 col-sm-3',
                 h4('Descriptors: ')
               ),
-              div(class = 'col-xs-6 col-sm-3',
-                lapply(1:length(scenario_descriptors), function(i) {
-                  p(paste0(scenario_descriptors[i]))
-                })
+              div(class = 'col',
+                div(
+                  class = 'button-group',
+                  lapply(1:length(scenario_descriptors), function(i) {
+                    actionButton("button", scenario_descriptors[i])
+                  })
+                )
               )
             ),
             h2('Scenario configurations:'),
