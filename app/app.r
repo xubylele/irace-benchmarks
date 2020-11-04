@@ -472,11 +472,8 @@
       targets <- list()
 
       for(i in 1:length(targets_foldernames)){
-        targets[[i]] <- strsplit(targets_foldernames[i], '/')[[1]][4]
+        targets <- c(targets, strsplit(targets_foldernames[i], '/')[[1]][4])
       }
-
-      print(typeof(targets[[1]]))
-      print(targets[[1]])
 
     ## benchmark dataframe
       benchmark_dt <- data.frame(
