@@ -706,8 +706,6 @@
       loadScenarioDetails <- function(scenario_name) {
         scenario <- searchScenario(scenario_name)
         scenario_descriptors <- strsplit(scenario[5], ", ")[[1]]
-        print(scenario[2])
-        print(paste('../benchmarks/', scenario[2], sep = ''))
         output$scenario_details <- renderUI({
           div(
             h3(paste('Name: ', scenario[1])),
