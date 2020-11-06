@@ -1,15 +1,15 @@
-library(shiny)
-library(cli)
-library(mise)
-
 ## install dependencies
-    packages <- c("shiny", "xfun", "shiny.router", "shinydashboard", "dashboardthemes", "shinyBS", "shinyjs", "htmltools", "DT", "irace", "cli", "mise")
+    packages <- c("shiny", "xfun", "shiny.router", "shinydashboard", "dashboardthemes", "shinyBS", "shinyjs", "htmltools", "DT", "irace", "cli", "mise", "here")
     for(p in packages){
         print(p)
         if(!require(p,character.only = TRUE))
-            install.packages(p)
+            install.packages(p, repos = "http://cran.us.r-project.org")
         library(p,character.only = TRUE)
     }
+
+library(cli)
+library(mise)
+library(here)
 
 ## read commands function
     readCommands <- function(args){
@@ -39,9 +39,8 @@ library(mise)
                     help()
                 }
                 if(user_input == "web"){
-                    options(shiny.port = 4200)
-                    options(shiny.autoreload = TRUE)
-                    runApp('app')
+                    dir <- here("app", "shinyApp.r")
+                    source(dir)
                 }
                 break
             }

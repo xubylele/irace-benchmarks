@@ -168,8 +168,7 @@ library(shiny.router)
   )
 
 ## server
-
-server <- shinyServer(function(input, output, session) {
+  server <- shinyServer(function(input, output, session) {
     
     
     router(input, output, session)
