@@ -22,3 +22,4 @@
 3. Run script
 ```sh
     "path/to/Rscript.exe" app.r
+```
