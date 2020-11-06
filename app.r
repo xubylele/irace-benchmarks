@@ -30,6 +30,7 @@ for(p in packages){
 
 ## wait for user input function
     wait_for_user <- function(){
+        cat('> ')
         repeat{
             user_input <- readLines("stdin",n=1);
             if(user_input != ""){
