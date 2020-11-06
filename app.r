@@ -2,13 +2,14 @@ library(shiny)
 library(cli)
 library(mise)
 
-packages <- c("shiny", "xfun", "shiny.router", "shinydashboard", "dashboardthemes", "shinyBS", "shinyjs", "htmltools", "DT", "irace", "cli", "mise")
-for(p in packages){
-    print(p)
-    if(!require(p,character.only = TRUE))
-        install.packages(p)
-    library(p,character.only = TRUE)
-}
+## install dependencies
+    packages <- c("shiny", "xfun", "shiny.router", "shinydashboard", "dashboardthemes", "shinyBS", "shinyjs", "htmltools", "DT", "irace", "cli", "mise")
+    for(p in packages){
+        print(p)
+        if(!require(p,character.only = TRUE))
+            install.packages(p)
+        library(p,character.only = TRUE)
+    }
 
 ## read commands function
     readCommands <- function(args){
@@ -30,7 +31,7 @@ for(p in packages){
 
 ## wait for user input function
     wait_for_user <- function(){
-        cat('> ')
+        cat('\n> ')
         repeat{
             user_input <- readLines("stdin",n=1);
             if(user_input != ""){
