@@ -173,6 +173,8 @@ library(shiny.router)
     
     router(input, output, session)
 
+    change_page('about')
+
     ### read benchmark data
       benchmark_filenames <- list.files('../benchmarks/benchmarks', pattern = '*.txt', full.names = TRUE)
 
@@ -455,6 +457,7 @@ library(shiny.router)
     ## evenet handle
       observeEvent(input$select_button, {
         if (is_page("benchmarks")) {
+          print(strsplit(input$select_button, "#")[[1]][2])
           change_page("benchmarks_details")
           loadBenchmarkDetails(strsplit(input$select_button, "#")[[1]][2])
 
