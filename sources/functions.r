@@ -31,3 +31,17 @@
     close(conn)
     return(object)
   }
+  
+## shiny inputs, to add action buttons to datatables
+  shinyInput <- function(FUN, len, id, strings_id,...) {
+    inputs <- character(len)
+    for (i in seq_len(len)) {
+      inputs[i] <- as.character(FUN(paste0(id, strings_id[[i]]), ...))
+    }
+    inputs
+  }
+
+## print buttons functions
+  print_buttons <- function(type, len){
+    sprintf(paste('<button>', type,'</button>'))
+  }

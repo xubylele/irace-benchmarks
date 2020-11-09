@@ -4,20 +4,8 @@ library(here)
 
 source(here("sources", "read_scenarios.r"))
 source(here("sources", "read_benchmarks.r"))
-
-## shiny inputs, to add action buttons to datatables
-  shinyInput <- function(FUN, len, id, strings_id,...) {
-    inputs <- character(len)
-    for (i in seq_len(len)) {
-      inputs[i] <- as.character(FUN(paste0(id, strings_id[[i]]), ...))
-    }
-    inputs
-  }
-
-## print buttons functions
-  print_buttons <- function(type, len){
-    sprintf(paste('<button>', type,'</button>'))
-  }
+source(here("sources", "read_instances.r"))
+source(here("sources", "functions.r"))
 
 ## about tab
         
@@ -161,16 +149,7 @@ source(here("sources", "read_benchmarks.r"))
 
     change_page('about')
 
-    ### read instances data
-      instances_foldernames <- list.files('../benchmarks/instances', pattern = '', full.names = TRUE)
-
-      instances_descriptors <- c()
-
-      for(i in 1:length(instances_foldernames))
-      {
-        descriptor <- strsplit(instances_foldernames[i], '/')[[1]][4]
-        instances_descriptors <- c(instances_descriptors, descriptor[1])
-      }
+    
 
     ### read parameters data
       parameters_foldernames <- list.files('../benchmarks/target', pattern = '', full.names = TRUE)
@@ -226,6 +205,7 @@ source(here("sources", "read_benchmarks.r"))
 
     ## isntances dataframe
       instances_dt <- data.frame()
+      instances_descriptors <- getInstancesDescriptors()
       if(length(instances_descriptors) > 0){
         instances_dt <- data.frame(
           Descriptor = instances_descriptors,
@@ -381,28 +361,7 @@ source(here("sources", "read_benchmarks.r"))
 
   
 
-    ## search instances descriptor sets function
-      searchInstanceDescriptorSets <- function(descriptor_name){
-        instancesSets <- c()
-        for(i in 1:length(instances_foldernames)){
-          if(strsplit(instances_foldernames[i], '/')[[1]][4] == descriptor_name){
-            trainingFiles <- list.files(instances_foldernames[i], pattern = '*training*', full.names = TRUE)
-            testingFiles <- list.files(instances_foldernames[i], pattern = '*testing', full.names = TRUE)
-            if(length(trainingFiles) == 0 && length(testingFiles) == 0){
-              subfolders <- list.files(instances_foldernames[i], pattern = '', full.names = TRUE)
-              for(j in 1:length(subfolders)){
-                instancesSets <- c(instancesSets, strsplit(subfolders[j], '/')[[1]][5])
-              }
-            }else{
-              if(length(trainingFiles) > 1){
-                
-              }
-              instancesSets <- c(instancesSets, strsplit(instances_foldernames[i], '/')[[1]][4])
-            }
-            return(instancesSets)
-          }
-        }
-      }
+    
 
     ## load benchmarks details function
       loadBenchmarkDetails <- function(benchmark_name){
