@@ -1,39 +1,9 @@
 library(shiny)
 library(shiny.router)
+library(here)
 
-## function to read lines of txt files
-  readFileLines <- function(fileName){
-    
-    conn <- file(fileName,open="r")
-    linn <-readLines(conn)
-    object = c()
-
-    for (j in 1:length(linn)){
-      line <- strsplit(linn[j], ": ")
-      object[[j]] = list(line[[1]][1], line[[1]][2])
-    }
-
-    
-    close(conn)
-    return(object)
-  }
-
-## function to read lines isntances files
-  readFileLinesInstances <- function(fileName){
-        
-    conn <- file(fileName,open="r")
-    linn <-readLines(conn)
-    object = c()
-
-    for (j in 1:length(linn)){
-      line <- strsplit(linn[j], ": ")
-      object[[j]] = list(line[[1]][1], fileName)
-    }
-
-    
-    close(conn)
-    return(object)
-  }
+source(here("sources", "read_scenarios.r"))
+source(here("sources", "read_benchmarks.r"))
 
 ## shiny inputs, to add action buttons to datatables
   shinyInput <- function(FUN, len, id, strings_id,...) {
@@ -101,7 +71,17 @@ library(shiny.router)
     htmltools::withTags(
       div(
         class = 'center-block',
-        h1('Instances'),
+        div(
+          class = 'row center-block',
+          div(
+            class = 'col',
+            h1('Instances')
+          ),
+          div(
+            class = 'col',
+            uiOutput('instances_resume')
+          )
+        ),
         div(
           class = 'table-responsive',
           DT::dataTableOutput("instances_list")
@@ -155,6 +135,12 @@ library(shiny.router)
     uiOutput('scenario_details')
   )
 
+## instances descriptor details
+  instances_descriptor_details <- div(
+    h1('Instances'),
+    uiOutput('instances_descriptor_details')
+  )
+
 ## router
   router <- make_router(
     route("about", about_tab),
@@ -163,6 +149,7 @@ library(shiny.router)
     route("scenarios", scenarios_tab, NA),
     route("scenario_details", scenario_details, NA),
     route("instances", instances_tab, NA),
+    route("instances_descriptor_details", instances_descriptor_details, NA),
     route("parameters", parameters_tab, NA),
     route("targets", targets_tab, NA)
   )
@@ -170,113 +157,19 @@ library(shiny.router)
 ## server
   server <- shinyServer(function(input, output, session) {
     
-    
     router(input, output, session)
 
     change_page('about')
 
-    ### read benchmark data
-      benchmark_filenames <- list.files('../benchmarks/benchmarks', pattern = '*.txt', full.names = TRUE)
-
-      benchmarks <- list()
-
-      for(i in 1:length(benchmark_filenames))
-      {
-        fileName <- benchmark_filenames[i]
-        if(!is.na(fileName) && !length(fileName) == 0){
-          benchmarks[[i]] <- readFileLines(fileName)
-        }
-      }
-
-      benchmarks_names <- c()
-      benchmarks_descriptions <- c()
-      benchmarks_sizes <- c()
-      benchmarks_scenarios <- c()
-      benchmarks_descriptors <- c()
-
-      for(i in 1:length(benchmarks)){
-        benchmarks_names[i] = benchmarks[[i]][[1]][[2]]
-        benchmarks_descriptions[i] = benchmarks[[i]][[2]][[2]]
-        benchmarks_sizes[i] = benchmarks[[i]][[3]][[2]]
-        benchmarks_scenarios[i] = benchmarks[[i]][[4]][[2]]
-        benchmarks_descriptors[i] = benchmarks[[i]][[5]][[2]]
-      }
-
-    ### read scenario data
-      scenarios_filenames <- list.files('../benchmarks/scenarios', pattern = '*.txt', full.names = TRUE)
-
-      scenarios <- list()
-
-      for(i in 1:length(scenarios_filenames))
-      {
-        fileName <- scenarios_filenames[i]
-        
-
-        scenarios[[i]] <- readFileLines(fileName)
-      }
-
-      scenarios_names <- c()
-      scenarios_file <- c()
-      scenarios_target <- c()
-      scenarios_parameters <- c()
-      scenarios_instances <- c()
-      scenarios_descriptors <- c()
-
-      for(i in 1:length(scenarios)){
-        scenarios_names[i] = scenarios[[i]][[1]][[2]]
-        scenarios_file[i] = scenarios[[i]][[2]][[2]]
-        scenarios_target[i] = scenarios[[i]][[3]][[2]]
-        scenarios_parameters[i] = scenarios[[i]][[4]][[2]]
-        scenarios_instances[i] = scenarios[[i]][[5]][[2]]
-        scenarios_descriptors[i] = scenarios[[i]][[6]][[2]]
-      }
-
     ### read instances data
       instances_foldernames <- list.files('../benchmarks/instances', pattern = '', full.names = TRUE)
 
-      instances <- list()
+      instances_descriptors <- c()
 
       for(i in 1:length(instances_foldernames))
       {
-        folderName <- instances_foldernames[i]
-        instances_fileNames <- list.files(folderName, pattern = '*.txt', full.names = TRUE)
-        if(length(instances_fileNames) == 0){
-          sub_foldernames <- list.files(folderName, pattern = '', full.names = TRUE)
-          for(j in 1:length(sub_foldernames)){
-            instances_fileNames <- list.files(sub_foldernames[j], pattern = '*.txt', full.names = TRUE)
-            for(k in 1:length(instances_fileNames))
-            {
-              fileName <- instances_fileNames[j]
-              if(!is.na(fileName) && !length(fileName) == 0){
-                if(!grepl("readme", fileName)){
-                  instances[[i]] <- readFileLinesInstances(fileName)
-                }
-              }
-            }
-          }
-        }
-        else{
-          for(j in 1:length(instances_fileNames)){
-            fileName <- instances_fileNames[j]
-            if(!grepl("scenarios", fileName)){
-              instances[[i]] <- readFileLinesInstances(fileName)
-            }
-          }
-        }
-
-        
-      }
-
-      instances_file <- c()
-      instances_filenames <- c()
-
-      for(i in 1:length(instances)){
-        if(length(instances[[i]]) != 0){
-          for(j in 1:length(instances[[i]])){
-            instances_file[j] = instances[[i]][[j]][[1]]
-            instances_filenames[j] = instances[[i]][[j]][[2]]
-          }
-        }
+        descriptor <- strsplit(instances_foldernames[i], '/')[[1]][4]
+        instances_descriptors <- c(instances_descriptors, descriptor[1])
       }
 
     ### read parameters data
@@ -315,28 +208,30 @@ library(shiny.router)
 
     ## benchmark dataframe
       benchmark_dt <- data.frame(
-        Name = benchmarks_names,
-        Description = benchmarks_descriptions,
-        Sizes = benchmarks_sizes,
-        Scenarios = benchmarks_scenarios,
-        Descriptors = benchmarks_descriptors,
-        Options = shinyInput(actionButton, length(benchmarks_descriptors), 'button#', benchmarks_names,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' ),
+        Name = getBenchmarksNames(),
+        Description = getBenchmarksDescriptions(),
+        Sizes = getBenchmarksSizes(),
+        Scenarios = getBenchmarksScenarios(),
+        Descriptors = getBenchmarksDescriptors(),
+        Options = shinyInput(actionButton, length(getBenchmarksDescriptors()), 'button#', getBenchmarksNames(),label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' ),
         stringsAsFactors = FALSE
       )
 
     ## scenario dataframe
       scenario_dt <- data.frame(
-        Name = scenarios_names,
-        Descriptors = scenarios_descriptors,
-        Options = shinyInput(actionButton, length(scenarios_names), 'button#', scenarios_names,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
+        Name = getScenariosNames(),
+        Descriptors = getScenariosFiles(),
+        Options = shinyInput(actionButton, length(getScenariosNames()), 'button#', getScenariosNames(),label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
       )
 
     ## isntances dataframe
-      instances_dt <- data.frame(
-        File = instances_file,
-        File_Name = instances_filenames,
-        Options = shinyInput(actionButton, length(instances_file), 'button#', instances_file,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
-      )
+      instances_dt <- data.frame()
+      if(length(instances_descriptors) > 0){
+        instances_dt <- data.frame(
+          Descriptor = instances_descriptors,
+          Options = shinyInput(actionButton, length(instances_descriptors), 'button#', instances_descriptors, label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
+        )
+      }
 
     ## parameters dataframe
       parameters_dt <- data.frame(
@@ -401,7 +296,7 @@ library(shiny.router)
         extensions = 'Buttons',
         options = list(
           autoWidth = FALSE,
-          columnDefs = list(list(className = 'dt-center', targets = 0:3)),
+          columnDefs = list(list(className = 'dt-center', targets = 0:2)),
           dom = 'Bfrtip',
           buttons = c('copy', 'csv', 'pdf'),
           initComplete = JS(
@@ -411,6 +306,13 @@ library(shiny.router)
           )
         )
       )
+
+      output$instances_resume <- renderUI({
+        div(
+          h4(paste('Count of instances descriptors: ', length(instances_descriptors))),
+          h4(paste('Count of instances sets: ', 1))
+        )
+      })
 
     ## output table parameters
       output$parameters_list <- DT::renderDataTable(parameters_dt,
@@ -457,13 +359,15 @@ library(shiny.router)
     ## evenet handle
       observeEvent(input$select_button, {
         if (is_page("benchmarks")) {
-          print(strsplit(input$select_button, "#")[[1]][2])
           change_page("benchmarks_details")
           loadBenchmarkDetails(strsplit(input$select_button, "#")[[1]][2])
 
         }else if(is_page("scenarios") || is_page("benchmarks_details")){
           change_page("scenario_details")
           loadScenarioDetails(strsplit(input$select_button, "#")[[1]][2])
+        }else if(is_page("instances")){
+          change_page("instances_descriptor_details")
+          loadInstancesDescriptorDetails(strsplit(input$select_button, "#")[[1]][2])
         } else {
           showModal(modalDialog(
             title = "DETAILS",
@@ -473,22 +377,29 @@ library(shiny.router)
         }
       })
 
-    ## search benchmark function
-      searchBenchmark <- function(benchmark_name){
-        for(i in 1:length(benchmarks_names)){
-          if(benchmarks_names[i] == benchmark_name){
-            benchmark <- c(benchmarks_names[i], benchmarks_descriptions[i], benchmarks_sizes[i], benchmarks_scenarios[i], benchmarks_descriptors[i])
-            return(benchmark)
-          }
-        }
-      }
+    
 
-    ## search scenario function
-      searchScenario <- function(scenario_name){
-        for(i in 1:length(scenarios_names)){
-          if(scenarios_names[i] == scenario_name){
-            scenario <- c(scenarios_names[i], scenarios_file[i], scenarios_target[i], scenarios_parameters[i], scenarios_descriptors[i])
-            return(scenario)
+  
+
+    ## search instances descriptor sets function
+      searchInstanceDescriptorSets <- function(descriptor_name){
+        instancesSets <- c()
+        for(i in 1:length(instances_foldernames)){
+          if(strsplit(instances_foldernames[i], '/')[[1]][4] == descriptor_name){
+            trainingFiles <- list.files(instances_foldernames[i], pattern = '*training*', full.names = TRUE)
+            testingFiles <- list.files(instances_foldernames[i], pattern = '*testing', full.names = TRUE)
+            if(length(trainingFiles) == 0 && length(testingFiles) == 0){
+              subfolders <- list.files(instances_foldernames[i], pattern = '', full.names = TRUE)
+              for(j in 1:length(subfolders)){
+                instancesSets <- c(instancesSets, strsplit(subfolders[j], '/')[[1]][5])
+              }
+            }else{
+              if(length(trainingFiles) > 1){
+                
+              }
+              instancesSets <- c(instancesSets, strsplit(instances_foldernames[i], '/')[[1]][4])
+            }
+            return(instancesSets)
           }
         }
       }
@@ -515,8 +426,8 @@ library(shiny.router)
               div(class = 'col',
                 div(
                   class = 'button-group',
-                  lapply(1:length(benchmarks_descriptors), function(i) {
-                    actionButton("button", benchmarks_descriptors[i])
+                  lapply(1:length(benchmark_descriptors), function(i) {
+                    actionButton("button", benchmark_descriptors[i])
                   })
                 )
               )
@@ -575,4 +486,10 @@ library(shiny.router)
         })
       }
 
+    ## load instances descriptor Details
+      loadInstancesDescriptorDetails <- function(name){
+        instancesSets <- searchInstanceDescriptorSets(name)
+        print(instancesSets)
+        renderUI({})
+      }
   })

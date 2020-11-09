@@ -31,8 +31,8 @@ library(here)
 
 ## wait for user input function
     wait_for_user <- function(){
-        cat('\n> ')
         repeat{
+            cat('\n> ')
             user_input <- readLines("stdin",n=1);
             if(user_input != ""){
                 if(user_input == "help"){
@@ -40,6 +40,10 @@ library(here)
                 }
                 if(user_input == "web"){
                     dir <- here("app", "shinyApp.r")
+                    source(dir)
+                }
+                if(user_input == "zip_instances"){
+                    dir <- here("sources", "zip_instances.r")
                     source(dir)
                 }
                 break
