@@ -22,21 +22,43 @@ getInstancesDescriptors <- function(){
 searchInstanceDescriptorSets <- function(descriptor_name){
     instancesSets <- c()
     for(i in 1:length(instances_foldernames)){
-        if(strsplit(instances_foldernames[i], '/')[[1]][4] == descriptor_name){
-            trainingFiles <- list.files(instances_foldernames[i], pattern = '*training*', full.names = TRUE)
-            testingFiles <- list.files(instances_foldernames[i], pattern = '*testing', full.names = TRUE)
+        if(tail(strsplit(instances_foldernames[i], '/')[[1]], 1) == descriptor_name){
+
+            trainingFiles <- list.files(instances_foldernames[i], pattern = '.*training.*\\.txt$', full.names = TRUE)
+            testingFiles <- list.files(instances_foldernames[i], pattern = '.*testing.*\\.txt$', full.names = TRUE)
+
             if(length(trainingFiles) == 0 && length(testingFiles) == 0){
+
                 subfolders <- list.files(instances_foldernames[i], pattern = '', full.names = TRUE)
+
                 for(j in 1:length(subfolders)){
-                    instancesSets <- c(instancesSets, strsplit(subfolders[j], '/')[[1]][5])
+                    trainingFiles <- list.files(subfolders[j], pattern = '.*training.*\\.txt$', full.names = TRUE)
+                    
+                    for(k in 1:length(trainingFiles)){
+                        if(length(tail(strsplit(trainingFiles[k], '-')[[1]], 1)) > 0)
+                            instancesSets <- c(instancesSets, tail(strsplit(trainingFiles[k], '-')[[1]], 1))
+                    }
                 }
+
             }else{
                 if(length(trainingFiles) > 1){
-
+                    for(j in 1:length(trainingFiles)){
+                        instancesSets <- c(instancesSets, tail(strsplit(trainingFiles[j], '-')[[1]], 1))
+                    }
+                }else{
+                    instancesSets <- c(instancesSets, tail(strsplit(instances_foldernames[i], '/')[[1]], 1))
                 }
-                instancesSets <- c(instancesSets, strsplit(instances_foldernames[i], '/')[[1]][4])
             }
             return(instancesSets)
         }
     }
+}
+
+countInstancesSets <- function(){
+    descriptors <- getInstancesDescriptors()
+    count <- 0
+    for(i in 1:length(descriptors)){
+        count = count + length(searchInstanceDescriptorSets(descriptors[i]))
+    }
+    return(count)
 }

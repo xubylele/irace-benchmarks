@@ -287,10 +287,11 @@ source(here("sources", "functions.r"))
         )
       )
 
+    ## output instances resume
       output$instances_resume <- renderUI({
         div(
           h4(paste('Count of instances descriptors: ', length(instances_descriptors))),
-          h4(paste('Count of instances sets: ', 1))
+          h4(paste('Count of instances sets: ', countInstancesSets()))
         )
       })
 
@@ -448,7 +449,35 @@ source(here("sources", "functions.r"))
     ## load instances descriptor Details
       loadInstancesDescriptorDetails <- function(name){
         instancesSets <- searchInstanceDescriptorSets(name)
-        print(instancesSets)
-        renderUI({})
+        output$instances_descriptor_details <- renderUI({
+          DT::dataTableOutput("instances_sets_list")
+        })
+
+        instances_sets_dt <- data.frame(
+          Filename = instancesSets,
+          Descriptor = name,
+          Options = shinyInput(actionButton, length(instancesSets), 'button#', instancesSets,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' ),
+          stringsAsFactors = FALSE
+        )
+
+        output$instances_sets_list <- DT::renderDataTable(instances_sets_dt,
+          style = 'bootstrap',
+          class = 'display table-bordered table-striped table-hover',
+          server = FALSE, 
+          escape = FALSE, 
+          selection = 'none',
+          extensions = 'Buttons',
+          options = list(
+            autoWidth = FALSE,
+            columnDefs = list(list(className = 'dt-center', targets = 0:3)),
+            dom = 'Bfrtip',
+            buttons = c('copy', 'csv', 'pdf'),
+            initComplete = JS(
+              "function(settings, json) {",
+              "$(this.api().table().header()).css({'background-color': '#444444', 'color': '#fff'});",
+              "}"
+            )
+          )
+        )
       }
   })
