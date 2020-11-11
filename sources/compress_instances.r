@@ -2,7 +2,7 @@ library(here)
 
 instances_dir <- 'benchmarks/instances'
 
-zip_instances <- function(){
+compress_instances <- function(){
     instances_read <- here("sources", "read_instances.r")
     source(instances_read)
 
@@ -11,15 +11,15 @@ zip_instances <- function(){
         trainingFiles <- getTrainingInstances(instancesDescriptors[i])
         testingFiles <- getTestingInstances(instancesDescriptors[i])
         instancesFiles <- getNonTrainingAndTestingFiles(instancesDescriptors[i])
-        zip_files(trainingFiles)
-        #zip_files(testingFiles)
-        #zip_files(instancesFiles)
+        compress_files(trainingFiles)
+        #compress_files(testingFiles)
+        #compress_files(instancesFiles)
     }
 
     return(TRUE)
 }
 
-zip_files <- function(files){
+compress_files <- function(files){
     for(i in length(files)){
         print(files[i])
         if(length(files[i]) > 0){

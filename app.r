@@ -11,8 +11,11 @@ library(cli)
 library(mise)
 library(here)
 
-zip_instances_dir <- here("sources", "zip_instances.r")
-source(zip_instances_dir)
+compress_instances_dir <- here("sources", "compress_instances.r")
+source(compress_instances_dir)
+standarize_routes_dir <- here("sources", "standarize_routes.r")
+source(standarize_routes_dir)
+
 
 ## read commands function
     readCommands <- function(args){
@@ -29,7 +32,9 @@ source(zip_instances_dir)
         mise()
         cli_h2("Command List")
         cli_alert("Generate web interface: web")
-        cli_alert("Zip intances files: zip_instances")
+        cli_alert("Compress intances files: compress_instances")
+        cli_alert("Standarize intances files: standarize_files")
+        cli_alert("Exit: exit")
         wait_for_user()
     }
 
@@ -40,19 +45,39 @@ source(zip_instances_dir)
             user_input <- readLines("stdin",n=1);
             if(user_input != ""){
                 if(user_input == "help"){
+
                     help()
-                }
-                if(user_input == "web"){
+
+                }else if(user_input == "web"){
+
                     dir <- here("app", "shinyApp.r")
                     source(dir)
                     wait_for_user()
-                }
-                if(user_input == "zip_instances"){
-                    if(zip_instances()){
+
+                }else if(user_input == "compress_instances"){
+
+                    if(compress_instances()){
+                        cli_alert_success("Instances compressed successfully.")
                         wait_for_user()
                     }
+
+                }else if(user_input == "standarize_files"){
+
+                    if(standarize_routes()){
+                        wait_for_user()
+                    }
+
+                }else if(user_input == "standarize_files"){
+
+                    if(standarize_routes()){
+                        wait_for_user()
+                    }
+
+                }else if(user_input == "exit"){
+
+                    break
+
                 }
-                break
             }
             cli_alert_danger("Please, write an instruction")
         }
