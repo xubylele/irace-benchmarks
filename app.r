@@ -11,6 +11,9 @@ library(cli)
 library(mise)
 library(here)
 
+zip_instances_dir <- here("sources", "zip_instances.r")
+source(zip_instances_dir)
+
 ## read commands function
     readCommands <- function(args){
         if(length(args) > 0){
@@ -26,6 +29,7 @@ library(here)
         mise()
         cli_h2("Command List")
         cli_alert("Generate web interface: web")
+        cli_alert("Zip intances files: zip_instances")
         wait_for_user()
     }
 
@@ -41,10 +45,12 @@ library(here)
                 if(user_input == "web"){
                     dir <- here("app", "shinyApp.r")
                     source(dir)
+                    wait_for_user()
                 }
                 if(user_input == "zip_instances"){
-                    dir <- here("sources", "zip_instances.r")
-                    source(dir)
+                    if(zip_instances()){
+                        wait_for_user()
+                    }
                 }
                 break
             }
