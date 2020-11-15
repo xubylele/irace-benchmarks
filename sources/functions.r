@@ -45,3 +45,9 @@
   print_buttons <- function(type, len){
     sprintf(paste('<button>', type,'</button>'))
   }
+
+## get non alphanumeric characters
+  searchFile <- function(fileName, folderName){
+    files <- list.files(folderName, fileName, recursive=TRUE, full.names= TRUE, include.dirs=TRUE)
+    return(files)
+  }

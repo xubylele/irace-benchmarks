@@ -14,7 +14,6 @@ library(here)
 compress_instances_dir <- here("sources", "compress_instances.r")
 source(compress_instances_dir)
 standarize_routes_dir <- here("sources", "standarize_routes.r")
-source(standarize_routes_dir)
 
 
 ## read commands function
@@ -63,19 +62,14 @@ source(standarize_routes_dir)
 
                 }else if(user_input == "standarize_files"){
 
-                    if(standarize_routes()){
-                        wait_for_user()
-                    }
-
-                }else if(user_input == "standarize_files"){
-
+                    source(standarize_routes_dir)
                     if(standarize_routes()){
                         wait_for_user()
                     }
 
                 }else if(user_input == "exit"){
 
-                    break
+                    quit()
 
                 }
             }
