@@ -1,3 +1,5 @@
+library(R.utils)
+
 functions <- here("sources", "functions.r")
 
 source(functions)
@@ -9,8 +11,10 @@ standarize_routes <- function(){
     instances_filenames <- c()
     
     instancesDescriptors <- getInstancesDescriptors()
+    print(instancesDescriptors)
     for(i in 1:length(instancesDescriptors)){
         trainingFiles <- getTrainingInstances(instancesDescriptors[i])
+        print(trainingFiles)
         testingFiles <- getTestingInstances(instancesDescriptors[i])
         instancesFiles <- getNonTrainingAndTestingFiles(instancesDescriptors[i])
 
@@ -33,19 +37,18 @@ standarize_routes <- function(){
         }
 
     }
+
+    files_not_found <- c()
+
+    pb <- txtProgressBar(min = 0, max = length(instances_filenames), style = 3)
     
-    for(i in 8130:length(instances_filenames)){
-        cat('\n')
-        print('--------------------------------------------------------------------------------')
+    for(i in 1:length(instances_filenames)){
+
         head_filename <- instances_filenames[i][[1]][[2]]
 
         if(!(is.na(head_filename) || head_filename == '')){
-            print(head_filename)
-            print(i)
 
             instance_name_separated <- strsplit(instances_filenames[i][[1]][[1]], '[.]')[[1]]
-
-            print(instance_name_separated)
 
             if(!(is.na(instance_name_separated) || instance_name_separated == '' || instance_name_separated == "  ")){
                 instance_name_separated_by_slash <- strsplit(instance_name_separated, '/')[[1]]
@@ -54,8 +57,7 @@ standarize_routes <- function(){
                 index <- c()
 
                 if(length(instance_name_separated_by_slash) > 0){
-                    instances_filename <- tail(instance_name_separated_by_slash,1)
-                    print(paste('if slash', instances_filename))            
+                    instances_filename <- tail(instance_name_separated_by_slash,1)   
                 }else{
                     instances_filename <- instance_name_separated[1]
                 }
@@ -76,18 +78,18 @@ standarize_routes <- function(){
                     extension <- extension_separated_by_space[1]
                 }
                 
-                
+                filename <- c()
                 if(is.na(extension)){
-                    files <- searchFile(instances_filename, here('benchmarks', 'instances'))
-                    print('na extension')
+                    filename <- instances_filename
+                    files <- searchFile(filename, here('benchmarks', 'instances'))
                 }
                 else{
-                    files <- searchFile(paste0(instances_filename, '.', extension), here('benchmarks', 'instances'))
+                    filename <- paste0(instances_filename, '.', extension)
+                    files <- searchFile(filename, here('benchmarks', 'instances'))
                 }
-                necesary_file <- c()
 
-                print(paste('files', files))
-                print('for///////////////////////////////////////////')
+                necesary_file <- c()
+                
                 for(j in 1:length(files)){
                     if(length(grep('training', head_filename)) > 0){
                         necesary_file <- files[j]
@@ -100,15 +102,24 @@ standarize_routes <- function(){
                         }
                     }
                 }
-                print(necesary_file)
-                if(length(necesary_file) == 0 || is.null(necesary_file) || is.na(necesary_file) || length(necesary_file) > 1){
-                    break
-                }
             }
 
-            
+            if(length(necesary_file) == 0 || is.null(necesary_file) || is.na(necesary_file)){
+                files_not_found <- c(files_not_found, filename)
+            }else if(length(necesary_file) > 1){
+                print('many')
+            }else{
+                necesary_file <- strsplit(necesary_file, 'instances')[[1]][2]
+                print(necesary_file)
+                replaceFileLinesInstances(head_filename, necesary_file)
+            }
         }
+
+        
+        setTxtProgressBar(pb, i)
     }
+
+    print(files_not_found)
 
     return(TRUE)
 }

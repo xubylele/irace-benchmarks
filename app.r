@@ -1,5 +1,5 @@
 ## install dependencies
-    packages <- c("shiny", "xfun", "shiny.router", "shinydashboard", "dashboardthemes", "shinyBS", "shinyjs", "htmltools", "DT", "irace", "cli", "mise", "here")
+    packages <- c("shiny", "xfun", "shiny.router", "shinydashboard", "dashboardthemes", "shinyBS", "shinyjs", "htmltools", "DT", "irace", "cli", "mise", "here", 'R.utils')
     for(p in packages){
         print(p)
         if(!require(p,character.only = TRUE))

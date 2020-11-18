@@ -51,3 +51,20 @@
     files <- list.files(folderName, fileName, recursive=TRUE, full.names= TRUE, include.dirs=TRUE)
     return(files)
   }
+
+## replace file line
+  replaceFileLinesInstances <- function(fileName, fileLine){
+        
+    conn <- file(fileName,open="r")
+    linn <-readLines(conn)
+    object = c()
+
+    for (j in 1:length(linn)){
+      line <- strsplit(linn[j], ": ")
+      #print(paste(line[[1]][1], fileLine))
+    }
+
+    
+    close(conn)
+    return(object)
+  }
