@@ -1,7 +1,7 @@
 ## function to read lines of txt files
-  readFileLines <- function(fileName){
+  readFileLines <- function(filename){
     
-    conn <- file(fileName,open="r")
+    conn <- file(filename,open="r")
     linn <-readLines(conn)
     object = c()
 
@@ -16,15 +16,15 @@
   }
 
 ## function to read lines isntances files
-  readFileLinesInstances <- function(fileName){
+  readFileLinesInstances <- function(filename){
         
-    conn <- file(fileName,open="r")
+    conn <- file(filename,open="r")
     linn <-readLines(conn)
     object = c()
 
     for (j in 1:length(linn)){
       line <- strsplit(linn[j], ": ")
-      object[[j]] = list(line[[1]][1], fileName)
+      object[[j]] = list(line[[1]][1], filename)
     }
 
     
@@ -47,22 +47,31 @@
   }
 
 ## get non alphanumeric characters
-  searchFile <- function(fileName, folderName){
-    files <- list.files(folderName, fileName, recursive=TRUE, full.names= TRUE, include.dirs=TRUE)
+  searchFile <- function(filename, folderName){
+    files <- list.files(folderName, filename, recursive=TRUE, full.names= TRUE, include.dirs=TRUE)
     return(files)
   }
 
 ## replace file line
-  replaceFileLinesInstances <- function(fileName, fileLine){
+  replaceFileLinesInstances <- function(filename, fileline){
         
-    conn <- file(fileName,open="r")
+    conn <- file(filename,open="r")
     linn <-readLines(conn)
     object = c()
 
     for (j in 1:length(linn)){
-      line <- strsplit(linn[j], ": ")
-      #print(paste(line[[1]][1], fileLine))
+      if(linn[j] == fileline)
+        break
+        
+      line <- strsplit(linn[j], "instances")[[1]]
+      if(length(line) > 1){
+        if(tail(line, 1) == fileline){
+          linn[j] <- fileline
+        }
+      }
     }
+
+    writeLines(linn, filename)
 
     
     close(conn)

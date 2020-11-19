@@ -5,16 +5,15 @@ functions <- here("sources", "functions.r")
 source(functions)
 
 standarize_routes <- function(){
+    print('It may take a while...')
     instances_read <- here("sources", "read_instances.r")
     source(instances_read)
 
     instances_filenames <- c()
     
     instancesDescriptors <- getInstancesDescriptors()
-    print(instancesDescriptors)
     for(i in 1:length(instancesDescriptors)){
         trainingFiles <- getTrainingInstances(instancesDescriptors[i])
-        print(trainingFiles)
         testingFiles <- getTestingInstances(instancesDescriptors[i])
         instancesFiles <- getNonTrainingAndTestingFiles(instancesDescriptors[i])
 
@@ -43,6 +42,7 @@ standarize_routes <- function(){
     pb <- txtProgressBar(min = 0, max = length(instances_filenames), style = 3)
     
     for(i in 1:length(instances_filenames)){
+        print(i)
 
         head_filename <- instances_filenames[i][[1]][[2]]
 
@@ -64,28 +64,31 @@ standarize_routes <- function(){
 
 
                 split_by_colon <- strsplit(instance_name_separated[2], ':')[[1]]
-                extension <- c()
+                extension <- instance_name_separated[2]
+                extension_clean <- c()
 
                 if(length(split_by_colon) > 0){
-                    extension <- split_by_colon[1]
+                    extension_clean <- split_by_colon[1]
                 }else{
-                    extension <- split_by_colon
+                    extension_clean <- split_by_colon
                 }
 
-                extension_separated_by_space <- strsplit(extension, " ")[[1]]
+                extension_separated_by_space <- strsplit(extension_clean, " ")[[1]]
 
                 if(length(extension_separated_by_space) > 0){
-                    extension <- extension_separated_by_space[1]
+                    extension_clean <- extension_separated_by_space[1]
                 }
                 
                 filename <- c()
-                if(is.na(extension)){
-                    filename <- instances_filename
-                    files <- searchFile(filename, here('benchmarks', 'instances'))
+                clean_filename <- c()
+                if(is.na(extension_clean)){
+                    clean_filename <- instances_filename
+                    files <- searchFile(clean_filename, here('benchmarks', 'instances'))
                 }
                 else{
+                    clean_filename <- paste0(instances_filename, '.', extension_clean)
                     filename <- paste0(instances_filename, '.', extension)
-                    files <- searchFile(filename, here('benchmarks', 'instances'))
+                    files <- searchFile(clean_filename, here('benchmarks', 'instances'))
                 }
 
                 necesary_file <- c()
@@ -108,10 +111,18 @@ standarize_routes <- function(){
                 files_not_found <- c(files_not_found, filename)
             }else if(length(necesary_file) > 1){
                 print('many')
-            }else{
+            }else if(!(length(necesary_file) == 0 || is.null(necesary_file) || is.na(necesary_file))){
                 necesary_file <- strsplit(necesary_file, 'instances')[[1]][2]
-                print(necesary_file)
-                replaceFileLinesInstances(head_filename, necesary_file)
+                necesary_file_split <- strsplit(necesary_file, '/')[[1]]
+                final_file <- c()
+                for(k in 1:length(necesary_file_split)){
+                    if(k == length(necesary_file_split)){
+                        final_file <- c(paste0(final_file, filename))
+                    }else{
+                        final_file <- c(paste0(final_file, necesary_file_split[k], '/'))
+                    }
+                }
+                replaceFileLinesInstances(head_filename, final_file)
             }
         }
 

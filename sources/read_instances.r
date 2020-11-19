@@ -66,7 +66,7 @@
                 if(length(trainingFiles) == 0 && length(testingFiles) == 0){
 
                     subfolders <- list.files(instances_foldernames[i], pattern = '', full.names = TRUE)
-                    for(j in 1:length(instances_foldernames[i])){
+                    for(j in 1:length(subfolders)){
                         trainingFiles <- c(trainingFiles, list.files(subfolders[j], pattern = '.*training.*\\.txt$', full.names = TRUE))
                     }
 
