@@ -57,6 +57,7 @@
 
 ## get training instances from descriptor
     getTrainingInstances <- function(descriptor_name){
+        trainingFiles <- c()
         for(i in 1:length(instances_foldernames)){
             if(tail(strsplit(instances_foldernames[i], '/')[[1]], 1) == descriptor_name){
 
@@ -78,6 +79,7 @@
 
 # get testing instances from descriptor
     getTestingInstances <- function(descriptor_name){
+        testingFiles <- c()
         for(i in 1:length(instances_foldernames)){
             if(tail(strsplit(instances_foldernames[i], '/')[[1]], 1) == descriptor_name){
 
@@ -88,7 +90,7 @@
 
                     subfolders <- list.files(instances_foldernames[i], pattern = '', full.names = TRUE)
                     for(j in 1:length(instances_foldernames[i])){
-                        testingFiles <- c(testingFiles, list.files(subfolders[j], pattern = '.*training.*\\.txt$', full.names = TRUE))
+                        testingFiles <- c(testingFiles, list.files(subfolders[j], pattern = '.*testing.*\\.txt$', full.names = TRUE))
                     }
 
                 }

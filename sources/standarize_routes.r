@@ -17,21 +17,21 @@ standarize_routes <- function(){
         testingFiles <- getTestingInstances(instancesDescriptors[i])
         instancesFiles <- getNonTrainingAndTestingFiles(instancesDescriptors[i])
 
-        for(i in 1:length(trainingFiles)){
-            if(length(trainingFiles[i]) > 0 && !is.na(trainingFiles[i])){
-                instances_filenames <- c(instances_filenames, readFileLinesInstances(trainingFiles[i]))
+        for(j in 1:length(trainingFiles)){
+            if(length(trainingFiles[j]) > 0 && !is.na(trainingFiles[j])){
+                instances_filenames <- c(instances_filenames, readFileLinesInstances(trainingFiles[j]))
             }
         }
 
-        for(i in 1:length(testingFiles)){
-            if(length(testingFiles[i]) > 0 && !is.na(testingFiles[i])){
-                instances_filenames <- c(instances_filenames, readFileLinesInstances(testingFiles[i]))
+        for(j in 1:length(testingFiles)){
+            if(length(testingFiles[j]) > 0 && !is.na(testingFiles[j])){
+                instances_filenames <- c(instances_filenames, readFileLinesInstances(testingFiles[j]))
             }
         }
 
-        for(i in 1:length(instancesFiles)){
-            if(length(instancesFiles[i]) > 0 && !is.na(instancesFiles[i])){
-                instances_filenames <- c(instances_filenames, readFileLinesInstances(instancesFiles[i]))
+        for(j in 1:length(instancesFiles)){
+            if(length(instancesFiles[j]) > 0 && !is.na(instancesFiles[j])){
+                instances_filenames <- c(instances_filenames, readFileLinesInstances(instancesFiles[j]))
             }
         }
 
@@ -41,10 +41,10 @@ standarize_routes <- function(){
 
     pb <- txtProgressBar(min = 0, max = length(instances_filenames), style = 3)
     
-    for(i in 1:length(instances_filenames)){
-        print(i)
+    for(i in 4000:length(instances_filenames)){
 
         head_filename <- instances_filenames[i][[1]][[2]]
+        print(paste(i, head_filename))
 
         if(!(is.na(head_filename) || head_filename == '')){
 
