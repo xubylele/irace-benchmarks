@@ -96,3 +96,22 @@ searchScenario <- function(scenario_name){
         }
     }
 }
+
+list_scenarios <- function(){
+    cat('\n')
+    cli_ol()
+    scenarios <- getScenariosList()
+    for(i in 1:length(scenarios)){
+        cli_li(paste0('Scenario ', i, ':'))
+        ulid <- cli_ul()
+        cli_li(paste('Name:', scenarios[[i]][[1]][[2]]))
+        cli_li(paste('Files:', scenarios[[i]][[2]][[2]]))
+        cli_li(paste('Targets:', scenarios[[i]][[3]][[2]]))
+        cli_li(paste('Parameters:', scenarios[[i]][[4]][[2]]))
+        cli_li(paste('Instances:', scenarios[[i]][[5]][[2]]))
+        cli_li(paste('Descriptors:', scenarios[[i]][[6]][[2]]))
+        cli_end(ulid)
+        cat('\n')
+    }
+    cli_end()
+}

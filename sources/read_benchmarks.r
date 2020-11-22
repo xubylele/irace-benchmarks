@@ -77,6 +77,7 @@ searchBenchmark <- function(benchmark_name){
             return(benchmark)
         }
     }
+    return(NULL)
 }
 
 list_benchmarks <- function(){
@@ -95,4 +96,37 @@ list_benchmarks <- function(){
         cat('\n')
     }
     cli_end()
+}
+
+search_benchmark_console <- function(){
+    mise()
+    cli_alert('Please enter the name of the benchmark or "return" to get back to main menu')
+    repeat{
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                print('return')
+                break
+            }
+
+            benchmark <- searchBenchmark(user_input)
+            if(length(benchmark) == 0){
+                cli_alert_danger("Please, write a valid benchmark name")
+            }else{
+                ulid <- cli_ul()
+                cli_li(paste('Name:', benchmark[1]))
+                cli_li(paste('Description:', benchmark[2]))
+                cli_li(paste('Size:', benchmark[3]))
+                cli_li(paste('Scenarios:', benchmark[4]))
+                cli_li(paste('Descriptors:', benchmark[5]))
+                cli_end(ulid)
+                cat('\n')
+                break
+            }
+        }else{
+            cli_alert_danger("Please, write a benchmark name")
+        }
+    }
 }

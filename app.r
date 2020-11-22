@@ -29,18 +29,32 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
     help <- function(){
         mise()
         cli_h2("Command List")
+        
+        cli_h3("General Commands")
         cli_alert("Generate web interface: web")
-        cli_alert("Compress intances files: compress_files")
-        cli_alert("Standarize intances files: standarize_files")
-        cli_alert("List benchmarks: list_benchmarks")
         cli_alert("Clear screen: cls")
         cli_alert("Exit: exit")
+
+
+        cli_h3("Benchmarks Commands")
+        cli_alert("List benchmarks: list_benchmarks")
+        cli_alert("Search Benchmarks: search_benchmarks")
+
+        cli_h3("Scenario Commnands")
+        cli_alert("List scenarios: list_scenarios")
+        
+        cli_h3("Instances Commands")
+        cli_alert("Compress intances files: compress_files")
+        cli_alert("Standarize intances files: standarize_files")
+        
         wait_for_user()
     }
 
 ## wait for user input function
     wait_for_user <- function(){
         repeat{
+            mise()
+            cli_alert("Read the command list typing help")
             cat('\n> ')
             user_input <- readLines("stdin",n=1);
             if(user_input != ""){
@@ -75,10 +89,21 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
                     list_benchmarks()
                     wait_for_user()
 
+                }else if(user_input == "search_benchmark"){
+
+                    source(here("sources", "read_benchmarks.r"))
+                    search_benchmark_console()
+                    wait_for_user()
+
+                }else if(user_input == "list_scenarios"){
+
+                    source(here("sources", "read_scenarios.r"))
+                    list_scenarios()
+                    wait_for_user()
+                
                 }else if(user_input == "cls"){
 
                     mise()
-                    cli_alert("Read the command list typing help")
                     wait_for_user()
                 
                 
@@ -95,13 +120,11 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
 ## main function
     main <- function(){
         args<-commandArgs(TRUE)
-        mise(vars = FALSE, figs = FALSE)
         
         if(length(args) > 0)
             readCommands(args)
 
         cli_h1("Welcome to IRACE benchmarks library")
-        cli_alert("Read the command list typing help")
 
         wait_for_user()
 
