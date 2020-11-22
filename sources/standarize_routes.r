@@ -41,56 +41,18 @@ standarize_routes <- function(){
 
     pb <- txtProgressBar(min = 0, max = length(instances_filenames), style = 3)
     
-    for(i in 4000:length(instances_filenames)){
+    for(i in 1:length(instances_filenames)){
 
         head_filename <- instances_filenames[i][[1]][[2]]
-        print(paste(i, head_filename))
 
         if(!(is.na(head_filename) || head_filename == '')){
 
-            instance_name_separated <- strsplit(instances_filenames[i][[1]][[1]], '[.]')[[1]]
+            instance_complete_filename <- strsplit(instances_filenames[i][[1]][[1]], '[.]')[[1]]
 
-            if(!(is.na(instance_name_separated) || instance_name_separated == '' || instance_name_separated == "  ")){
-                instance_name_separated_by_slash <- strsplit(instance_name_separated, '/')[[1]]
+            filename <- getClearFilename(instance_complete_filename)
 
-                instances_filename <- c()
-                index <- c()
-
-                if(length(instance_name_separated_by_slash) > 0){
-                    instances_filename <- tail(instance_name_separated_by_slash,1)   
-                }else{
-                    instances_filename <- instance_name_separated[1]
-                }
-
-
-                split_by_colon <- strsplit(instance_name_separated[2], ':')[[1]]
-                extension <- instance_name_separated[2]
-                extension_clean <- c()
-
-                if(length(split_by_colon) > 0){
-                    extension_clean <- split_by_colon[1]
-                }else{
-                    extension_clean <- split_by_colon
-                }
-
-                extension_separated_by_space <- strsplit(extension_clean, " ")[[1]]
-
-                if(length(extension_separated_by_space) > 0){
-                    extension_clean <- extension_separated_by_space[1]
-                }
-                
-                filename <- c()
-                clean_filename <- c()
-                if(is.na(extension_clean)){
-                    clean_filename <- instances_filename
-                    files <- searchFile(clean_filename, here('benchmarks', 'instances'))
-                }
-                else{
-                    clean_filename <- paste0(instances_filename, '.', extension_clean)
-                    filename <- paste0(instances_filename, '.', extension)
-                    files <- searchFile(clean_filename, here('benchmarks', 'instances'))
-                }
-
+            if(length(filename) > 0){
+                files <- searchFile(filename, here('benchmarks', 'instances'))
                 necesary_file <- c()
                 
                 for(j in 1:length(files)){

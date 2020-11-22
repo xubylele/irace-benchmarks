@@ -1,5 +1,5 @@
 ## install dependencies
-    packages <- c("shiny", "xfun", "shiny.router", "shinydashboard", "dashboardthemes", "shinyBS", "shinyjs", "htmltools", "DT", "irace", "cli", "mise", "here", 'R.utils')
+    packages <- c("shiny", "xfun", "shiny.router", "shinydashboard", "dashboardthemes", "shinyBS", "shinyjs", "htmltools", "DT", "irace", "cli", "mise", "here", 'zip', 'R.utils')
     for(p in packages){
         print(p)
         if(!require(p,character.only = TRUE))
@@ -12,7 +12,6 @@ library(mise)
 library(here)
 
 compress_instances_dir <- here("sources", "compress_instances.r")
-source(compress_instances_dir)
 standarize_routes_dir <- here("sources", "standarize_routes.r")
 
 
@@ -31,7 +30,7 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
         mise()
         cli_h2("Command List")
         cli_alert("Generate web interface: web")
-        cli_alert("Compress intances files: compress_instances")
+        cli_alert("Compress intances files: compress_files")
         cli_alert("Standarize intances files: standarize_files")
         cli_alert("Exit: exit")
         wait_for_user()
@@ -53,8 +52,8 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
                     source(dir)
                     wait_for_user()
 
-                }else if(user_input == "compress_instances"){
-
+                }else if(user_input == "compress_files"){
+                    source(compress_instances_dir)
                     if(compress_instances()){
                         cli_alert_success("Instances compressed successfully.")
                         wait_for_user()
@@ -64,6 +63,7 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
 
                     source(standarize_routes_dir)
                     if(standarize_routes()){
+                        cli_alert_success("Instances filenames standarized successfully.")
                         wait_for_user()
                     }
 

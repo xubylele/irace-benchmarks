@@ -31,6 +31,23 @@
     close(conn)
     return(object)
   }
+
+## function to read lines isntances files
+  readFileLines <- function(filename){
+        
+    conn <- file(filename,open="r")
+    linn <-readLines(conn)
+    object = c()
+
+    for (j in 1:length(linn)){
+      line <- linn[j]
+      object[[j]] = list(line[[1]][1])
+    }
+
+    
+    close(conn)
+    return(object)
+  }
   
 ## shiny inputs, to add action buttons to datatables
   shinyInput <- function(FUN, len, id, strings_id,...) {
@@ -46,9 +63,16 @@
     sprintf(paste('<button>', type,'</button>'))
   }
 
-## get non alphanumeric characters
+## search file
   searchFile <- function(filename, folderName){
     files <- list.files(folderName, filename, recursive=TRUE, full.names= TRUE, include.dirs=TRUE)
+    return(files)
+  }
+
+
+## search file
+  searchFileNotComplete <- function(filename, folderName){
+    files <- list.files(folderName, filename, recursive=TRUE, full.names= FALSE, include.dirs=TRUE)
     return(files)
   }
 
@@ -76,4 +100,50 @@
     
     close(conn)
     return(object)
+  }
+
+## get clear filename
+  getClearFilename <- function(instance_name_separated){
+
+    if(!(is.na(instance_name_separated) || instance_name_separated == '' || instance_name_separated == "  ")){
+      instance_name_separated_by_slash <- strsplit(instance_name_separated, '/')[[1]]
+
+      instances_filename <- c()
+      index <- c()
+
+      if(length(instance_name_separated_by_slash) > 0){
+          instances_filename <- tail(instance_name_separated_by_slash,1)   
+      }else{
+          instances_filename <- instance_name_separated[1]
+      }
+
+
+      split_by_colon <- strsplit(instance_name_separated[2], ':')[[1]]
+      extension <- instance_name_separated[2]
+      extension_clean <- c()
+
+      if(length(split_by_colon) > 0){
+          extension_clean <- split_by_colon[1]
+      }else{
+          extension_clean <- split_by_colon
+      }
+
+      extension_separated_by_space <- strsplit(extension_clean, " ")[[1]]
+
+      if(length(extension_separated_by_space) > 0){
+          extension_clean <- extension_separated_by_space[1]
+      }
+      
+      filename <- c()
+      clean_filename <- c()
+      if(is.na(extension_clean)){
+          filename <- instances_filename
+      }
+      else{
+          clean_filename <- paste0(instances_filename, '.', extension_clean)
+          filename <- paste0(instances_filename, '.', extension)
+      }
+      return(filename)
+    }
+    return(NULL)
   }
