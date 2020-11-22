@@ -65,7 +65,7 @@ getBenchmarksList <- function(){
         fileName <- benchmarks_filenames[i]
 
 
-        benchmarks_list[[i]] <- c(readFileLines(fileName))
+        benchmarks_list[[i]] <- c(readFileLinesSeparatedByColon(fileName))
     }
     return(benchmarks_list)
 }
@@ -77,4 +77,22 @@ searchBenchmark <- function(benchmark_name){
             return(benchmark)
         }
     }
+}
+
+list_benchmarks <- function(){
+    cat('\n')
+    cli_ol()
+    benchmarks <- getBenchmarksList()
+    for(i in 1:length(benchmarks)){
+        cli_li(paste0('Benchmark ', i, ':'))
+        ulid <- cli_ul()
+        cli_li(paste('Name:', benchmarks[[i]][[1]][[2]]))
+        cli_li(paste('Description:', benchmarks[[i]][[2]][[2]]))
+        cli_li(paste('Size:', benchmarks[[i]][[3]][[2]]))
+        cli_li(paste('Scenarios:', benchmarks[[i]][[4]][[2]]))
+        cli_li(paste('Descriptors:', benchmarks[[i]][[5]][[2]]))
+        cli_end(ulid)
+        cat('\n')
+    }
+    cli_end()
 }

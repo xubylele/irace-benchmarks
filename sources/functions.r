@@ -1,5 +1,5 @@
 ## function to read lines of txt files
-  readFileLines <- function(filename){
+  readFileLinesSeparatedByColon <- function(filename){
     
     conn <- file(filename,open="r")
     linn <-readLines(conn)

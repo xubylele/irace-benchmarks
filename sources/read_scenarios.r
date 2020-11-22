@@ -82,7 +82,7 @@ getScenariosList <- function(){
         fileName <- scenarios_filenames[i]
 
 
-        scenarios[[i]] <- c(readFileLines(fileName))
+        scenarios[[i]] <- c(readFileLinesSeparatedByColon(fileName))
     }
     return(scenarios)
 }

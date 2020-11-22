@@ -32,6 +32,8 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
         cli_alert("Generate web interface: web")
         cli_alert("Compress intances files: compress_files")
         cli_alert("Standarize intances files: standarize_files")
+        cli_alert("List benchmarks: list_benchmarks")
+        cli_alert("Clear screen: cls")
         cli_alert("Exit: exit")
         wait_for_user()
     }
@@ -67,6 +69,19 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
                         wait_for_user()
                     }
 
+                }else if(user_input == "list_benchmarks"){
+
+                    source(here("sources", "read_benchmarks.r"))
+                    list_benchmarks()
+                    wait_for_user()
+
+                }else if(user_input == "cls"){
+
+                    mise()
+                    cli_alert("Read the command list typing help")
+                    wait_for_user()
+                
+                
                 }else if(user_input == "exit"){
 
                     quit()
