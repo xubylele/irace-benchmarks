@@ -115,3 +115,37 @@ list_scenarios <- function(){
     }
     cli_end()
 }
+
+search_scenario_console <- function(){
+    mise()
+    cli_alert('Please enter the name of the scenario or "return" to get back to main menu')
+    repeat{
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                print('return')
+                break
+            }
+
+            scenario <- searchScenario(user_input)
+            if(length(scenario) == 0){
+                cli_alert_danger("Please, write a valid scenario name")
+            }else{
+                ulid <- cli_ul()
+                cli_li(paste('Name:', scenario[1]))
+                cli_li(paste('Files:', scenario[2]))
+                cli_li(paste('Targets:', scenario[3]))
+                cli_li(paste('Parameters:', scenario[4]))
+                cli_li(paste('Instances:', scenario[5]))
+                cli_li(paste('Descriptors:', scenario[6]))
+                cli_end(ulid)
+                cat('\n')
+                break
+            }
+        }else{
+            cli_alert_danger("Please, write a scenario name")
+        }
+    }
+}

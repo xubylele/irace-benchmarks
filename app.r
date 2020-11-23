@@ -53,7 +53,6 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
 ## wait for user input function
     wait_for_user <- function(){
         repeat{
-            mise()
             cli_alert("Read the command list typing help")
             cat('\n> ')
             user_input <- readLines("stdin",n=1);
@@ -93,6 +92,12 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
 
                     source(here("sources", "read_benchmarks.r"))
                     search_benchmark_console()
+                    wait_for_user()
+
+                }else if(user_input == "search_scenario"){
+
+                    source(here("sources", "read_scenarios.r"))
+                    search_scenario_console()
                     wait_for_user()
 
                 }else if(user_input == "list_scenarios"){
