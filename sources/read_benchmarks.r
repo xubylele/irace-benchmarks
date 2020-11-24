@@ -107,7 +107,6 @@ search_benchmark_console <- function(){
         if(user_input != ""){
 
             if(user_input == 'return'){
-                print('return')
                 break
             }
 

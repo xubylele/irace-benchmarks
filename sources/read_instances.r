@@ -130,3 +130,51 @@
         }
         return(count)
     }
+
+
+list_instances <- function(){
+    cat('\n')
+    cli_ol()
+    descriptors <- getInstancesDescriptors()
+    for(i in 1:length(descriptors)){
+        cli_li(descriptors[i])
+    }
+    cli_end()
+    cat('\n')
+
+    cli_alert('Please enter the number of the descriptor to inspect the instances sets or "return" to get back to main menu')
+    repeat{
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        
+
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                break
+            }
+
+            user_input <- strtoi(user_input)
+            if(!is.na(user_input)){
+                if(user_input > length(descriptors) || user_input == 0 || user_input < 1){
+                    cli_alert_danger("Please, write a valid number of descriptors")
+                }else{
+                    descriptor_sets <- searchInstanceDescriptorSets(descriptors[user_input])
+                    cli_ol()
+                    for(i in 1:length(descriptor_sets)){
+                        cli_li(descriptor_sets[i])
+                    }
+                    cli_end()
+                    cat('\n')
+                    break
+                }
+
+            }else{
+                cli_alert_danger("Please, write a number")
+            }
+            
+        }else{
+            cli_alert_danger("Please, write a number")
+        }
+    }
+}

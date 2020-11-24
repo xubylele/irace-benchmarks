@@ -38,12 +38,14 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
 
         cli_h3("Benchmarks Commands")
         cli_alert("List benchmarks: list_benchmarks")
-        cli_alert("Search Benchmarks: search_benchmarks")
+        cli_alert("Search benchmarks: search_benchmarks")
 
         cli_h3("Scenario Commnands")
         cli_alert("List scenarios: list_scenarios")
+        cli_alert("Search scenario: search_scenario")
         
         cli_h3("Instances Commands")
+        cli_alert("List instances: list_instances")
         cli_alert("Compress intances files: compress_files")
         cli_alert("Standarize intances files: standarize_files")
         
@@ -104,6 +106,12 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
 
                     source(here("sources", "read_scenarios.r"))
                     list_scenarios()
+                    wait_for_user()
+                
+                }else if(user_input == "list_instances"){
+
+                    source(here("sources", "read_instances.r"))
+                    list_instances()
                     wait_for_user()
                 
                 }else if(user_input == "cls"){
