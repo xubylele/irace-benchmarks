@@ -10,5 +10,15 @@ source(functions)
 ### read parameters data
 get_targets <- function(){
     targets_foldernames <- unique(dirname(list.files(targets_dir,rec=T)))
-    return (targets_foldernames)
+
+    targets <- c()
+
+    for(i in 1:length(targets_foldernames)){
+        split_by_slash <- strsplit(targets_foldernames[i], '/')[[1]]
+
+        if(length(split_by_slash) == 1){
+            targets <- c(targets, targets_foldernames[i])
+        }
+    }
+    return (targets)
 }
