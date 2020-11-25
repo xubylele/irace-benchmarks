@@ -5,6 +5,8 @@ library(here)
 source(here("sources", "read_scenarios.r"))
 source(here("sources", "read_benchmarks.r"))
 source(here("sources", "read_instances.r"))
+source(here("sources", "read_parameters.r"))
+source(here("sources", "read_targets.r"))
 source(here("sources", "functions.r"))
 
 ## about tab
@@ -149,42 +151,6 @@ source(here("sources", "functions.r"))
 
     change_page('about')
 
-    
-
-    ### read parameters data
-      parameters_foldernames <- list.files('../benchmarks/target', pattern = '', full.names = TRUE)
-
-      parameters <- list()
-
-      for(i in 1:length(parameters_foldernames))
-      {
-        folderName <- parameters_foldernames[i]
-        scenarios_foldernames <- list.files(folderName, pattern = '', full.names = TRUE)
-        for(j in 1:length(scenarios_foldernames)){
-          scenarios_filenames <- list.files(scenarios_foldernames[j], pattern = '*.txt', full.names = TRUE)
-          parameter_per_folder = list()
-          for(k in 1:length(scenarios_filenames)){
-            fileName <- scenarios_filenames[k]
-            if(!is.na(fileName) && !length(fileName) == 0){
-              if(grepl("parameters", fileName)){
-                parameter_per_folder[k] = fileName
-              }
-            }
-          }
-          if(length(parameter_per_folder) > 0){
-            parameters <- c(parameters, parameter_per_folder)
-          }
-        }
-      }
-
-    ## read targets data
-      targets_foldernames <- list.files('../benchmarks/target', pattern = '', full.names = TRUE)
-      targets <- list()
-
-      for(i in 1:length(targets_foldernames)){
-        targets <- c(targets, strsplit(targets_foldernames[i], '/')[[1]][4])
-      }
-
     ## benchmark dataframe
       benchmark_dt <- data.frame(
         Name = getBenchmarksNames(),
@@ -215,14 +181,13 @@ source(here("sources", "functions.r"))
 
     ## parameters dataframe
       parameters_dt <- data.frame(
-        File = parameters[[1]],
-        Options = shinyInput(actionButton, length(parameters), 'button#', parameters,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)')
+        File = get_parameter_sets()
       )
 
     ## targets dataframe
       targets_dt <- data.frame(
-        Name = targets,
-        Options = shinyInput(actionButton, length(targets), 'button#', targets,label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)')
+        Name = get_targets(),
+        Options = shinyInput(actionButton, length(get_targets()), 'button#', get_targets(),label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)')
       )
     ## output table benchmark
       output$benchmark_list <- DT::renderDataTable(benchmark_dt,
@@ -305,7 +270,7 @@ source(here("sources", "functions.r"))
         extensions = 'Buttons',
         options = list(
           autoWidth = FALSE,
-          columnDefs = list(list(className = 'dt-center', targets = 0:2)),
+          columnDefs = list(list(className = 'dt-center', targets = 0:1)),
           dom = 'Bfrtip',
           buttons = c('copy', 'csv', 'pdf'),
           initComplete = JS(
@@ -340,15 +305,20 @@ source(here("sources", "functions.r"))
     ## evenet handle
       observeEvent(input$select_button, {
         if (is_page("benchmarks")) {
+
           change_page("benchmarks_details")
           loadBenchmarkDetails(strsplit(input$select_button, "#")[[1]][2])
 
         }else if(is_page("scenarios") || is_page("benchmarks_details")){
+
           change_page("scenario_details")
           loadScenarioDetails(strsplit(input$select_button, "#")[[1]][2])
+
         }else if(is_page("instances")){
+
           change_page("instances_descriptor_details")
           loadInstancesDescriptorDetails(strsplit(input$select_button, "#")[[1]][2])
+
         } else {
           showModal(modalDialog(
             title = "DETAILS",

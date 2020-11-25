@@ -129,3 +129,69 @@ search_benchmark_console <- function(){
         }
     }
 }
+
+addBenchmark <- function(){
+
+    cli_h2('Actual benchmark list')
+    list_benchmarks()
+
+    new_benchmark <- c()
+    
+    cli_alert('Please enter the name of the new benchmark or "return" to get back to main menu (All changues would be deleted)')
+
+
+    repeat{
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                return()
+            }
+
+            benchmark <- searchBenchmark(user_input)
+            if(length(benchmark) > 0){
+                cli_alert_danger(paste(user_input, 'benchmark already exists'))
+            }else{
+                new_benchmark[1] <- user_input
+                cat('\n')
+                break
+            }
+        }else{
+            cli_alert_danger("Please, write a benchmark name")
+        }
+    }
+
+
+    cli_alert('Please enter the description of the new benchmark or "return" to get back to main menu (All changues would be deleted)')
+
+
+    repeat{
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                return()
+            }
+
+            
+            new_benchmark[2] <- user_input
+            cat('\n')
+            break
+        
+        }else{
+            cli_alert_danger("Please, write a benchmark description")
+        }
+    }
+
+
+    cli_alert('Please select the scenarios you would like to add to this benchmark or "return" to get back to main menu (All changues would be deleted)')
+    cli_alert("Current scenarios")
+
+    source(here("sources", "read_scenarios.r"))
+    
+
+    
+
+}

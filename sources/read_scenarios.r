@@ -116,6 +116,27 @@ list_scenarios <- function(){
     cli_end()
 }
 
+list_scenarios_by_name <- function(){
+    cat('\n')
+    cli_ol()
+    scenarios <- getScenariosNames()
+    for(i in 1:length(scenarios)){
+        cli_li(paste0('Scenario ', i, ': ', scenarios[i]))
+    }
+    cli_end()
+}
+
+add_scenarios <- function(){
+
+    cli_alert('List of currect scenarios')
+    list_scenarios_by_name()
+
+    scenarios <- c()
+
+    
+
+}
+
 search_scenario_console <- function(){
     mise()
     cli_alert('Please enter the name of the scenario or "return" to get back to main menu')

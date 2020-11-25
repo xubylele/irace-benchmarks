@@ -40,11 +40,13 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
         cli_h3("Benchmarks Commands")
         cli_alert("List benchmarks: list_benchmarks")
         cli_alert("Search benchmarks: search_benchmarks")
+        cli_alert("Add new benchmark: add_benchmark")
 
         cli_h3("Scenario Commnands")
         cli_alert("List scenarios: list_scenarios")
         cli_alert("Search scenario: search_scenario")
         cli_alert("Run scenario on IRACE: run_scenario")
+        cli_alert("Add scenario to benchmark: add_scenario")
         
         cli_h3("Instances Commands")
         cli_alert("List instances: list_instances")
@@ -59,6 +61,7 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
         repeat{
             cat('\n')
             cat('\n')
+            cli_h1("Main Menu")
             cli_alert("Read the command list typing help")
             cat('\n> ')
             user_input <- readLines("stdin",n=1);
@@ -122,6 +125,17 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
                     list_scenarios()
                     wait_for_user()
                 
+                }else if(user_input == 'add_benchmark'){
+
+                    mise()
+                    source(here("sources", "read_benchmarks.r"))
+                    addBenchmark()
+                    wait_for_user()
+
+                }else if(user_input == 'add_scenario'){
+
+
+
                 }else if(user_input == "list_instances"){
 
                     mise()
