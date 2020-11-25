@@ -32,6 +32,7 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
         
         cli_h3("General Commands")
         cli_alert("Generate web interface: web")
+        cli_alert("Set IRACE folder: irace_folder")
         cli_alert("Clear screen: cls")
         cli_alert("Exit: exit")
 
@@ -43,6 +44,7 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
         cli_h3("Scenario Commnands")
         cli_alert("List scenarios: list_scenarios")
         cli_alert("Search scenario: search_scenario")
+        cli_alert("Run scenario on IRACE: run_scenario")
         
         cli_h3("Instances Commands")
         cli_alert("List instances: list_instances")
@@ -55,6 +57,8 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
 ## wait for user input function
     wait_for_user <- function(){
         repeat{
+            cat('\n')
+            cat('\n')
             cli_alert("Read the command list typing help")
             cat('\n> ')
             user_input <- readLines("stdin",n=1);
@@ -72,54 +76,81 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
                 }else if(user_input == "compress_files"){
                     source(compress_instances_dir)
                     if(compress_instances()){
+                        
+                        mise()
                         cli_alert_success("Instances compressed successfully.")
                         wait_for_user()
+
                     }
 
                 }else if(user_input == "standarize_files"){
 
                     source(standarize_routes_dir)
                     if(standarize_routes()){
+                        
+                        mise()
                         cli_alert_success("Instances filenames standarized successfully.")
                         wait_for_user()
+
                     }
 
                 }else if(user_input == "list_benchmarks"){
 
+                    mise()
                     source(here("sources", "read_benchmarks.r"))
                     list_benchmarks()
                     wait_for_user()
 
                 }else if(user_input == "search_benchmark"){
 
+                    mise()
                     source(here("sources", "read_benchmarks.r"))
                     search_benchmark_console()
                     wait_for_user()
 
                 }else if(user_input == "search_scenario"){
 
+                    mise()
                     source(here("sources", "read_scenarios.r"))
                     search_scenario_console()
                     wait_for_user()
 
                 }else if(user_input == "list_scenarios"){
-
+                    
+                    mise()
                     source(here("sources", "read_scenarios.r"))
                     list_scenarios()
                     wait_for_user()
                 
                 }else if(user_input == "list_instances"){
 
+                    mise()
                     source(here("sources", "read_instances.r"))
                     list_instances()
                     wait_for_user()
                 
+                }else if(user_input == "run_scenario"){
+
+                    mise()
+                    source(here("sources","irace_run.r"))
+                    run_scenario()
+                    wait_for_user()
+
+
+
                 }else if(user_input == "cls"){
 
                     mise()
                     wait_for_user()
                 
                 
+                }else if(user_input == "irace_folder"){
+
+                    mise()
+                    source(here("sources","irace_run.r"))
+                    set_irace_folder()
+                    wait_for_user()
+
                 }else if(user_input == "exit"){
 
                     quit()
@@ -138,6 +169,11 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
             readCommands(args)
 
         cli_h1("Welcome to IRACE benchmarks library")
+
+        filename <- here('sources', 'irace_folder.txt')
+        if(!file.exists(filename)){
+            cli_alert_warning('Please set the irace folder instalation')
+        }
 
         wait_for_user()
 
