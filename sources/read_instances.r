@@ -178,3 +178,46 @@ list_instances <- function(){
         }
     }
 }
+
+search_descriptor_instance <- function(){
+
+    mise()
+    cli_alert('Please enter the name of the descriptor or "return" to get back to main menu')
+    repeat{
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                break
+            }
+
+            descriptor_instaces <- searchDescriptor(user_input)
+            if(length(descriptor_instaces) == 0){
+                cli_alert_danger("Please, write a valid descriptor name")
+            }else{
+                print(descriptor_instaces)
+                cat('\n')
+                break
+            }
+        }else{
+            cli_alert_danger("Please, write a benchmark name")
+        }
+    }
+
+}
+
+
+searchDescriptor <- function(descriptor){
+
+    descriptors <- getInstancesDescriptors()
+
+    for(i in 1:length(descriptors)){
+
+        if(descriptors[i] == descriptor){
+            return(searchInstanceDescriptorSets(descriptors))
+        }
+
+    }
+
+}

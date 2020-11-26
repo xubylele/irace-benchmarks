@@ -13,3 +13,15 @@ get_parameter_sets <- function(){
     targets_foldernames <- targets_foldernames[ grepl('parameters', targets_foldernames) ]
     return (targets_foldernames)
 }
+
+list_parameters <- function(){
+
+    cat('\n')
+    cli_ol()
+    parameters <- get_parameter_sets()
+    for(i in 1:length(parameters)){
+        print(parameters[i])
+    }
+    cli_end()
+
+}

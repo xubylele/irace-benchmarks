@@ -50,8 +50,17 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
         
         cli_h3("Instances Commands")
         cli_alert("List instances: list_instances")
+        cli_alert("Search descriptor: search_descriptor_instance")
         cli_alert("Compress intances files: compress_files")
         cli_alert("Standarize intances files: standarize_files")
+
+        cli_h3("Parameters Commands")
+        cli_alert("List parameters: list_parameters")
+        cli_alert("Search parameters: search_parameters")
+
+        cli_h3("Targets Commands")
+        cli_alert("List targets: list_targets")
+        cli_alert("Search targets: search_targets")
         
         wait_for_user()
     }
@@ -165,6 +174,41 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
                     set_irace_folder()
                     wait_for_user()
 
+                }else if(user_input == "search_descriptor_instance"){
+
+                    mise()
+                    source(here("sources", "read_instances.r"))
+                    search_descriptor_instance()
+                    wait_for_user()
+
+                }else if(user_input == "list_parameters"){
+
+                    mise()
+                    source(here("sources", "read_parameters.r"))
+                    list_parameters()
+                    wait_for_user()
+
+                }else if(user_input == 'search_parameters'){
+
+                    mise()
+                    source(here("sources", "read_parameters.r"))
+                    search_parameters()
+                    wait_for_user()
+
+                }else if(user_input == 'list_targets'){
+
+                    mise()
+                    source(here("sources", "read_targets.r"))
+                    list_targets()
+                    wait_for_user()
+
+                }else if(user_input == 'search_targets'){
+
+                    mise()
+                    source(here("sources", "read_targets.r"))
+                    search_targets()
+                    wait_for_user()
+
                 }else if(user_input == "exit"){
 
                     quit()
@@ -181,6 +225,8 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
         
         if(length(args) > 0)
             readCommands(args)
+        
+        mise()
 
         cli_h1("Welcome to IRACE benchmarks library")
 
