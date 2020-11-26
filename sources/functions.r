@@ -86,10 +86,15 @@
     for (j in 1:length(linn)){
       if(linn[j] == fileline)
         break
+
+      
         
       line <- strsplit(linn[j], "instances")[[1]]
+      filename_split <- strsplit(fileline, 'instances')[[1]]
+      
       if(length(line) > 1){
-        if(tail(line, 1) == fileline){
+        if(tail(line, 1) == tail(filename_split, 1)){
+          
           linn[j] <- fileline
         }
       }
@@ -133,6 +138,8 @@
       if(length(extension_separated_by_space) > 0){
           extension_clean <- extension_separated_by_space[1]
       }
+
+      
       
       filename <- c()
       clean_filename <- c()
@@ -141,8 +148,10 @@
       }
       else{
           clean_filename <- paste0(instances_filename, '.', extension_clean)
-          filename <- paste0(instances_filename, '.', extension)
+          filename <- clean_filename
       }
+
+      print(filename)
       return(filename)
     }
     return(NULL)

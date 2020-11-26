@@ -43,56 +43,56 @@ standarize_routes <- function(){
     
     for(i in 1:length(instances_filenames)){
 
+        files_to_change <- c()
+        
         head_filename <- instances_filenames[i][[1]][[2]]
+        filename <- instances_filenames[i][[1]][[1]]
 
-        if(!(is.na(head_filename) || head_filename == '')){
+        file_dir <- dirname(head_filename)
 
-            instance_complete_filename <- strsplit(instances_filenames[i][[1]][[1]], '[.]')[[1]]
+        split_by_dot <- strsplit(filename, '[.]')[[1]]
 
-            filename <- getClearFilename(instance_complete_filename)
+        extension <- tail(split_by_dot, 1)
 
-            if(length(filename) > 0){
-                files <- searchFile(filename, here('benchmarks', 'instances'))
-                necesary_file <- c()
+        split_by_dot <- head(split_by_dot, n = length(split_by_dot) - 1)
+
+        if(length(split_by_dot) > 0)
+        {
+            
+
+            split_by_slash <- strsplit(split_by_dot[1], '/')[[1]]
+
+            if(length(split_by_slash) > 0){
+
+                split_by_dot[1] <- tail(split_by_slash, 1)
                 
-                for(j in 1:length(files)){
-                    if(length(grep('training', head_filename)) > 0){
-                        necesary_file <- files[j]
-                    
-                    }else if(length(grep('testing', head_filename))){
-                        necesary_file <- files[j]                
-                    }else{
-                        if(length(grep('trainning', head_filename)) == 0 && length(grep('testing', head_filename)) == 0){
-                            necesary_file <- files[j]
-                        }
-                    }
-                }
             }
 
-            if(length(necesary_file) == 0 || is.null(necesary_file) || is.na(necesary_file)){
-                files_not_found <- c(files_not_found, filename)
-            }else if(length(necesary_file) > 1){
-                print('many')
-            }else if(!(length(necesary_file) == 0 || is.null(necesary_file) || is.na(necesary_file))){
-                necesary_file <- strsplit(necesary_file, 'instances')[[1]][2]
-                necesary_file_split <- strsplit(necesary_file, '/')[[1]]
-                final_file <- c()
-                for(k in 1:length(necesary_file_split)){
-                    if(k == length(necesary_file_split)){
-                        final_file <- c(paste0(final_file, filename))
-                    }else{
-                        final_file <- c(paste0(final_file, necesary_file_split[k], '/'))
-                    }
-                }
-                replaceFileLinesInstances(head_filename, final_file)
+
+            files <- list.files(file_dir, pattern=split_by_dot[1], recursive = T, full.names = T)
+
+            if(!is.na(files[1])){
+
+                split_by_dot_2 <- strsplit(files[1], '[.]')[[1]]
+
+                split_by_dot_2 <- paste0(split_by_dot_2[1], '.')
+
+                filename <- paste0(split_by_dot_2, extension)
             }
+
+            
         }
+
+        
+
+        
+
+        
+        replaceFileLinesInstances(head_filename, filename)
 
         
         setTxtProgressBar(pb, i)
     }
-
-    print(files_not_found)
 
     return(TRUE)
 }

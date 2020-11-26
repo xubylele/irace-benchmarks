@@ -70,7 +70,6 @@ run_scenario <- function(){
                 }
                 
                 scenario <- searchScenario(user_input)
-                print(scenario)
 
 
                 if(length(scenario) == 0)
@@ -78,9 +77,11 @@ run_scenario <- function(){
                 else{
                     library("irace", lib.loc=filelines)
 
-                    scenario <- irace::readScenario(here('benchmarks', scenario[2]))
+                    scenario[2] <- changue_scenario_routes(scenario[2])
+                    
+                    #scenario <- irace::readScenario(scenario[2])
 
-                    irace::irace.main(scenario = scenario)
+                    #irace::irace.main(scenario = scenario)
 
                     break
                 }
@@ -94,4 +95,30 @@ run_scenario <- function(){
         
     }
 
+}
+
+changue_scenario_routes <- function(scenario_file){
+
+    split_by_dot <- strsplit(scenario_file, '[.]')[[1]]
+
+    temp <- paste0(split_by_dot[1], '_temp.', split_by_dot[2])
+
+    temp <- here('benchmarks', temp)
+
+    scenario_file <- here('benchmarks', scenario_file)
+
+    file.copy(scenario_file, temp)
+
+
+    lines <- readFileLines(temp)
+
+    for(i in 1:length(lines)){
+        if(!lines[i] == ''){
+            print(is.character(lines[[i]][[1]]))
+            split_by_marks <- strsplit(split_by_arrow, '')[[1]]
+            print(split_by_marks)
+        }
+    }
+
+    print(lines)
 }
