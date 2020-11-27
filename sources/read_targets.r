@@ -22,3 +22,17 @@ get_targets <- function(){
     }
     return (targets)
 }
+
+listTargets <- function(){
+
+    cat('\n')
+    cli_ol()
+    targets <- get_targets()
+    for(i in 1:length(targets)){
+        
+        cli_li(targets[i])
+        
+    }
+    cli_end()
+
+}

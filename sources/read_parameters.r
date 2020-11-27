@@ -20,7 +20,9 @@ list_parameters <- function(){
     cli_ol()
     parameters <- get_parameter_sets()
     for(i in 1:length(parameters)){
-        print(parameters[i])
+        
+        cli_li(parameters[i])
+        
     }
     cli_end()
 

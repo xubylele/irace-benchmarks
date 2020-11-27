@@ -196,7 +196,11 @@ search_descriptor_instance <- function(){
             if(length(descriptor_instaces) == 0){
                 cli_alert_danger("Please, write a valid descriptor name")
             }else{
-                print(descriptor_instaces)
+                cli_ol()
+                for(i in 1:length(descriptor_instaces)){
+                    cli_li(descriptor_instaces[i])
+                }
+                cli_end()
                 cat('\n')
                 break
             }

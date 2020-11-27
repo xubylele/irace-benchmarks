@@ -188,25 +188,11 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
                     list_parameters()
                     wait_for_user()
 
-                }else if(user_input == 'search_parameters'){
-
-                    mise()
-                    source(here("sources", "read_parameters.r"))
-                    search_parameters()
-                    wait_for_user()
-
                 }else if(user_input == 'list_targets'){
 
                     mise()
                     source(here("sources", "read_targets.r"))
-                    list_targets()
-                    wait_for_user()
-
-                }else if(user_input == 'search_targets'){
-
-                    mise()
-                    source(here("sources", "read_targets.r"))
-                    search_targets()
+                    listTargets()
                     wait_for_user()
 
                 }else if(user_input == "exit"){
