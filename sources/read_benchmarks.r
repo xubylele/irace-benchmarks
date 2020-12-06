@@ -190,6 +190,8 @@ addBenchmark <- function(){
     cli_alert("Current scenarios")
 
     source(here("sources", "read_scenarios.r"))
+
+    scenario <- add_scenarios()
     
 
     

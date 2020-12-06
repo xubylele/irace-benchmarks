@@ -124,6 +124,7 @@ list_scenarios_by_name <- function(){
         cli_li(paste0('Scenario ', i, ': ', scenarios[i]))
     }
     cli_end()
+    cat('\n')
 }
 
 add_scenarios <- function(){
@@ -131,9 +132,48 @@ add_scenarios <- function(){
     cli_alert('List of currect scenarios')
     list_scenarios_by_name()
 
-    scenarios <- c()
+    scenarios <- getScenariosList()
+    scenarios_to_add <- c()
 
-    
+    cli_alert('Please enter the number of the scenario to add it to the benchmark, enter 0 to add new scenario or "return" to get back to main menu')
+    repeat{
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        
+
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                break
+            }
+
+            user_input <- strtoi(user_input)
+            if(!is.na(user_input)){
+                if(user_input > length(scenarios) || user_input < 1){
+
+                    cli_alert_danger("Please, write a valid number of scenario")
+                    
+                }else if(user_input == 0){
+
+                    
+
+                }else{
+                    print(scenarios[[user_input]][[1]][[2]])
+                    scenario <- searchScenario(scenarios[[user_input]][[1]][[2]])
+                    cli_alert(scenario[1])
+                    cat('\n')
+                    break
+                
+                }
+
+            }else{
+                cli_alert_danger("Please, write a number")
+            }
+            
+        }else{
+            cli_alert_danger("Please, write a number")
+        }
+    }
 
 }
 

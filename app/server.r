@@ -186,8 +186,7 @@ source(here("sources", "functions.r"))
 
     ## targets dataframe
       targets_dt <- data.frame(
-        Name = get_targets(),
-        Options = shinyInput(actionButton, length(get_targets()), 'button#', get_targets(),label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)')
+        Name = get_targets()
       )
     ## output table benchmark
       output$benchmark_list <- DT::renderDataTable(benchmark_dt,
@@ -291,7 +290,7 @@ source(here("sources", "functions.r"))
         extensions = 'Buttons',
         options = list(
           autoWidth = FALSE,
-          columnDefs = list(list(className = 'dt-center', targets = 0:2)),
+          columnDefs = list(list(className = 'dt-center', targets = 0:1)),
           dom = 'Bfrtip',
           buttons = c('copy', 'csv', 'pdf'),
           initComplete = JS(
