@@ -11,11 +11,11 @@ targetRunner <- "target/cplex-mip/hook-run-bound"
 targetRunnerRetries <- 3
 determinist <- 1
 maxExperiments <- 0
-maxTime   <- 18000
+maxTime <- 18000
 budgetEstimation <- 0.003
-digits   <- 2
+digits <- 2
 testType <- "t-test"
-elitist  <- 1
+elitist <- 1
 capping <- 1
-boundMax  <- 5
+boundMax <- 5
 boundDigits <- 2

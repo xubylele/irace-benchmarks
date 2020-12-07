@@ -58,6 +58,8 @@ run_scenario <- function(){
     cat("\n")
     filename <- here('sources', 'irace_folder.txt')
     if(file.exists(filename)){
+        cli_alert('List of available scenarios')
+        list_scenarios_by_name()
         filelines <- readFileLines(filename)[[1]][[1]]
         cli_alert('Enter a scenario name')
         repeat{
@@ -79,9 +81,9 @@ run_scenario <- function(){
 
                     scenario[2] <- changue_scenario_routes(scenario[2])
                     
-                    #scenario <- irace::readScenario(scenario[2])
+                    scenario <- irace::readScenario(scenario[2])
 
-                    #irace::irace.main(scenario = scenario)
+                    irace::irace.main(scenario = scenario)
 
                     break
                 }
@@ -107,18 +109,46 @@ changue_scenario_routes <- function(scenario_file){
 
     scenario_file <- here('benchmarks', scenario_file)
 
-    file.copy(scenario_file, temp)
+    lines <- read.table(scenario_file, sep = " ", quote = "\"'", comment.char = "",
+                       col.names = c("conf", "sep", "file"),
+                       colClasses = c("character", "character", "character")
+                       , encoding = "utf8",
+                       fill = TRUE, na.strings = TRUE)
+
+    lines <- lines[complete.cases(lines[,c("conf", "sep", "file")]),]
+
+    for(i in 1:length(lines$file)){
+        split_by_slash <- strsplit(lines$file[i], '/')[[1]]
+        file_to_replace <- c()
+        if(length(split_by_slash) > 1){
+            array_strings <- split_by_slash
+            string <- tail(array_strings, 1)
+            
+            array_files_strings <- list.files(here('benchmarks'), pattern = string, full.names = TRUE, recursive = TRUE)
+
+            
+
+            for(file in array_files_strings){
+                string2 <- tail(strsplit(file, '/')[[1]], 1)
+                if(string == string2){
+                    file_to_replace <- file
+                    lines$file[i] <- paste0('"',file_to_replace,'"')
+                }
+            }
 
 
-    lines <- readFileLines(temp)
-
-    for(i in 1:length(lines)){
-        if(!lines[i] == ''){
-            print(is.character(lines[[i]][[1]]))
-            split_by_marks <- strsplit(split_by_arrow, '')[[1]]
-            print(split_by_marks)
+            
+        }else if(length(lines$file[i]) > 0){
+            if(is.na(strtoi(lines$file[i]))){
+                lines$file[i] <- paste0('"', lines$file[i], '"')
+            }
+            
+        }else if(lines$file[i] == ""){ 
+            lines$file[i] <- paste0('"', lines$file[i], '"')
         }
     }
 
-    print(lines)
+    write.table(lines, temp, na = "NA", append = FALSE, quote = FALSE, row.names = FALSE, col.names = FALSE, sep = " ")
+
+    return(temp)
 }
