@@ -2,7 +2,7 @@ parameterFile <- "~/algorithms/acotsp/irace/parameters-acotsp.txt"
 logFile <- "./irace.Rdata"
 trainInstancesDir <- "~/instances/tsp/training-2000/"
 targetRunner <- "~/algorithms/acotsp/irace-elite/hook-run"
-expName  <- "ACOSTP"
+expName <- "ACOSTP"
 maxExperiments <- 5000
 digits <- 2
 testType <- "F-test"

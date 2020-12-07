@@ -1,11 +1,11 @@
 parameterFile <- "~/algorithms/cplex/cplex12-parameters-cat.txt"
 configurationsFile <- "~/algorithms/cplex/cplex-candidate-default-noNA.txt"
-trainInstancesDir  <- ""
+trainInstancesDir <- ""
 trainInstancesFile <- "~/instances/mip/cats/training-cats200.txt"
 targetRunner <- "~/algorithms/cplex/aclib/hook-run-irace-time-300"
 targetRunnerRetries <- 3
 
-expName  <- "CPLEX regions 200"
+expName <- "CPLEX regions 200"
 
 determinist <- 1
 maxExperiments <- 0

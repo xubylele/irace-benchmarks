@@ -3,7 +3,7 @@ logFile <- "./irace.Rdata"
 trainInstancesDir <- "~/instances/multi-tsp/instances/"
 trainInstancesFile <- "~/instances/multi-tsp/instances-list-wls-noseed.txt"
 targetRunner <- "~/algorithms/moaco/irace-elite/hook-run"
-targetEvaluator  <- "~/algorithms/moaco/irace-elite/hook-evaluate"
+targetEvaluator <- "~/algorithms/moaco/irace-elite/hook-evaluate"
 maxExperiments <- 5000
 digits <- 2
 elitist <- 0

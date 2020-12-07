@@ -4,7 +4,7 @@ trainInstancesDir <- ""
 trainInstancesFile <- "~/instances/tsp/training-1500.txt"
 targetRunner <- "~/algorithms/ils-tsp/targetRunner-compile-reuse"
 targetEvaluator <- "~/algorithms/ils-tsp/targetEvaluator-compile"
-expName  <- "GCC ILS compile"
+expName <- "GCC ILS compile"
 maxExperiments <- 10000
 digits <- 2
 testType <- "t-test"

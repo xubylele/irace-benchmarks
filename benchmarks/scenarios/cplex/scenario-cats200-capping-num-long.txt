@@ -1,6 +1,6 @@
 parameterFile <- "~/algorithms/cplex/cplex12-parameters-num.txt"
 configurationsFile <- "~/algorithms/cplex/cplex-candidate-default-noNA.txt"
-trainInstancesDir  <- ""
+trainInstancesDir <- ""
 trainInstancesFile <- "~/instances/mip/cats/training-cats200.txt"
 
 targetRunner <- "~/algorithms/cplex/aclib/hook-run-bound"

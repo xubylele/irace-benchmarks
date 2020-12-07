@@ -4,7 +4,7 @@ trainInstancesDir <- ""
 trainInstancesFile <- "~/instances/qap/training.txt"
 targetRunner <- "~/algorithms/tabu-qap/targetRunner-compile-reuse"
 targetEvaluator <- "~/algorithms/tabu-qap/targetEvaluator-compile"
-expName  <- "GCC tabu qap compile"
+expName <- "GCC tabu qap compile"
 maxExperiments <- 10000
 digits <- 2
 testType <- "t-test"

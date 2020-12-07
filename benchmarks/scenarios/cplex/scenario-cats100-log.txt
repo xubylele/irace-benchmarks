@@ -5,17 +5,17 @@ configurationsFile <- "~/algorithms/cplex/cplex-candidate-default-noNA.txt"
 targetRunner <- "~/algorithms/cplex/aclib/hook-run-bound"
 targetRunnerRetries <- 3
 
-expName  <- "CPLEX regions 100"
+expName <- "CPLEX regions 100"
 
 determinist <- 1
 maxExperiments <- 0
-maxTime   <- 18000
+maxTime <- 18000
 budgetEstimation <- 0.003
-digits   <- 12
+digits <- 12
 testType <- "t-test"
 
-elitist  <- 1
+elitist <- 1
 capping <- 1
-#maxBound  <- 5
-boundMax  <- 5
+#maxBound <- 5
+boundMax <- 5
 boundDigits <- 2

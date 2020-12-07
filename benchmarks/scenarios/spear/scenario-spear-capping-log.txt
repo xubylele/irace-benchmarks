@@ -5,7 +5,7 @@ configurationsFile <- "~/algorithms/spear/spear-candidates-default-noNA.txt"
 targetRunner <- "~/algorithms/spear/aclib/hook-run-bound"
 targetRunnerRetries <- 3
 
-expName  <- "SPEAR"
+expName <- "SPEAR"
 
 determinist <- 1
 maxExperiments <- 0
@@ -16,6 +16,6 @@ testType <- "t-test"
 
 elitist <- 1
 capping <- 1
-#maxBound  <- 300
-boundMax  <- 300
+#maxBound <- 300
+boundMax <- 300
 boundDigits <- 0

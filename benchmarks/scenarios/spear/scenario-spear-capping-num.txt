@@ -16,5 +16,5 @@ digits <- 5
 testType <- "t-test"
 elitist <- 1
 capping <- 1
-boundMax  <- 300
+boundMax <- 300
 boundDigits <- 0

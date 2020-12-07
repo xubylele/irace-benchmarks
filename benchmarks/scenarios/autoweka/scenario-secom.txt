@@ -9,11 +9,11 @@ configurationsFile <- "~/algorithms/autoweka/default-noNA.txt"
 targetRunner <- "~/algorithms/autoweka/target-runner-secom"
 targetRunnerRetries <- 3
 
-expName  <- "weka secom"
+expName <- "weka secom"
 
 determinist <- 1
 maxExperiments <- 0
-maxTime   <- 9000
+maxTime <- 9000
 testType <- "F-test"
-elitist  <- 1
+elitist <- 1
 

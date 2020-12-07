@@ -9,11 +9,11 @@ configurationsFile <- "~/algorithms/autoweka/default-noNA.txt"
 targetRunner <- "~/algorithms/autoweka/target-runner-shuttle"
 targetRunnerRetries <- 3
 
-expName  <- "weka shuttle"
+expName <- "weka shuttle"
 
 determinist <- 1
 maxExperiments <- 0
-maxTime   <- 108000
+maxTime <- 108000
 testType <- "F-test"
-elitist  <- 1
+elitist <- 1
 

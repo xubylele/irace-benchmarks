@@ -15,7 +15,7 @@ maxTime <- 172800
 
 elitist <- 1
 capping <- 1
-boundMax  <- 300
+boundMax <- 300
 boundDigits <- 0
 budgetEstimation <- 0.003
 boundAsTimeout <- 1

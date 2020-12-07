@@ -5,7 +5,7 @@ trainInstancesFile <- "instances/multi-tsp/instances-list-wls-noseed.txt"
 testInstancesFile <- "instances/multi-tsp/instances-testing.txt"
 
 targetRunner <- "target/moaco/hook-run"
-targetEvaluator  <- "target/moaco/hook-evaluate"
+targetEvaluator <- "target/moaco/hook-evaluate"
 
 
 maxExperiments <- 5000
