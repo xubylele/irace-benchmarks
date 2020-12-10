@@ -118,6 +118,11 @@ changue_scenario_routes <- function(scenario_file){
     lines <- lines[complete.cases(lines[,c("conf", "sep", "file")]),]
 
     for(i in 1:length(lines$file)){
+
+        if(dir.exists(paste0(here('benchmarks'), '/', lines$file[i]))){
+            lines$file[i] <- paste0('"', lines$file[i], '"')
+        }
+
         split_by_slash <- strsplit(lines$file[i], '/')[[1]]
         file_to_replace <- c()
         if(length(split_by_slash) > 1){
