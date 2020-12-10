@@ -1,5 +1,11 @@
 # IRACE Benchmarks
 
+Welcome to IRACE Benchmarks library.
+
+## Actual Version
+
+Development phase
+
 ## Requeriments
 
  - R v4.0 or higher
