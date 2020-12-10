@@ -8,6 +8,14 @@
 
 ### Linux
 
+1. Change target folder permissions
+
+```sh
+    sudo chmod +x /benchmarks/target/
+```
+
+2. Run app.r script
+
 ```sh
     sudo Rscript app.r
 ```
