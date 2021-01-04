@@ -147,7 +147,7 @@ source(here("sources", "functions.r"))
 ## server
   server <- shinyServer(function(input, output, session) {
     
-    router(input, output, session)
+    router$server(input, output, session)
 
     change_page('about')
 
@@ -449,4 +449,5 @@ source(here("sources", "functions.r"))
           )
         )
       }
+  
   })
