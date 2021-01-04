@@ -142,7 +142,7 @@ list_instances <- function(){
     cli_end()
     cat('\n')
 
-    cli_alert('Please enter the number of the descriptor to inspect the instances sets or "return" to get back to main menu')
+    cli_alert('Please enter the number of the descriptor to inspect the instances sets enter "return" to get back to main menu')
     repeat{
         cat('\n> ')
         user_input <- readLines("stdin",n=1)
@@ -182,7 +182,7 @@ list_instances <- function(){
 search_descriptor_instance <- function(){
 
     mise()
-    cli_alert('Please enter the name of the descriptor or "return" to get back to main menu')
+    cli_alert('Please enter the name of the descriptor enter "return" to get back to main menu')
     repeat{
         cat('\n> ')
         user_input <- readLines("stdin",n=1)

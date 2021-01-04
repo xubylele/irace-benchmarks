@@ -165,7 +165,7 @@ source(here("sources", "functions.r"))
     ## scenario dataframe
       scenario_dt <- data.frame(
         Name = getScenariosNames(),
-        Descriptors = getScenariosFiles(),
+        Descriptors = getScenariosDescriptors(),
         Options = shinyInput(actionButton, length(getScenariosNames()), 'button#', getScenariosNames(),label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
       )
 

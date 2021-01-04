@@ -9,7 +9,7 @@ set_irace_folder <- function(){
     if(file.exists(filename)){
         filelines <- readFileLines(filename)[[1]][[1]]
         cli_alert(paste('Foldername:', filelines))
-        cli_alert('Write a new irace foldername or "return" to get back to main menu.')
+        cli_alert('Write a new irace foldername enter "return" to get back to main menu.')
         repeat{
             cat('\n> ')
             user_input <- readLines("stdin",n=1)
@@ -31,7 +31,7 @@ set_irace_folder <- function(){
         }
     }else{
         file.create(filename)
-        cli_alert('Please write the irace instalation folder or "return" to get back to main menu.')
+        cli_alert('Please write the irace instalation folder enter "return" to get back to main menu.')
         repeat{
             cat('\n> ')
             user_input <- readLines("stdin",n=1)

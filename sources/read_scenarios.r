@@ -116,6 +116,222 @@ list_scenarios <- function(){
     cli_end()
 }
 
+user_write_scenario_name <- function(){
+
+    mise()
+
+
+    cli_h2('Actual scenarios list')
+
+
+    list_scenarios_by_name()
+
+    new_scenario <- c()
+    
+    cli_alert('Please enter the name of the new scenario enter "return" to get back to main menu (All changes would be deleted)')
+
+
+    repeat{
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                return()
+            }
+
+            scenario <- searchScenario(user_input)
+            if(length(scenario) > 0){
+                cli_alert_danger(paste(user_input, 'already exists'))
+            }else{
+                new_scenario <- user_input
+                cat('\n')
+                return(new_scenario)
+            }
+        }else{
+            cli_alert_danger("Please, write a scenario name")
+        }
+    }
+
+}
+
+list_scenarios_dirnames <- function(){
+
+    dirs <- list.dirs(scenarios_dir, recursive = FALSE)
+
+    new_scenario <- c()
+
+    scenario_name <- user_write_scenario_name()
+    
+    print(scenario_name)
+
+
+    if(length(scenario_name) == 0){
+        return()
+    }else{
+        new_scenario[1] <- paste0('name: ', scenario_name)
+    }
+
+    cli_alert('Please enter the number of the folder')
+    cat('\n')
+    cli_ol()
+    for(i in 1:length(dirs)){
+        cli_li(paste0('Dir name: ', dirs[i]))
+    }
+
+    cli_end()
+
+
+    repeat{
+
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        
+
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                break
+            }
+
+            user_input <- strtoi(user_input)
+
+            if(!is.na(user_input)){
+                if(user_input > length(dirs) || user_input < 1){
+
+                    cli_alert_danger("Please, write a valid number of folder")
+
+                }else{
+                    
+                    file <- list_files_folder(dirs[user_input])
+
+                    new_scenario[2] <- paste0('file: ', file)
+                    scenario[3] <- get_targets_file(file)
+                    scenario[4] <- get_parameters_file(file)
+                    scenario[5] <- get_instances_file(file)
+
+                    return(new_scenario)
+
+                    if(length(file) == 0){
+                        return()
+                    }
+                    break
+                
+                }
+
+            }else{
+                cli_alert_danger("Please, write a number")
+            }
+            
+        }else{
+            cli_alert_danger("Please, write a number")
+        }
+    }
+
+}
+
+get_targets_file <- function(filename){
+
+    mise()
+
+
+    cli_h2('Actual scenarios list')
+
+
+    list_scenarios_by_name()
+
+    new_scenario <- c()
+    
+    cli_alert('Please enter the name of the new scenario enter "return" to get back to main menu (All changes would be deleted)')
+
+
+    repeat{
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                return()
+            }
+
+            scenario <- searchScenario(user_input)
+            if(length(scenario) > 0){
+                cli_alert_danger(paste(user_input, 'already exists'))
+            }else{
+                new_scenario <- user_input
+                cat('\n')
+                return(new_scenario)
+            }
+        }else{
+            cli_alert_danger("Please, write a scenario name")
+        }
+    }
+
+}
+
+get_parameters_file <- function(filename){
+
+    
+
+}
+
+get_instances_file <- function(filename){
+
+    
+
+}
+
+list_files_folder <- function(dirname){
+
+    cat('\n')
+    files <- list.files(dirname, pattern = '*.txt', recursive = FALSE, full.names = TRUE)
+
+    cli_alert('Please select the number of the scenario file')
+    cat('\n')
+    cli_ol()
+    for(i in 1:length(files)){
+        cli_li(paste0('Filename: ', files[i]))
+    }
+
+    cli_end()
+
+
+    repeat{
+
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        
+
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                return()
+            }
+
+            user_input <- strtoi(user_input)
+
+            if(!is.na(user_input)){
+                if(user_input > length(files) || user_input < 1){
+
+                    cli_alert_danger("Please, write a valid number of folder")
+
+                }else{
+                    
+                    return(files[user_input])
+                
+                }
+
+            }else{
+                cli_alert_danger("Please, write a number")
+            }
+            
+        }else{
+            cli_alert_danger("Please, write a number")
+        }
+    }
+
+}
+
 list_scenarios_by_name <- function(){
     cat('\n')
     cli_ol()
@@ -127,6 +343,43 @@ list_scenarios_by_name <- function(){
     cat('\n')
 }
 
+read_user_descriptors <- function(){
+
+    mise()
+
+    descriptors <- c()
+    
+    cli_alert('Please enter a descriptor of the new scenario or enter "return" to get back to main menu (All changes would be deleted)')
+
+
+    repeat{
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                return()
+            }else if(user_input == 'end'){
+                
+                return(descriptors)
+
+            }else{
+                if(length(descriptors) == 0)
+                    descriptors <- paste0(descriptors, user_input)
+                else
+                    descriptors <- paste0(descriptors, ', ', user_input)
+
+                cli_alert('If you finished adding descriptors, enter "end"')
+            }
+        }else{
+            cli_alert_danger("Please, write a scenario name")
+        }
+    }
+
+}
+
+
+
 add_scenarios <- function(){
 
     cli_alert('List of currect scenarios')
@@ -135,7 +388,7 @@ add_scenarios <- function(){
     scenarios <- getScenariosList()
     scenarios_to_add <- c()
 
-    cli_alert('Please enter the number of the scenario to add it to the benchmark, enter 0 to add new scenario or "return" to get back to main menu')
+    cli_alert('Please enter the number of the scenario to add it to the benchmark, enter -1 to add new scenario enter "return" to get back to main menu')
     repeat{
         cat('\n> ')
         user_input <- readLines("stdin",n=1)
@@ -148,16 +401,24 @@ add_scenarios <- function(){
             }
 
             user_input <- strtoi(user_input)
-            if(!is.na(user_input)){
+
+            if(user_input == -1){
+
+                cli_alert('Please select the folder of the scenary file')
+                scenario <- list_scenarios_dirnames()
+
+                scenario[6] <- paste0('descriptors: ', read_user_descriptors())
+
+                break
+
+
+            }else if(!is.na(user_input)){
                 if(user_input > length(scenarios) || user_input < 1){
 
                     cli_alert_danger("Please, write a valid number of scenario")
-                    
-                }else if(user_input == 0){
-
-                    
 
                 }else{
+                    
                     print(scenarios[[user_input]][[1]][[2]])
                     scenario <- searchScenario(scenarios[[user_input]][[1]][[2]])
                     cli_alert(scenario[1])
@@ -179,7 +440,7 @@ add_scenarios <- function(){
 
 search_scenario_console <- function(){
     mise()
-    cli_alert('Please enter the name of the scenario or "return" to get back to main menu')
+    cli_alert('Please enter the name of the scenario enter "return" to get back to main menu')
     repeat{
         cat('\n> ')
         user_input <- readLines("stdin",n=1)

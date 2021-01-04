@@ -100,7 +100,7 @@ list_benchmarks <- function(){
 
 search_benchmark_console <- function(){
     mise()
-    cli_alert('Please enter the name of the benchmark or "return" to get back to main menu')
+    cli_alert('Please enter the name of the benchmark enter "return" to get back to main menu')
     repeat{
         cat('\n> ')
         user_input <- readLines("stdin",n=1)
@@ -132,12 +132,21 @@ search_benchmark_console <- function(){
 
 addBenchmark <- function(){
 
+    mise()
+
+    
+
+
     cli_h2('Actual benchmark list')
+    
+    cli_alert('Please verificate all the new files')
+
+
     list_benchmarks()
 
     new_benchmark <- c()
     
-    cli_alert('Please enter the name of the new benchmark or "return" to get back to main menu (All changues would be deleted)')
+    cli_alert('Please enter the name of the new benchmark enter "return" to get back to main menu (All changes would be deleted)')
 
 
     repeat{
@@ -163,7 +172,7 @@ addBenchmark <- function(){
     }
 
 
-    cli_alert('Please enter the description of the new benchmark or "return" to get back to main menu (All changues would be deleted)')
+    cli_alert('Please enter the description of the new benchmark enter "return" to get back to main menu (All changes would be deleted)')
 
 
     repeat{
@@ -186,7 +195,7 @@ addBenchmark <- function(){
     }
 
 
-    cli_alert('Please select the scenarios you would like to add to this benchmark or "return" to get back to main menu (All changues would be deleted)')
+    cli_alert('Please select the scenarios you would like to add to this benchmark enter "return" to get back to main menu (All changes would be deleted)')
     cli_alert("Current scenarios")
 
     source(here("sources", "read_scenarios.r"))
