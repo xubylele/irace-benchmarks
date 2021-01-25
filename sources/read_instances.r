@@ -225,3 +225,182 @@ searchDescriptor <- function(descriptor){
     }
 
 }
+
+selet_instances <- function(){
+
+    print(instances_foldernames)
+
+    str_to_return <- ''
+
+    cli_alert('Please select the folder of the instances files')
+
+    cli_ol()
+    
+    for(i in 1:length(instances_foldernames)){
+        cli_li(paste0('Dir name: ', instances_foldernames[i]))
+    }
+
+    cli_end()
+
+
+    repeat{
+
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        
+
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                break
+            }
+
+            user_input <- strtoi(user_input)
+
+            if(!is.na(user_input)){
+                if(user_input > length(instances_foldernames) || user_input < 1){
+
+                    cli_alert_danger("Please, write a valid number of folder")
+
+                }else{
+                    
+                    folder <- instances_foldernames[user_input]
+
+                    print(folder)
+
+
+
+                    files <- list.files(folder, pattern = '', full.names = TRUE)
+
+                    str_to_return <- paste0(str_to_return, '[(file/url),')
+
+                    
+                    str_to_return <- paste0(str_to_return, selectFiles(files))
+                    
+                    str_to_return <- paste0(str_to_return, ']')
+                    print(str_to_return)
+
+                    return(str_to_return)
+                
+                }
+
+            }else{
+                cli_alert_danger("Please, write a number")
+            }
+            
+        }else{
+            cli_alert_danger("Please, write a number")
+        }
+    }
+
+}
+
+
+selectFiles <- function(files){
+
+    str_to_return <- ''
+
+    cli_alert('Please select the trainning file')
+
+    cli_ol()
+    
+    for(i in 1:length(files)){
+        cli_li(paste0('Filename: ', files[i]))
+    }
+
+    cli_end()
+
+
+    repeat{
+
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        
+
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                break
+            }
+
+            user_input <- strtoi(user_input)
+
+            if(!is.na(user_input)){
+                if(user_input > length(files) || user_input < 1){
+
+                    cli_alert_danger("Please, write a valid number of folder")
+
+                }else{
+                    file <- files[user_input]
+
+                    str_split <- strsplit(file, '/')[[1]]
+
+                    file <- ''
+
+
+                    for(i in (length(str_split)-2):length(str_split)){
+                        file <- paste0(file, '/', str_split[i])
+                    }
+
+                    str_to_return <- paste0(str_to_return, file, ', ')
+
+                    print(str_to_return)
+                    break
+                }
+            }
+        }
+    }
+
+    cli_alert('Please select the testing file')
+
+    cli_ol()
+    
+    for(i in 1:length(files)){
+        cli_li(paste0('Filename: ', files[i]))
+    }
+
+    cli_end()
+
+
+    repeat{
+
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        
+
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                break
+            }
+
+            user_input <- strtoi(user_input)
+
+            if(!is.na(user_input)){
+                if(user_input > length(files) || user_input < 1){
+
+                    cli_alert_danger("Please, write a valid number of folder")
+
+                }else{
+
+                    file <- files[user_input]
+
+                    str_split <- strsplit(file, '/')[[1]]
+
+                    file <- ''
+
+
+                    for(i in (length(str_split)-2):length(str_split)){
+                        file <- paste0(file, '/', str_split[i])
+                    }
+
+                    str_to_return <- paste0(str_to_return, file)
+                    break
+                }
+            }
+        }
+    }
+
+    return(str_to_return)
+
+}

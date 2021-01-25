@@ -1,0 +1,30 @@
+#!/bin/bash
+###############################################################################
+# PARAMETERS:
+# $1 is the ID of the candidate to be evaluated
+# $2 is the instance ID
+# $3 is the seed
+# $4 is the instance name
+# The rest ($* after `shift 4') are parameters for running de target algorithm
+#
+# RETURN VALUE:
+# This script should print a single numerical value (the value to be minimized).
+###############################################################################
+error() {
+    echo "`TZ=UTC date`: $0: error: $@" >&2
+    exit 1
+}
+
+CONFIG_ID="$1"
+INSTANCE_ID="$2"
+SEED="$3"
+INSTANCE="$4"
+# All other parameters are the candidate parameters to be passed to program
+shift 4 || error "Not enough parameters"
+CONFIG_PARAMS=$*
+
+
+echo "$RANDOM"
+exit 0
+
+

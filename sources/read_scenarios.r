@@ -205,10 +205,20 @@ list_scenarios_dirnames <- function(){
                     
                     file <- list_files_folder(dirs[user_input])
 
+                    str_split <- strsplit(file, '/')[[1]]
+
+                    file <- ''
+
+                    for(i in (length(str_split)-2):length(str_split)){
+                        file <- paste0(file, '/', str_split[i])
+                    }
+
                     new_scenario[2] <- paste0('file: ', file)
-                    scenario[3] <- get_targets_file(file)
-                    scenario[4] <- get_parameters_file(file)
-                    scenario[5] <- get_instances_file(file)
+                    new_scenario[3] <- paste0('target: ', get_targets_file())
+                    new_scenario[4] <- paste0('parameters: ', get_parameters_file())
+                    new_scenario[5] <- paste0('instances: ',get_instances_file())
+
+                    print(new_scenario)
 
                     return(new_scenario)
 
@@ -230,54 +240,33 @@ list_scenarios_dirnames <- function(){
 
 }
 
-get_targets_file <- function(filename){
+get_targets_file <- function(){
 
-    mise()
+    targets <- here("sources", "read_targets.r")
 
+    source(targets)
 
-    cli_h2('Actual scenarios list')
-
-
-    list_scenarios_by_name()
-
-    new_scenario <- c()
-    
-    cli_alert('Please enter the name of the new scenario enter "return" to get back to main menu (All changes would be deleted)')
-
-
-    repeat{
-        cat('\n> ')
-        user_input <- readLines("stdin",n=1)
-        if(user_input != ""){
-
-            if(user_input == 'return'){
-                return()
-            }
-
-            scenario <- searchScenario(user_input)
-            if(length(scenario) > 0){
-                cli_alert_danger(paste(user_input, 'already exists'))
-            }else{
-                new_scenario <- user_input
-                cat('\n')
-                return(new_scenario)
-            }
-        }else{
-            cli_alert_danger("Please, write a scenario name")
-        }
-    }
+    return(selet_targets())
 
 }
 
-get_parameters_file <- function(filename){
+get_parameters_file <- function(){
 
-    
+    parameters <- here("sources", "read_parameters.r")
+
+    source(parameters)
+
+    return(selet_parameters())
 
 }
 
-get_instances_file <- function(filename){
+get_instances_file <- function(){
 
-    
+    isntances <- here("sources", "read_instances.r")
+
+    source(isntances)
+
+    return(selet_instances())
 
 }
 
@@ -407,7 +396,7 @@ add_scenarios <- function(){
                 cli_alert('Please select the folder of the scenary file')
                 scenario <- list_scenarios_dirnames()
 
-                scenario[6] <- paste0('descriptors: ', read_user_descriptors())
+                #scenario[6] <- paste0('descriptors: ', read_user_descriptors())
 
                 break
 

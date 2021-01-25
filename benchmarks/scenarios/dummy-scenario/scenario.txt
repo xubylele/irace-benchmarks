@@ -1,0 +1,11 @@
+forbiddenFile = "forbidden-dummy.txt"
+parameterFile = "parameters-dummy.txt"
+configurationsFile = "default-dummy.txt"
+
+trainInstancesDir = ""
+trainInstancesFile = "instances.txt"
+
+targetRunner = "target-runner"
+maxExperiments = 3000
+digits = 4
+
