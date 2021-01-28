@@ -217,8 +217,7 @@ list_scenarios_dirnames <- function(){
                     new_scenario[3] <- paste0('target: ', get_targets_file())
                     new_scenario[4] <- paste0('parameters: ', get_parameters_file())
                     new_scenario[5] <- paste0('instances: ',get_instances_file())
-
-                    print(new_scenario)
+                    new_scenario[6] <- paste0('descriptors: ', read_user_descriptors())
 
                     return(new_scenario)
 
@@ -338,7 +337,7 @@ read_user_descriptors <- function(){
 
     descriptors <- c()
     
-    cli_alert('Please enter a descriptor of the new scenario or enter "return" to get back to main menu (All changes would be deleted)')
+    cli_alert('Please enter a descriptor of the new scenario or enter "return" to get back to main menu')
 
 
     repeat{
@@ -396,9 +395,17 @@ add_scenarios <- function(){
                 cli_alert('Please select the folder of the scenary file')
                 scenario <- list_scenarios_dirnames()
 
-                #scenario[6] <- paste0('descriptors: ', read_user_descriptors())
+                str_to_return <- strsplit(scenario, ': ')[[1]]
 
-                break
+                fileName <- paste0(scenarios_dir, '/', str_to_return[2], '.txt')
+
+                file.create(fileName)
+
+                fileConn<-file(fileName)
+                writeLines(scenario, fileConn)
+                close(fileConn)
+
+                return (str_to_return[2])
 
 
             }else if(!is.na(user_input)){
@@ -407,12 +414,9 @@ add_scenarios <- function(){
                     cli_alert_danger("Please, write a valid number of scenario")
 
                 }else{
-                    
-                    print(scenarios[[user_input]][[1]][[2]])
                     scenario <- searchScenario(scenarios[[user_input]][[1]][[2]])
-                    cli_alert(scenario[1])
                     cat('\n')
-                    break
+                    return(scenario[1])
                 
                 }
 

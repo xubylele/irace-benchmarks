@@ -162,7 +162,7 @@ addBenchmark <- function(){
             if(length(benchmark) > 0){
                 cli_alert_danger(paste(user_input, 'benchmark already exists'))
             }else{
-                new_benchmark[1] <- user_input
+                new_benchmark[1] <- paste0('name: ', user_input)
                 cat('\n')
                 break
             }
@@ -185,7 +185,7 @@ addBenchmark <- function(){
             }
 
             
-            new_benchmark[2] <- user_input
+            new_benchmark[2] <- paste0('description: ', user_input)
             cat('\n')
             break
         
@@ -198,11 +198,105 @@ addBenchmark <- function(){
     cli_alert('Please select the scenarios you would like to add to this benchmark enter "return" to get back to main menu (All changes would be deleted)')
     cli_alert("Current scenarios")
 
+
+    new_benchmark[4] <- paste0('scenarios: ', read_user_scenarios())
+    new_benchmark[3] <- paste0('size: ', length(strsplit(new_benchmark[4], ', ')[[1]]))
+    new_benchmark[5] <- paste0('descriptors: ', read_user_descriptors())
+
+    str_to_return <- strsplit(new_benchmark, ': ')[[1]]
+    
+    fileName <- paste0(benchmarks_dir, '/', str_to_return[2], '.txt')
+
+
+    file.create(fileName)
+
+    fileConn<-file(fileName)
+    writeLines(new_benchmark, fileConn)
+    close(fileConn)
+    
+    
+
+    
+
+}
+
+read_user_scenarios <- function(){
+
     source(here("sources", "read_scenarios.r"))
-
-    scenario <- add_scenarios()
-    
+    mise()
 
     
+    cli_alert('Please enter "add" to enter a new benchmark or "return" to get back to main menu')
+
+    scenarios = c()
+
+    repeat{
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                return()
+            }else if(user_input == 'end'){
+                
+                return(scenarios)
+
+            }else{
+                scenario <- add_scenarios()
+                if(length(scenarios) == 0){
+
+                    scenarios <- paste0(scenarios, scenario)
+
+                }
+                else{
+
+                    scenarios <- paste0(scenarios, ', ', scenario)
+
+                }
+
+                cli_alert('Scenario added successfully, if you want to add another scenario to this benchmark, type add')
+                cli_alert('if you finished adding scenarios, enter "end"')
+            }
+
+        
+        }else{
+            cli_alert_danger("Please, write a instruction")
+        }
+    }
+
+}
+
+read_user_descriptors <- function(){
+
+    mise()
+
+    descriptors <- c()
+    
+    cli_alert('Please enter a descriptor of the new benchmark or enter "return" to get back to main menu')
+
+
+    repeat{
+        cat('\n> ')
+        user_input <- readLines("stdin",n=1)
+        if(user_input != ""){
+
+            if(user_input == 'return'){
+                return()
+            }else if(user_input == 'end'){
+                
+                return(descriptors)
+
+            }else{
+                if(length(descriptors) == 0)
+                    descriptors <- paste0(descriptors, user_input)
+                else
+                    descriptors <- paste0(descriptors, ', ', user_input)
+
+                cli_alert('If you finished adding descriptors, enter "end"')
+            }
+        }else{
+            cli_alert_danger("Please, write a benchmark name")
+        }
+    }
 
 }
