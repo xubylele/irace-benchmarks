@@ -81,8 +81,8 @@ standarize_routes_dir <- here("sources", "standarize_routes.r")
 
                 }else if(user_input == "web"){
 
-                    dir <- here("app", "shinyApp.r")
-                    source(dir)
+                    source(here('sources', 'web.r'))
+                    web()
                     wait_for_user()
 
                 }else if(user_input == "compress_files"){

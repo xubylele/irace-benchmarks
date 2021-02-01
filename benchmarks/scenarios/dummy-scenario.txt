@@ -1,0 +1,6 @@
+name: dummy-scenario
+file: /scenarios/dummy-scenario/scenario.txt
+target: /benchmarks/target/dummy  (source + target runner)
+parameters: /target/dummy/parameters,  (parameters)
+instances: [(file/url),/instances/dummy-instances/instances.txt, /instances/dummy-instances/instances.txt]
+descriptors: dummy, categorical

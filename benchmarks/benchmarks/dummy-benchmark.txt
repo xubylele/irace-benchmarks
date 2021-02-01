@@ -1,0 +1,5 @@
+name: dummy-benchmark
+description: This is a dummy benchmark
+size: 2
+scenarios: dummy-scenario, spear-swv-cat
+descriptors: dummy, categorical
