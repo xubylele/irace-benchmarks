@@ -21,25 +21,44 @@
 
 ## search instances descriptor sets function
     searchInstanceDescriptorSets <- function(descriptor_name){
+        print(paste('search', descriptor_name))
         instancesSets <- c()
         for(i in 1:length(instances_foldernames)){
             if(tail(strsplit(instances_foldernames[i], '/')[[1]], 1) == descriptor_name){
+
 
                 trainingFiles <- list.files(instances_foldernames[i], pattern = '.*training.*\\.txt$', full.names = TRUE)
                 testingFiles <- list.files(instances_foldernames[i], pattern = '.*testing.*\\.txt$', full.names = TRUE)
 
                 if(length(trainingFiles) == 0 && length(testingFiles) == 0){
 
-                    subfolders <- list.files(instances_foldernames[i], pattern = '', full.names = TRUE)
+                    subfolders <- list.dirs(instances_foldernames[i], full.names = TRUE)
 
-                    for(j in 1:length(subfolders)){
-                        trainingFiles <- list.files(subfolders[j], pattern = '.*training.*\\.txt$', full.names = TRUE)
+                    if(length(subfolders) == 1){
+
+                        instancesFiles <- list.files(instances_foldernames[i], pattern = '', full.names = TRUE)
                         
-                        for(k in 1:length(trainingFiles)){
-                            if(length(tail(strsplit(trainingFiles[k], '-')[[1]], 1)) > 0)
-                                instancesSets <- c(instancesSets, tail(strsplit(trainingFiles[k], '-')[[1]], 1))
+
+                        for(j in 1:length(instancesFiles)){
+                            if(length(tail(strsplit(instancesFiles[j], '-')[[1]], 1)) > 0)
+                                instancesSets <- c(instancesSets, tail(strsplit(instancesFiles[j], '-')[[1]], 1))
+                        }
+
+                    }else{
+                        for(j in 1:length(subfolders)){
+                            trainingFiles <- list.files(subfolders[j], pattern = '.*training.*\\.txt$', full.names = TRUE)
+                            
+                            if(length(trainingFiles) != 0){
+
+                                for(k in 1:length(trainingFiles)){
+                                    if(length(tail(strsplit(trainingFiles[k], '-')[[1]], 1)) > 0)
+                                        instancesSets <- c(instancesSets, tail(strsplit(trainingFiles[k], '-')[[1]], 1))
+                                }
+                            }
                         }
                     }
+
+                    
 
                 }else{
                     if(length(trainingFiles) > 1){
