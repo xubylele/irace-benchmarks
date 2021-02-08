@@ -21,7 +21,6 @@
 
 ## search instances descriptor sets function
     searchInstanceDescriptorSets <- function(descriptor_name){
-        print(paste('search', descriptor_name))
         instancesSets <- c()
         for(i in 1:length(instances_foldernames)){
             if(tail(strsplit(instances_foldernames[i], '/')[[1]], 1) == descriptor_name){

@@ -150,8 +150,6 @@
           clean_filename <- paste0(instances_filename, '.', extension_clean)
           filename <- clean_filename
       }
-
-      print(filename)
       return(filename)
     }
     return(NULL)
