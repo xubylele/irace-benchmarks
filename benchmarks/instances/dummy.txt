@@ -1,0 +1,6 @@
+name: Dummy instances set
+description: This is a dummy instances set
+training files: targets/dummy-instances/instances.txt
+testing files: 
+size: 20
+descriptors: dummy

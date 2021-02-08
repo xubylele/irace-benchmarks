@@ -3,6 +3,7 @@
 
     instances_dir <- here('benchmarks', 'instances')
     instances_foldernames <- list.files(instances_dir, pattern = '', full.names = TRUE)
+    instances_filenames <- list.files(instances_dir, pattern = '*.txt', full.names = TRUE)
 
     functions <- here("sources", "functions.r")
 
@@ -195,6 +196,80 @@ list_instances <- function(){
             cli_alert_danger("Please, write a number")
         }
     }
+}
+
+getInstancesSetsNames <- function(){
+    instances_names <- c()
+    instances <- getInstancesSetList()
+    for(i in 1:length(instances)){
+        instances_names[i] = instances[[i]][[1]][[2]]
+    }
+
+    return(instances_names)
+}
+
+getInstancesSetsDescriptions <- function(){
+    instances_descriptions <- c()
+    instances <- getInstancesSetList()
+    for(i in 1:length(instances)){
+        instances_descriptions[i] = instances[[i]][[2]][[2]]
+    }
+
+    return(instances_descriptions)
+}
+
+getInstancesSetsTrainningFiles <- function(){
+    instances_trainning_files <- c()
+    instances <- getInstancesSetList()
+    for(i in 1:length(instances)){
+        instances_trainning_files[i] = instances[[i]][[3]][[2]]
+    }
+
+    return(instances_trainning_files)
+}
+
+getInstancesSetsTestingFiles <- function(){
+    instances_testing_files <- c()
+    instances <- getInstancesSetList()
+    for(i in 1:length(instances)){
+        instances_testing_files[i] = instances[[i]][[4]][[2]]
+    }
+
+    return(instances_testing_files)
+}
+
+getInstancesSetsSizes <- function(){
+    instances_sizes <- c()
+    intances <- getInstancesSetList()
+    for(i in 1:length(intances)){
+        instances_sizes[i] = intances[[i]][[5]][[2]]
+    }
+
+    return(instances_sizes)
+}
+
+getInstancesSetsDescriptors <- function(){
+    instances_descriptors <- c()
+    intances <- getInstancesSetList()
+    for(i in 1:length(intances)){
+        instances_descriptors[i] = intances[[i]][[6]][[2]]
+    }
+
+    return(instances_descriptors)
+}
+
+
+getInstancesSetList <- function(){
+    instances <- c()
+    
+    for(i in 1:length(instances_filenames))
+    {
+        fileName <- instances_filenames[i]
+
+
+        instances[[i]] <- c(readFileLinesSeparatedByColon(fileName))
+    }
+    return(instances)
 }
 
 search_descriptor_instance <- function(){
