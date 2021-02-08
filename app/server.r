@@ -169,15 +169,27 @@ source(here("sources", "functions.r"))
         Options = shinyInput(actionButton, length(getScenariosNames()), 'button#', getScenariosNames(),label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
       )
 
-    ## isntances dataframe
-      instances_dt <- data.frame()
-      instances_descriptors <- getInstancesDescriptors()
-      if(length(instances_descriptors) > 0){
-        instances_dt <- data.frame(
-          Descriptor = instances_descriptors,
-          Options = shinyInput(actionButton, length(instances_descriptors), 'button#', instances_descriptors, label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
-        )
-      }
+    ## instances dataframe
+
+      instances_dt <- data.frame(
+        Name = getInstancesSetsNames(),
+        Description = getInstancesSetsDescriptions(),
+        "Trainning Files" = getInstancesSetsTrainningFiles(),
+        "Testing Files" = getInstancesSetsTestingFiles(),
+        Size = getInstancesSetsSizes(),
+        Descriptors = getInstancesSetsDescriptors(),
+        Options = shinyInput(actionButton, length(getInstancesSetsDescriptors()), 'button#', getInstancesSetsNames(),label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' ),
+        stringsAsFactors = FALSE
+      )
+
+      #instances_dt <- data.frame()
+      #instances_descriptors <- getInstancesDescriptors()
+      #if(length(instances_descriptors) > 0){
+      #  instances_dt <- data.frame(
+       #   Descriptor = instances_descriptors,
+       #   Options = shinyInput(actionButton, length(instances_descriptors), 'button#', instances_descriptors, label = "Details", onclick = 'Shiny.onInputChange(\"select_button\",  this.id)' )
+        #)
+      #}
 
     ## parameters dataframe
       parameters_dt <- data.frame(
@@ -253,10 +265,10 @@ source(here("sources", "functions.r"))
 
     ## output instances resume
       output$instances_resume <- renderUI({
-        div(
-          h4(paste('Count of instances descriptors: ', length(instances_descriptors))),
-          h4(paste('Count of instances sets: ', countInstancesSets()))
-        )
+        #div(
+        #  h4(paste('Count of instances descriptors: ', length(instances_descriptors))),
+        #  h4(paste('Count of instances sets: ', countInstancesSets()))
+        #)
       })
 
     ## output table parameters
